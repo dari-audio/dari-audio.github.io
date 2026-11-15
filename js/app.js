@@ -2150,7 +2150,13 @@
       return;
     }
 
-    if (target.closest("[data-textbook-view]")) {\n      ui.textbook2View = target.closest("[data-textbook-view]").dataset.textbookView;\n      renderRoute({ scroll: false });\n      return;\n    }\n\n    if (target.closest("[data-mode]")) {
+    if (target.closest("[data-textbook-view]")) {
+      ui.textbook2View = target.closest("[data-textbook-view]").dataset.textbookView;
+      renderRoute({ scroll: false });
+      return;
+    }
+
+    if (target.closest("[data-mode]")) {
       ui.practiceMode = target.closest("[data-mode]").dataset.mode;
       renderRoute({ scroll: false });
       return;
