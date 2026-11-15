@@ -1687,3 +1687,49 @@ kbd {
 
 /* Учебник */
 .textbook-frame iframe { height: calc(100vh - 220px); min-height: 560px; }
+
+
+/* Компактные плитки коллекций учебника 2 */
+.textbook-collections {
+  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+  gap: 10px;
+}
+.textbook-collections .pack-card {
+  min-height: 116px;
+  padding: 14px;
+  border-radius: 14px;
+}
+.textbook-collections .pack-icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 8px;
+  border-radius: 9px;
+  font-size: 0.95rem;
+}
+.textbook-collections .pack-card h3 {
+  font-size: 0.88rem;
+  line-height: 1.25;
+}
+.textbook-collections .pack-card .pack-sub {
+  font-size: 0.62rem;
+}
+.textbook-collections .pack-card p {
+  display: none;
+}
+.textbook-collections .pack-foot {
+  padding-top: 9px;
+  gap: 8px;
+}
+.textbook-collections .pack-foot span {
+  font-size: 0.6rem;
+}
+@media (max-width: 720px) {
+  .textbook-collections {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+  .textbook-collections .pack-card {
+    min-height: 108px;
+    padding: 12px;
+  }
+}
