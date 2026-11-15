@@ -668,29 +668,44 @@
       </div>
 
       <div class="section-head">
-        <div><h2>Куда двигаться</h2><p>Четыре части курса работают вместе: звук, текст, слова и проверка.</p></div>
-        <a class="section-link" href="#/lessons">Все уроки →</a>
+        <div><h2>Разделы сайта</h2><p>Выберите учебный курс или материал для занятий.</p></div>
       </div>
       <div class="routes-grid">
+        <a class="route-card" href="#/textbook-1" data-letter="📘">
+          <span class="route-icon">${svg("bookOpen")}</span>
+          <h3>Учебник: курс 1</h3><p>Первый курс учебника</p>
+        </a>
+        <a class="route-card" href="#/textbook-2" data-letter="📗">
+          <span class="route-icon">${svg("bookOpen")}</span>
+          <h3>Учебник: курс 2</h3><p>Второй курс и карточки по урокам</p>
+        </a>
         <a class="route-card" href="#/alphabet" data-letter="ا">
           <span class="route-icon">${svg("alphabet")}</span>
           <h3>Алфавит</h3><p>33 буквы, формы и звучание</p>
           <div class="route-meta"><span>${lKnown} из ${total.letters} изучено</span><small>${introDone()} вводных уроков</small></div>
-        </a>
-        <a class="route-card" href="#/lessons" data-letter="د">
-          <span class="route-icon">${svg("book")}</span>
-          <h3>40 уроков</h3><p>Полный курс с аудио и PDF</p>
-          <div class="route-meta"><span>${lDone} из ${total.lessons} пройдено</span><small>${fmt(DATA.lessons.reduce((s, x) => s + x.tracks.length, 0))} треков</small></div>
         </a>
         <a class="route-card" href="#/vocab" data-letter="و">
           <span class="route-icon">${svg("cards")}</span>
           <h3>Словарь</h3><p>Карточки с живым произношением</p>
           <div class="route-meta"><span>${wDone} из ${total.vocabWords} слов</span><small>${total.trainers} тренажёров</small></div>
         </a>
+        <a class="route-card" href="#/lessons" data-letter="د">
+          <span class="route-icon">${svg("book")}</span>
+          <h3>40 уроков</h3><p>Полный курс с аудио и PDF</p>
+          <div class="route-meta"><span>${lDone} из ${total.lessons} пройдено</span><small>${fmt(DATA.lessons.reduce((s, x) => s + x.tracks.length, 0))} треков</small></div>
+        </a>
         <a class="route-card" href="#/practice" data-letter="پ">
           <span class="route-icon">${svg("target")}</span>
           <h3>Практика</h3><p>Проверьте слух и память</p>
           <div class="route-meta"><span>4 режима</span><small>+5 XP за ответ</small></div>
+        </a>
+        <a class="route-card" href="#/library" data-letter="🎧">
+          <span class="route-icon">${svg("wave")}</span>
+          <h3>Аудиотека</h3><p>Аудиозаписи и дополнительные материалы</p>
+        </a>
+        <a class="route-card" href="#/about" data-letter="د">
+          <span class="route-icon">${svg("info")}</span>
+          <h3>О проекте</h3><p>О курсе и учебных материалах</p>
         </a>
       </div>
 
@@ -1858,7 +1873,6 @@
       case "library": return { nav: "library", title: "Аудиотека" };
       case "textbook-1": return { nav: "textbook-1", title: "Учебник: курс 1" };
       case "textbook-2": case "textbook": return { nav: "textbook-2", title: "Учебник: курс 2" };
-      case "media": return { nav: "media", title: "СМИ" };
       case "about": return { nav: "about", title: "О проекте" };
       default: return { nav: "home", title: "Главная" };
     }
@@ -1919,7 +1933,6 @@
     else if (section === "library") html = renderLibrary(parts[1]);
     else if (section === "textbook-1") html = renderTextbook(1);
     else if (section === "textbook-2" || section === "textbook") html = parts[1] && parts[1].startsWith("lesson-") ? renderTextbook2Collection(parts[1].slice(7)) : renderTextbook(2);
-    else if (section === "media") html = '<div class="page"><div class="page-head"><div><span class="eyebrow">Новый раздел</span><h1>СМИ</h1></div></div></div>';
     else if (section === "about") html = renderAbout();
     else html = notFound();
 
