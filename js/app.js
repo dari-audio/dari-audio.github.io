@@ -1143,6 +1143,25 @@
       </div>
 
       <div class="section-head">
+        <div><h2>Слова без озвучки</h2><p>Тематические подборки для изучения по карточкам — без аудиозаписей.</p></div>
+        <span class="small muted">${(DATA.vocab.noAudioPacks || []).reduce((sum, pack) => sum + pack.cards.length, 0)} слов</span>
+      </div>
+      <div class="pack-grid">
+        ${(DATA.vocab.noAudioPacks || []).map((pack) => {
+          const known = packKnown(pack);
+          const pct = Math.round((known / Math.max(1, pack.cards.length)) * 100);
+          return `<a class="pack-card" href="#/vocab/${esc(pack.id)}" style="--pack-color:${esc(pack.accent)}">
+            <span class="pack-badge badge ${known === pack.cards.length ? "badge-done" : "badge-ghost"}">${known === pack.cards.length ? svg("check") + " готово" : pct + "%"}</span>
+            <span class="pack-icon">${esc(pack.icon)}</span>
+            <h3>${esc(pack.title)}</h3>
+            <div class="pack-sub">${esc(pack.subtitle)}</div>
+            <p>${esc(pack.description)}</p>
+            <div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div><span>${known}/${pack.cards.length}</span></div>
+          </a>`;
+        }).join("")}
+      </div>
+
+      <div class="section-head">
         <div><h2>Аудиотренажёры</h2><p>Наборы без перевода: тренируйте слух на тематических подборках из архива.</p></div>
         <span class="small muted">${fmt(DATA.vocab.trainers.reduce((s, t) => s + t.count, 0))} записей</span>
       </div>
@@ -1158,9 +1177,9 @@
   };
 
   const renderPack = (id) => {
-    const pack = DATA.vocab.packs.find((x) => x.id === id);
+    const pack = [...DATA.vocab.packs, ...(DATA.vocab.noAudioPacks || [])].find((x) => x.id === id);
     if (!pack) return notFound("Набор слов не найден");
-    remember({ label: `Словарь · ${pack.title}`, title: pack.title, subtitle: `${pack.cards.length} слов с аудио`, href: `#/vocab/${pack.id}`, mark: pack.icon });
+    remember({ label: `Словарь · ${pack.title}`, title: pack.title, subtitle: `${pack.cards.length} слов`, href: `#/vocab/${pack.id}`, mark: pack.icon });
     if (ui.flashPack !== pack.id) {
       ui.flashPack = pack.id;
       ui.flashIndex = 0;
@@ -1199,7 +1218,7 @@
         <button class="btn ${isKnown ? "btn-soft" : "btn-primary"} btn-sm" type="button" data-flash-know>${svg("check")} ${isKnown ? "Уже знаю" : "Знаю"}</button>
         <button class="btn btn-ghost btn-sm" type="button" data-flash-next>Дальше ${svg("arrowRight")}</button>
       </div>
-      <div class="flash-bottom"><span>${pct}% набора знакомо</span><span>${pack.audioCount} аудиозаписей</span></div>
+      <div class="flash-bottom"><span>${pct}% набора знакомо</span><span>${pack.noAudio ? "Без озвучки" : `${pack.audioCount} аудиозаписей`}</span></div>
     </div>`;
 
     const list = `<div class="word-list">
@@ -1243,7 +1262,7 @@
         <div class="progress-inline" style="min-width:220px"><div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div><span>${pct}%</span></div>
       </div>
       ${ui.packView === "list" ? list : flash}
-      <div class="notice" style="margin-top:24px">${svg("headphones")}<span>${pack.id === "numbers" ? "Числа дари пишутся восточными цифрами, а звучат почти как персидские. Обратите внимание на «و» (о) между десятками и единицами." : "Аудио записано носителями: сначала слово на английском, затем дари. Повторяйте вслед за диктором, не боясь ошибиться."}</span></div>
+      <div class="notice" style="margin-top:24px">${svg("headphones")}<span>${pack.noAudio ? "В этой подборке нет аудиозаписей. Изучайте слова с помощью карточек и отмечайте знакомые." : pack.id === "numbers" ? "Числа дари пишутся восточными цифрами, а звучат почти как персидские. Обратите внимание на «و» (о) между десятками и единицами." : "Аудио записано носителями: сначала слово на английском, затем дари. Повторяйте вслед за диктором, не боясь ошибиться."}</span></div>
     </div>`;
   };
 
