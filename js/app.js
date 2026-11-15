@@ -1569,6 +1569,28 @@
       ${!folders.length && !files.length ? `<div class="empty-state"><h3>Ничего не найдено</h3><p>Попробуйте часть названия файла или папки.</p></div>` : ""}`;
   };
 
+  const renderStoryGroups = (files) => {
+    const stories = new Map();
+    const otherFiles = [];
+    files.forEach((file) => {
+      const match = file.name.match(/^Story\\s+(\\d+)-(\\d+)\\.mp3$/i);
+      if (!match) { otherFiles.push(file); return; }
+      const storyNo = Number(match[1]);
+      const partNo = Number(match[2]);
+      if (!stories.has(storyNo)) stories.set(storyNo, []);
+      stories.get(storyNo).push({ file, partNo });
+    });
+    if (!stories.size) return null;
+    const html = [...stories.entries()].sort((a, b) => a[0] - b[0]).map(([storyNo, parts]) => {
+      parts.sort((a, b) => a.partNo - b.partNo);
+      return `<section class="story-group">
+        <div class="section-head story-group-head"><div><h2>Рассказ ${storyNo}</h2><p>${parts.length} ${plural(parts.length, ["часть", "части", "частей"])}</p></div></div>
+        <div class="file-list story-parts">${parts.map(({ file }) => libFileRow(file, `Рассказ ${storyNo}`)).join("")}</div>
+      </section>`;
+    }).join("");
+    return { html, otherFiles };
+  };
+
   const renderLibraryNode = (entry) => {
     const node = entry.node;
     const root = entry.trail[0];
@@ -1595,8 +1617,9 @@
           <div><strong>${esc(folder.name)}</strong><small>${libCounts(folder)}</small></div>
         </a>`).join("")}
       </div>` : ""}
-      ${files.length ? `<div class="section-head"><div><h2>Файлы</h2><p>${files.length} ${plural(files.length, ["файл", "файла", "файлов"])} · аудио слушается здесь, скрипты открываются на нужной странице</p></div></div>
-      <div class="file-list">${files.map((file) => libFileRow(file, "")).join("")}</div>` : ""}
+      ${node.id === "1JUH2TPsx14k-XkgvoJPY13_16pcwALIB" && renderStoryGroups(files) ? renderStoryGroups(files).html : ""}
+      ${(node.id === "1JUH2TPsx14k-XkgvoJPY13_16pcwALIB" ? (renderStoryGroups(files) || { otherFiles: files }).otherFiles : files).length ? `<div class="section-head"><div><h2>${node.id === "1JUH2TPsx14k-XkgvoJPY13_16pcwALIB" ? "Другие файлы" : "Файлы"}</h2><p>${(node.id === "1JUH2TPsx14k-XkgvoJPY13_16pcwALIB" ? (renderStoryGroups(files) || { otherFiles: files }).otherFiles : files).length} ${plural((node.id === "1JUH2TPsx14k-XkgvoJPY13_16pcwALIB" ? (renderStoryGroups(files) || { otherFiles: files }).otherFiles : files).length, ["файл", "файла", "файлов"])} · аудио слушается здесь, скрипты открываются на нужной странице</p></div></div>
+      <div class="file-list">${(node.id === "1JUH2TPsx14k-XkgvoJPY13_16pcwALIB" ? (renderStoryGroups(files) || { otherFiles: files }).otherFiles : files).map((file) => libFileRow(file, "")).join("")}</div>` : ""}
       ${!folders.length && !files.length ? `<div class="empty-state"><h3>Папка пуста</h3><p>Здесь пока нет файлов.</p></div>` : ""}`;
     }
     const description = node.description || root.description || "Материалы архива DLIFLC.";
