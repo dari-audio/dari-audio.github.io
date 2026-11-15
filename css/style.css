@@ -1686,6 +1686,7 @@ kbd {
 }
 
 /* Учебник */
+.textbook-frame { margin-top: 32px; }
 .textbook-frame iframe { height: calc(100vh - 220px); min-height: 560px; }
 
 
