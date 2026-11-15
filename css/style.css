@@ -1734,3 +1734,26 @@ kbd {
     padding: 12px;
   }
 }
+
+/* Пословица дня */
+.proverb-card {
+  position: relative;
+  margin: 22px 0 26px;
+  padding: 24px 28px 28px;
+  overflow: hidden;
+  border: 1px solid rgba(136, 100, 33, 0.2);
+  border-radius: var(--radius);
+  background: radial-gradient(420px 180px at 95% 0%, rgba(224, 177, 92, 0.2), transparent 70%), var(--paper-soft);
+  box-shadow: var(--shadow-sm);
+}
+.proverb-heading { display: flex; align-items: center; gap: 10px; color: var(--green); }
+.proverb-heading h2 { font-family: var(--sans); font-size: 1.05rem; font-weight: 800; }
+.proverb-heading h2 span { margin-inline-start: 5px; font-family: "Noto Nastaliq Urdu", "Noto Naskh Arabic", var(--dari); font-size: 1.12em; font-weight: 400; }
+.proverb-mark { color: var(--terra); font-family: var(--serif); font-size: 2rem; line-height: 1; }
+.proverb-text { margin-top: 14px; color: var(--ink); font-family: "Noto Nastaliq Urdu", "Noto Naskh Arabic", var(--dari); font-size: clamp(1.65rem, 3.1vw, 2.25rem); line-height: 2.15; text-align: center; }
+@media (max-width: 600px) {
+  .proverb-card { margin: 18px 0 22px; padding: 18px 16px 22px; }
+  .proverb-heading { align-items: flex-start; }
+  .proverb-heading h2 { font-size: 0.92rem; }
+  .proverb-text { font-size: 1.55rem; line-height: 2.1; }
+}
