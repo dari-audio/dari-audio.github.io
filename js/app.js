@@ -1645,35 +1645,29 @@
     },
   };
   const textbook2Collections = Array.from({ length: 23 }, (_, index) => ({
-    id: index + 1,
-    title: `Урок ${index + 1}`,
-    cards: [{ dari: "test", ru: "тест" }],
+    id: index + 1, title: `Урок ${index + 1}`,
+    cards: index === 7 ? [{"dari":"اربه","translit":"arāba","ru":"колесо"},{"dari":"اشترنگ","translit":"eštereng","ru":"руль"},{"dari":"اعتنأ","translit":"e’tenā","ru":"внимание"},{"dari":"اکسلیتر","translit":"aksalitar","ru":"акселератор"},{"dari":"انجن","translit":"enjen","ru":"двигатель, мотор"},{"dari":"انصاف","translit":"ensāf","ru":"справедливость"},{"dari":"انگشت","translit":"angošt","ru":"палец"},{"dari":"بادوام","translit":"bādawām","ru":"прочный, долговечный"},{"dari":"بالتی","translit":"bālti","ru":"батарейка"},{"dari":"برک","translit":"berek","ru":"тормоз"},{"dari":"برهم زدن","translit":"barham zadan","ru":"проводить в беспорядок, нарушать (порядок и т.п.)"},{"dari":"بطری","translit":"betri","ru":"аккумулятор"},{"dari":"بند ماندن","translit":"band māndan","ru":"застревать"},{"dari":"بی انصافی","translit":"bēensāf","ru":"бессовестный"},{"dari":"پایپ","translit":"pāyp","ru":"трубка (например, курительная)"},{"dari":"پر","translit":"por","ru":"полный, заполненный"},{"dari":"پلک","translit":"palak","ru":"свеча (автомашины)"},{"dari":"پنجر کردن","translit":"pančar kardan","ru":"проколоть"},{"dari":"پوش","translit":"pōš","ru":"чехол, капот"},{"dari":"تانک","translit":"tānk","ru":"танк; бак, цистерна; бензозаправочная станция"},{"dari":"تایر","translit":"tāyr","ru":"шина, автопокрышка"},{"dari":"تخلف (ات)","translit":"taxallof","ru":"нарушение (правил)"},{"dari":"ترانسپورت","translit":"tarānspōrt","ru":"транспорт"},{"dari":"ترانسفارمر","translit":"tarānsfārmer","ru":"трансформатор"},{"dari":"ترک کردن","translit":"tark kardan","ru":"покидать; прекращать"},{"dari":"تصادفاً","translit":"tasādorān","ru":"случайно"},{"dari":"تکر","translit":"takar","ru":"(разг.) столкновение, удар (друг о друга)"},{"dari":"تنباکو","translit":"tanbākō","ru":"табак"},{"dari":"تولبکس","translit":"tōlbaks","ru":"багажник"},{"dari":"تیوپ","translit":"teyup","ru":"баллон (шины)"},{"dari":"جارو","translit":"jāru","ru":"метла"},{"dari":"جدی","translit":"jeddi","ru":"серьёзный"},{"dari":"جرقه","translit":"jaraqqa","ru":"искра"},{"dari":"جریمه","translit":"jarima","ru":"штраф"},{"dari":"جزا","translit":"jazā","ru":"наказание"},{"dari":"جک","translit":"jak","ru":"штраф"},{"dari":"چارج کردن","translit":"čārj kardan","ru":"заряжать (например, аккумулятор)"},{"dari":"چارراهی","translit":"čārrāhi","ru":"перекрёсток"},{"dari":"چالان کردن","translit":"čālān kardan","ru":"заводить (мотор и т.п.)"},{"dari":"چلم","translit":"čalam","ru":"кальян"},{"dari":"چندان","translit":"čandān","ru":"столько, так много"},{"dari":"خاکستر","translit":"xākestar","ru":"пепел, зола"},{"dari":"خاموش","translit":"xāmōš","ru":"молчащий; погасший"},{"dari":"دواندن","translit":"dawāndan","ru":"погонять; водить (автомашину и т.п.)"},{"dari":"دور خوردن","translit":"dawr xōrdan","ru":"сворачивать, поворачиваться"},{"dari":"رأساً","translit":"ra’san","ru":"прямо, непосредственно"},{"dari":"ردیتر","translit":"raditar","ru":"радиатор"},{"dari":"رهنما","translit":"rahnamā","ru":"проводник, указывающий путь"},{"dari":"رینج","translit":"rēnj","ru":"(гаечный) ключ"},{"dari":"ریورس","translit":"riwars","ru":"задний ход"},{"dari":"ساکت","translit":"sākat","ru":"штепсель"},{"dari":"سوخته","translit":"sōxta","ru":"огарок, окурок"},{"dari":"سویچ","translit":"sowič","ru":"выключатель"},{"dari":"سیت","translit":"sit","ru":"кабина (водителя), сиденье"},{"dari":"سیم","translit":"sim","ru":"проволока, повод; спираль (электронагревательного прибора)"},{"dari":"شارتی","translit":"šārti","ru":"короткое замыкание"},{"dari":"شید","translit":"šēd","ru":"плафон, абажур"},{"dari":"صافی","translit":"sāfi","ru":"тряпка"},{"dari":"ضمناً","translit":"zemnam","ru":"одновременно, тем временем"},{"dari":"طالع","translit":"tāle’","ru":"удача, везенье"},{"dari":"عارضه (عوارض)","translit":"āreza (awārez)","ru":"поломка, неисправность"},{"dari":"عوض کردن","translit":"‘ewaz kardan","ru":"заменять"},{"dari":"غیرت","translit":"ğayrat","ru":"самолюбие; рвение, самоотверженность"},{"dari":"فالتو","translit":"fāltu","ru":"запасной"},{"dari":"قطع کردن","translit":"qat’ kardan","ru":"прерывать, перерезать"},{"dari":"کرین شافت","translit":"kerēnšāft","ru":"коленчатый вал"},{"dari":"کمباد","translit":"kambād","ru":"спущенный (о надувном предмете)"},{"dari":"گروپ","translit":"group","ru":"(электрическая) лампочка"},{"dari":"گریس","translit":"geris","ru":"солидол, солярка"},{"dari":"گل کردن","translit":"gol kardan","ru":"выключать"},{"dari":"گیربکس","translit":"girbaks","ru":"коробка передач"},{"dari":"لوکس","translit":"luks","ru":"шикарный, превосходный"},{"dari":"مبل آیل","translit":"moblāyel","ru":"машинное масло"},{"dari":"منتها","translit":"montahā","ru":"край; только, всего лишь"},{"dari":"مهارت","translit":"mahārat","ru":"мастерство"},{"dari":"میتر","translit":"mitar","ru":"счётчик (электроэнергии)"},{"dari":"میده","translit":"mayda","ru":"мелкий, измельчённый"},{"dari":"ناجوان","translit":"nājawān","ru":"трусливый, непорядочный"},{"dari":"نصب کردن","translit":"nasb kardan","ru":"прикреплять, ввинчивать"},{"dari":"نقض","translit":"naqz","ru":"нарушение (правил и т.п.)"},{"dari":"نمبرپلیت","translit":"nambarpalēt","ru":"номерной знак"},{"dari":"هارن","translit":"hāran","ru":"сигнал, гудок"},{"dari":"هاکی","translit":"hākī","ru":"хоккей на траве"},{"dari":"همراه","translit":"hamrāh","ru":"спутник, сопровождающий"}] : [{ dari: "test", translit: "", ru: "тест" }],
   }));
   const renderTextbook2Collection = (lessonNum) => {
     const collection = textbook2Collections.find((item) => item.id === Number(lessonNum));
     if (!collection) return notFound("Коллекция не найдена");
-    return `<div class="page">
-      <a class="back-link" href="#/textbook-2">${svg("arrowRight")} Все коллекции</a>
-      <div class="detail-hero" data-letter="📚">
-        <div class="detail-badge" style="font-size:1.8rem">📚</div>
-        <div class="detail-hero-copy"><span class="eyebrow">Учебник · курс 2</span><h1>${collection.title}</h1><div class="en-title">Карточки для изучения слов</div><p>Коллекция содержит ${collection.cards.length} карточку.</p></div>
-      </div>
-      <div class="flash-wrap">
-        <div class="flash-progress"><span>1 / 1</span><div class="progress-track"><div class="progress-fill" style="width:100%"></div></div><span>1 слово</span></div>
-        <div class="flashcard-stage"><div class="flashcard textbook-word-card" data-textbook-flip tabindex="0" role="button" aria-label="Перевернуть карточку">
-          <div class="flash-face front"><div class="flash-dari">test</div><span class="hint">Нажмите на карточку, чтобы увидеть перевод</span></div>
-          <div class="flash-face back"><div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">тест</div><span class="hint">Нажмите ещё раз, чтобы вернуться</span></div>
-        </div></div>
-        <div class="flash-actions"><button class="btn btn-soft btn-sm" type="button" data-textbook-flip-button>${svg("flip")} Перевод</button></div>
-      </div>
-    </div>`;
+    const index = clamp(ui.textbook2Index || 0, 0, collection.cards.length - 1);
+    const card = collection.cards[index];
+    const flipped = Boolean(ui.textbook2Flipped);
+    return `<div class="page"><a class="back-link" href="#/textbook-2">${svg("arrowRight")} Все коллекции</a>
+      <div class="detail-hero" data-letter="📚"><div class="detail-badge" style="font-size:1.8rem">📚</div><div class="detail-hero-copy"><span class="eyebrow">Учебник · курс 2</span><h1>${collection.title}</h1><div class="en-title">Карточки для изучения слов</div><p>Коллекция содержит ${collection.cards.length} слов.</p></div></div>
+      <div class="flash-wrap"><div class="flash-progress"><span>${index+1} / ${collection.cards.length}</span><div class="progress-track"><div class="progress-fill" style="width:${(index+1)/collection.cards.length*100}%"></div></div><span>${collection.cards.length} слов</span></div>
+      <div class="flashcard-stage"><div class="flashcard textbook-word-card ${flipped?"flipped":""}" data-textbook-flip tabindex="0" role="button" aria-label="Перевернуть карточку">
+      <div class="flash-face front"><div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div><span class="hint">Нажмите на карточку, чтобы увидеть перевод</span></div>
+      <div class="flash-face back"><div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">${esc(card.ru)}</div><div class="flash-translit" style="color:var(--gold)">${esc(card.translit)}</div><span class="hint">Нажмите ещё раз, чтобы вернуться</span></div></div></div>
+      <div class="flash-actions"><button class="btn btn-ghost btn-sm" type="button" data-textbook-prev ${index===0?"disabled":""}>${svg("arrowLeft")} Назад</button><button class="btn btn-soft btn-sm" type="button" data-textbook-flip-button>${svg("flip")} Перевод</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-next ${index===collection.cards.length-1?"disabled":""}>Дальше ${svg("arrowRight")}</button></div></div></div>`;
   };
   const renderTextbook = (num) => {
     const book = TEXTBOOKS[num];
     if (!book) return notFound();
     if (num === 2) return `<div class="page">
       <div class="page-head"><div><span class="eyebrow">Учебник · курс 2</span><h1>Островский · 2-й год обучения</h1><p>${esc(book.title)}. ${esc(book.note)}</p></div><div class="page-head-actions"><a class="btn btn-ghost" href="${esc(book.path)}" target="_blank" rel="noopener">${svg("external")} Открыть</a><a class="btn btn-primary" href="${esc(book.path)}" download="${esc(book.title)}.pdf">${svg("download")} Скачать · ${book.size}</a></div></div>
-      <div class="pack-grid textbook-collections">${textbook2Collections.map((collection) => `<a class="pack-card" href="#/textbook-2/lesson-${collection.id}" style="--pack-color:var(--green)"><span class="pack-icon">📚</span><h3>${collection.title}</h3><div class="pack-sub">1 карточка · 1 слово</div><p>Открыть карточку для изучения слов</p><div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:100%"></div></div><span>1/1</span></div></a>`).join("")}</div>
+      <div class="pack-grid textbook-collections">${textbook2Collections.map((collection) => `<a class="pack-card" href="#/textbook-2/lesson-${collection.id}" style="--pack-color:var(--green)"><span class="pack-icon">📚</span><h3>${collection.title}</h3><div class="pack-sub">${collection.cards.length} карточек · ${collection.cards.length} слов</div><p>Открыть карточки для изучения слов</p><div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:100%"></div></div><span>1/1</span></div></a>`).join("")}</div>
       <div class="pdf-frame-wrap textbook-frame"><iframe src="${esc(book.path)}#view=FitH" title="${esc(book.title)}" allow="autoplay"></iframe></div>
     </div>`;
     const view = book.path ? `${book.path}#view=FitH` : drivePdf(book.driveId);
@@ -2153,9 +2147,15 @@
     if (target.closest("[data-quiz-again]")) { startQuiz(); return; }
     if (target.closest("[data-quiz-setup]")) { quiz = null; renderRoute({ scroll: false }); return; }
 
+    if (target.closest("[data-textbook-prev]") || target.closest("[data-textbook-next]")) {
+      const current = location.hash.match(/#\\/textbook-2\\/lesson-(\\d+)/);
+      const collection = current && textbook2Collections.find((item) => item.id === Number(current[1]));
+      if (collection) { ui.textbook2Index = clamp((ui.textbook2Index || 0) + (target.closest("[data-textbook-next]") ? 1 : -1), 0, collection.cards.length - 1); ui.textbook2Flipped = false; renderRoute({ scroll: false }); }
+      return;
+    }
     if (target.closest("[data-textbook-flip-button]") || target.closest("[data-textbook-flip]")) {
       const card = $(".textbook-word-card");
-      if (card) card.classList.toggle("flipped");
+      if (card) { card.classList.toggle("flipped"); ui.textbook2Flipped = card.classList.contains("flipped"); }
       return;
     }
 
