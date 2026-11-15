@@ -1644,9 +1644,38 @@
       note: "PDF на 744 страницы — читайте прямо на сайте, откройте в новой вкладке или скачайте себе.",
     },
   };
+  const textbook2Collections = Array.from({ length: 23 }, (_, index) => ({
+    id: index + 1,
+    title: `Урок ${index + 1}`,
+    cards: [{ dari: "test", ru: "тест" }],
+  }));
+  const renderTextbook2Collection = (lessonNum) => {
+    const collection = textbook2Collections.find((item) => item.id === Number(lessonNum));
+    if (!collection) return notFound("Коллекция не найдена");
+    return `<div class="page">
+      <a class="back-link" href="#/textbook-2">${svg("arrowRight")} Все коллекции</a>
+      <div class="detail-hero" data-letter="📚">
+        <div class="detail-badge" style="font-size:1.8rem">📚</div>
+        <div class="detail-hero-copy"><span class="eyebrow">Учебник · курс 2</span><h1>${collection.title}</h1><div class="en-title">Карточки для изучения слов</div><p>Коллекция содержит ${collection.cards.length} карточку.</p></div>
+      </div>
+      <div class="flash-wrap">
+        <div class="flash-progress"><span>1 / 1</span><div class="progress-track"><div class="progress-fill" style="width:100%"></div></div><span>1 слово</span></div>
+        <div class="flashcard-stage"><div class="flashcard textbook-word-card" data-textbook-flip tabindex="0" role="button" aria-label="Перевернуть карточку">
+          <div class="flash-face front"><div class="flash-dari">test</div><span class="hint">Нажмите на карточку, чтобы увидеть перевод</span></div>
+          <div class="flash-face back"><div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">тест</div><span class="hint">Нажмите ещё раз, чтобы вернуться</span></div>
+        </div></div>
+        <div class="flash-actions"><button class="btn btn-soft btn-sm" type="button" data-textbook-flip-button>${svg("flip")} Перевод</button></div>
+      </div>
+    </div>`;
+  };
   const renderTextbook = (num) => {
     const book = TEXTBOOKS[num];
     if (!book) return notFound();
+    if (num === 2) return `<div class="page">
+      <div class="page-head"><div><span class="eyebrow">Учебник · курс 2</span><h1>Островский · 2-й год обучения</h1><p>${esc(book.title)}. ${esc(book.note)}</p></div><div class="page-head-actions"><a class="btn btn-ghost" href="${esc(book.path)}" target="_blank" rel="noopener">${svg("external")} Открыть</a><a class="btn btn-primary" href="${esc(book.path)}" download="${esc(book.title)}.pdf">${svg("download")} Скачать · ${book.size}</a></div></div>
+      <div class="pack-grid textbook-collections">${textbook2Collections.map((collection) => `<a class="pack-card" href="#/textbook-2/lesson-${collection.id}" style="--pack-color:var(--green)"><span class="pack-icon">📚</span><h3>${collection.title}</h3><div class="pack-sub">1 карточка · 1 слово</div><p>Открыть карточку для изучения слов</p><div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:100%"></div></div><span>1/1</span></div></a>`).join("")}</div>
+      <div class="pdf-frame-wrap textbook-frame"><iframe src="${esc(book.path)}#view=FitH" title="${esc(book.title)}" allow="autoplay"></iframe></div>
+    </div>`;
     const view = book.path ? `${book.path}#view=FitH` : drivePdf(book.driveId);
     const open = book.path || `https://drive.google.com/file/d/${encodeURIComponent(book.driveId)}/view`;
     const download = book.path || driveDownload(book.driveId);
@@ -1881,7 +1910,7 @@
     else if (section === "practice") html = renderPractice();
     else if (section === "library") html = renderLibrary(parts[1]);
     else if (section === "textbook-1") html = renderTextbook(1);
-    else if (section === "textbook-2" || section === "textbook") html = renderTextbook(2);
+    else if (section === "textbook-2" || section === "textbook") html = parts[1] && parts[1].startsWith("lesson-") ? renderTextbook2Collection(parts[1].slice(7)) : renderTextbook(2);
     else if (section === "media") html = '<div class="page"><div class="page-head"><div><span class="eyebrow">Новый раздел</span><h1>СМИ</h1></div></div></div>';
     else if (section === "about") html = renderAbout();
     else html = notFound();
@@ -2124,6 +2153,17 @@
     if (target.closest("[data-quiz-again]")) { startQuiz(); return; }
     if (target.closest("[data-quiz-setup]")) { quiz = null; renderRoute({ scroll: false }); return; }
 
+    if (target.closest("[data-textbook-flip-button]") || target.closest("[data-textbook-flip]")) {
+      const card = $(".textbook-word-card");
+      if (card) card.classList.toggle("flipped");
+      return;
+    }
+
+    if (target.closest("[data-textbook-flip]")) {
+      if (event.target.closest("button, a")) return;
+      target.closest("[data-textbook-flip]").classList.toggle("flipped");
+      return;
+    }
     if (target.closest("[data-flash-prev]")) {
       const pack = DATA.vocab.packs.find((x) => x.id === ui.flashPack);
       if (pack) { ui.flashIndex = (ui.flashIndex - 1 + pack.cards.length) % pack.cards.length; ui.flashFlipped = false; renderRoute({ scroll: false }); }
