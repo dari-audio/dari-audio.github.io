@@ -2148,7 +2148,7 @@
     if (target.closest("[data-quiz-setup]")) { quiz = null; renderRoute({ scroll: false }); return; }
 
     if (target.closest("[data-textbook-prev]") || target.closest("[data-textbook-next]")) {
-      const current = location.hash.match(/#\\/textbook-2\\/lesson-(\\d+)/);
+      const current = location.hash.match(/#\/textbook-2\/lesson-(\d+)/);
       const collection = current && textbook2Collections.find((item) => item.id === Number(current[1]));
       if (collection) { ui.textbook2Index = clamp((ui.textbook2Index || 0) + (target.closest("[data-textbook-next]") ? 1 : -1), 0, collection.cards.length - 1); ui.textbook2Flipped = false; renderRoute({ scroll: false }); }
       return;
