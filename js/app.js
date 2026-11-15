@@ -1573,7 +1573,7 @@
     const stories = new Map();
     const otherFiles = [];
     files.forEach((file) => {
-      const match = file.name.match(/^Story\\s+(\\d+)-(\\d+)\\.mp3$/i);
+      const match = file.name.match(/^Story\s+(\d+)-(\d+)\.mp3$/i);
       if (!match) { otherFiles.push(file); return; }
       const storyNo = Number(match[1]);
       const partNo = Number(match[2]);
