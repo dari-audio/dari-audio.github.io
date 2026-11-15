@@ -1840,6 +1840,7 @@
       case "library": return { nav: "library", title: "Аудиотека" };
       case "textbook-1": return { nav: "textbook-1", title: "Учебник: курс 1" };
       case "textbook-2": case "textbook": return { nav: "textbook-2", title: "Учебник: курс 2" };
+      case "media": return { nav: "media", title: "СМИ" };
       case "about": return { nav: "about", title: "О проекте" };
       default: return { nav: "home", title: "Главная" };
     }
@@ -1900,6 +1901,7 @@
     else if (section === "library") html = renderLibrary(parts[1]);
     else if (section === "textbook-1") html = renderTextbook(1);
     else if (section === "textbook-2" || section === "textbook") html = renderTextbook(2);
+    else if (section === "media") html = '<div class="page"><div class="page-head"><div><span class="eyebrow">Новый раздел</span><h1>СМИ</h1></div></div></div>';
     else if (section === "about") html = renderAbout();
     else html = notFound();
 
