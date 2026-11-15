@@ -1353,6 +1353,11 @@ kbd {
 .folder-item strong { display: block; font-size: 0.77rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .folder-item small { display: block; font-size: 0.62rem; color: var(--muted); }
 .file-list { display: flex; flex-direction: column; gap: 5px; }
+.story-group { margin: 18px 0 24px; }
+.story-group-head { margin: 0 0 8px; }
+.story-group-head h2 { font-size: 1rem; }
+.story-parts { padding-left: 10px; border-left: 2px solid var(--line); }
+
 .file-row { display: flex; align-items: center; gap: 12px; padding: 10px 12px; border: 1px solid transparent; border-radius: 10px; background: rgba(255, 253, 248, 0.45); transition: background 0.2s, border-color 0.2s; }
 .file-row:hover { background: var(--white); border-color: var(--line); }
 .file-icon { display: grid; place-items: center; width: 33px; height: 36px; border-radius: 8px; background: var(--paper-deep); color: var(--muted); font-size: 0.52rem; font-weight: 800; flex-shrink: 0; }
