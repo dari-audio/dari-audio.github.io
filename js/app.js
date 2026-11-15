@@ -1268,7 +1268,7 @@
         <div class="audio-list">
           ${trainer.audio.map((file, i) => `<div class="audio-row">
             <span class="code">${pad(i + 1)}</span>
-            <div class="info"><strong>Запись ${i + 1}</strong><span>${esc(file.name)}</span></div>
+            <div class="info"><strong>Запись ${i + 1} · ${esc(file.name)}</strong>${trainer.words && trainer.words[i] ? `<div class="trainer-word" lang="fa" dir="rtl">${esc(trainer.words[i].dari)}</div><span class="trainer-translit" dir="ltr">${esc(trainer.words[i].translit)}</span><span class="trainer-translation">${esc(trainer.words[i].ru)}</span>` : ""}</div>
             <button class="play-round" type="button" data-play-src="${esc(file.path)}" data-queue="trainer:${esc(trainer.id)}" data-qindex="${i}" data-title="Запись ${i + 1}" data-subtitle="${esc(trainer.title)}" aria-label="Слушать">${svg("play")}</button>
           </div>`).join("")}
         </div>
