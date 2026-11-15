@@ -1610,8 +1610,14 @@
     } else {
       const folders = node.folders || [];
       const files = node.files || [];
+      const isStoryFolder = node.id === "1JUH2TPsx14k-XkgvoJPY13_16pcwALIB";
+      const storyGroups = isStoryFolder ? renderStoryGroups(files) : null;
+      const scriptFiles = isStoryFolder ? (storyGroups || { otherFiles: files }).otherFiles : files;
+      const scriptsSection = scriptFiles.length ? `<div class="section-head"><div><h2>${isStoryFolder ? "Скрипты" : "Файлы"}</h2><p>${scriptFiles.length} ${plural(scriptFiles.length, ["файл", "файла", "файлов"])} · аудио слушается здесь, скрипты открываются на нужной странице</p></div></div>
+      <div class="file-list">${scriptFiles.map((file) => libFileRow(file, "")).join("")}</div>` : "";
       content = `${searchBar}
       <div class="breadcrumbs"><a href="#/library">Аудиотека</a><span>/</span>${trailLinks}</div>
+      ${isStoryFolder ? scriptsSection : ""}
       ${folders.length ? `<div class="section-head" style="margin-top:8px"><div><h2>Папки</h2><p>${folders.length} ${plural(folders.length, ["папка", "папки", "папок"])}</p></div></div>
       <div class="folder-list">
         ${folders.map((folder) => `<a class="folder-item" href="#/library/${esc(folder.id)}">
@@ -1619,7 +1625,8 @@
           <div><strong>${esc(folder.name)}</strong><small>${libCounts(folder)}</small></div>
         </a>`).join("")}
       </div>` : ""}
-      ${node.id === "1JUH2TPsx14k-XkgvoJPY13_16pcwALIB" && renderStoryGroups(files) ? renderStoryGroups(files).html : ""}
+      ${storyGroups ? storyGroups.html : ""}
+      ${!isStoryFolder ? scriptsSection : ""}
       ${!folders.length && !files.length ? `<div class="empty-state"><h3>Папка пуста</h3><p>Здесь пока нет файлов.</p></div>` : ""}`;
     }
     const description = node.description || root.description || "Материалы архива DLIFLC.";
