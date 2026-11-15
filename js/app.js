@@ -621,7 +621,7 @@
     const recMark = rec.mark || "→";
     const dailyProverbs = [
       "خدا گفت که تو حرکت کن که من برکت کنم",
-      "بیک گل بهات نمیشود",
+      "بیک گل بهار نمیشود",
       "پایت را برابر گلیمت دراز کن"
     ];
     const dailyProverb = dailyProverbs[Math.floor(Math.random() * dailyProverbs.length)];
@@ -642,7 +642,8 @@
 
       <section class="proverb-card" aria-labelledby="proverb-title">
         <div class="proverb-heading">
-          <h2 id="proverb-title"><span lang="fa" dir="rtl">ضرب‌المثل روز</span></h2>
+          <h2 id="proverb-title" lang="ru">Пословица дня</h2>
+          <span lang="fa" dir="rtl">ضرب‌المثل روز</span>
         </div>
         <p class="proverb-text" lang="fa" dir="rtl">${esc(dailyProverb)}</p>
       </section>
