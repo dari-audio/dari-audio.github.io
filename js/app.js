@@ -619,7 +619,6 @@
     const lKnown = lettersKnown();
     const lDone = lessonsDone();
     const wDone = wordsDone();
-    const word = wordOfDay();
     const rec = continueItem();
     const week = weekData();
     const weekMax = Math.max(1, ...week.map((x) => x.value));
@@ -638,18 +637,7 @@
             <a class="btn btn-ghost btn-lg" href="#/alphabet">Смотреть алфавит</a>
           </div>
         </div>
-        <div class="hero-art">
-          ${word ? `<div class="word-card">
-            <div class="word-card-top"><span>Слово дня</span><span class="badge badge-gold">${esc(word.pack.title)}</span></div>
-            <div class="word-dari">${esc(word.card.dari)}</div>
-            <div class="word-translit">${esc(word.card.translit)}</div>
-            <div class="word-ru">${esc(word.card.ru)}</div>
-            <div class="word-card-bottom">
-              <span>${word.card.numeral ? `Число ${esc(word.card.numeral)}` : "Нажмите, чтобы услышать"}</span>
-              ${word.card.audio ? `<button class="word-play" type="button" data-play-src="${esc(word.card.audio)}" data-title="${esc(word.card.dari)}" data-subtitle="${esc(word.card.translit + " — " + word.card.ru)}" aria-label="Прослушать слово">${svg("play")}</button>` : ""}
-            </div>
-          </div>` : ""}
-        </div>
+
       </div>
 
       <div class="stats-grid">
