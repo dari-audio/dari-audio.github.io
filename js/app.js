@@ -556,13 +556,6 @@
     return libSearchIndex;
   };
   /* ---------- Главная ---------- */
-  const wordOfDay = () => {
-    const pool = allCards().filter((item) => item.card.audio);
-    if (!pool.length) return null;
-    const index = Math.floor(Date.now() / 86400000) % pool.length;
-    return pool[index];
-  };
-
   const continueItem = () => {
     if (state.recent.length) {
       const rec = state.recent[0];
