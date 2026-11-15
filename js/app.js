@@ -619,6 +619,12 @@
     const weekTotal = week.reduce((sum, x) => sum + x.value, 0);
     const weekActive = week.filter((x) => x.value > 0).length;
     const recMark = rec.mark || "→";
+    const dailyProverbs = [
+      "خدا گفت که تو حرکت کن که من برکت کنم",
+      "بیک گل بهات نمیشود",
+      "پایت را برابر گلیمت دراز کن"
+    ];
+    const dailyProverb = dailyProverbs[Math.floor(Math.random() * dailyProverbs.length)];
 
     return `<div class="page">
       <div class="hero">
@@ -666,6 +672,14 @@
           <div class="week-foot"><span>Заработано XP</span><strong>${fmt(weekTotal)}</strong></div>
         </div>
       </div>
+
+      <section class="proverb-card" aria-labelledby="proverb-title">
+        <div class="proverb-heading">
+          <span class="proverb-mark" aria-hidden="true">❝</span>
+          <h2 id="proverb-title">Пословица дня <span lang="fa" dir="rtl">ضرب‌المثل روز</span></h2>
+        </div>
+        <p class="proverb-text" lang="fa" dir="rtl">${esc(dailyProverb)}</p>
+      </section>
 
       <div class="section-head">
         <div><h2>Разделы сайта</h2><p>Выберите учебный курс или материал для занятий.</p></div>
