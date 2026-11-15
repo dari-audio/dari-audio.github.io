@@ -266,6 +266,7 @@
     flashFlipped: false,
     practiceMode: "words",
     practiceCount: 10,
+    textbook2View: "cards",
   };
 
   /* ---------- Плеер ---------- */
@@ -1654,15 +1655,28 @@
     const index = clamp(ui.textbook2Index || 0, 0, collection.cards.length - 1);
     const card = collection.cards[index];
     const flipped = Boolean(ui.textbook2Flipped);
-    return `<div class="page"><a class="back-link" href="#/textbook-2">${svg("arrowRight")} Все коллекции</a>
-      <div class="detail-hero" data-letter="📚"><div class="detail-badge" style="font-size:1.8rem">📚</div><div class="detail-hero-copy"><span class="eyebrow">Учебник · курс 2</span><h1>${collection.title}</h1><div class="en-title">Карточки для изучения слов</div><p>Коллекция содержит ${collection.cards.length} слов.</p></div></div>
-      <div class="flash-wrap"><div class="flash-progress"><span>${index+1} / ${collection.cards.length}</span><div class="progress-track"><div class="progress-fill" style="width:${(index+1)/collection.cards.length*100}%"></div></div><span>${collection.cards.length} слов</span></div>
+    const list = `<div class="word-list textbook-word-list">
+      ${collection.cards.map((word, i) => `<div class="word-row">
+        <span class="idx">${pad(i + 1)}</span>
+        <span class="dari">${esc(word.dari)}</span>
+        <span class="translit">${esc(word.translit || "—")}</span>
+        <span class="ru">${esc(word.ru)}</span>
+      </div>`).join("")}
+    </div>`;
+    const flash = `<div class="flash-wrap"><div class="flash-progress"><span>${index+1} / ${collection.cards.length}</span><div class="progress-track"><div class="progress-fill" style="width:${(index+1)/collection.cards.length*100}%"></div></div><span>${collection.cards.length} слов</span></div>
       <div class="flashcard-stage"><div class="flashcard textbook-word-card ${flipped?"flipped":""}" data-textbook-flip tabindex="0" role="button" aria-label="Перевернуть карточку">
       <div class="flash-face front"><div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div><span class="hint">Нажмите на карточку, чтобы увидеть перевод</span></div>
       <div class="flash-face back"><div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">${esc(card.ru)}</div><div class="flash-translit" style="color:var(--gold)">${esc(card.translit)}</div><span class="hint">Нажмите ещё раз, чтобы вернуться</span></div></div></div>
-      <div class="flash-actions"><button class="btn btn-ghost btn-sm" type="button" data-textbook-prev ${index===0?"disabled":""}>${svg("arrowLeft")} Назад</button><button class="btn btn-soft btn-sm" type="button" data-textbook-flip-button>${svg("flip")} Перевод</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-next ${index===collection.cards.length-1?"disabled":""}>Дальше ${svg("arrowRight")}</button></div></div></div>`;
+      <div class="flash-actions"><button class="btn btn-ghost btn-sm" type="button" data-textbook-prev ${index===0?"disabled":""}>${svg("arrowLeft")} Назад</button><button class="btn btn-soft btn-sm" type="button" data-textbook-flip-button>${svg("flip")} Перевод</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-next ${index===collection.cards.length-1?"disabled":""}>Дальше ${svg("arrowRight")}</button></div></div>`;
+    return `<div class="page"><a class="back-link" href="#/textbook-2">${svg("arrowRight")} Все коллекции</a>
+      <div class="detail-hero" data-letter="📚"><div class="detail-badge" style="font-size:1.8rem">📚</div><div class="detail-hero-copy"><span class="eyebrow">Учебник · курс 2</span><h1>${collection.title}</h1><div class="en-title">Карточки для изучения слов</div><p>Коллекция содержит ${collection.cards.length} слов.</p></div></div>
+      <div class="flash-toolbar"><div class="view-switch">
+        <button class="${ui.textbook2View === "cards" ? "active" : ""}" type="button" data-textbook-view="cards">${svg("cards")} Карточки</button>
+        <button class="${ui.textbook2View === "list" ? "active" : ""}" type="button" data-textbook-view="list">${svg("list")} Список</button>
+      </div></div>
+      ${ui.textbook2View === "list" ? list : flash}</div>`;
   };
-  const renderTextbook = (num) => {
+    const renderTextbook = (num) => {
     const book = TEXTBOOKS[num];
     if (!book) return notFound();
     if (num === 2) return `<div class="page">
@@ -2136,7 +2150,7 @@
       return;
     }
 
-    if (target.closest("[data-mode]")) {
+    if (target.closest("[data-textbook-view]")) {\n      ui.textbook2View = target.closest("[data-textbook-view]").dataset.textbookView;\n      renderRoute({ scroll: false });\n      return;\n    }\n\n    if (target.closest("[data-mode]")) {
       ui.practiceMode = target.closest("[data-mode]").dataset.mode;
       renderRoute({ scroll: false });
       return;
