@@ -624,7 +624,7 @@
         <div class="hero-copy">
           <div class="hero-kicker"><span class="dot"></span>${esc(dateLabel())} · курс аудирования</div>
           <h1>Учебные аудирования языка дари</h1>
-          <p>Дари из живого архива DLIFLC: ${total.letters} ${plural(total.letters, ["буква", "буквы", "букв"])}, ${total.lessons} полных уроков, ${total.vocabWords} словарных карточек с произношением и ${fmt(DATA.meta.archiveAudio)} ${plural(DATA.meta.archiveAudio, ["запись", "записи", "записей"])} в архиве. Всё объяснено по-русски.</p>
+          <p>Сайт находится в разработке</p>
           <div class="hero-actions">
             <a class="btn btn-gold btn-lg" href="${esc(rec.href)}">${svg("play")} Продолжить обучение</a>
             <a class="btn btn-ghost btn-lg" href="#/alphabet">Смотреть алфавит</a>
