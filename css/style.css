@@ -599,7 +599,7 @@ kbd {
 .hero {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(260px, 0.7fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 32px;
   align-items: center;
   min-height: 330px;
