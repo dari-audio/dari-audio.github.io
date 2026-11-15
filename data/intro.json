@@ -1,0 +1,409 @@
+[
+  {
+    "id": "A", "title": "Алиф — сей", "subtitle": "Первые пять букв",
+    "summary": "Знакомимся с алиф, бей, пей, тей и сей. Учимся узнавать буквы в словах, читать первые слоги и слышать, как звучит дари.",
+    "letters": ["alef", "bey", "pey", "tey", "sey"],
+    "pdf": "3. INTRODUCTORY LESSONS A and B.pdf",
+    "audio": ["3. Intro A.mp3"],
+    "words": [
+      {"dari": "باب", "translit": "bāb", "ru": "дверь"},
+      {"dari": "آب", "translit": "āb", "ru": "вода"},
+      {"dari": "پا", "translit": "pā", "ru": "нога"},
+      {"dari": "توپ", "translit": "tōp", "ru": "мяч"},
+      {"dari": "توت", "translit": "tūt", "ru": "ягода"},
+      {"dari": "بوت", "translit": "bōt", "ru": "обувь"}
+    ]
+  },
+  {
+    "id": "B", "title": "Джим — хе", "subtitle": "Четыре буквы",
+    "summary": "Буквы джим, чей, хе и хей. Учимся различать точки и читать слова с этими буквами вместе с уже известными.",
+    "letters": ["jeem", "chey", "hey", "khey"],
+    "pdf": "3. INTRODUCTORY LESSONS A and B.pdf",
+    "audio": ["3. Intro B.mp3"],
+    "words": [
+      {"dari": "تاج", "translit": "tāj", "ru": "корона"},
+      {"dari": "خواب", "translit": "khwāb", "ru": "сон"},
+      {"dari": "چوب", "translit": "chōb", "ru": "дерево"},
+      {"dari": "خوب", "translit": "khūb", "ru": "хороший"},
+      {"dari": "جا", "translit": "jā", "ru": "место"},
+      {"dari": "حوت", "translit": "hūt", "ru": "месяц афганского календаря"}
+    ]
+  },
+  {
+    "id": "C", "title": "Дол — же", "subtitle": "Несоединяемые буквы",
+    "summary": "Пять букв, которые не соединяются со следующей: дол, зол, ре, зе, же. Это важное правило письма, которое сразу меняет вид слова.",
+    "letters": ["daal", "zaal", "rey", "zey", "zhey"],
+    "pdf": "4. INTRODUCTORY LESSON C.pdf",
+    "audio": ["4. Intro C.mp3"],
+    "words": [
+      {"dari": "دل", "translit": "dil", "ru": "сердце"},
+      {"dari": "دور", "translit": "dūr", "ru": "далеко"},
+      {"dari": "دود", "translit": "dūd", "ru": "дым"},
+      {"dari": "زود", "translit": "zūd", "ru": "рано"},
+      {"dari": "کاغذ", "translit": "kāghaz", "ru": "бумага"},
+      {"dari": "ژرف", "translit": "zharf", "ru": "глубокий"}
+    ]
+  },
+  {
+    "id": "D", "title": "Син — қоф", "subtitle": "Свистящие и гортанные",
+    "summary": "Десять букв от син до қоф. Среди них эмфатические с/з/т и гортанные айн и гайн — самые непривычные звуки для русскоязычных.",
+    "letters": ["seen", "sheen", "saad", "zaad", "toy", "zoy", "ayn", "ghayn", "fey", "qaaf"],
+    "pdf": "6. INTRODUCTORY LESSON D + HW A-C.pdf",
+    "audio": ["6. Intro D.mp3", "6. HW A-C.mp3"],
+    "words": [
+      {"dari": "ساز", "translit": "sāz", "ru": "музыкальный инструмент"},
+      {"dari": "شاد", "translit": "shād", "ru": "весёлый"},
+      {"dari": "صادر", "translit": "sādir", "ru": "экспорт"},
+      {"dari": "طفل", "translit": "tifl", "ru": "ребёнок"},
+      {"dari": "غار", "translit": "ghār", "ru": "пещера"},
+      {"dari": "قلم", "translit": "qalam", "ru": "ручка"}
+    ]
+  },
+  {
+    "id": "E", "title": "Каф — йа", "subtitle": "Завершаем алфавит",
+    "summary": "Последние буквы: каф, гаф, лам, мим, нун, вав, ҳе и йа. Особое внимание — четырём формам буквы ҳе.",
+    "letters": ["kaaf", "gaaf", "laam", "meem", "noon", "wau", "hey2", "yaa"],
+    "pdf": "7. INTRODUCTORY LESSONS E and F.pdf",
+    "audio": ["7. Intro E.mp3"],
+    "words": [
+      {"dari": "کم", "translit": "kam", "ru": "мало"},
+      {"dari": "گل", "translit": "gul", "ru": "цветок"},
+      {"dari": "مردم", "translit": "mardum", "ru": "люди"},
+      {"dari": "خانه", "translit": "khāna", "ru": "дом"},
+      {"dari": "میوه", "translit": "mēwa", "ru": "фрукт"},
+      {"dari": "یک", "translit": "yak", "ru": "один"}
+    ]
+  },
+  {
+    "id": "F", "title": "Гласные", "subtitle": "Как читать без огласовок",
+    "summary": "Три буквы — алиф, вав и йа — передают долгие гласные и дифтонги. Краткие гласные часто вообще не пишутся: дари — это «стенограмма» устной речи.",
+    "letters": ["alef", "wau", "yaa"],
+    "pdf": "7. INTRODUCTORY LESSONS E and F.pdf",
+    "audio": [],
+    "words": [
+      {"dari": "آسیا", "translit": "Āsiyā", "ru": "Азия"},
+      {"dari": "افغانستان", "translit": "Afghānistān", "ru": "Афганистан"},
+      {"dari": "ایران", "translit": "Īrān", "ru": "Иран"},
+      {"dari": "اروپا", "translit": "Urūpā", "ru": "Европа"},
+      {"dari": "آمریکا", "translit": "Amrīkā", "ru": "Америка"},
+      {"dari": "روسیه", "translit": "Rūsiya", "ru": "Россия"}
+    ]
+  },
+  {
+    "id": "G", "title": "Огласовки", "subtitle": "Забар, зейр, пеш",
+    "summary": "Краткие гласные можно показать значками над и под буквами: забар (а), зейр (е), пеш (у). В обычном тексте их обычно не пишут.",
+    "letters": [],
+    "pdf": "8. INTRODUCTORY LESSON G.pdf",
+    "audio": [],
+    "words": [
+      {"dari": "پَر", "translit": "par", "ru": "перо"},
+      {"dari": "سَر", "translit": "sar", "ru": "голова"},
+      {"dari": "دَم", "translit": "dam", "ru": "дыхание"},
+      {"dari": "دَر", "translit": "dar", "ru": "в"},
+      {"dari": "نان", "translit": "nān", "ru": "хлеб"},
+      {"dari": "گُل", "translit": "gul", "ru": "цветок"}
+    ]
+  },
+  {
+    "id": "H", "title": "Техника и заимствования", "subtitle": "Слова, которые уже знакомы",
+    "summary": "Учимся читать интернациональные слова, записанные дари: телефон, компьютер, такси, футбол. Это отличная тренировка чтения.",
+    "letters": [],
+    "pdf": "10. INTRODUCTORY LESSON H + HW D-G.pdf",
+    "audio": ["10. Intro H.mp3", "10. HW D-G.mp3"],
+    "words": [
+      {"dari": "تلفن", "translit": "talifūn", "ru": "телефон"},
+      {"dari": "کمپیوتر", "translit": "kampyūtar", "ru": "компьютер"},
+      {"dari": "رادیو", "translit": "rādyō", "ru": "радио"},
+      {"dari": "تلویزیون", "translit": "talvizyūn", "ru": "телевизор"},
+      {"dari": "تکسی", "translit": "taksī", "ru": "такси"},
+      {"dari": "جیپ", "translit": "jīp", "ru": "джип"}
+    ]
+  },
+  {
+    "id": "I", "title": "Числа 0–10", "subtitle": "Счёт по-дари",
+    "summary": "Учимся считать от нуля до десяти и узнавать арабские цифры, которыми пользуются в Афганистане.",
+    "letters": [],
+    "pdf": "11. INTRODUCTORY LESSONS I and J and K.pdf",
+    "audio": ["11. Intro I.mp3"],
+    "words": [
+      {"dari": "صفر", "translit": "sifr", "ru": "0 — ноль"},
+      {"dari": "یک", "translit": "yak", "ru": "1 — один"},
+      {"dari": "دو", "translit": "dū", "ru": "2 — два"},
+      {"dari": "سه", "translit": "sē", "ru": "3 — три"},
+      {"dari": "چهار", "translit": "chahār", "ru": "4 — четыре"},
+      {"dari": "پنج", "translit": "panj", "ru": "5 — пять"},
+      {"dari": "ده", "translit": "dah", "ru": "10 — десять"}
+    ]
+  },
+  {
+    "id": "J", "title": "Цвета", "subtitle": "Мир в красках",
+    "summary": "Двенадцать базовых цветов. Слова пригодятся уже в первых описаниях: «красная машина», «зелёный чай».",
+    "letters": [],
+    "pdf": "11. INTRODUCTORY LESSONS I and J and K.pdf",
+    "audio": ["11. Intro J.mp3"],
+    "words": [
+      {"dari": "سیاه", "translit": "siyāh", "ru": "чёрный"},
+      {"dari": "سفید", "translit": "safēd", "ru": "белый"},
+      {"dari": "سبز", "translit": "sabz", "ru": "зелёный"},
+      {"dari": "سرخ", "translit": "surkh", "ru": "красный"},
+      {"dari": "زرد", "translit": "zard", "ru": "жёлтый"},
+      {"dari": "آبی", "translit": "ābī", "ru": "синий"}
+    ]
+  },
+  {
+    "id": "K", "title": "Число + предмет + цвет", "subtitle": "Порядок слов",
+    "summary": "В дари число стоит перед существительным, а прилагательное — после него: «один чёрный компьютер», «два компьютера».",
+    "letters": [],
+    "pdf": "11. INTRODUCTORY LESSONS I and J and K.pdf",
+    "audio": [],
+    "words": [
+      {"dari": "یک کمپیوتر", "translit": "yak kampyūtar", "ru": "один компьютер"},
+      {"dari": "دو کمپیوتر", "translit": "dū kampyūtar", "ru": "два компьютера"},
+      {"dari": "کمپیوتر سیاه", "translit": "kampyūtar-e siyāh", "ru": "чёрный компьютер"},
+      {"dari": "تلیفون کریمی", "translit": "talifūn-e karīmī", "ru": "бежевый телефон"},
+      {"dari": "ده هلیکوپتر سفید", "translit": "dah halikōpitar-e safēd", "ru": "десять белых вертолётов"},
+      {"dari": "سه کتاب", "translit": "sē kitāb", "ru": "три книги"}
+    ]
+  },
+  {
+    "id": "L", "title": "Класс", "subtitle": "Учебные предметы",
+    "summary": "Слова для класса: стол, стул, доска, окно, книга, ручка. Сразу тренируемся описывать предметы вокруг себя.",
+    "letters": [],
+    "pdf": "13. INTRODUCTORY LESSONS L and M and N.pdf",
+    "audio": ["13. Intro L.mp3", "14. HW L-N.mp3"],
+    "words": [
+      {"dari": "میز", "translit": "mēz", "ru": "стол"},
+      {"dari": "چوکی", "translit": "chawkī", "ru": "стул"},
+      {"dari": "تخته", "translit": "takhta", "ru": "доска"},
+      {"dari": "نقشه", "translit": "naqsha", "ru": "карта"},
+      {"dari": "کلکین", "translit": "kilkīn", "ru": "окно"},
+      {"dari": "کتاب", "translit": "kitāb", "ru": "книга"}
+    ]
+  },
+  {
+    "id": "M", "title": "Личные вещи", "subtitle": "Что в сумке",
+    "summary": "Деньги, телефон, очки, ключи, кошелёк. Учимся задавать вопрос с восходящей интонацией и отвечать на него.",
+    "letters": [],
+    "pdf": "13. INTRODUCTORY LESSONS L and M and N.pdf",
+    "audio": ["13. Intro M.mp3"],
+    "words": [
+      {"dari": "پیسه", "translit": "paysa", "ru": "деньги"},
+      {"dari": "عکس", "translit": "aks", "ru": "фотография"},
+      {"dari": "تلیفون جیبی", "translit": "talifūn-e jēbī", "ru": "мобильный телефон"},
+      {"dari": "عینک", "translit": "aynak", "ru": "очки"},
+      {"dari": "دستکول", "translit": "dastkaul", "ru": "сумка"},
+      {"dari": "کلید", "translit": "kilīd", "ru": "ключ"}
+    ]
+  },
+  {
+    "id": "N", "title": "Собираем вместе", "subtitle": "Практика сочетаний",
+    "summary": "Соединяем число, предмет и цвет: «четыре чёрных очка», «три белых тетради». Это уже настоящая речь.",
+    "letters": [],
+    "pdf": "13. INTRODUCTORY LESSONS L and M and N.pdf",
+    "audio": [],
+    "words": [
+      {"dari": "سه کتاب سفید", "translit": "sē kitāb-e safēd", "ru": "три белые книги"},
+      {"dari": "چهار عینک سیاه", "translit": "chahār aynak-e siyāh", "ru": "четыре чёрных очка"},
+      {"dari": "دو دستکول", "translit": "dū dastkaul", "ru": "две сумки"},
+      {"dari": "یک چوکی سبز", "translit": "yak chawkī-e sabz", "ru": "один зелёный стул"},
+      {"dari": "پنج کتاب", "translit": "panj kitāb", "ru": "пять книг"}
+    ]
+  },
+  {
+    "id": "O", "title": "Дом", "subtitle": "Комнаты и вещи",
+    "summary": "Называем комнаты и предметы дома: спальня, гостиная, кухня, ванная, холодильник. Учимся описывать своё жильё.",
+    "letters": [],
+    "pdf": "17. INTRODUCTORY LESSON O.pdf",
+    "audio": ["17. Intro O.mp3"],
+    "words": [
+      {"dari": "خانه", "translit": "khāna", "ru": "дом"},
+      {"dari": "اتاق", "translit": "utāq", "ru": "комната"},
+      {"dari": "اتاق خواب", "translit": "utāq-e khwāb", "ru": "спальня"},
+      {"dari": "آشپزخانه", "translit": "āshpazkhāna", "ru": "кухня"},
+      {"dari": "تشناب", "translit": "tashnāb", "ru": "ванная"},
+      {"dari": "یخچال", "translit": "yakhchāl", "ru": "холодильник"}
+    ]
+  },
+  {
+    "id": "P", "title": "Семья", "subtitle": "Родные люди",
+    "summary": "Отец, мать, брат, сестра, сын, дочь, дедушка и бабушка. Учимся рассказывать о своей семье.",
+    "letters": [],
+    "pdf": "18. INTRODUCTORY LESSON P.pdf",
+    "audio": ["18. Intro P.mp3"],
+    "words": [
+      {"dari": "پدر", "translit": "padar", "ru": "отец"},
+      {"dari": "مادر", "translit": "mādar", "ru": "мать"},
+      {"dari": "برادر", "translit": "barādar", "ru": "брат"},
+      {"dari": "خواهر", "translit": "khwāhar", "ru": "сестра"},
+      {"dari": "پسر", "translit": "pisar", "ru": "сын"},
+      {"dari": "دختر", "translit": "dukhtar", "ru": "дочь"},
+      {"dari": "فامیل", "translit": "fāmīl", "ru": "семья"}
+    ]
+  },
+  {
+    "id": "Q", "title": "Люди и профессии", "subtitle": "Кто это?",
+    "summary": "Друг, солдат, одноклассник, крестьянин, врач, медсестра, инженер, журналист, продавец. Учимся спрашивать «кто это?».",
+    "letters": [],
+    "pdf": "19. INTRODUCTORY LESSON Q.pdf",
+    "audio": ["19. Intro Q.mp3", "20. AUT O-Q.mp3", "21. HW O-Q.mp3"],
+    "words": [
+      {"dari": "دوست", "translit": "dōst", "ru": "друг"},
+      {"dari": "عسکر", "translit": "askar", "ru": "солдат"},
+      {"dari": "همصنفی", "translit": "hamsinfī", "ru": "одноклассник"},
+      {"dari": "دهقان", "translit": "dihqān", "ru": "крестьянин"},
+      {"dari": "داکتر", "translit": "dāktar", "ru": "врач"},
+      {"dari": "نرس", "translit": "nars", "ru": "медсестра"},
+      {"dari": "انجینیر", "translit": "injīnyar", "ru": "инженер"},
+      {"dari": "دوکاندار", "translit": "dūkāndār", "ru": "продавец"}
+    ]
+  },
+  {
+    "id": "R", "title": "Числа 11–1000", "subtitle": "Большие числа",
+    "summary": "Учимся считать дальше: 11, 12, 20, 21, 100, 1000. Обратите внимание: с 21 «и» произносится как «у».",
+    "letters": [],
+    "pdf": "22. INTRODUCTORY LESSON R.pdf",
+    "audio": ["22. Intro R.mp3"],
+    "words": [
+      {"dari": "یازده", "translit": "yāzdah", "ru": "11"},
+      {"dari": "دوازده", "translit": "dawāzdah", "ru": "12"},
+      {"dari": "سیزده", "translit": "sēzdah", "ru": "13"},
+      {"dari": "چهارده", "translit": "chahārdah", "ru": "14"},
+      {"dari": "بیست", "translit": "bīst", "ru": "20"},
+      {"dari": "صد", "translit": "sad", "ru": "100"},
+      {"dari": "هزار", "translit": "hazār", "ru": "1000"}
+    ]
+  },
+  {
+    "id": "S", "title": "Дни недели", "subtitle": "Календарь",
+    "summary": "Дни недели и слово «неделя». В Афганистане неделя начинается с субботы — это важно для планирования.",
+    "letters": [],
+    "pdf": "23. INTRODUCTORY LESSONS S and T.pdf",
+    "audio": ["23. Intro S.mp3"],
+    "words": [
+      {"dari": "شنبه", "translit": "shanbey", "ru": "суббота"},
+      {"dari": "یکشنبه", "translit": "yak-shanbey", "ru": "воскресенье"},
+      {"dari": "دوشنبه", "translit": "dū-shanbey", "ru": "понедельник"},
+      {"dari": "سه‌شنبه", "translit": "sē-shanbey", "ru": "вторник"},
+      {"dari": "چهارشنبه", "translit": "chahār-shanbey", "ru": "среда"},
+      {"dari": "پنجشنبه", "translit": "panj-shanbey", "ru": "четверг"},
+      {"dari": "جمعه", "translit": "juma", "ru": "пятница"},
+      {"dari": "هفته", "translit": "hafta", "ru": "неделя"}
+    ]
+  },
+  {
+    "id": "T", "title": "Время суток", "subtitle": "Утро, день, вечер",
+    "summary": "Утро, полдень, вечер, ночь, вчера, сегодня, завтра. Учимся говорить о времени простыми словами.",
+    "letters": [],
+    "pdf": "23. INTRODUCTORY LESSONS S and T.pdf",
+    "audio": ["23. Intro T.mp3"],
+    "words": [
+      {"dari": "صبح", "translit": "subh", "ru": "утро"},
+      {"dari": "ظهر", "translit": "zuhr", "ru": "полдень"},
+      {"dari": "شام", "translit": "shām", "ru": "вечер"},
+      {"dari": "شب", "translit": "shab", "ru": "ночь"},
+      {"dari": "دیروز", "translit": "dīrūz", "ru": "вчера"},
+      {"dari": "امروز", "translit": "imrūz", "ru": "сегодня"},
+      {"dari": "صبا", "translit": "sabā", "ru": "завтра"}
+    ]
+  },
+  {
+    "id": "U", "title": "Который час?", "subtitle": "Часы и минуты",
+    "summary": "Учимся называть время: «пять часов», «половина шестого», «четверть». Слова «половина» и «минута».",
+    "letters": [],
+    "pdf": "25. INTRODUCTORY LESSONS U and V + HW R-T.pdf",
+    "audio": ["25. Intro U.mp3"],
+    "words": [
+      {"dari": "ساعت", "translit": "sā'at", "ru": "час, часы"},
+      {"dari": "دقیقه", "translit": "daqīqa", "ru": "минута"},
+      {"dari": "نیم", "translit": "nēm", "ru": "половина"},
+      {"dari": "ربع", "translit": "rub'", "ru": "четверть"},
+      {"dari": "ساعت پنج", "translit": "sā'at-e panj", "ru": "пять часов"},
+      {"dari": "ساعت پنج و نیم", "translit": "sā'at-e panj-o-nēm", "ru": "половина шестого"}
+    ]
+  },
+  {
+    "id": "V", "title": "Глаголы", "subtitle": "Что мы делаем",
+    "summary": "Восемь базовых глаголов: вставать, есть, пить, читать, спать, покупать, видеть, готовить. Инфинитив в дари заканчивается на «-ан».",
+    "letters": [],
+    "pdf": "25. INTRODUCTORY LESSONS U and V + HW R-T.pdf",
+    "audio": ["25. Intro V.mp3"],
+    "words": [
+      {"dari": "برخاستن", "translit": "bar khāstan", "ru": "вставать"},
+      {"dari": "خوردن", "translit": "khūrdan", "ru": "есть"},
+      {"dari": "نوشیدن", "translit": "nūshīdan", "ru": "пить"},
+      {"dari": "خواندن", "translit": "khwāndan", "ru": "читать, учиться"},
+      {"dari": "خوابیدن", "translit": "khwābīdan", "ru": "спать"},
+      {"dari": "خریدن", "translit": "kharīdan", "ru": "покупать"},
+      {"dari": "دیدن", "translit": "dīdan", "ru": "видеть"},
+      {"dari": "پختن", "translit": "pukhtan", "ru": "готовить"}
+    ]
+  },
+  {
+    "id": "W", "title": "Город", "subtitle": "Места и здания",
+    "summary": "Школа, офис, рынок, ресторан, магазин, парк, библиотека, больница, кинотеатр. Учимся спрашивать, где находится место.",
+    "letters": [],
+    "pdf": "26. INTRODUCTORY LESSON W.pdf",
+    "audio": ["26. Intro W.mp3", "27. AUT U-W.mp3", "28. HW U-W.mp3"],
+    "words": [
+      {"dari": "مکتب", "translit": "maktab", "ru": "школа"},
+      {"dari": "دفتر", "translit": "daftar", "ru": "офис"},
+      {"dari": "بازار", "translit": "bāzār", "ru": "рынок"},
+      {"dari": "رستوران", "translit": "rastōrān", "ru": "ресторан"},
+      {"dari": "دوکان", "translit": "dūkān", "ru": "магазин"},
+      {"dari": "پارک", "translit": "pārk", "ru": "парк"},
+      {"dari": "کتابخانه", "translit": "kitābkhāna", "ru": "библиотека"},
+      {"dari": "شفاخانه", "translit": "shafākhāna", "ru": "больница"}
+    ]
+  },
+  {
+    "id": "X", "title": "Природа", "subtitle": "Земля и небо",
+    "summary": "Земля, небо, река, гора, сад, трава, цветок, дерево, камень, глина. Слова, которые пригодятся в любом разговоре о природе.",
+    "letters": [],
+    "pdf": "29. INTRODUCTORY LESSONS X and Y and Z.pdf",
+    "audio": ["29. Intro X.mp3"],
+    "words": [
+      {"dari": "زمین", "translit": "zamīn", "ru": "земля"},
+      {"dari": "آسمان", "translit": "āsmān", "ru": "небо"},
+      {"dari": "دریا", "translit": "daryā", "ru": "река"},
+      {"dari": "کوه", "translit": "kōh", "ru": "гора"},
+      {"dari": "باغ", "translit": "bāgh", "ru": "сад"},
+      {"dari": "گل", "translit": "gul", "ru": "цветок"},
+      {"dari": "درخت", "translit": "darakht", "ru": "дерево"},
+      {"dari": "سنگ", "translit": "sang", "ru": "камень"}
+    ]
+  },
+  {
+    "id": "Y", "title": "Сезоны и погода", "subtitle": "Времена года",
+    "summary": "Весна, лето, осень, зима; солнце, дождь, снег, облако, тепло и холодно. Учимся говорить о погоде.",
+    "letters": [],
+    "pdf": "29. INTRODUCTORY LESSONS X and Y and Z.pdf",
+    "audio": ["29. Intro Y.mp3"],
+    "words": [
+      {"dari": "فصل", "translit": "fasl", "ru": "сезон"},
+      {"dari": "بهار", "translit": "bahār", "ru": "весна"},
+      {"dari": "تابستان", "translit": "tābestān", "ru": "лето"},
+      {"dari": "خزان", "translit": "khazān", "ru": "осень"},
+      {"dari": "زمستان", "translit": "zimistān", "ru": "зима"},
+      {"dari": "باران", "translit": "bārān", "ru": "дождь"},
+      {"dari": "برف", "translit": "barf", "ru": "снег"},
+      {"dari": "گرم", "translit": "garm", "ru": "тёплый"}
+    ]
+  },
+  {
+    "id": "Z", "title": "Месяцы", "subtitle": "Афганский календарь",
+    "summary": "Двенадцать месяцев солнечного календаря — от хамала до хута. Их названия пришли из зодиакальных созвездий.",
+    "letters": [],
+    "pdf": "29. INTRODUCTORY LESSONS X and Y and Z.pdf",
+    "audio": ["29. Intro Z.mp3", "30. AUT X-Z.mp3", "30. HW X-Z.mp3"],
+    "words": [
+      {"dari": "حمل", "translit": "hamal", "ru": "21 марта — 19 апреля"},
+      {"dari": "ثور", "translit": "sawr", "ru": "20 апреля — 20 мая"},
+      {"dari": "جوزا", "translit": "jawzā", "ru": "21 мая — 20 июня"},
+      {"dari": "سرطان", "translit": "saratān", "ru": "21 июня — 22 июля"},
+      {"dari": "اسد", "translit": "asad", "ru": "23 июля — 22 августа"},
+      {"dari": "میزان", "translit": "mīzān", "ru": "23 сентября — 22 октября"},
+      {"dari": "جدی", "translit": "jadi", "ru": "22 декабря — 19 января"},
+      {"dari": "حوت", "translit": "hūt", "ru": "19 февраля — 20 марта"}
+    ]
+  }
+]

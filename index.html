@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#173f33">
+  <meta name="description" content="Дари · Аудирование — русскоязычный курс дари: алфавит, 40 уроков, словарь, практика и архив аудиоматериалов.">
+  <title>Дари · Аудирование</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2216%22 fill=%22%23173f33%22/><text x=%2232%22 y=%2246%22 font-size=%2240%22 text-anchor=%22middle%22 fill=%22%23e9c46a%22 font-family=%22serif%22>د</text></svg>">
+  <link rel="preload" href="assets/fonts/prata-cyrillic-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/manrope-cyrillic-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css?v=20261115-5">
+</head>
+<body>
+  <a class="skip-link" href="#app">К содержимому</a>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Главная навигация">
+      <a class="brand" href="#/home" aria-label="Дари · Аудирование — на главную">
+        <span class="brand-mark" aria-hidden="true">د</span>
+        <span class="brand-text">
+          <strong>Дари</strong>
+          <small>аудирование</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="main-nav">
+        <a class="nav-link" href="#/home" data-nav="home">
+          <span class="nav-icon" data-icon="home"></span><span>Главная</span>
+        </a>
+        <a class="nav-link" href="#/alphabet" data-nav="alphabet">
+          <span class="nav-icon" data-icon="alphabet"></span><span>Алфавит</span>
+        </a>
+        <a class="nav-link" href="#/lessons" data-nav="lessons">
+          <span class="nav-icon" data-icon="book"></span><span>40 уроков</span>
+        </a>
+        <a class="nav-link" href="#/vocab" data-nav="vocab">
+          <span class="nav-icon" data-icon="cards"></span><span>Словарь</span>
+        </a>
+        <a class="nav-link" href="#/practice" data-nav="practice">
+          <span class="nav-icon" data-icon="target"></span><span>Практика</span>
+        </a>
+        <a class="nav-link" href="#/library" data-nav="library">
+          <span class="nav-icon" data-icon="wave"></span><span>Аудиотека</span>
+        </a>
+        <a class="nav-link" href="#/textbook-1" data-nav="textbook-1">
+          <span class="nav-icon" data-icon="bookOpen"></span><span>Учебник: курс 1</span>
+        </a>
+        <a class="nav-link" href="#/textbook-2" data-nav="textbook-2">
+          <span class="nav-icon" data-icon="bookOpen"></span><span>Учебник: курс 2</span>
+        </a>
+        <a class="nav-link" href="#/about" data-nav="about">
+          <span class="nav-icon" data-icon="info"></span><span>О проекте</span>
+        </a>
+      </nav>
+
+      <div class="sidebar-progress" id="sidebar-progress"></div>
+
+      <div class="sidebar-footer">
+        <p>По материалам DLIFLC<br>2005 и 2016 годов</p>
+        <button class="text-button" type="button" data-open-search>
+          <span data-icon="search"></span> Поиск <kbd>⌘K</kbd>
+        </button>
+      </div>
+    </aside>
+
+    <button class="sidebar-scrim" type="button" data-close-nav aria-label="Закрыть меню"></button>
+
+    <div class="main-wrap">
+      <header class="topbar">
+        <button class="icon-button menu-button" type="button" data-open-nav aria-label="Открыть меню">
+          <span data-icon="menu"></span>
+        </button>
+        <div class="topbar-title" id="topbar-title">Главная</div>
+        <div class="topbar-actions">
+          <button class="search-pill" type="button" data-open-search aria-label="Поиск по сайту">
+            <span data-icon="search"></span>
+            <span class="search-pill-text">Найти урок или слово</span>
+            <kbd>⌘K</kbd>
+          </button>
+          <span class="streak-chip" id="streak-chip" title="Дней подряд"></span>
+          <span class="avatar" aria-hidden="true">آ</span>
+        </div>
+      </header>
+
+      <main id="app" tabindex="-1"></main>
+
+      <footer class="site-footer">
+        <p>Учебный проект для русскоязычных студентов. Материалы принадлежат их авторам и собраны из открытого архива.</p>
+        <a href="#/about">Об источниках →</a>
+      </footer>
+    </div>
+  </div>
+
+  <div class="player" id="player" hidden>
+    <div class="player-main">
+      <button class="player-cover" type="button" data-player-toggle aria-label="Воспроизвести или поставить на паузу">
+        <span data-icon="wave"></span>
+      </button>
+      <div class="player-meta">
+        <strong id="player-title">Аудио</strong>
+        <span id="player-subtitle"></span>
+      </div>
+      <div class="player-controls">
+        <button class="player-button" type="button" data-player-rewind aria-label="Назад на 10 секунд"><span data-icon="back10"></span></button>
+        <button class="player-toggle" type="button" data-player-toggle aria-label="Воспроизвести или поставить на паузу"><span data-icon="play"></span></button>
+        <button class="player-button" type="button" data-player-forward aria-label="Вперёд на 10 секунд"><span data-icon="forward10"></span></button>
+      </div>
+      <div class="player-timing">
+        <span id="player-current">0:00</span>
+        <input id="player-seek" type="range" min="0" max="1000" value="0" aria-label="Перемотка">
+        <span id="player-duration">0:00</span>
+      </div>
+      <button class="player-button player-close" type="button" data-player-close aria-label="Закрыть плеер"><span data-icon="close"></span></button>
+    </div>
+    <div class="player-progress-mobile"><span id="player-progress-bar"></span></div>
+  </div>
+
+  <div class="modal-root" id="modal-root"></div>
+  <div class="toast-root" id="toast-root" aria-live="polite"></div>
+
+  <div class="search-overlay" id="search-overlay" hidden>
+    <div class="search-dialog" role="dialog" aria-modal="true" aria-label="Поиск">
+      <div class="search-head">
+        <span data-icon="search"></span>
+        <input id="global-search-input" type="search" placeholder="Буква, урок, слово или аудиофайл…" autocomplete="off">
+        <button class="icon-button" type="button" data-close-search aria-label="Закрыть поиск"><span data-icon="close"></span></button>
+      </div>
+      <div class="search-results" id="search-results">
+        <p class="search-hint">Начните вводить запрос — поиск работает по всем разделам и архиву.</p>
+      </div>
+      <div class="search-foot"><kbd>↑</kbd><kbd>↓</kbd> выбирать <kbd>↵</kbd> открыть <kbd>esc</kbd> закрыть</div>
+    </div>
+  </div>
+
+  <noscript>
+    <div style="padding:2rem;font-family:sans-serif">Для работы приложения включите JavaScript.</div>
+  </noscript>
+
+  <script src="js/data.js?v=20261115-5"></script>
+  <script src="js/app.js?v=20261115-5"></script>
+</body>
+</html>
