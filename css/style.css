@@ -1747,3 +1747,15 @@ kbd {
   .proverb-heading > span { font-size: 0.92rem; }
   .proverb-text { margin-top: 4px; font-size: 1.45rem; line-height: 1.9; }
 }
+
+
+/* Trainer vocabulary labels */
+.trainer-word { margin-top: 5px; color: var(--ink); font-family: "Noto Nastaliq Urdu", "Noto Naskh Arabic", var(--dari); font-size: 1.12rem; line-height: 1.9; }
+.trainer-translit { margin-top: 1px; font-size: 0.72rem !important; color: var(--muted); }
+.trainer-translation { margin-top: 2px; font-size: 0.78rem !important; color: var(--ink); }
+.audio-row .info { padding: 2px 0; }
+@media (max-width: 600px) {
+  .audio-row { gap: 8px; padding: 9px 8px; }
+  .audio-row .code { width: 32px; }
+  .trainer-word { font-size: 1.02rem; }
+}
