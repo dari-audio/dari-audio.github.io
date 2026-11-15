@@ -640,6 +640,13 @@
 
       </div>
 
+      <section class="proverb-card" aria-labelledby="proverb-title">
+        <div class="proverb-heading">
+          <h2 id="proverb-title"><span lang="fa" dir="rtl">ضرب‌المثل روز</span></h2>
+        </div>
+        <p class="proverb-text" lang="fa" dir="rtl">${esc(dailyProverb)}</p>
+      </section>
+
       <div class="stats-grid">
         ${statCard("Буквы", `${lKnown}/${total.letters}`, "изучено", "alphabet", (lKnown / total.letters) * 100)}
         ${statCard("Уроки", `${lDone}/${total.lessons}`, "пройдено", "book", (lDone / total.lessons) * 100)}
@@ -673,13 +680,7 @@
         </div>
       </div>
 
-      <section class="proverb-card" aria-labelledby="proverb-title">
-        <div class="proverb-heading">
-          <span class="proverb-mark" aria-hidden="true">❝</span>
-          <h2 id="proverb-title">Пословица дня <span lang="fa" dir="rtl">ضرب‌المثل روز</span></h2>
-        </div>
-        <p class="proverb-text" lang="fa" dir="rtl">${esc(dailyProverb)}</p>
-      </section>
+
 
       <div class="section-head">
         <div><h2>Разделы сайта</h2><p>Выберите учебный курс или материал для занятий.</p></div>
