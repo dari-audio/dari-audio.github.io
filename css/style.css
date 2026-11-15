@@ -1750,7 +1750,7 @@ kbd {
 
 
 /* Trainer vocabulary labels */
-.trainer-word { margin-top: 5px; color: var(--ink); font-family: "Noto Nastaliq Urdu", "Noto Naskh Arabic", var(--dari); font-size: 1.12rem; line-height: 1.9; }
+.trainer-word { margin-top: 5px; color: var(--ink); font-family: var(--dari); font-size: 1.12rem; line-height: 1.9; direction: rtl; }
 .trainer-translit { margin-top: 1px; font-size: 0.72rem !important; color: var(--muted); }
 .trainer-translation { margin-top: 2px; font-size: 0.78rem !important; color: var(--ink); }
 .audio-row .info { padding: 2px 0; }
