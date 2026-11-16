@@ -85,7 +85,7 @@
       {"dari": "افغانستان", "translit": "Afğānestān", "ru": "Афганистан"},
       {"dari": "ایران", "translit": "Īrān", "ru": "Иран"},
       {"dari": "اروپا", "translit": "Urupā", "ru": "Европа"},
-      {"dari": "آمریکا", "translit": "Amri&#x20;kā", "ru": "Америка"},
+      {"dari": "آمریکا", "translit": "Amrikā", "ru": "Америка"},
       {"dari": "روسیه", "translit": "Ruseya", "ru": "Россия"}
     ]
   },
@@ -115,8 +115,8 @@
       {"dari": "کمپیوتر", "translit": "kampyutar", "ru": "компьютер"},
       {"dari": "رادیو", "translit": "rādyō", "ru": "радио"},
       {"dari": "تلویزیون", "translit": "talvezyun", "ru": "телевизор"},
-      {"dari": "تکسی", "translit": "taksi&#x20;", "ru": "такси"},
-      {"dari": "جیپ", "translit": "ji&#x20;p", "ru": "джип"}
+      {"dari": "تکسی", "translit": "taksi", "ru": "такси"},
+      {"dari": "جیپ", "translit": "jip", "ru": "джип"}
     ]
   },
   {
@@ -147,7 +147,7 @@
       {"dari": "سبز", "translit": "sabz", "ru": "зелёный"},
       {"dari": "سرخ", "translit": "sorkh", "ru": "красный"},
       {"dari": "زرد", "translit": "zard", "ru": "жёлтый"},
-      {"dari": "آبی", "translit": "ābi&#x20;", "ru": "синий"}
+      {"dari": "آبی", "translit": "ābi", "ru": "синий"}
     ]
   },
   {
@@ -160,7 +160,7 @@
       {"dari": "یک کمپیوتر", "translit": "yak kampyutar", "ru": "один компьютер"},
       {"dari": "دو کمپیوتر", "translit": "du kampyutar", "ru": "два компьютера"},
       {"dari": "کمپیوتر سیاه", "translit": "kampyutar-e seyāh", "ru": "чёрный компьютер"},
-      {"dari": "تلیفون کریمی", "translit": "talefun-e kari&#x20;mi&#x20;", "ru": "бежевый телефон"},
+      {"dari": "تلیفون کریمی", "translit": "talefun-e karimi", "ru": "бежевый телефон"},
       {"dari": "ده هلیکوپتر سفید", "translit": "dah halekōpetar-e safēd", "ru": "десять белых вертолётов"},
       {"dari": "سه کتاب", "translit": "sē ketāb", "ru": "три книги"}
     ]
@@ -173,10 +173,10 @@
     "audio": ["13. Intro L.mp3", "14. HW L-N.mp3"],
     "words": [
       {"dari": "میز", "translit": "mēz", "ru": "стол"},
-      {"dari": "چوکی", "translit": "čawki&#x20;", "ru": "стул"},
+      {"dari": "چوکی", "translit": "čawki", "ru": "стул"},
       {"dari": "تخته", "translit": "takhta", "ru": "доска"},
       {"dari": "نقشه", "translit": "naqša", "ru": "карта"},
-      {"dari": "کلکین", "translit": "kelki&#x20;n", "ru": "окно"},
+      {"dari": "کلکین", "translit": "kelkin", "ru": "окно"},
       {"dari": "کتاب", "translit": "ketāb", "ru": "книга"}
     ]
   },
@@ -189,10 +189,10 @@
     "words": [
       {"dari": "پیسه", "translit": "paysa", "ru": "деньги"},
       {"dari": "عکس", "translit": "aks", "ru": "фотография"},
-      {"dari": "تلیفون جیبی", "translit": "talefun-e jēbi&#x20;", "ru": "мобильный телефон"},
+      {"dari": "تلیفون جیبی", "translit": "talefun-e jēbi", "ru": "мобильный телефон"},
       {"dari": "عینک", "translit": "aynak", "ru": "очки"},
       {"dari": "دستکول", "translit": "dastkaol", "ru": "сумка"},
-      {"dari": "کلید", "translit": "keli&#x20;d", "ru": "ключ"}
+      {"dari": "کلید", "translit": "kelid", "ru": "ключ"}
     ]
   },
   {
@@ -205,7 +205,7 @@
       {"dari": "سه کتاب سفید", "translit": "sē ketāb-e safēd", "ru": "три белые книги"},
       {"dari": "چهار عینک سیاه", "translit": "čahār aynak-e seyāh", "ru": "четыре чёрных очка"},
       {"dari": "دو دستکول", "translit": "du dastkaol", "ru": "две сумки"},
-      {"dari": "یک چوکی سبز", "translit": "yak čawki&#x20;-e sabz", "ru": "один зелёный стул"},
+      {"dari": "یک چوکی سبز", "translit": "yak čawki-e sabz", "ru": "один зелёный стул"},
       {"dari": "پنج کتاب", "translit": "panj ketāb", "ru": "пять книг"}
     ]
   },
@@ -237,7 +237,7 @@
       {"dari": "خواهر", "translit": "khwāhar", "ru": "сестра"},
       {"dari": "پسر", "translit": "pesar", "ru": "сын"},
       {"dari": "دختر", "translit": "dokhtar", "ru": "дочь"},
-      {"dari": "فامیل", "translit": "fāmi&#x20;l", "ru": "семья"}
+      {"dari": "فامیل", "translit": "fāmil", "ru": "семья"}
     ]
   },
   {
@@ -249,11 +249,11 @@
     "words": [
       {"dari": "دوست", "translit": "dōst", "ru": "друг"},
       {"dari": "عسکر", "translit": "askar", "ru": "солдат"},
-      {"dari": "همصنفی", "translit": "hamsenfi&#x20;", "ru": "одноклассник"},
+      {"dari": "همصنفی", "translit": "hamsenfi", "ru": "одноклассник"},
       {"dari": "دهقان", "translit": "dehqān", "ru": "крестьянин"},
       {"dari": "داکتر", "translit": "dāktar", "ru": "врач"},
       {"dari": "نرس", "translit": "nars", "ru": "медсестра"},
-      {"dari": "انجینیر", "translit": "enji&#x20;nyar", "ru": "инженер"},
+      {"dari": "انجینیر", "translit": "enjinyar", "ru": "инженер"},
       {"dari": "دوکاندار", "translit": "dukāndār", "ru": "продавец"}
     ]
   },
@@ -268,7 +268,7 @@
       {"dari": "دوازده", "translit": "dawāzdah", "ru": "12"},
       {"dari": "سیزده", "translit": "sēzdah", "ru": "13"},
       {"dari": "چهارده", "translit": "čahārdah", "ru": "14"},
-      {"dari": "بیست", "translit": "bi&#x20;st", "ru": "20"},
+      {"dari": "بیست", "translit": "bist", "ru": "20"},
       {"dari": "صد", "translit": "sad", "ru": "100"},
       {"dari": "هزار", "translit": "hazār", "ru": "1000"}
     ]
@@ -301,7 +301,7 @@
       {"dari": "ظهر", "translit": "zohr", "ru": "полдень"},
       {"dari": "شام", "translit": "šām", "ru": "вечер"},
       {"dari": "شب", "translit": "šab", "ru": "ночь"},
-      {"dari": "دیروز", "translit": "di&#x20;ruz", "ru": "вчера"},
+      {"dari": "دیروز", "translit": "diruz", "ru": "вчера"},
       {"dari": "امروز", "translit": "emruz", "ru": "сегодня"},
       {"dari": "صبا", "translit": "sabā", "ru": "завтра"}
     ]
@@ -314,7 +314,7 @@
     "audio": ["25. Intro U.mp3"],
     "words": [
       {"dari": "ساعت", "translit": "sā'at", "ru": "час, часы"},
-      {"dari": "دقیقه", "translit": "daqi&#x20;qa", "ru": "минута"},
+      {"dari": "دقیقه", "translit": "daqiqa", "ru": "минута"},
       {"dari": "نیم", "translit": "nēm", "ru": "половина"},
       {"dari": "ربع", "translit": "rob'", "ru": "четверть"},
       {"dari": "ساعت پنج", "translit": "sā'at-e panj", "ru": "пять часов"},
@@ -330,11 +330,11 @@
     "words": [
       {"dari": "برخاستن", "translit": "bar khāstan", "ru": "вставать"},
       {"dari": "خوردن", "translit": "khurdan", "ru": "есть"},
-      {"dari": "نوشیدن", "translit": "nuši&#x20;dan", "ru": "пить"},
+      {"dari": "نوشیدن", "translit": "nušidan", "ru": "пить"},
       {"dari": "خواندن", "translit": "khwāndan", "ru": "читать, учиться"},
-      {"dari": "خوابیدن", "translit": "khwābi&#x20;dan", "ru": "спать"},
-      {"dari": "خریدن", "translit": "khari&#x20;dan", "ru": "покупать"},
-      {"dari": "دیدن", "translit": "di&#x20;dan", "ru": "видеть"},
+      {"dari": "خوابیدن", "translit": "khwābidan", "ru": "спать"},
+      {"dari": "خریدن", "translit": "kharidan", "ru": "покупать"},
+      {"dari": "دیدن", "translit": "didan", "ru": "видеть"},
       {"dari": "پختن", "translit": "pokhtan", "ru": "готовить"}
     ]
   },
@@ -362,7 +362,7 @@
     "pdf": "29. INTRODUCTORY LESSONS X and Y and Z.pdf",
     "audio": ["29. Intro X.mp3"],
     "words": [
-      {"dari": "زمین", "translit": "zami&#x20;n", "ru": "земля"},
+      {"dari": "زمین", "translit": "zamin", "ru": "земля"},
       {"dari": "آسمان", "translit": "āsmān", "ru": "небо"},
       {"dari": "دریا", "translit": "daryā", "ru": "река"},
       {"dari": "کوه", "translit": "kōh", "ru": "гора"},
@@ -401,7 +401,7 @@
       {"dari": "جوزا", "translit": "jawzā", "ru": "21 мая — 20 июня"},
       {"dari": "سرطان", "translit": "saratān", "ru": "21 июня — 22 июля"},
       {"dari": "اسد", "translit": "asad", "ru": "23 июля — 22 августа"},
-      {"dari": "میزان", "translit": "mi&#x20;zān", "ru": "23 сентября — 22 октября"},
+      {"dari": "میزان", "translit": "mizān", "ru": "23 сентября — 22 октября"},
       {"dari": "جدی", "translit": "jade", "ru": "22 декабря — 19 января"},
       {"dari": "حوت", "translit": "hut", "ru": "19 февраля — 20 марта"}
     ]
