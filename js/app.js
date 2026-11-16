@@ -1768,11 +1768,24 @@
   const renderTextbook = (num) => {
     const book = TEXTBOOKS[num];
     if (!book) return notFound();
-    if (num === 2) return `<div class="page">
-      <div class="page-head"><div><span class="eyebrow">Учебник · курс 2</span><h1>Островский · 2-й год обучения</h1><p>${esc(book.title)}. ${esc(book.note)}</p></div><div class="page-head-actions"><a class="btn btn-ghost" href="${esc(book.path)}" target="_blank" rel="noopener">${svg("external")} Открыть</a><a class="btn btn-primary" href="${esc(book.path)}" download="${esc(book.title)}.pdf">${svg("download")} Скачать · ${book.size}</a></div></div>
-      <h2 style="margin-bottom:24px">Словарь</h2><div class="pack-grid textbook-collections">${textbook2Collections.map((collection) => `<a class="pack-card" href="#/textbook-2/lesson-${collection.id}" style="--pack-color:var(--green)"><span class="pack-icon">📚</span><h3>${collection.title}</h3><div class="pack-sub">${collection.cards.length} карточек · ${collection.cards.length} слов</div><p>Открыть карточки для изучения слов</p><div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:0%"></div></div><span>0/${collection.cards.length}</span></div></a>`).join("")}</div><h2 style="margin-top:36px">Отработка фраз</h2><p style="margin-bottom:24px">Собирайте предложения из слов — 23 урока.</p><div class="pack-grid textbook-collections">${Array.from({length:23},(_,i)=>i+1).map(n=>`<a class="pack-card" href="#/textbook-2/phrases-${n}" style="--pack-color:var(--gold)"><span class="pack-icon">🧩</span><h3>Урок ${n}</h3><div class="pack-sub">Отработка фраз</div><p>Собрать предложение из слов</p><div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:${n===8?(JSON.parse(localStorage.getItem("phraseDone8")||"[]").length/2*100):0}%"></div></div><span>${n===8?JSON.parse(localStorage.getItem("phraseDone8")||"[]").length:0}/${n===8?2:0}</span></div></a>`).join("")}</div>
-      <div class="pdf-frame-wrap textbook-frame"><iframe src="${esc(book.path)}#view=FitH" title="${esc(book.title)}" allow="autoplay"></iframe></div>
-    </div>`;
+    if (num === 2) {
+      const phraseDone = JSON.parse(localStorage.getItem("phraseDone8") || "[]");
+      return `<div class="page textbook-page">
+        <div class="page-head"><div><span class="eyebrow">Учебник · курс 2</span><h1>Островский · 2-й год обучения</h1><p>${esc(book.title)}. ${esc(book.note)}</p></div><div class="page-head-actions"><a class="btn btn-ghost" href="${esc(book.path)}" target="_blank" rel="noopener">${svg("external")} Открыть</a><a class="btn btn-primary" href="${esc(book.path)}" download="${esc(book.title)}.pdf">${svg("download")} Скачать · ${book.size}</a></div></div>
+        <details class="textbook-section">
+          <summary><span><strong>Словарь</strong><small>23 урока · ${textbook2Collections.reduce((sum, item) => sum + item.cards.length, 0)} слов</small></span><span class="textbook-section-toggle">${svg("chevronRight")}</span></summary>
+          <div class="pack-grid textbook-collections textbook-vocab-grid">${textbook2Collections.map((collection) => `<a class="pack-card" href="#/textbook-2/lesson-${collection.id}" style="--pack-color:var(--green)"><span class="pack-icon">📚</span><h3>${collection.title}</h3><div class="pack-sub">${collection.cards.length} слов</div><div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:0%"></div></div><span>0/${collection.cards.length}</span></div></a>`).join("")}</div>
+        </details>
+        <details class="textbook-section">
+          <summary><span><strong>Отработка фраз</strong><small>Собирайте предложения из слов · 23 урока</small></span><span class="textbook-section-toggle">${svg("chevronRight")}</span></summary>
+          <div class="pack-grid textbook-collections textbook-phrase-grid">${Array.from({length:23},(_,i)=>i+1).map(n=>`<a class="pack-card" href="#/textbook-2/phrases-${n}" style="--pack-color:var(--gold)"><span class="pack-icon">🧩</span><h3>Урок ${n}</h3><div class="pack-sub">Отработка фраз</div><div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:${n===8?(phraseDone.length/2*100):0}%"></div></div><span>${n===8?phraseDone.length:0}/${n===8?2:0}</span></div></a>`).join("")}</div>
+        </details>
+        <section class="textbook-pdf-section">
+          <div class="textbook-pdf-copy"><strong>Учебник в PDF</strong><span>Просмотрщик загружается только по запросу, чтобы страница открывалась быстрее.</span></div>
+          <div class="pdf-frame-wrap textbook-frame" data-pdf-wrap data-pdf-src="${esc(book.path)}" data-pdf-title="${esc(book.title)}"><button class="btn btn-ghost" type="button" data-load-pdf>${svg("bookOpen")} Показать учебник</button></div>
+        </section>
+      </div>`;
+    }
     const view = book.path ? `${book.path}#view=FitH` : drivePdf(book.driveId);
     const open = book.path || `https://drive.google.com/file/d/${encodeURIComponent(book.driveId)}/view`;
     const download = book.path || driveDownload(book.driveId);
