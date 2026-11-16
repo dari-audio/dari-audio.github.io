@@ -1186,7 +1186,8 @@
       ui.flashIndex = 0;
       ui.flashFlipped = false;
     }
-    if (!Array.isArray(ui.packOrders[pack.id]) || ui.packOrders[pack.id].length !== pack.cards.length) {\n      ui.packOrders[pack.id] = pack.cards.map((_, i) => i);\n    }\n    const index = clamp(ui.flashIndex, 0, pack.cards.length - 1);
+    if (!Array.isArray(ui.packOrders[pack.id]) || ui.packOrders[pack.id].length !== pack.cards.length) {
+      ui.packOrders[pack.id] = pack.cards.map((_, i) => i);\n    }\n    const index = clamp(ui.flashIndex, 0, pack.cards.length - 1);
     const card = pack.cards[index];
     const known = packKnown(pack);
     const pct = Math.round((known / Math.max(1, pack.cards.length)) * 100);
@@ -1227,7 +1228,7 @@
         const key = `${pack.id}:${i}`;
         const wordKnown = Boolean(state.words[key]);
         return `<div class="word-row ${wordKnown ? "known" : ""}">
-          <span class="idx">${pad(i + 1)}</span>
+          <span class="idx">${pad(displayIndex + 1)}</span>
           ${word.numeral ? `<span class="idx" style="width:auto;color:var(--terra)">${esc(word.numeral)}</span>` : ""}
           <span class="dari">${esc(word.dari)}</span>
           <span class="translit">${esc(word.translit)}</span>
