@@ -1264,6 +1264,7 @@
           <button class="${ui.packView === "cards" ? "active" : ""}" type="button" data-pack-view="cards">${svg("cards")} Карточки</button>
           <button class="${ui.packView === "list" ? "active" : ""}" type="button" data-pack-view="list">${svg("list")} Список</button>
         </div>
+        <button class="btn btn-soft btn-sm" type="button" data-shuffle-pack="${esc(pack.id)}">↝ Перемешать</button>
         <div class="progress-inline" style="min-width:220px"><div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div><span>${pct}%</span></div>
       </div>
       ${ui.packView === "list" ? list : flash}
