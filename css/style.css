@@ -1807,31 +1807,56 @@ kbd {
 }
 .textbook-section .pack-card {
   display: grid;
-  grid-template-columns: 29px minmax(0, 1fr);
-  grid-template-rows: auto auto;
-  align-items: center;
-  column-gap: 8px;
-  min-height: 62px;
-  padding: 8px 10px;
+  grid-template-columns: 30px minmax(0, 1fr);
+  grid-template-rows: auto auto auto;
+  align-items: start;
+  align-content: center;
+  row-gap: 4px;
+  column-gap: 10px;
+  min-height: 68px;
+  padding: 9px 11px;
   border-radius: 12px;
 }
 .textbook-section .pack-icon {
-  grid-row: 1 / 3;
-  width: 27px;
-  height: 27px;
+  grid-column: 1;
+  grid-row: 1 / 4;
+  align-self: center;
+  justify-self: center;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
   margin: 0;
-  border-radius: 8px;
+  border-radius: 9px;
   font-size: .82rem;
+  line-height: 1;
 }
-.textbook-section .pack-card h3 { font-size: .76rem; line-height: 1.2; }
-.textbook-section .pack-card .pack-sub { font-size: .58rem; }
+.textbook-section .pack-card h3 {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+  margin: 0;
+  font-size: .77rem;
+  line-height: 1.25;
+  letter-spacing: .005em;
+}
+.textbook-section .pack-card .pack-sub {
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0;
+  font-size: .6rem;
+  line-height: 1.25;
+  color: var(--muted);
+}
 .textbook-section .pack-foot {
   grid-column: 2;
-  padding-top: 3px;
-  gap: 7px;
+  grid-row: 3;
+  align-self: center;
+  padding-top: 2px;
+  gap: 8px;
 }
 .textbook-section .pack-foot .progress-track { height: 2px; }
-.textbook-section .pack-foot span { font-size: .54rem; }
+.textbook-section .pack-foot span { font-size: .55rem; line-height: 1.2; }
 .textbook-pdf-section {
   display: flex;
   align-items: center;
@@ -1853,11 +1878,11 @@ kbd {
   .textbook-section > summary { min-height: 68px; padding: 13px 14px; }
   .textbook-section > summary strong { font-size: 1.05rem; }
   .textbook-section .textbook-collections { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 0 9px 9px; gap: 6px; }
-  .textbook-section .pack-card { min-height: 58px; padding: 7px 8px; grid-template-columns: 25px minmax(0, 1fr); column-gap: 7px; }
-  .textbook-section .pack-icon { width: 24px; height: 24px; }
-  .textbook-section .pack-card h3 { font-size: .7rem; }
-  .textbook-section .pack-card .pack-sub { font-size: .53rem; }
-  .textbook-section .pack-foot span { font-size: .5rem; }
+  .textbook-section .pack-card { min-height: 64px; padding: 8px 9px; grid-template-columns: 25px minmax(0, 1fr); column-gap: 8px; row-gap: 4px; }
+  .textbook-section .pack-icon { width: 23px; height: 23px; }
+  .textbook-section .pack-card h3 { font-size: .71rem; }
+  .textbook-section .pack-card .pack-sub { font-size: .55rem; }
+  .textbook-section .pack-foot span { font-size: .51rem; }
   .textbook-pdf-section { align-items: flex-start; flex-direction: column; }
   .textbook-pdf-section .textbook-frame { width: 100%; }
   .textbook-pdf-section .textbook-frame iframe { width: 100%; min-height: 65vh; }
