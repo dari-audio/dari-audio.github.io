@@ -1226,8 +1226,9 @@
     </div>`;
 
     const list = `<div class="word-list">
-      ${pack.cards.map((word, i) => {
-        const key = `${pack.id}:${i}`;
+      ${ui.packOrders[pack.id].map((originalIndex, displayIndex) => {
+        const word = pack.cards[originalIndex];
+        const key = `${pack.id}:${originalIndex}`;
         const wordKnown = Boolean(state.words[key]);
         return `<div class="word-row ${wordKnown ? "known" : ""}">
           <span class="idx">${pad(displayIndex + 1)}</span>
