@@ -1855,3 +1855,47 @@ kbd {
   .textbook-pdf-section .textbook-frame { width: 100%; }
   .textbook-pdf-section .textbook-frame iframe { width: 100%; min-height: 65vh; }
 }
+
+
+/* Компактные плитки тематических наборов словаря */
+.pack-grid {
+  grid-template-columns: repeat(auto-fill, minmax(205px, 1fr));
+  gap: 10px;
+}
+.pack-grid .pack-card {
+  min-height: 188px;
+  padding: 16px;
+  border-radius: 15px;
+}
+.pack-grid .pack-icon {
+  width: 38px;
+  height: 38px;
+  margin-bottom: 10px;
+  border-radius: 11px;
+  font-size: 1.08rem;
+}
+.pack-grid .pack-card h3 { font-size: 0.92rem; }
+.pack-grid .pack-card p {
+  margin-top: 5px;
+  font-size: 0.68rem;
+}
+.pack-grid .pack-foot { padding-top: 10px; gap: 9px; }
+.pack-grid .pack-badge { top: 14px; right: 14px; }
+@media (max-width: 720px) {
+  .pack-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+  .pack-grid .pack-card {
+    min-height: 166px;
+    padding: 12px;
+  }
+  .pack-grid .pack-icon {
+    width: 34px;
+    height: 34px;
+    margin-bottom: 8px;
+  }
+  .pack-grid .pack-card h3 { font-size: 0.82rem; }
+  .pack-grid .pack-card p { font-size: 0.64rem; }
+  .pack-grid .pack-badge { top: 10px; right: 10px; }
+}
