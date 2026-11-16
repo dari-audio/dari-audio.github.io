@@ -1950,3 +1950,19 @@ kbd {
   .page:has(.proverb-card) .hero h1 { font-size: 1.75rem; }
   .page:has(.proverb-card) .hero-actions { margin-top: 13px; }
 }
+
+
+/* Smaller sentence exercises on Textbook 2 phrase pages */
+.phrase-practice .phrase-task { padding: 14px !important; margin: 10px 0 !important; }
+.phrase-practice .phrase-prompt { font-size: .96rem; line-height: 1.4; margin-bottom: 10px; }
+.phrase-practice .phrase-answer { min-height: 42px; gap: 6px; padding: 7px; margin-bottom: 9px; }
+.phrase-practice .phrase-bank { gap: 6px; margin: 9px 0 12px; }
+.phrase-practice .phrase-word,
+.phrase-practice .phrase-picked { font-size: 1.18rem; line-height: 1.4; padding: 3px 9px; }
+.phrase-practice .phrase-feedback { font-size: .88rem; margin-top: 8px; }
+.phrase-practice .phrase-task > .btn { min-height: 32px; padding: 0 11px; font-size: .68rem; }
+@media (max-width: 600px) {
+  .phrase-practice .phrase-task { padding: 11px !important; }
+  .phrase-practice .phrase-word,
+  .phrase-practice .phrase-picked { font-size: 1.08rem; padding: 3px 8px; }
+}
