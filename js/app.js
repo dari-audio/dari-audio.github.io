@@ -1190,10 +1190,10 @@
       ui.packOrders[pack.id] = pack.cards.map((_, i) => i);
     }
     const index = clamp(ui.flashIndex, 0, pack.cards.length - 1);
-    const card = pack.cards[index];
+    const card = pack.cards[ui.packOrders[pack.id][index]];
     const known = packKnown(pack);
     const pct = Math.round((known / Math.max(1, pack.cards.length)) * 100);
-    const isKnown = Boolean(state.words[`${pack.id}:${index}`]);
+    const isKnown = Boolean(state.words[`${pack.id}:${ui.packOrders[pack.id][index]}`]);
     ui.flashIndex = index;
 
     const flash = `<div class="flash-wrap">
@@ -1226,8 +1226,8 @@
     </div>`;
 
     const list = `<div class="word-list">
-      ${ui.packOrders[pack.id].map((originalIndex, displayIndex) => {
-        const word = pack.cards[originalIndex];
+      ${pack.cards.map((word, displayIndex) => {
+        const originalIndex = displayIndex;
         const key = `${pack.id}:${originalIndex}`;
         const wordKnown = Boolean(state.words[key]);
         return `<div class="word-row ${wordKnown ? "known" : ""}">
@@ -2260,7 +2260,9 @@
           next.push(next.shift());
         }
         ui.packOrders[packId] = next;
-        ui.packView = "list";
+        ui.flashIndex = 0;
+        ui.flashFlipped = false;
+        ui.packView = "cards";
         renderRoute({ scroll: false });
         toast("Порядок слов перемешан");
       }
