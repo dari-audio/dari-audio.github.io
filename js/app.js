@@ -875,6 +875,7 @@
       ["isolated", "Изолированная"], ["initial", "Начальная"], ["medial", "Срединная"], ["final", "Конечная"],
     ].map(([key, label]) => `<div class="form-cell"><span class="dari">${esc(letter.forms[key])}</span><span>${label}</span></div>`).join("");
     const audioButtons = (letter.audioFiles || []).map((src, i) => `<button class="btn btn-soft btn-sm" type="button" data-play-src="${esc(src)}" data-queue="intro:${esc(letter.lesson)}" data-qindex="${i}" data-title="${esc(stripExt(basename(src)))}" data-subtitle="Буква ${esc(letter.name)}">${svg("play")} ${esc(stripExt(basename(src)))}</button>`).join("");
+    const archiveAudioButton = letter.archiveAudioId ? `<button class="btn btn-soft btn-sm" type="button" data-lib-play="${esc(letter.archiveAudioId)}" data-title="Звук буквы ${esc(letter.char)}" data-subtitle="Архив · ${esc(letter.name)}">${svg("play")} Звук буквы (${esc(letter.char)})</button>` : "";
     return `
       <div class="letter-modal-top">
         <div class="letter-modal-char">${esc(letter.char)}</div>
@@ -887,7 +888,7 @@
       <div class="modal-section"><h3>Четыре формы</h3><div class="forms-grid">${forms}</div></div>
       <div class="modal-section"><h3>Примеры</h3><div class="example-grid">${examples}</div></div>
       <div class="tip-box"><strong>Подсказка.</strong> ${esc(letter.tip)}</div>
-      ${audioButtons ? `<div class="modal-section"><h3>Аудиоурок</h3><div class="modal-actions" style="margin:0;padding:0;border:0">${audioButtons}</div></div>` : ""}
+      ${audioButtons || archiveAudioButton ? `<div class="modal-section"><h3>Аудиоурок</h3><div class="modal-actions" style="margin:0;padding:0;border:0">${audioButtons}${archiveAudioButton}</div></div>` : ""}
       <div class="modal-actions">
         <button class="btn ${known ? "btn-soft" : "btn-primary"}" type="button" data-letter-toggle="${esc(letter.id)}" aria-pressed="${known}">${known ? svg("check") + " Изучена" : "Отметить изученной"}</button>
         <a class="btn btn-ghost" href="#/intro/${esc(letter.lesson)}">Вводный урок ${esc(letter.lesson)} ${svg("arrowRight")}</a>
