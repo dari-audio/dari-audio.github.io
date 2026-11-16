@@ -1143,6 +1143,17 @@
       </div>
 
       <div class="section-head">
+        <div><h2>Аудиотренажёры</h2><p>Наборы без перевода: тренируйте слух на тематических подборках из архива.</p></div>
+        <span class="small muted">${fmt(DATA.vocab.trainers.reduce((s, t) => s + t.count, 0))} записей</span>
+      </div>
+      <div class="trainer-grid">
+        ${DATA.vocab.trainers.map((trainer) => `<a class="trainer-card" href="#/trainer/${esc(trainer.id)}">
+          <span class="trainer-icon">${svg("headphones")}</span>
+          <div><h4>${esc(trainer.title)}</h4><p>${esc(trainer.description)}</p></div>
+          <span class="count">${trainer.count}</span>
+        </a>`).join("")}
+      </div>
+      <div class="section-head">
         <div><h2>Слова без озвучки</h2><p>Тематические подборки для изучения по карточкам — без аудиозаписей.</p></div>
         <span class="small muted">${(DATA.vocab.noAudioPacks || []).reduce((sum, pack) => sum + pack.cards.length, 0)} слов</span>
       </div>
@@ -1161,17 +1172,6 @@
         }).join("")}
       </div>
 
-      <div class="section-head">
-        <div><h2>Аудиотренажёры</h2><p>Наборы без перевода: тренируйте слух на тематических подборках из архива.</p></div>
-        <span class="small muted">${fmt(DATA.vocab.trainers.reduce((s, t) => s + t.count, 0))} записей</span>
-      </div>
-      <div class="trainer-grid">
-        ${DATA.vocab.trainers.map((trainer) => `<a class="trainer-card" href="#/trainer/${esc(trainer.id)}">
-          <span class="trainer-icon">${svg("headphones")}</span>
-          <div><h4>${esc(trainer.title)}</h4><p>${esc(trainer.description)}</p></div>
-          <span class="count">${trainer.count}</span>
-        </a>`).join("")}
-      </div>
       <div class="notice" style="margin-top:24px">${svg("info")}<span>Совет: сначала слушайте запись с закрытыми глазами, потом повторяйте вслух, и только затем смотрите на перевод. Так слух привыкает к настоящему ритму дари.</span></div>
     </div>`;
   };
