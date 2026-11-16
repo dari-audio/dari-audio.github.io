@@ -1187,7 +1187,9 @@
       ui.flashFlipped = false;
     }
     if (!Array.isArray(ui.packOrders[pack.id]) || ui.packOrders[pack.id].length !== pack.cards.length) {
-      ui.packOrders[pack.id] = pack.cards.map((_, i) => i);\n    }\n    const index = clamp(ui.flashIndex, 0, pack.cards.length - 1);
+      ui.packOrders[pack.id] = pack.cards.map((_, i) => i);
+    }
+    const index = clamp(ui.flashIndex, 0, pack.cards.length - 1);
     const card = pack.cards[index];
     const known = packKnown(pack);
     const pct = Math.round((known / Math.max(1, pack.cards.length)) * 100);
