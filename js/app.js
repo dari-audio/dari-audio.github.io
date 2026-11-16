@@ -57,6 +57,7 @@
     const text = new Date().toLocaleDateString("ru-RU", { weekday: "long", day: "numeric", month: "long" });
     return text.charAt(0).toUpperCase() + text.slice(1);
   };
+  const solarDateLabel = () => new Intl.DateTimeFormat("fa-AF-u-ca-persian", { day: "numeric", month: "long", year: "numeric" }).format(new Date());
   const greeting = () => {
     const h = new Date().getHours();
     if (h < 5) return "Доброй ночи";
@@ -634,7 +635,7 @@
     return `<div class="page">
       <div class="hero">
         <div class="hero-copy">
-          <div class="hero-kicker"><span class="dot"></span>${esc(dateLabel())} · курс аудирования</div>
+          <div class="hero-kicker"><span class="dot"></span>${esc(dateLabel())} <span class="solar-date" lang="fa-AF" dir="rtl">${esc(solarDateLabel())}</span> · курс аудирования</div>
           <h1>Учебные аудирования языка дари</h1>
           <p>Сайт находится в разработке</p>
           <div class="hero-actions">
