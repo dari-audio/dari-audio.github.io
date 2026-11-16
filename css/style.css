@@ -1932,3 +1932,21 @@ kbd {
   .pack-grid .pack-card p { font-size: 0.64rem; }
   .pack-grid .pack-badge { top: 10px; right: 10px; }
 }
+
+
+/* Более компактный главный баннер, чтобы пословица помещалась на первом экране */
+.page:has(.proverb-card) .hero {
+  min-height: 0;
+  padding: 28px 36px;
+  gap: 18px;
+}
+.page:has(.proverb-card) .hero-kicker { margin-bottom: 10px; }
+.page:has(.proverb-card) .hero h1 { font-size: clamp(1.8rem, 3.2vw, 2.65rem); }
+.page:has(.proverb-card) .hero-copy p { margin-top: 8px; font-size: .82rem; }
+.page:has(.proverb-card) .hero-actions { margin-top: 16px; }
+.page:has(.proverb-card) .hero-actions .btn-lg { min-height: 42px; padding: 0 17px; font-size: .78rem; }
+@media (max-width: 720px) {
+  .page:has(.proverb-card) .hero { padding: 23px 20px; border-radius: 22px; }
+  .page:has(.proverb-card) .hero h1 { font-size: 1.75rem; }
+  .page:has(.proverb-card) .hero-actions { margin-top: 13px; }
+}
