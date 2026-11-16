@@ -1783,12 +1783,12 @@
     const renderPhrasePractice = (lessonNum) => {
     const n=Number(lessonNum);
     const tasks=n===8?[
-      {prompt:"Уже слишком поздно",answer:"کار از کار رفته",words:["کار","از","کار","رفته","من","است","بسیار"]},
-      {prompt:"Не надо далеко ходить за примером",answer:"دور نرویم نزدیک",words:["دور","نرویم","نزدیک","مثال","برای","من"]},
-      {prompt:"Я купил пишущую машинку за 20 тыс. афгани",answer:"ماشین تیپ را ۲۰ هزار افغانی خریدم",words:["ماشین","تیپ","را","۲۰","هزار","افغانی","خریدم"]},
-      {prompt:"Почему ты продаешь это мясо?",answer:"این گوشت را چند می‌دهی؟",words:["این","گوشت","را","چند","می‌دهی؟"]},
-      {prompt:"Купи перца на два афгани.",answer:"دو افغانی را مرچ بخر",words:["دو","افغانی","را","مرچ","بخر"]},
-      {prompt:"Разменяете сто афгани?",answer:"صد افغانی را میده دارید؟",words:["صد","افغانی","را","میده","دارید؟"]}
+      {prompt:"Уже слишком поздно",answer:"کار از کار رفته",words:["کار","از","کار","رفته","من","است","بسیار","خانه","کتاب","خوب"]},
+      {prompt:"Не надо далеко ходить за примером",answer:"دور نرویم نزدیک",words:["دور","نرویم","نزدیک","مثال","برای","من","امروز","بازار","بسیار"]},
+      {prompt:"Я купил пишущую машинку за 20 тыс. афгани",answer:"ماشین تیپ را ۲۰ هزار افغانی خریدم",words:["ماشین","تیپ","را","۲۰","هزار","افغانی","خریدم","کتاب","خوب","امروز"]},
+      {prompt:"Почему ты продаешь это мясо?",answer:"این گوشت را چند می‌دهی؟",words:["این","گوشت","را","چند","می‌دهی؟","چرا","خوب","امروز"]},
+      {prompt:"Купи перца на два афгани.",answer:"دو افغانی را مرچ بخر",words:["دو","افغانی","را","مرچ","بخر","خانه","کتاب","امروز"]},
+      {prompt:"Разменяете сто афгани?",answer:"صد افغانی را میده دارید؟",words:["صد","افغانی","را","میده","دارید؟","چند","خوب","کتاب"]}
     ]:[];
     const done=JSON.parse(localStorage.getItem("phraseDone8")||"[]");
     return `<div class="page phrase-practice"><a class="back-link" href="#/textbook-2">← Все уроки</a><h1>Отработка фраз · Урок ${n}</h1>${tasks.map((t,i)=>`<div class="card phrase-task" style="padding:22px;margin:16px 0"><p class="phrase-prompt">${t.prompt}</p><div data-phrase-answer="${i}" class="phrase-answer" dir="rtl"></div><div class="phrase-bank" dir="rtl">${t.words.slice().sort(()=>Math.random()-.5).map((w,j)=>`<button type="button" class="btn btn-soft phrase-word" data-phrase-word="${i}" data-word="${w}" data-token="${j}">${w}</button>`).join("")}</div><button type="button" class="btn btn-primary" data-phrase-check="${i}" data-phrase-correct="${encodeURIComponent(t.answer)}">Проверить</button> <button type="button" class="btn btn-ghost" data-phrase-reset="${i}">Сброс</button><p class="phrase-feedback" data-phrase-feedback="${i}">${done.includes(i)?"Верно! ✓":""}</p></div>`).join("")||`<div class="card" style="padding:20px">Задания для этого урока скоро появятся.</div>`}</div>`;
