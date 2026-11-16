@@ -6,12 +6,12 @@
     "pdf": "3. INTRODUCTORY LESSONS A and B.pdf",
     "audio": ["3. Intro A.mp3"],
     "words": [
-      {"dari": "باب", "translit": "bāb", "ru": "дверь"},
-      {"dari": "آب", "translit": "āb", "ru": "вода"},
-      {"dari": "پا", "translit": "pā", "ru": "нога"},
-      {"dari": "توپ", "translit": "tōp", "ru": "мяч"},
-      {"dari": "توت", "translit": "tut", "ru": "ягода"},
-      {"dari": "بوت", "translit": "bōt", "ru": "обувь"}
+      {"dari": "باب", "bāb", "ru": "дверь"},
+      {"dari": "آب", "āb", "ru": "вода"},
+      {"dari": "پا", "pā", "ru": "нога"},
+      {"dari": "توپ", "tōp", "ru": "мяч"},
+      {"dari": "توت", "tut", "ru": "ягода"},
+      {"dari": "بوت", "bōt", "ru": "обувь"}
     ]
   },
   {
@@ -21,12 +21,12 @@
     "pdf": "3. INTRODUCTORY LESSONS A and B.pdf",
     "audio": ["3. Intro B.mp3"],
     "words": [
-      {"dari": "تاج", "translit": "tāj", "ru": "корона"},
-      {"dari": "خواب", "translit": "khwāb", "ru": "сон"},
-      {"dari": "چوب", "translit": "čōb", "ru": "дерево"},
-      {"dari": "خوب", "translit": "khub", "ru": "хороший"},
-      {"dari": "جا", "translit": "jā", "ru": "место"},
-      {"dari": "حوت", "translit": "hut", "ru": "месяц афганского календаря"}
+      {"dari": "تاج", "tāj", "ru": "корона"},
+      {"dari": "خواب", "xwāb", "ru": "сон"},
+      {"dari": "چوب", "čōb", "ru": "дерево"},
+      {"dari": "خوب", "xub", "ru": "хороший"},
+      {"dari": "جا", "jā", "ru": "место"},
+      {"dari": "حوت", "hut", "ru": "месяц афганского календаря"}
     ]
   },
   {
@@ -36,12 +36,12 @@
     "pdf": "4. INTRODUCTORY LESSON C.pdf",
     "audio": ["4. Intro C.mp3"],
     "words": [
-      {"dari": "دل", "translit": "del", "ru": "сердце"},
-      {"dari": "دور", "translit": "dur", "ru": "далеко"},
-      {"dari": "دود", "translit": "dud", "ru": "дым"},
-      {"dari": "زود", "translit": "zud", "ru": "рано"},
-      {"dari": "کاغذ", "translit": "kāğaz", "ru": "бумага"},
-      {"dari": "ژرف", "translit": "zharf", "ru": "глубокий"}
+      {"dari": "دل", "del", "ru": "сердце"},
+      {"dari": "دور", "dur", "ru": "далеко"},
+      {"dari": "دود", "dud", "ru": "дым"},
+      {"dari": "زود", "zud", "ru": "рано"},
+      {"dari": "کاغذ", "kāğaz", "ru": "бумага"},
+      {"dari": "ژرف", "zharf", "ru": "глубокий"}
     ]
   },
   {
@@ -51,12 +51,12 @@
     "pdf": "6. INTRODUCTORY LESSON D + HW A-C.pdf",
     "audio": ["6. Intro D.mp3", "6. HW A-C.mp3"],
     "words": [
-      {"dari": "ساز", "translit": "sāz", "ru": "музыкальный инструмент"},
-      {"dari": "شاد", "translit": "šād", "ru": "весёлый"},
-      {"dari": "صادر", "translit": "sāder", "ru": "экспорт"},
-      {"dari": "طفل", "translit": "tefl", "ru": "ребёнок"},
-      {"dari": "غار", "translit": "ğār", "ru": "пещера"},
-      {"dari": "قلم", "translit": "qalam", "ru": "ручка"}
+      {"dari": "ساز", "sāz", "ru": "музыкальный инструмент"},
+      {"dari": "شاد", "šād", "ru": "весёлый"},
+      {"dari": "صادر", "sāder", "ru": "экспорт"},
+      {"dari": "طفل", "tefl", "ru": "ребёнок"},
+      {"dari": "غار", "ğār", "ru": "пещера"},
+      {"dari": "قلم", "qalam", "ru": "ручка"}
     ]
   },
   {
@@ -66,12 +66,12 @@
     "pdf": "7. INTRODUCTORY LESSONS E and F.pdf",
     "audio": ["7. Intro E.mp3"],
     "words": [
-      {"dari": "کم", "translit": "kam", "ru": "мало"},
-      {"dari": "گل", "translit": "gol", "ru": "цветок"},
-      {"dari": "مردم", "translit": "mardom", "ru": "люди"},
-      {"dari": "خانه", "translit": "khāna", "ru": "дом"},
-      {"dari": "میوه", "translit": "mēwa", "ru": "фрукт"},
-      {"dari": "یک", "translit": "yak", "ru": "один"}
+      {"dari": "کم", "kam", "ru": "мало"},
+      {"dari": "گل", "gol", "ru": "цветок"},
+      {"dari": "مردم", "mardom", "ru": "люди"},
+      {"dari": "خانه", "xāna", "ru": "дом"},
+      {"dari": "میوه", "mēwa", "ru": "фрукт"},
+      {"dari": "یک", "yak", "ru": "один"}
     ]
   },
   {
@@ -81,12 +81,12 @@
     "pdf": "7. INTRODUCTORY LESSONS E and F.pdf",
     "audio": [],
     "words": [
-      {"dari": "آسیا", "translit": "Āseyā", "ru": "Азия"},
-      {"dari": "افغانستان", "translit": "Afğānestān", "ru": "Афганистан"},
-      {"dari": "ایران", "translit": "Īrān", "ru": "Иран"},
-      {"dari": "اروپا", "translit": "Urupā", "ru": "Европа"},
-      {"dari": "آمریکا", "translit": "Amrikā", "ru": "Америка"},
-      {"dari": "روسیه", "translit": "Ruseya", "ru": "Россия"}
+      {"dari": "آسیا", "Āseyā", "ru": "Азия"},
+      {"dari": "افغانستان", "Afğānestān", "ru": "Афганистан"},
+      {"dari": "ایران", "Īrān", "ru": "Иран"},
+      {"dari": "اروپا", "Urupā", "ru": "Европа"},
+      {"dari": "آمریکا", "Amrikā", "ru": "Америка"},
+      {"dari": "روسیه", "Ruseya", "ru": "Россия"}
     ]
   },
   {
@@ -96,12 +96,12 @@
     "pdf": "8. INTRODUCTORY LESSON G.pdf",
     "audio": [],
     "words": [
-      {"dari": "پَر", "translit": "par", "ru": "перо"},
-      {"dari": "سَر", "translit": "sar", "ru": "голова"},
-      {"dari": "دَم", "translit": "dam", "ru": "дыхание"},
-      {"dari": "دَر", "translit": "dar", "ru": "в"},
-      {"dari": "نان", "translit": "nān", "ru": "хлеб"},
-      {"dari": "گُل", "translit": "gol", "ru": "цветок"}
+      {"dari": "پَر", "par", "ru": "перо"},
+      {"dari": "سَر", "sar", "ru": "голова"},
+      {"dari": "دَم", "dam", "ru": "дыхание"},
+      {"dari": "دَر", "dar", "ru": "в"},
+      {"dari": "نان", "nān", "ru": "хлеб"},
+      {"dari": "گُل", "gol", "ru": "цветок"}
     ]
   },
   {
@@ -111,12 +111,12 @@
     "pdf": "10. INTRODUCTORY LESSON H + HW D-G.pdf",
     "audio": ["10. Intro H.mp3", "10. HW D-G.mp3"],
     "words": [
-      {"dari": "تلفن", "translit": "talefun", "ru": "телефон"},
-      {"dari": "کمپیوتر", "translit": "kampyutar", "ru": "компьютер"},
-      {"dari": "رادیو", "translit": "rādyō", "ru": "радио"},
-      {"dari": "تلویزیون", "translit": "talvezyun", "ru": "телевизор"},
-      {"dari": "تکسی", "translit": "taksi", "ru": "такси"},
-      {"dari": "جیپ", "translit": "jip", "ru": "джип"}
+      {"dari": "تلفن", "talefun", "ru": "телефон"},
+      {"dari": "کمپیوتر", "kampyutar", "ru": "компьютер"},
+      {"dari": "رادیو", "rādyō", "ru": "радио"},
+      {"dari": "تلویزیون", "talvezyun", "ru": "телевизор"},
+      {"dari": "تکسی", "taksi", "ru": "такси"},
+      {"dari": "جیپ", "jip", "ru": "джип"}
     ]
   },
   {
@@ -126,13 +126,13 @@
     "pdf": "11. INTRODUCTORY LESSONS I and J and K.pdf",
     "audio": ["11. Intro I.mp3"],
     "words": [
-      {"dari": "صفر", "translit": "sefr", "ru": "0 — ноль"},
-      {"dari": "یک", "translit": "yak", "ru": "1 — один"},
-      {"dari": "دو", "translit": "du", "ru": "2 — два"},
-      {"dari": "سه", "translit": "sē", "ru": "3 — три"},
-      {"dari": "چهار", "translit": "čahār", "ru": "4 — четыре"},
-      {"dari": "پنج", "translit": "panj", "ru": "5 — пять"},
-      {"dari": "ده", "translit": "dah", "ru": "10 — десять"}
+      {"dari": "صفر", "sefr", "ru": "0 — ноль"},
+      {"dari": "یک", "yak", "ru": "1 — один"},
+      {"dari": "دو", "du", "ru": "2 — два"},
+      {"dari": "سه", "sē", "ru": "3 — три"},
+      {"dari": "چهار", "čahār", "ru": "4 — четыре"},
+      {"dari": "پنج", "panj", "ru": "5 — пять"},
+      {"dari": "ده", "dah", "ru": "10 — десять"}
     ]
   },
   {
@@ -142,12 +142,12 @@
     "pdf": "11. INTRODUCTORY LESSONS I and J and K.pdf",
     "audio": ["11. Intro J.mp3"],
     "words": [
-      {"dari": "سیاه", "translit": "seyāh", "ru": "чёрный"},
-      {"dari": "سفید", "translit": "safēd", "ru": "белый"},
-      {"dari": "سبز", "translit": "sabz", "ru": "зелёный"},
-      {"dari": "سرخ", "translit": "sorkh", "ru": "красный"},
-      {"dari": "زرد", "translit": "zard", "ru": "жёлтый"},
-      {"dari": "آبی", "translit": "ābi", "ru": "синий"}
+      {"dari": "سیاه", "seyāh", "ru": "чёрный"},
+      {"dari": "سفید", "safēd", "ru": "белый"},
+      {"dari": "سبز", "sabz", "ru": "зелёный"},
+      {"dari": "سرخ", "sorx", "ru": "красный"},
+      {"dari": "زرد", "zard", "ru": "жёлтый"},
+      {"dari": "آبی", "ābi", "ru": "синий"}
     ]
   },
   {
@@ -157,12 +157,12 @@
     "pdf": "11. INTRODUCTORY LESSONS I and J and K.pdf",
     "audio": [],
     "words": [
-      {"dari": "یک کمپیوتر", "translit": "yak kampyutar", "ru": "один компьютер"},
-      {"dari": "دو کمپیوتر", "translit": "du kampyutar", "ru": "два компьютера"},
-      {"dari": "کمپیوتر سیاه", "translit": "kampyutar-e seyāh", "ru": "чёрный компьютер"},
-      {"dari": "تلیفون کریمی", "translit": "talefun-e karimi", "ru": "бежевый телефон"},
-      {"dari": "ده هلیکوپتر سفید", "translit": "dah halekōpetar-e safēd", "ru": "десять белых вертолётов"},
-      {"dari": "سه کتاب", "translit": "sē ketāb", "ru": "три книги"}
+      {"dari": "یک کمپیوتر", "yak kampyutar", "ru": "один компьютер"},
+      {"dari": "دو کمپیوتر", "du kampyutar", "ru": "два компьютера"},
+      {"dari": "کمپیوتر سیاه", "kampyutar-e seyāh", "ru": "чёрный компьютер"},
+      {"dari": "تلیفون کریمی", "talefun-e karimi", "ru": "бежевый телефон"},
+      {"dari": "ده هلیکوپتر سفید", "dah halekōpetar-e safēd", "ru": "десять белых вертолётов"},
+      {"dari": "سه کتاب", "sē ketāb", "ru": "три книги"}
     ]
   },
   {
@@ -172,12 +172,12 @@
     "pdf": "13. INTRODUCTORY LESSONS L and M and N.pdf",
     "audio": ["13. Intro L.mp3", "14. HW L-N.mp3"],
     "words": [
-      {"dari": "میز", "translit": "mēz", "ru": "стол"},
-      {"dari": "چوکی", "translit": "čawki", "ru": "стул"},
-      {"dari": "تخته", "translit": "takhta", "ru": "доска"},
-      {"dari": "نقشه", "translit": "naqša", "ru": "карта"},
-      {"dari": "کلکین", "translit": "kelkin", "ru": "окно"},
-      {"dari": "کتاب", "translit": "ketāb", "ru": "книга"}
+      {"dari": "میز", "mēz", "ru": "стол"},
+      {"dari": "چوکی", "čawki", "ru": "стул"},
+      {"dari": "تخته", "taxta", "ru": "доска"},
+      {"dari": "نقشه", "naqša", "ru": "карта"},
+      {"dari": "کلکین", "kelkin", "ru": "окно"},
+      {"dari": "کتاب", "ketāb", "ru": "книга"}
     ]
   },
   {
@@ -187,12 +187,12 @@
     "pdf": "13. INTRODUCTORY LESSONS L and M and N.pdf",
     "audio": ["13. Intro M.mp3"],
     "words": [
-      {"dari": "پیسه", "translit": "paysa", "ru": "деньги"},
-      {"dari": "عکس", "translit": "aks", "ru": "фотография"},
-      {"dari": "تلیفون جیبی", "translit": "talefun-e jēbi", "ru": "мобильный телефон"},
-      {"dari": "عینک", "translit": "aynak", "ru": "очки"},
-      {"dari": "دستکول", "translit": "dastkaol", "ru": "сумка"},
-      {"dari": "کلید", "translit": "kelid", "ru": "ключ"}
+      {"dari": "پیسه", "paysa", "ru": "деньги"},
+      {"dari": "عکس", "aks", "ru": "фотография"},
+      {"dari": "تلیفون جیبی", "talefun-e jēbi", "ru": "мобильный телефон"},
+      {"dari": "عینک", "aynak", "ru": "очки"},
+      {"dari": "دستکول", "dastkaol", "ru": "сумка"},
+      {"dari": "کلید", "kelid", "ru": "ключ"}
     ]
   },
   {
@@ -202,11 +202,11 @@
     "pdf": "13. INTRODUCTORY LESSONS L and M and N.pdf",
     "audio": [],
     "words": [
-      {"dari": "سه کتاب سفید", "translit": "sē ketāb-e safēd", "ru": "три белые книги"},
-      {"dari": "چهار عینک سیاه", "translit": "čahār aynak-e seyāh", "ru": "четыре чёрных очка"},
-      {"dari": "دو دستکول", "translit": "du dastkaol", "ru": "две сумки"},
-      {"dari": "یک چوکی سبز", "translit": "yak čawki-e sabz", "ru": "один зелёный стул"},
-      {"dari": "پنج کتاب", "translit": "panj ketāb", "ru": "пять книг"}
+      {"dari": "سه کتاب سفید", "sē ketāb-e safēd", "ru": "три белые книги"},
+      {"dari": "چهار عینک سیاه", "čahār aynak-e seyāh", "ru": "четыре чёрных очка"},
+      {"dari": "دو دستکول", "du dastkaol", "ru": "две сумки"},
+      {"dari": "یک چوکی سبز", "yak čawki-e sabz", "ru": "один зелёный стул"},
+      {"dari": "پنج کتاب", "panj ketāb", "ru": "пять книг"}
     ]
   },
   {
@@ -216,12 +216,12 @@
     "pdf": "17. INTRODUCTORY LESSON O.pdf",
     "audio": ["17. Intro O.mp3"],
     "words": [
-      {"dari": "خانه", "translit": "khāna", "ru": "дом"},
-      {"dari": "اتاق", "translit": "otāq", "ru": "комната"},
-      {"dari": "اتاق خواب", "translit": "otāq-e khwāb", "ru": "спальня"},
-      {"dari": "آشپزخانه", "translit": "āšpazkhāna", "ru": "кухня"},
-      {"dari": "تشناب", "translit": "tašnāb", "ru": "ванная"},
-      {"dari": "یخچال", "translit": "yakhčāl", "ru": "холодильник"}
+      {"dari": "خانه", "xāna", "ru": "дом"},
+      {"dari": "اتاق", "otāq", "ru": "комната"},
+      {"dari": "اتاق خواب", "otāq-e xwāb", "ru": "спальня"},
+      {"dari": "آشپزخانه", "āšpazxāna", "ru": "кухня"},
+      {"dari": "تشناب", "tašnāb", "ru": "ванная"},
+      {"dari": "یخچال", "yaxčāl", "ru": "холодильник"}
     ]
   },
   {
@@ -231,13 +231,13 @@
     "pdf": "18. INTRODUCTORY LESSON P.pdf",
     "audio": ["18. Intro P.mp3"],
     "words": [
-      {"dari": "پدر", "translit": "padar", "ru": "отец"},
-      {"dari": "مادر", "translit": "mādar", "ru": "мать"},
-      {"dari": "برادر", "translit": "barādar", "ru": "брат"},
-      {"dari": "خواهر", "translit": "khwāhar", "ru": "сестра"},
-      {"dari": "پسر", "translit": "pesar", "ru": "сын"},
-      {"dari": "دختر", "translit": "dokhtar", "ru": "дочь"},
-      {"dari": "فامیل", "translit": "fāmil", "ru": "семья"}
+      {"dari": "پدر", "padar", "ru": "отец"},
+      {"dari": "مادر", "mādar", "ru": "мать"},
+      {"dari": "برادر", "barādar", "ru": "брат"},
+      {"dari": "خواهر", "xwāhar", "ru": "сестра"},
+      {"dari": "پسر", "pesar", "ru": "сын"},
+      {"dari": "دختر", "doxtar", "ru": "дочь"},
+      {"dari": "فامیل", "fāmil", "ru": "семья"}
     ]
   },
   {
@@ -247,14 +247,14 @@
     "pdf": "19. INTRODUCTORY LESSON Q.pdf",
     "audio": ["19. Intro Q.mp3", "20. AUT O-Q.mp3", "21. HW O-Q.mp3"],
     "words": [
-      {"dari": "دوست", "translit": "dōst", "ru": "друг"},
-      {"dari": "عسکر", "translit": "askar", "ru": "солдат"},
-      {"dari": "همصنفی", "translit": "hamsenfi", "ru": "одноклассник"},
-      {"dari": "دهقان", "translit": "dehqān", "ru": "крестьянин"},
-      {"dari": "داکتر", "translit": "dāktar", "ru": "врач"},
-      {"dari": "نرس", "translit": "nars", "ru": "медсестра"},
-      {"dari": "انجینیر", "translit": "enjinyar", "ru": "инженер"},
-      {"dari": "دوکاندار", "translit": "dukāndār", "ru": "продавец"}
+      {"dari": "دوست", "dōst", "ru": "друг"},
+      {"dari": "عسکر", "askar", "ru": "солдат"},
+      {"dari": "همصنفی", "hamsenfi", "ru": "одноклассник"},
+      {"dari": "دهقان", "dehqān", "ru": "крестьянин"},
+      {"dari": "داکتر", "dāktar", "ru": "врач"},
+      {"dari": "نرس", "nars", "ru": "медсестра"},
+      {"dari": "انجینیر", "enjinyar", "ru": "инженер"},
+      {"dari": "دوکاندار", "dukāndār", "ru": "продавец"}
     ]
   },
   {
@@ -264,13 +264,13 @@
     "pdf": "22. INTRODUCTORY LESSON R.pdf",
     "audio": ["22. Intro R.mp3"],
     "words": [
-      {"dari": "یازده", "translit": "yāzdah", "ru": "11"},
-      {"dari": "دوازده", "translit": "dawāzdah", "ru": "12"},
-      {"dari": "سیزده", "translit": "sēzdah", "ru": "13"},
-      {"dari": "چهارده", "translit": "čahārdah", "ru": "14"},
-      {"dari": "بیست", "translit": "bist", "ru": "20"},
-      {"dari": "صد", "translit": "sad", "ru": "100"},
-      {"dari": "هزار", "translit": "hazār", "ru": "1000"}
+      {"dari": "یازده", "yāzdah", "ru": "11"},
+      {"dari": "دوازده", "dawāzdah", "ru": "12"},
+      {"dari": "سیزده", "sēzdah", "ru": "13"},
+      {"dari": "چهارده", "čahārdah", "ru": "14"},
+      {"dari": "بیست", "bist", "ru": "20"},
+      {"dari": "صد", "sad", "ru": "100"},
+      {"dari": "هزار", "hazār", "ru": "1000"}
     ]
   },
   {
@@ -280,14 +280,14 @@
     "pdf": "23. INTRODUCTORY LESSONS S and T.pdf",
     "audio": ["23. Intro S.mp3"],
     "words": [
-      {"dari": "شنبه", "translit": "šanbey", "ru": "суббота"},
-      {"dari": "یکشنبه", "translit": "yak-šanbey", "ru": "воскресенье"},
-      {"dari": "دوشنبه", "translit": "du-šanbey", "ru": "понедельник"},
-      {"dari": "سه‌شنبه", "translit": "sē-šanbey", "ru": "вторник"},
-      {"dari": "چهارشنبه", "translit": "čahār-šanbey", "ru": "среда"},
-      {"dari": "پنجشنبه", "translit": "panj-šanbey", "ru": "четверг"},
-      {"dari": "جمعه", "translit": "joma", "ru": "пятница"},
-      {"dari": "هفته", "translit": "hafta", "ru": "неделя"}
+      {"dari": "شنبه", "šanbey", "ru": "суббота"},
+      {"dari": "یکشنبه", "yak-šanbey", "ru": "воскресенье"},
+      {"dari": "دوشنبه", "du-šanbey", "ru": "понедельник"},
+      {"dari": "سه‌شنبه", "sē-šanbey", "ru": "вторник"},
+      {"dari": "چهارشنبه", "čahār-šanbey", "ru": "среда"},
+      {"dari": "پنجشنبه", "panj-šanbey", "ru": "четверг"},
+      {"dari": "جمعه", "joma", "ru": "пятница"},
+      {"dari": "هفته", "hafta", "ru": "неделя"}
     ]
   },
   {
@@ -297,13 +297,13 @@
     "pdf": "23. INTRODUCTORY LESSONS S and T.pdf",
     "audio": ["23. Intro T.mp3"],
     "words": [
-      {"dari": "صبح", "translit": "sobh", "ru": "утро"},
-      {"dari": "ظهر", "translit": "zohr", "ru": "полдень"},
-      {"dari": "شام", "translit": "šām", "ru": "вечер"},
-      {"dari": "شب", "translit": "šab", "ru": "ночь"},
-      {"dari": "دیروز", "translit": "diruz", "ru": "вчера"},
-      {"dari": "امروز", "translit": "emruz", "ru": "сегодня"},
-      {"dari": "صبا", "translit": "sabā", "ru": "завтра"}
+      {"dari": "صبح", "sobh", "ru": "утро"},
+      {"dari": "ظهر", "zohr", "ru": "полдень"},
+      {"dari": "شام", "šām", "ru": "вечер"},
+      {"dari": "شب", "šab", "ru": "ночь"},
+      {"dari": "دیروز", "diruz", "ru": "вчера"},
+      {"dari": "امروز", "emruz", "ru": "сегодня"},
+      {"dari": "صبا", "sabā", "ru": "завтра"}
     ]
   },
   {
@@ -313,12 +313,12 @@
     "pdf": "25. INTRODUCTORY LESSONS U and V + HW R-T.pdf",
     "audio": ["25. Intro U.mp3"],
     "words": [
-      {"dari": "ساعت", "translit": "sā'at", "ru": "час, часы"},
-      {"dari": "دقیقه", "translit": "daqiqa", "ru": "минута"},
-      {"dari": "نیم", "translit": "nēm", "ru": "половина"},
-      {"dari": "ربع", "translit": "rob'", "ru": "четверть"},
-      {"dari": "ساعت پنج", "translit": "sā'at-e panj", "ru": "пять часов"},
-      {"dari": "ساعت پنج و نیم", "translit": "sā'at-e panj-o-nēm", "ru": "половина шестого"}
+      {"dari": "ساعت", "sā'at", "ru": "час, часы"},
+      {"dari": "دقیقه", "daqiqa", "ru": "минута"},
+      {"dari": "نیم", "nēm", "ru": "половина"},
+      {"dari": "ربع", "rob'", "ru": "четверть"},
+      {"dari": "ساعت پنج", "sā'at-e panj", "ru": "пять часов"},
+      {"dari": "ساعت پنج و نیم", "sā'at-e panj-o-nēm", "ru": "половина шестого"}
     ]
   },
   {
@@ -328,14 +328,14 @@
     "pdf": "25. INTRODUCTORY LESSONS U and V + HW R-T.pdf",
     "audio": ["25. Intro V.mp3"],
     "words": [
-      {"dari": "برخاستن", "translit": "bar khāstan", "ru": "вставать"},
-      {"dari": "خوردن", "translit": "khurdan", "ru": "есть"},
-      {"dari": "نوشیدن", "translit": "nušidan", "ru": "пить"},
-      {"dari": "خواندن", "translit": "khwāndan", "ru": "читать, учиться"},
-      {"dari": "خوابیدن", "translit": "khwābidan", "ru": "спать"},
-      {"dari": "خریدن", "translit": "kharidan", "ru": "покупать"},
-      {"dari": "دیدن", "translit": "didan", "ru": "видеть"},
-      {"dari": "پختن", "translit": "pokhtan", "ru": "готовить"}
+      {"dari": "برخاستن", "bar xāstan", "ru": "вставать"},
+      {"dari": "خوردن", "xurdan", "ru": "есть"},
+      {"dari": "نوشیدن", "nušidan", "ru": "пить"},
+      {"dari": "خواندن", "xwāndan", "ru": "читать, учиться"},
+      {"dari": "خوابیدن", "xwābidan", "ru": "спать"},
+      {"dari": "خریدن", "xaridan", "ru": "покупать"},
+      {"dari": "دیدن", "didan", "ru": "видеть"},
+      {"dari": "پختن", "poxtan", "ru": "готовить"}
     ]
   },
   {
@@ -345,14 +345,14 @@
     "pdf": "26. INTRODUCTORY LESSON W.pdf",
     "audio": ["26. Intro W.mp3", "27. AUT U-W.mp3", "28. HW U-W.mp3"],
     "words": [
-      {"dari": "مکتب", "translit": "maktab", "ru": "школа"},
-      {"dari": "دفتر", "translit": "daftar", "ru": "офис"},
-      {"dari": "بازار", "translit": "bāzār", "ru": "рынок"},
-      {"dari": "رستوران", "translit": "rastōrān", "ru": "ресторан"},
-      {"dari": "دوکان", "translit": "dukān", "ru": "магазин"},
-      {"dari": "پارک", "translit": "pārk", "ru": "парк"},
-      {"dari": "کتابخانه", "translit": "ketābkhāna", "ru": "библиотека"},
-      {"dari": "شفاخانه", "translit": "šafākhāna", "ru": "больница"}
+      {"dari": "مکتب", "maktab", "ru": "школа"},
+      {"dari": "دفتر", "daftar", "ru": "офис"},
+      {"dari": "بازار", "bāzār", "ru": "рынок"},
+      {"dari": "رستوران", "rastōrān", "ru": "ресторан"},
+      {"dari": "دوکان", "dukān", "ru": "магазин"},
+      {"dari": "پارک", "pārk", "ru": "парк"},
+      {"dari": "کتابخانه", "ketābxāna", "ru": "библиотека"},
+      {"dari": "شفاخانه", "šafāxāna", "ru": "больница"}
     ]
   },
   {
@@ -362,14 +362,14 @@
     "pdf": "29. INTRODUCTORY LESSONS X and Y and Z.pdf",
     "audio": ["29. Intro X.mp3"],
     "words": [
-      {"dari": "زمین", "translit": "zamin", "ru": "земля"},
-      {"dari": "آسمان", "translit": "āsmān", "ru": "небо"},
-      {"dari": "دریا", "translit": "daryā", "ru": "река"},
-      {"dari": "کوه", "translit": "kōh", "ru": "гора"},
-      {"dari": "باغ", "translit": "bāğ", "ru": "сад"},
-      {"dari": "گل", "translit": "gol", "ru": "цветок"},
-      {"dari": "درخت", "translit": "darakht", "ru": "дерево"},
-      {"dari": "سنگ", "translit": "sang", "ru": "камень"}
+      {"dari": "زمین", "zamin", "ru": "земля"},
+      {"dari": "آسمان", "āsmān", "ru": "небо"},
+      {"dari": "دریا", "daryā", "ru": "река"},
+      {"dari": "کوه", "kōh", "ru": "гора"},
+      {"dari": "باغ", "bāğ", "ru": "сад"},
+      {"dari": "گل", "gol", "ru": "цветок"},
+      {"dari": "درخت", "daraxt", "ru": "дерево"},
+      {"dari": "سنگ", "sang", "ru": "камень"}
     ]
   },
   {
@@ -379,14 +379,14 @@
     "pdf": "29. INTRODUCTORY LESSONS X and Y and Z.pdf",
     "audio": ["29. Intro Y.mp3"],
     "words": [
-      {"dari": "فصل", "translit": "fasl", "ru": "сезон"},
-      {"dari": "بهار", "translit": "bahār", "ru": "весна"},
-      {"dari": "تابستان", "translit": "tābestān", "ru": "лето"},
-      {"dari": "خزان", "translit": "khazān", "ru": "осень"},
-      {"dari": "زمستان", "translit": "zemestān", "ru": "зима"},
-      {"dari": "باران", "translit": "bārān", "ru": "дождь"},
-      {"dari": "برف", "translit": "barf", "ru": "снег"},
-      {"dari": "گرم", "translit": "garm", "ru": "тёплый"}
+      {"dari": "فصل", "fasl", "ru": "сезон"},
+      {"dari": "بهار", "bahār", "ru": "весна"},
+      {"dari": "تابستان", "tābestān", "ru": "лето"},
+      {"dari": "خزان", "xazān", "ru": "осень"},
+      {"dari": "زمستان", "zemestān", "ru": "зима"},
+      {"dari": "باران", "bārān", "ru": "дождь"},
+      {"dari": "برف", "barf", "ru": "снег"},
+      {"dari": "گرم", "garm", "ru": "тёплый"}
     ]
   },
   {
@@ -396,14 +396,14 @@
     "pdf": "29. INTRODUCTORY LESSONS X and Y and Z.pdf",
     "audio": ["29. Intro Z.mp3", "30. AUT X-Z.mp3", "30. HW X-Z.mp3"],
     "words": [
-      {"dari": "حمل", "translit": "hamal", "ru": "21 марта — 19 апреля"},
-      {"dari": "ثور", "translit": "sawr", "ru": "20 апреля — 20 мая"},
-      {"dari": "جوزا", "translit": "jawzā", "ru": "21 мая — 20 июня"},
-      {"dari": "سرطان", "translit": "saratān", "ru": "21 июня — 22 июля"},
-      {"dari": "اسد", "translit": "asad", "ru": "23 июля — 22 августа"},
-      {"dari": "میزان", "translit": "mizān", "ru": "23 сентября — 22 октября"},
-      {"dari": "جدی", "translit": "jade", "ru": "22 декабря — 19 января"},
-      {"dari": "حوت", "translit": "hut", "ru": "19 февраля — 20 марта"}
+      {"dari": "حمل", "hamal", "ru": "21 марта — 19 апреля"},
+      {"dari": "ثور", "sawr", "ru": "20 апреля — 20 мая"},
+      {"dari": "جوزا", "jawzā", "ru": "21 мая — 20 июня"},
+      {"dari": "سرطان", "saratān", "ru": "21 июня — 22 июля"},
+      {"dari": "اسد", "asad", "ru": "23 июля — 22 августа"},
+      {"dari": "میزان", "mizān", "ru": "23 сентября — 22 октября"},
+      {"dari": "جدی", "jade", "ru": "22 декабря — 19 января"},
+      {"dari": "حوت", "hut", "ru": "19 февраля — 20 марта"}
     ]
   }
 ]
