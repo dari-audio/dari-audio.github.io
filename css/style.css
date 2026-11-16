@@ -1764,3 +1764,11 @@ kbd {
   .audio-row .code { width: 32px; }
   .trainer-word { font-size: 1.02rem; }
 }
+
+/* Phrase assembly practice */
+.phrase-practice .phrase-prompt{font-size:1.2rem;font-weight:600;margin:0 0 16px}
+.phrase-practice .phrase-answer{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:8px;min-height:58px;border:1px dashed var(--border);padding:10px;border-radius:12px;margin-bottom:14px}
+.phrase-practice .phrase-bank{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0 18px;justify-content:flex-start}
+.phrase-practice .phrase-word,.phrase-practice .phrase-picked{font-family:Tahoma,"Noto Naskh Arabic",Arial,sans-serif;font-size:1.55rem;line-height:1.55;padding:5px 13px}
+.phrase-practice .phrase-picked{border:1px solid var(--border);border-radius:10px;background:var(--surface);cursor:pointer}
+.phrase-practice .phrase-feedback{font-size:1.05rem;font-weight:600;margin:12px 0 0}
