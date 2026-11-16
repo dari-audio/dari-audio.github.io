@@ -1759,12 +1759,17 @@
       </div></div>
       ${ui.textbook2View === "list" ? list : flash}</div>`;
   };
-    const renderTextbook = (num) => {
+    const renderPhrasePractice = (lessonNum) => {
+    const n=Number(lessonNum);
+    const tasks=n===8?[{prompt:"Уже слишком поздно",answer:"کار از کار رفته"},{prompt:"Не надо далеко ходить за примером",answer:"دور نرویم نزدیک"}]:[];
+    return `<div class="page"><a class="back-link" href="#/textbook-2">← Все уроки</a><h1>Отработка фраз · Урок ${n}</h1>${tasks.map((t,i)=>`<div class="card" style="padding:20px;margin:16px 0"><p><b>Дано:</b> ${t.prompt}</p><p>Надо собрать:</p><div data-phrase-answer="${i}" style="min-height:44px;border:1px dashed var(--border);padding:10px;border-radius:10px"></div><div style="display:flex;flex-wrap:wrap;gap:8px;margin:12px 0">${t.answer.split(" ").sort(()=>Math.random()-.5).map(w=>`<button class="btn btn-soft" data-phrase-word="${i}" data-word="${w}">${w}</button>`).join("")}</div><button class="btn btn-primary" data-phrase-check="${i}" data-answer="${encodeURIComponent(t.answer)}">Проверить</button> <button class="btn btn-ghost" data-phrase-reset="${i}">Сброс</button><p data-phrase-feedback="${i}"></p></div>`).join("")||`<div class="card" style="padding:20px">Задания для этого урока скоро появятся.</div>`}</div>`;
+  };
+  const renderTextbook = (num) => {
     const book = TEXTBOOKS[num];
     if (!book) return notFound();
     if (num === 2) return `<div class="page">
       <div class="page-head"><div><span class="eyebrow">Учебник · курс 2</span><h1>Островский · 2-й год обучения</h1><p>${esc(book.title)}. ${esc(book.note)}</p></div><div class="page-head-actions"><a class="btn btn-ghost" href="${esc(book.path)}" target="_blank" rel="noopener">${svg("external")} Открыть</a><a class="btn btn-primary" href="${esc(book.path)}" download="${esc(book.title)}.pdf">${svg("download")} Скачать · ${book.size}</a></div></div>
-      <div class="pack-grid textbook-collections">${textbook2Collections.map((collection) => `<a class="pack-card" href="#/textbook-2/lesson-${collection.id}" style="--pack-color:var(--green)"><span class="pack-icon">📚</span><h3>${collection.title}</h3><div class="pack-sub">${collection.cards.length} карточек · ${collection.cards.length} слов</div><p>Открыть карточки для изучения слов</p><div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:0%"></div></div><span>0/${collection.cards.length}</span></div></a>`).join("")}</div>
+      <h2>Словарь</h2><div class="pack-grid textbook-collections">${textbook2Collections.map((collection) => `<a class="pack-card" href="#/textbook-2/lesson-${collection.id}" style="--pack-color:var(--green)"><span class="pack-icon">📚</span><h3>${collection.title}</h3><div class="pack-sub">${collection.cards.length} карточек · ${collection.cards.length} слов</div><p>Открыть карточки для изучения слов</p><div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:0%"></div></div><span>0/${collection.cards.length}</span></div></a>`).join("")}</div><h2 style="margin-top:36px">Отработка фраз</h2><p>Собирайте предложения из слов — 23 урока.</p><div class="pack-grid textbook-collections">${Array.from({length:23},(_,i)=>i+1).map(n=>`<a class="pack-card" href="#/textbook-2/phrases-${n}" style="--pack-color:var(--gold)"><span class="pack-icon">🧩</span><h3>Урок ${n}</h3><div class="pack-sub">Отработка фраз</div><p>Собрать предложение из слов</p></a>`).join("")}</div>
       <div class="pdf-frame-wrap textbook-frame"><iframe src="${esc(book.path)}#view=FitH" title="${esc(book.title)}" allow="autoplay"></iframe></div>
     </div>`;
     const view = book.path ? `${book.path}#view=FitH` : drivePdf(book.driveId);
@@ -2000,7 +2005,7 @@
     else if (section === "practice") html = renderPractice();
     else if (section === "library") html = renderLibrary(parts[1]);
     else if (section === "textbook-1") html = renderTextbook(1);
-    else if (section === "textbook-2" || section === "textbook") html = parts[1] && parts[1].startsWith("lesson-") ? renderTextbook2Collection(parts[1].slice(7)) : renderTextbook(2);
+    else if (section === "textbook-2" || section === "textbook") html = parts[1] && parts[1].startsWith("lesson-") ? renderTextbook2Collection(parts[1].slice(7)) : parts[1] && parts[1].startsWith("phrases-") ? renderPhrasePractice(parts[1].slice(8)) : renderTextbook(2);
     else if (section === "about") html = renderAbout();
     else html = notFound();
 
@@ -2248,6 +2253,9 @@
     if (target.closest("[data-quiz-again]")) { startQuiz(); return; }
     if (target.closest("[data-quiz-setup]")) { quiz = null; renderRoute({ scroll: false }); return; }
 
+    if (target.closest("[data-phrase-word]")) { const b=target.closest("[data-phrase-word]");const a=$(`[data-phrase-answer="${b.dataset.phraseWord}"]`);if(a)a.textContent=(a.textContent+" "+b.dataset.word).trim();b.disabled=true;return;}
+    if (target.closest("[data-phrase-reset]")) {const id=target.closest("[data-phrase-reset]").dataset.phraseReset;const a=$(`[data-phrase-answer="${id}"]`);if(a)a.textContent="";$(`[data-phrase-word="${id}"]`).forEach(b=>b.disabled=false);const f=$(`[data-phrase-feedback="${id}"]`);if(f)f.textContent="";return;}
+    if (target.closest("[data-phrase-check]")) {const b=target.closest("[data-phrase-check]");const a=$(`[data-phrase-answer="${b.dataset.phraseCheck}"]`);const f=$(`[data-phrase-feedback="${b.dataset.phraseCheck}"]`);if(a&&f)f.textContent=a.textContent.trim()===decodeURIComponent(b.dataset.answer)?"Верно! ✓":"Не совпадает, попробуйте ещё.";return;}
     if (target.closest("[data-textbook-prev]") || target.closest("[data-textbook-next]")) {
       const current = location.hash.match(/#\/textbook-2\/lesson-(\d+)/);
       const collection = current && textbook2Collections.find((item) => item.id === Number(current[1]));
