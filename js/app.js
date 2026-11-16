@@ -267,6 +267,7 @@
     practiceMode: "words",
     practiceCount: 10,
     textbook2View: "cards",
+    textbook2Orders: {},
     packOrders: {},
   };
 
@@ -1741,8 +1742,11 @@
   const renderTextbook2Collection = (lessonNum) => {
     const collection = textbook2Collections.find((item) => item.id === Number(lessonNum));
     if (!collection) return notFound("Коллекция не найдена");
+    if (!Array.isArray(ui.textbook2Orders[collection.id]) || ui.textbook2Orders[collection.id].length !== collection.cards.length) {
+      ui.textbook2Orders[collection.id] = collection.cards.map((_, i) => i);
+    }
     const index = clamp(ui.textbook2Index || 0, 0, collection.cards.length - 1);
-    const card = collection.cards[index];
+    const card = collection.cards[ui.textbook2Orders[collection.id][index]];
     const flipped = Boolean(ui.textbook2Flipped);
     const list = `<div class="word-list textbook-word-list">
       ${collection.cards.map((word, i) => `<div class="word-row">
@@ -1762,7 +1766,7 @@
       <div class="flash-toolbar"><div class="view-switch">
         <button class="${ui.textbook2View === "cards" ? "active" : ""}" type="button" data-textbook-view="cards">${svg("cards")} Карточки</button>
         <button class="${ui.textbook2View === "list" ? "active" : ""}" type="button" data-textbook-view="list">${svg("list")} Список</button>
-      </div></div>
+      </div><button class="btn btn-soft btn-sm" type="button" data-textbook-shuffle="${collection.id}">↝ Перемешать</button></div>
       ${ui.textbook2View === "list" ? list : flash}</div>`;
   };
     const renderPhrasePractice = (lessonNum) => {
@@ -2278,6 +2282,26 @@
     if (target.closest("[data-textbook-view]")) {
       ui.textbook2View = target.closest("[data-textbook-view]").dataset.textbookView;
       renderRoute({ scroll: false });
+      return;
+    }
+    if (target.closest("[data-textbook-shuffle]")) {
+      const collectionId = Number(target.closest("[data-textbook-shuffle]").dataset.textbookShuffle);
+      const collection = textbook2Collections.find((item) => item.id === collectionId);
+      if (collection) {
+        const previous = ui.textbook2Orders[collectionId] || collection.cards.map((_, i) => i);
+        const order = previous.slice();
+        for (let i = order.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [order[i], order[j]] = [order[j], order[i]];
+        }
+        if (order.length > 1 && order.every((value, i) => value === previous[i])) order.push(order.shift());
+        ui.textbook2Orders[collectionId] = order;
+        ui.textbook2Index = 0;
+        ui.textbook2Flipped = false;
+        ui.textbook2View = "cards";
+        renderRoute({ scroll: false });
+        toast("Карточки перемешаны");
+      }
       return;
     }
 
