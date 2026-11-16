@@ -267,6 +267,7 @@
     practiceMode: "words",
     practiceCount: 10,
     textbook2View: "cards",
+    packOrders: {},
   };
 
   /* ---------- Плеер ---------- */
@@ -1185,7 +1186,7 @@
       ui.flashIndex = 0;
       ui.flashFlipped = false;
     }
-    const index = clamp(ui.flashIndex, 0, pack.cards.length - 1);
+    if (!Array.isArray(ui.packOrders[pack.id]) || ui.packOrders[pack.id].length !== pack.cards.length) {\n      ui.packOrders[pack.id] = pack.cards.map((_, i) => i);\n    }\n    const index = clamp(ui.flashIndex, 0, pack.cards.length - 1);
     const card = pack.cards[index];
     const known = packKnown(pack);
     const pct = Math.round((known / Math.max(1, pack.cards.length)) * 100);
@@ -2244,6 +2245,23 @@
       renderRoute({ scroll: false });
       return;
     }
+    if (target.closest("[data-shuffle-pack]")) {
+      const packId = target.closest("[data-shuffle-pack]").dataset.shufflePack;
+      const pack = [...DATA.vocab.packs, ...(DATA.vocab.noAudioPacks || [])].find((item) => item.id === packId);
+      if (pack) {
+        const current = ui.packOrders[packId] || pack.cards.map((_, i) => i);
+        let next = shuffle(current);
+        if (next.length > 1 && next.every((value, i) => value === current[i])) {
+          next.push(next.shift());
+        }
+        ui.packOrders[packId] = next;
+        ui.packView = "list";
+        renderRoute({ scroll: false });
+        toast("Порядок слов перемешан");
+      }
+      return;
+    }
+
     if (target.closest("[data-pack-view]")) {
       ui.packView = target.closest("[data-pack-view]").dataset.packView;
       renderRoute({ scroll: false });
