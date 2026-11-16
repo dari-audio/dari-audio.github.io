@@ -2352,7 +2352,7 @@
       return;
     }
     if (target.closest("[data-flash-next]")) {
-      const pack = DATA.vocab.packs.find((x) => x.id === ui.flashPack);
+      const pack = [...DATA.vocab.packs, ...(DATA.vocab.noAudioPacks || [])].find((x) => x.id === ui.flashPack);
       if (pack) { ui.flashIndex = (ui.flashIndex + 1) % pack.cards.length; ui.flashFlipped = false; renderRoute({ scroll: false }); }
       return;
     }
@@ -2363,7 +2363,7 @@
       return;
     }
     if (target.closest("[data-flash-know]")) {
-      const pack = DATA.vocab.packs.find((x) => x.id === ui.flashPack);
+      const pack = [...DATA.vocab.packs, ...(DATA.vocab.noAudioPacks || [])].find((x) => x.id === ui.flashPack);
       if (pack) {
         const originalIndex = (ui.packOrders[pack.id] || pack.cards.map((_, i) => i))[ui.flashIndex];
         const key = `${pack.id}:${originalIndex}`;
