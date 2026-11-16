@@ -7,8 +7,8 @@
     "examples": [
       {"dari": "آب", "translit":"āb", "ru": "вода"},
       {"dari": "اسب", "translit":"asp", "ru": "лошадь"},
-      {"dari": "امروز", "translit":"emruz", "ru": "сегодня"},
-      {"dari": "اسم", "translit":"esm", "ru": "имя"}
+      {"dari": "امروز", "translit":"imrūz", "ru": "сегодня"},
+      {"dari": "اسم", "translit":"ism", "ru": "имя"}
     ]
   },
   {
@@ -20,7 +20,7 @@
       {"dari": "باب", "translit":"bāb", "ru": "дверь"},
       {"dari": "بوت", "translit":"bōt", "ru": "обувь"},
       {"dari": "توپ", "translit":"tōp", "ru": "мяч"},
-      {"dari": "کتاب", "translit":"ketāb", "ru": "книга"}
+      {"dari": "کتاب", "translit":"kitāb", "ru": "книга"}
     ]
   },
   {
@@ -31,8 +31,8 @@
     "examples": [
       {"dari": "پا", "translit":"pā", "ru": "нога"},
       {"dari": "پدر", "translit":"padar", "ru": "отец"},
-      {"dari": "پول", "translit":"pul", "ru": "деньги"},
-      {"dari": "چاپ", "translit":"čāp", "ru": "печать"}
+      {"dari": "پول", "translit":"pūl", "ru": "деньги"},
+      {"dari": "چاپ", "translit":"chāp", "ru": "печать"}
     ]
   },
   {
@@ -42,7 +42,7 @@
     "forms": {"isolated": "ت", "initial": "تـ", "medial": "ـتـ", "final": "ـت"},
     "examples": [
       {"dari": "تاب", "translit":"tāb", "ru": "блеск"},
-      {"dari": "توت", "translit":"tut", "ru": "ягода"},
+      {"dari": "توت", "translit":"tūt", "ru": "ягода"},
       {"dari": "تاج", "translit":"tāj", "ru": "корона"},
       {"dari": "تا", "translit":"tā", "ru": "до"}
     ]
@@ -53,8 +53,8 @@
     "tip": "Три точки сверху. Чаще встречается в словах арабского происхождения.",
     "forms": {"isolated": "ث", "initial": "ثـ", "medial": "ـثـ", "final": "ـث"},
     "examples": [
-      {"dari": "ثابت", "translit":"sābet", "ru": "постоянный"},
-      {"dari": "ثانیه", "translit":"sāneya", "ru": "секунда"},
+      {"dari": "ثابت", "translit":"sābit", "ru": "постоянный"},
+      {"dari": "ثانیه", "translit":"sāniya", "ru": "секунда"},
       {"dari": "ثمر", "translit":"samar", "ru": "плод"},
       {"dari": "ثروت", "translit":"sarwat", "ru": "богатство"}
     ]
@@ -68,19 +68,19 @@
       {"dari": "جاده", "translit":"jāda", "ru": "дорога"},
       {"dari": "جواب", "translit":"jawāb", "ru": "ответ"},
       {"dari": "جان", "translit":"jān", "ru": "душа"},
-      {"dari": "جمعه", "translit":"joma", "ru": "пятница"}
+      {"dari": "جمعه", "translit":"juma", "ru": "пятница"}
     ]
   },
   {
-    "id": "chey", "char": "چ", "name": "чей", "latin":"čey", "lesson": "B",
+    "id": "chey", "char": "چ", "name": "чей", "latin":"chey", "lesson": "B",
     "sound": "Как русское «ч».",
     "tip": "Три точки снизу — отличие от «джим» и «хе».",
     "forms": {"isolated": "چ", "initial": "چـ", "medial": "ـچـ", "final": "ـچ"},
     "examples": [
-      {"dari": "چای", "translit":"čāy", "ru": "чай"},
-      {"dari": "چوب", "translit":"čōb", "ru": "дерево"},
-      {"dari": "چطور", "translit":"četōr", "ru": "как"},
-      {"dari": "چاشت", "translit":"čāšt", "ru": "обед"}
+      {"dari": "چای", "translit":"chāy", "ru": "чай"},
+      {"dari": "چوب", "translit":"chōb", "ru": "дерево"},
+      {"dari": "چطور", "translit":"chitōr", "ru": "как"},
+      {"dari": "چاشت", "translit":"chāsht", "ru": "обед"}
     ]
   },
   {
@@ -91,7 +91,7 @@
     "examples": [
       {"dari": "حال", "translit":"hāl", "ru": "состояние"},
       {"dari": "حرف", "translit":"harf", "ru": "буква"},
-      {"dari": "حاضر", "translit":"hāzer", "ru": "готовый"},
+      {"dari": "حاضر", "translit":"hāzir", "ru": "готовый"},
       {"dari": "حوض", "translit":"hawz", "ru": "бассейн"}
     ]
   },
@@ -102,7 +102,7 @@
     "forms": {"isolated": "خ", "initial": "خـ", "medial": "ـخـ", "final": "ـخ"},
     "examples": [
       {"dari": "خانه", "translit":"xāna", "ru": "дом"},
-      {"dari": "خوب", "translit":"xub", "ru": "хороший"},
+      {"dari": "خوب", "translit":"xūb", "ru": "хороший"},
       {"dari": "خواهر", "translit":"xwāhar", "ru": "сестра"},
       {"dari": "خواب", "translit":"xwāb", "ru": "сон"}
     ]
@@ -113,7 +113,7 @@
     "tip": "Одна из пяти «несоединяемых» букв: после неё следующая буква пишется отдельно.",
     "forms": {"isolated": "د", "initial": "د", "medial": "ـد", "final": "ـد"},
     "examples": [
-      {"dari": "دل", "translit":"del", "ru": "сердце"},
+      {"dari": "دل", "translit":"dil", "ru": "сердце"},
       {"dari": "دست", "translit":"dast", "ru": "рука"},
       {"dari": "دوست", "translit":"dōst", "ru": "друг"},
       {"dari": "در", "translit":"dar", "ru": "дверь"}
@@ -125,8 +125,8 @@
     "tip": "Точка сверху. Не соединяется с последующей буквой.",
     "forms": {"isolated": "ذ", "initial": "ذ", "medial": "ـذ", "final": "ـذ"},
     "examples": [
-      {"dari": "ذغال", "translit":"zoğāl", "ru": "уголь"},
-      {"dari": "ذهن", "translit":"zehn", "ru": "ум"},
+      {"dari": "ذغال", "translit":"zughāl", "ru": "уголь"},
+      {"dari": "ذهن", "translit":"zihn", "ru": "ум"},
       {"dari": "ذره", "translit":"zarra", "ru": "частица"},
       {"dari": "ذوق", "translit":"zawq", "ru": "вкус"}
     ]
@@ -140,7 +140,7 @@
       {"dari": "راه", "translit":"rāh", "ru": "дорога"},
       {"dari": "روز", "translit":"rōz", "ru": "день"},
       {"dari": "رنگ", "translit":"rang", "ru": "цвет"},
-      {"dari": "رفیق", "translit":"rafiq", "ru": "друг"}
+      {"dari": "رفیق", "translit":"rafīq", "ru": "друг"}
     ]
   },
   {
@@ -152,7 +152,7 @@
       {"dari": "زبان", "translit":"zabān", "ru": "язык"},
       {"dari": "زن", "translit":"zan", "ru": "женщина"},
       {"dari": "زرد", "translit":"zard", "ru": "жёлтый"},
-      {"dari": "زمین", "translit":"zamin", "ru": "земля"}
+      {"dari": "زمین", "translit":"zamīn", "ru": "земля"}
     ]
   },
   {
@@ -163,8 +163,8 @@
     "examples": [
       {"dari": "ژرف", "translit":"zharf", "ru": "глубокий"},
       {"dari": "ژاله", "translit":"zhāla", "ru": "роса"},
-      {"dari": "ژورنالیست", "translit":"zhornālest", "ru": "журналист"},
-      {"dari": "ژنده", "translit":"zhenda", "ru": "рваный"}
+      {"dari": "ژورنالیست", "translit":"zhurnālist", "ru": "журналист"},
+      {"dari": "ژنده", "translit":"zhinda", "ru": "рваный"}
     ]
   },
   {
@@ -180,15 +180,15 @@
     ]
   },
   {
-    "id": "sheen", "char": "ش", "name": "шин", "latin":"šeen", "lesson": "D",
+    "id": "sheen", "char": "ش", "name": "шин", "latin":"sheen", "lesson": "D",
     "sound": "Как русское «ш».",
     "tip": "Три точки сверху. Не путайте с «син».",
     "forms": {"isolated": "ش", "initial": "شـ", "medial": "ـشـ", "final": "ـش"},
     "examples": [
-      {"dari": "شب", "translit":"šab", "ru": "ночь"},
-      {"dari": "شما", "translit":"šomā", "ru": "вы"},
-      {"dari": "شکر", "translit":"šakar", "ru": "сахар"},
-      {"dari": "شهر", "translit":"šahr", "ru": "город"}
+      {"dari": "شب", "translit":"shab", "ru": "ночь"},
+      {"dari": "شما", "translit":"shumā", "ru": "вы"},
+      {"dari": "شکر", "translit":"shakar", "ru": "сахар"},
+      {"dari": "شهر", "translit":"shahr", "ru": "город"}
     ]
   },
   {
@@ -197,9 +197,9 @@
     "tip": "В дари часто произносится почти как обычное «с». Встречается в арабских заимствованиях.",
     "forms": {"isolated": "ص", "initial": "صـ", "medial": "ـصـ", "final": "ـص"},
     "examples": [
-      {"dari": "صبح", "translit":"sobh", "ru": "утро"},
-      {"dari": "صندلی", "translit":"sandale", "ru": "стул"},
-      {"dari": "صابون", "translit":"sābun", "ru": "мыло"},
+      {"dari": "صبح", "translit":"subh", "ru": "утро"},
+      {"dari": "صندلی", "translit":"sandali", "ru": "стул"},
+      {"dari": "صابون", "translit":"sābūn", "ru": "мыло"},
       {"dari": "صدا", "translit":"sadā", "ru": "голос"}
     ]
   },
@@ -209,10 +209,10 @@
     "tip": "В речи дари часто звучит как обычное «з». Точка сверху.",
     "forms": {"isolated": "ض", "initial": "ضـ", "medial": "ـضـ", "final": "ـض"},
     "examples": [
-      {"dari": "ضعیف", "translit":"za'if", "ru": "слабый"},
+      {"dari": "ضعیف", "translit":"za'īf", "ru": "слабый"},
       {"dari": "ضرر", "translit":"zarar", "ru": "вред"},
       {"dari": "ضرب", "translit":"zarb", "ru": "удар"},
-      {"dari": "ضیافت", "translit":"zeyāfat", "ru": "угощение"}
+      {"dari": "ضیافت", "translit":"ziyāfat", "ru": "угощение"}
     ]
   },
   {
@@ -221,9 +221,9 @@
     "tip": "В дари часто звучит как обычное «т». Встречается в арабских словах.",
     "forms": {"isolated": "ط", "initial": "طـ", "medial": "ـطـ", "final": "ـط"},
     "examples": [
-      {"dari": "طفل", "translit":"tefl", "ru": "ребёнок"},
-      {"dari": "طالب", "translit":"tāleb", "ru": "студент"},
-      {"dari": "طوفان", "translit":"tufān", "ru": "буря"},
+      {"dari": "طفل", "translit":"tifl", "ru": "ребёнок"},
+      {"dari": "طالب", "translit":"tālib", "ru": "студент"},
+      {"dari": "طوفان", "translit":"tūfān", "ru": "буря"},
       {"dari": "طلا", "translit":"talā", "ru": "золото"}
     ]
   },
@@ -233,9 +233,9 @@
     "tip": "Точка сверху. В разговорной речи часто сближается с «з».",
     "forms": {"isolated": "ظ", "initial": "ظـ", "medial": "ـظـ", "final": "ـظ"},
     "examples": [
-      {"dari": "ظاهر", "translit":"zāher", "ru": "внешний"},
-      {"dari": "ظلم", "translit":"zolm", "ru": "несправедливость"},
-      {"dari": "ظهر", "translit":"zohr", "ru": "полдень"},
+      {"dari": "ظاهر", "translit":"zāhir", "ru": "внешний"},
+      {"dari": "ظلم", "translit":"zulm", "ru": "несправедливость"},
+      {"dari": "ظهر", "translit":"zuhr", "ru": "полдень"},
       {"dari": "ظرف", "translit":"zarf", "ru": "посуда"}
     ]
   },
@@ -246,21 +246,21 @@
     "forms": {"isolated": "ع", "initial": "عـ", "medial": "ـعـ", "final": "ـع"},
     "examples": [
       {"dari": "عکس", "translit":"aks", "ru": "фотография"},
-      {"dari": "علم", "translit":"elm", "ru": "знание"},
+      {"dari": "علم", "translit":"ilm", "ru": "знание"},
       {"dari": "عجله", "translit":"ajala", "ru": "спешка"},
       {"dari": "عصر", "translit":"asr", "ru": "вечер"}
     ]
   },
   {
-    "id": "ghayn", "char": "غ", "name": "гайн", "latin":"ğayn", "lesson": "D",
+    "id": "ghayn", "char": "غ", "name": "гайн", "latin":"ghayn", "lesson": "D",
     "sound": "Грассирующее «г», похоже на французское «r».",
     "tip": "Не путайте с «кхей»: «гайн» звонкий, «кхей» глухой.",
     "forms": {"isolated": "غ", "initial": "غـ", "medial": "ـغـ", "final": "ـغ"},
     "examples": [
-      {"dari": "غار", "translit":"ğār", "ru": "пещера"},
-      {"dari": "غریب", "translit":"ğarib", "ru": "чужой"},
-      {"dari": "غلط", "translit":"ğalat", "ru": "ошибка"},
-      {"dari": "غذا", "translit":"ğazā", "ru": "еда"}
+      {"dari": "غار", "translit":"ghār", "ru": "пещера"},
+      {"dari": "غریب", "translit":"gharīb", "ru": "чужой"},
+      {"dari": "غلط", "translit":"ghalat", "ru": "ошибка"},
+      {"dari": "غذا", "translit":"ghazā", "ru": "еда"}
     ]
   },
   {
@@ -270,9 +270,9 @@
     "forms": {"isolated": "ف", "initial": "فـ", "medial": "ـفـ", "final": "ـف"},
     "examples": [
       {"dari": "فردا", "translit":"fardā", "ru": "завтра"},
-      {"dari": "فامیل", "translit":"fāmil", "ru": "семья"},
-      {"dari": "فروشگاه", "translit":"forušgāh", "ru": "магазин"},
-      {"dari": "فکر", "translit":"fekr", "ru": "мысль"}
+      {"dari": "فامیل", "translit":"fāmīl", "ru": "семья"},
+      {"dari": "فروشگاه", "translit":"furūshgāh", "ru": "магазин"},
+      {"dari": "فکر", "translit":"fikr", "ru": "мысль"}
     ]
   },
   {
@@ -283,7 +283,7 @@
     "examples": [
       {"dari": "قلب", "translit":"qalb", "ru": "сердце"},
       {"dari": "قلم", "translit":"qalam", "ru": "ручка"},
-      {"dari": "قیمت", "translit":"qimat", "ru": "цена"},
+      {"dari": "قیمت", "translit":"qīmat", "ru": "цена"},
       {"dari": "قرار", "translit":"qarār", "ru": "решение"}
     ]
   },
@@ -293,10 +293,10 @@
     "tip": "Не путайте с «қоф»: «каф» — обычное «к».",
     "forms": {"isolated": "ک", "initial": "کـ", "medial": "ـکـ", "final": "ـک"},
     "examples": [
-      {"dari": "کتاب", "translit":"ketāb", "ru": "книга"},
-      {"dari": "کابل", "translit":"Kābol", "ru": "Кабул"},
+      {"dari": "کتاب", "translit":"kitāb", "ru": "книга"},
+      {"dari": "کابل", "translit":"Kābul", "ru": "Кабул"},
       {"dari": "کار", "translit":"kār", "ru": "работа"},
-      {"dari": "کجاست", "translit":"kojāst", "ru": "где"}
+      {"dari": "کجاست", "translit":"kujāst", "ru": "где"}
     ]
   },
   {
@@ -305,10 +305,10 @@
     "tip": "Две черты сверху. Часто встречается в дари, но редко в арабском.",
     "forms": {"isolated": "گ", "initial": "گـ", "medial": "ـگـ", "final": "ـگ"},
     "examples": [
-      {"dari": "گل", "translit":"gol", "ru": "цветок"},
+      {"dari": "گل", "translit":"gul", "ru": "цветок"},
       {"dari": "گرم", "translit":"garm", "ru": "тёплый"},
-      {"dari": "گندم", "translit":"gandom", "ru": "пшеница"},
-      {"dari": "گفتن", "translit":"goftan", "ru": "говорить"}
+      {"dari": "گندم", "translit":"gandum", "ru": "пшеница"},
+      {"dari": "گفتن", "translit":"guftan", "ru": "говорить"}
     ]
   },
   {
@@ -317,10 +317,10 @@
     "tip": "В слове «الله» и некоторых арабских словах имеет особую форму, но в обычном письме — как на карточке.",
     "forms": {"isolated": "ل", "initial": "لـ", "medial": "ـلـ", "final": "ـل"},
     "examples": [
-      {"dari": "لطفاً", "translit":"lotfan", "ru": "пожалуйста"},
-      {"dari": "لباس", "translit":"lebās", "ru": "одежда"},
-      {"dari": "لیمو", "translit":"limu", "ru": "лимон"},
-      {"dari": "لرزیدن", "translit":"larzidan", "ru": "дрожать"}
+      {"dari": "لطفاً", "translit":"lutfan", "ru": "пожалуйста"},
+      {"dari": "لباس", "translit":"libās", "ru": "одежда"},
+      {"dari": "لیمو", "translit":"līmū", "ru": "лимон"},
+      {"dari": "لرزیدن", "translit":"larzīdan", "ru": "дрожать"}
     ]
   },
   {
@@ -344,16 +344,16 @@
       {"dari": "نان", "translit":"nān", "ru": "хлеб"},
       {"dari": "نام", "translit":"nām", "ru": "имя"},
       {"dari": "نه", "translit":"na", "ru": "нет"},
-      {"dari": "نور", "translit":"nur", "ru": "свет"}
+      {"dari": "نور", "translit":"nūr", "ru": "свет"}
     ]
   },
   {
-    "id": "wau", "char": "و", "name": "вав", "latin":"wao", "lesson": "E",
+    "id": "wau", "char": "و", "name": "вав", "latin":"wau", "lesson": "E",
     "sound": "Как «в»; также передаёт гласные «о», «у» и дифтонг «ау».",
     "tip": "Не соединяется с последующей буквой. В середине и конце слова часто читается как гласный.",
     "forms": {"isolated": "و", "initial": "و", "medial": "ـو", "final": "ـو"},
     "examples": [
-      {"dari": "و", "translit":"o", "ru": "и"},
+      {"dari": "و", "translit":"u", "ru": "и"},
       {"dari": "او", "translit":"ō", "ru": "он / она"},
       {"dari": "وطن", "translit":"watan", "ru": "родина"},
       {"dari": "وقت", "translit":"waqt", "ru": "время"}
@@ -390,9 +390,9 @@
     "forms": {"isolated": "ء", "initial": "ء", "medial": "ـء", "final": "ـء"},
     "examples": [
       {"dari": "مسئله", "translit":"mas'ala", "ru": "проблема"},
-      {"dari": "جزء", "translit":"joz'", "ru": "часть"},
-      {"dari": "مؤمن", "translit":"mo'men", "ru": "верующий"},
-      {"dari": "شروع", "translit":"šoru'", "ru": "начало"}
+      {"dari": "جزء", "translit":"juz'", "ru": "часть"},
+      {"dari": "مؤمن", "translit":"mu'min", "ru": "верующий"},
+      {"dari": "شروع", "translit":"shurū'", "ru": "начало"}
     ]
   }
 ]
