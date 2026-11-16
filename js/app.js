@@ -882,7 +882,6 @@
           <span class="eyebrow">Буква · группа ${esc(letter.lesson)}</span>
           <h2>${esc(letter.name)}</h2>
           <div class="latin">${esc(letter.latin)}</div>
-          <p>${esc(letter.sound)}</p>
         </div>
       </div>
       <div class="modal-section"><h3>Четыре формы</h3><div class="forms-grid">${forms}</div></div>
