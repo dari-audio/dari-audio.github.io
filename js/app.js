@@ -2107,7 +2107,7 @@
   };
 
   const setWord = (packId, index, value) => {
-    const pack = DATA.vocab.packs.find((x) => x.id === packId);
+    const pack = [...DATA.vocab.packs, ...(DATA.vocab.noAudioPacks || [])].find((x) => x.id === packId);
     const key = `${packId}:${index}`;
     if (!pack || !pack.cards[index]) return;
     if (value) {
@@ -2347,7 +2347,7 @@
       return;
     }
     if (target.closest("[data-flash-prev]")) {
-      const pack = DATA.vocab.packs.find((x) => x.id === ui.flashPack);
+      const pack = [...DATA.vocab.packs, ...(DATA.vocab.noAudioPacks || [])].find((x) => x.id === ui.flashPack);
       if (pack) { ui.flashIndex = (ui.flashIndex - 1 + pack.cards.length) % pack.cards.length; ui.flashFlipped = false; renderRoute({ scroll: false }); }
       return;
     }
@@ -2365,9 +2365,10 @@
     if (target.closest("[data-flash-know]")) {
       const pack = DATA.vocab.packs.find((x) => x.id === ui.flashPack);
       if (pack) {
-        const key = `${pack.id}:${ui.flashIndex}`;
+        const originalIndex = (ui.packOrders[pack.id] || pack.cards.map((_, i) => i))[ui.flashIndex];
+        const key = `${pack.id}:${originalIndex}`;
         const wasKnown = Boolean(state.words[key]);
-        setWord(pack.id, ui.flashIndex, true);
+        setWord(pack.id, originalIndex, true);
         if (!wasKnown) toast("Слово отмечено · +2 XP");
         ui.flashIndex = (ui.flashIndex + 1) % pack.cards.length;
         ui.flashFlipped = false;
