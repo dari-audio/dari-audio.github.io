@@ -647,6 +647,7 @@ kbd {
   color: var(--gold);
 }
 .hero-kicker .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); }
+.hero-kicker .solar-date { font-family: var(--dari); font-size: 0.82rem; letter-spacing: 0; }
 .hero h1 { max-width: 620px; font-size: clamp(2.2rem, 4.4vw, 3.55rem); line-height: 1.08; color: #fffdf6; }
 .hero h1 em { font-style: normal; color: var(--gold); }
 .hero-copy p { max-width: 540px; margin-top: 16px; color: rgba(248, 242, 230, 0.72); font-size: 0.94rem; }
