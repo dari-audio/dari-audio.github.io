@@ -140,7 +140,7 @@
       {"dari": "راه", "translit": "rāh", "ru": "дорога"},
       {"dari": "روز", "translit": "rōz", "ru": "день"},
       {"dari": "رنگ", "translit": "rang", "ru": "цвет"},
-      {"dari": "رفیق", "translit": "rafi&#x20;q", "ru": "друг"}
+      {"dari": "رفیق", "translit": "rafiq", "ru": "друг"}
     ]
   },
   {
@@ -152,7 +152,7 @@
       {"dari": "زبان", "translit": "zabān", "ru": "язык"},
       {"dari": "زن", "translit": "zan", "ru": "женщина"},
       {"dari": "زرد", "translit": "zard", "ru": "жёлтый"},
-      {"dari": "زمین", "translit": "zami&#x20;n", "ru": "земля"}
+      {"dari": "زمین", "translit": "zamin", "ru": "земля"}
     ]
   },
   {
@@ -209,7 +209,7 @@
     "tip": "В речи дари часто звучит как обычное «з». Точка сверху.",
     "forms": {"isolated": "ض", "initial": "ضـ", "medial": "ـضـ", "final": "ـض"},
     "examples": [
-      {"dari": "ضعیف", "translit": "za'i&#x20;f", "ru": "слабый"},
+      {"dari": "ضعیف", "translit": "za'if", "ru": "слабый"},
       {"dari": "ضرر", "translit": "zarar", "ru": "вред"},
       {"dari": "ضرب", "translit": "zarb", "ru": "удар"},
       {"dari": "ضیافت", "translit": "zeyāfat", "ru": "угощение"}
@@ -258,7 +258,7 @@
     "forms": {"isolated": "غ", "initial": "غـ", "medial": "ـغـ", "final": "ـغ"},
     "examples": [
       {"dari": "غار", "translit": "ğār", "ru": "пещера"},
-      {"dari": "غریب", "translit": "ğari&#x20;b", "ru": "чужой"},
+      {"dari": "غریب", "translit": "ğarib", "ru": "чужой"},
       {"dari": "غلط", "translit": "ğalat", "ru": "ошибка"},
       {"dari": "غذا", "translit": "ğazā", "ru": "еда"}
     ]
@@ -270,7 +270,7 @@
     "forms": {"isolated": "ف", "initial": "فـ", "medial": "ـفـ", "final": "ـف"},
     "examples": [
       {"dari": "فردا", "translit": "fardā", "ru": "завтра"},
-      {"dari": "فامیل", "translit": "fāmi&#x20;l", "ru": "семья"},
+      {"dari": "فامیل", "translit": "fāmil", "ru": "семья"},
       {"dari": "فروشگاه", "translit": "forušgāh", "ru": "магазин"},
       {"dari": "فکر", "translit": "fekr", "ru": "мысль"}
     ]
@@ -283,7 +283,7 @@
     "examples": [
       {"dari": "قلب", "translit": "qalb", "ru": "сердце"},
       {"dari": "قلم", "translit": "qalam", "ru": "ручка"},
-      {"dari": "قیمت", "translit": "qi&#x20;mat", "ru": "цена"},
+      {"dari": "قیمت", "translit": "qimat", "ru": "цена"},
       {"dari": "قرار", "translit": "qarār", "ru": "решение"}
     ]
   },
@@ -319,8 +319,8 @@
     "examples": [
       {"dari": "لطفاً", "translit": "lotfan", "ru": "пожалуйста"},
       {"dari": "لباس", "translit": "lebās", "ru": "одежда"},
-      {"dari": "لیمو", "translit": "li&#x20;mu", "ru": "лимон"},
-      {"dari": "لرزیدن", "translit": "larzi&#x20;dan", "ru": "дрожать"}
+      {"dari": "لیمو", "translit": "limu", "ru": "лимон"},
+      {"dari": "لرزیدن", "translit": "larzidan", "ru": "дрожать"}
     ]
   },
   {
