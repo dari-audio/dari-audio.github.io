@@ -1203,15 +1203,17 @@
     if (!Array.isArray(ui.packOrders[pack.id]) || ui.packOrders[pack.id].length !== pack.cards.length) {
       ui.packOrders[pack.id] = pack.cards.map((_, i) => i);
     }
-    const index = clamp(ui.flashIndex, 0, pack.cards.length - 1);
-    const card = pack.cards[ui.packOrders[pack.id][index]];
+    const unknownOrder = ui.packOrders[pack.id].filter((originalIndex) => !state.words[`${pack.id}:${originalIndex}`]);
+    const index = clamp(ui.flashIndex, 0, Math.max(0, unknownOrder.length - 1));
+    const originalIndex = unknownOrder[index];
+    const card = originalIndex == null ? null : pack.cards[originalIndex];
     const known = packKnown(pack);
     const pct = Math.round((known / Math.max(1, pack.cards.length)) * 100);
-    const isKnown = Boolean(state.words[`${pack.id}:${ui.packOrders[pack.id][index]}`]);
+    const isKnown = originalIndex == null ? false : Boolean(state.words[`${pack.id}:${originalIndex}`]);
     ui.flashIndex = index;
 
-    const flash = `<div class="flash-wrap">
-      <div class="flash-progress"><span>${index + 1} / ${pack.cards.length}</span><div class="progress-track"><div class="progress-fill" style="width:${((index + 1) / pack.cards.length) * 100}%"></div></div><span>${known} ${plural(known, ["слово", "слова", "слов"])} знакомо</span></div>
+    const flash = unknownOrder.length ? `<div class="flash-wrap">
+      <div class="flash-progress"><span>${index + 1} / ${unknownOrder.length} осталось</span><div class="progress-track"><div class="progress-fill" style="width:${((index + 1) / unknownOrder.length) * 100}%"></div></div><span>${known} ${plural(known, ["слово", "слова", "слов"])} знакомо</span></div>
       <div class="flashcard-stage">
         <div class="flashcard ${ui.flashFlipped ? "flipped" : ""}" data-flip-card tabindex="0" role="button" aria-label="Перевернуть карточку">
           <div class="flash-face front">
@@ -1237,7 +1239,7 @@
         <button class="btn btn-ghost btn-sm" type="button" data-flash-next>Дальше ${svg("arrowRight")}</button>
       </div>
       <div class="flash-bottom"><span>${pct}% набора знакомо</span><span>${pack.noAudio ? "Без озвучки" : `${pack.audioCount} аудиозаписей`}</span></div>
-    </div>`;
+    </div>` : `<div class="empty-state"><h3>Все слова знакомы!</h3><p>Снимите отметку «Знаю» в списке, чтобы вернуть слово в карточки.</p></div>`;
 
     const list = `<div class="word-list">
       ${pack.cards.map((word, displayIndex) => {
@@ -1754,6 +1756,8 @@
   }));
   const textbook2WordKey = (lessonId, wordIndex) => `${lessonId}:${wordIndex}`;
   const textbook2KnownCount = (collection) => collection.cards.filter((_, i) => state.textbook2Words[textbook2WordKey(collection.id, i)]).length;
+  const textbook2UnknownOrder = (collection) => (ui.textbook2Orders[collection.id] || collection.cards.map((_, i) => i))
+    .filter((i) => !state.textbook2Words[textbook2WordKey(collection.id, i)]);
 
   const renderTextbook2Collection = (lessonNum) => {
     const collection = textbook2Collections.find((item) => item.id === Number(lessonNum));
@@ -1761,11 +1765,13 @@
     if (!Array.isArray(ui.textbook2Orders[collection.id]) || ui.textbook2Orders[collection.id].length !== collection.cards.length) {
       ui.textbook2Orders[collection.id] = collection.cards.map((_, i) => i);
     }
-    const index = clamp(ui.textbook2Index || 0, 0, collection.cards.length - 1);
-    const card = collection.cards[ui.textbook2Orders[collection.id][index]];
+    const unknownOrder = textbook2UnknownOrder(collection);
+    const index = clamp(ui.textbook2Index || 0, 0, Math.max(0, unknownOrder.length - 1));
+    const originalIndex = unknownOrder[index];
+    const card = originalIndex == null ? null : collection.cards[originalIndex];
     const flipped = Boolean(ui.textbook2Flipped);
     const knownCount = textbook2KnownCount(collection);
-    const currentWordKnown = Boolean(state.textbook2Words[textbook2WordKey(collection.id, ui.textbook2Orders[collection.id][index])]);
+    const currentWordKnown = false;
     const list = `<div class="word-list textbook-word-list">
       ${collection.cards.map((word, i) => {
         const known = Boolean(state.textbook2Words[textbook2WordKey(collection.id, i)]);
@@ -1778,11 +1784,11 @@
         </div>`;
       }).join("")}
     </div>`;
-    const flash = `<div class="flash-wrap"><div class="flash-progress"><span>${index+1} / ${collection.cards.length}</span><div class="progress-track"><div class="progress-fill" style="width:${(index+1)/collection.cards.length*100}%"></div></div><span>${knownCount}/${collection.cards.length} знаю</span></div>
+    const flash = unknownOrder.length ? `<div class="flash-wrap"><div class="flash-progress"><span>${index+1} / ${unknownOrder.length} осталось</span><div class="progress-track"><div class="progress-fill" style="width:${(index+1)/unknownOrder.length*100}%"></div></div><span>${knownCount}/${collection.cards.length} знаю</span></div>
       <div class="flashcard-stage"><div class="flashcard textbook-word-card ${flipped?"flipped":""}" data-textbook-flip tabindex="0" role="button" aria-label="Перевернуть карточку">
       <div class="flash-face front"><div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div><span class="hint">Нажмите на карточку, чтобы увидеть перевод</span></div>
       <div class="flash-face back"><div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">${esc(card.ru)}</div><div class="flash-translit" style="color:var(--gold)">${esc(card.translit)}</div><span class="hint">Нажмите ещё раз, чтобы вернуться</span></div></div></div>
-      <div class="flash-actions"><button class="btn ${currentWordKnown ? "btn-soft" : "btn-primary"} btn-sm" type="button" data-textbook2-know="${ui.textbook2Orders[collection.id][index]}">${svg("check")} ${currentWordKnown ? "Уже знаю" : "Знаю"}</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-prev ${index===0?"disabled":""}>${svg("arrowLeft")} Назад</button><button class="btn btn-soft btn-sm" type="button" data-textbook-flip-button>${svg("flip")} Перевод</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-next ${index===collection.cards.length-1?"disabled":""}>Дальше ${svg("arrowRight")}</button></div></div>`;
+      <div class="flash-actions"><button class="btn btn-primary btn-sm" type="button" data-textbook2-know="${originalIndex}">${svg("check")} Знаю</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-prev ${index===0?"disabled":""}>${svg("arrowLeft")} Назад</button><button class="btn btn-soft btn-sm" type="button" data-textbook-flip-button>${svg("flip")} Перевод</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-next ${index===unknownOrder.length-1?"disabled":""}>Дальше ${svg("arrowRight")}</button></div></div>` : `<div class="empty-state"><h3>Все слова знакомы!</h3><p>Снимите отметку «Знаю» в списке, чтобы вернуть слово в карточки.</p></div>`;
     return `<div class="page"><a class="back-link" href="#/textbook-2">${svg("arrowRight")} Все коллекции</a>
       <div class="detail-hero" data-letter="📚"><div class="detail-badge" style="font-size:1.8rem">📚</div><div class="detail-hero-copy"><span class="eyebrow">Учебник · курс 2</span><h1>${collection.title}</h1><div class="en-title">Карточки для изучения слов</div><p>Коллекция содержит ${collection.cards.length} слов.</p></div></div>
       <div class="flash-toolbar"><div class="view-switch">
@@ -2320,8 +2326,13 @@
         const wordIndex = Number(control.dataset.textbook2Know ?? control.dataset.textbook2Word);
         if (Number.isInteger(wordIndex) && wordIndex >= 0 && wordIndex < collection.cards.length) {
           const key = textbook2WordKey(collection.id, wordIndex);
-          if (state.textbook2Words[key]) delete state.textbook2Words[key];
+          const wasKnown = Boolean(state.textbook2Words[key]);
+          if (wasKnown) delete state.textbook2Words[key];
           else state.textbook2Words[key] = Date.now();
+          if (!wasKnown) {
+            const remaining = textbook2UnknownOrder(collection);
+            ui.textbook2Index = Math.min(ui.textbook2Index || 0, Math.max(0, remaining.length - 1));
+          }
           saveState();
           renderRoute({ scroll: false });
         }
@@ -2372,7 +2383,7 @@
     if (target.closest("[data-textbook-prev]") || target.closest("[data-textbook-next]")) {
       const current = location.hash.match(/#\/textbook-2\/lesson-(\d+)/);
       const collection = current && textbook2Collections.find((item) => item.id === Number(current[1]));
-      if (collection) { ui.textbook2Index = clamp((ui.textbook2Index || 0) + (target.closest("[data-textbook-next]") ? 1 : -1), 0, collection.cards.length - 1); ui.textbook2Flipped = false; renderRoute({ scroll: false }); }
+      if (collection) { const remaining = textbook2UnknownOrder(collection); ui.textbook2Index = clamp((ui.textbook2Index || 0) + (target.closest("[data-textbook-next]") ? 1 : -1), 0, Math.max(0, remaining.length - 1)); ui.textbook2Flipped = false; renderRoute({ scroll: false }); }
       return;
     }
     if (target.closest("[data-textbook-flip-button]") || target.closest("[data-textbook-flip]")) {
@@ -2388,12 +2399,12 @@
     }
     if (target.closest("[data-flash-prev]")) {
       const pack = [...DATA.vocab.packs, ...(DATA.vocab.noAudioPacks || [])].find((x) => x.id === ui.flashPack);
-      if (pack) { ui.flashIndex = (ui.flashIndex - 1 + pack.cards.length) % pack.cards.length; ui.flashFlipped = false; renderRoute({ scroll: false }); }
+      if (pack) { const remaining = (ui.packOrders[pack.id] || pack.cards.map((_, i) => i)).filter((i) => !state.words[`${pack.id}:${i}`]); ui.flashIndex = clamp(ui.flashIndex - 1, 0, Math.max(0, remaining.length - 1)); ui.flashFlipped = false; renderRoute({ scroll: false }); }
       return;
     }
     if (target.closest("[data-flash-next]")) {
       const pack = [...DATA.vocab.packs, ...(DATA.vocab.noAudioPacks || [])].find((x) => x.id === ui.flashPack);
-      if (pack) { ui.flashIndex = (ui.flashIndex + 1) % pack.cards.length; ui.flashFlipped = false; renderRoute({ scroll: false }); }
+      if (pack) { const remaining = (ui.packOrders[pack.id] || pack.cards.map((_, i) => i)).filter((i) => !state.words[`${pack.id}:${i}`]); ui.flashIndex = clamp(ui.flashIndex + 1, 0, Math.max(0, remaining.length - 1)); ui.flashFlipped = false; renderRoute({ scroll: false }); }
       return;
     }
     if (target.closest("[data-flash-flip]")) {
@@ -2405,12 +2416,14 @@
     if (target.closest("[data-flash-know]")) {
       const pack = [...DATA.vocab.packs, ...(DATA.vocab.noAudioPacks || [])].find((x) => x.id === ui.flashPack);
       if (pack) {
-        const originalIndex = (ui.packOrders[pack.id] || pack.cards.map((_, i) => i))[ui.flashIndex];
+        const remaining = (ui.packOrders[pack.id] || pack.cards.map((_, i) => i)).filter((i) => !state.words[`${pack.id}:${i}`]);
+        const originalIndex = remaining[ui.flashIndex];
+        if (originalIndex == null) { renderRoute({ scroll: false }); return; }
         const key = `${pack.id}:${originalIndex}`;
         const wasKnown = Boolean(state.words[key]);
         setWord(pack.id, originalIndex, true);
         if (!wasKnown) toast("Слово отмечено · +2 XP");
-        ui.flashIndex = (ui.flashIndex + 1) % pack.cards.length;
+        ui.flashIndex = Math.min(ui.flashIndex, Math.max(0, remaining.length - 2));
         ui.flashFlipped = false;
         renderRoute({ scroll: false });
       }
