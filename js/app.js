@@ -1822,7 +1822,7 @@
           <div class="pack-grid textbook-collections textbook-vocab-grid">${textbook2Collections.map((collection) => {
             const known = textbook2KnownCount(collection);
             const pct = Math.round(known / Math.max(1, collection.cards.length) * 100);
-            return `<a class="pack-card" href="#/textbook-2/lesson-${collection.id}" style="--pack-color:var(--green)"><span class="pack-icon">📚</span><h3>${collection.title}</h3><div class="pack-sub">${collection.cards.length} слов</div><div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div><span>${known}/${collection.cards.length}</span></div></a>`;
+            return `<a class="pack-card" href="#/textbook-2/lesson-${collection.id}" style="--pack-color:var(--green)">${known === collection.cards.length ? `<span class="pack-badge badge badge-done">${svg("check")} готово</span>` : ""}<span class="pack-icon">📚</span><h3>${collection.title}</h3><div class="pack-sub">${collection.cards.length} слов</div><div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div><span>${known}/${collection.cards.length}</span></div></a>`;
           }).join("")}</div>
         </details>
         <details class="textbook-section">
