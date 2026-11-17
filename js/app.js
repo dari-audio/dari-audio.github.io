@@ -2314,8 +2314,8 @@
 
     if (target.closest("[data-textbook2-know]") || target.closest("[data-textbook2-word]")) {
       const control = target.closest("[data-textbook2-know], [data-textbook2-word]");
-      const match = location.hash.match(/#\\/textbook-2\\/lesson-(\\d+)/);
-      const collection = match && textbook2Collections.find((item) => item.id === Number(match[1]));
+      const lessonId = Number((location.hash.split("/lesson-")[1] || "").split(/[/?]/)[0]);
+      const collection = textbook2Collections.find((item) => item.id === lessonId);
       if (collection) {
         const wordIndex = Number(control.dataset.textbook2Know ?? control.dataset.textbook2Word);
         if (Number.isInteger(wordIndex) && wordIndex >= 0 && wordIndex < collection.cards.length) {
