@@ -1272,7 +1272,7 @@
         </div>
         <div class="detail-actions">
           <span class="badge badge-green">${known} из ${pack.cards.length} знакомо</span>
-          ${card.audio ? `<button class="btn btn-primary" type="button" data-play-all="pack:${esc(pack.id)}">${svg("play")} Слушать набор</button>` : ""}
+          ${pack.cards.some((word) => word.audio) ? `<button class="btn btn-primary" type="button" data-play-all="pack:${esc(pack.id)}">${svg("play")} Слушать набор</button>` : ""}
         </div>
       </div>
       <div class="flash-toolbar">
