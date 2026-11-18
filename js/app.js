@@ -272,6 +272,8 @@
     textbook2View: "cards",
     textbook2Orders: {},
     packOrders: {},
+    packRussianFirst: {},
+    textbook2RussianFirst: {},
   };
 
   /* ---------- Плеер ---------- */
@@ -1211,6 +1213,7 @@
     const known = packKnown(pack);
     const pct = Math.round((known / Math.max(1, pack.cards.length)) * 100);
     const isKnown = originalIndex == null ? false : Boolean(state.words[`${pack.id}:${originalIndex}`]);
+    const russianFirst = Boolean(ui.packRussianFirst[pack.id]);
     ui.flashIndex = index;
 
     const flash = unknownOrder.length ? `<div class="flash-wrap">
@@ -1218,24 +1221,18 @@
       <div class="flashcard-stage">
         <div class="flashcard ${ui.flashFlipped ? "flipped" : ""}" data-flip-card tabindex="0" role="button" aria-label="Перевернуть карточку">
           <div class="flash-face front">
-            ${card.numeral ? `<div class="flash-numeral">${esc(card.numeral)}</div>` : ""}
-            <div class="flash-dari">${esc(card.dari)}</div>
-            <div class="flash-translit">${esc(card.translit)}</div>
-            ${card.audio ? `<button class="btn btn-soft btn-sm" type="button" data-play-src="${esc(card.audio)}" data-title="${esc(card.dari)}" data-subtitle="${esc(card.translit + " — " + card.ru)}">${svg("volume")} Слушать</button>` : ""}
-            <span class="hint">Нажмите на карточку, чтобы увидеть перевод</span>
+            ${russianFirst ? `<div class="flash-numeral" style="color:var(--gold)">${isKnown ? "знакомое слово" : "перевод"}</div><div class="flash-ru">${esc(card.ru)}</div>${card.note ? `<div class="flash-note">${esc(card.note)}</div>` : ""}` : `${card.numeral ? `<div class="flash-numeral">${esc(card.numeral)}</div>` : ""}<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div>${card.audio ? `<button class="btn btn-soft btn-sm" type="button" data-play-src="${esc(card.audio)}" data-title="${esc(card.dari)}" data-subtitle="${esc(card.translit + " — " + card.ru)}">${svg("volume")} Слушать</button>` : ""}`}
+            <span class="hint">Нажмите на карточку, чтобы увидеть ${russianFirst ? "дари" : "перевод"}</span>
           </div>
           <div class="flash-face back">
-            <div class="flash-numeral" style="color:var(--gold)">${isKnown ? "знакомое слово" : "перевод"}</div>
-            <div class="flash-ru">${esc(card.ru)}</div>
-            <div class="flash-translit" style="color:var(--gold)">${esc(card.translit)}</div>
-            ${card.note ? `<div class="flash-note">${esc(card.note)}</div>` : ""}
+            ${russianFirst ? `${card.numeral ? `<div class="flash-numeral">${esc(card.numeral)}</div>` : ""}<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div>${card.audio ? `<button class="btn btn-soft btn-sm" type="button" data-play-src="${esc(card.audio)}" data-title="${esc(card.dari)}" data-subtitle="${esc(card.translit + " — " + card.ru)}">${svg("volume")} Слушать</button>` : ""}` : `<div class="flash-numeral" style="color:var(--gold)">${isKnown ? "знакомое слово" : "перевод"}</div><div class="flash-ru">${esc(card.ru)}</div><div class="flash-translit" style="color:var(--gold)">${esc(card.translit)}</div>${card.note ? `<div class="flash-note">${esc(card.note)}</div>` : ""}`}
             <span class="hint">Нажмите ещё раз, чтобы вернуться</span>
           </div>
         </div>
       </div>
       <div class="flash-actions">
         <button class="btn btn-ghost btn-sm" type="button" data-flash-prev>${svg("arrowLeft")} Назад</button>
-        <button class="btn btn-soft btn-sm" type="button" data-flash-flip>${svg("flip")} Перевод</button>
+        <button class="btn btn-soft btn-sm" type="button" data-flash-flip>${svg("flip")} ${russianFirst ? "Дари" : "Перевод"}</button>
         <button class="btn ${isKnown ? "btn-soft" : "btn-primary"} btn-sm" type="button" data-flash-know>${svg("check")} ${isKnown ? "Уже знаю" : "Знаю"}</button>
         <button class="btn btn-ghost btn-sm" type="button" data-flash-next>Дальше ${svg("arrowRight")}</button>
       </div>
@@ -1281,6 +1278,7 @@
           <button class="${ui.packView === "cards" ? "active" : ""}" type="button" data-pack-view="cards">${svg("cards")} Карточки</button>
           <button class="${ui.packView === "list" ? "active" : ""}" type="button" data-pack-view="list">${svg("list")} Список</button>
         </div>
+        <button class="btn btn-soft btn-sm" type="button" data-pack-direction="${esc(pack.id)}">${russianFirst ? "Сначала: русский" : "Сначала: дари"}</button>
         <button class="btn btn-soft btn-sm" type="button" data-shuffle-pack="${esc(pack.id)}">↝ Перемешать</button>
         <div class="progress-inline" style="min-width:220px"><div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div><span>${pct}%</span></div>
       </div>
@@ -1771,6 +1769,7 @@
     const originalIndex = unknownOrder[index];
     const card = originalIndex == null ? null : collection.cards[originalIndex];
     const flipped = Boolean(ui.textbook2Flipped);
+    const russianFirst = Boolean(ui.textbook2RussianFirst[collection.id]);
     const knownCount = textbook2KnownCount(collection);
     const currentWordKnown = false;
     const list = `<div class="word-list textbook-word-list">
@@ -1787,15 +1786,15 @@
     </div>`;
     const flash = unknownOrder.length ? `<div class="flash-wrap"><div class="flash-progress"><span>${index+1} / ${unknownOrder.length} осталось</span><div class="progress-track"><div class="progress-fill" style="width:${(index+1)/unknownOrder.length*100}%"></div></div><span>${knownCount}/${collection.cards.length} знаю</span></div>
       <div class="flashcard-stage"><div class="flashcard textbook-word-card ${flipped?"flipped":""}" data-textbook-flip tabindex="0" role="button" aria-label="Перевернуть карточку">
-      <div class="flash-face front"><div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div><span class="hint">Нажмите на карточку, чтобы увидеть перевод</span></div>
-      <div class="flash-face back"><div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">${esc(card.ru)}</div><div class="flash-translit" style="color:var(--gold)">${esc(card.translit)}</div><span class="hint">Нажмите ещё раз, чтобы вернуться</span></div></div></div>
-      <div class="flash-actions"><button class="btn btn-primary btn-sm" type="button" data-textbook2-know="${originalIndex}">${svg("check")} Знаю</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-prev ${index===0?"disabled":""}>${svg("arrowLeft")} Назад</button><button class="btn btn-soft btn-sm" type="button" data-textbook-flip-button>${svg("flip")} Перевод</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-next ${index===unknownOrder.length-1?"disabled":""}>Дальше ${svg("arrowRight")}</button></div></div>` : `<div class="empty-state"><h3>Все слова знакомы!</h3><p>Снимите отметку «Знаю» в списке, чтобы вернуть слово в карточки.</p></div>`;
+      <div class="flash-face front">${russianFirst ? `<div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">${esc(card.ru)}</div>` : `<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div>`}<span class="hint">Нажмите на карточку, чтобы увидеть ${russianFirst ? "дари" : "перевод"}</span></div>
+      <div class="flash-face back">${russianFirst ? `<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div>` : `<div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">${esc(card.ru)}</div><div class="flash-translit" style="color:var(--gold)">${esc(card.translit)}</div>`}<span class="hint">Нажмите ещё раз, чтобы вернуться</span></div></div></div>
+      <div class="flash-actions"><button class="btn btn-primary btn-sm" type="button" data-textbook2-know="${originalIndex}">${svg("check")} Знаю</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-prev ${index===0?"disabled":""}>${svg("arrowLeft")} Назад</button><button class="btn btn-soft btn-sm" type="button" data-textbook-flip-button>${svg("flip")} ${russianFirst ? "Дари" : "Перевод"}</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-next ${index===unknownOrder.length-1?"disabled":""}>Дальше ${svg("arrowRight")}</button></div></div>` : `<div class="empty-state"><h3>Все слова знакомы!</h3><p>Снимите отметку «Знаю» в списке, чтобы вернуть слово в карточки.</p></div>`;
     return `<div class="page"><a class="back-link" href="#/textbook-2">${svg("arrowRight")} Все коллекции</a>
       <div class="detail-hero" data-letter="📚"><div class="detail-badge" style="font-size:1.8rem">📚</div><div class="detail-hero-copy"><span class="eyebrow">Учебник · курс 2</span><h1>${collection.title}</h1><div class="en-title">Карточки для изучения слов</div><p>Коллекция содержит ${collection.cards.length} слов.</p></div></div>
       <div class="flash-toolbar"><div class="view-switch">
         <button class="${ui.textbook2View === "cards" ? "active" : ""}" type="button" data-textbook-view="cards">${svg("cards")} Карточки</button>
         <button class="${ui.textbook2View === "list" ? "active" : ""}" type="button" data-textbook-view="list">${svg("list")} Список</button>
-      </div><button class="btn btn-soft btn-sm" type="button" data-textbook-shuffle="${collection.id}">↝ Перемешать</button></div>
+      </div><button class="btn btn-soft btn-sm" type="button" data-textbook-direction="${collection.id}">${russianFirst ? "Сначала: русский" : "Сначала: дари"}</button><button class="btn btn-soft btn-sm" type="button" data-textbook-shuffle="${collection.id}">↝ Перемешать</button></div>
       ${ui.textbook2View === "list" ? list : flash}</div>`;
   };
     const renderPhrasePractice = (lessonNum) => {
@@ -2381,6 +2380,20 @@
     if (target.closest("[data-phrase-word]")) { const btn=target.closest("[data-phrase-word]"); const answer=$(`[data-phrase-answer="${btn.dataset.phraseWord}"]`); if(answer){const token=document.createElement("button");token.type="button";token.className="phrase-picked";token.textContent=btn.dataset.word;token.dataset.pickedWord=btn.dataset.word;token.onclick=()=>{token.remove();btn.disabled=false;};answer.append(token);}btn.disabled=true;return;}
     if (target.closest("[data-phrase-reset]")) {const id=target.closest("[data-phrase-reset]").dataset.phraseReset;const answer=$(`[data-phrase-answer="${id}"]`);if(answer)answer.innerHTML="";$$ (`[data-phrase-word="${id}"]`).forEach(btn=>btn.disabled=false);const feedback=$(`[data-phrase-feedback="${id}"]`);if(feedback)feedback.textContent="";return;}
     if (target.closest("[data-phrase-check]")) {const btn=target.closest("[data-phrase-check]");const id=btn.dataset.phraseCheck;const answer=$(`[data-phrase-answer="${id}"]`);const feedback=$(`[data-phrase-feedback="${id}"]`);if(answer&&feedback){const value=Array.from(answer.children).map(x=>x.dataset.pickedWord).join(" ").trim();const correct=value===decodeURIComponent(btn.dataset.phraseCorrect);feedback.textContent=correct?"Верно! ✓":"Пока неверно — попробуйте ещё.";if(correct){const done=JSON.parse(localStorage.getItem("phraseDone8")||"[]");if(!done.includes(Number(id)))done.push(Number(id));localStorage.setItem("phraseDone8",JSON.stringify(done));}}return;}
+    if (target.closest("[data-textbook-direction]")) {
+      const id = Number(target.closest("[data-textbook-direction]").dataset.textbookDirection);
+      ui.textbook2RussianFirst[id] = !ui.textbook2RussianFirst[id];
+      ui.textbook2Flipped = false;
+      renderRoute({ scroll: false });
+      return;
+    }
+    if (target.closest("[data-pack-direction]")) {
+      const id = target.closest("[data-pack-direction]").dataset.packDirection;
+      ui.packRussianFirst[id] = !ui.packRussianFirst[id];
+      ui.flashFlipped = false;
+      renderRoute({ scroll: false });
+      return;
+    }
     if (target.closest("[data-textbook-prev]") || target.closest("[data-textbook-next]")) {
       const current = location.hash.match(/#\/textbook-2\/lesson-(\d+)/);
       const collection = current && textbook2Collections.find((item) => item.id === Number(current[1]));
