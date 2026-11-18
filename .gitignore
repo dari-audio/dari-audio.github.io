@@ -1,0 +1,8 @@
+.DS_Store
+_tmp/
+_drive-cache/
+_drive-scan-report.json
+*.log
+__pycache__/
+*.pyc
+.venv/
