@@ -1966,3 +1966,23 @@ kbd {
   .phrase-practice .phrase-word,
   .phrase-practice .phrase-picked { font-size: 1.35rem; padding: 3px 8px; }
 }
+
+
+/* Keep the whole card face visually paired with its language in Russian-first mode */
+.flashcard.russian-first .flash-face.front {
+  background: radial-gradient(440px 220px at 50% 0%, rgba(224, 177, 92, 0.16), transparent 65%), var(--green);
+  color: var(--cream);
+  border-color: var(--green);
+}
+.flashcard.russian-first .flash-face.front .flash-ru { color: var(--cream); }
+.flashcard.russian-first .flash-face.front .flash-numeral { color: var(--gold) !important; }
+.flashcard.russian-first .flash-face.front .hint { color: rgba(248, 242, 230, 0.58); }
+.flashcard.russian-first .flash-face.back {
+  background: radial-gradient(440px 220px at 50% 0%, rgba(224, 177, 92, 0.13), transparent 65%), var(--paper-soft);
+  color: var(--ink);
+  border-color: var(--line);
+}
+.flashcard.russian-first .flash-face.back .flash-dari { color: var(--green); }
+.flashcard.russian-first .flash-face.back .flash-translit { color: var(--terra); }
+.flashcard.russian-first .flash-face.back .flash-numeral { color: var(--terra) !important; }
+.flashcard.russian-first .flash-face.back .hint { color: var(--muted); }
