@@ -617,7 +617,8 @@
     const total = DATA.meta.counts;
     const lKnown = lettersKnown();
     const lDone = lessonsDone();
-    const wDone = wordsDone();
+    const allWordsTotal = total.vocabWords + textbook2Collections.reduce((sum, item) => sum + item.cards.length, 0);
+    const wDone = wordsDone() + textbook2Collections.reduce((sum, item) => sum + textbook2KnownCount(item), 0);
     const rec = continueItem();
     const week = weekData();
     const weekMax = Math.max(1, ...week.map((x) => x.value));
@@ -669,7 +670,7 @@
       <div class="stats-grid">
         ${statCard("Буквы", `${lKnown}/${total.letters}`, "изучено", "alphabet", (lKnown / total.letters) * 100)}
         ${statCard("Уроки", `${lDone}/${total.lessons}`, "пройдено", "book", (lDone / total.lessons) * 100)}
-        ${statCard("Слова", `${wDone}/${total.vocabWords}`, "в словаре", "cards", (wDone / Math.max(1, total.vocabWords)) * 100)}
+        ${statCard("Слова", `${wDone}/${allWordsTotal}`, "изучено в карточках", "cards", (wDone / Math.max(1, allWordsTotal)) * 100)}
         ${statCard("Серия", String(state.streak || 0), plural(state.streak || 0, ["день", "дня", "дней"]), "flame", null)}
       </div>
 
