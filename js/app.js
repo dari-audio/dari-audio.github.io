@@ -1656,8 +1656,8 @@
       const scriptsSection = scriptFiles.length ? `<div class="section-head"><div><h2>${isStoryFolder ? "Скрипты" : "Файлы"}</h2><p>${scriptFiles.length} ${plural(scriptFiles.length, ["файл", "файла", "файлов"])} · аудио слушается здесь, скрипты открываются на нужной странице</p></div></div>
       <div class="file-list">${scriptFiles.map((file) => libFileRow(file, "")).join("")}</div>` : "";
       if (node.id === "1BcaMzJKr5Bl3vGdpC3V6DAQdQq3YAmpE") {
-        const units = folders.filter((folder) => /^virtual-lesson-\\d+$/.test(folder.id)).sort((a, b) => Number(a.id.slice(-2)) - Number(b.id.slice(-2)));
-        const cardFolders = folders.filter((folder) => !/^virtual-lesson-\\d+$/.test(folder.id));
+        const units = folders.filter((folder) => /^virtual-lesson-\d+$/.test(folder.id)).sort((a, b) => Number(a.id.slice(-2)) - Number(b.id.slice(-2)));
+        const cardFolders = folders.filter((folder) => !/^virtual-lesson-\d+$/.test(folder.id));
         const themes = DATA.studentUnits || [];
         const bookFiles = files.filter((file) => isPdf(file.name));
         const otherFiles = files.filter((file) => !isPdf(file.name));
@@ -1684,7 +1684,7 @@
         <div class="folder-list">${cardFolders.map((folder) => `<a class="folder-item" href="#/library/${esc(folder.id)}"><span class="folder-icon">${svg("folder")}</span><div><strong>${esc(folder.name)}</strong><small>${libCounts(folder)}</small></div></a>`).join("")}</div>` : ""}
         ${otherFiles.length ? `<div class="file-list">${otherFiles.map((file) => libFileRow(file, "")).join("")}</div>` : ""}`;
       } else {
-        content = ``${searchBar}
+        content = `${searchBar}
       <div class="breadcrumbs"><a href="#/library">Аудиотека</a><span>/</span>${trailLinks}</div>
       ${isStoryFolder ? scriptsSection : ""}
       ${folders.length ? `<div class="section-head" style="margin-top:8px"><div><h2>Папки</h2><p>${folders.length} ${plural(folders.length, ["папка", "папки", "папок"])}</p></div></div>
@@ -1696,7 +1696,7 @@
       </div>` : ""}
       ${storyGroups ? storyGroups.html : ""}
       ${!isStoryFolder ? scriptsSection : ""}
-      ${!folders.length && !files.length ? `<div class="empty-state"><h3>Папка пуста</h3><p>Здесь пока нет файлов.</p></div>` : ""}``;
+      ${!folders.length && !files.length ? `<div class="empty-state"><h3>Папка пуста</h3><p>Здесь пока нет файлов.</p></div>` : ""}`;
       }
     }
     const description = node.description || root.description || "Материалы архива DLIFLC.";
