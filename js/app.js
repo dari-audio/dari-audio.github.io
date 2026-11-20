@@ -161,6 +161,7 @@
     letters: {},
     intro: {},
     lessons: {},
+    semesterTwoLessons: {},
     words: {},
     textbook2Words: {},
     introWords: {},
@@ -176,6 +177,7 @@
       state.letters = state.letters || {};
       state.intro = state.intro || {};
       state.lessons = state.lessons || {};
+      state.semesterTwoLessons = state.semesterTwoLessons || {};
       state.words = state.words || {};
       state.textbook2Words = state.textbook2Words || {};
       state.introWords = state.introWords || {};
@@ -1042,6 +1044,69 @@
     if (/телефон|связ|телеком|электрон|компьютер|технолог/.test(text)) return "Технологии";
     return "Повседневная жизнь";
   };
+  const renderSemesterTwoLesson = (num) => {
+    const unit = (DATA.studentUnits || []).find((item) => item.num === Number(num));
+    const folder = (DATA.semesterTwo.folders || []).find((item) => item.id === `virtual-lesson-${pad(num)}`);
+    if (!unit || !folder) return notFound("Урок второго семестра не найден");
+    const tracks = (folder.files || []).filter((file) => isAudio(file.name));
+    const done = Boolean(state.semesterTwoLessons[num]);
+    const prev = (DATA.studentUnits || []).find((item) => item.num === Number(num) - 1);
+    const next = (DATA.studentUnits || []).find((item) => item.num === Number(num) + 1);
+    const category = semesterTwoCategory(unit);
+    remember({ label: `Семестр 2 · Урок ${num}`, title: `${num}. ${unit.title}`, subtitle: unit.summary, href: `#/lessons/semester-2/lesson/${num}`, mark: String(num) });
+    return `<div class="page">
+      <a class="back-link" href="#/lessons/semester-2">${svg("arrowRight")} Все уроки · Семестр 2</a>
+      <div class="detail-hero" data-letter="${num}">
+        <div class="detail-badge num">${pad(num)}</div>
+        <div class="detail-hero-copy">
+          <span class="eyebrow">Полный урок · Семестр 2 · ${esc(category)}</span>
+          <h1>${esc(unit.title)}</h1>
+          <div class="en-title">STUDENT BOOK · UNIT ${pad(num)}</div>
+          <p>${esc(unit.summary)}</p>
+        </div>
+        <div class="detail-actions">
+          <button class="btn ${done ? "btn-soft" : "btn-primary"}" type="button" data-toggle-semester-two-lesson="${num}">${done ? svg("check") + " Пройден" : "Отметить пройденным"}</button>
+          <span class="badge badge-ghost">${tracks.length} аудио</span>
+        </div>
+      </div>
+      <div class="detail-layout">
+        <div class="detail-main">
+          <div class="panel">
+            <div class="panel-head"><div><h2>Аудио урока</h2><p>${tracks.length} аудиозаписей из материалов Student Book · Семестр 2.</p></div>${tracks.length ? `<button class="btn btn-soft btn-sm" type="button" data-play-all-semester-two="${num}">${svg("play")} Слушать всё</button>` : ""}</div>
+            ${tracks.length ? `<div class="audio-list">${tracks.map((file, i) => `<div class="audio-row">
+              <span class="code">${String(i + 1).padStart(2, "0")}</span>
+              <div class="info"><strong>${esc(stripExt(file.name))}</strong><span>Урок ${num} · аудиоматериал</span></div>
+              <button class="play-round" type="button" data-lib-play="${esc(file.id)}" data-title="${esc(stripExt(file.name))}" data-subtitle="Семестр 2 · Урок ${num}" aria-label="Слушать">${svg("play")}</button>
+            </div>`).join("")}</div>` : `<div class="notice notice-warn">${svg("info")} <span>Аудиозаписи для этого урока пока не найдены.</span></div>`}
+            <p class="tiny muted" style="margin-top:10px">Записи открываются во встроенном аудиоплеере.</p>
+          </div>
+          <div class="panel"><h2>Грамматика и тема</h2><div class="grammar-box" style="margin-top:12px"><strong>Тема урока</strong><p>${esc(unit.summary)}</p></div></div>
+          <div class="panel">
+            <div class="panel-head"><div><h2>Учебник · Student Book</h2><p>Материал урока ${num} из соответствующего тома второго семестра.</p></div></div>
+            <div class="notice notice-warn">${svg("info")} <span>Отдельный PDF этого урока будет добавлен после загрузки и разделения двух исходных учебников.</span></div>
+          </div>
+          <div class="complete-banner ${done ? "done" : ""}">
+            <div><strong>${done ? "Урок пройден" : "Урок можно считать пройденным?"}</strong><span>${done ? "Отметка сохранена в вашем прогрессе." : "Прослушайте записи и отметьте урок — так удобнее видеть, что осталось."}</span></div>
+            <button class="btn ${done ? "btn-ghost" : "btn-primary"} btn-sm" type="button" data-toggle-semester-two-lesson="${num}">${done ? "Снять отметку" : "Завершить урок"}</button>
+          </div>
+          <div class="lesson-nav">
+            ${prev ? `<a href="#/lessons/semester-2/lesson/${prev.num}"><span>← Урок ${prev.num}</span><strong>${esc(prev.title)}</strong></a>` : "<span></span>"}
+            ${next ? `<a class="next" href="#/lessons/semester-2/lesson/${next.num}"><span>Урок ${next.num} →</span><strong>${esc(next.title)}</strong></a>` : "<span></span>"}
+          </div>
+        </div>
+        <aside class="detail-side">
+          <div class="panel"><h3>Паспорт урока</h3><div class="audio-list">
+            <div class="track-row"><span class="track-num">${tracks.length}</span><div class="track-info"><strong>аудиозаписей</strong><span>аудиоматериалы Student Book</span></div></div>
+            <div class="track-row"><span class="track-num">PDF</span><div class="track-info"><strong>учебник</strong><span>Отдельный файл будет добавлен</span></div></div>
+            <div class="track-row"><span class="track-num">${num}</span><div class="track-info"><strong>номер урока</strong><span>Student Book · Семестр 2</span></div></div>
+          </div></div>
+          <div class="panel"><h3>Темы</h3><div class="tag-row"><span class="badge badge-green">${esc(category)}</span><span class="badge badge-green">Student Book</span></div></div>
+          <div class="panel"><h3>Продолжить</h3><p class="small muted">${next ? `Следующий — урок ${next.num} «${esc(next.title)}».` : "Это последний урок второго семестра."}</p><a class="btn btn-soft btn-sm" style="margin-top:12px" href="${next ? `#/lessons/semester-2/lesson/${next.num}` : "#/lessons/semester-2"}">${next ? "Следующий урок" : "К урокам"} ${svg("arrowRight")}</a></div>
+        </aside>
+      </div>
+    </div>`;
+  };
+
   const renderSemesterTwo = (id) => {
     const entry = findSemesterTwoEntry(id);
     if (!entry) return notFound("Материалы семестра не найдены");
@@ -1053,9 +1118,9 @@
       .replaceAll("Аудио и PDF из исходного архива DLIFLC.", "Учебные аудио и PDF второго семестра.");
   };
 
-  const renderLessons = (semester, itemId) => {
+  const renderLessons = (semester, itemId, subItemId) => {
     if (semester === "semester-1") return itemId ? renderSemesterOne(itemId) : renderSemesterOne();
-    if (semester === "semester-2") return renderSemesterTwo(itemId);
+    if (semester === "semester-2") return itemId === "lesson" ? renderSemesterTwoLesson(subItemId) : renderSemesterTwo(itemId);
     return `<div class="page">
       <div class="page-head"><div><span class="eyebrow">Дополнительный курс</span><h1>Доп.курс</h1><p>Выберите семестр, чтобы открыть уроки и учебные материалы.</p></div></div>
       <div class="routes-grid semester-grid">
@@ -1769,7 +1834,7 @@
             const num = Number(folder.id.slice(-2));
             const theme = themes.find((item) => item.num === num) || { title: "Тема урока", summary: "Откройте материалы этого учебного блока." };
             const audioCount = (folder.files || []).filter((file) => isAudio(file.name)).length;
-            return `<a class="lesson-card student-unit-card" href="#/library/${esc(folder.id)}" data-num="${num}">
+            return `<a class="lesson-card student-unit-card" href="#/lessons/semester-2/lesson/${num}" data-num="${num}">
               <div class="lesson-top"><div class="lesson-num">${String(num).padStart(2, "0")}<small>УРОК</small></div><span class="badge badge-ghost">${audioCount} аудио</span></div>
               <h3>${esc(theme.title)}</h3>
               <div class="en">STUDENT BOOK · SEMESTER 2</div>
@@ -2132,7 +2197,7 @@
     switch (section) {
       case "alphabet": return { nav: "alphabet", title: "Алфавит" };
       case "intro": return { nav: "alphabet", title: `Вводный урок ${parts[1] || ""}` };
-      case "lessons": return { nav: "lessons", title: parts[1] === "semester-1" ? "Семестр 1" : parts[1] === "semester-2" ? "Семестр 2" : "Доп.курс" };
+      case "lessons": return { nav: "lessons", title: parts[1] === "semester-1" ? "Семестр 1" : parts[1] === "semester-2" ? (parts[2] === "lesson" ? `Урок ${parts[3] || ""} · Семестр 2` : "Семестр 2") : "Доп.курс" };
       case "lesson": return { nav: "lessons", title: `Урок ${parts[1] || ""}` };
       case "vocab": return { nav: "vocab", title: parts[1] ? ((DATA.vocab.packs.find((x) => x.id === parts[1]) || {}).title || "Словарь") : "Словарь" };
       case "trainer": return { nav: "vocab", title: "Аудиотренажёр" };
@@ -2192,7 +2257,7 @@
       if (parts[1] === "letter") ui.alphabetTab = "letters";
       html = renderAlphabet();
     } else if (section === "intro") html = renderIntro(parts[1]);
-    else if (section === "lessons") html = renderLessons(parts[1], parts[2]);
+    else if (section === "lessons") html = renderLessons(parts[1], parts[2], parts[3]);
     else if (section === "lesson") html = renderLesson(parts[1]);
     else if (section === "vocab") html = parts[1] ? renderPack(parts[1]) : renderVocab();
     else if (section === "trainer") html = renderTrainer(parts[1]);
@@ -2313,6 +2378,28 @@
     if (target.closest("[data-open-search]")) { event.preventDefault(); openSearch(); return; }
     if (target.closest("[data-open-nav]")) { document.body.classList.add("nav-open"); return; }
     if (target.closest("[data-close-nav]")) { document.body.classList.remove("nav-open"); return; }
+    const semesterTwoDone = target.closest("[data-toggle-semester-two-lesson]");
+    if (semesterTwoDone) {
+      const num = Number(semesterTwoDone.dataset.toggleSemesterTwoLesson);
+      if (state.semesterTwoLessons[num]) delete state.semesterTwoLessons[num];
+      else state.semesterTwoLessons[num] = Date.now();
+      saveState();
+      renderRoute({ scroll: false });
+      return;
+    }
+    const semesterTwoPlayAll = target.closest("[data-play-all-semester-two]");
+    if (semesterTwoPlayAll) {
+      const num = Number(semesterTwoPlayAll.dataset.playAllSemesterTwo);
+      const folder = (DATA.semesterTwo.folders || []).find((item) => item.id === `virtual-lesson-${pad(num)}`);
+      const queue = (folder?.files || []).filter((file) => isAudio(file.name)).map((file) => ({
+        src: `https://drive.google.com/uc?export=download&id=${encodeURIComponent(file.id)}`,
+        title: stripExt(file.name),
+        subtitle: `Семестр 2 · Урок ${num}`,
+      }));
+      if (queue.length) playQueue(queue, 0);
+      else toast("Для этого урока нет аудио", "info");
+      return;
+    }
     const semesterTwoTag = target.closest("[data-semester-two-tag]");
     if (semesterTwoTag) { ui.semesterTwoTag = semesterTwoTag.dataset.semesterTwoTag; renderRoute({ scroll: false }); return; }
     if (target.closest("[data-clear-semester-two-filter]")) { ui.semesterTwoTag = "all"; ui.semesterTwoQuery = ""; renderRoute({ scroll: false }); return; }
