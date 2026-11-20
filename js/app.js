@@ -1030,8 +1030,8 @@
     return `<div class="page">
       <div class="page-head">
         <div>
-          <span class="eyebrow">Основной курс</span>
-          <h1>40 уроков</h1>
+          <span class="eyebrow">Дополнительный курс</span>
+          <h1>Семестр 1</h1>
           <p>От знакомства и кабульского быта до медицины, армии и путешествий. В каждом уроке — аудиозаписи, конспект и разбор грамматики по-русски.</p>
         </div>
         <div class="page-head-actions">
@@ -1682,8 +1682,8 @@
         const otherFiles = files.filter((file) => !isPdf(file.name));
         content = `${searchBar}
         <div class="breadcrumbs"><a href="#/library">Аудиотека</a><span>/</span>${trailLinks}</div>
-        <div class="section-head"><div><h2>Учебники Semester 2</h2><p>Два студенческих тома с исходными материалами курса</p></div></div>
-        ${bookFiles.length ? `<div class="file-list">${bookFiles.map((file) => libFileRow(file, "Student Copy · Semester 2")).join("")}</div>` : ""}
+        <div class="section-head"><div><h2>Учебники · Семестр 2</h2><p>Два студенческих тома с исходными материалами курса</p></div></div>
+        ${bookFiles.length ? `<div class="file-list">${bookFiles.map((file) => libFileRow(file, "Student Copy · Семестр 2")).join("")}</div>` : ""}
         <div class="section-head"><div><h2>Уроки 1–40</h2><p>Тематические плитки по названиям основных текстов в учебниках</p></div></div>
         <div class="lesson-grid student-unit-grid">
           ${units.map((folder) => {
