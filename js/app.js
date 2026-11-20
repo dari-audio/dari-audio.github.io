@@ -1740,6 +1740,7 @@
         const units = folders.filter((folder) => /^virtual-lesson-\d+$/.test(folder.id)).sort((a, b) => Number(a.id.slice(-2)) - Number(b.id.slice(-2)));
         const teacherFolders = folders.filter((folder) => folder.id === "1kYzBjg4-XJXI2ZO9BhxgJRGt4tZ3HCdX");
         const cardFolders = folders.filter((folder) => !/^virtual-lesson-\d+$/.test(folder.id) && folder.id !== "1kYzBjg4-XJXI2ZO9BhxgJRGt4tZ3HCdX");
+        const themes = DATA.studentUnits || [];
         const semesterQuery = ui.semesterTwoQuery.trim().toLowerCase();
         const semesterTags = ["Семья и общество", "География и путешествия", "Работа и экономика", "Общество и история", "Культура и досуг", "Технологии", "Повседневная жизнь"];
         const filteredUnits = units.filter((folder) => {
@@ -1748,7 +1749,6 @@
           return (ui.semesterTwoTag === "all" || semesterTwoCategory(theme) === ui.semesterTwoTag) &&
             (!semesterQuery || (num + " " + theme.title + " " + theme.summary).toLowerCase().includes(semesterQuery));
         });
-        const themes = DATA.studentUnits || [];
         const bookFiles = files.filter((file) => isPdf(file.name));
         const otherFiles = files.filter((file) => !isPdf(file.name));
         content = `${searchBar}
