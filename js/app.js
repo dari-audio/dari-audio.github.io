@@ -998,19 +998,42 @@
     return haystack.includes(query.toLowerCase());
   };
 
-  const renderLessons = (semester) => {
+  const findSemesterTwoEntry = (id) => {
+    const root = DATA.semesterTwo;
+    if (!root) return null;
+    if (!id || id === root.id) return { node: root, trail: [root] };
+    const walk = (node, trail) => {
+      for (const child of node.folders || []) {
+        const next = trail.concat(child);
+        if (child.id === id) return { node: child, trail: next };
+        const found = walk(child, next);
+        if (found) return found;
+      }
+      return null;
+    };
+    return walk(root, [root]);
+  };
+
+  const renderSemesterTwo = (id) => {
+    const entry = findSemesterTwoEntry(id);
+    if (!entry) return notFound("Материалы семестра не найдены");
+    return renderLibraryNode(entry)
+      .replaceAll("#/library", "#/lessons")
+      .replaceAll("Аудиотека", "Доп.курс")
+      .replaceAll("Все разделы", "К семестрам")
+      .replaceAll("Аудио и PDF из исходного архива DLIFLC.", "Учебные аудио и PDF второго семестра.");
+  };
+
+  const renderLessons = (semester, itemId) => {
     if (semester === "semester-1") return renderSemesterOne();
-    if (semester === "semester-2") {
-      location.hash = "#/library/1BcaMzJKr5Bl3vGdpC3V6DAQdQq3YAmpE";
-      return "";
-    }
+    if (semester === "semester-2") return renderSemesterTwo(itemId);
     return `<div class="page">
       <div class="page-head"><div><span class="eyebrow">Дополнительный курс</span><h1>Доп.курс</h1><p>Выберите семестр, чтобы открыть уроки и учебные материалы.</p></div></div>
       <div class="routes-grid semester-grid">
         <a class="route-card semester-card" href="#/lessons/semester-1" data-letter="📘">
           <span class="route-icon">${svg("bookOpen")}</span><h3>Семестр 1</h3><p>40 тематических уроков с аудио, PDF и грамматическими пояснениями.</p><div class="route-meta"><span>${DATA.lessons.length} уроков</span><small>Открыть семестр →</small></div>
         </a>
-        <a class="route-card semester-card" href="#/library/1BcaMzJKr5Bl3vGdpC3V6DAQdQq3YAmpE" data-letter="📗">
+        <a class="route-card semester-card" href="#/lessons/semester-2" data-letter="📗">
           <span class="route-icon">${svg("folder")}</span><h3>Семестр 2</h3><p>Студенческие материалы, аудио, учебники и карточки.</p><div class="route-meta"><span>Учебные материалы</span><small>Открыть семестр →</small></div>
         </a>
       </div>
@@ -2050,7 +2073,7 @@
     switch (section) {
       case "alphabet": return { nav: "alphabet", title: "Алфавит" };
       case "intro": return { nav: "alphabet", title: `Вводный урок ${parts[1] || ""}` };
-      case "lessons": return { nav: "lessons", title: parts[1] === "semester-1" ? "Семестр 1" : "Доп.курс" };
+      case "lessons": return { nav: "lessons", title: parts[1] === "semester-1" ? "Семестр 1" : parts[1] === "semester-2" ? "Семестр 2" : "Доп.курс" };
       case "lesson": return { nav: "lessons", title: `Урок ${parts[1] || ""}` };
       case "vocab": return { nav: "vocab", title: parts[1] ? ((DATA.vocab.packs.find((x) => x.id === parts[1]) || {}).title || "Словарь") : "Словарь" };
       case "trainer": return { nav: "vocab", title: "Аудиотренажёр" };
@@ -2110,7 +2133,7 @@
       if (parts[1] === "letter") ui.alphabetTab = "letters";
       html = renderAlphabet();
     } else if (section === "intro") html = renderIntro(parts[1]);
-    else if (section === "lessons") html = renderLessons(parts[1]);
+    else if (section === "lessons") html = renderLessons(parts[1], parts[2]);
     else if (section === "lesson") html = renderLesson(parts[1]);
     else if (section === "vocab") html = parts[1] ? renderPack(parts[1]) : renderVocab();
     else if (section === "trainer") html = renderTrainer(parts[1]);

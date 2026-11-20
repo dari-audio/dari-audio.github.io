@@ -21273,3007 +21273,6 @@ window.DARI_DATA = {
           "description": "",
           "folders": [
             {
-              "id": "1BcaMzJKr5Bl3vGdpC3V6DAQdQq3YAmpE",
-              "name": "Семестр 2",
-              "description": "Второй семестр · DLI Dari Basic Course · Student Copy. 40 тематических блоков с аудио, учебниками и карточками.",
-              "folders": [
-                {
-                  "id": "1JO1uoerheqVrKtbbM_L8jsZDGaHl7vKW",
-                  "name": "Cards 1-40",
-                  "description": "",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1lyfu8o_47TKfN9O3pCenyTpFmZWHeNLA",
-                      "name": "Cards01.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1PZGh6xnxeHy2Fl59NzCf3nz4MbJT_Adh",
-                      "name": "Cards02.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1PggTFwSRdr_0pf00c4qoMOzYM6x90xAh",
-                      "name": "Cards03.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1xBhA5xym_ylGVZMZZSLuLOtoOB1KZ7ES",
-                      "name": "Cards04.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1uSZNr_gs02RGiBK-x0h-QA6avIdQOFXj",
-                      "name": "Cards05.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1M6O4GRZLBn0I1Y-95O9TSjErEaoBGW0T",
-                      "name": "Cards06.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1uICFYgi5cyOPFwU_xRGNH3-ARxrqhHdY",
-                      "name": "Cards07.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1GbfP8vpS2XkMvO-F6opxvZTF9f-jdr7X",
-                      "name": "Cards08.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1wuKHK5OBhxYDslSTny-5hJzfjNsdxz1K",
-                      "name": "Cards09.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1YluP225TPg3ZCtECQ6di6L7_vPEJ_HcM",
-                      "name": "Cards10.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1g9-P3pWNJkjB9u1A2jtP8oFu6IUrTtBu",
-                      "name": "Cards11.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Jz-3WztI4Je_nZXPfwcxphh4Aazv9FsT",
-                      "name": "Cards12.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "12ndtSV4otIwkCpNEDyOkff40v-hIX3eX",
-                      "name": "Cards13.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Y1ZWlqpHNHxf9Q_3iA_RCX2t2ZfSrpzm",
-                      "name": "Cards14.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1PH9R4BP3LPw7U8YXNp4iUsUNgcu6kg2t",
-                      "name": "Cards15.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1fSiJhtD4qHXwJ6IKDUe-YbQ37CLOFqtK",
-                      "name": "Cards16.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1aIYj7zmHay4lwgo4A5LTpOE_SjsWCL6n",
-                      "name": "Cards17.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1YyAtyJ4XGLN9VENOgHc0yUBjAVeTTdDy",
-                      "name": "Cards18.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ANcOaGhMVnjdXXYZw-L92dnYJbksavxx",
-                      "name": "Cards19.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1GN0s1zHmalxmSlk6PReWuJrMZJC3vTqE",
-                      "name": "Cards20.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1wVGeH4WfbtQydIe985QW9u1s2mFk_yxb",
-                      "name": "Cards21.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "16F5j6x0JfZJJbChmMnqYxDyU53Osv-Bf",
-                      "name": "Cards22.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1eGBeqdezBTb4Pd0Cd13pse-Y2Mn6YgZC",
-                      "name": "Cards23.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1w4yN67f4jrNaYYdDiEPlMV9idosxaGxj",
-                      "name": "Cards24.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Ejrf-dsPIKWjtxrHOLm4JpES5rkLOE2R",
-                      "name": "Cards25.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1YUP04mS3FRczEygwrQHcS_54AfEH0TTK",
-                      "name": "Cards26.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1DdpCx-ooYr8SXmc73IAwxBr2QCwPwRCv",
-                      "name": "Cards27.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1V0ArfGCl2t-z6rseczqyPVhjYTnQNuIu",
-                      "name": "Cards28.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "16MU9s7y8CzKMIrsR66eu8iq0gLltZkij",
-                      "name": "Cards29.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1HRxq9XRaAA4X6hDNMz_4npNodYeHyNdG",
-                      "name": "Cards30.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1u_eocILM5ekFk-s4BkBRyy4EX_bIzLI0",
-                      "name": "Cards31.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1eUry7BrrwRCkJsnuavQBhMy9bkeXtUOs",
-                      "name": "Cards32.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1fEMEZmVH-ebWS9QuttgW2RMIm8ubywLC",
-                      "name": "Cards33.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1igeop8ixVAcVGLXKRuCtkfPwIaJ8aWd7",
-                      "name": "Cards34.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1jSf9FLbKOmw2YDEXgdOReW6_9rP5LMbK",
-                      "name": "Cards35.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1mzeno5OxKI699CgsMtVHWThdHTxgoHwp",
-                      "name": "Cards36.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "13mnLazV3TtgQPE-1pwvGEoOxl8NMCzt0",
-                      "name": "Cards37.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1b2RdTZlCevcbJFqurRq2EzySOYBTqiP7",
-                      "name": "Cards38.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "15G2qdwvUbq7up-joODMYISlmHDHFe2Vc",
-                      "name": "Cards39.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1B0IroxnotyDYDEtJyk7BZff5pZE-xca_",
-                      "name": "Cards40.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                      "name": "1. СКРИПТЫ Cards 41-60 _2006_.pdf",
-                      "type": "file",
-                      "pages": 40,
-                      "role": "scripts",
-                      "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                    }
-                  ],
-                  "fileCount": 40,
-                  "folderCount": 0,
-                  "audioCount": 40,
-                  "pdfCount": 0,
-                  "linkedAudioCount": 0
-                },
-                {
-                  "id": "1daef_0DOwy8Qp_aiMpSO633j7zDlxFLT",
-                  "name": "Cards 41-80",
-                  "description": "",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                      "name": "2. СКРИПТЫ Cards 61-80 _2006_.pdf",
-                      "type": "file",
-                      "pages": 40,
-                      "role": "scripts",
-                      "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                    },
-                    {
-                      "id": "1eDyDnzw9FggSIfl-s_3qNV9bI9x-ZMFO",
-                      "name": "Cards 41.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 2,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1RNYmDgsMlFSs74CXMUbabv4h-_j7jvtn",
-                      "name": "Cards 42.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 4,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1bCgdhoRC5TvvP8FQnt7ij7CCHpMYECVJ",
-                      "name": "cards 43.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 6,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1FH9-ylASZoiQR2gPSU_2XA8HsYma2joz",
-                      "name": "Cards 44.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 8,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1p2inaFmJLG-ThjbzAWkpAjB4Upq5qlxZ",
-                      "name": "Cards 45.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 10,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1rnLnj4Iei022_25Y9FNMWIZSTzRM3pUI",
-                      "name": "Cards 46.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 12,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1c7fgZeetvhazC3Gb4shHvjLAr55mAO9-",
-                      "name": "Cards 47.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 13,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1dSNdJ2UakeUUbJbyeoxH7DiuaCXrZSre",
-                      "name": "Cards 48.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 15,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1Q1H1MuY3v9p1TStAZQ56uLK_H7W9M-NV",
-                      "name": "Cards 49.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 17,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1_05ub_PevG1kzlEm6vmNhVcbdZ36BaF6",
-                      "name": "Cards 50.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 19,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1_8drwySdLHMxKELR1lP5hflxynTlqndM",
-                      "name": "cards 51.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 21,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1s1BYR95WAkkK5HbJbErebtS41ji-2lqm",
-                      "name": "cards 52.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 23,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1RhsqzXQZgTyWHfYp4K3iN1Ecl4kvRwoQ",
-                      "name": "cards 53.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 25,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1i-oY4co3ctKLH3AYeGj46oHKU1ypUMKt",
-                      "name": "cards 54.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 27,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1mbXcio_QQUmQDkk4AC5THTLAfdqaSbz8",
-                      "name": "cards 55.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 29,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "13C-GxvgUw9XNBtmKFnaMePwfa6s-W7w7",
-                      "name": "cards 56.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 31,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1KUof27z4mjMelcoRByQfjM-GeIlJdlbN",
-                      "name": "cards 57.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 33,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1Db2jHPArZhUp8duo4WZdFtoJht_sJrwo",
-                      "name": "cards 58.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 35,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "18xUypKlh8eW23Javp02aIuu3m2e-DiR9",
-                      "name": "cards 59.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 37,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1IW1k3FsBUI8Zml-50hVvWMPA89Dm-Khp",
-                      "name": "cards 60 .mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
-                          "name": "Скрипты карточек 41–60",
-                          "role": "scripts",
-                          "page": 39,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1YnzwCGKw8R4hnu52p5ANnUs3BtvGRspc",
-                      "name": "cards 61.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 1,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "17oDaPC1nGIqJxWnKDGCnnyz3NActao4L",
-                      "name": "cards 62.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 4,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "17E0K776uDVGtMm7loWEoE9icpIk0za2s",
-                      "name": "cards 63.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 6,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1lp-cUAPLoBTROp_W-z_lRStMOaTkzRsT",
-                      "name": "cards 64.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 8,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1O9hFI-z2ZCO4xpNbbryLeO8IYP6AnUVv",
-                      "name": "cards 65.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 10,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1UWsC9v3aZcdcVHmcshtKUjJOAXWSNgSi",
-                      "name": "cards 66.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 12,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1GJGuhK8PyUEL2ykZaqD8LMPY7RaHe4Wa",
-                      "name": "cards 67.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 14,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1Rs4Q96rUEMbfqt5u8WjbWaMEywjPCfWp",
-                      "name": "cards 68.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 16,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1Gzae_FTRdqs9DV9Glw1pEgjDgpUiTQj9",
-                      "name": "cards 69.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 18,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1An-jD9__9_IWLlmQhfrj-qJ2sNRVDdzD",
-                      "name": "cards 70.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 20,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1yo3MgSXqC7bKT0PAK7O_o0Vugqapqh0e",
-                      "name": "cards 71.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 22,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1WEvw-TLgRnA_PWcjfSjCEQJkITNGPwgF",
-                      "name": "cards 72.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 24,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1Cp1ZcXfjxyS85N6ZaYw3aeo_w3Fa-vnY",
-                      "name": "cards 73.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 26,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1B1VEGuOkxag_zmkTH5t-Yn7EwKpTgdVy",
-                      "name": "cards 74.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 29,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1ZU4X8OHYvQPDRxMBfN91WHJYjQb0od1F",
-                      "name": "cards 75.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 31,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1wHHLtmdAtd-uhfXda7PCnnkWYE0JjBN6",
-                      "name": "Cards 76.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 33,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1aUYnHB3-4rZDg8W6KtLBDnNSlhE7lpSH",
-                      "name": "cards 77.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 35,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "11TzH-s9iu0j57YCrL5IsB_9Dr8aCIVdC",
-                      "name": "Cards 78.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 36,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1LDHMt-NzvPfAD6XBf6qT0k7uchNyBMxx",
-                      "name": "Cards 79.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 37,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    },
-                    {
-                      "id": "1XEfJPa5g61_deNlPmnqDU2hFQwiaNPj1",
-                      "name": "Cards 80.mp3",
-                      "type": "file",
-                      "resources": [
-                        {
-                          "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
-                          "name": "Скрипты карточек 61–80",
-                          "role": "scripts",
-                          "page": 39,
-                          "pages": 40,
-                          "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
-                        }
-                      ],
-                      "resourceCount": 1
-                    }
-                  ],
-                  "fileCount": 42,
-                  "folderCount": 0,
-                  "audioCount": 40,
-                  "pdfCount": 2,
-                  "linkedAudioCount": 40
-                },
-                {
-                  "id": "virtual-lesson-01",
-                  "name": "Lesson 01",
-                  "description": "Materials for lesson 1",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1ZMAgfdJTGHy6cZns-BU6QisOLIApLV0K",
-                      "name": "Dialog 01.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1hsDNP0CSWVAH4KSlMnLyBzsmdurAQMlx",
-                      "name": "1-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "16pfUVKvfWiDgtNzYx7CXIrfV9rYqXAxg",
-                      "name": "1-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1MtJHO__r8QaV4Cyj4borxdTvj1z9F2ay",
-                      "name": "1-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1HZhWTiZUAc64XC7ARN4wc0GM2z4c4sUi",
-                      "name": "Military 01.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "11RM7md9KXJvyRlBfOSXoNSzjarGGdN9h",
-                      "name": "Episode 01.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "195x6tPBL9xH15VTirJ9GrYwAXP4Q5UF2",
-                      "name": "Text 01.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1bu0a6yHeweI8tEctvk2CrfrmBw4ncHnI",
-                      "name": "Text 01_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-02",
-                  "name": "Lesson 02",
-                  "description": "Materials for lesson 2",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1uQru33TD8PTENSdtCAItyD-R-DlaNwk0",
-                      "name": "Dialog 02.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1DFG7M219I9-kBOMjNmAbfLFoP92rFoIv",
-                      "name": "2-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1OWl0xuOPMysSKipd-SovtgADUQKnxsGE",
-                      "name": "2-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ktBd9IWB9RTBROlbgU0Qg1q8Rnx0nV-n",
-                      "name": "2-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1TFqGfQP4UQ3SF3iDfqGQgueOsIQYPbZd",
-                      "name": "Military 02.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "141VifglO2ThBY1NGDrRp-xjYggkDp3MM",
-                      "name": "Episode 02.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1t7WhrzHqfldfN1I2gVWhFiFByjAI4CqP",
-                      "name": "Text 02.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1tQtdA0Gz9PalPRhMzsuR8MFA4Lujno_w",
-                      "name": "Text 02_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-03",
-                  "name": "Lesson 03",
-                  "description": "Materials for lesson 3",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "18IuUs6100nJ1gZfTMTppv1Jxk_4FQpJm",
-                      "name": "Dialog 03.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1LXy4_mIhy816cWZ0HUfreToQAtGcu8BH",
-                      "name": "3-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1l0S5CMu0tNGWKs1JwCoAd5oJwi7usDR8",
-                      "name": "3-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ljXGdyRyUnPzM-LyXNxb3FEgcInvVXZ4",
-                      "name": "3-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1xxCI9Shkwc0zgDk_19RNWw-duLh9_6Vf",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1VK51j_sqMgLZQ0ZvFo141cqFv-USH03F",
-                      "name": "Military 03.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1THJEzHww_JVh4jxtH5qRQRRl4-5UveHZ",
-                      "name": "Episode 03.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1XIp8J3ERFvQPLLvEGph0jE3V-Pa0feP8",
-                      "name": "Text 03.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1y7rRkujq82jJhS4HtmFTbEoOL68NvtxB",
-                      "name": "Text 03_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-04",
-                  "name": "Lesson 04",
-                  "description": "Materials for lesson 4",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1rRVNeqBXuKubGiThpPV8Am4fH0VkX-NX",
-                      "name": "Dialog 04.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1jfmHKgL3Bon--GcBJjXbAbDM5N5u1ly3",
-                      "name": "4-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1JvO4cIf7iWCzYpmI2CKRYQt8SFxqxxFf",
-                      "name": "4-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1C-Al65WRvCkQfV4ZkY_jaai1fEpbgVvp",
-                      "name": "4-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1jflLdcV3aV479H6Tio7jxgLNNTCuwswf",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ICaNEGAqtFzybujHqSI6iHqL1Fke8CBv",
-                      "name": "Military 04.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1aZqkshk8XJ5xzItJv_8e4swzCr-QlmFS",
-                      "name": "Episode 04.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1S0kCyHq_wUDgmDAE4NJ9-9gAiJLRaxrg",
-                      "name": "Text 04.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ZgkqwIun-NBQ9vi1-JzQLJkTt3r5u7vt",
-                      "name": "Text 04_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-05",
-                  "name": "Lesson 05",
-                  "description": "Materials for lesson 5",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1YSS5CzY84LWztKQ3yIO6DaDVS0W_N9Ye",
-                      "name": "Dialog 05.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1r8MVEz_Ofi0i9Pv9oxL6J5qxnWQoFcL8",
-                      "name": "5-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "18BBZ43_RLVNXghDIJH-NviTCC0Ck5bKH",
-                      "name": "5-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1LviRvYj0Skt4oLdLYmwyXKhcUt6YdvY1",
-                      "name": "5-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "12_j_CFUQMT6igd1uqoqhx2D8BiXUidAh",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Kj32UCJ7MfUxVAvazpcRmwf6tAYz-EOJ",
-                      "name": "Military 05.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "19YatCJkCSI0GtcmYzeMGr1UA9qpUwIzJ",
-                      "name": "Episode 05.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1qUDiU56YoEhYbmUVFzwSz-uq67jeAqB5",
-                      "name": "Text 05.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1KqlJ4ZQ2dD9flnR_UP6W45c2jgvYm3VI",
-                      "name": "Text 05_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-06",
-                  "name": "Lesson 06",
-                  "description": "Materials for lesson 6",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1cSKERLycK4tUEbQyBlKTjellDbwNb0EM",
-                      "name": "Dialog 06 .mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1qXnVkk8n6f81eClzTBGKo7sraomuf8sK",
-                      "name": "6-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "10LaSizxvB8eP5MmksIJBqD-avtPsybp5",
-                      "name": "6-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1kvXg39ANnhIHgDPHsKd__j5xBxNRA15l",
-                      "name": "6-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "17_rSenKjl_DQOaNa8pyOUr-UaR9ONpNB",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "11Uae4gedJdh2-iuwBTlCqxvScNM3WaE3",
-                      "name": "Military 06.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "14fmo0WFbej8tqhtM9gKBsP9WURMc_Cbg",
-                      "name": "Story 06.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1a5OKBs92UjJDxYLpwaEkGWM7efXe9Pra",
-                      "name": "Text 06.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1CLwE4V1MMoxiHnNID5jz5FB88HPtyAta",
-                      "name": "Text 06_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-07",
-                  "name": "Lesson 07",
-                  "description": "Materials for lesson 7",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1RUZtFyZTdKESb1BijzPZU8_LaBayIYvs",
-                      "name": "Dialog 07.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1F2HAkr8uGytVVSGilV8ZriIj_SaBYe0V",
-                      "name": "7-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1LinvGL2wtdoACpfyY5MiUEU6w_MIhxcN",
-                      "name": "7-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1OZK8Lzt-R7TtZx7Ri9nILCVTEVQgzRgR",
-                      "name": "7-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1U7Z_7dOu1jYZGa160nZDjJzl2dQFASNX",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1aCbiYH0pqKPMkTm-4ea8G5_HiZbRE9LC",
-                      "name": "Military 07.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "13q4g8UUajXoscL9VzILLK8HF4UK5VT5Q",
-                      "name": "Story 07.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "188f-MfdTBLan-bf4YHCRFl4ZG3UCCmjH",
-                      "name": "Text 07.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1hIXtJXr4q6iuezT08s8QNh7YltD_x8uO",
-                      "name": "Text 07_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-08",
-                  "name": "Lesson 08",
-                  "description": "Materials for lesson 8",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1T1adzUdQ2q5IuQahiHOo328qd-0GhUBq",
-                      "name": "Dialog 08.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1s8MVYtTR5aE9XWOndDf3w37EpBKS45YH",
-                      "name": "8-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1hJMkks8givaEIWOS9fpGKvrTh_b2T0Zn",
-                      "name": "8-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1yc-QRpRT5HCNCWlwjmajY5-DKUHUO_vQ",
-                      "name": "8-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1v8tvq83QArOodkSUrV5WONxRARLLVrR5",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1_KKzgpPE6yaAiEGApoX9-D7A5gJicLRE",
-                      "name": "Military 08 .mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1UxDaBVaxZCYZfdSnm8xwBqjrtHWDcnWO",
-                      "name": "Story 08.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1a_ikJwPWNN9on950fLuS7AswRcjZLqiJ",
-                      "name": "Text 08.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1urHTOzj43lElGdYNnRpw6JqIJIvUPIhn",
-                      "name": "Text 08_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-09",
-                  "name": "Lesson 09",
-                  "description": "Materials for lesson 9",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1e9tPUjVE9o1qSDhrtRpirB-UqL9mgu3c",
-                      "name": "Dialog 09.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "11TdynXvjnM7PHq03jqg-hx2K8mW_AgKT",
-                      "name": "9-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1zNLIjeWA2WSEVn4a-NF7Ewt1-oChNOJy",
-                      "name": "9-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1f7XON9Kaf4gHnOZiFGanjMM5hCyp9kTa",
-                      "name": "9-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Gynu6C8_7i_TpEEn1KNFlx_BxpTn8mYH",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ReOVw0oJwSuvazTC1-JessRvhizGmN6V",
-                      "name": "Military 09 .mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1KFN5FOTnFcyGkl0CZacLVqvNBS8nCGXb",
-                      "name": "Story 09.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Hpus3NJ1dgzFUD47symh8yoLBbYOFDrf",
-                      "name": "Text 09.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1SOjTIfEAS5d72o_HGoIAQRrP8yqF3xJ1",
-                      "name": "Text 09_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-10",
-                  "name": "Lesson 10",
-                  "description": "Materials for lesson 10",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1gN4qzbeDbeU3b9jclslTky-wMrEEWKIT",
-                      "name": "Dialog 10 .mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1McHKmF9QKP4JIVg4SkULJrap6I-QCEXa",
-                      "name": "10-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1xvk-uyI5nvgsjPJOcVqjYJC0b4C8ycWi",
-                      "name": "10-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1pfe8dw-AQP3OJIbWOZ4BZIyQbAwdxgtG",
-                      "name": "10-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1WzHVS2FERMXG7OEUb__R8uUQtKUOMkBZ",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1waggG46chYuW6pVpImCWl42hBX4WPl0i",
-                      "name": "Military 10.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1cp04uL6F05xfGMwXlHF2-tfiZ3oOQlsf",
-                      "name": "Story 10.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1yPbZHkonvNtYC1ZPIhGYJ2MfHXO0lD81",
-                      "name": "Text 10.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "10Me0CAXnhqxMqQ5UivHcUZJgs0qUzuDb",
-                      "name": "Text 10_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-11",
-                  "name": "Lesson 11",
-                  "description": "Materials for lesson 11",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1AI7YmlSHWTWdexnExMjOp7GG4lnYL6im",
-                      "name": "Dialog 11.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1b7jH5ELaf2E_bHwkh3voABCQQ5mv0qQ_",
-                      "name": "11-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "13M6mjfCJGKYaE08Eu0W_Wu7o559WHadv",
-                      "name": "11-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "18trM_MDjDryvy3E-0DzueTE-QGn99dvv",
-                      "name": "11-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ALC2iCngCXlJa5-U_WPDe85WWQ8DQ8UC",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1HbfMzP1NMRvECuaJxQ8IwwqBlT1j2m5r",
-                      "name": "Military 11.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1yBZhlrbTaDRk9Hqa3bWaVqG2vKK2Mmar",
-                      "name": "Story 11.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1QKQQnTXFT_V-SbiciOuNF3afac16CuYx",
-                      "name": "Text 11.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1sp3lCJgiN3UNXytqUfzttPJDRMFQLbuk",
-                      "name": "Text 11_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-12",
-                  "name": "Lesson 12",
-                  "description": "Materials for lesson 12",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1tzO0GKq3AWeGDU5Ppe-BjDagN9XL0cEg",
-                      "name": "Dialog 12.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "19BQt4YDq43GYpcMijC1U9TdALdkwpYPS",
-                      "name": "12-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1cNtc9bMUvkurlyjW6Er4RUq3P-rgJuKW",
-                      "name": "12-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1FCvi9NZJcZ-yqQSsUx1mjzfTKYE4ZCsW",
-                      "name": "12-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1X7gQ_5DGetWIRekqMCQg8g9liJvaVf_E",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1wwrjfpbT9fxzgYyob5Z65vshtYQGD962",
-                      "name": "Military 12.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1YaC9M8nz17p48q7DJRNPYWSku5FhcJXG",
-                      "name": "Story 12.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "13CHP0_xP2i2bkmHckbUixkWrOC8q-3RV",
-                      "name": "Text 12.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "18_dgpvFnkAdMFxCRZXJH7Hfh8ACjmpQi",
-                      "name": "Text 12_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-13",
-                  "name": "Lesson 13",
-                  "description": "Materials for lesson 13",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1UOJGy_r7pZkqvYKc-wT4qcx9s0NZ5GNp",
-                      "name": "Dialog 13.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1achsjqAXeF1yGMlqp1yigW1ka7GA5YO1",
-                      "name": "13-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1iBro5hn1T6_ddnCwkoYxQmjJgdxHvOfz",
-                      "name": "13-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1OgM55rj5D3w4A0oTjTTomg7cwqozDmqW",
-                      "name": "13-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1qrii8awrRBjYG5Og63V6RtjtOdPXRarv",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1JtzQeHMq9UU5Fx2isYSJqKPJESRRss6O",
-                      "name": "Military 13.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1rjmz7KQi89C0ZFdLceS8DqYaJpu5dak9",
-                      "name": "Story 13.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1fENqhdghPfWKW3Ls1OGZ8hBpudhPCoCG",
-                      "name": "Text 13.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1i01yTFwn1VfNVgAywLLrgGlHR9iy0AlW",
-                      "name": "Text 13_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-14",
-                  "name": "Lesson 14",
-                  "description": "Materials for lesson 14",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1rKbBNpzt4TMvvPNr8BdASXAjcCo-BFh_",
-                      "name": "Dialog 14.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1p08bbgt1mv53Y2yw6GQCfNgADYa6Ho1h",
-                      "name": "14-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "13wK68TtHWYsZoqcAPaZGvYep_-ngfJnq",
-                      "name": "14-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1XM0ChvpCJkFnsqDABnNs1eeZD6C6xTvE",
-                      "name": "14-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1NCTrQIan22GmwWe1ih9jkkgN8voqbagG",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "16I2Cu2usE_5DjYwT2z9AeM7TKKkRf9AI",
-                      "name": "Military 14.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1SWY7VX5dYUM_9AbOkdIIx5EqUfKiunKQ",
-                      "name": "Story 14.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1IVWW4ePNlC3CHDOpjB-8aejZJ3Gm10Yj",
-                      "name": "Text 14.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Bx6ig5U1ScRoWuhVasvhVk08RG97mqL9",
-                      "name": "Text 14_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-15",
-                  "name": "Lesson 15",
-                  "description": "Materials for lesson 15",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1XH16i1_HoxlPNrTKFowSrb3AwGmFCsXR",
-                      "name": "Dialog 15.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1UEi8SpKSmriT6Id152R5qfCY-0UXvLtn",
-                      "name": "15-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1uHoOL8spHdVwngsld6N8CrRfUQeNFqy3",
-                      "name": "15-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1-JWy9Nl2vtzpzN1vPf8fiEIVWhdVu3LZ",
-                      "name": "15-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "19Ztx7DdqR0ZcaX51UPDjXFb4VMnNZo-5",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1gEYxxMeULYJBesIlLo8-Mht-ZyFz9ekm",
-                      "name": "Military 15.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1I--K1krIT9wFJNPZvF6c6PLUf3ejNtyu",
-                      "name": "Story 15.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1-JT0yvw9h3PQzqibRf7b-p2JH3DPm_uj",
-                      "name": "Text 15.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1x-2Tg5sWzymWo9PLB12eQrenADep-afU",
-                      "name": "Text 15_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-16",
-                  "name": "Lesson 16",
-                  "description": "Materials for lesson 16",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1IyhHyc3vJlr1AFdPWdUJdR5BaCWFU8ug",
-                      "name": "Dialog 16.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1s32xkw5RhXv1PtEuuc1WwK96cXfzLjAb",
-                      "name": "16-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1QqkzmnTryN0KjtYnKexkALliLSM_an0w",
-                      "name": "16-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1JrFm7ZxYXRWAWCMK_2UBKpkoURN__L6-",
-                      "name": "16-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ZoVun5nwZnYI4c8IDwZsSx6Y8R9l1jjt",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1tT28iGezljatYrc7xE7P1FCAInQhcW0k",
-                      "name": "Military 16.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1jMZpMtRpuwBgm370o3_sGFWGSaOTuJmB",
-                      "name": "Story 16.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1hDB8RjQvqV9vJz15O5gF3sP7ylE4-JIW",
-                      "name": "Text 16.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1mN2uB9xG739WZW9an61f0-tuqhWOzLWQ",
-                      "name": "Text 16_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-17",
-                  "name": "Lesson 17",
-                  "description": "Materials for lesson 17",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1LxzsHumUbe90hQA6TFt9iwAquwF-1zij",
-                      "name": "Dialog 17.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1VR4lryoXtLoBk3Ry3lzwzKx99tnfQ_QF",
-                      "name": "17-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1U9SwsUvCFwiv6dqS5R65btcfcNBnBLf1",
-                      "name": "17-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ISOfn_-eIYlw_zLToOi0WZNPj0yrk1LH",
-                      "name": "17-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1PiNjYmBqZ5doPIOJoZ3UKX10_eiKIDZv",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "17-t6Y-zWsSQfOg6iEUwH0J3_pyv2oiXx",
-                      "name": "Military 17.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "17tGL1wpvK8GSTrAHrwATY__ZjTbCQjEg",
-                      "name": "Story 17.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ZsucBKhOle18hqGqQhNeZbjeOQAeJXLY",
-                      "name": "Text 17.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1usrx-clw--ub7sCGbftLpIDaDWN0DU2R",
-                      "name": "Text 17_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-18",
-                  "name": "Lesson 18",
-                  "description": "Materials for lesson 18",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1SY_zNLEy8nNLEjzSVUdHDCRze-wJjEbt",
-                      "name": "Dialog 18.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1NTPUTY_JR3-QUNkEpzdYh1G2jXnOMUIL",
-                      "name": "18-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1GCKB2zzM4WK49YxlUJKeAuwHME_wlvg6",
-                      "name": "18-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1GegSLQt3d9RG6sM4ZvtMsp4WykdNyB8J",
-                      "name": "18-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ooxs5Ky8Cq3t2LPdv8VFqJX3yZuYBdB6",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1YzILMeLXHUZhN78Rx0zhxtj-ELxb5XOy",
-                      "name": "Military 18.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1fyCz3EBnl1SPaTu1gbyf2vNm0aFMsKtG",
-                      "name": "Story 18.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "19hyJPN4d87mXzENlPWn6E95BRDgnrW7q",
-                      "name": "Text 18.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "12r50Ck-wjO-399CMAWWlNv4a_u3ppdss",
-                      "name": "Text 18_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-19",
-                  "name": "Lesson 19",
-                  "description": "Materials for lesson 19",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "13QxFDX5bWVSqV1DLVhsbo-NQ3YIfvNUQ",
-                      "name": "Dialog 19.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "13zq3mn6ii-lk43bxIItSnCGUFmF-eHlY",
-                      "name": "19-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1_XNRAkMHpLax6MLAgNQh3JBYHVje7ihZ",
-                      "name": "19-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1k2nGbwQTSl369BYpoE4JIXmuQn_WUDMS",
-                      "name": "19-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Z-D6NGxWtACKGIim0_WU-OKM_qxfrg-9",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "19TJQXeHyom7vROC6rlsstyhVUKg63CJY",
-                      "name": "Military 19.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ftytk1oi3jg1l7x4A7pGQoxX3x8sVfyZ",
-                      "name": "Story 19.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1h4YHLxr_XNKSK1QhVOci_8z--FURfb8r",
-                      "name": "Text 19.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Y4dQMUN1GU9RAKJ1PUvOA6ASLKk7gjUI",
-                      "name": "Text 19_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-20",
-                  "name": "Lesson 20",
-                  "description": "Materials for lesson 20",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1yXJDGp7AfMAwsON1sQvWgHFJrXizu3WS",
-                      "name": "Dialog 20 .mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1p0vUGmM4R5romSYvL32eX6ZmjfOXS9hA",
-                      "name": "20-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1FbWqQ3FCe7TEYB5rz-lsWBbQlYqOK7J8",
-                      "name": "20-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1eloKWDi1PMop1GeYDg8WVfB02gsYpZlG",
-                      "name": "20-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Ir5yh81Aq4uDCm4xi9Kd6o6WiCwGhya1",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1yq_i9cKOCFV03GPXXqXg0LTPK213Wbko",
-                      "name": "Military 20.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1udDKQACMGnVe4fANhegc8JZ3gFBpUQpp",
-                      "name": "Story 20.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1KGvwzMzuLEjvzLAo5dAGy2y7aKaapF1v",
-                      "name": "Text 20.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1kJsu1pES2a_e7yZ62oWhYOqOqBjJtfo_",
-                      "name": "Text 20_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-21",
-                  "name": "Lesson 21",
-                  "description": "Materials for lesson 21",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1Iou3RTuCnDETN7IIJbsuWBnDwUSh3Or_",
-                      "name": "Dialog 21.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1VCCcCo81U7vKpZiOSppGefHxVbhPlHjW",
-                      "name": "21-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1i2HrfQW_D6dax89yADORRD9_DIKPkw7G",
-                      "name": "21-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1gORhFwFXmOJJlW92xBdDQZVJNhavDcv5",
-                      "name": "21-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Wb89K6Is9dqJJVNJ34rZhfIYNqBKuALe",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1etS6wqAzUhqPeY5ihpTkf8_a2OUz96lX",
-                      "name": "Military 21.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1hY2NI1Srmm7MBmEaOqIRbNIsii-DfpKt",
-                      "name": "Story 21.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1PPqJtQIZG-O0G6Wy7ceFuyu8lmuRBoqB",
-                      "name": "Text 21.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1eWTFniwsNkhbeWkaxKaqug_BIdTNSv8R",
-                      "name": "Text 21_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-22",
-                  "name": "Lesson 22",
-                  "description": "Materials for lesson 22",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1YsR6z9gUJYQ8s8qcX_p2sdaye3GDSE29",
-                      "name": "22-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1L4tvga5Cl4thCSm1LotNR8q10hNV359j",
-                      "name": "22-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1yD2bLxvdaiS8DKSiW0BtoESyN7bN1NqF",
-                      "name": "22-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1UUnqouveNpaV3tInF2JVSqaPr6p-Vtea",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Ytz10_Zu5zn3dtC6th18VemL55vHwT3X",
-                      "name": "Military 22.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1r-pFtW7vr9ffqD9Xyt-LB53svEHKd1GK",
-                      "name": "Story 22.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1x3j4JLgPKHnkhLvlGWQdb1JGPzXz7KCd",
-                      "name": "Text 22.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1aamsE8hbB3-OcedIF-GHdiOjUVPP3Kmy",
-                      "name": "Text 22_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-23",
-                  "name": "Lesson 23",
-                  "description": "Materials for lesson 23",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1-hVWWy3YQDrg_M0gtkb3RsWDnsDXE1Ee",
-                      "name": "23-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1EkqIraIUoV6LjNFTdNBFQcRtUq4yNTfd",
-                      "name": "23-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Qpn6p6icz173I-gLqPkeBc-8NDVrCZNA",
-                      "name": "23-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1yrcP2CwHubjO_fJtHg5Td5FtalLnKga6",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Gt_9fZPvh474rdNX21CO0rBTzEJHr3P_",
-                      "name": "Military 23.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1r70ncKNMPhWTe2JOME2sYF34Nc1PtEkY",
-                      "name": "Story 23.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1zle5SPftdws9UvNWyfbzq6aLQ4xihOLe",
-                      "name": "Text 23.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1dguQId-KmxivYiPRs8BrnKmdZ8DED3Ig",
-                      "name": "Text 23_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-24",
-                  "name": "Lesson 24",
-                  "description": "Materials for lesson 24",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1H571TqS4lbadY21o1ohRn4OKc62dpCsL",
-                      "name": "24-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ICt0ukjD79-hU01fGcv_NgLvkOdR_s95",
-                      "name": "24-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1H69G4Wgqudv04HLtT1BFBoAoRYs6Cnl8",
-                      "name": "24-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1pvXGqGWDZCS9FNh8josOVJGAIEyH_CxA",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1z-HVdCSnj-8hHQRV7QzwwK7z9f-2O9Ic",
-                      "name": "Military 24.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1sgM1ppRBR5evWp_reJ-yWm1KwchEO99q",
-                      "name": "Story 24.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1lIuviGmzpy9BZnfhrfEOcCRUmvH7zCat",
-                      "name": "Text 24.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "194GqGKC3krVUWxOwGB7kbW4LHmYf5es4",
-                      "name": "Text 24_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-25",
-                  "name": "Lesson 25",
-                  "description": "Materials for lesson 25",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1xPlYgDJamk3mIBuL3UFkOHPJvHYwMYFt",
-                      "name": "Dialog 25.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1l-Ldx0sLaUfX8prH9fYhW5apRCOVPZ5t",
-                      "name": "25-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "11AJWGTeEh9hE-9MQTGiI_0uLbVRU-Zf1",
-                      "name": "25-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Q3jN_VvsjvKVPUvZ8M2ptqs6RcRECXJu",
-                      "name": "25-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1RN2TL5krBaqsEiheB9pvbBXMre8j5niB",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1eHeuTyXZVNci3OP0lMsRhe9MhFgeU8Q_",
-                      "name": "Military 25.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1InA9wZHLc27bQsHUrTkOpeKHjV_Jcrrp",
-                      "name": "Story 25.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1FSysQnpU03qW8d0atvi4NTSrHQtUep-X",
-                      "name": "Text 25.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "13ikVQEEg8gRHCEiRMKAuoHrlPk15-JDK",
-                      "name": "Text 25_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-26",
-                  "name": "Lesson 26",
-                  "description": "Materials for lesson 26",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1lwhgkLuiXZTDedwJmISZmzgGt11FukIs",
-                      "name": "Dialog 26.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1YJ7f-LtFolRZ2_id3zW2kCd5WNZu69do",
-                      "name": "26-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1zxbpFFA7SBszF4RWi2fewYRFWxbSTsKI",
-                      "name": "26-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1REiGNSwEr_Us0ykaNVBOLg8fLCppf0wg",
-                      "name": "26-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1sGDJhmPnPyQYKo3zxNyB3pxiSjY22zB2",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1tZ0M8nxdotlh1oh5Q58tFoD2GDJMgRx-",
-                      "name": "Military 26.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1FD1wDdRNlWJLJHVcgLgI-Rch1Cb_uDEO",
-                      "name": "Story 26.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1LHF7L7Ek4BnVT9C9WgcHVWn1CGXbartG",
-                      "name": "Text 26.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1B0fTxSsRm8YvewwBIZM7mqy0FZ9Fg0vP",
-                      "name": "Text 26_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-27",
-                  "name": "Lesson 27",
-                  "description": "Materials for lesson 27",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1eRRMpaDLwXMmmVvHXSZeXMa0PA-3ncUm",
-                      "name": "Dialog 27.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "12u5Iro7I6y6ihy2MuJAa_LsYv6ckyBfM",
-                      "name": "27-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Y8pqUUyPGMvfFiVV3FGNWL9NiG_YdpUf",
-                      "name": "27-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1SHHhj4-lrs2Bv2Nr9kVOB_V8va7GSGXJ",
-                      "name": "27-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1n4ESWsokPfbUIrK8jBhXAKzcjPgeoddK",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "10vNGyp9TGg4IqpcOFNTxvgs7BuraZEwc",
-                      "name": "Military 27.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1vKnoT2f-rkInQRyA8xRku6UTSQlkgHm7",
-                      "name": "Story 27.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1byHOs1BH_RFMY6eZqgO63l3m7CvujM_8",
-                      "name": "Text 27.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "17DJixSEtKOfwRZGAJLa5soqIO_078aVx",
-                      "name": "Text 27_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-28",
-                  "name": "Lesson 28",
-                  "description": "Materials for lesson 28",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1SKDoqRjW3LOd0xdk0NnLGvMB29_oDfKN",
-                      "name": "Dialog 28.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1dkObxTmccBWiiYVjdzule3aSFpJ_-3mx",
-                      "name": "28-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1xuVRRdkQRGeZr72KID7ZjBpnxHQZ0yfH",
-                      "name": "28-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1MBWp0cxWIpqnTHhuKx7MzeTSUty6NBEA",
-                      "name": "28-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1lgU3ipH4VjrnweQYPL_3quLdWzzeLDNn",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1DAV70n3nop186zjCunkvHKk355xWIbRw",
-                      "name": "Military 28.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1snWKsHxA95qKmhwossiI0Ez3m7bU_MG7",
-                      "name": "Story 28.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1AGyPRuaTBUmtnVvc1oNixFrlYjNU-PRd",
-                      "name": "Text 28.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1czT28h5n38_kF6fsv-LU5F7pc-3-5jIg",
-                      "name": "Text 28_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-29",
-                  "name": "Lesson 29",
-                  "description": "Materials for lesson 29",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1SvkhlOdCHkvanIP_auc5-itVuUvjhMjc",
-                      "name": "Dialog 29.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1DxBIJrYuwT2v5huPmsL26dZSUvXx1OTy",
-                      "name": "29-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Z2JnaSrlcKaE6pxObjCMw3vz_fi2EjO2",
-                      "name": "29-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ovIsiM0SJbNwpc0jV2mkmpn8afEKtKri",
-                      "name": "29-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1nGIgnNxaFNKgdg_rU7GGKd9Vqs5CoVd9",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1IFwJIiw6vg-8VtcobZia2KPfIJNe5B6u",
-                      "name": "Military 29.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1PWvIqAebbTBFuxqXEg1s-Rk7-vqFsPlH",
-                      "name": "Story 29.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1WoLgMbymrwlxVKzBXAo5kt5BfeiLl8lH",
-                      "name": "Text 29.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1plKjHoNs2R1LyBj4YCiR1ppNwDs2fC_z",
-                      "name": "Text 29_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-30",
-                  "name": "Lesson 30",
-                  "description": "Materials for lesson 30",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1qmWr-S9fhgWfCXMTHDPVJHkIvLnVP4R1",
-                      "name": "Dialog 30.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1AAUacOW7xrjyVILolL0KL0cV939qKgtX",
-                      "name": "30-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1x0xjkSdjCvLP8nS1da1MFx8V9I-R_mJL",
-                      "name": "30-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1uWYn-bRJlunPPgPx4FW_CTPEtbZlr7jp",
-                      "name": "30-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Hh5b8S3sGQBlPWh1VdNp0iMQqel5Yq2o",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1p9xqLc4-Dhv90yHtPccrAhLBrDwK6h--",
-                      "name": "Military 30.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1uqTCPI2-BYaVlO7m-tthfluHqzaLLsem",
-                      "name": "Story 30.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1drCFjQcxR6S_gtfmS0lLaBlICplYGedB",
-                      "name": "Text 30.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Z7JhpN-PSvyuNnLunQ3bj_LQ8oPrBaUk",
-                      "name": "Text 30_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-31",
-                  "name": "Lesson 31",
-                  "description": "Materials for lesson 31",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1xUEd9GlPAgxg1G0qS4fZxUUCDrHRVNb3",
-                      "name": "Dialog 31.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "15FcWTmJM83AxwzoTxzwqaoEdH8_qeCWh",
-                      "name": "31-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "14lSOUnVhyWjimtLF7Hoe1Eq8f3G8y70m",
-                      "name": "31-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1wRA1TE9CrTYbdxurDcGJzPZGQ2St7gUd",
-                      "name": "31-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1_sLhweLygWkHZtKYJjmerJle0Lro9MZg",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "19DpJ8Trc_VWz0ElesPbFyY8IyvUovEDB",
-                      "name": "Military 31.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1sf_-YTQaJcWinv3A9GHZypHa6K52Czl2",
-                      "name": "Story 31.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1jfN75yrCpclwkFiK8Ewe67XfLMqC4-Ko",
-                      "name": "Text 31.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1X6I0o3niK54-c2DNEyQ5Vv-_JjH8v0K7",
-                      "name": "Text 31_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-32",
-                  "name": "Lesson 32",
-                  "description": "Materials for lesson 32",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1WQuI_HjZNGwS0G6uc_eNB1eGkZqKPRqv",
-                      "name": "Dialog 32.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "11-1GaK1OsZNmJtf61YB9_N7GtCd9BIzG",
-                      "name": "32-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1cAOJqzt62CxmKVGI1Z004A_GFPvWgqIo",
-                      "name": "32-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1BcINFsT868M2dyIaH4qVyPDdnU9-u6p4",
-                      "name": "32-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1GYPhZOxPEXLAD4cFc8-r725wRCOx1vyK",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1yJgQSrp1VVo8BGYguM7f2qBHTruD_PGf",
-                      "name": "Military 32.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1SsAhMrxgewkLbTHvHGCOZldcTt0c389a",
-                      "name": "Story 32.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1c1sxprpqtfdZ-MWomAOoRalk-DKy_YC0",
-                      "name": "Text 32.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1vSi_A8zPMPpXGrvFAcmyiLYo8sCIgJfe",
-                      "name": "Text 32_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-33",
-                  "name": "Lesson 33",
-                  "description": "Materials for lesson 33",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1QCLQeCkjXKi-0kt966tklGTHefRM1Afp",
-                      "name": "Dialog 33.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ojWGzLUW9LbzaRLDml512K-IOEiAKYiS",
-                      "name": "33-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1cghxtm_d4_fWzjuzBouKWg-p8PZKhuHF",
-                      "name": "33-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1-tG3C4b_JdAi2JdDYvhWcFcgs4qK5eF5",
-                      "name": "33-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1SZ3UIYzdPaSVsU1v7uzvKB6fKVOQDiWE",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Ju4pQHIssCrYtply7y8O-XeKC9h-h3ob",
-                      "name": "Military 33.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1CyyKiv8QeS1782OEbKodqQQeDaBXeSzt",
-                      "name": "Story 33.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1faB9nQbDaV3ljJinBkRaOgB8YtYQAK-s",
-                      "name": "Text 33.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "18q6AqFjMHktvmTDf2JY49R2cKhJPr3pL",
-                      "name": "Text 33_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-34",
-                  "name": "Lesson 34",
-                  "description": "Materials for lesson 34",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1L8SIZ3zhEJoIy40_5PBqOQKX9YwEIMo0",
-                      "name": "Dialog 34.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1AjilKAjSnBBBN5U2hakJGBaM1oMwVfWC",
-                      "name": "34-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1FIVy2x84388GDMMf7QMwA1vByDgGCkvu",
-                      "name": "34-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "12YxeOqLqhv0TS_GZWtzcMULLstiQUDk7",
-                      "name": "34-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1bowsaSpRM0eDUrppX6R0aiFX1Sa_5IqH",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "10D9WEdQpG18fnFA7TUCHNaYz6cmJo3dP",
-                      "name": "Military 34.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Fxe9J4nW9D2ATlDnKM-raLjDbX_9PgEw",
-                      "name": "Story 34.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Roq9UBEccPTv858Dls1_aYBUilG7E_po",
-                      "name": "Text 34.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1n9To5Tk_VwAbwDLSK91aAHJJjCgiizYS",
-                      "name": "Text 34_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-35",
-                  "name": "Lesson 35",
-                  "description": "Materials for lesson 35",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1mZqHJ6S11V2yuxto7Mzs0WKFdiTU3CFd",
-                      "name": "Dialog 35.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1KnojfMKCnWpRMmphnO7qshst-TjAZXSe",
-                      "name": "35-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1JlKhRybBxTm1p4u8sEQXVSoXinsEPn0j",
-                      "name": "35-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1A1YAidrp1FFd3XF4K0hFTixdAcTlztzf",
-                      "name": "35-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "11Q3pP_x1HQcjD-y2_1zB5G7fAmMJAZte",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1IokBNPj2BQngSd4Bx5ntJ8A2zr-Bh82n",
-                      "name": "Military 35.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1QdTo5aiNd4bvYaaZ1nYGF-0dEsO0tFFX",
-                      "name": "Story 35.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1-0hGiY0VMHh54eKNsG-IInEaLaaxHB4L",
-                      "name": "Text 35.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "134RZ_W-g6i0_0tvt41brtIF2xe-aQPyS",
-                      "name": "Text 35_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-36",
-                  "name": "Lesson 36",
-                  "description": "Materials for lesson 36",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1vcJZv157cEcG-l6dsLwYI5c6bGo8lMIR",
-                      "name": "Dialog 36.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ljQeolgG2JT_18SsiZONvnupIseLn5jk",
-                      "name": "36-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1DETGCB-1IuiAZFsoOZ67nehcaNcljddU",
-                      "name": "36-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1I9BBlfslZBY0UIaU7qxOHpmSA7gzsMNO",
-                      "name": "36-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1rFVbSPd9MvXTpj5iZrfcVdIGpapNcbZ-",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1PnsQ0wQA4WdFVrE8oLmU4cxxQnztZo1K",
-                      "name": "Military 36.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1tFfDP85D29_PsqP3VJY--OUpmGzMolcy",
-                      "name": "Story 36.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "15z0Q3MDG6fUDkUw5bgLjLMH6Eon8-IZ-",
-                      "name": "Text 36.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1nRNqqxGYoykZ15B2SL0ams3idHqswKDj",
-                      "name": "Text 36_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-37",
-                  "name": "Lesson 37",
-                  "description": "Materials for lesson 37",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1yKU3oqPJd3djhqlj-nP4fcCG4qnKRGvD",
-                      "name": "Dialog 37.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1C4uu-Gn5xvdhA7JQ53cRndiH5Gw4Dmb0",
-                      "name": "37-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1CYzK9oYyQTsNDriJ8q1ueQp1zim6doqx",
-                      "name": "37-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "134s1_k67MCsrXssz_1gvE3HMFI-3drOv",
-                      "name": "37-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1mZLhgYM6nnuATlHTKyb6w6KmCpSpXIMV",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1nKSEWw9IB1_UIk9BqOG7RwdV5hifPaOR",
-                      "name": "Military 37.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Fjd62cUy6Wsa--vc1VXBgAXpl6KYxGrU",
-                      "name": "Story 37.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Uz9lRDncyG-ppm8FXxxRMbslMBshAwfE",
-                      "name": "Text 37.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1n-daRHyXG-XGV3VP_Xn0UtouxSqWNV61",
-                      "name": "Text 37_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-38",
-                  "name": "Lesson 38",
-                  "description": "Materials for lesson 38",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "12ZGofAjwyfT38tKast9_IZPURwew9Z6N",
-                      "name": "Dialog 38.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1xpxj92tgBRJ3wV1iT5gbQvNFjRXdrVMR",
-                      "name": "38-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1HbV5tw2Jh50srIhUxXGkmA3DpbaG9JDr",
-                      "name": "38-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1swkXr6l0jxxoUrIgNUoeOfNDjrqAP9Gx",
-                      "name": "38-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1lzDUgfQPmTTRHolkUwXztn8tL6eaT8JC",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1LiO9cZaIEzyA5oc0dOqHq9JmxZ3xxum6",
-                      "name": "Military 38.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "15gZnQ340a2whjYD29XnARrnDVnQWOCTW",
-                      "name": "story 38.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1F_KUFIBb8qI7RaUJqEOuf7kDOGRiLA-1",
-                      "name": "Text 38.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1QRzowQ8K3DS-EOtYkB-Em3dPKjacCkF6",
-                      "name": "Text 38_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-39",
-                  "name": "Lesson 39",
-                  "description": "Materials for lesson 39",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1UOzYXK4ynYILO615UNVMKqYixw-OCgMU",
-                      "name": "Dialog 39.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1KwO8yUz9Raw4Q4TuMmOO45GtHCbioAnv",
-                      "name": "39-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1KAGqpPLGz6WAm9YEl_1zGycRKNXF-qSH",
-                      "name": "39-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1gyVEgBS1qaQSgAVSB7qBm6u2YMddhQVG",
-                      "name": "39-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1jZjVaInzuPSGGnK_unSJnSUphXH4wSJw",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1D6MA1Dl_7Vq_e2phgK1pT1wlgog8dYx3",
-                      "name": "Military 39.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1tPiI-r5YQ6VkIOM0xMX8Qk0o5PpXRwlT",
-                      "name": "Story 39.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1nP34aB9E0Yol5SxVRms3_8WMoJ8TlTbN",
-                      "name": "Text 39.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Tnz2F41lI0lCwdkDtA9ynFbXNe0eyVBD",
-                      "name": "Text 39_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                },
-                {
-                  "id": "virtual-lesson-40",
-                  "name": "Lesson 40",
-                  "description": "Materials for lesson 40",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1yqHqJIen5d65jky9pNEyOOO1Kx3ro6_G",
-                      "name": "Dialog 40.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1C9mYcvgbZ-7XfdaXUwTZQeJjZVi2xLAw",
-                      "name": "40-1.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1x95bUslv4lkFbsajfIQzshUmXmxKSuIh",
-                      "name": "40-2.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1nN3KwLgntVOvu8d8cktoE6aDJDjFWwcm",
-                      "name": "40-3.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1NOHs99oo68wsc_UTz2x8FjdOJVzHg0fy",
-                      "name": "index.html",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1qFvivA5avvcfBIjbqdVHS6nf4wk1I_og",
-                      "name": "Military 40.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1s8NtJyE90oG22pnUQtk4GaaO4NkKBYh3",
-                      "name": "Story 40.wav",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Rb0mSvJRG-1PsDl5abfqJXNcR5SMbx7V",
-                      "name": "Text 40.mp3",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1h59IjoPXP5FJU2AW5QI9eeB2VfwGRKMJ",
-                      "name": "Text 40_2.mp3",
-                      "type": "file"
-                    }
-                  ]
-                }
-              ],
-              "files": [
-                {
-                  "id": "1wb7wV7wFUZI1fDPAtC0n7dTzedvtPQ6F",
-                  "name": "1. S Book 1-20.pdf",
-                  "type": "file"
-                },
-                {
-                  "id": "1DV5gbYIHyy7oYgKSJAhyFY2XRihIg5R0",
-                  "name": "2. S Book 21-40.pdf",
-                  "type": "file"
-                }
-              ],
-              "fileCount": 439,
-              "folderCount": 47,
-              "audioCount": 397,
-              "pdfCount": 4,
-              "linkedAudioCount": 40
-            },
-            {
               "id": "1kYzBjg4-XJXI2ZO9BhxgJRGt4tZ3HCdX",
               "name": "Teacher Units 1-40",
               "description": "",
@@ -30246,5 +27245,3006 @@ window.DARI_DATA = {
       "summary": "В доступной копии Student Book 21–40 раздел Unit 40 отсутствует.",
       "source": "Student Book 21–40"
     }
-  ]
+  ],
+  "semesterTwo": {
+    "id": "1BcaMzJKr5Bl3vGdpC3V6DAQdQq3YAmpE",
+    "name": "Семестр 2",
+    "description": "Второй семестр · DLI Dari Basic Course · Student Copy. 40 тематических блоков с аудио, учебниками и карточками.",
+    "folders": [
+      {
+        "id": "1JO1uoerheqVrKtbbM_L8jsZDGaHl7vKW",
+        "name": "Cards 1-40",
+        "description": "",
+        "folders": [],
+        "files": [
+          {
+            "id": "1lyfu8o_47TKfN9O3pCenyTpFmZWHeNLA",
+            "name": "Cards01.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1PZGh6xnxeHy2Fl59NzCf3nz4MbJT_Adh",
+            "name": "Cards02.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1PggTFwSRdr_0pf00c4qoMOzYM6x90xAh",
+            "name": "Cards03.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1xBhA5xym_ylGVZMZZSLuLOtoOB1KZ7ES",
+            "name": "Cards04.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1uSZNr_gs02RGiBK-x0h-QA6avIdQOFXj",
+            "name": "Cards05.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1M6O4GRZLBn0I1Y-95O9TSjErEaoBGW0T",
+            "name": "Cards06.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1uICFYgi5cyOPFwU_xRGNH3-ARxrqhHdY",
+            "name": "Cards07.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1GbfP8vpS2XkMvO-F6opxvZTF9f-jdr7X",
+            "name": "Cards08.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1wuKHK5OBhxYDslSTny-5hJzfjNsdxz1K",
+            "name": "Cards09.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1YluP225TPg3ZCtECQ6di6L7_vPEJ_HcM",
+            "name": "Cards10.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1g9-P3pWNJkjB9u1A2jtP8oFu6IUrTtBu",
+            "name": "Cards11.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Jz-3WztI4Je_nZXPfwcxphh4Aazv9FsT",
+            "name": "Cards12.mp3",
+            "type": "file"
+          },
+          {
+            "id": "12ndtSV4otIwkCpNEDyOkff40v-hIX3eX",
+            "name": "Cards13.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Y1ZWlqpHNHxf9Q_3iA_RCX2t2ZfSrpzm",
+            "name": "Cards14.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1PH9R4BP3LPw7U8YXNp4iUsUNgcu6kg2t",
+            "name": "Cards15.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1fSiJhtD4qHXwJ6IKDUe-YbQ37CLOFqtK",
+            "name": "Cards16.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1aIYj7zmHay4lwgo4A5LTpOE_SjsWCL6n",
+            "name": "Cards17.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1YyAtyJ4XGLN9VENOgHc0yUBjAVeTTdDy",
+            "name": "Cards18.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1ANcOaGhMVnjdXXYZw-L92dnYJbksavxx",
+            "name": "Cards19.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1GN0s1zHmalxmSlk6PReWuJrMZJC3vTqE",
+            "name": "Cards20.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1wVGeH4WfbtQydIe985QW9u1s2mFk_yxb",
+            "name": "Cards21.mp3",
+            "type": "file"
+          },
+          {
+            "id": "16F5j6x0JfZJJbChmMnqYxDyU53Osv-Bf",
+            "name": "Cards22.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1eGBeqdezBTb4Pd0Cd13pse-Y2Mn6YgZC",
+            "name": "Cards23.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1w4yN67f4jrNaYYdDiEPlMV9idosxaGxj",
+            "name": "Cards24.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Ejrf-dsPIKWjtxrHOLm4JpES5rkLOE2R",
+            "name": "Cards25.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1YUP04mS3FRczEygwrQHcS_54AfEH0TTK",
+            "name": "Cards26.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1DdpCx-ooYr8SXmc73IAwxBr2QCwPwRCv",
+            "name": "Cards27.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1V0ArfGCl2t-z6rseczqyPVhjYTnQNuIu",
+            "name": "Cards28.mp3",
+            "type": "file"
+          },
+          {
+            "id": "16MU9s7y8CzKMIrsR66eu8iq0gLltZkij",
+            "name": "Cards29.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1HRxq9XRaAA4X6hDNMz_4npNodYeHyNdG",
+            "name": "Cards30.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1u_eocILM5ekFk-s4BkBRyy4EX_bIzLI0",
+            "name": "Cards31.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1eUry7BrrwRCkJsnuavQBhMy9bkeXtUOs",
+            "name": "Cards32.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1fEMEZmVH-ebWS9QuttgW2RMIm8ubywLC",
+            "name": "Cards33.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1igeop8ixVAcVGLXKRuCtkfPwIaJ8aWd7",
+            "name": "Cards34.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1jSf9FLbKOmw2YDEXgdOReW6_9rP5LMbK",
+            "name": "Cards35.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1mzeno5OxKI699CgsMtVHWThdHTxgoHwp",
+            "name": "Cards36.mp3",
+            "type": "file"
+          },
+          {
+            "id": "13mnLazV3TtgQPE-1pwvGEoOxl8NMCzt0",
+            "name": "Cards37.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1b2RdTZlCevcbJFqurRq2EzySOYBTqiP7",
+            "name": "Cards38.mp3",
+            "type": "file"
+          },
+          {
+            "id": "15G2qdwvUbq7up-joODMYISlmHDHFe2Vc",
+            "name": "Cards39.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1B0IroxnotyDYDEtJyk7BZff5pZE-xca_",
+            "name": "Cards40.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+            "name": "1. СКРИПТЫ Cards 41-60 _2006_.pdf",
+            "type": "file",
+            "pages": 40,
+            "role": "scripts",
+            "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+          }
+        ],
+        "fileCount": 40,
+        "folderCount": 0,
+        "audioCount": 40,
+        "pdfCount": 0,
+        "linkedAudioCount": 0
+      },
+      {
+        "id": "1daef_0DOwy8Qp_aiMpSO633j7zDlxFLT",
+        "name": "Cards 41-80",
+        "description": "",
+        "folders": [],
+        "files": [
+          {
+            "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+            "name": "2. СКРИПТЫ Cards 61-80 _2006_.pdf",
+            "type": "file",
+            "pages": 40,
+            "role": "scripts",
+            "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+          },
+          {
+            "id": "1eDyDnzw9FggSIfl-s_3qNV9bI9x-ZMFO",
+            "name": "Cards 41.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 2,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1RNYmDgsMlFSs74CXMUbabv4h-_j7jvtn",
+            "name": "Cards 42.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 4,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1bCgdhoRC5TvvP8FQnt7ij7CCHpMYECVJ",
+            "name": "cards 43.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 6,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1FH9-ylASZoiQR2gPSU_2XA8HsYma2joz",
+            "name": "Cards 44.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 8,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1p2inaFmJLG-ThjbzAWkpAjB4Upq5qlxZ",
+            "name": "Cards 45.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 10,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1rnLnj4Iei022_25Y9FNMWIZSTzRM3pUI",
+            "name": "Cards 46.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 12,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1c7fgZeetvhazC3Gb4shHvjLAr55mAO9-",
+            "name": "Cards 47.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 13,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1dSNdJ2UakeUUbJbyeoxH7DiuaCXrZSre",
+            "name": "Cards 48.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 15,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1Q1H1MuY3v9p1TStAZQ56uLK_H7W9M-NV",
+            "name": "Cards 49.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 17,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1_05ub_PevG1kzlEm6vmNhVcbdZ36BaF6",
+            "name": "Cards 50.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 19,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1_8drwySdLHMxKELR1lP5hflxynTlqndM",
+            "name": "cards 51.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 21,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1s1BYR95WAkkK5HbJbErebtS41ji-2lqm",
+            "name": "cards 52.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 23,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1RhsqzXQZgTyWHfYp4K3iN1Ecl4kvRwoQ",
+            "name": "cards 53.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 25,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1i-oY4co3ctKLH3AYeGj46oHKU1ypUMKt",
+            "name": "cards 54.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 27,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1mbXcio_QQUmQDkk4AC5THTLAfdqaSbz8",
+            "name": "cards 55.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 29,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "13C-GxvgUw9XNBtmKFnaMePwfa6s-W7w7",
+            "name": "cards 56.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 31,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1KUof27z4mjMelcoRByQfjM-GeIlJdlbN",
+            "name": "cards 57.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 33,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1Db2jHPArZhUp8duo4WZdFtoJht_sJrwo",
+            "name": "cards 58.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 35,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "18xUypKlh8eW23Javp02aIuu3m2e-DiR9",
+            "name": "cards 59.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 37,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1IW1k3FsBUI8Zml-50hVvWMPA89Dm-Khp",
+            "name": "cards 60 .mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "1JREulIEo3uNS22fGZZqmmRAmhzfqbRyZ",
+                "name": "Скрипты карточек 41–60",
+                "role": "scripts",
+                "page": 39,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1YnzwCGKw8R4hnu52p5ANnUs3BtvGRspc",
+            "name": "cards 61.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 1,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "17oDaPC1nGIqJxWnKDGCnnyz3NActao4L",
+            "name": "cards 62.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 4,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "17E0K776uDVGtMm7loWEoE9icpIk0za2s",
+            "name": "cards 63.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 6,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1lp-cUAPLoBTROp_W-z_lRStMOaTkzRsT",
+            "name": "cards 64.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 8,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1O9hFI-z2ZCO4xpNbbryLeO8IYP6AnUVv",
+            "name": "cards 65.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 10,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1UWsC9v3aZcdcVHmcshtKUjJOAXWSNgSi",
+            "name": "cards 66.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 12,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1GJGuhK8PyUEL2ykZaqD8LMPY7RaHe4Wa",
+            "name": "cards 67.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 14,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1Rs4Q96rUEMbfqt5u8WjbWaMEywjPCfWp",
+            "name": "cards 68.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 16,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1Gzae_FTRdqs9DV9Glw1pEgjDgpUiTQj9",
+            "name": "cards 69.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 18,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1An-jD9__9_IWLlmQhfrj-qJ2sNRVDdzD",
+            "name": "cards 70.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 20,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1yo3MgSXqC7bKT0PAK7O_o0Vugqapqh0e",
+            "name": "cards 71.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 22,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1WEvw-TLgRnA_PWcjfSjCEQJkITNGPwgF",
+            "name": "cards 72.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 24,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1Cp1ZcXfjxyS85N6ZaYw3aeo_w3Fa-vnY",
+            "name": "cards 73.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 26,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1B1VEGuOkxag_zmkTH5t-Yn7EwKpTgdVy",
+            "name": "cards 74.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 29,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1ZU4X8OHYvQPDRxMBfN91WHJYjQb0od1F",
+            "name": "cards 75.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 31,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1wHHLtmdAtd-uhfXda7PCnnkWYE0JjBN6",
+            "name": "Cards 76.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 33,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1aUYnHB3-4rZDg8W6KtLBDnNSlhE7lpSH",
+            "name": "cards 77.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 35,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "11TzH-s9iu0j57YCrL5IsB_9Dr8aCIVdC",
+            "name": "Cards 78.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 36,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1LDHMt-NzvPfAD6XBf6qT0k7uchNyBMxx",
+            "name": "Cards 79.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 37,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          },
+          {
+            "id": "1XEfJPa5g61_deNlPmnqDU2hFQwiaNPj1",
+            "name": "Cards 80.mp3",
+            "type": "file",
+            "resources": [
+              {
+                "id": "19Wyw3LfbT7BVanAmb-pp3sXHcjIeKNJj",
+                "name": "Скрипты карточек 61–80",
+                "role": "scripts",
+                "page": 39,
+                "pages": 40,
+                "local": "assets/pdfs/library/cards-61-80-scripts.pdf"
+              }
+            ],
+            "resourceCount": 1
+          }
+        ],
+        "fileCount": 42,
+        "folderCount": 0,
+        "audioCount": 40,
+        "pdfCount": 2,
+        "linkedAudioCount": 40
+      },
+      {
+        "id": "virtual-lesson-01",
+        "name": "Lesson 01",
+        "description": "Materials for lesson 1",
+        "folders": [],
+        "files": [
+          {
+            "id": "1ZMAgfdJTGHy6cZns-BU6QisOLIApLV0K",
+            "name": "Dialog 01.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1hsDNP0CSWVAH4KSlMnLyBzsmdurAQMlx",
+            "name": "1-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "16pfUVKvfWiDgtNzYx7CXIrfV9rYqXAxg",
+            "name": "1-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1MtJHO__r8QaV4Cyj4borxdTvj1z9F2ay",
+            "name": "1-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1HZhWTiZUAc64XC7ARN4wc0GM2z4c4sUi",
+            "name": "Military 01.mp3",
+            "type": "file"
+          },
+          {
+            "id": "11RM7md9KXJvyRlBfOSXoNSzjarGGdN9h",
+            "name": "Episode 01.mp3",
+            "type": "file"
+          },
+          {
+            "id": "195x6tPBL9xH15VTirJ9GrYwAXP4Q5UF2",
+            "name": "Text 01.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1bu0a6yHeweI8tEctvk2CrfrmBw4ncHnI",
+            "name": "Text 01_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-02",
+        "name": "Lesson 02",
+        "description": "Materials for lesson 2",
+        "folders": [],
+        "files": [
+          {
+            "id": "1uQru33TD8PTENSdtCAItyD-R-DlaNwk0",
+            "name": "Dialog 02.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1DFG7M219I9-kBOMjNmAbfLFoP92rFoIv",
+            "name": "2-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1OWl0xuOPMysSKipd-SovtgADUQKnxsGE",
+            "name": "2-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1ktBd9IWB9RTBROlbgU0Qg1q8Rnx0nV-n",
+            "name": "2-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1TFqGfQP4UQ3SF3iDfqGQgueOsIQYPbZd",
+            "name": "Military 02.mp3",
+            "type": "file"
+          },
+          {
+            "id": "141VifglO2ThBY1NGDrRp-xjYggkDp3MM",
+            "name": "Episode 02.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1t7WhrzHqfldfN1I2gVWhFiFByjAI4CqP",
+            "name": "Text 02.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1tQtdA0Gz9PalPRhMzsuR8MFA4Lujno_w",
+            "name": "Text 02_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-03",
+        "name": "Lesson 03",
+        "description": "Materials for lesson 3",
+        "folders": [],
+        "files": [
+          {
+            "id": "18IuUs6100nJ1gZfTMTppv1Jxk_4FQpJm",
+            "name": "Dialog 03.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1LXy4_mIhy816cWZ0HUfreToQAtGcu8BH",
+            "name": "3-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1l0S5CMu0tNGWKs1JwCoAd5oJwi7usDR8",
+            "name": "3-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1ljXGdyRyUnPzM-LyXNxb3FEgcInvVXZ4",
+            "name": "3-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1xxCI9Shkwc0zgDk_19RNWw-duLh9_6Vf",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1VK51j_sqMgLZQ0ZvFo141cqFv-USH03F",
+            "name": "Military 03.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1THJEzHww_JVh4jxtH5qRQRRl4-5UveHZ",
+            "name": "Episode 03.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1XIp8J3ERFvQPLLvEGph0jE3V-Pa0feP8",
+            "name": "Text 03.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1y7rRkujq82jJhS4HtmFTbEoOL68NvtxB",
+            "name": "Text 03_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-04",
+        "name": "Lesson 04",
+        "description": "Materials for lesson 4",
+        "folders": [],
+        "files": [
+          {
+            "id": "1rRVNeqBXuKubGiThpPV8Am4fH0VkX-NX",
+            "name": "Dialog 04.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1jfmHKgL3Bon--GcBJjXbAbDM5N5u1ly3",
+            "name": "4-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1JvO4cIf7iWCzYpmI2CKRYQt8SFxqxxFf",
+            "name": "4-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1C-Al65WRvCkQfV4ZkY_jaai1fEpbgVvp",
+            "name": "4-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1jflLdcV3aV479H6Tio7jxgLNNTCuwswf",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1ICaNEGAqtFzybujHqSI6iHqL1Fke8CBv",
+            "name": "Military 04.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1aZqkshk8XJ5xzItJv_8e4swzCr-QlmFS",
+            "name": "Episode 04.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1S0kCyHq_wUDgmDAE4NJ9-9gAiJLRaxrg",
+            "name": "Text 04.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1ZgkqwIun-NBQ9vi1-JzQLJkTt3r5u7vt",
+            "name": "Text 04_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-05",
+        "name": "Lesson 05",
+        "description": "Materials for lesson 5",
+        "folders": [],
+        "files": [
+          {
+            "id": "1YSS5CzY84LWztKQ3yIO6DaDVS0W_N9Ye",
+            "name": "Dialog 05.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1r8MVEz_Ofi0i9Pv9oxL6J5qxnWQoFcL8",
+            "name": "5-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "18BBZ43_RLVNXghDIJH-NviTCC0Ck5bKH",
+            "name": "5-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1LviRvYj0Skt4oLdLYmwyXKhcUt6YdvY1",
+            "name": "5-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "12_j_CFUQMT6igd1uqoqhx2D8BiXUidAh",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1Kj32UCJ7MfUxVAvazpcRmwf6tAYz-EOJ",
+            "name": "Military 05.mp3",
+            "type": "file"
+          },
+          {
+            "id": "19YatCJkCSI0GtcmYzeMGr1UA9qpUwIzJ",
+            "name": "Episode 05.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1qUDiU56YoEhYbmUVFzwSz-uq67jeAqB5",
+            "name": "Text 05.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1KqlJ4ZQ2dD9flnR_UP6W45c2jgvYm3VI",
+            "name": "Text 05_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-06",
+        "name": "Lesson 06",
+        "description": "Materials for lesson 6",
+        "folders": [],
+        "files": [
+          {
+            "id": "1cSKERLycK4tUEbQyBlKTjellDbwNb0EM",
+            "name": "Dialog 06 .mp3",
+            "type": "file"
+          },
+          {
+            "id": "1qXnVkk8n6f81eClzTBGKo7sraomuf8sK",
+            "name": "6-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "10LaSizxvB8eP5MmksIJBqD-avtPsybp5",
+            "name": "6-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1kvXg39ANnhIHgDPHsKd__j5xBxNRA15l",
+            "name": "6-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "17_rSenKjl_DQOaNa8pyOUr-UaR9ONpNB",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "11Uae4gedJdh2-iuwBTlCqxvScNM3WaE3",
+            "name": "Military 06.mp3",
+            "type": "file"
+          },
+          {
+            "id": "14fmo0WFbej8tqhtM9gKBsP9WURMc_Cbg",
+            "name": "Story 06.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1a5OKBs92UjJDxYLpwaEkGWM7efXe9Pra",
+            "name": "Text 06.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1CLwE4V1MMoxiHnNID5jz5FB88HPtyAta",
+            "name": "Text 06_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-07",
+        "name": "Lesson 07",
+        "description": "Materials for lesson 7",
+        "folders": [],
+        "files": [
+          {
+            "id": "1RUZtFyZTdKESb1BijzPZU8_LaBayIYvs",
+            "name": "Dialog 07.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1F2HAkr8uGytVVSGilV8ZriIj_SaBYe0V",
+            "name": "7-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1LinvGL2wtdoACpfyY5MiUEU6w_MIhxcN",
+            "name": "7-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1OZK8Lzt-R7TtZx7Ri9nILCVTEVQgzRgR",
+            "name": "7-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1U7Z_7dOu1jYZGa160nZDjJzl2dQFASNX",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1aCbiYH0pqKPMkTm-4ea8G5_HiZbRE9LC",
+            "name": "Military 07.mp3",
+            "type": "file"
+          },
+          {
+            "id": "13q4g8UUajXoscL9VzILLK8HF4UK5VT5Q",
+            "name": "Story 07.mp3",
+            "type": "file"
+          },
+          {
+            "id": "188f-MfdTBLan-bf4YHCRFl4ZG3UCCmjH",
+            "name": "Text 07.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1hIXtJXr4q6iuezT08s8QNh7YltD_x8uO",
+            "name": "Text 07_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-08",
+        "name": "Lesson 08",
+        "description": "Materials for lesson 8",
+        "folders": [],
+        "files": [
+          {
+            "id": "1T1adzUdQ2q5IuQahiHOo328qd-0GhUBq",
+            "name": "Dialog 08.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1s8MVYtTR5aE9XWOndDf3w37EpBKS45YH",
+            "name": "8-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1hJMkks8givaEIWOS9fpGKvrTh_b2T0Zn",
+            "name": "8-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1yc-QRpRT5HCNCWlwjmajY5-DKUHUO_vQ",
+            "name": "8-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1v8tvq83QArOodkSUrV5WONxRARLLVrR5",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1_KKzgpPE6yaAiEGApoX9-D7A5gJicLRE",
+            "name": "Military 08 .mp3",
+            "type": "file"
+          },
+          {
+            "id": "1UxDaBVaxZCYZfdSnm8xwBqjrtHWDcnWO",
+            "name": "Story 08.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1a_ikJwPWNN9on950fLuS7AswRcjZLqiJ",
+            "name": "Text 08.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1urHTOzj43lElGdYNnRpw6JqIJIvUPIhn",
+            "name": "Text 08_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-09",
+        "name": "Lesson 09",
+        "description": "Materials for lesson 9",
+        "folders": [],
+        "files": [
+          {
+            "id": "1e9tPUjVE9o1qSDhrtRpirB-UqL9mgu3c",
+            "name": "Dialog 09.mp3",
+            "type": "file"
+          },
+          {
+            "id": "11TdynXvjnM7PHq03jqg-hx2K8mW_AgKT",
+            "name": "9-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1zNLIjeWA2WSEVn4a-NF7Ewt1-oChNOJy",
+            "name": "9-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1f7XON9Kaf4gHnOZiFGanjMM5hCyp9kTa",
+            "name": "9-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Gynu6C8_7i_TpEEn1KNFlx_BxpTn8mYH",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1ReOVw0oJwSuvazTC1-JessRvhizGmN6V",
+            "name": "Military 09 .mp3",
+            "type": "file"
+          },
+          {
+            "id": "1KFN5FOTnFcyGkl0CZacLVqvNBS8nCGXb",
+            "name": "Story 09.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Hpus3NJ1dgzFUD47symh8yoLBbYOFDrf",
+            "name": "Text 09.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1SOjTIfEAS5d72o_HGoIAQRrP8yqF3xJ1",
+            "name": "Text 09_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-10",
+        "name": "Lesson 10",
+        "description": "Materials for lesson 10",
+        "folders": [],
+        "files": [
+          {
+            "id": "1gN4qzbeDbeU3b9jclslTky-wMrEEWKIT",
+            "name": "Dialog 10 .mp3",
+            "type": "file"
+          },
+          {
+            "id": "1McHKmF9QKP4JIVg4SkULJrap6I-QCEXa",
+            "name": "10-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1xvk-uyI5nvgsjPJOcVqjYJC0b4C8ycWi",
+            "name": "10-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1pfe8dw-AQP3OJIbWOZ4BZIyQbAwdxgtG",
+            "name": "10-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1WzHVS2FERMXG7OEUb__R8uUQtKUOMkBZ",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1waggG46chYuW6pVpImCWl42hBX4WPl0i",
+            "name": "Military 10.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1cp04uL6F05xfGMwXlHF2-tfiZ3oOQlsf",
+            "name": "Story 10.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1yPbZHkonvNtYC1ZPIhGYJ2MfHXO0lD81",
+            "name": "Text 10.mp3",
+            "type": "file"
+          },
+          {
+            "id": "10Me0CAXnhqxMqQ5UivHcUZJgs0qUzuDb",
+            "name": "Text 10_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-11",
+        "name": "Lesson 11",
+        "description": "Materials for lesson 11",
+        "folders": [],
+        "files": [
+          {
+            "id": "1AI7YmlSHWTWdexnExMjOp7GG4lnYL6im",
+            "name": "Dialog 11.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1b7jH5ELaf2E_bHwkh3voABCQQ5mv0qQ_",
+            "name": "11-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "13M6mjfCJGKYaE08Eu0W_Wu7o559WHadv",
+            "name": "11-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "18trM_MDjDryvy3E-0DzueTE-QGn99dvv",
+            "name": "11-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1ALC2iCngCXlJa5-U_WPDe85WWQ8DQ8UC",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1HbfMzP1NMRvECuaJxQ8IwwqBlT1j2m5r",
+            "name": "Military 11.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1yBZhlrbTaDRk9Hqa3bWaVqG2vKK2Mmar",
+            "name": "Story 11.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1QKQQnTXFT_V-SbiciOuNF3afac16CuYx",
+            "name": "Text 11.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1sp3lCJgiN3UNXytqUfzttPJDRMFQLbuk",
+            "name": "Text 11_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-12",
+        "name": "Lesson 12",
+        "description": "Materials for lesson 12",
+        "folders": [],
+        "files": [
+          {
+            "id": "1tzO0GKq3AWeGDU5Ppe-BjDagN9XL0cEg",
+            "name": "Dialog 12.mp3",
+            "type": "file"
+          },
+          {
+            "id": "19BQt4YDq43GYpcMijC1U9TdALdkwpYPS",
+            "name": "12-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1cNtc9bMUvkurlyjW6Er4RUq3P-rgJuKW",
+            "name": "12-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1FCvi9NZJcZ-yqQSsUx1mjzfTKYE4ZCsW",
+            "name": "12-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1X7gQ_5DGetWIRekqMCQg8g9liJvaVf_E",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1wwrjfpbT9fxzgYyob5Z65vshtYQGD962",
+            "name": "Military 12.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1YaC9M8nz17p48q7DJRNPYWSku5FhcJXG",
+            "name": "Story 12.mp3",
+            "type": "file"
+          },
+          {
+            "id": "13CHP0_xP2i2bkmHckbUixkWrOC8q-3RV",
+            "name": "Text 12.mp3",
+            "type": "file"
+          },
+          {
+            "id": "18_dgpvFnkAdMFxCRZXJH7Hfh8ACjmpQi",
+            "name": "Text 12_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-13",
+        "name": "Lesson 13",
+        "description": "Materials for lesson 13",
+        "folders": [],
+        "files": [
+          {
+            "id": "1UOJGy_r7pZkqvYKc-wT4qcx9s0NZ5GNp",
+            "name": "Dialog 13.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1achsjqAXeF1yGMlqp1yigW1ka7GA5YO1",
+            "name": "13-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1iBro5hn1T6_ddnCwkoYxQmjJgdxHvOfz",
+            "name": "13-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1OgM55rj5D3w4A0oTjTTomg7cwqozDmqW",
+            "name": "13-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1qrii8awrRBjYG5Og63V6RtjtOdPXRarv",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1JtzQeHMq9UU5Fx2isYSJqKPJESRRss6O",
+            "name": "Military 13.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1rjmz7KQi89C0ZFdLceS8DqYaJpu5dak9",
+            "name": "Story 13.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1fENqhdghPfWKW3Ls1OGZ8hBpudhPCoCG",
+            "name": "Text 13.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1i01yTFwn1VfNVgAywLLrgGlHR9iy0AlW",
+            "name": "Text 13_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-14",
+        "name": "Lesson 14",
+        "description": "Materials for lesson 14",
+        "folders": [],
+        "files": [
+          {
+            "id": "1rKbBNpzt4TMvvPNr8BdASXAjcCo-BFh_",
+            "name": "Dialog 14.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1p08bbgt1mv53Y2yw6GQCfNgADYa6Ho1h",
+            "name": "14-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "13wK68TtHWYsZoqcAPaZGvYep_-ngfJnq",
+            "name": "14-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1XM0ChvpCJkFnsqDABnNs1eeZD6C6xTvE",
+            "name": "14-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1NCTrQIan22GmwWe1ih9jkkgN8voqbagG",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "16I2Cu2usE_5DjYwT2z9AeM7TKKkRf9AI",
+            "name": "Military 14.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1SWY7VX5dYUM_9AbOkdIIx5EqUfKiunKQ",
+            "name": "Story 14.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1IVWW4ePNlC3CHDOpjB-8aejZJ3Gm10Yj",
+            "name": "Text 14.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Bx6ig5U1ScRoWuhVasvhVk08RG97mqL9",
+            "name": "Text 14_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-15",
+        "name": "Lesson 15",
+        "description": "Materials for lesson 15",
+        "folders": [],
+        "files": [
+          {
+            "id": "1XH16i1_HoxlPNrTKFowSrb3AwGmFCsXR",
+            "name": "Dialog 15.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1UEi8SpKSmriT6Id152R5qfCY-0UXvLtn",
+            "name": "15-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1uHoOL8spHdVwngsld6N8CrRfUQeNFqy3",
+            "name": "15-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1-JWy9Nl2vtzpzN1vPf8fiEIVWhdVu3LZ",
+            "name": "15-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "19Ztx7DdqR0ZcaX51UPDjXFb4VMnNZo-5",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1gEYxxMeULYJBesIlLo8-Mht-ZyFz9ekm",
+            "name": "Military 15.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1I--K1krIT9wFJNPZvF6c6PLUf3ejNtyu",
+            "name": "Story 15.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1-JT0yvw9h3PQzqibRf7b-p2JH3DPm_uj",
+            "name": "Text 15.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1x-2Tg5sWzymWo9PLB12eQrenADep-afU",
+            "name": "Text 15_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-16",
+        "name": "Lesson 16",
+        "description": "Materials for lesson 16",
+        "folders": [],
+        "files": [
+          {
+            "id": "1IyhHyc3vJlr1AFdPWdUJdR5BaCWFU8ug",
+            "name": "Dialog 16.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1s32xkw5RhXv1PtEuuc1WwK96cXfzLjAb",
+            "name": "16-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1QqkzmnTryN0KjtYnKexkALliLSM_an0w",
+            "name": "16-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1JrFm7ZxYXRWAWCMK_2UBKpkoURN__L6-",
+            "name": "16-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1ZoVun5nwZnYI4c8IDwZsSx6Y8R9l1jjt",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1tT28iGezljatYrc7xE7P1FCAInQhcW0k",
+            "name": "Military 16.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1jMZpMtRpuwBgm370o3_sGFWGSaOTuJmB",
+            "name": "Story 16.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1hDB8RjQvqV9vJz15O5gF3sP7ylE4-JIW",
+            "name": "Text 16.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1mN2uB9xG739WZW9an61f0-tuqhWOzLWQ",
+            "name": "Text 16_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-17",
+        "name": "Lesson 17",
+        "description": "Materials for lesson 17",
+        "folders": [],
+        "files": [
+          {
+            "id": "1LxzsHumUbe90hQA6TFt9iwAquwF-1zij",
+            "name": "Dialog 17.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1VR4lryoXtLoBk3Ry3lzwzKx99tnfQ_QF",
+            "name": "17-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1U9SwsUvCFwiv6dqS5R65btcfcNBnBLf1",
+            "name": "17-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1ISOfn_-eIYlw_zLToOi0WZNPj0yrk1LH",
+            "name": "17-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1PiNjYmBqZ5doPIOJoZ3UKX10_eiKIDZv",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "17-t6Y-zWsSQfOg6iEUwH0J3_pyv2oiXx",
+            "name": "Military 17.mp3",
+            "type": "file"
+          },
+          {
+            "id": "17tGL1wpvK8GSTrAHrwATY__ZjTbCQjEg",
+            "name": "Story 17.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1ZsucBKhOle18hqGqQhNeZbjeOQAeJXLY",
+            "name": "Text 17.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1usrx-clw--ub7sCGbftLpIDaDWN0DU2R",
+            "name": "Text 17_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-18",
+        "name": "Lesson 18",
+        "description": "Materials for lesson 18",
+        "folders": [],
+        "files": [
+          {
+            "id": "1SY_zNLEy8nNLEjzSVUdHDCRze-wJjEbt",
+            "name": "Dialog 18.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1NTPUTY_JR3-QUNkEpzdYh1G2jXnOMUIL",
+            "name": "18-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1GCKB2zzM4WK49YxlUJKeAuwHME_wlvg6",
+            "name": "18-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1GegSLQt3d9RG6sM4ZvtMsp4WykdNyB8J",
+            "name": "18-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1ooxs5Ky8Cq3t2LPdv8VFqJX3yZuYBdB6",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1YzILMeLXHUZhN78Rx0zhxtj-ELxb5XOy",
+            "name": "Military 18.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1fyCz3EBnl1SPaTu1gbyf2vNm0aFMsKtG",
+            "name": "Story 18.mp3",
+            "type": "file"
+          },
+          {
+            "id": "19hyJPN4d87mXzENlPWn6E95BRDgnrW7q",
+            "name": "Text 18.mp3",
+            "type": "file"
+          },
+          {
+            "id": "12r50Ck-wjO-399CMAWWlNv4a_u3ppdss",
+            "name": "Text 18_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-19",
+        "name": "Lesson 19",
+        "description": "Materials for lesson 19",
+        "folders": [],
+        "files": [
+          {
+            "id": "13QxFDX5bWVSqV1DLVhsbo-NQ3YIfvNUQ",
+            "name": "Dialog 19.mp3",
+            "type": "file"
+          },
+          {
+            "id": "13zq3mn6ii-lk43bxIItSnCGUFmF-eHlY",
+            "name": "19-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1_XNRAkMHpLax6MLAgNQh3JBYHVje7ihZ",
+            "name": "19-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1k2nGbwQTSl369BYpoE4JIXmuQn_WUDMS",
+            "name": "19-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Z-D6NGxWtACKGIim0_WU-OKM_qxfrg-9",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "19TJQXeHyom7vROC6rlsstyhVUKg63CJY",
+            "name": "Military 19.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1ftytk1oi3jg1l7x4A7pGQoxX3x8sVfyZ",
+            "name": "Story 19.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1h4YHLxr_XNKSK1QhVOci_8z--FURfb8r",
+            "name": "Text 19.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Y4dQMUN1GU9RAKJ1PUvOA6ASLKk7gjUI",
+            "name": "Text 19_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-20",
+        "name": "Lesson 20",
+        "description": "Materials for lesson 20",
+        "folders": [],
+        "files": [
+          {
+            "id": "1yXJDGp7AfMAwsON1sQvWgHFJrXizu3WS",
+            "name": "Dialog 20 .mp3",
+            "type": "file"
+          },
+          {
+            "id": "1p0vUGmM4R5romSYvL32eX6ZmjfOXS9hA",
+            "name": "20-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1FbWqQ3FCe7TEYB5rz-lsWBbQlYqOK7J8",
+            "name": "20-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1eloKWDi1PMop1GeYDg8WVfB02gsYpZlG",
+            "name": "20-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Ir5yh81Aq4uDCm4xi9Kd6o6WiCwGhya1",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1yq_i9cKOCFV03GPXXqXg0LTPK213Wbko",
+            "name": "Military 20.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1udDKQACMGnVe4fANhegc8JZ3gFBpUQpp",
+            "name": "Story 20.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1KGvwzMzuLEjvzLAo5dAGy2y7aKaapF1v",
+            "name": "Text 20.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1kJsu1pES2a_e7yZ62oWhYOqOqBjJtfo_",
+            "name": "Text 20_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-21",
+        "name": "Lesson 21",
+        "description": "Materials for lesson 21",
+        "folders": [],
+        "files": [
+          {
+            "id": "1Iou3RTuCnDETN7IIJbsuWBnDwUSh3Or_",
+            "name": "Dialog 21.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1VCCcCo81U7vKpZiOSppGefHxVbhPlHjW",
+            "name": "21-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1i2HrfQW_D6dax89yADORRD9_DIKPkw7G",
+            "name": "21-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1gORhFwFXmOJJlW92xBdDQZVJNhavDcv5",
+            "name": "21-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Wb89K6Is9dqJJVNJ34rZhfIYNqBKuALe",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1etS6wqAzUhqPeY5ihpTkf8_a2OUz96lX",
+            "name": "Military 21.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1hY2NI1Srmm7MBmEaOqIRbNIsii-DfpKt",
+            "name": "Story 21.wav",
+            "type": "file"
+          },
+          {
+            "id": "1PPqJtQIZG-O0G6Wy7ceFuyu8lmuRBoqB",
+            "name": "Text 21.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1eWTFniwsNkhbeWkaxKaqug_BIdTNSv8R",
+            "name": "Text 21_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-22",
+        "name": "Lesson 22",
+        "description": "Materials for lesson 22",
+        "folders": [],
+        "files": [
+          {
+            "id": "1YsR6z9gUJYQ8s8qcX_p2sdaye3GDSE29",
+            "name": "22-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1L4tvga5Cl4thCSm1LotNR8q10hNV359j",
+            "name": "22-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1yD2bLxvdaiS8DKSiW0BtoESyN7bN1NqF",
+            "name": "22-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1UUnqouveNpaV3tInF2JVSqaPr6p-Vtea",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1Ytz10_Zu5zn3dtC6th18VemL55vHwT3X",
+            "name": "Military 22.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1r-pFtW7vr9ffqD9Xyt-LB53svEHKd1GK",
+            "name": "Story 22.wav",
+            "type": "file"
+          },
+          {
+            "id": "1x3j4JLgPKHnkhLvlGWQdb1JGPzXz7KCd",
+            "name": "Text 22.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1aamsE8hbB3-OcedIF-GHdiOjUVPP3Kmy",
+            "name": "Text 22_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-23",
+        "name": "Lesson 23",
+        "description": "Materials for lesson 23",
+        "folders": [],
+        "files": [
+          {
+            "id": "1-hVWWy3YQDrg_M0gtkb3RsWDnsDXE1Ee",
+            "name": "23-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1EkqIraIUoV6LjNFTdNBFQcRtUq4yNTfd",
+            "name": "23-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Qpn6p6icz173I-gLqPkeBc-8NDVrCZNA",
+            "name": "23-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1yrcP2CwHubjO_fJtHg5Td5FtalLnKga6",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1Gt_9fZPvh474rdNX21CO0rBTzEJHr3P_",
+            "name": "Military 23.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1r70ncKNMPhWTe2JOME2sYF34Nc1PtEkY",
+            "name": "Story 23.wav",
+            "type": "file"
+          },
+          {
+            "id": "1zle5SPftdws9UvNWyfbzq6aLQ4xihOLe",
+            "name": "Text 23.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1dguQId-KmxivYiPRs8BrnKmdZ8DED3Ig",
+            "name": "Text 23_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-24",
+        "name": "Lesson 24",
+        "description": "Materials for lesson 24",
+        "folders": [],
+        "files": [
+          {
+            "id": "1H571TqS4lbadY21o1ohRn4OKc62dpCsL",
+            "name": "24-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1ICt0ukjD79-hU01fGcv_NgLvkOdR_s95",
+            "name": "24-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1H69G4Wgqudv04HLtT1BFBoAoRYs6Cnl8",
+            "name": "24-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1pvXGqGWDZCS9FNh8josOVJGAIEyH_CxA",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1z-HVdCSnj-8hHQRV7QzwwK7z9f-2O9Ic",
+            "name": "Military 24.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1sgM1ppRBR5evWp_reJ-yWm1KwchEO99q",
+            "name": "Story 24.wav",
+            "type": "file"
+          },
+          {
+            "id": "1lIuviGmzpy9BZnfhrfEOcCRUmvH7zCat",
+            "name": "Text 24.mp3",
+            "type": "file"
+          },
+          {
+            "id": "194GqGKC3krVUWxOwGB7kbW4LHmYf5es4",
+            "name": "Text 24_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-25",
+        "name": "Lesson 25",
+        "description": "Materials for lesson 25",
+        "folders": [],
+        "files": [
+          {
+            "id": "1xPlYgDJamk3mIBuL3UFkOHPJvHYwMYFt",
+            "name": "Dialog 25.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1l-Ldx0sLaUfX8prH9fYhW5apRCOVPZ5t",
+            "name": "25-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "11AJWGTeEh9hE-9MQTGiI_0uLbVRU-Zf1",
+            "name": "25-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Q3jN_VvsjvKVPUvZ8M2ptqs6RcRECXJu",
+            "name": "25-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1RN2TL5krBaqsEiheB9pvbBXMre8j5niB",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1eHeuTyXZVNci3OP0lMsRhe9MhFgeU8Q_",
+            "name": "Military 25.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1InA9wZHLc27bQsHUrTkOpeKHjV_Jcrrp",
+            "name": "Story 25.wav",
+            "type": "file"
+          },
+          {
+            "id": "1FSysQnpU03qW8d0atvi4NTSrHQtUep-X",
+            "name": "Text 25.mp3",
+            "type": "file"
+          },
+          {
+            "id": "13ikVQEEg8gRHCEiRMKAuoHrlPk15-JDK",
+            "name": "Text 25_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-26",
+        "name": "Lesson 26",
+        "description": "Materials for lesson 26",
+        "folders": [],
+        "files": [
+          {
+            "id": "1lwhgkLuiXZTDedwJmISZmzgGt11FukIs",
+            "name": "Dialog 26.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1YJ7f-LtFolRZ2_id3zW2kCd5WNZu69do",
+            "name": "26-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1zxbpFFA7SBszF4RWi2fewYRFWxbSTsKI",
+            "name": "26-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1REiGNSwEr_Us0ykaNVBOLg8fLCppf0wg",
+            "name": "26-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1sGDJhmPnPyQYKo3zxNyB3pxiSjY22zB2",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1tZ0M8nxdotlh1oh5Q58tFoD2GDJMgRx-",
+            "name": "Military 26.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1FD1wDdRNlWJLJHVcgLgI-Rch1Cb_uDEO",
+            "name": "Story 26.wav",
+            "type": "file"
+          },
+          {
+            "id": "1LHF7L7Ek4BnVT9C9WgcHVWn1CGXbartG",
+            "name": "Text 26.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1B0fTxSsRm8YvewwBIZM7mqy0FZ9Fg0vP",
+            "name": "Text 26_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-27",
+        "name": "Lesson 27",
+        "description": "Materials for lesson 27",
+        "folders": [],
+        "files": [
+          {
+            "id": "1eRRMpaDLwXMmmVvHXSZeXMa0PA-3ncUm",
+            "name": "Dialog 27.mp3",
+            "type": "file"
+          },
+          {
+            "id": "12u5Iro7I6y6ihy2MuJAa_LsYv6ckyBfM",
+            "name": "27-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Y8pqUUyPGMvfFiVV3FGNWL9NiG_YdpUf",
+            "name": "27-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1SHHhj4-lrs2Bv2Nr9kVOB_V8va7GSGXJ",
+            "name": "27-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1n4ESWsokPfbUIrK8jBhXAKzcjPgeoddK",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "10vNGyp9TGg4IqpcOFNTxvgs7BuraZEwc",
+            "name": "Military 27.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1vKnoT2f-rkInQRyA8xRku6UTSQlkgHm7",
+            "name": "Story 27.wav",
+            "type": "file"
+          },
+          {
+            "id": "1byHOs1BH_RFMY6eZqgO63l3m7CvujM_8",
+            "name": "Text 27.mp3",
+            "type": "file"
+          },
+          {
+            "id": "17DJixSEtKOfwRZGAJLa5soqIO_078aVx",
+            "name": "Text 27_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-28",
+        "name": "Lesson 28",
+        "description": "Materials for lesson 28",
+        "folders": [],
+        "files": [
+          {
+            "id": "1SKDoqRjW3LOd0xdk0NnLGvMB29_oDfKN",
+            "name": "Dialog 28.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1dkObxTmccBWiiYVjdzule3aSFpJ_-3mx",
+            "name": "28-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1xuVRRdkQRGeZr72KID7ZjBpnxHQZ0yfH",
+            "name": "28-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1MBWp0cxWIpqnTHhuKx7MzeTSUty6NBEA",
+            "name": "28-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1lgU3ipH4VjrnweQYPL_3quLdWzzeLDNn",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1DAV70n3nop186zjCunkvHKk355xWIbRw",
+            "name": "Military 28.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1snWKsHxA95qKmhwossiI0Ez3m7bU_MG7",
+            "name": "Story 28.wav",
+            "type": "file"
+          },
+          {
+            "id": "1AGyPRuaTBUmtnVvc1oNixFrlYjNU-PRd",
+            "name": "Text 28.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1czT28h5n38_kF6fsv-LU5F7pc-3-5jIg",
+            "name": "Text 28_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-29",
+        "name": "Lesson 29",
+        "description": "Materials for lesson 29",
+        "folders": [],
+        "files": [
+          {
+            "id": "1SvkhlOdCHkvanIP_auc5-itVuUvjhMjc",
+            "name": "Dialog 29.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1DxBIJrYuwT2v5huPmsL26dZSUvXx1OTy",
+            "name": "29-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Z2JnaSrlcKaE6pxObjCMw3vz_fi2EjO2",
+            "name": "29-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1ovIsiM0SJbNwpc0jV2mkmpn8afEKtKri",
+            "name": "29-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1nGIgnNxaFNKgdg_rU7GGKd9Vqs5CoVd9",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1IFwJIiw6vg-8VtcobZia2KPfIJNe5B6u",
+            "name": "Military 29.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1PWvIqAebbTBFuxqXEg1s-Rk7-vqFsPlH",
+            "name": "Story 29.wav",
+            "type": "file"
+          },
+          {
+            "id": "1WoLgMbymrwlxVKzBXAo5kt5BfeiLl8lH",
+            "name": "Text 29.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1plKjHoNs2R1LyBj4YCiR1ppNwDs2fC_z",
+            "name": "Text 29_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-30",
+        "name": "Lesson 30",
+        "description": "Materials for lesson 30",
+        "folders": [],
+        "files": [
+          {
+            "id": "1qmWr-S9fhgWfCXMTHDPVJHkIvLnVP4R1",
+            "name": "Dialog 30.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1AAUacOW7xrjyVILolL0KL0cV939qKgtX",
+            "name": "30-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1x0xjkSdjCvLP8nS1da1MFx8V9I-R_mJL",
+            "name": "30-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1uWYn-bRJlunPPgPx4FW_CTPEtbZlr7jp",
+            "name": "30-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Hh5b8S3sGQBlPWh1VdNp0iMQqel5Yq2o",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1p9xqLc4-Dhv90yHtPccrAhLBrDwK6h--",
+            "name": "Military 30.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1uqTCPI2-BYaVlO7m-tthfluHqzaLLsem",
+            "name": "Story 30.wav",
+            "type": "file"
+          },
+          {
+            "id": "1drCFjQcxR6S_gtfmS0lLaBlICplYGedB",
+            "name": "Text 30.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Z7JhpN-PSvyuNnLunQ3bj_LQ8oPrBaUk",
+            "name": "Text 30_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-31",
+        "name": "Lesson 31",
+        "description": "Materials for lesson 31",
+        "folders": [],
+        "files": [
+          {
+            "id": "1xUEd9GlPAgxg1G0qS4fZxUUCDrHRVNb3",
+            "name": "Dialog 31.mp3",
+            "type": "file"
+          },
+          {
+            "id": "15FcWTmJM83AxwzoTxzwqaoEdH8_qeCWh",
+            "name": "31-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "14lSOUnVhyWjimtLF7Hoe1Eq8f3G8y70m",
+            "name": "31-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1wRA1TE9CrTYbdxurDcGJzPZGQ2St7gUd",
+            "name": "31-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1_sLhweLygWkHZtKYJjmerJle0Lro9MZg",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "19DpJ8Trc_VWz0ElesPbFyY8IyvUovEDB",
+            "name": "Military 31.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1sf_-YTQaJcWinv3A9GHZypHa6K52Czl2",
+            "name": "Story 31.wav",
+            "type": "file"
+          },
+          {
+            "id": "1jfN75yrCpclwkFiK8Ewe67XfLMqC4-Ko",
+            "name": "Text 31.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1X6I0o3niK54-c2DNEyQ5Vv-_JjH8v0K7",
+            "name": "Text 31_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-32",
+        "name": "Lesson 32",
+        "description": "Materials for lesson 32",
+        "folders": [],
+        "files": [
+          {
+            "id": "1WQuI_HjZNGwS0G6uc_eNB1eGkZqKPRqv",
+            "name": "Dialog 32.mp3",
+            "type": "file"
+          },
+          {
+            "id": "11-1GaK1OsZNmJtf61YB9_N7GtCd9BIzG",
+            "name": "32-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1cAOJqzt62CxmKVGI1Z004A_GFPvWgqIo",
+            "name": "32-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1BcINFsT868M2dyIaH4qVyPDdnU9-u6p4",
+            "name": "32-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1GYPhZOxPEXLAD4cFc8-r725wRCOx1vyK",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1yJgQSrp1VVo8BGYguM7f2qBHTruD_PGf",
+            "name": "Military 32.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1SsAhMrxgewkLbTHvHGCOZldcTt0c389a",
+            "name": "Story 32.wav",
+            "type": "file"
+          },
+          {
+            "id": "1c1sxprpqtfdZ-MWomAOoRalk-DKy_YC0",
+            "name": "Text 32.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1vSi_A8zPMPpXGrvFAcmyiLYo8sCIgJfe",
+            "name": "Text 32_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-33",
+        "name": "Lesson 33",
+        "description": "Materials for lesson 33",
+        "folders": [],
+        "files": [
+          {
+            "id": "1QCLQeCkjXKi-0kt966tklGTHefRM1Afp",
+            "name": "Dialog 33.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1ojWGzLUW9LbzaRLDml512K-IOEiAKYiS",
+            "name": "33-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1cghxtm_d4_fWzjuzBouKWg-p8PZKhuHF",
+            "name": "33-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1-tG3C4b_JdAi2JdDYvhWcFcgs4qK5eF5",
+            "name": "33-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1SZ3UIYzdPaSVsU1v7uzvKB6fKVOQDiWE",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1Ju4pQHIssCrYtply7y8O-XeKC9h-h3ob",
+            "name": "Military 33.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1CyyKiv8QeS1782OEbKodqQQeDaBXeSzt",
+            "name": "Story 33.wav",
+            "type": "file"
+          },
+          {
+            "id": "1faB9nQbDaV3ljJinBkRaOgB8YtYQAK-s",
+            "name": "Text 33.mp3",
+            "type": "file"
+          },
+          {
+            "id": "18q6AqFjMHktvmTDf2JY49R2cKhJPr3pL",
+            "name": "Text 33_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-34",
+        "name": "Lesson 34",
+        "description": "Materials for lesson 34",
+        "folders": [],
+        "files": [
+          {
+            "id": "1L8SIZ3zhEJoIy40_5PBqOQKX9YwEIMo0",
+            "name": "Dialog 34.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1AjilKAjSnBBBN5U2hakJGBaM1oMwVfWC",
+            "name": "34-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1FIVy2x84388GDMMf7QMwA1vByDgGCkvu",
+            "name": "34-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "12YxeOqLqhv0TS_GZWtzcMULLstiQUDk7",
+            "name": "34-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1bowsaSpRM0eDUrppX6R0aiFX1Sa_5IqH",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "10D9WEdQpG18fnFA7TUCHNaYz6cmJo3dP",
+            "name": "Military 34.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Fxe9J4nW9D2ATlDnKM-raLjDbX_9PgEw",
+            "name": "Story 34.wav",
+            "type": "file"
+          },
+          {
+            "id": "1Roq9UBEccPTv858Dls1_aYBUilG7E_po",
+            "name": "Text 34.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1n9To5Tk_VwAbwDLSK91aAHJJjCgiizYS",
+            "name": "Text 34_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-35",
+        "name": "Lesson 35",
+        "description": "Materials for lesson 35",
+        "folders": [],
+        "files": [
+          {
+            "id": "1mZqHJ6S11V2yuxto7Mzs0WKFdiTU3CFd",
+            "name": "Dialog 35.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1KnojfMKCnWpRMmphnO7qshst-TjAZXSe",
+            "name": "35-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1JlKhRybBxTm1p4u8sEQXVSoXinsEPn0j",
+            "name": "35-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1A1YAidrp1FFd3XF4K0hFTixdAcTlztzf",
+            "name": "35-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "11Q3pP_x1HQcjD-y2_1zB5G7fAmMJAZte",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1IokBNPj2BQngSd4Bx5ntJ8A2zr-Bh82n",
+            "name": "Military 35.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1QdTo5aiNd4bvYaaZ1nYGF-0dEsO0tFFX",
+            "name": "Story 35.wav",
+            "type": "file"
+          },
+          {
+            "id": "1-0hGiY0VMHh54eKNsG-IInEaLaaxHB4L",
+            "name": "Text 35.mp3",
+            "type": "file"
+          },
+          {
+            "id": "134RZ_W-g6i0_0tvt41brtIF2xe-aQPyS",
+            "name": "Text 35_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-36",
+        "name": "Lesson 36",
+        "description": "Materials for lesson 36",
+        "folders": [],
+        "files": [
+          {
+            "id": "1vcJZv157cEcG-l6dsLwYI5c6bGo8lMIR",
+            "name": "Dialog 36.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1ljQeolgG2JT_18SsiZONvnupIseLn5jk",
+            "name": "36-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1DETGCB-1IuiAZFsoOZ67nehcaNcljddU",
+            "name": "36-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1I9BBlfslZBY0UIaU7qxOHpmSA7gzsMNO",
+            "name": "36-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1rFVbSPd9MvXTpj5iZrfcVdIGpapNcbZ-",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1PnsQ0wQA4WdFVrE8oLmU4cxxQnztZo1K",
+            "name": "Military 36.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1tFfDP85D29_PsqP3VJY--OUpmGzMolcy",
+            "name": "Story 36.wav",
+            "type": "file"
+          },
+          {
+            "id": "15z0Q3MDG6fUDkUw5bgLjLMH6Eon8-IZ-",
+            "name": "Text 36.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1nRNqqxGYoykZ15B2SL0ams3idHqswKDj",
+            "name": "Text 36_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-37",
+        "name": "Lesson 37",
+        "description": "Materials for lesson 37",
+        "folders": [],
+        "files": [
+          {
+            "id": "1yKU3oqPJd3djhqlj-nP4fcCG4qnKRGvD",
+            "name": "Dialog 37.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1C4uu-Gn5xvdhA7JQ53cRndiH5Gw4Dmb0",
+            "name": "37-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1CYzK9oYyQTsNDriJ8q1ueQp1zim6doqx",
+            "name": "37-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "134s1_k67MCsrXssz_1gvE3HMFI-3drOv",
+            "name": "37-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1mZLhgYM6nnuATlHTKyb6w6KmCpSpXIMV",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1nKSEWw9IB1_UIk9BqOG7RwdV5hifPaOR",
+            "name": "Military 37.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Fjd62cUy6Wsa--vc1VXBgAXpl6KYxGrU",
+            "name": "Story 37.wav",
+            "type": "file"
+          },
+          {
+            "id": "1Uz9lRDncyG-ppm8FXxxRMbslMBshAwfE",
+            "name": "Text 37.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1n-daRHyXG-XGV3VP_Xn0UtouxSqWNV61",
+            "name": "Text 37_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-38",
+        "name": "Lesson 38",
+        "description": "Materials for lesson 38",
+        "folders": [],
+        "files": [
+          {
+            "id": "12ZGofAjwyfT38tKast9_IZPURwew9Z6N",
+            "name": "Dialog 38.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1xpxj92tgBRJ3wV1iT5gbQvNFjRXdrVMR",
+            "name": "38-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1HbV5tw2Jh50srIhUxXGkmA3DpbaG9JDr",
+            "name": "38-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1swkXr6l0jxxoUrIgNUoeOfNDjrqAP9Gx",
+            "name": "38-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1lzDUgfQPmTTRHolkUwXztn8tL6eaT8JC",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1LiO9cZaIEzyA5oc0dOqHq9JmxZ3xxum6",
+            "name": "Military 38.mp3",
+            "type": "file"
+          },
+          {
+            "id": "15gZnQ340a2whjYD29XnARrnDVnQWOCTW",
+            "name": "story 38.wav",
+            "type": "file"
+          },
+          {
+            "id": "1F_KUFIBb8qI7RaUJqEOuf7kDOGRiLA-1",
+            "name": "Text 38.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1QRzowQ8K3DS-EOtYkB-Em3dPKjacCkF6",
+            "name": "Text 38_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-39",
+        "name": "Lesson 39",
+        "description": "Materials for lesson 39",
+        "folders": [],
+        "files": [
+          {
+            "id": "1UOzYXK4ynYILO615UNVMKqYixw-OCgMU",
+            "name": "Dialog 39.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1KwO8yUz9Raw4Q4TuMmOO45GtHCbioAnv",
+            "name": "39-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1KAGqpPLGz6WAm9YEl_1zGycRKNXF-qSH",
+            "name": "39-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1gyVEgBS1qaQSgAVSB7qBm6u2YMddhQVG",
+            "name": "39-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1jZjVaInzuPSGGnK_unSJnSUphXH4wSJw",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1D6MA1Dl_7Vq_e2phgK1pT1wlgog8dYx3",
+            "name": "Military 39.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1tPiI-r5YQ6VkIOM0xMX8Qk0o5PpXRwlT",
+            "name": "Story 39.wav",
+            "type": "file"
+          },
+          {
+            "id": "1nP34aB9E0Yol5SxVRms3_8WMoJ8TlTbN",
+            "name": "Text 39.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1Tnz2F41lI0lCwdkDtA9ynFbXNe0eyVBD",
+            "name": "Text 39_2.mp3",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "id": "virtual-lesson-40",
+        "name": "Lesson 40",
+        "description": "Materials for lesson 40",
+        "folders": [],
+        "files": [
+          {
+            "id": "1yqHqJIen5d65jky9pNEyOOO1Kx3ro6_G",
+            "name": "Dialog 40.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1C9mYcvgbZ-7XfdaXUwTZQeJjZVi2xLAw",
+            "name": "40-1.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1x95bUslv4lkFbsajfIQzshUmXmxKSuIh",
+            "name": "40-2.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1nN3KwLgntVOvu8d8cktoE6aDJDjFWwcm",
+            "name": "40-3.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1NOHs99oo68wsc_UTz2x8FjdOJVzHg0fy",
+            "name": "index.html",
+            "type": "file"
+          },
+          {
+            "id": "1qFvivA5avvcfBIjbqdVHS6nf4wk1I_og",
+            "name": "Military 40.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1s8NtJyE90oG22pnUQtk4GaaO4NkKBYh3",
+            "name": "Story 40.wav",
+            "type": "file"
+          },
+          {
+            "id": "1Rb0mSvJRG-1PsDl5abfqJXNcR5SMbx7V",
+            "name": "Text 40.mp3",
+            "type": "file"
+          },
+          {
+            "id": "1h59IjoPXP5FJU2AW5QI9eeB2VfwGRKMJ",
+            "name": "Text 40_2.mp3",
+            "type": "file"
+          }
+        ]
+      }
+    ],
+    "files": [
+      {
+        "id": "1wb7wV7wFUZI1fDPAtC0n7dTzedvtPQ6F",
+        "name": "1. S Book 1-20.pdf",
+        "type": "file"
+      },
+      {
+        "id": "1DV5gbYIHyy7oYgKSJAhyFY2XRihIg5R0",
+        "name": "2. S Book 21-40.pdf",
+        "type": "file"
+      }
+    ],
+    "fileCount": 439,
+    "folderCount": 47,
+    "audioCount": 397,
+    "pdfCount": 4,
+    "linkedAudioCount": 40
+  }
 };
