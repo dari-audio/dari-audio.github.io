@@ -2055,7 +2055,7 @@
     const total = DATA.meta.counts;
     return `<div class="page">
       <div class="about-hero">
-        <div><span class="eyebrow">О проекте</span><h1>Язык дари Афганистана</h1><p>На сайте собраны учебные аудирования по языку дари из открытого доступа и учебники Б.Я.Островского для первых двух лет обучения. Основой сайта послужил Google Диск, ссылки на который встречаются во многих разделах. Диск в сайт был превращён с помощью ИИ-агента. С его же помощью сайт редактируется.<br>Вопросы, предложения, готовые текстовые материалы для сайта: @narsenii в Telegram / <a href="mailto:a-novikov03@bk.ru">a-novikov03@bk.ru</a></p>
+        <div><span class="eyebrow">О проекте</span><h1>Язык дари Афганистана</h1><p>На сайте собраны учебные аудирования по языку дари из открытого доступа и учебники Б.Я.Островского для первых двух лет обучения. Основой сайта послужил Google Диск, ссылки на который встречаются во многих разделах. Диск в сайт был превращён с помощью ИИ-агента. С его же помощью сайт редактируется.</p><p class="about-contact"><span>Вопросы, предложения, готовые текстовые материалы для сайта:</span><span class="about-contact-links"><a href="https://t.me/narsenii" target="_blank" rel="noopener">✈️ @narsenii</a><a href="mailto:a-novikov03@bk.ru">✉️ a-novikov03@bk.ru</a></span></p>
         <div class="hero-actions" style="margin-top:20px"><a class="btn btn-primary" href="#/lessons">Начать курс ${svg("arrowRight")}</a><a class="btn btn-ghost" href="${esc(DATA.meta.driveFolderUrl)}" target="_blank" rel="noopener">${svg("external")} Исходный архив</a></div></div>
         <div class="about-mark">د</div>
       </div>

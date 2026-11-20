@@ -2040,3 +2040,10 @@ kbd {
 @media (max-width: 420px) {
   .student-unit-grid { grid-template-columns: 1fr; }
 }
+
+
+/* About page contact links */
+.about-contact { margin-top: 14px; display: flex; flex-direction: column; gap: 8px; }
+.about-contact-links { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; }
+.about-contact-links a { display: inline-flex; align-items: center; gap: 6px; color: var(--accent, #b17a35); font-weight: 650; text-decoration: none; }
+.about-contact-links a:hover { text-decoration: underline; }
