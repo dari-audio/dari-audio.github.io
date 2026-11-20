@@ -1018,6 +1018,7 @@
     const entry = findSemesterTwoEntry(id);
     if (!entry) return notFound("Материалы семестра не найдены");
     return renderLibraryNode(entry)
+      .replaceAll("#/library/", "#/lessons/semester-2/")
       .replaceAll("#/library", "#/lessons")
       .replaceAll("Аудиотека", "Доп.курс")
       .replaceAll("Все разделы", "К семестрам")
