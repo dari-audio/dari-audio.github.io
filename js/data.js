@@ -20584,731 +20584,33 @@ window.DARI_DATA = {
               "audioCount": 25,
               "pdfCount": 6,
               "linkedAudioCount": 0
-            },
-            {
-              "id": "1uDs29iTq8Bf3voNehY82NiP5o7UJqmVC",
-              "name": "Версии для преподавателей (T - teacher)",
-              "description": "",
-              "folders": [
-                {
-                  "id": "1dVjYQ2d0D-Z8-CRCtcOYDcVfRQWZoFej",
-                  "name": "A T Introductory A-Z самые базовые знания",
-                  "description": "",
-                  "folders": [
-                    {
-                      "id": "1utBLRxpZd4bV2a--Bv-kFxF6_CBe_4gN",
-                      "name": "Dari A-Z Teacher Copy",
-                      "description": "",
-                      "folders": [],
-                      "files": [
-                        {
-                          "id": "1smvF24s7QuzFzWOtz-Z9Gp2WC4YF9_MN",
-                          "name": "T file01.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1kETaWqZsVONQrjC4czhf77FJsoCLfd7D",
-                          "name": "T file02.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1WdOJGrUBEuBWF_cofKic3lErpGla9xnJ",
-                          "name": "T file03.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1Rq65dE-f44eQpbuVN4KoXyHNVgdE_SxA",
-                          "name": "T file04.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1by-0gA6ShPD0cH8AB6jYhq9pcr1CejQk",
-                          "name": "T file05.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1NdQQOr0ohLLHseeSj7C1eh5XL7DXbOE4",
-                          "name": "T file06.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "11IIrrTiC_kNz6EWhAWW8aiTdDOh4VoyM",
-                          "name": "T file07.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1dpV-NkDVoNssY1YDviMIO9H_lp77XoBm",
-                          "name": "T file08.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1SCRZRBDf4Az5rqHXpieWKwd9yifj9XFF",
-                          "name": "T file09.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1__hQFJflf4RGY5wrTSEndEjq_znbSicx",
-                          "name": "T file10.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1mfJBISjvAYmGg6vQbSatCHDshel6p5K9",
-                          "name": "T file11.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1__AVcyftS6kmbHkfCVJblSeGUkXfJEMR",
-                          "name": "T file12.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1OcoXb1Ovk9Yj0IVtC25Hi2Au16cOvgus",
-                          "name": "T file13.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "14xZwd2BvBr8sj_LdWs8iEuH3p8j6amHB",
-                          "name": "T file14.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "15t7bihWL0WK0RfHNSTLgMSimkKFz5fcy",
-                          "name": "T file15.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1EXWO8_gjk1K82D3dKBhgm_6NV_cIVMCm",
-                          "name": "T file16.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1XUieLVUJUD5T267QXXsntt4kSkkbW76s",
-                          "name": "T file17.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1ouXeKMeVBICxgEoZ83yyvRWbM0c3f9X5",
-                          "name": "T file18.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1DLszodGscWpIgU-wbKVIGpdURkm9jQlg",
-                          "name": "T file19.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1IMPRFR9To15gNh_3kVl1xdHT2Z2wyF8Z",
-                          "name": "T file20.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1qkkWwIvJLRT0D8a-rO9eOaDRxW3rCXkR",
-                          "name": "T file21.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1xh_bMrlyb-ZuuZfv4wZoLXPVvTAqGDlq",
-                          "name": "T file22.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "16GzZB2Cf08M-K_nHx2AIhHqITG7ejJCy",
-                          "name": "T file23.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1aa_sUGF_4ga0bgZoledOLY36jb3vTCf8",
-                          "name": "T file24.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1Pc6w6eVQ6mUWKkKfX26Ri4-9OKyRse4S",
-                          "name": "T file25.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "10kr4ZIF2erjd32UMDKa9lyrHWgEY44E-",
-                          "name": "T file26.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1xO8HxrmO27wKQoQCEV-QDtlqy5R6KYI-",
-                          "name": "T file27.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "15_aX2dPuFL8WzVrPSyU-N7b-x5m6PXyL",
-                          "name": "T file28.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "19ZYf0Z1y96Jgp3P5ZX6WqJsW_yYk5h3D",
-                          "name": "T file29.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1WxmNxhX8gYo6CDVw0g3DYt8-v_9T3Oot",
-                          "name": "T file30.pdf",
-                          "type": "file"
-                        },
-                        {
-                          "id": "1E-dhTI3M8u9XbaOu2CWnX9M9hkrAki8Q",
-                          "name": "T file31.pdf",
-                          "type": "file"
-                        }
-                      ],
-                      "fileCount": 31,
-                      "folderCount": 0,
-                      "audioCount": 0,
-                      "pdfCount": 31,
-                      "linkedAudioCount": 0
-                    }
-                  ],
-                  "files": [],
-                  "fileCount": 31,
-                  "folderCount": 1,
-                  "audioCount": 0,
-                  "pdfCount": 31,
-                  "linkedAudioCount": 0
-                },
-                {
-                  "id": "1U2ZsQNbCsYyqQN7Fakeb5M2OupnAziND",
-                  "name": "T 1-4",
-                  "description": "",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "10bE0BvLZKjTtQqKaVDEXCS9m9PZm3bFh",
-                      "name": "T Glossary 1- 4 (2005).pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1GOlCcojRE049xTaf7gR7uV9412lML3QD",
-                      "name": "T Lesson 1 (2005).pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "17-RtkMBmibBrs0qJYFEHpl5Vp7TXFmr3",
-                      "name": "T Lesson 2 (2005).pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1SQ7gDqxiYKDhxz1M-7XT34dt8UOHJvVX",
-                      "name": "T Lesson 3 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1TsY0cL72_hTTHybeddysxaRnVJRl-Le5",
-                      "name": "T Lesson 4 (2005).pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "13R6VLIraM0vCTpV3g0yhCB_JTDyIPKrW",
-                      "name": "T Review 1-4 (2005).pdf",
-                      "type": "file"
-                    }
-                  ],
-                  "fileCount": 6,
-                  "folderCount": 0,
-                  "audioCount": 0,
-                  "pdfCount": 6,
-                  "linkedAudioCount": 0
-                },
-                {
-                  "id": "1sPWYV5ov7gFfS4uc_jSxJ0T_XtAA2zcl",
-                  "name": "T 5-8",
-                  "description": "",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1csRzLOFuersfL8lH1A6g3FXTcpwUoPRx",
-                      "name": "T Glossary 1- 8 (2005).pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "11WgIvlJkcyXjYBHhnVxTEfJUOLanEGau",
-                      "name": "T Lesson 5 (2005).pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1rs_mlr7bS56GzXNZejB-XtdLvY1Mm4mO",
-                      "name": "T Lesson 6 (2005).pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1-XeWeRG7VnlkyrQl4OR7u3trGtLEpdar",
-                      "name": "T Lesson 7 (2005).pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1IdRyjEj8Uh6jrL8ZBRQZVj0z-B_dYji9",
-                      "name": "T Lesson 8 (2005).pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1OoGVSlcGs9vX9sw1-XNE9EANKD-flRlH",
-                      "name": "T Review 5-8 (2005).doc",
-                      "type": "file"
-                    }
-                  ],
-                  "fileCount": 6,
-                  "folderCount": 0,
-                  "audioCount": 0,
-                  "pdfCount": 5,
-                  "linkedAudioCount": 0
-                },
-                {
-                  "id": "1PbzEtJ48oN_9tkAy9I_axuHs1uxJJ-HH",
-                  "name": "T 9-12",
-                  "description": "",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1LtXhHcMD3Jujat8DnmIjSL6CjbYHVxRS",
-                      "name": "T Glossary 1- 12 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1KU-xzkd_nNm9HDyXFtxVXhk-qmRSn7QY",
-                      "name": "T Lesson 9 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "13r48qTYR0X7BxoKlAKI6aT-iA2ZV7rTk",
-                      "name": "T Lesson 10 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1vYDfROxOEGShMhPwEHqGINaCSKnEgf5Z",
-                      "name": "T Lesson 11 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1MUU2uAFRuDLeZAsxWT4SbBYalm-DpApL",
-                      "name": "T Lesson 12 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "19S9QkFczO5iHzNV6ADbd2yhx64f9G_qn",
-                      "name": "T Review 9-12 _2005_.pdf",
-                      "type": "file"
-                    }
-                  ],
-                  "fileCount": 6,
-                  "folderCount": 0,
-                  "audioCount": 0,
-                  "pdfCount": 6,
-                  "linkedAudioCount": 0
-                },
-                {
-                  "id": "17lBX3BXxizhVMXLIfMvWfz1Y_H8-zW4Q",
-                  "name": "T 13-16",
-                  "description": "",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1bgi0VBJMXDCZePbflGmqk4z9MgiQxELj",
-                      "name": "T Glossary 1- 16 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1MuKXTdf-gj3hi4v9JNjG01h3BjmIBnhY",
-                      "name": "T Lesson 13 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1MZRnp6N_i9y6eXMpyJ-Fx8xb42aaVZQj",
-                      "name": "T Lesson 14 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1dpc8w5TxjWirSR50N00u1RNsA1UHLBbt",
-                      "name": "T Lesson 15 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "15p_sjAK1zru5-RgYrl26qzqVL9p_JbdJ",
-                      "name": "T Lesson 16 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1OREK_YCIvXfGEuu57QiEHecdQ63J1aVL",
-                      "name": "T Review 13-16 _2005_.pdf",
-                      "type": "file"
-                    }
-                  ],
-                  "fileCount": 6,
-                  "folderCount": 0,
-                  "audioCount": 0,
-                  "pdfCount": 6,
-                  "linkedAudioCount": 0
-                },
-                {
-                  "id": "1t8KMoMzrc7xFy5vdEpXEQ2p5B9ea4dYY",
-                  "name": "T 17-20",
-                  "description": "",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1A_la_WCAqFFSC_hp23oUcrLGuKgs3tuI",
-                      "name": "T Glossary 1- 20 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "134O-q1taE2oE-0abkkFZryPU7sBZZV5n",
-                      "name": "T Lesson 17 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Uv1hbIVzdhkbm6gG91kbXBZCgF3FU_sL",
-                      "name": "T Lesson 18 _2005_ .pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1obVaBGqV7aMOYHBXpryPk_KmF7mXuU0P",
-                      "name": "T Lesson 19 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1jzo-3G5i6NhGMd6xoUxeVCugkeD79-PG",
-                      "name": "T Lesson 20 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1CgRc9YRagfyKOhQKJOq5fJQ-_GY1l87S",
-                      "name": "T Review 17-20 _2005_.pdf",
-                      "type": "file"
-                    }
-                  ],
-                  "fileCount": 6,
-                  "folderCount": 0,
-                  "audioCount": 0,
-                  "pdfCount": 6,
-                  "linkedAudioCount": 0
-                },
-                {
-                  "id": "1gxQvMFfUO8klLo9N1hhCS6PUgIzH1r2Y",
-                  "name": "T 21-24",
-                  "description": "",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1Dg70l3WLjxi89gmhllFINB6t7iC5oKKU",
-                      "name": "T Glossary 1- 24 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1jbh65L05QUzNtjYXWIEqsLQpeGfHcm_t",
-                      "name": "T Lesson 21  _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1A_50mzpGTMD3Zl1KHTJKR6NhjpA-3Ha-",
-                      "name": "T Lesson 22 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1bHsmVLiaRgN1WpvBTPw4e2ozTvSAOT56",
-                      "name": "T Lesson 23 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "13dBiLiWj_x-1yECQL6Iiq83q7K7aEgtd",
-                      "name": "T Lesson 24 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1EEfCKqpd457IZ3A6yntDtQcJ8XWg3EYG",
-                      "name": "T Review 21-24 _2005_.pdf",
-                      "type": "file"
-                    }
-                  ],
-                  "fileCount": 6,
-                  "folderCount": 0,
-                  "audioCount": 0,
-                  "pdfCount": 6,
-                  "linkedAudioCount": 0
-                },
-                {
-                  "id": "16e4iDkWJNac09XVW9tceE1CW8EL7Lnw2",
-                  "name": "T 25-28",
-                  "description": "",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1aNscaaQBTmwA7ZQBlalZpDgLQAFVauHz",
-                      "name": "T Glossary 1- 28 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1H8PUs5DKFE8Qng7JcwKo6KmqWohRvukx",
-                      "name": "T Lesson 25 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "13E7mUfUoYojrgohIUk1TCV-NpKO4dtzz",
-                      "name": "T Lesson 26 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ix-H5zNWdzoyBQ0Fovz-gJHt1Imx9Z_6",
-                      "name": "T Lesson 27 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1cHD3Lv0JqDMvm3oWbJsr1Xzvr_Vt__5f",
-                      "name": "T Lesson 28 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1rNtMRR9Ze_IdTdHL-J7DMKcoG-Kwsa72",
-                      "name": "T Review 25-28 _2005_.pdf",
-                      "type": "file"
-                    }
-                  ],
-                  "fileCount": 6,
-                  "folderCount": 0,
-                  "audioCount": 0,
-                  "pdfCount": 6,
-                  "linkedAudioCount": 0
-                },
-                {
-                  "id": "1y_cKK_8CXPfcFdqclvI2RZfyHMkVrZkV",
-                  "name": "T 29-32",
-                  "description": "",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1oQzoHL_Pfg6F6bQU4Gb38rQJInfjvqKc",
-                      "name": "T Glossary 1- 32 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1EX1qDKFJPV1MyRTpbqbntUch78JDrDtB",
-                      "name": "T Lesson 29 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1zwScHaw7a7BV3c5ZRdQnjE1wodiHRl_z",
-                      "name": "T Lesson 30 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1vO1iaCHu-O8FTqd3MIEzX6jZ9TINsKZ1",
-                      "name": "T Lesson 31 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1c2YGH3H5NwN2gxFzKBOYBfHHzREF65nY",
-                      "name": "T Lesson 32 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "12N9FMx-86rlW3Q3pXMoPv4kkRyhdS2Bg",
-                      "name": "T Review 29-32 _2005_.pdf",
-                      "type": "file"
-                    }
-                  ],
-                  "fileCount": 6,
-                  "folderCount": 0,
-                  "audioCount": 0,
-                  "pdfCount": 6,
-                  "linkedAudioCount": 0
-                },
-                {
-                  "id": "1Dm7ajuVccKjTOqWpPzivPddE47RPJzFi",
-                  "name": "T 33-36",
-                  "description": "",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "12PPffosmZchhqzRrsDq5x1GPQfPO8pyO",
-                      "name": "T Glossary 1- 36 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1HHYP2Z-XgkktnZMfNUK-6PDg2U9xcuJz",
-                      "name": "T Lesson 33 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "17CXlGX224kI1_JJJr7V82jPdobl9MfEo",
-                      "name": "T Lesson 34 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1amvOmi98-5_Dte4GJXCBe6VCEG7H60c1",
-                      "name": "T Lesson 35 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1UCtIKrh2OLe4sob4Wy8f6fjDYDN_td4u",
-                      "name": "T Lesson 36 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1YcmVVTtB2jlHrgiLWSe_2ZBCUkhH0FZB",
-                      "name": "T Review 33-36 _2005_.pdf",
-                      "type": "file"
-                    }
-                  ],
-                  "fileCount": 6,
-                  "folderCount": 0,
-                  "audioCount": 0,
-                  "pdfCount": 6,
-                  "linkedAudioCount": 0
-                },
-                {
-                  "id": "1yQyUuq4qjLTctYfGzPe7KfwfH0EgHVjr",
-                  "name": "T 37-40",
-                  "description": "",
-                  "folders": [],
-                  "files": [
-                    {
-                      "id": "1TxQPu3C00OK6aO09w-lB1j-t6so3JCin",
-                      "name": "Dari Glossary 1- 40 (2005).doc",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Bh1aXvcGJyWDG2x2RJ9LuJwKye5ir9zh",
-                      "name": "Draft S  Lesson 37 (2005).doc",
-                      "type": "file"
-                    },
-                    {
-                      "id": "15rpkHoQDRmpIjvGsYuSMHk_awa4drBlQ",
-                      "name": "Draft S Lesson 38 (2005).doc",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1-UsPN7KR4vEUmmxdTVhGeX15jovtT5R7",
-                      "name": "Draft S Lesson 40 (2005).doc",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1_Zj09S6KvGMoQ6UexCqTcDJxqBJEdmm1",
-                      "name": "T Glossary 1- 40 (2005).doc",
-                      "type": "file"
-                    },
-                    {
-                      "id": "11Z7_cqwpIJpaGDbHZzjeIBkardPFxzoV",
-                      "name": "T Glossary 1- 40 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1of5T7-ytoIVH9pOnrSUCLqT1soDb_vDR",
-                      "name": "T Lesson 37 (2005).doc",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1nL0KwAiznmf3hL2xSEEsD9kgkIuU2elK",
-                      "name": "T Lesson 37 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1Ym2GwhFaebAesp3vyP5ynreYa0RgLFj6",
-                      "name": "T Lesson 38 (2005).doc",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1ojUmSzvQbMCNPpJ0Q41QaUCf2twcQCXn",
-                      "name": "T Lesson 38 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1z6_1GGGyibnWYvZgRqL8Atjg1djLeBXo",
-                      "name": "T Lesson 39 (2005).doc",
-                      "type": "file"
-                    },
-                    {
-                      "id": "10S1M066wHtY8BFW5yme9xihAmN6Qj_gM",
-                      "name": "T Lesson 39 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1dypPZ1apUUaEAWO4EBjqqKI-qayx5vWo",
-                      "name": "T Lesson 40 (2005).doc",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1-OPK4GhYdBnK1w5fWF3_LzduOMT-JTsd",
-                      "name": "T Lesson 40 _2005_.pdf",
-                      "type": "file"
-                    },
-                    {
-                      "id": "16cEux5LZG1PFEmxCEmXrCO8M2N5sMvNK",
-                      "name": "T Review 37-40 (2005).doc",
-                      "type": "file"
-                    },
-                    {
-                      "id": "1tFlAs44PIPO5c4S5DOqCxM6XyAfiQVnI",
-                      "name": "T Review 37-40 _2005_.pdf",
-                      "type": "file"
-                    }
-                  ],
-                  "fileCount": 16,
-                  "folderCount": 0,
-                  "audioCount": 0,
-                  "pdfCount": 6,
-                  "linkedAudioCount": 0
-                }
-              ],
-              "files": [],
-              "fileCount": 101,
-              "folderCount": 12,
-              "audioCount": 0,
-              "pdfCount": 90,
-              "linkedAudioCount": 0
             }
           ],
           "files": [],
-          "fileCount": 411,
-          "folderCount": 63,
+          "fileCount": 310,
+          "folderCount": 10,
           "audioCount": 250,
-          "pdfCount": 150,
+          "pdfCount": 60,
           "linkedAudioCount": 0
         },
         {
           "id": "1YHv4hyie5lWynIFdJfPLGtrT4DZPXKEX",
           "name": "Часть 2",
           "description": "",
-          "folders": [
-            {
-              "id": "1kYzBjg4-XJXI2ZO9BhxgJRGt4tZ3HCdX",
-              "name": "Teacher Units 1-40",
-              "description": "",
-              "folders": [],
-              "files": [
-                {
-                  "id": "14QGCzuZqLaeCPo3B8ViL4Y3foJgyWCSW",
-                  "name": "T Book 1-20.pdf",
-                  "type": "file"
-                },
-                {
-                  "id": "1PAh3dLneeglhBJFLpEJ1jmxSkB_2BMaz",
-                  "name": "T Book 21-40.pdf",
-                  "type": "file"
-                }
-              ],
-              "fileCount": 2,
-              "folderCount": 0,
-              "audioCount": 0,
-              "pdfCount": 2,
-              "linkedAudioCount": 0
-            }
-          ],
+          "folders": [],
           "files": [],
-          "fileCount": 441,
-          "folderCount": 49,
-          "audioCount": 397,
-          "pdfCount": 6,
+          "fileCount": 0,
+          "folderCount": 0,
+          "audioCount": 0,
+          "pdfCount": 0,
           "linkedAudioCount": 40
         }
       ],
       "files": [],
-      "fileCount": 852,
-      "folderCount": 114,
-      "audioCount": 647,
-      "pdfCount": 156,
+      "fileCount": 310,
+      "folderCount": 2,
+      "audioCount": 250,
+      "pdfCount": 60,
       "linkedAudioCount": 40
     },
     {
@@ -23803,7 +23105,7 @@ window.DARI_DATA = {
         }
       ],
       "fileCount": 190,
-      "folderCount": 6,
+      "folderCount": 4,
       "audioCount": 182,
       "pdfCount": 7,
       "linkedAudioCount": 102
@@ -26986,7 +26288,7 @@ window.DARI_DATA = {
         }
       ],
       "fileCount": 418,
-      "folderCount": 23,
+      "folderCount": 9,
       "audioCount": 409,
       "pdfCount": 8,
       "linkedAudioCount": 0
@@ -27466,10 +26768,10 @@ window.DARI_DATA = {
             "local": "assets/pdfs/library/cards-41-60-scripts.pdf"
           }
         ],
-        "fileCount": 40,
+        "fileCount": 41,
         "folderCount": 0,
         "audioCount": 40,
-        "pdfCount": 0,
+        "pdfCount": 1,
         "linkedAudioCount": 0
       },
       {
@@ -28127,10 +27429,10 @@ window.DARI_DATA = {
             "resourceCount": 1
           }
         ],
-        "fileCount": 42,
+        "fileCount": 41,
         "folderCount": 0,
         "audioCount": 40,
-        "pdfCount": 2,
+        "pdfCount": 1,
         "linkedAudioCount": 40
       },
       {
@@ -28179,7 +27481,11 @@ window.DARI_DATA = {
             "name": "Text 01_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 8,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-02",
@@ -28227,7 +27533,11 @@ window.DARI_DATA = {
             "name": "Text 02_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 8,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-03",
@@ -28280,7 +27590,11 @@ window.DARI_DATA = {
             "name": "Text 03_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-04",
@@ -28333,7 +27647,11 @@ window.DARI_DATA = {
             "name": "Text 04_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-05",
@@ -28386,7 +27704,11 @@ window.DARI_DATA = {
             "name": "Text 05_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-06",
@@ -28439,7 +27761,11 @@ window.DARI_DATA = {
             "name": "Text 06_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-07",
@@ -28492,7 +27818,11 @@ window.DARI_DATA = {
             "name": "Text 07_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-08",
@@ -28545,7 +27875,11 @@ window.DARI_DATA = {
             "name": "Text 08_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-09",
@@ -28598,7 +27932,11 @@ window.DARI_DATA = {
             "name": "Text 09_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-10",
@@ -28651,7 +27989,11 @@ window.DARI_DATA = {
             "name": "Text 10_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-11",
@@ -28704,7 +28046,11 @@ window.DARI_DATA = {
             "name": "Text 11_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-12",
@@ -28757,7 +28103,11 @@ window.DARI_DATA = {
             "name": "Text 12_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-13",
@@ -28810,7 +28160,11 @@ window.DARI_DATA = {
             "name": "Text 13_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-14",
@@ -28863,7 +28217,11 @@ window.DARI_DATA = {
             "name": "Text 14_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-15",
@@ -28916,7 +28274,11 @@ window.DARI_DATA = {
             "name": "Text 15_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-16",
@@ -28969,7 +28331,11 @@ window.DARI_DATA = {
             "name": "Text 16_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-17",
@@ -29022,7 +28388,11 @@ window.DARI_DATA = {
             "name": "Text 17_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-18",
@@ -29075,7 +28445,11 @@ window.DARI_DATA = {
             "name": "Text 18_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-19",
@@ -29128,7 +28502,11 @@ window.DARI_DATA = {
             "name": "Text 19_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-20",
@@ -29181,7 +28559,11 @@ window.DARI_DATA = {
             "name": "Text 20_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-21",
@@ -29234,7 +28616,11 @@ window.DARI_DATA = {
             "name": "Text 21_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-22",
@@ -29282,7 +28668,11 @@ window.DARI_DATA = {
             "name": "Text 22_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 8,
+        "audioCount": 7,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-23",
@@ -29330,7 +28720,11 @@ window.DARI_DATA = {
             "name": "Text 23_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 8,
+        "audioCount": 7,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-24",
@@ -29378,7 +28772,11 @@ window.DARI_DATA = {
             "name": "Text 24_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 8,
+        "audioCount": 7,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-25",
@@ -29431,7 +28829,11 @@ window.DARI_DATA = {
             "name": "Text 25_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-26",
@@ -29484,7 +28886,11 @@ window.DARI_DATA = {
             "name": "Text 26_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-27",
@@ -29537,7 +28943,11 @@ window.DARI_DATA = {
             "name": "Text 27_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-28",
@@ -29590,7 +29000,11 @@ window.DARI_DATA = {
             "name": "Text 28_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-29",
@@ -29643,7 +29057,11 @@ window.DARI_DATA = {
             "name": "Text 29_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-30",
@@ -29696,7 +29114,11 @@ window.DARI_DATA = {
             "name": "Text 30_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-31",
@@ -29749,7 +29171,11 @@ window.DARI_DATA = {
             "name": "Text 31_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-32",
@@ -29802,7 +29228,11 @@ window.DARI_DATA = {
             "name": "Text 32_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-33",
@@ -29855,7 +29285,11 @@ window.DARI_DATA = {
             "name": "Text 33_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-34",
@@ -29908,7 +29342,11 @@ window.DARI_DATA = {
             "name": "Text 34_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-35",
@@ -29961,7 +29399,11 @@ window.DARI_DATA = {
             "name": "Text 35_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-36",
@@ -30014,7 +29456,11 @@ window.DARI_DATA = {
             "name": "Text 36_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-37",
@@ -30067,7 +29513,11 @@ window.DARI_DATA = {
             "name": "Text 37_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-38",
@@ -30120,7 +29570,11 @@ window.DARI_DATA = {
             "name": "Text 38_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-39",
@@ -30173,7 +29627,11 @@ window.DARI_DATA = {
             "name": "Text 39_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
       },
       {
         "id": "virtual-lesson-40",
@@ -30226,7 +29684,34 @@ window.DARI_DATA = {
             "name": "Text 40_2.mp3",
             "type": "file"
           }
-        ]
+        ],
+        "folderCount": 0,
+        "fileCount": 9,
+        "audioCount": 8,
+        "pdfCount": 0
+      },
+      {
+        "id": "1kYzBjg4-XJXI2ZO9BhxgJRGt4tZ3HCdX",
+        "name": "Teacher Units 1-40",
+        "description": "",
+        "folders": [],
+        "files": [
+          {
+            "id": "14QGCzuZqLaeCPo3B8ViL4Y3foJgyWCSW",
+            "name": "T Book 1-20.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1PAh3dLneeglhBJFLpEJ1jmxSkB_2BMaz",
+            "name": "T Book 21-40.pdf",
+            "type": "file"
+          }
+        ],
+        "fileCount": 2,
+        "folderCount": 0,
+        "audioCount": 0,
+        "pdfCount": 2,
+        "linkedAudioCount": 0
       }
     ],
     "files": [
@@ -30241,10 +29726,684 @@ window.DARI_DATA = {
         "type": "file"
       }
     ],
-    "fileCount": 439,
-    "folderCount": 47,
+    "fileCount": 441,
+    "folderCount": 43,
     "audioCount": 397,
-    "pdfCount": 4,
+    "pdfCount": 6,
     "linkedAudioCount": 40
+  },
+  "semesterOneTeacher": {
+    "id": "1uDs29iTq8Bf3voNehY82NiP5o7UJqmVC",
+    "name": "Версии для преподавателей (T - teacher)",
+    "description": "",
+    "folders": [
+      {
+        "id": "1dVjYQ2d0D-Z8-CRCtcOYDcVfRQWZoFej",
+        "name": "A T Introductory A-Z самые базовые знания",
+        "description": "",
+        "folders": [
+          {
+            "id": "1utBLRxpZd4bV2a--Bv-kFxF6_CBe_4gN",
+            "name": "Dari A-Z Teacher Copy",
+            "description": "",
+            "folders": [],
+            "files": [
+              {
+                "id": "1smvF24s7QuzFzWOtz-Z9Gp2WC4YF9_MN",
+                "name": "T file01.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1kETaWqZsVONQrjC4czhf77FJsoCLfd7D",
+                "name": "T file02.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1WdOJGrUBEuBWF_cofKic3lErpGla9xnJ",
+                "name": "T file03.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1Rq65dE-f44eQpbuVN4KoXyHNVgdE_SxA",
+                "name": "T file04.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1by-0gA6ShPD0cH8AB6jYhq9pcr1CejQk",
+                "name": "T file05.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1NdQQOr0ohLLHseeSj7C1eh5XL7DXbOE4",
+                "name": "T file06.pdf",
+                "type": "file"
+              },
+              {
+                "id": "11IIrrTiC_kNz6EWhAWW8aiTdDOh4VoyM",
+                "name": "T file07.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1dpV-NkDVoNssY1YDviMIO9H_lp77XoBm",
+                "name": "T file08.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1SCRZRBDf4Az5rqHXpieWKwd9yifj9XFF",
+                "name": "T file09.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1__hQFJflf4RGY5wrTSEndEjq_znbSicx",
+                "name": "T file10.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1mfJBISjvAYmGg6vQbSatCHDshel6p5K9",
+                "name": "T file11.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1__AVcyftS6kmbHkfCVJblSeGUkXfJEMR",
+                "name": "T file12.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1OcoXb1Ovk9Yj0IVtC25Hi2Au16cOvgus",
+                "name": "T file13.pdf",
+                "type": "file"
+              },
+              {
+                "id": "14xZwd2BvBr8sj_LdWs8iEuH3p8j6amHB",
+                "name": "T file14.pdf",
+                "type": "file"
+              },
+              {
+                "id": "15t7bihWL0WK0RfHNSTLgMSimkKFz5fcy",
+                "name": "T file15.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1EXWO8_gjk1K82D3dKBhgm_6NV_cIVMCm",
+                "name": "T file16.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1XUieLVUJUD5T267QXXsntt4kSkkbW76s",
+                "name": "T file17.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1ouXeKMeVBICxgEoZ83yyvRWbM0c3f9X5",
+                "name": "T file18.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1DLszodGscWpIgU-wbKVIGpdURkm9jQlg",
+                "name": "T file19.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1IMPRFR9To15gNh_3kVl1xdHT2Z2wyF8Z",
+                "name": "T file20.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1qkkWwIvJLRT0D8a-rO9eOaDRxW3rCXkR",
+                "name": "T file21.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1xh_bMrlyb-ZuuZfv4wZoLXPVvTAqGDlq",
+                "name": "T file22.pdf",
+                "type": "file"
+              },
+              {
+                "id": "16GzZB2Cf08M-K_nHx2AIhHqITG7ejJCy",
+                "name": "T file23.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1aa_sUGF_4ga0bgZoledOLY36jb3vTCf8",
+                "name": "T file24.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1Pc6w6eVQ6mUWKkKfX26Ri4-9OKyRse4S",
+                "name": "T file25.pdf",
+                "type": "file"
+              },
+              {
+                "id": "10kr4ZIF2erjd32UMDKa9lyrHWgEY44E-",
+                "name": "T file26.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1xO8HxrmO27wKQoQCEV-QDtlqy5R6KYI-",
+                "name": "T file27.pdf",
+                "type": "file"
+              },
+              {
+                "id": "15_aX2dPuFL8WzVrPSyU-N7b-x5m6PXyL",
+                "name": "T file28.pdf",
+                "type": "file"
+              },
+              {
+                "id": "19ZYf0Z1y96Jgp3P5ZX6WqJsW_yYk5h3D",
+                "name": "T file29.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1WxmNxhX8gYo6CDVw0g3DYt8-v_9T3Oot",
+                "name": "T file30.pdf",
+                "type": "file"
+              },
+              {
+                "id": "1E-dhTI3M8u9XbaOu2CWnX9M9hkrAki8Q",
+                "name": "T file31.pdf",
+                "type": "file"
+              }
+            ],
+            "fileCount": 31,
+            "folderCount": 0,
+            "audioCount": 0,
+            "pdfCount": 31,
+            "linkedAudioCount": 0
+          }
+        ],
+        "files": [],
+        "fileCount": 31,
+        "folderCount": 1,
+        "audioCount": 0,
+        "pdfCount": 31,
+        "linkedAudioCount": 0
+      },
+      {
+        "id": "1U2ZsQNbCsYyqQN7Fakeb5M2OupnAziND",
+        "name": "T 1-4",
+        "description": "",
+        "folders": [],
+        "files": [
+          {
+            "id": "10bE0BvLZKjTtQqKaVDEXCS9m9PZm3bFh",
+            "name": "T Glossary 1- 4 (2005).pdf",
+            "type": "file"
+          },
+          {
+            "id": "1GOlCcojRE049xTaf7gR7uV9412lML3QD",
+            "name": "T Lesson 1 (2005).pdf",
+            "type": "file"
+          },
+          {
+            "id": "17-RtkMBmibBrs0qJYFEHpl5Vp7TXFmr3",
+            "name": "T Lesson 2 (2005).pdf",
+            "type": "file"
+          },
+          {
+            "id": "1SQ7gDqxiYKDhxz1M-7XT34dt8UOHJvVX",
+            "name": "T Lesson 3 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1TsY0cL72_hTTHybeddysxaRnVJRl-Le5",
+            "name": "T Lesson 4 (2005).pdf",
+            "type": "file"
+          },
+          {
+            "id": "13R6VLIraM0vCTpV3g0yhCB_JTDyIPKrW",
+            "name": "T Review 1-4 (2005).pdf",
+            "type": "file"
+          }
+        ],
+        "fileCount": 6,
+        "folderCount": 0,
+        "audioCount": 0,
+        "pdfCount": 6,
+        "linkedAudioCount": 0
+      },
+      {
+        "id": "1sPWYV5ov7gFfS4uc_jSxJ0T_XtAA2zcl",
+        "name": "T 5-8",
+        "description": "",
+        "folders": [],
+        "files": [
+          {
+            "id": "1csRzLOFuersfL8lH1A6g3FXTcpwUoPRx",
+            "name": "T Glossary 1- 8 (2005).pdf",
+            "type": "file"
+          },
+          {
+            "id": "11WgIvlJkcyXjYBHhnVxTEfJUOLanEGau",
+            "name": "T Lesson 5 (2005).pdf",
+            "type": "file"
+          },
+          {
+            "id": "1rs_mlr7bS56GzXNZejB-XtdLvY1Mm4mO",
+            "name": "T Lesson 6 (2005).pdf",
+            "type": "file"
+          },
+          {
+            "id": "1-XeWeRG7VnlkyrQl4OR7u3trGtLEpdar",
+            "name": "T Lesson 7 (2005).pdf",
+            "type": "file"
+          },
+          {
+            "id": "1IdRyjEj8Uh6jrL8ZBRQZVj0z-B_dYji9",
+            "name": "T Lesson 8 (2005).pdf",
+            "type": "file"
+          },
+          {
+            "id": "1OoGVSlcGs9vX9sw1-XNE9EANKD-flRlH",
+            "name": "T Review 5-8 (2005).doc",
+            "type": "file"
+          }
+        ],
+        "fileCount": 6,
+        "folderCount": 0,
+        "audioCount": 0,
+        "pdfCount": 5,
+        "linkedAudioCount": 0
+      },
+      {
+        "id": "1PbzEtJ48oN_9tkAy9I_axuHs1uxJJ-HH",
+        "name": "T 9-12",
+        "description": "",
+        "folders": [],
+        "files": [
+          {
+            "id": "1LtXhHcMD3Jujat8DnmIjSL6CjbYHVxRS",
+            "name": "T Glossary 1- 12 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1KU-xzkd_nNm9HDyXFtxVXhk-qmRSn7QY",
+            "name": "T Lesson 9 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "13r48qTYR0X7BxoKlAKI6aT-iA2ZV7rTk",
+            "name": "T Lesson 10 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1vYDfROxOEGShMhPwEHqGINaCSKnEgf5Z",
+            "name": "T Lesson 11 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1MUU2uAFRuDLeZAsxWT4SbBYalm-DpApL",
+            "name": "T Lesson 12 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "19S9QkFczO5iHzNV6ADbd2yhx64f9G_qn",
+            "name": "T Review 9-12 _2005_.pdf",
+            "type": "file"
+          }
+        ],
+        "fileCount": 6,
+        "folderCount": 0,
+        "audioCount": 0,
+        "pdfCount": 6,
+        "linkedAudioCount": 0
+      },
+      {
+        "id": "17lBX3BXxizhVMXLIfMvWfz1Y_H8-zW4Q",
+        "name": "T 13-16",
+        "description": "",
+        "folders": [],
+        "files": [
+          {
+            "id": "1bgi0VBJMXDCZePbflGmqk4z9MgiQxELj",
+            "name": "T Glossary 1- 16 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1MuKXTdf-gj3hi4v9JNjG01h3BjmIBnhY",
+            "name": "T Lesson 13 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1MZRnp6N_i9y6eXMpyJ-Fx8xb42aaVZQj",
+            "name": "T Lesson 14 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1dpc8w5TxjWirSR50N00u1RNsA1UHLBbt",
+            "name": "T Lesson 15 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "15p_sjAK1zru5-RgYrl26qzqVL9p_JbdJ",
+            "name": "T Lesson 16 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1OREK_YCIvXfGEuu57QiEHecdQ63J1aVL",
+            "name": "T Review 13-16 _2005_.pdf",
+            "type": "file"
+          }
+        ],
+        "fileCount": 6,
+        "folderCount": 0,
+        "audioCount": 0,
+        "pdfCount": 6,
+        "linkedAudioCount": 0
+      },
+      {
+        "id": "1t8KMoMzrc7xFy5vdEpXEQ2p5B9ea4dYY",
+        "name": "T 17-20",
+        "description": "",
+        "folders": [],
+        "files": [
+          {
+            "id": "1A_la_WCAqFFSC_hp23oUcrLGuKgs3tuI",
+            "name": "T Glossary 1- 20 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "134O-q1taE2oE-0abkkFZryPU7sBZZV5n",
+            "name": "T Lesson 17 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1Uv1hbIVzdhkbm6gG91kbXBZCgF3FU_sL",
+            "name": "T Lesson 18 _2005_ .pdf",
+            "type": "file"
+          },
+          {
+            "id": "1obVaBGqV7aMOYHBXpryPk_KmF7mXuU0P",
+            "name": "T Lesson 19 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1jzo-3G5i6NhGMd6xoUxeVCugkeD79-PG",
+            "name": "T Lesson 20 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1CgRc9YRagfyKOhQKJOq5fJQ-_GY1l87S",
+            "name": "T Review 17-20 _2005_.pdf",
+            "type": "file"
+          }
+        ],
+        "fileCount": 6,
+        "folderCount": 0,
+        "audioCount": 0,
+        "pdfCount": 6,
+        "linkedAudioCount": 0
+      },
+      {
+        "id": "1gxQvMFfUO8klLo9N1hhCS6PUgIzH1r2Y",
+        "name": "T 21-24",
+        "description": "",
+        "folders": [],
+        "files": [
+          {
+            "id": "1Dg70l3WLjxi89gmhllFINB6t7iC5oKKU",
+            "name": "T Glossary 1- 24 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1jbh65L05QUzNtjYXWIEqsLQpeGfHcm_t",
+            "name": "T Lesson 21  _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1A_50mzpGTMD3Zl1KHTJKR6NhjpA-3Ha-",
+            "name": "T Lesson 22 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1bHsmVLiaRgN1WpvBTPw4e2ozTvSAOT56",
+            "name": "T Lesson 23 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "13dBiLiWj_x-1yECQL6Iiq83q7K7aEgtd",
+            "name": "T Lesson 24 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1EEfCKqpd457IZ3A6yntDtQcJ8XWg3EYG",
+            "name": "T Review 21-24 _2005_.pdf",
+            "type": "file"
+          }
+        ],
+        "fileCount": 6,
+        "folderCount": 0,
+        "audioCount": 0,
+        "pdfCount": 6,
+        "linkedAudioCount": 0
+      },
+      {
+        "id": "16e4iDkWJNac09XVW9tceE1CW8EL7Lnw2",
+        "name": "T 25-28",
+        "description": "",
+        "folders": [],
+        "files": [
+          {
+            "id": "1aNscaaQBTmwA7ZQBlalZpDgLQAFVauHz",
+            "name": "T Glossary 1- 28 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1H8PUs5DKFE8Qng7JcwKo6KmqWohRvukx",
+            "name": "T Lesson 25 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "13E7mUfUoYojrgohIUk1TCV-NpKO4dtzz",
+            "name": "T Lesson 26 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1ix-H5zNWdzoyBQ0Fovz-gJHt1Imx9Z_6",
+            "name": "T Lesson 27 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1cHD3Lv0JqDMvm3oWbJsr1Xzvr_Vt__5f",
+            "name": "T Lesson 28 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1rNtMRR9Ze_IdTdHL-J7DMKcoG-Kwsa72",
+            "name": "T Review 25-28 _2005_.pdf",
+            "type": "file"
+          }
+        ],
+        "fileCount": 6,
+        "folderCount": 0,
+        "audioCount": 0,
+        "pdfCount": 6,
+        "linkedAudioCount": 0
+      },
+      {
+        "id": "1y_cKK_8CXPfcFdqclvI2RZfyHMkVrZkV",
+        "name": "T 29-32",
+        "description": "",
+        "folders": [],
+        "files": [
+          {
+            "id": "1oQzoHL_Pfg6F6bQU4Gb38rQJInfjvqKc",
+            "name": "T Glossary 1- 32 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1EX1qDKFJPV1MyRTpbqbntUch78JDrDtB",
+            "name": "T Lesson 29 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1zwScHaw7a7BV3c5ZRdQnjE1wodiHRl_z",
+            "name": "T Lesson 30 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1vO1iaCHu-O8FTqd3MIEzX6jZ9TINsKZ1",
+            "name": "T Lesson 31 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1c2YGH3H5NwN2gxFzKBOYBfHHzREF65nY",
+            "name": "T Lesson 32 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "12N9FMx-86rlW3Q3pXMoPv4kkRyhdS2Bg",
+            "name": "T Review 29-32 _2005_.pdf",
+            "type": "file"
+          }
+        ],
+        "fileCount": 6,
+        "folderCount": 0,
+        "audioCount": 0,
+        "pdfCount": 6,
+        "linkedAudioCount": 0
+      },
+      {
+        "id": "1Dm7ajuVccKjTOqWpPzivPddE47RPJzFi",
+        "name": "T 33-36",
+        "description": "",
+        "folders": [],
+        "files": [
+          {
+            "id": "12PPffosmZchhqzRrsDq5x1GPQfPO8pyO",
+            "name": "T Glossary 1- 36 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1HHYP2Z-XgkktnZMfNUK-6PDg2U9xcuJz",
+            "name": "T Lesson 33 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "17CXlGX224kI1_JJJr7V82jPdobl9MfEo",
+            "name": "T Lesson 34 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1amvOmi98-5_Dte4GJXCBe6VCEG7H60c1",
+            "name": "T Lesson 35 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1UCtIKrh2OLe4sob4Wy8f6fjDYDN_td4u",
+            "name": "T Lesson 36 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1YcmVVTtB2jlHrgiLWSe_2ZBCUkhH0FZB",
+            "name": "T Review 33-36 _2005_.pdf",
+            "type": "file"
+          }
+        ],
+        "fileCount": 6,
+        "folderCount": 0,
+        "audioCount": 0,
+        "pdfCount": 6,
+        "linkedAudioCount": 0
+      },
+      {
+        "id": "1yQyUuq4qjLTctYfGzPe7KfwfH0EgHVjr",
+        "name": "T 37-40",
+        "description": "",
+        "folders": [],
+        "files": [
+          {
+            "id": "1TxQPu3C00OK6aO09w-lB1j-t6so3JCin",
+            "name": "Dari Glossary 1- 40 (2005).doc",
+            "type": "file"
+          },
+          {
+            "id": "1Bh1aXvcGJyWDG2x2RJ9LuJwKye5ir9zh",
+            "name": "Draft S  Lesson 37 (2005).doc",
+            "type": "file"
+          },
+          {
+            "id": "15rpkHoQDRmpIjvGsYuSMHk_awa4drBlQ",
+            "name": "Draft S Lesson 38 (2005).doc",
+            "type": "file"
+          },
+          {
+            "id": "1-UsPN7KR4vEUmmxdTVhGeX15jovtT5R7",
+            "name": "Draft S Lesson 40 (2005).doc",
+            "type": "file"
+          },
+          {
+            "id": "1_Zj09S6KvGMoQ6UexCqTcDJxqBJEdmm1",
+            "name": "T Glossary 1- 40 (2005).doc",
+            "type": "file"
+          },
+          {
+            "id": "11Z7_cqwpIJpaGDbHZzjeIBkardPFxzoV",
+            "name": "T Glossary 1- 40 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1of5T7-ytoIVH9pOnrSUCLqT1soDb_vDR",
+            "name": "T Lesson 37 (2005).doc",
+            "type": "file"
+          },
+          {
+            "id": "1nL0KwAiznmf3hL2xSEEsD9kgkIuU2elK",
+            "name": "T Lesson 37 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1Ym2GwhFaebAesp3vyP5ynreYa0RgLFj6",
+            "name": "T Lesson 38 (2005).doc",
+            "type": "file"
+          },
+          {
+            "id": "1ojUmSzvQbMCNPpJ0Q41QaUCf2twcQCXn",
+            "name": "T Lesson 38 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1z6_1GGGyibnWYvZgRqL8Atjg1djLeBXo",
+            "name": "T Lesson 39 (2005).doc",
+            "type": "file"
+          },
+          {
+            "id": "10S1M066wHtY8BFW5yme9xihAmN6Qj_gM",
+            "name": "T Lesson 39 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "1dypPZ1apUUaEAWO4EBjqqKI-qayx5vWo",
+            "name": "T Lesson 40 (2005).doc",
+            "type": "file"
+          },
+          {
+            "id": "1-OPK4GhYdBnK1w5fWF3_LzduOMT-JTsd",
+            "name": "T Lesson 40 _2005_.pdf",
+            "type": "file"
+          },
+          {
+            "id": "16cEux5LZG1PFEmxCEmXrCO8M2N5sMvNK",
+            "name": "T Review 37-40 (2005).doc",
+            "type": "file"
+          },
+          {
+            "id": "1tFlAs44PIPO5c4S5DOqCxM6XyAfiQVnI",
+            "name": "T Review 37-40 _2005_.pdf",
+            "type": "file"
+          }
+        ],
+        "fileCount": 16,
+        "folderCount": 0,
+        "audioCount": 0,
+        "pdfCount": 6,
+        "linkedAudioCount": 0
+      }
+    ],
+    "files": [],
+    "fileCount": 101,
+    "folderCount": 11,
+    "audioCount": 0,
+    "pdfCount": 90,
+    "linkedAudioCount": 0
   }
 };
