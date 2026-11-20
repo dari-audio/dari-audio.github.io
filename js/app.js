@@ -1016,6 +1016,32 @@
     return walk(root, [root]);
   };
 
+  const findSemesterOneTeacherEntry = (id) => {
+    const root = DATA.semesterOneTeacher;
+    if (!root) return null;
+    if (!id || id === root.id) return { node: root, trail: [root] };
+    const walk = (node, trail) => {
+      for (const child of node.folders || []) {
+        const next = trail.concat(child);
+        if (child.id === id) return { node: child, trail: next };
+        const found = walk(child, next);
+        if (found) return found;
+      }
+      return null;
+    };
+    return walk(root, [root]);
+  };
+
+  const semesterTwoCategory = (theme) => {
+    const text = (theme.title + " " + theme.summary).toLowerCase();
+    if (/семь|свад|брак|сват|женщин|дет|гостеприим/.test(text)) return "Семья и общество";
+    if (/географ|провинц|климат|погод|регион|границ|маршрут|путешеств|транспорт|самолёт/.test(text)) return "География и путешествия";
+    if (/банк|работ|руковод|сотрудник|рын|торгов|покуп|продаж|эконом|компан|инвестиц|строительств|инфраструктур/.test(text)) return "Работа и экономика";
+    if (/государ|президент|правитель|полит|истор|лидер|моджахед|племен|меньшинств|образован|школ/.test(text)) return "Общество и история";
+    if (/кино|спорт|навруз|культур|питани|еда|гадани|снов/.test(text)) return "Культура и досуг";
+    if (/телефон|связ|телеком|электрон|компьютер|технолог/.test(text)) return "Технологии";
+    return "Повседневная жизнь";
+  };
   const renderSemesterTwo = (id) => {
     const entry = findSemesterTwoEntry(id);
     if (!entry) return notFound("Материалы семестра не найдены");
@@ -1028,7 +1054,7 @@
   };
 
   const renderLessons = (semester, itemId) => {
-    if (semester === "semester-1") return renderSemesterOne();
+    if (semester === "semester-1") return itemId ? renderSemesterOne(itemId) : renderSemesterOne();
     if (semester === "semester-2") return renderSemesterTwo(itemId);
     return `<div class="page">
       <div class="page-head"><div><span class="eyebrow">Дополнительный курс</span><h1>Доп.курс</h1><p>Выберите семестр, чтобы открыть уроки и учебные материалы.</p></div></div>
@@ -1043,7 +1069,16 @@
     </div>`;
   };
 
-  const renderSemesterOne = () => {
+  const renderSemesterOne = (itemId) => {
+    if (itemId) {
+      const entry = findSemesterOneTeacherEntry(itemId);
+      if (!entry) return notFound("Материалы преподавателя не найдены");
+      return renderLibraryNode(entry)
+        .replaceAll("#/library/", "#/lessons/semester-1/")
+        .replaceAll("#/library", "#/lessons/semester-1")
+        .replaceAll("Аудиотека", "Доп.курс")
+        .replaceAll("Все разделы", "К семестрам");
+    }
     const tagCounts = new Map();
     DATA.lessons.forEach((lesson) => lesson.tags.forEach((tag) => tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1)));
     const topTags = Array.from(tagCounts.entries()).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ru")).slice(0, 8).map((x) => x[0]);
@@ -1087,6 +1122,7 @@
           </a>`;
         }).join("")}
       </div>` : `<div class="empty-state"><h3>Ничего не нашлось</h3><p>Попробуйте другой запрос или сбросьте фильтр темы.</p><button class="btn btn-soft btn-sm" type="button" data-clear-lesson-filter>Сбросить фильтры</button></div>`}
+      ${DATA.semesterOneTeacher ? `<div class="section-head" style="margin-top:28px"><div><h2>Материалы преподавателя</h2><p>Дополнительные версии уроков и учебные файлы</p></div></div><div class="folder-list"><a class="folder-item" href="#/lessons/semester-1/${esc(DATA.semesterOneTeacher.id)}"><span class="folder-icon">${svg("folder")}</span><div><strong>${esc(DATA.semesterOneTeacher.name)}</strong><small>${DATA.semesterOneTeacher.fileCount || 0} файлов · ${DATA.semesterOneTeacher.folderCount || 0} папок</small></div></a></div>` : ""}
     </div>`;
   };
 
