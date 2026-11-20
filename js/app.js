@@ -728,7 +728,7 @@
         </a>
         <a class="route-card" href="#/lessons" data-letter="د">
           <span class="route-icon">${svg("book")}</span>
-          <h3>40 уроков</h3><p>Полный курс с аудио и PDF</p>
+          <h3>Доп.курс</h3><p>Два семестра с уроками и учебными материалами</p>
           <div class="route-meta"><span>${lDone} из ${total.lessons} пройдено</span><small>${fmt(DATA.lessons.reduce((s, x) => s + x.tracks.length, 0))} треков</small></div>
         </a>
         <a class="route-card" href="#/practice" data-letter="پ">
@@ -998,7 +998,26 @@
     return haystack.includes(query.toLowerCase());
   };
 
-  const renderLessons = () => {
+  const renderLessons = (semester) => {
+    if (semester === "semester-1") return renderSemesterOne();
+    if (semester === "semester-2") {
+      location.hash = "#/library/1BcaMzJKr5Bl3vGdpC3V6DAQdQq3YAmpE";
+      return "";
+    }
+    return `<div class="page">
+      <div class="page-head"><div><span class="eyebrow">Дополнительный курс</span><h1>Доп.курс</h1><p>Выберите семестр, чтобы открыть уроки и учебные материалы.</p></div></div>
+      <div class="routes-grid semester-grid">
+        <a class="route-card semester-card" href="#/lessons/semester-1" data-letter="📘">
+          <span class="route-icon">${svg("bookOpen")}</span><h3>Семестр 1</h3><p>40 тематических уроков с аудио, PDF и грамматическими пояснениями.</p><div class="route-meta"><span>${DATA.lessons.length} уроков</span><small>Открыть семестр →</small></div>
+        </a>
+        <a class="route-card semester-card" href="#/library/1BcaMzJKr5Bl3vGdpC3V6DAQdQq3YAmpE" data-letter="📗">
+          <span class="route-icon">${svg("folder")}</span><h3>Семестр 2</h3><p>Студенческие материалы, аудио, учебники и карточки.</p><div class="route-meta"><span>Учебные материалы</span><small>Открыть семестр →</small></div>
+        </a>
+      </div>
+    </div>`;
+  };
+
+  const renderSemesterOne = () => {
     const tagCounts = new Map();
     DATA.lessons.forEach((lesson) => lesson.tags.forEach((tag) => tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1)));
     const topTags = Array.from(tagCounts.entries()).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ru")).slice(0, 8).map((x) => x[0]);
@@ -2031,7 +2050,7 @@
     switch (section) {
       case "alphabet": return { nav: "alphabet", title: "Алфавит" };
       case "intro": return { nav: "alphabet", title: `Вводный урок ${parts[1] || ""}` };
-      case "lessons": return { nav: "lessons", title: "40 уроков" };
+      case "lessons": return { nav: "lessons", title: parts[1] === "semester-1" ? "Семестр 1" : "Доп.курс" };
       case "lesson": return { nav: "lessons", title: `Урок ${parts[1] || ""}` };
       case "vocab": return { nav: "vocab", title: parts[1] ? ((DATA.vocab.packs.find((x) => x.id === parts[1]) || {}).title || "Словарь") : "Словарь" };
       case "trainer": return { nav: "vocab", title: "Аудиотренажёр" };
@@ -2091,7 +2110,7 @@
       if (parts[1] === "letter") ui.alphabetTab = "letters";
       html = renderAlphabet();
     } else if (section === "intro") html = renderIntro(parts[1]);
-    else if (section === "lessons") html = renderLessons();
+    else if (section === "lessons") html = renderLessons(parts[1]);
     else if (section === "lesson") html = renderLesson(parts[1]);
     else if (section === "vocab") html = parts[1] ? renderPack(parts[1]) : renderVocab();
     else if (section === "trainer") html = renderTrainer(parts[1]);
