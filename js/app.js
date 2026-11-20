@@ -262,6 +262,8 @@
     letterGroup: "all",
     lessonTag: "all",
     lessonQuery: "",
+    semesterTwoQuery: "",
+    semesterTwoTag: "all",
     libQuery: "",
     packView: "cards",
     flashIndex: 0,
@@ -1700,7 +1702,16 @@
       <div class="file-list">${scriptFiles.map((file) => libFileRow(file, "")).join("")}</div>` : "";
       if (node.id === "1BcaMzJKr5Bl3vGdpC3V6DAQdQq3YAmpE") {
         const units = folders.filter((folder) => /^virtual-lesson-\d+$/.test(folder.id)).sort((a, b) => Number(a.id.slice(-2)) - Number(b.id.slice(-2)));
-        const cardFolders = folders.filter((folder) => !/^virtual-lesson-\d+$/.test(folder.id));
+        const teacherFolders = folders.filter((folder) => folder.id === "1kYzBjg4-XJXI2ZO9BhxgJRGt4tZ3HCdX");
+        const cardFolders = folders.filter((folder) => !/^virtual-lesson-\d+$/.test(folder.id) && folder.id !== "1kYzBjg4-XJXI2ZO9BhxgJRGt4tZ3HCdX");
+        const semesterQuery = ui.semesterTwoQuery.trim().toLowerCase();
+        const semesterTags = ["Семья и общество", "География и путешествия", "Работа и экономика", "Общество и история", "Культура и досуг", "Технологии", "Повседневная жизнь"];
+        const filteredUnits = units.filter((folder) => {
+          const num = Number(folder.id.slice(-2));
+          const theme = themes.find((item) => item.num === num) || { title: "", summary: "" };
+          return (ui.semesterTwoTag === "all" || semesterTwoCategory(theme) === ui.semesterTwoTag) &&
+            (!semesterQuery || (num + " " + theme.title + " " + theme.summary).toLowerCase().includes(semesterQuery));
+        });
         const themes = DATA.studentUnits || [];
         const bookFiles = files.filter((file) => isPdf(file.name));
         const otherFiles = files.filter((file) => !isPdf(file.name));
@@ -1708,9 +1719,17 @@
         <div class="breadcrumbs"><a href="#/library">Аудиотека</a><span>/</span>${trailLinks}</div>
         <div class="section-head"><div><h2>Учебники · Семестр 2</h2><p>Два студенческих тома с исходными материалами курса</p></div></div>
         ${bookFiles.length ? `<div class="file-list">${bookFiles.map((file) => libFileRow(file, "Student Copy · Семестр 2")).join("")}</div>` : ""}
-        <div class="section-head"><div><h2>Уроки 1–40</h2><p>Тематические плитки по названиям основных текстов в учебниках</p></div></div>
+        <div class="section-head"><div><h2>Уроки 1–40</h2><p>Найдите тему по названию или отфильтруйте уроки по тематическим категориям</p></div></div>
+        <div class="lesson-toolbar">
+          <div class="search-input-wrap">${svg("search")}<input class="search-input" id="semester-two-search" type="search" placeholder="Найти урок или тему…" value="${esc(ui.semesterTwoQuery)}" autocomplete="off"></div>
+          <div class="chip-row">
+            <button class="chip ${ui.semesterTwoTag === "all" ? "active" : ""}" type="button" data-semester-two-tag="all">Все</button>
+            ${semesterTags.map((tag) => `<button class="chip ${ui.semesterTwoTag === tag ? "active" : ""}" type="button" data-semester-two-tag="${esc(tag)}">${esc(tag)}</button>`).join("")}
+          </div>
+          <span class="small muted">${filteredUnits.length} из ${units.length}</span>
+        </div>
         <div class="lesson-grid student-unit-grid">
-          ${units.map((folder) => {
+          ${filteredUnits.map((folder) => {
             const num = Number(folder.id.slice(-2));
             const theme = themes.find((item) => item.num === num) || { title: "Тема урока", summary: "Откройте материалы этого учебного блока." };
             const audioCount = (folder.files || []).filter((file) => isAudio(file.name)).length;
@@ -1723,6 +1742,8 @@
             </a>`;
           }).join("")}
         </div>
+        ${!filteredUnits.length ? `<div class="empty-state"><h3>Ничего не нашлось</h3><p>Попробуйте изменить запрос или категорию.</p><button class="btn btn-soft btn-sm" type="button" data-clear-semester-two-filter>Сбросить фильтры</button></div>` : ""}
+        ${teacherFolders.length ? `<div class="section-head"><div><h2>Материалы преподавателя</h2><p>Дополнительные учебные тома для уроков 1–40</p></div></div><div class="folder-list">${teacherFolders.map((folder) => `<a class="folder-item" href="#/lessons/semester-2/${esc(folder.id)}"><span class="folder-icon">${svg("folder")}</span><div><strong>${esc(folder.name)}</strong><small>${(folder.files || []).length} PDF</small></div></a>`).join("")}</div>` : ""}
         ${cardFolders.length ? `<div class="section-head"><div><h2>Карточки</h2><p>Исходные папки карточек сохранены без изменений</p></div></div>
         <div class="folder-list">${cardFolders.map((folder) => { const pdfCount = (folder.files || []).filter((file) => isPdf(file.name)).length; return `<a class="folder-item" href="#/library/${esc(folder.id)}"><span class="folder-icon">${svg("folder")}</span><div><strong>${esc(folder.name)}</strong><small>${pdfCount} ${plural(pdfCount, ["PDF", "PDF", "PDF"])}</small></div></a>`; }).join("")}</div>` : ""}
         ${otherFiles.length ? `<div class="file-list">${otherFiles.map((file) => libFileRow(file, "")).join("")}</div>` : ""}`;
@@ -2255,6 +2276,9 @@
     if (target.closest("[data-open-search]")) { event.preventDefault(); openSearch(); return; }
     if (target.closest("[data-open-nav]")) { document.body.classList.add("nav-open"); return; }
     if (target.closest("[data-close-nav]")) { document.body.classList.remove("nav-open"); return; }
+    const semesterTwoTag = target.closest("[data-semester-two-tag]");
+    if (semesterTwoTag) { ui.semesterTwoTag = semesterTwoTag.dataset.semesterTwoTag; renderRoute({ scroll: false }); return; }
+    if (target.closest("[data-clear-semester-two-filter]")) { ui.semesterTwoTag = "all"; ui.semesterTwoQuery = ""; renderRoute({ scroll: false }); return; }
     if (target.closest(".nav-link")) { document.body.classList.remove("nav-open"); }
 
     const playButton = target.closest("[data-play-src]");
@@ -2580,6 +2604,13 @@
     const target = event.target;
     if (target.id === "global-search-input") {
       renderSearchResults(target.value);
+      return;
+    }
+    if (target.id === "semester-two-search") {
+      ui.semesterTwoQuery = target.value;
+      const pos = target.selectionStart || target.value.length;
+      renderRoute({ scroll: false });
+      restoreFocus("semester-two-search", pos);
       return;
     }
     if (target.id === "lesson-search") {
