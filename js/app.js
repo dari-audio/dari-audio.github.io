@@ -1724,7 +1724,7 @@
           }).join("")}
         </div>
         ${cardFolders.length ? `<div class="section-head"><div><h2>Карточки</h2><p>Исходные папки карточек сохранены без изменений</p></div></div>
-        <div class="folder-list">${cardFolders.map((folder) => `<a class="folder-item" href="#/library/${esc(folder.id)}"><span class="folder-icon">${svg("folder")}</span><div><strong>${esc(folder.name)}</strong><small>${libCounts(folder)}</small></div></a>`).join("")}</div>` : ""}
+        <div class="folder-list">${cardFolders.map((folder) => { const pdfCount = (folder.files || []).filter((file) => isPdf(file.name)).length; return `<a class="folder-item" href="#/library/${esc(folder.id)}"><span class="folder-icon">${svg("folder")}</span><div><strong>${esc(folder.name)}</strong><small>${pdfCount} ${plural(pdfCount, ["PDF", "PDF", "PDF"])}</small></div></a>`; }).join("")}</div>` : ""}
         ${otherFiles.length ? `<div class="file-list">${otherFiles.map((file) => libFileRow(file, "")).join("")}</div>` : ""}`;
       } else {
         content = `${searchBar}
