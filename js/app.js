@@ -1173,7 +1173,7 @@
         </div>
         <span class="small muted" id="lesson-count">${filtered.length} из ${DATA.lessons.length}</span>
       </div>
-      ${filtered.length ? `<div class="lesson-grid" id="lesson-grid">
+      ${filtered.length ? `<div class="lesson-grid semester-one-grid" id="lesson-grid">
         ${filtered.map((lesson) => {
           const complete = Boolean(state.lessons[lesson.num]);
           return `<a class="lesson-card ${complete ? "done" : ""}" href="#/lesson/${lesson.num}" data-num="${lesson.num}">

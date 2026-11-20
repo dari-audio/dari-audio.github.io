@@ -2003,6 +2003,26 @@ kbd {
 .flashcard.russian-first .flash-face.back .hint { color: var(--muted); }
 
 
+/* Semester 1 — compact four-column lesson tiles */
+.semester-one-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.semester-one-grid .lesson-card { min-height: 220px; padding: 17px; }
+.semester-one-grid .lesson-top { margin-bottom: 9px; }
+.semester-one-grid .lesson-card h3 { font-size: .94rem; }
+.semester-one-grid .lesson-card p.summary { margin-top: 7px; }
+.semester-one-grid .lesson-card .tag-row { margin-top: 9px; }
+.semester-one-grid .lesson-card-bottom { padding-top: 10px; }
+@media (max-width: 720px) {
+  .semester-one-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+  .semester-one-grid .lesson-card { min-height: 205px; padding: 14px; }
+  .semester-one-grid .lesson-num { font-size: 1.35rem; }
+  .semester-one-grid .lesson-card h3 { font-size: .88rem; }
+  .semester-one-grid .lesson-card p.summary { font-size: .66rem; }
+  .semester-one-grid .lesson-card-bottom { font-size: .58rem; }
+}
+@media (max-width: 420px) {
+  .semester-one-grid { grid-template-columns: 1fr; }
+}
+
 /* Student Units Semester 2 — lesson tile layout */
 .student-unit-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
 .student-unit-card { min-height: 220px; }
