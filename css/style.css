@@ -1986,3 +1986,22 @@ kbd {
 .flashcard.russian-first .flash-face.back .flash-translit { color: var(--terra); }
 .flashcard.russian-first .flash-face.back .flash-numeral { color: var(--terra) !important; }
 .flashcard.russian-first .flash-face.back .hint { color: var(--muted); }
+
+
+/* Student Units Semester 2 — lesson tile layout */
+.student-unit-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.student-unit-card { min-height: 220px; }
+.student-unit-card .en { margin-top: 6px; }
+.student-unit-card p.summary { min-height: 2.8em; }
+.student-unit-card .lesson-card-bottom { position: relative; z-index: 1; }
+@media (max-width: 720px) {
+  .student-unit-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+  .student-unit-card { min-height: 205px; padding: 14px; }
+  .student-unit-card .lesson-num { font-size: 1.35rem; }
+  .student-unit-card h3 { font-size: .88rem; }
+  .student-unit-card p.summary { font-size: .66rem; }
+  .student-unit-card .lesson-card-bottom { font-size: .58rem; }
+}
+@media (max-width: 420px) {
+  .student-unit-grid { grid-template-columns: 1fr; }
+}
