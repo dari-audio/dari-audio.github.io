@@ -2249,23 +2249,52 @@
 
 
   /* ---------- Игра: география провинций Афганистана ---------- */
-  const gameProvinceNames = {
-    badakhshan: "Бадахшан", badghis: "Бадгис", baghlan: "Баглан",
-    balkh: "Балх", bamyan: "Бамиан", daykundi: "Дайкунди",
-    daikundi: "Дайкунди", farah: "Фарах", faryab: "Фарьяб",
-    ghazni: "Газни", ghor: "Гор", helmand: "Гильменд",
-    herat: "Герат", hirat: "Герат", jawzjan: "Джаузджан",
-    jowzjan: "Джаузджан", kabul: "Кабул", kandahar: "Кандагар",
-    kapisa: "Каписа", khost: "Хост", kunar: "Кунар",
-    kunduz: "Кундуз", laghman: "Лагман", logar: "Логар",
-    nangarhar: "Нангархар", nimroz: "Нимроз", nuristan: "Нуристан",
-    paktika: "Пактика", paktya: "Пактия", paktia: "Пактия",
-    panjshir: "Панджшер", panjsher: "Панджшер", parwan: "Парван",
-    samangan: "Саманган", saripul: "Сари-Пуль", sarepul: "Сари-Пуль",
-    saripol: "Сари-Пуль", takhar: "Тахар", uruzgan: "Урузган",
-    oruzgan: "Урузган", wardak: "Вардак", maidanwardak: "Вардак",
-    zabul: "Забуль"
+  const gameProvinceInfo = {
+    badakhshan: { name: "Бадахшан", dari: "بدخشان", capital: "Файзабад", capitalDari: "فیض‌آباد" },
+    badghis: { name: "Бадгис", dari: "بادغیس", capital: "Кала-и-Нау", capitalDari: "قلعه‌نو" },
+    baghlan: { name: "Баглан", dari: "بغلان", capital: "Пули-Хумри", capitalDari: "پلخمری" },
+    balkh: { name: "Балх", dari: "بلخ", capital: "Мазари-Шариф", capitalDari: "مزارشریف" },
+    bamyan: { name: "Бамиан", dari: "بامیان", capital: "Бамиан", capitalDari: "بامیان" },
+    daykundi: { name: "Дайкунди", dari: "دایکندی", capital: "Нили", capitalDari: "نیلی" },
+    farah: { name: "Фарах", dari: "فراه", capital: "Фарах", capitalDari: "فراه" },
+    faryab: { name: "Фарьяб", dari: "فاریاب", capital: "Маймана", capitalDari: "میمنه" },
+    ghazni: { name: "Газни", dari: "غزنی", capital: "Газни", capitalDari: "غزنی" },
+    ghor: { name: "Гор", dari: "غور", capital: "Фирузкух (Чагчаран)", capitalDari: "فیروزکوه" },
+    helmand: { name: "Гильменд", dari: "هلمند", capital: "Лашкаргах", capitalDari: "لشکرگاه" },
+    herat: { name: "Герат", dari: "هرات", capital: "Герат", capitalDari: "هرات" },
+    jawzjan: { name: "Джаузджан", dari: "جوزجان", capital: "Шиберган", capitalDari: "شبرغان" },
+    kabul: { name: "Кабул", dari: "کابل", capital: "Кабул", capitalDari: "کابل" },
+    kandahar: { name: "Кандагар", dari: "کندهار", capital: "Кандагар", capitalDari: "کندهار" },
+    kapisa: { name: "Каписа", dari: "کاپیسا", capital: "Махмуд-Раки", capitalDari: "محمودراقی" },
+    khost: { name: "Хост", dari: "خوست", capital: "Хост", capitalDari: "خوست" },
+    kunar: { name: "Кунар", dari: "کنر", capital: "Асад-Абад", capitalDari: "اسعدآباد" },
+    kunduz: { name: "Кундуз", dari: "کندز", capital: "Кундуз", capitalDari: "کندز" },
+    laghman: { name: "Лагман", dari: "لغمان", capital: "Мехтарлам", capitalDari: "مهترلام" },
+    logar: { name: "Логар", dari: "لوگر", capital: "Пули-Алам", capitalDari: "پل‌علم" },
+    nangarhar: { name: "Нангархар", dari: "ننگرهار", capital: "Джелалабад", capitalDari: "جلال‌آباد" },
+    nimroz: { name: "Нимроз", dari: "نیمروز", capital: "Зарандж", capitalDari: "زرنج" },
+    nuristan: { name: "Нуристан", dari: "نورستان", capital: "Парун", capitalDari: "پارون" },
+    paktika: { name: "Пактика", dari: "پکتیکا", capital: "Шарана", capitalDari: "شرنه" },
+    paktya: { name: "Пактия", dari: "پکتیا", capital: "Гардез", capitalDari: "گردیز" },
+    panjshir: { name: "Панджшер", dari: "پنجشیر", capital: "Базарак", capitalDari: "بازارک" },
+    parwan: { name: "Парван", dari: "پروان", capital: "Чарикар", capitalDari: "چاریکار" },
+    samangan: { name: "Саманган", dari: "سمنگان", capital: "Айбак", capitalDari: "ایبک" },
+    saripul: { name: "Сари-Пуль", dari: "سرپل", capital: "Сари-Пуль", capitalDari: "سرپل" },
+    takhar: { name: "Тахар", dari: "تخار", capital: "Талокан", capitalDari: "تالقان" },
+    uruzgan: { name: "Урузган", dari: "ارزگان", capital: "Таринкот", capitalDari: "ترینکوت" },
+    wardak: { name: "Вардак", dari: "وردک", capital: "Майданшахр", capitalDari: "میدان‌شهر" },
+    zabul: { name: "Забуль", dari: "زابل", capital: "Калат", capitalDari: "قلات" }
   };
+  const gameProvinceNames = Object.fromEntries(Object.entries(gameProvinceInfo).map(([key, value]) => [key, value.name]));
+  gameProvinceNames.daikundi = gameProvinceInfo.daykundi.name;
+  gameProvinceNames.hirat = gameProvinceInfo.herat.name;
+  gameProvinceNames.jowzjan = gameProvinceInfo.jawzjan.name;
+  gameProvinceNames.paktia = gameProvinceInfo.paktya.name;
+  gameProvinceNames.panjsher = gameProvinceInfo.panjshir.name;
+  gameProvinceNames.sarepul = gameProvinceInfo.saripul.name;
+  gameProvinceNames.saripol = gameProvinceInfo.saripul.name;
+  gameProvinceNames.oruzgan = gameProvinceInfo.uruzgan.name;
+  gameProvinceNames.maidanwardak = gameProvinceInfo.wardak.name;
   const gameKey = (value) => String(value || "").toLowerCase().normalize("NFD")
     .replace(/\p{Diacritic}/gu, "").replace(/[^a-z0-9]/g, "");
   let gameMapFeatures = null;
@@ -2282,7 +2311,8 @@
     const props = feature.properties || {};
     const raw = props.PROV_34_NA || props.name || props.NAME_1 || props.shapeName || "";
     const key = gameKey(raw);
-    return { raw, key, name: gameProvinceNames[key] || raw };
+    const info = gameProvinceInfo[key] || null;
+    return { raw, key, name: info ? info.name : (gameProvinceNames[key] || raw), dari: info ? info.dari : "", capital: info ? info.capital : "", capitalDari: info ? info.capitalDari : "" };
   };
   const gameGeometryRings = (geometry) => {
     if (!geometry) return [];
@@ -2353,6 +2383,7 @@
           <div class="game-question">
             <div class="game-question-label">Найди на карте</div>
             <div class="game-question-name">${current ? esc(gameFeatureName(current).name) : (total && done === total ? "Все провинции найдены!" : "Подготовка игры…")}</div>
+            ${current ? `<div class="game-question-dari" lang="fa" dir="rtl">${esc(gameFeatureName(current).dari)}</div>` : ""}
             <div class="game-question-meta">${total ? `Провинция ${Math.min(done + 1, total)} из ${total}` : "34 провинции Афганистана"}</div>
           </div>
           <div class="game-map-wrap">${mapMarkup}</div>
@@ -2366,6 +2397,15 @@
           <div class="game-legend"><span></span> Провинция найдена</div>
         </aside>
       </div>
+      <section class="province-reference">
+        <div class="province-reference-head"><div><div class="eyebrow">Справочник</div><h2>Провинции и их столицы</h2></div><p>Русские названия и написание на дари</p></div>
+        <div class="province-reference-grid">
+          ${Object.entries(gameProvinceInfo).map(([key, info]) => `<article class="province-reference-card">
+            <div class="province-reference-name">${esc(info.name)} <span lang="fa" dir="rtl">${esc(info.dari)}</span></div>
+            <div class="province-reference-capital"><span>Столица</span><strong>${esc(info.capital)}</strong><b lang="fa" dir="rtl">${esc(info.capitalDari)}</b></div>
+          </article>`).join("")}
+        </div>
+      </section>
     </div>`;
   };
   const loadGameMap = async () => {

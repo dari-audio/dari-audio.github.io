@@ -2086,3 +2086,19 @@ kbd {
 .game-legend span { width: 12px; height: 12px; border-radius: 3px; background: #37725c; }
 @media (max-width: 850px) { .game-layout { grid-template-columns: 1fr; } .game-side { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 12px 18px; align-items: center; } .game-stats { grid-column: 1 / -1; } .game-progress, .game-instruction, .game-legend { margin: 0; } .game-reset { grid-column: 2; grid-row: 2 / span 2; } }
 @media (max-width: 520px) { .game-board { padding: 10px; } .game-map-wrap { min-height: 260px; } .game-side { display: flex; flex-direction: column; align-items: stretch; } .game-stats { width: 100%; } .game-progress { width: 100%; } .game-reset { width: 100%; } .game-legend { align-self: flex-start; } }
+
+.game-question-dari { margin-top: 5px; color: var(--muted); font: 600 1.45rem/1.5 var(--sans); }
+.province-reference { margin-top: 24px; }
+.province-reference-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 12px; }
+.province-reference-head h2 { margin: 4px 0 0; font: 700 1.55rem/1.2 var(--serif); color: var(--ink); }
+.province-reference-head p { color: var(--muted); font-size: .78rem; margin: 0 0 2px; }
+.province-reference-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; }
+.province-reference-card { min-width: 0; padding: 13px 14px; border: 1px solid var(--line); border-radius: 13px; background: var(--surface); }
+.province-reference-name { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-weight: 750; color: var(--ink); }
+.province-reference-name span { font-size: 1.05rem; color: var(--green); white-space: nowrap; }
+.province-reference-capital { display: grid; grid-template-columns: auto 1fr; gap: 3px 8px; margin-top: 8px; align-items: baseline; }
+.province-reference-capital span { color: var(--muted); font-size: .68rem; }
+.province-reference-capital strong { font-size: .82rem; font-weight: 650; }
+.province-reference-capital b { grid-column: 2; justify-self: end; font-size: .95rem; font-weight: 600; color: var(--muted); }
+@media (max-width: 850px) { .province-reference-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (max-width: 520px) { .province-reference-head { display: block; } .province-reference-head p { margin-top: 6px; } .province-reference-grid { grid-template-columns: 1fr; } .province-reference-card { padding: 12px; } }
