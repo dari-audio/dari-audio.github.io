@@ -1434,6 +1434,7 @@
           ${pack.cards.some((word) => word.audio) ? `<button class="btn btn-primary" type="button" data-play-all="pack:${esc(pack.id)}">${svg("play")} Слушать набор</button>` : ""}
         </div>
       </div>
+      ${pack.script ? `<div class="notice" style="margin-top:18px">${svg("file")}<span>Скрипт к набору: <a class="text-button" href="https://docs.google.com/document/d/${esc(pack.script.id)}/edit" target="_blank" rel="noopener">${esc(pack.script.name)} · открыть документ</a></span></div>` : ""}
       <div class="flash-toolbar">
         <div class="view-switch">
           <button class="${ui.packView === "cards" ? "active" : ""}" type="button" data-pack-view="cards">${svg("cards")} Карточки</button>
