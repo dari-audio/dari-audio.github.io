@@ -2102,3 +2102,11 @@ kbd {
 .province-reference-capital b { grid-column: 2; justify-self: end; font-size: .95rem; font-weight: 600; color: var(--muted); }
 @media (max-width: 850px) { .province-reference-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
 @media (max-width: 520px) { .province-reference-head { display: block; } .province-reference-head p { margin-top: 6px; } .province-reference-grid { grid-template-columns: 1fr; } .province-reference-card { padding: 12px; } }
+
+/* Labeled reference-map toggle inside the Afghanistan province game */
+.game-page .page-head { display: flex; align-items: end; justify-content: space-between; gap: 16px; }
+.game-map-actions { flex: 0 0 auto; }
+.province-map-label { fill: #253b32; font: 700 8px/1.1 var(--sans); paint-order: stroke; stroke: rgba(255,255,255,.9); stroke-width: 2.5px; stroke-linejoin: round; pointer-events: none; }
+.province-map-label-dari { font-family: "Noto Nastaliq Urdu", serif; font-size: 8px; font-weight: 600; }
+.province-shape.is-correct + .province-map-label { fill: #fff; }
+@media (max-width: 650px) { .game-page .page-head { display: block; } .game-map-actions { margin-top: 12px; } .game-map-actions .btn { width: 100%; justify-content: center; } .province-map-label { font-size: 7px; stroke-width: 2px; } .province-map-label-dari { font-size: 7px; } }

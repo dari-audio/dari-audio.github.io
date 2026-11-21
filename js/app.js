@@ -2306,6 +2306,7 @@
   let gameMistakes = 0;
   let gameFeedback = "";
   let gameWrongId = "";
+  let gameShowProvinceNames = false;
 
   const gameFeatureName = (feature) => {
     const props = feature.properties || {};
@@ -2326,6 +2327,25 @@
       return (index ? "L" : "M") + p[0].toFixed(1) + " " + p[1].toFixed(1);
     }).join(" ") + " Z").join(" ")
   ).join(" ");
+  const gameLabelPoint = (geometry) => {
+    let best = null, bestArea = 0;
+    gameGeometryRings(geometry).forEach((polygon) => {
+      const ring = polygon[0] || [];
+      if (ring.length < 3) return;
+      let area = 0, cx = 0, cy = 0;
+      for (let i = 0; i < ring.length; i += 1) {
+        const a = ring[i], b = ring[(i + 1) % ring.length];
+        const cross = a[0] * b[1] - b[0] * a[1];
+        area += cross; cx += (a[0] + b[0]) * cross; cy += (a[1] + b[1]) * cross;
+      }
+      const magnitude = Math.abs(area);
+      if (magnitude > bestArea && area) {
+        bestArea = magnitude;
+        best = [cx / (3 * area), cy / (3 * area)];
+      }
+    });
+    return best;
+  };
   const gameProjection = (features) => {
     const coords = [];
     features.forEach((feature) => gameGeometryRings(feature.geometry).forEach((polygon) =>
@@ -2368,7 +2388,12 @@
           const id = info.key || String(index);
           const completed = gameCompleted.has(id);
           const wrong = gameWrongId === id;
-          return `<path class="province-shape${completed ? " is-correct" : ""}${wrong ? " is-wrong" : ""}" data-game-province="${esc(id)}" d="${gameSvgPath(feature.geometry, project)}" fill-rule="evenodd" tabindex="0" role="button" aria-label="${esc(info.name)}" />`;
+          const labelPoint = gameShowProvinceNames ? gameLabelPoint(feature.geometry) : null;
+          const label = labelPoint ? project(labelPoint) : null;
+          return `<g>
+            <path class="province-shape${completed ? " is-correct" : ""}${wrong ? " is-wrong" : ""}" data-game-province="${esc(id)}" d="${gameSvgPath(feature.geometry, project)}" fill-rule="evenodd" tabindex="0" role="button" aria-label="${esc(info.name)}" />
+            ${label ? `<text class="province-map-label" x="${label[0].toFixed(1)}" y="${(label[1] - 2).toFixed(1)}" text-anchor="middle" aria-hidden="true"><tspan x="${label[0].toFixed(1)}">${esc(info.name)}</tspan><tspan class="province-map-label-dari" x="${label[0].toFixed(1)}" dy="10" direction="rtl" unicode-bidi="plaintext">${esc(info.dari)}</tspan></text>` : ""}
+          </g>`;
         }).join("")}
       </svg>`;
     } else if (gameMapError) {
@@ -2377,7 +2402,7 @@
       mapMarkup = '<div class="game-map-message"><span class="loading-spinner"></span><p>Загружаем карту провинций…</p></div>';
     }
     return `<div class="page game-page">
-      <div class="page-head"><div><div class="eyebrow">География · Афганистан</div><h1>Найди провинцию</h1><p>Прочитай название и нажми на нужную провинцию на карте. Изученные области будут отмечаться зелёным.</p></div></div>
+      <div class="page-head"><div><div class="eyebrow">География · Афганистан</div><h1>Найди провинцию</h1><p>Прочитай название и нажми на нужную провинцию на карте. Изученные области будут отмечаться зелёным.</p></div><div class="game-map-actions"><button class="btn btn-soft" type="button" data-game-map-names aria-pressed="${gameShowProvinceNames}">${gameShowProvinceNames ? "Скрыть названия" : "Показать карту с названиями"}</button></div></div>
       <div class="game-layout">
         <section class="game-board">
           <div class="game-question">
@@ -3051,6 +3076,11 @@
     const province = event.target.closest("[data-game-province]");
     if (province) {
       handleGameProvince(province.dataset.gameProvince);
+      return;
+    }
+    if (event.target.closest("[data-game-map-names]")) {
+      gameShowProvinceNames = !gameShowProvinceNames;
+      renderRoute({ scroll: false });
       return;
     }
     if (event.target.closest("[data-game-reset]")) {
