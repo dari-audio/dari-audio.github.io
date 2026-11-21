@@ -6058,6 +6058,69 @@ window.DARI_DATA = {
         "count": 10,
         "audioCount": 10
       },
+{
+        "id": "greetings",
+        "title": "Приветствия",
+        "subtitle": "salām — سلام",
+        "icon": "👋",
+        "accent": "#0f5c54",
+        "audioCategory": "GREETings",
+        "description": "Повседневные приветствия и вежливые фразы. Слушайте произношение на дари, переворачивайте карточки и повторяйте вслух.",
+        "cards": [
+          {
+            "dari": "خوش آمدید!",
+            "ru": "Добро пожаловать!",
+            "audio": "assets/audio/vocab/greetings/03greet01.mp3"
+          },
+          {
+            "dari": "سلام!",
+            "ru": "Здравствуйте!",
+            "audio": "assets/audio/vocab/greetings/03greet02.mp3"
+          },
+          {
+            "dari": "صبح بخیر!",
+            "ru": "Доброе утро!",
+            "audio": "assets/audio/vocab/greetings/03greet03.mp3"
+          },
+          {
+            "dari": "شب بخیر!",
+            "ru": "Доброй ночи!",
+            "audio": "assets/audio/vocab/greetings/03greet04.mp3"
+          },
+          {
+            "dari": "به امان خدا!",
+            "ru": "До свидания!",
+            "audio": "assets/audio/vocab/greetings/03greet05.mp3"
+          },
+          {
+            "dari": "چطور هستی؟",
+            "ru": "Как твои дела?",
+            "audio": "assets/audio/vocab/greetings/03greet06.mp3"
+          },
+          {
+            "dari": "خوب هستم، تشکر. شما چطور هستید؟",
+            "ru": "У меня всё хорошо, спасибо. Как ваши дела?",
+            "audio": "assets/audio/vocab/greetings/03greet07.mp3"
+          },
+          {
+            "dari": "از دیدن شما خوش شدم.",
+            "ru": "Рад вас видеть.",
+            "audio": "assets/audio/vocab/greetings/03greet08.mp3"
+          },
+          {
+            "dari": "از کمک‌تان تشکر.",
+            "ru": "Спасибо за вашу помощь.",
+            "audio": "assets/audio/vocab/greetings/03greet09.mp3"
+          },
+          {
+            "dari": "نام من ... است.",
+            "ru": "Меня зовут ... .",
+            "audio": "assets/audio/vocab/greetings/03greet10.mp3"
+          }
+        ],
+        "count": 10,
+        "audioCount": 10
+      },
       {
         "id": "days",
         "title": "Дни и время",
