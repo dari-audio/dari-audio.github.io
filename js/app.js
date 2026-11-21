@@ -2430,6 +2430,7 @@
               <span class="province-flashcard-face province-flashcard-front">
                 <span class="province-flashcard-kicker">Провинция</span>
                 <strong>${esc(info.name)}</strong>
+                <b class="province-flashcard-dari" lang="fa" dir="rtl">${esc(info.dari)}</b>
                 <span class="province-flashcard-hint">Нажмите, чтобы увидеть столицу</span>
               </span>
               <span class="province-flashcard-face province-flashcard-back">
