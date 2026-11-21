@@ -2114,3 +2114,49 @@ kbd {
 .province-map-label-dari { font-family: var(--dari); font-size: 8px; font-weight: 600; }
 .province-shape.is-correct + .province-map-label { fill: #fff; }
 @media (max-width: 650px) { .game-page .page-head { display: block; } .game-map-actions { margin-top: 12px; } .game-map-actions .btn { width: 100%; justify-content: center; } .province-map-label { font-size: 7px; stroke-width: 2px; } .province-map-label-dari { font-size: 7px; } }
+
+
+/* Prominent transcript warning on the voice vocabulary page */
+.vocab-transcript-warning {
+  align-items: flex-start;
+  gap: 15px;
+  margin: 0 0 24px;
+  padding: 19px 21px;
+  border: 2px solid #bd8730;
+  border-left-width: 6px;
+  border-radius: 14px;
+  background: linear-gradient(110deg, #fff2cf 0%, #fff8e8 100%);
+  color: #684815;
+  box-shadow: 0 5px 18px rgba(117, 81, 24, 0.10);
+  font-size: .9rem;
+  line-height: 1.6;
+}
+.vocab-transcript-warning-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
+  margin-top: 1px;
+  border-radius: 50%;
+  background: #bd8730;
+  color: #fff;
+}
+.vocab-transcript-warning-icon .icon {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+.vocab-transcript-warning strong {
+  display: block;
+  margin-bottom: 3px;
+  color: #593b0e;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.vocab-transcript-warning p { margin: 0; color: #684815; }
+@media (max-width: 600px) {
+  .vocab-transcript-warning { gap: 11px; padding: 15px 14px; margin-bottom: 19px; font-size: .82rem; }
+  .vocab-transcript-warning-icon { flex-basis: 30px; width: 30px; height: 30px; }
+  .vocab-transcript-warning strong { font-size: .92rem; }
+}
