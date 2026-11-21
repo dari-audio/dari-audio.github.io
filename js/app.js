@@ -1463,8 +1463,8 @@
         <div class="detail-actions"><button class="btn btn-primary" type="button" data-play-all="trainer:${esc(trainer.id)}">${svg("play")} Слушать всё</button></div>
       </div>
       <div class="flash-toolbar">
-        <div class="section-head" style="margin:0"><div><h2>Фразы и аудио</h2><p>${hasWords ? "Читайте перевод, слушайте запись и повторяйте вслух." : "Слушайте записи и повторяйте вслух."}</p></div></div>
-        <span class="badge badge-green">${trainer.audio.length} фраз</span>
+        <div class="section-head" style="margin:0"><div><h2>${hasWords ? "Фразы и аудио" : "Аудиозаписи"}</h2><p>${hasWords ? "Читайте перевод, слушайте запись и повторяйте вслух." : "Слушайте записи и повторяйте вслух."}</p></div></div>
+        <span class="badge badge-green">${trainer.audio.length} записей</span>
       </div>
       <div class="word-list">
         ${trainer.audio.map((file, i) => {
@@ -1476,6 +1476,7 @@
           </div>`;
         }).join("")}
       </div>
+      ${trainer.script ? `<div class="notice" style="margin-top:18px">${svg("file")}<span>Скрипт к аудиозаписям: <a class="text-button" href="https://docs.google.com/document/d/${esc(trainer.script.id)}/edit" target="_blank" rel="noopener">${esc(trainer.script.name)} · открыть документ</a></span></div>` : ""}
       <div class="notice" style="margin-top:18px">${svg("info")}<span>${hasWords ? "Сначала попробуйте понять фразу на слух, затем сверьтесь с переводом. Прослушивайте запись несколько раз и повторяйте за диктором." : "Слушайте по 5–7 записей за раз и возвращайтесь к ним через день. Повторение важнее скорости."}</span></div>
     </div>`;
   };
