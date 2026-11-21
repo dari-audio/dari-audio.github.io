@@ -2200,7 +2200,8 @@
       case "lesson": return { nav: "lessons", title: `Урок ${parts[1] || ""}` };
       case "vocab": return { nav: "vocab", title: parts[1] ? ((DATA.vocab.packs.find((x) => x.id === parts[1]) || {}).title || "Словарь") : "Словарь" };
       case "trainer": return { nav: "vocab", title: "Аудиотренажёр" };
-      case "game": return { nav: "game", title: "Игра" };\n      case "practice": return { nav: "practice", title: "Практика" };
+      case "game": return { nav: "game", title: "Игра" };\n      case "game": return { nav: "game", title: "Игра" };
+      case "practice": return { nav: "practice", title: "Практика" };
       case "library": return { nav: "library", title: "Аудиотека" };
       case "textbook-1": return { nav: "textbook-1", title: "Учебник: курс 1" };
       case "textbook-2": case "textbook": return { nav: "textbook-2", title: "Учебник: курс 2" };
@@ -2246,6 +2247,170 @@
     openModal(renderLetterModal(letter), { label: `Буква ${letter.name}` });
   };
 
+
+  /* ---------- Игра: география провинций Афганистана ---------- */
+  const gameProvinceNames = {
+    badakhshan: "Бадахшан", badghis: "Бадгис", baghlan: "Баглан",
+    balkh: "Балх", bamyan: "Бамиан", daykundi: "Дайкунди",
+    daikundi: "Дайкунди", farah: "Фарах", faryab: "Фарьяб",
+    ghazni: "Газни", ghor: "Гор", helmand: "Гильменд",
+    herat: "Герат", hirat: "Герат", jawzjan: "Джаузджан",
+    jowzjan: "Джаузджан", kabul: "Кабул", kandahar: "Кандагар",
+    kapisa: "Каписа", khost: "Хост", kunar: "Кунар",
+    kunduz: "Кундуз", laghman: "Лагман", logar: "Логар",
+    nangarhar: "Нангархар", nimroz: "Нимроз", nuristan: "Нуристан",
+    paktika: "Пактика", paktya: "Пактия", paktia: "Пактия",
+    panjshir: "Панджшер", panjsher: "Панджшер", parwan: "Парван",
+    samangan: "Саманган", saripul: "Сари-Пуль", sarepul: "Сари-Пуль",
+    saripol: "Сари-Пуль", takhar: "Тахар", uruzgan: "Урузган",
+    oruzgan: "Урузган", wardak: "Вардак", maidanwardak: "Вардак",
+    zabul: "Забуль"
+  };
+  const gameKey = (value) => String(value || "").toLowerCase().normalize("NFD")
+    .replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]/g, "");
+  let gameMapFeatures = null;
+  let gameMapLoading = false;
+  let gameMapError = "";
+  let gameOrder = [];
+  let gameIndex = 0;
+  let gameCompleted = new Set();
+  let gameMistakes = 0;
+  let gameFeedback = "";
+  let gameWrongId = "";
+
+  const gameFeatureName = (feature) => {
+    const props = feature.properties || {};
+    const raw = props.PROV_34_NA || props.name || props.NAME_1 || props.shapeName || "";
+    const key = gameKey(raw);
+    return { raw, key, name: gameProvinceNames[key] || raw };
+  };
+  const gameGeometryRings = (geometry) => {
+    if (!geometry) return [];
+    if (geometry.type === "Polygon") return [geometry.coordinates];
+    if (geometry.type === "MultiPolygon") return geometry.coordinates;
+    return [];
+  };
+  const gameSvgPath = (geometry, project) => gameGeometryRings(geometry).map((polygon) =>
+    polygon.map((ring) => ring.map((point, index) => {
+      const p = project(point);
+      return (index ? "L" : "M") + p[0].toFixed(1) + " " + p[1].toFixed(1);
+    }).join(" ") + " Z").join(" ")
+  ).join(" ");
+  const gameProjection = (features) => {
+    const coords = [];
+    features.forEach((feature) => gameGeometryRings(feature.geometry).forEach((polygon) =>
+      polygon.forEach((ring) => ring.forEach((point) => coords.push(point)))));
+    const xs = coords.map((p) => p[0]), ys = coords.map((p) => p[1]);
+    const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
+    const width = 720, height = 560, pad = 18;
+    const scale = Math.min((width - pad * 2) / (maxX - minX), (height - pad * 2) / (maxY - minY));
+    const drawW = (maxX - minX) * scale, drawH = (maxY - minY) * scale;
+    const ox = (width - drawW) / 2, oy = (height - drawH) / 2;
+    return (point) => [ox + (point[0] - minX) * scale, height - oy - (point[1] - minY) * scale];
+  };
+  const gameShuffle = (items) => {
+    const result = items.slice();
+    for (let i = result.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
+    }
+    return result;
+  };
+  const gameStart = () => {
+    gameOrder = gameShuffle(gameMapFeatures || []);
+    gameIndex = 0;
+    gameCompleted = new Set();
+    gameMistakes = 0;
+    gameFeedback = "";
+    gameWrongId = "";
+  };
+  const gameCurrent = () => gameOrder[gameIndex] || null;
+  const renderGame = () => {
+    const current = gameCurrent();
+    const total = gameOrder.length;
+    const done = gameCompleted.size;
+    let mapMarkup = "";
+    if (gameMapFeatures && gameMapFeatures.length) {
+      const project = gameProjection(gameMapFeatures);
+      mapMarkup = `<svg class="province-map-svg" viewBox="0 0 720 560" role="group" aria-label="Карта провинций Афганистана">
+        ${gameMapFeatures.map((feature, index) => {
+          const info = gameFeatureName(feature);
+          const id = info.key || String(index);
+          const completed = gameCompleted.has(id);
+          const wrong = gameWrongId === id;
+          return `<path class="province-shape${completed ? " is-correct" : ""}${wrong ? " is-wrong" : ""}" data-game-province="${esc(id)}" d="${gameSvgPath(feature.geometry, project)}" fill-rule="evenodd" tabindex="0" role="button" aria-label="${esc(info.name)}" />`;
+        }).join("")}
+      </svg>`;
+    } else if (gameMapError) {
+      mapMarkup = `<div class="game-map-message"><strong>Не удалось загрузить карту</strong><p>${esc(gameMapError)}</p><button class="btn btn-primary" type="button" data-game-retry>Повторить</button></div>`;
+    } else {
+      mapMarkup = '<div class="game-map-message"><span class="loading-spinner"></span><p>Загружаем карту провинций…</p></div>';
+    }
+    return `<div class="page game-page">
+      <div class="page-head"><div><div class="eyebrow">География · Афганистан</div><h1>Найди провинцию</h1><p>Прочитай название и нажми на нужную провинцию на карте. Изученные области будут отмечаться зелёным.</p></div></div>
+      <div class="game-layout">
+        <section class="game-board">
+          <div class="game-question">
+            <div class="game-question-label">Найди на карте</div>
+            <div class="game-question-name">${current ? esc(gameFeatureName(current).name) : (total && done === total ? "Все провинции найдены!" : "Подготовка игры…")}</div>
+            <div class="game-question-meta">${total ? `Провинция ${Math.min(done + 1, total)} из ${total}` : "34 провинции Афганистана"}</div>
+          </div>
+          <div class="game-map-wrap">${mapMarkup}</div>
+          <div class="game-feedback ${gameFeedback.startsWith("Верно") ? "is-good" : gameFeedback ? "is-error" : ""}" aria-live="polite">${esc(gameFeedback || "Выбери область на карте")}</div>
+        </section>
+        <aside class="game-side">
+          <div class="game-stats"><div><strong>${done}</strong><span>найдено</span></div><div><strong>${gameMistakes}</strong><span>ошибок</span></div></div>
+          <div class="game-progress"><div class="progress-track"><div class="progress-fill" style="width:${total ? done / total * 100 : 0}%"></div></div><span>${total ? Math.round(done / total * 100) : 0}%</span></div>
+          <p class="game-instruction">Нажми на любую область карты. Если ошибёшься, можно попробовать ещё раз.</p>
+          <button class="btn btn-ghost game-reset" type="button" data-game-reset>${done === total && total ? "Сыграть ещё раз" : "Начать заново"}</button>
+          <div class="game-legend"><span></span> Провинция найдена</div>
+        </aside>
+      </div>
+    </div>`;
+  };
+  const loadGameMap = async () => {
+    if (gameMapFeatures || gameMapLoading) return;
+    gameMapLoading = true;
+    gameMapError = "";
+    try {
+      const url = "https://services5.arcgis.com/sjP4Ugu5s0dZWLjd/ArcGIS/rest/services/Admin1_Afghanistan/FeatureServer/1/query?where=1%3D1&outFields=PROV_34_NA&returnGeometry=true&outSR=4326&geometryPrecision=4&f=geojson";
+      const response = await fetch(url);
+      if (!response.ok) throw new Error("Сервер карты ответил с ошибкой.");
+      const data = await response.json();
+      const features = (data.features || []).filter((feature) => feature.geometry && gameFeatureName(feature).key);
+      if (features.length < 30) throw new Error("В данных карты не хватает провинций.");
+      gameMapFeatures = features;
+      gameStart();
+    } catch (error) {
+      gameMapError = "Проверь подключение к интернету и попробуй ещё раз.";
+    } finally {
+      gameMapLoading = false;
+      if ((location.hash.replace(/^#\/?/, "").split("/")[0] || "home") === "game") renderRoute({ scroll: false });
+    }
+  };
+  const handleGameProvince = (id) => {
+    if (!gameMapFeatures || !gameCurrent() || gameCompleted.size === gameOrder.length) return;
+    const current = gameFeatureName(gameCurrent());
+    if (id === current.key) {
+      gameCompleted.add(id);
+      gameFeedback = "Верно! Отличная работа.";
+      gameWrongId = "";
+      gameIndex += 1;
+      if (gameCompleted.size === gameOrder.length) gameFeedback = "Верно! Ты нашёл все 34 провинции. Отличная работа!";
+    } else {
+      gameMistakes += 1;
+      gameWrongId = id;
+      gameFeedback = "Пока не так — попробуй ещё раз.";
+      renderRoute({ scroll: false });
+      setTimeout(() => {
+        gameWrongId = "";
+        if ((location.hash.replace(/^#\/?/, "").split("/")[0] || "home") === "game") renderRoute({ scroll: false });
+      }, 650);
+      return;
+    }
+    renderRoute({ scroll: false });
+  };
+
   const renderRoute = (options = {}) => {
     const raw = location.hash.replace(/^#\/?/, "");
     const parts = raw ? raw.split("/").map((part) => decodeURIComponent(part)) : [];
@@ -2260,7 +2425,8 @@
     else if (section === "lesson") html = renderLesson(parts[1]);
     else if (section === "vocab") html = parts[1] ? renderPack(parts[1]) : renderVocab();
     else if (section === "trainer") html = renderTrainer(parts[1]);
-    else if (section === "game") html = "";\n    else if (section === "practice") html = renderPractice();
+    else if (section === "game") html = "";\n    else if (section === "game") html = renderGame();
+    else if (section === "practice") html = renderPractice();
     else if (section === "library") html = renderLibrary(parts[1]);
     else if (section === "textbook-1") html = renderTextbook(1);
     else if (section === "textbook-2" || section === "textbook") html = parts[1] && parts[1].startsWith("lesson-") ? renderTextbook2Collection(parts[1].slice(7)) : parts[1] && parts[1].startsWith("phrases-") ? renderPhrasePractice(parts[1].slice(8)) : renderTextbook(2);
@@ -2270,6 +2436,7 @@
     APP.innerHTML = html;
     hydrateIcons(APP);
     updateChrome(section, parts);
+    if (section === "game") loadGameMap();
     if (options.scroll !== false) window.scrollTo(0, 0);
     if (section === "alphabet" && parts[1] === "letter" && !options.skipModal) {
       openLetterModal(parts[2]);
@@ -2840,6 +3007,30 @@
   });
 
   document.addEventListener("click", onClick);
+  document.addEventListener("click", (event) => {
+    const province = event.target.closest("[data-game-province]");
+    if (province) {
+      handleGameProvince(province.dataset.gameProvince);
+      return;
+    }
+    if (event.target.closest("[data-game-reset]")) {
+      gameStart();
+      renderRoute({ scroll: false });
+      return;
+    }
+    if (event.target.closest("[data-game-retry]")) {
+      gameMapError = "";
+      loadGameMap();
+      renderRoute({ scroll: false });
+    }
+  });
+  document.addEventListener("keydown", (event) => {
+    const province = event.target.closest("[data-game-province]");
+    if (province && (event.key === "Enter" || event.key === " ")) {
+      event.preventDefault();
+      handleGameProvince(province.dataset.gameProvince);
+    }
+  });
 
   window.addEventListener("hashchange", () => {
     const section = (location.hash.replace(/^#\/?/, "").split("/")[0] || "home");

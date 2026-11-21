@@ -2049,3 +2049,40 @@ kbd {
 .about-contact-links a:hover { text-decoration: underline; }
 
 .about-contact-links .telegram-logo { width: 17px; height: 17px; flex: 0 0 17px; display: block; }
+
+
+/* Afghanistan province learning game */
+.game-page .page-head { margin-bottom: 22px; }
+.game-layout { display: grid; grid-template-columns: minmax(0, 1fr) 230px; gap: 18px; align-items: start; }
+.game-board, .game-side { background: var(--surface, #fff); border: 1px solid var(--line, #e7e1d7); border-radius: 18px; }
+.game-board { padding: 18px; min-width: 0; }
+.game-question { text-align: center; padding: 8px 10px 16px; }
+.game-question-label { color: var(--muted, #777); text-transform: uppercase; letter-spacing: .12em; font-size: .65rem; font-weight: 800; }
+.game-question-name { margin-top: 5px; color: var(--green); font: 700 clamp(1.6rem, 3vw, 2.3rem)/1.15 var(--serif); }
+.game-question-meta { margin-top: 6px; color: var(--muted, #777); font-size: .78rem; }
+.game-map-wrap { min-height: 340px; display: grid; place-items: center; border-radius: 14px; background: #f7f6f1; overflow: hidden; }
+.province-map-svg { display: block; width: 100%; max-height: 590px; height: auto; }
+.province-shape { fill: #e9e6dc; stroke: #788078; stroke-width: 1.25; stroke-linejoin: round; cursor: pointer; transition: fill .16s ease, filter .16s ease; outline: none; }
+.province-shape:hover, .province-shape:focus { fill: #d5e1d7; stroke: var(--green); stroke-width: 2.5; filter: drop-shadow(0 1px 2px rgba(0,0,0,.16)); }
+.province-shape.is-correct { fill: #37725c; stroke: #fff; stroke-width: 1.15; cursor: default; }
+.province-shape.is-correct:hover { fill: #37725c; }
+.province-shape.is-wrong { fill: #c97862; stroke: #8f3e2d; stroke-width: 2.2; }
+.game-map-message { min-height: 320px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 24px; text-align: center; color: var(--muted); }
+.game-map-message strong { color: var(--green); }
+.game-map-message p { font-size: .85rem; }
+.game-feedback { min-height: 28px; padding: 10px 6px 0; text-align: center; color: var(--muted); font-size: .82rem; font-weight: 650; }
+.game-feedback.is-good { color: var(--green-2); }
+.game-feedback.is-error { color: #a34f3e; }
+.game-side { padding: 18px; }
+.game-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.game-stats > div { display: flex; flex-direction: column; gap: 3px; padding: 13px; background: var(--green-soft); border-radius: 12px; }
+.game-stats strong { color: var(--green); font: 700 1.6rem/1 var(--serif); }
+.game-stats span, .game-progress span { color: var(--muted); font-size: .7rem; }
+.game-progress { display: flex; align-items: center; gap: 10px; margin-top: 18px; }
+.game-progress .progress-track { flex: 1; }
+.game-instruction { margin: 18px 0; color: var(--muted); font-size: .82rem; line-height: 1.55; }
+.game-reset { width: 100%; justify-content: center; }
+.game-legend { display: flex; align-items: center; gap: 8px; margin-top: 18px; color: var(--muted); font-size: .72rem; }
+.game-legend span { width: 12px; height: 12px; border-radius: 3px; background: #37725c; }
+@media (max-width: 850px) { .game-layout { grid-template-columns: 1fr; } .game-side { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 12px 18px; align-items: center; } .game-stats { grid-column: 1 / -1; } .game-progress, .game-instruction, .game-legend { margin: 0; } .game-reset { grid-column: 2; grid-row: 2 / span 2; } }
+@media (max-width: 520px) { .game-board { padding: 10px; } .game-map-wrap { min-height: 260px; } .game-side { display: flex; flex-direction: column; align-items: stretch; } .game-stats { width: 100%; } .game-progress { width: 100%; } .game-reset { width: 100%; } .game-legend { align-self: flex-start; } }
