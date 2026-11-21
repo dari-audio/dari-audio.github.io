@@ -486,13 +486,15 @@
 
   const openLocalPdf = (path, title, subtitle = "", page = 1) => {
     const pageNumber = Math.max(1, Number(page) || 1);
-    const src = `${path}#${pageNumber > 1 ? `page=${pageNumber}&` : ""}view=FitH`;
+    // Encode spaces and non-ASCII characters in archive filenames before using them as URLs.
+    const fileUrl = encodeURI(path).replace(/#/g, "%23");
+    const src = `${fileUrl}#${pageNumber > 1 ? `page=${pageNumber}&` : ""}view=FitH`;
     openModal(`
       <div class="modal-head"><h2>${esc(title)}</h2>${subtitle ? `<p>${esc(subtitle)}</p>` : ""}</div>
-      <div class="pdf-frame-wrap"><iframe src="${esc(src)}" title="${esc(title)}" loading="lazy"></iframe></div>
+      <div class="pdf-frame-wrap"><iframe src="${esc(src)}" title="${esc(title)}" loading="eager"></iframe></div>
       <div class="modal-actions">
         <a class="btn btn-ghost btn-sm" href="${esc(src)}" target="_blank" rel="noopener">${svg("external")} Открыть в новой вкладке</a>
-        <a class="btn btn-soft btn-sm" href="${esc(path)}" download>${svg("download")} Скачать PDF</a>
+        <a class="btn btn-soft btn-sm" href="${esc(fileUrl)}" download>${svg("download")} Скачать PDF</a>
       </div>`, { wide: true, label: title });
   };
   const openDrivePdf = (id, title, subtitle = "", page = 1) => {
