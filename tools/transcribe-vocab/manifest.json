@@ -1,0 +1,4191 @@
+{
+  "source": "js/data.js / vocab.trainers",
+  "generated_utc": "2026-11-21T19:42:19.966Z",
+  "total": 523,
+  "items": [
+    {
+      "category_id": "greetings",
+      "category": "Приветствия",
+      "order": 1,
+      "filename": "03Greet01.mp3",
+      "drive_id": "1anPXKqFUGObOCm3izPLYoOM16QWf4cw7",
+      "site_path": "assets/audio/vocab/greetings/03greet01.mp3"
+    },
+    {
+      "category_id": "greetings",
+      "category": "Приветствия",
+      "order": 2,
+      "filename": "03Greet02.mp3",
+      "drive_id": "1RzMfB8ozGc_7WY24nsVNrvwrQM85VFGx",
+      "site_path": "assets/audio/vocab/greetings/03greet02.mp3"
+    },
+    {
+      "category_id": "greetings",
+      "category": "Приветствия",
+      "order": 3,
+      "filename": "03Greet03.mp3",
+      "drive_id": "1cvfCpDMOd6Z__DLN3WyYb63UjLok0nFo",
+      "site_path": "assets/audio/vocab/greetings/03greet03.mp3"
+    },
+    {
+      "category_id": "greetings",
+      "category": "Приветствия",
+      "order": 4,
+      "filename": "03Greet04.mp3",
+      "drive_id": "17ZflqH70-JU2V0oWxk5slxJ0JKBzaNSG",
+      "site_path": "assets/audio/vocab/greetings/03greet04.mp3"
+    },
+    {
+      "category_id": "greetings",
+      "category": "Приветствия",
+      "order": 5,
+      "filename": "03Greet05.mp3",
+      "drive_id": "1gjP7XBXRbpjVKeMkl06LOGMIXTzg0gsw",
+      "site_path": "assets/audio/vocab/greetings/03greet05.mp3"
+    },
+    {
+      "category_id": "greetings",
+      "category": "Приветствия",
+      "order": 6,
+      "filename": "03Greet06.mp3",
+      "drive_id": "17uae_JU56mmK-ILOd09kob_oCAe4IxNX",
+      "site_path": "assets/audio/vocab/greetings/03greet06.mp3"
+    },
+    {
+      "category_id": "greetings",
+      "category": "Приветствия",
+      "order": 7,
+      "filename": "03Greet07.mp3",
+      "drive_id": "1PafR0b1iiSuCWrYupkl6Z-J50AqZpyYS",
+      "site_path": "assets/audio/vocab/greetings/03greet07.mp3"
+    },
+    {
+      "category_id": "greetings",
+      "category": "Приветствия",
+      "order": 8,
+      "filename": "03Greet08.mp3",
+      "drive_id": "1xRtf0UlX9uIQBN-aSzePHBltFe75egEp",
+      "site_path": "assets/audio/vocab/greetings/03greet08.mp3"
+    },
+    {
+      "category_id": "greetings",
+      "category": "Приветствия",
+      "order": 9,
+      "filename": "03Greet09.mp3",
+      "drive_id": "1H576CkyeZ7fcNb7M1T7nQ44f0ZavqZ-M",
+      "site_path": "assets/audio/vocab/greetings/03greet09.mp3"
+    },
+    {
+      "category_id": "greetings",
+      "category": "Приветствия",
+      "order": 10,
+      "filename": "03Greet10.mp3",
+      "drive_id": "1CigHouD1Fxfm30UvaIDjYEDXIHWF2XSJ",
+      "site_path": "assets/audio/vocab/greetings/03greet10.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 1,
+      "filename": "01Comm01.mp3",
+      "drive_id": "1pSd7R4bWPkAsy2oBDEB9w2FlELpz0ynj",
+      "site_path": "assets/audio/vocab/commands/01comm01.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 2,
+      "filename": "01Comm02.mp3",
+      "drive_id": "1FceUDzyJt1qBblfr3KlMNgoiCB2Xv74i",
+      "site_path": "assets/audio/vocab/commands/01comm02.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 3,
+      "filename": "01Comm03.mp3",
+      "drive_id": "1GB3Z4wfg2IVwLWC8shp4ZddIa2aDtT4d",
+      "site_path": "assets/audio/vocab/commands/01comm03.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 4,
+      "filename": "01Comm04.mp3",
+      "drive_id": "13MRbvFwEA6eTlglM502W5qdJ-zE-pq8m",
+      "site_path": "assets/audio/vocab/commands/01comm04.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 5,
+      "filename": "01Comm05.mp3",
+      "drive_id": "1HK76wAnhLqzn8ZCVwbCrvzHlnMWtHctP",
+      "site_path": "assets/audio/vocab/commands/01comm05.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 6,
+      "filename": "01Comm06.mp3",
+      "drive_id": "1eQSDN_8TvJkGgbTaP4_T6Wx5Sp4KSNZ2",
+      "site_path": "assets/audio/vocab/commands/01comm06.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 7,
+      "filename": "01Comm07.mp3",
+      "drive_id": "1bkS96i6dAwxu1vh8KxMr5OYVW_rEePYQ",
+      "site_path": "assets/audio/vocab/commands/01comm07.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 8,
+      "filename": "01Comm08.mp3",
+      "drive_id": "13-kfU_3MG-cEWsMIbNjREK4emI1qzMAA",
+      "site_path": "assets/audio/vocab/commands/01comm08.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 9,
+      "filename": "01Comm09.mp3",
+      "drive_id": "14VItK780WJNi6iVgekBLLTuRtq16QYJT",
+      "site_path": "assets/audio/vocab/commands/01comm09.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 10,
+      "filename": "01Comm10.mp3",
+      "drive_id": "1xRPLCk8fEskysjLAwbq7TwaHQ76Zr17X",
+      "site_path": "assets/audio/vocab/commands/01comm10.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 11,
+      "filename": "01Comm11.mp3",
+      "drive_id": "14m3y28e6yDKZqdarPkqsRYTkD3Ll0KqJ",
+      "site_path": "assets/audio/vocab/commands/01comm11.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 12,
+      "filename": "01Comm12.mp3",
+      "drive_id": "1LqsutO-WNdW4X18H0YWlZy4LsOeY-9vB",
+      "site_path": "assets/audio/vocab/commands/01comm12.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 13,
+      "filename": "01Comm13.mp3",
+      "drive_id": "1Oi73goeTcsWg4wQKnaDKhQu_TK1BH2-x",
+      "site_path": "assets/audio/vocab/commands/01comm13.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 14,
+      "filename": "01Comm14.mp3",
+      "drive_id": "1AGRHEsF73jyJrjoRKzxR8nNQPFJ9cYtu",
+      "site_path": "assets/audio/vocab/commands/01comm14.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 15,
+      "filename": "01Comm15.mp3",
+      "drive_id": "1U3DZPfgmtWfjS3EyYncHVe8c_rS1mZhl",
+      "site_path": "assets/audio/vocab/commands/01comm15.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 16,
+      "filename": "01Comm16.mp3",
+      "drive_id": "1au5w6vl-jUjoGRbLliwQNWJ072zlTzMe",
+      "site_path": "assets/audio/vocab/commands/01comm16.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 17,
+      "filename": "01Comm17.mp3",
+      "drive_id": "1LI0aClo-6EooNgqL1NefamPhbH8B8UGJ",
+      "site_path": "assets/audio/vocab/commands/01comm17.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 18,
+      "filename": "01Comm18.mp3",
+      "drive_id": "1-tuUZEmPAUk9B_ATEeE18tBpznTM8y2x",
+      "site_path": "assets/audio/vocab/commands/01comm18.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 19,
+      "filename": "01Comm19.mp3",
+      "drive_id": "1-RATZbAGxZMHRsveSSVGqWB2ktPNwajn",
+      "site_path": "assets/audio/vocab/commands/01comm19.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 20,
+      "filename": "01Comm20.mp3",
+      "drive_id": "1vAiqiQ8kt8ubM9eET407oaohQ-wKGcT6",
+      "site_path": "assets/audio/vocab/commands/01comm20.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 21,
+      "filename": "01Comm21.mp3",
+      "drive_id": "11Y9O_tmFt3GmwUFO-mBJoUBXURYcK699",
+      "site_path": "assets/audio/vocab/commands/01comm21.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 22,
+      "filename": "01Comm22.mp3",
+      "drive_id": "1BSeylAw29UFCpU5-sGEiPMUWC4vCCWJK",
+      "site_path": "assets/audio/vocab/commands/01comm22.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 23,
+      "filename": "01Comm23.mp3",
+      "drive_id": "1mNlD2YFmqeoumHms6Pp9eI7DpkRGnj36",
+      "site_path": "assets/audio/vocab/commands/01comm23.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 24,
+      "filename": "01Comm24.mp3",
+      "drive_id": "1zeI8gTHR1apB3h9bkGryC46J3NE6Grwy",
+      "site_path": "assets/audio/vocab/commands/01comm24.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 25,
+      "filename": "01Comm25.mp3",
+      "drive_id": "1ziw6s9LbNzcYr0ZcXXbJRnP4HkiO93j8",
+      "site_path": "assets/audio/vocab/commands/01comm25.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 26,
+      "filename": "01Comm26.mp3",
+      "drive_id": "1GUpwypOAmGtFSIf_U7uEZ5RfziZ7sQaO",
+      "site_path": "assets/audio/vocab/commands/01comm26.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 27,
+      "filename": "01Comm27.mp3",
+      "drive_id": "1Fl1E1dSS-dhyMiowmv2Vtcl6naVpuG9k",
+      "site_path": "assets/audio/vocab/commands/01comm27.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 28,
+      "filename": "01Comm28.mp3",
+      "drive_id": "1BPg7sJID3PyMt2PGdc8mq_khkl-QG_10",
+      "site_path": "assets/audio/vocab/commands/01comm28.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 29,
+      "filename": "01Comm29.mp3",
+      "drive_id": "1tt87lpAUGKnouX3gaDy5bd6ERsDjt37_",
+      "site_path": "assets/audio/vocab/commands/01comm29.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 30,
+      "filename": "01Comm30.mp3",
+      "drive_id": "1ZqbzSkXxTKIhNd1FoH07RUc9Q3QbIOUM",
+      "site_path": "assets/audio/vocab/commands/01comm30.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 31,
+      "filename": "01Comm31.mp3",
+      "drive_id": "1qPg3I9hMSaXBe7Z-HRgPLkSxXlq5UQpy",
+      "site_path": "assets/audio/vocab/commands/01comm31.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 32,
+      "filename": "01Comm32.mp3",
+      "drive_id": "1Qt7v11sPRi60ybo0au1ldHhHk92msPRq",
+      "site_path": "assets/audio/vocab/commands/01comm32.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 33,
+      "filename": "01Comm33.mp3",
+      "drive_id": "17YnjWCKKAXtfjb-YkCdgGDq7TfGXVLis",
+      "site_path": "assets/audio/vocab/commands/01comm33.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 34,
+      "filename": "01Comm34.mp3",
+      "drive_id": "1kujmeCwbB5WBgUd4QVQM8XA9GYNRFZ-X",
+      "site_path": "assets/audio/vocab/commands/01comm34.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 35,
+      "filename": "01Comm35.mp3",
+      "drive_id": "1H7MpeRQgt3rMJngXvwoFq5ghX1-UNaEg",
+      "site_path": "assets/audio/vocab/commands/01comm35.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 36,
+      "filename": "01Comm36.mp3",
+      "drive_id": "1mMXFXaUS21DFCBdU7cOpp1RmhpW2FS7H",
+      "site_path": "assets/audio/vocab/commands/01comm36.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 37,
+      "filename": "01Comm37.mp3",
+      "drive_id": "18lgzNOvRGMoaA0T3dKf2HtH01dmfHOB8",
+      "site_path": "assets/audio/vocab/commands/01comm37.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 38,
+      "filename": "01Comm38.mp3",
+      "drive_id": "1K0Ahy7_DTlU_b6jvl0TPC7b3VrXcwU1I",
+      "site_path": "assets/audio/vocab/commands/01comm38.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 39,
+      "filename": "01Comm39.mp3",
+      "drive_id": "1vEngZyZc1EZ6DCYvtdli_ku44coQTr0X",
+      "site_path": "assets/audio/vocab/commands/01comm39.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 40,
+      "filename": "01Comm40.mp3",
+      "drive_id": "1af_zS_EPIFgneKhaDXlUZpJ4Oguqz-I9",
+      "site_path": "assets/audio/vocab/commands/01comm40.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 41,
+      "filename": "01Comm41.mp3",
+      "drive_id": "1oEE-ENZV6cU2aTw8zluJfN4XzfRnIyFd",
+      "site_path": "assets/audio/vocab/commands/01comm41.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 42,
+      "filename": "01Comm42.mp3",
+      "drive_id": "13jyMm97LcTS0xgEpuer8wvrjE5sI_I9W",
+      "site_path": "assets/audio/vocab/commands/01comm42.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 43,
+      "filename": "01Comm43.mp3",
+      "drive_id": "1jpLzVzLEdLGmH0BQMVHF0N84H8s9BwXN",
+      "site_path": "assets/audio/vocab/commands/01comm43.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 44,
+      "filename": "01Comm44.mp3",
+      "drive_id": "1ohBZoP1yTnHfGg2Xuu5fnXObYSoI7y1a",
+      "site_path": "assets/audio/vocab/commands/01comm44.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 45,
+      "filename": "01Comm45.mp3",
+      "drive_id": "1w24ZxXZbhOQ6SCOV0cE2NzxcYMm5k4IV",
+      "site_path": "assets/audio/vocab/commands/01comm45.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 46,
+      "filename": "01Comm46.mp3",
+      "drive_id": "121jQOllu_LrWc5YK3zENRoPG0l47Airi",
+      "site_path": "assets/audio/vocab/commands/01comm46.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 47,
+      "filename": "01Comm47.mp3",
+      "drive_id": "1fN5RGuopzCEAKYOHS3BPu98PnGS5jivM",
+      "site_path": "assets/audio/vocab/commands/01comm47.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 48,
+      "filename": "01Comm48.mp3",
+      "drive_id": "1btRVJU1UGzXHkBUqmm-p0rwrrqS47t_k",
+      "site_path": "assets/audio/vocab/commands/01comm48.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 49,
+      "filename": "01Comm49.mp3",
+      "drive_id": "1VCYixdsaT-8KE94LOHvRB2a7_wRKJMoa",
+      "site_path": "assets/audio/vocab/commands/01comm49.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 50,
+      "filename": "01Comm50.mp3",
+      "drive_id": "1ZhZtzcl8AapwkUM1j0m0qogIJBVfRUUh",
+      "site_path": "assets/audio/vocab/commands/01comm50.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 51,
+      "filename": "01Comm51.mp3",
+      "drive_id": "16072CN47UZWgEPfTvzIdQErB0yeDPSWL",
+      "site_path": "assets/audio/vocab/commands/01comm51.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 52,
+      "filename": "01Comm52.mp3",
+      "drive_id": "1sg8mNPPZSszWRxnvjgiKynePuZ4RaJB4",
+      "site_path": "assets/audio/vocab/commands/01comm52.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 53,
+      "filename": "01Comm53.mp3",
+      "drive_id": "1NLOUh99zK_vYKTqU9N0RMM4WMX7V0UEf",
+      "site_path": "assets/audio/vocab/commands/01comm53.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 54,
+      "filename": "01Comm54.mp3",
+      "drive_id": "13VJXV41Ps5ZtymBPjSzsR91GlCwvENDD",
+      "site_path": "assets/audio/vocab/commands/01comm54.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 55,
+      "filename": "01Comm55.mp3",
+      "drive_id": "1xVuOnBC5r3tx7RcMvaT_c756G_XZ_6Mz",
+      "site_path": "assets/audio/vocab/commands/01comm55.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 56,
+      "filename": "01Comm56.mp3",
+      "drive_id": "11ZLM3r0QjET-nSI6pZYYfuhhI_Sr04KU",
+      "site_path": "assets/audio/vocab/commands/01comm56.mp3"
+    },
+    {
+      "category_id": "commands",
+      "category": "Команды",
+      "order": 57,
+      "filename": "01Comm57.mp3",
+      "drive_id": "1McbpNjCM7WWZEjRpJYBL7HYmodtWZwwa",
+      "site_path": "assets/audio/vocab/commands/01comm57.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 1,
+      "filename": "13Med_Gen01.mp3",
+      "drive_id": "1k__8expSflacqf_40MHvUvrUQJWxW8B1",
+      "site_path": "assets/audio/vocab/medical/13med_gen01.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 2,
+      "filename": "13Med_Gen02.mp3",
+      "drive_id": "1pTg9408_ynfJoP-mO6iHp20JVv7fJ5q9",
+      "site_path": "assets/audio/vocab/medical/13med_gen02.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 3,
+      "filename": "13Med_Gen03.mp3",
+      "drive_id": "1gRCiI6Vw7V_Mfihd7jYyka3-kVLLQ0_v",
+      "site_path": "assets/audio/vocab/medical/13med_gen03.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 4,
+      "filename": "13Med_Gen04.mp3",
+      "drive_id": "1X2Qevws9tJ6E3bTSG6SyXTvCC6JG-nZx",
+      "site_path": "assets/audio/vocab/medical/13med_gen04.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 5,
+      "filename": "13Med_Gen05.mp3",
+      "drive_id": "1PWUmgBemLZbIwBQ2ftU6wJKFm6Af7zX9",
+      "site_path": "assets/audio/vocab/medical/13med_gen05.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 6,
+      "filename": "13Med_Gen06.mp3",
+      "drive_id": "1otWFpWDuvqFlIbTkxqi4b3eHF_zN4CHc",
+      "site_path": "assets/audio/vocab/medical/13med_gen06.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 7,
+      "filename": "13Med_Gen07.mp3",
+      "drive_id": "1TKmxwpJBtkpYz0wIsAFpYftV5a_l8lkA",
+      "site_path": "assets/audio/vocab/medical/13med_gen07.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 8,
+      "filename": "13Med_Gen08.mp3",
+      "drive_id": "1JduiLW6mJ_HB6TGZcYJeOnPKLxN8r487",
+      "site_path": "assets/audio/vocab/medical/13med_gen08.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 9,
+      "filename": "13Med_Gen09.mp3",
+      "drive_id": "1fgC51LryGAbzKitVKYm0xxPXT-7CEL1F",
+      "site_path": "assets/audio/vocab/medical/13med_gen09.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 10,
+      "filename": "13Med_Gen10.mp3",
+      "drive_id": "1v7gKw1wsSgucBIkAsjBug3UI9OGMAa_q",
+      "site_path": "assets/audio/vocab/medical/13med_gen10.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 11,
+      "filename": "13Med_Gen11.mp3",
+      "drive_id": "1TFi7N75NvhXfoBXJZ-Dl-pr0Xf96QN1z",
+      "site_path": "assets/audio/vocab/medical/13med_gen11.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 12,
+      "filename": "13Med_Gen12.mp3",
+      "drive_id": "1oUjOxgfCb_RpA6UUBg5GyrxjiMXlljc-",
+      "site_path": "assets/audio/vocab/medical/13med_gen12.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 13,
+      "filename": "13Med_Gen13.mp3",
+      "drive_id": "1ZKTjxFclOkTduGVPQt0U7LzzDaRJ2D4T",
+      "site_path": "assets/audio/vocab/medical/13med_gen13.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 14,
+      "filename": "13Med_Gen14.mp3",
+      "drive_id": "16J31FiUs4QvFAYT_qJ4ufooSc8rH2kJl",
+      "site_path": "assets/audio/vocab/medical/13med_gen14.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 15,
+      "filename": "13Med_Gen15.mp3",
+      "drive_id": "14TcZYPgQbh3v_7iNnBMMomrwsV2J9uVy",
+      "site_path": "assets/audio/vocab/medical/13med_gen15.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 16,
+      "filename": "13Med_Gen16.mp3",
+      "drive_id": "1lfr_O8EnsKj9sO_NxAFufxoem0Or177y",
+      "site_path": "assets/audio/vocab/medical/13med_gen16.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 17,
+      "filename": "13Med_Gen17.mp3",
+      "drive_id": "1aRt4D-9fceWHk6qgV5ioaF0hDRsa2-4u",
+      "site_path": "assets/audio/vocab/medical/13med_gen17.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 18,
+      "filename": "13Med_Gen18.mp3",
+      "drive_id": "1SA88rDE2HRAO9DSG93GBvVVDIAACM5mK",
+      "site_path": "assets/audio/vocab/medical/13med_gen18.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 19,
+      "filename": "13Med_Gen19.mp3",
+      "drive_id": "1ghUl5EAiUHZ3Sh7lybUZomndsAo_vEx5",
+      "site_path": "assets/audio/vocab/medical/13med_gen19.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 20,
+      "filename": "13Med_Gen20.mp3",
+      "drive_id": "1eyfG5pCTnnx8Gf4ghUQWU5MZ45bpKVSq",
+      "site_path": "assets/audio/vocab/medical/13med_gen20.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 21,
+      "filename": "13Med_Gen21.mp3",
+      "drive_id": "1SpbL4_tQN1WqMEf5IFadaIATlaTyvd0K",
+      "site_path": "assets/audio/vocab/medical/13med_gen21.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 22,
+      "filename": "13Med_Gen22.mp3",
+      "drive_id": "1RLfTiNNaQ3aUIcYcd3N7Q5dnmYG9T3bZ",
+      "site_path": "assets/audio/vocab/medical/13med_gen22.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 23,
+      "filename": "13Med_Gen23.mp3",
+      "drive_id": "1jM6_TxHgGFJUqVQrTtW-Lgw-SXT2-2xV",
+      "site_path": "assets/audio/vocab/medical/13med_gen23.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 24,
+      "filename": "13Med_Gen24.mp3",
+      "drive_id": "1Zee1VK4DL3vW6TQvR0SYPZqxarM3u-uU",
+      "site_path": "assets/audio/vocab/medical/13med_gen24.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 25,
+      "filename": "13Med_Gen25.mp3",
+      "drive_id": "1a5CLzjWojHAotamtbRZaker-401sQmi5",
+      "site_path": "assets/audio/vocab/medical/13med_gen25.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 26,
+      "filename": "13Med_Gen26.mp3",
+      "drive_id": "1MS6PnXc2XL_o8Z6jRN6vuNMOGoqfQ8au",
+      "site_path": "assets/audio/vocab/medical/13med_gen26.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 27,
+      "filename": "13Med_Gen27.mp3",
+      "drive_id": "155-HyuohZdmMEOBkT6KydzOHZUYuy-s_",
+      "site_path": "assets/audio/vocab/medical/13med_gen27.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 28,
+      "filename": "13Med_Gen28.mp3",
+      "drive_id": "14GH3oZUidNXcZTJww4dKlDtvm26_L8uA",
+      "site_path": "assets/audio/vocab/medical/13med_gen28.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 29,
+      "filename": "13Med_Gen29.mp3",
+      "drive_id": "1LoNvGG8exD0E2LkMx658b4eo9bv9QudY",
+      "site_path": "assets/audio/vocab/medical/13med_gen29.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 30,
+      "filename": "13Med_Gen30.mp3",
+      "drive_id": "1WgFvO-gqhzAjKplkoIyUEK3RG_2JdsIP",
+      "site_path": "assets/audio/vocab/medical/13med_gen30.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 31,
+      "filename": "13Med_Gen31.mp3",
+      "drive_id": "1c2AV4XiKVao6iFVR9lwzHuHX-EYFGZ74",
+      "site_path": "assets/audio/vocab/medical/13med_gen31.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 32,
+      "filename": "13Med_Gen32.mp3",
+      "drive_id": "1aVw-RqI4ZTgWrrhJ9NKYJpmqViBsHscR",
+      "site_path": "assets/audio/vocab/medical/13med_gen32.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 33,
+      "filename": "13Med_Gen33.mp3",
+      "drive_id": "1B3gA8yJDhqbklgwmiBYfXVE0EPKLiaSv",
+      "site_path": "assets/audio/vocab/medical/13med_gen33.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 34,
+      "filename": "14Med_Parts01.mp3",
+      "drive_id": "16CS1i7US_1Y0CCVV3rtUEVV_eSiCm0tu",
+      "site_path": "assets/audio/vocab/medical/14med_parts01.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 35,
+      "filename": "14Med_Parts02.mp3",
+      "drive_id": "1GAFz9T67K-o11_mePp5T8KhihuamQ9RT",
+      "site_path": "assets/audio/vocab/medical/14med_parts02.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 36,
+      "filename": "14Med_Parts03.mp3",
+      "drive_id": "1v8VIUJdeBlgSyT9Wuh9cfjgBws-3f_-A",
+      "site_path": "assets/audio/vocab/medical/14med_parts03.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 37,
+      "filename": "14Med_Parts04.mp3",
+      "drive_id": "1f3MNNEtY2mLnVSZb2q_ONr4EW5_qVQgl",
+      "site_path": "assets/audio/vocab/medical/14med_parts04.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 38,
+      "filename": "14Med_Parts05.mp3",
+      "drive_id": "1jMJyeBW8eHQMTAQmkNiHwkEQ_wmzJxgw",
+      "site_path": "assets/audio/vocab/medical/14med_parts05.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 39,
+      "filename": "14Med_Parts06.mp3",
+      "drive_id": "1VMS2i17WO0M8LxdK5qKtrp01MKTFxD8c",
+      "site_path": "assets/audio/vocab/medical/14med_parts06.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 40,
+      "filename": "14Med_Parts07.mp3",
+      "drive_id": "1vEstZndL1KBsxoSBcTXCwC0EgeaXcBAP",
+      "site_path": "assets/audio/vocab/medical/14med_parts07.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 41,
+      "filename": "14Med_Parts08.mp3",
+      "drive_id": "1hLYUgyIjv7Bb-kVRHxOoHWoBmmsCObS0",
+      "site_path": "assets/audio/vocab/medical/14med_parts08.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 42,
+      "filename": "14Med_Parts09.mp3",
+      "drive_id": "10pQ4UZ1828yk3M4vlKHhG1KTmPRBxgYe",
+      "site_path": "assets/audio/vocab/medical/14med_parts09.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 43,
+      "filename": "14Med_Parts10.mp3",
+      "drive_id": "1mgRJy30OHhxK309dI5fdh3CMLgmU0S0U",
+      "site_path": "assets/audio/vocab/medical/14med_parts10.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 44,
+      "filename": "14Med_Parts11.mp3",
+      "drive_id": "1wAH9bycDZmCWNy114PMULaPqcjFxUA21",
+      "site_path": "assets/audio/vocab/medical/14med_parts11.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 45,
+      "filename": "14Med_Parts12.mp3",
+      "drive_id": "15Dt4e_K83-VQQp3ChfzhKdmgHEatCxGS",
+      "site_path": "assets/audio/vocab/medical/14med_parts12.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 46,
+      "filename": "14Med_Parts13.mp3",
+      "drive_id": "1eRIyAYpRzfd8YGKvS86DWBpnn6IWPxFt",
+      "site_path": "assets/audio/vocab/medical/14med_parts13.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 47,
+      "filename": "14Med_Parts14.mp3",
+      "drive_id": "18Cza6SN1uufYZR6kCgMYGuUsZZUM6EOS",
+      "site_path": "assets/audio/vocab/medical/14med_parts14.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 48,
+      "filename": "14Med_Parts15.mp3",
+      "drive_id": "1Ljybqzqglb4V-PwNWjpQGCX4OzhlwDDB",
+      "site_path": "assets/audio/vocab/medical/14med_parts15.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 49,
+      "filename": "14Med_Parts16.mp3",
+      "drive_id": "17jQJ3fgAjCGzK6ASWh7TIJDCHo2PDTW4",
+      "site_path": "assets/audio/vocab/medical/14med_parts16.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 50,
+      "filename": "14Med_Parts17.mp3",
+      "drive_id": "1v0iew8k0ZJUe7lkIs8b9RkLpWhN7l8V0",
+      "site_path": "assets/audio/vocab/medical/14med_parts17.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 51,
+      "filename": "14Med_Parts18.mp3",
+      "drive_id": "1dCwpFyYAID869TovWObJ1sFL3sufKA-v",
+      "site_path": "assets/audio/vocab/medical/14med_parts18.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 52,
+      "filename": "14Med_Parts19.mp3",
+      "drive_id": "1uEeFckU8Rn8p3H7caJS4qFlZVq0lcsc5",
+      "site_path": "assets/audio/vocab/medical/14med_parts19.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 53,
+      "filename": "14Med_Parts20.mp3",
+      "drive_id": "1ossjta-6TbeSoQsuf8tndsrr2gpl0ysf",
+      "site_path": "assets/audio/vocab/medical/14med_parts20.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 54,
+      "filename": "14Med_Parts21.mp3",
+      "drive_id": "1kbirkMxQLB2wweizFNN8u9wsVLd0SXWy",
+      "site_path": "assets/audio/vocab/medical/14med_parts21.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 55,
+      "filename": "14Med_Parts22.mp3",
+      "drive_id": "1JqR_J9a38Wx5-1KfXKy1ugORT7zSlK_i",
+      "site_path": "assets/audio/vocab/medical/14med_parts22.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 56,
+      "filename": "14Med_Parts23.mp3",
+      "drive_id": "1hUhISqC_aNLaPd-oxF3FqnpcS5fjyaAq",
+      "site_path": "assets/audio/vocab/medical/14med_parts23.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 57,
+      "filename": "14Med_Parts24.mp3",
+      "drive_id": "1E6kPO73cF4bG5qP7Md-k5msuF1FS8BP5",
+      "site_path": "assets/audio/vocab/medical/14med_parts24.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 58,
+      "filename": "14Med_Parts25.mp3",
+      "drive_id": "1mj827SVTtRLz3vLQW4ig4QJFbefDVJT6",
+      "site_path": "assets/audio/vocab/medical/14med_parts25.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 59,
+      "filename": "14Med_Parts26.mp3",
+      "drive_id": "1Act1Cez8kMAcf6DG9ayvEYS0NKmjBYN0",
+      "site_path": "assets/audio/vocab/medical/14med_parts26.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 60,
+      "filename": "14Med_Parts27.mp3",
+      "drive_id": "1KK3jHd898cisuKk78OXhc80D07nVkf0S",
+      "site_path": "assets/audio/vocab/medical/14med_parts27.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 61,
+      "filename": "14Med_Parts28.mp3",
+      "drive_id": "1EDJ6zFZLKey3K-otYy2AejyV69vG0jM4",
+      "site_path": "assets/audio/vocab/medical/14med_parts28.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 62,
+      "filename": "14Med_Parts29.mp3",
+      "drive_id": "1Ak79oIIGTbg_VLouuWVyo_PiQqktpjnG",
+      "site_path": "assets/audio/vocab/medical/14med_parts29.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 63,
+      "filename": "14Med_Parts30.mp3",
+      "drive_id": "1LLdNgvuHuwabbZl3BVU_ufYpnf8T1Su4",
+      "site_path": "assets/audio/vocab/medical/14med_parts30.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 64,
+      "filename": "14Med_Parts31.mp3",
+      "drive_id": "1-1bohCTdceLql8kSfBQL3veZxYh2piIE",
+      "site_path": "assets/audio/vocab/medical/14med_parts31.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 65,
+      "filename": "14Med_Parts32.mp3",
+      "drive_id": "1xDZ4u4b0V6M0y2UkOTzMT_7nRdVCLZwB",
+      "site_path": "assets/audio/vocab/medical/14med_parts32.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 66,
+      "filename": "14Med_Parts33.mp3",
+      "drive_id": "1csQRuWyUx2Fz3kXMWsm-o3z26wS6ulnw",
+      "site_path": "assets/audio/vocab/medical/14med_parts33.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 67,
+      "filename": "14Med_Parts34.mp3",
+      "drive_id": "1RjpjPVaHVZybrd624JqAumQHQXuFd5ym",
+      "site_path": "assets/audio/vocab/medical/14med_parts34.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 68,
+      "filename": "14Med_Parts35.mp3",
+      "drive_id": "1aOcinIaiiDiBSFL0YZpJ_x4-pbc2tSCF",
+      "site_path": "assets/audio/vocab/medical/14med_parts35.mp3"
+    },
+    {
+      "category_id": "medical",
+      "category": "Медицина",
+      "order": 69,
+      "filename": "14Med_Parts36.mp3",
+      "drive_id": "1Wzu8XDYpPFEEXW9pdZNcgmnhWIrhhaqj",
+      "site_path": "assets/audio/vocab/medical/14med_parts36.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 1,
+      "filename": "07Directions01.mp3",
+      "drive_id": "1_otFE7G8vBZP8Nwjnk-zxOH1bpN1irhY",
+      "site_path": "assets/audio/vocab/directions/07directions01.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 2,
+      "filename": "07Directions02.mp3",
+      "drive_id": "1rlXZ4zN5ZQwtfI6v8MVOJha_ux_gkKBj",
+      "site_path": "assets/audio/vocab/directions/07directions02.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 3,
+      "filename": "07Directions03.mp3",
+      "drive_id": "1xUmR-ibci65VnCM9FbOflECHVd_d211l",
+      "site_path": "assets/audio/vocab/directions/07directions03.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 4,
+      "filename": "07Directions04.mp3",
+      "drive_id": "1CJCfn8-LQI5GOoYQQ39xOP5ydV2t0caZ",
+      "site_path": "assets/audio/vocab/directions/07directions04.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 5,
+      "filename": "07Directions05.mp3",
+      "drive_id": "1qBuKqaESl91MQ-zA2a-y2SNwn2UqN4S_",
+      "site_path": "assets/audio/vocab/directions/07directions05.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 6,
+      "filename": "07Directions06.mp3",
+      "drive_id": "1HgB2ECSfZrNc33p8vdnOM_jWZmCLyL40",
+      "site_path": "assets/audio/vocab/directions/07directions06.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 7,
+      "filename": "07Directions07.mp3",
+      "drive_id": "1NgIk8I0BpEpHQfmO0yfndfzDWaJEmuiu",
+      "site_path": "assets/audio/vocab/directions/07directions07.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 8,
+      "filename": "07Directions08.mp3",
+      "drive_id": "1-K2KF7dK4F8JmndEZBVIcKqRItNr4P0g",
+      "site_path": "assets/audio/vocab/directions/07directions08.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 9,
+      "filename": "07Directions09.mp3",
+      "drive_id": "1fOch1rXO5sZcdo_Dh4GyD0l6BD21JyOc",
+      "site_path": "assets/audio/vocab/directions/07directions09.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 10,
+      "filename": "07Directions10.mp3",
+      "drive_id": "1zc7JDts9Z0NgK5WaG8t0Fqube4tR90hJ",
+      "site_path": "assets/audio/vocab/directions/07directions10.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 11,
+      "filename": "07Directions11.mp3",
+      "drive_id": "1u3xvdGod3t0otWqbWU_SOn3rcPfmHvEL",
+      "site_path": "assets/audio/vocab/directions/07directions11.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 12,
+      "filename": "07Directions12.mp3",
+      "drive_id": "18wIT5AJT7U5qazR-p1C5OZ-sFjC6CeJ_",
+      "site_path": "assets/audio/vocab/directions/07directions12.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 13,
+      "filename": "07Directions13.mp3",
+      "drive_id": "1c8bciwAnpxmPxMFEH8JocMYFKEcBLw6o",
+      "site_path": "assets/audio/vocab/directions/07directions13.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 14,
+      "filename": "07Directions14.mp3",
+      "drive_id": "1I1NV5RorRdhdYpzCcc4HGY_hBoLkgMcO",
+      "site_path": "assets/audio/vocab/directions/07directions14.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 15,
+      "filename": "07Directions15.mp3",
+      "drive_id": "1haOi21UnAwXGuXLsuqBcMiK6d18SQ3cW",
+      "site_path": "assets/audio/vocab/directions/07directions15.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 16,
+      "filename": "07Directions16.mp3",
+      "drive_id": "1a7pS6K1HdWaoxxy-pYIQdDcDbqTkz-dP",
+      "site_path": "assets/audio/vocab/directions/07directions16.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 17,
+      "filename": "07Directions17.mp3",
+      "drive_id": "1HQYfw1vD7RNzilkMWjPIxWkit0bpcFdX",
+      "site_path": "assets/audio/vocab/directions/07directions17.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 18,
+      "filename": "07Directions18.mp3",
+      "drive_id": "1NxCr3vcDEeC5LDE4WjjKlnfe21MED-Za",
+      "site_path": "assets/audio/vocab/directions/07directions18.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 19,
+      "filename": "07Directions19.mp3",
+      "drive_id": "1LsHXij-PiGZ8oSsBVeZj0QGkjVj_rZqj",
+      "site_path": "assets/audio/vocab/directions/07directions19.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 20,
+      "filename": "07Directions20.mp3",
+      "drive_id": "1LhaREIz-XNWOiFWWogn0aJPoMXuhN6kW",
+      "site_path": "assets/audio/vocab/directions/07directions20.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 21,
+      "filename": "07Directions21.mp3",
+      "drive_id": "1BH694P-51fkb0Q2WRiskT18rNaiGWmi5",
+      "site_path": "assets/audio/vocab/directions/07directions21.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 22,
+      "filename": "07Directions22.mp3",
+      "drive_id": "1oRvt2O_NWntRibkHaouHdDrrElBZzF7R",
+      "site_path": "assets/audio/vocab/directions/07directions22.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 23,
+      "filename": "07Directions23.mp3",
+      "drive_id": "1dA2gvUffN_ezqDej4SWb89cKeDh9UFwI",
+      "site_path": "assets/audio/vocab/directions/07directions23.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 24,
+      "filename": "07Directions24.mp3",
+      "drive_id": "1pDklrymFDA26DxinLj2jtKFJcC6pPsrS",
+      "site_path": "assets/audio/vocab/directions/07directions24.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 25,
+      "filename": "07Directions25.mp3",
+      "drive_id": "1d5dFFwIlW3IhEynmd65Qs_y745y9gysU",
+      "site_path": "assets/audio/vocab/directions/07directions25.mp3"
+    },
+    {
+      "category_id": "directions",
+      "category": "Ориентация",
+      "order": 26,
+      "filename": "07Directions26.mp3",
+      "drive_id": "1PHDpXaTJOwA6tQ9Ek4twTQ6dpqTJl4y1",
+      "site_path": "assets/audio/vocab/directions/07directions26.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 1,
+      "filename": "02Help01.mp3",
+      "drive_id": "1OM6X5MMKpytOWHszkLoCXBIIqF967fux",
+      "site_path": "assets/audio/vocab/help/02help01.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 2,
+      "filename": "02Help02.mp3",
+      "drive_id": "1uZjsMRkcHhefDeXXas93ohq864O-0mrn",
+      "site_path": "assets/audio/vocab/help/02help02.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 3,
+      "filename": "02Help03.mp3",
+      "drive_id": "1NhEIVCjfL6AAtp5OjKgLRCQypNJzWqtb",
+      "site_path": "assets/audio/vocab/help/02help03.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 4,
+      "filename": "02Help04.mp3",
+      "drive_id": "1rcCsPd6RfpBJvy0dV7GG4BrEEJIo4h_R",
+      "site_path": "assets/audio/vocab/help/02help04.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 5,
+      "filename": "02Help05.mp3",
+      "drive_id": "1o82XcNrk5yGwB06AfVu5Ts7Cuv9uHMjm",
+      "site_path": "assets/audio/vocab/help/02help05.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 6,
+      "filename": "02Help06.mp3",
+      "drive_id": "1lo8re7i0lUGfnnVxW_FLgkL33pEpE2G_",
+      "site_path": "assets/audio/vocab/help/02help06.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 7,
+      "filename": "02Help07.mp3",
+      "drive_id": "14t7hXn3jxXNsjVoZ_SS22y67SC__zjLs",
+      "site_path": "assets/audio/vocab/help/02help07.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 8,
+      "filename": "02Help08.mp3",
+      "drive_id": "1mf8YVm6du7IfOB0dIkbe8xqbqg-FS8rP",
+      "site_path": "assets/audio/vocab/help/02help08.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 9,
+      "filename": "02Help09.mp3",
+      "drive_id": "1cQSAOGxLB8z9pya8byv0mkj0-qYKb1J8",
+      "site_path": "assets/audio/vocab/help/02help09.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 10,
+      "filename": "02Help10.mp3",
+      "drive_id": "1xZofbEVkFpyDocRpo8NXTSNrTexDpcHg",
+      "site_path": "assets/audio/vocab/help/02help10.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 11,
+      "filename": "02Help11.mp3",
+      "drive_id": "1aqJt-IfGgrEtBIa8yAgQEXyYXqaRp8Mk",
+      "site_path": "assets/audio/vocab/help/02help11.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 12,
+      "filename": "02Help12.mp3",
+      "drive_id": "1chpW5jyzmt8ZybCMwk5Pmx-M8Q_-JmGw",
+      "site_path": "assets/audio/vocab/help/02help12.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 13,
+      "filename": "02Help13.mp3",
+      "drive_id": "1H0AvlPNRUJr8s6EPxmOX-3zUFbkklFTc",
+      "site_path": "assets/audio/vocab/help/02help13.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 14,
+      "filename": "02Help14.mp3",
+      "drive_id": "1SAXNa4ZweuEU7gEJVCPWF3pImef0N2PN",
+      "site_path": "assets/audio/vocab/help/02help14.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 15,
+      "filename": "02Help15.mp3",
+      "drive_id": "1DopG6qDG4Xu4DZXStaMZxILuVmdRgDPF",
+      "site_path": "assets/audio/vocab/help/02help15.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 16,
+      "filename": "02Help16.mp3",
+      "drive_id": "1Rh1LcijGDGR4ijyJcmopim2FbP2gunBk",
+      "site_path": "assets/audio/vocab/help/02help16.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 17,
+      "filename": "02Help17.mp3",
+      "drive_id": "1ogKcWq6Ev5CaeaHK0k2oHhBeFLJliup5",
+      "site_path": "assets/audio/vocab/help/02help17.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 18,
+      "filename": "02Help18.mp3",
+      "drive_id": "1WvbnB2x_5JjV-HOyNPpA677C_5lXxbQd",
+      "site_path": "assets/audio/vocab/help/02help18.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 19,
+      "filename": "02Help19.mp3",
+      "drive_id": "1WgQMw0Ew5rfHvQLWsA9pjPBFCwyld7iJ",
+      "site_path": "assets/audio/vocab/help/02help19.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 20,
+      "filename": "02Help20.mp3",
+      "drive_id": "1RFHIkuNY1KsYeF25TtUbUQCzS2jpCmzQ",
+      "site_path": "assets/audio/vocab/help/02help20.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 21,
+      "filename": "02Help21.mp3",
+      "drive_id": "1J76jMrGH-89pBCvIFzVf8tH5z8HxXI35",
+      "site_path": "assets/audio/vocab/help/02help21.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 22,
+      "filename": "02Help22.mp3",
+      "drive_id": "13fRzqSnzMKJKOpPiZcpx5ic664vzXMcx",
+      "site_path": "assets/audio/vocab/help/02help22.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 23,
+      "filename": "02Help23.mp3",
+      "drive_id": "1sLZNGUWDUwRQL4q8htjxha69X2GziAH_",
+      "site_path": "assets/audio/vocab/help/02help23.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 24,
+      "filename": "02Help24.mp3",
+      "drive_id": "1Q6R28KpQkx0TF-NUmnCmxf3jZ2FbdeK8",
+      "site_path": "assets/audio/vocab/help/02help24.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 25,
+      "filename": "02Help25.mp3",
+      "drive_id": "16PnYuozRirYEOo_Th1BtlxKofZffNX8P",
+      "site_path": "assets/audio/vocab/help/02help25.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 26,
+      "filename": "02Help26.mp3",
+      "drive_id": "1v6bXybTsefj1Wh80JSK--PvjNb6AkTO3",
+      "site_path": "assets/audio/vocab/help/02help26.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 27,
+      "filename": "02Help27.mp3",
+      "drive_id": "1sazP2GZyjfc_59osXeHTESry013ojlr1",
+      "site_path": "assets/audio/vocab/help/02help27.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 28,
+      "filename": "02Help28.mp3",
+      "drive_id": "1V42xB9BzAJ8-XQk6V54atiYgMuUvB-AT",
+      "site_path": "assets/audio/vocab/help/02help28.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 29,
+      "filename": "02Help29.mp3",
+      "drive_id": "15HeXswYrIGvT6Oi8h8XSTBWb_bTXapMI",
+      "site_path": "assets/audio/vocab/help/02help29.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 30,
+      "filename": "02Help30.mp3",
+      "drive_id": "1rzX7bwW_s7IhS0ySV0A4kQLpVloWOyoP",
+      "site_path": "assets/audio/vocab/help/02help30.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 31,
+      "filename": "02Help31.mp3",
+      "drive_id": "170xAqkTvTGrUdf_u2LlpFz0Vye_OF8O5",
+      "site_path": "assets/audio/vocab/help/02help31.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 32,
+      "filename": "02Help32.mp3",
+      "drive_id": "15-7cQIphxoxVwCfyc-d6zDTDy85naqxy",
+      "site_path": "assets/audio/vocab/help/02help32.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 33,
+      "filename": "02Help33.mp3",
+      "drive_id": "1fzof7Ir8som15maCecgRwNTTU6vYzY7e",
+      "site_path": "assets/audio/vocab/help/02help33.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 34,
+      "filename": "02Help34.mp3",
+      "drive_id": "1UqCjiN5DWAmeSTEqgkPUtWuxxfeC8QbV",
+      "site_path": "assets/audio/vocab/help/02help34.mp3"
+    },
+    {
+      "category_id": "help",
+      "category": "Помощь",
+      "order": 35,
+      "filename": "02Help35.mp3",
+      "drive_id": "1PrGjq05Sn96hDdomZ3rok4Vn20Kk-Y_s",
+      "site_path": "assets/audio/vocab/help/02help35.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 1,
+      "filename": "18Customs01.mp3",
+      "drive_id": "1woX9jDOP8KP6_X72zbJLDKSUSnG-uYhF",
+      "site_path": "assets/audio/vocab/customs/18customs01.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 2,
+      "filename": "18Customs02.mp3",
+      "drive_id": "1aePHopIzkt85C-9AHjbBluZX8zWjaQhH",
+      "site_path": "assets/audio/vocab/customs/18customs02.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 3,
+      "filename": "18Customs03.mp3",
+      "drive_id": "1zRlx2xZJeHZKX9sonugHLn4ZrPQeZlBN",
+      "site_path": "assets/audio/vocab/customs/18customs03.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 4,
+      "filename": "18Customs04.mp3",
+      "drive_id": "11t7Dg8iPPJRtXVa_NGDPjb7BE16SlOA0",
+      "site_path": "assets/audio/vocab/customs/18customs04.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 5,
+      "filename": "18Customs05.mp3",
+      "drive_id": "1d0ymGiQzpqdJf7OOX_HQs6bTj7byAz0C",
+      "site_path": "assets/audio/vocab/customs/18customs05.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 6,
+      "filename": "18Customs06.mp3",
+      "drive_id": "1lMUDEPT_j-SBnIM9iRnuCE3LwcGaumNg",
+      "site_path": "assets/audio/vocab/customs/18customs06.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 7,
+      "filename": "18Customs07.mp3",
+      "drive_id": "1zam1bhECnkiKtO6yyp4ZI7BBzU2bs3HM",
+      "site_path": "assets/audio/vocab/customs/18customs07.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 8,
+      "filename": "18Customs08.mp3",
+      "drive_id": "1Sw7cJ1OU5SLaRZm0G0McoF-UkzJZyYLY",
+      "site_path": "assets/audio/vocab/customs/18customs08.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 9,
+      "filename": "18Customs09.mp3",
+      "drive_id": "1S0GdS6LicCc0GZJRvZPKJHqDLcWAO-_e",
+      "site_path": "assets/audio/vocab/customs/18customs09.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 10,
+      "filename": "18Customs10.mp3",
+      "drive_id": "1RNQcuIsYQc2royyQ21xOq0jXb3hHqXaZ",
+      "site_path": "assets/audio/vocab/customs/18customs10.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 11,
+      "filename": "18Customs11.mp3",
+      "drive_id": "1KQdiX86bThDh4ZFEUf24q0t4Bxxjr5ya",
+      "site_path": "assets/audio/vocab/customs/18customs11.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 12,
+      "filename": "18Customs12.mp3",
+      "drive_id": "1AuOvpTLHY6_vf2dp8h_oNE8K9aOS2DnF",
+      "site_path": "assets/audio/vocab/customs/18customs12.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 13,
+      "filename": "18Customs13.mp3",
+      "drive_id": "1vZ2-EkqSxYziUcG_exMjGjn9rINGuPuN",
+      "site_path": "assets/audio/vocab/customs/18customs13.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 14,
+      "filename": "18Customs14.mp3",
+      "drive_id": "1lUa6RVHZ4XNbmcgTQklx7V4CNsdY2NIh",
+      "site_path": "assets/audio/vocab/customs/18customs14.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 15,
+      "filename": "18Customs15.mp3",
+      "drive_id": "1ohSuvEVgU2tnALfnNow4pCURftmhyjt8",
+      "site_path": "assets/audio/vocab/customs/18customs15.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 16,
+      "filename": "18Customs16.mp3",
+      "drive_id": "1vne7CI7XrHpNcIOZqb4kDTMkrrSNvNis",
+      "site_path": "assets/audio/vocab/customs/18customs16.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 17,
+      "filename": "18Customs17.mp3",
+      "drive_id": "1f7RU9sBR7sZQ6szKh_K3qDfbP7Evjwzx",
+      "site_path": "assets/audio/vocab/customs/18customs17.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 18,
+      "filename": "18Customs18.mp3",
+      "drive_id": "1j3izrMsaPOaSzNsr3-OotU2UTvLpEbBH",
+      "site_path": "assets/audio/vocab/customs/18customs18.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 19,
+      "filename": "18Customs19.mp3",
+      "drive_id": "1VXWIS6Om6NxYXJW0XJzgHDu-s949yQlO",
+      "site_path": "assets/audio/vocab/customs/18customs19.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 20,
+      "filename": "18Customs20.mp3",
+      "drive_id": "16jQIS-Q0mJmPmFlW4JaBdMn7BllX9oMF",
+      "site_path": "assets/audio/vocab/customs/18customs20.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 21,
+      "filename": "18Customs21.mp3",
+      "drive_id": "1MqJ4mJ7RGYuuUqgFsbs9C7xGDp99hmgy",
+      "site_path": "assets/audio/vocab/customs/18customs21.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 22,
+      "filename": "18Customs22.mp3",
+      "drive_id": "1U5-ON1kxFkCAn3HeZD76WMGwS5k0g2KV",
+      "site_path": "assets/audio/vocab/customs/18customs22.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 23,
+      "filename": "18Customs23.mp3",
+      "drive_id": "1Dz335sFNNjzPP4Ceq5Fs5av8sI6nGbHk",
+      "site_path": "assets/audio/vocab/customs/18customs23.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 24,
+      "filename": "18Customs24.mp3",
+      "drive_id": "1AsOrjbYDakP8xkRMKNVtmmXjMenL-a11",
+      "site_path": "assets/audio/vocab/customs/18customs24.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 25,
+      "filename": "18Customs25.mp3",
+      "drive_id": "15W3o_vs7lIhsSQtpG3Mr1vN0AgI67FGG",
+      "site_path": "assets/audio/vocab/customs/18customs25.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 26,
+      "filename": "18Customs26.mp3",
+      "drive_id": "134DwVBBheFMafxhc6ACNqpG-Yp-CjYzt",
+      "site_path": "assets/audio/vocab/customs/18customs26.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 27,
+      "filename": "18Customs27.mp3",
+      "drive_id": "1O1wd-ZwupzlKluUK3Dm4ubDoJIwoB9d0",
+      "site_path": "assets/audio/vocab/customs/18customs27.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 28,
+      "filename": "18Customs28.mp3",
+      "drive_id": "1auic3ZWOS01jFMdpCIh90VheoeaPBnRG",
+      "site_path": "assets/audio/vocab/customs/18customs28.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 29,
+      "filename": "18Customs29.mp3",
+      "drive_id": "1Q2huq4JmenB99SoBVdl8V8Wu5D-uiVLk",
+      "site_path": "assets/audio/vocab/customs/18customs29.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 30,
+      "filename": "18Customs30.mp3",
+      "drive_id": "1ZI5QJSzJoilr4f8_AhDFlCvLPuJq32vB",
+      "site_path": "assets/audio/vocab/customs/18customs30.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 31,
+      "filename": "18Customs31.mp3",
+      "drive_id": "1D6a88_EfNXQL4gSOeQx2X5YDWIuuZ1W6",
+      "site_path": "assets/audio/vocab/customs/18customs31.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 32,
+      "filename": "18Customs32.mp3",
+      "drive_id": "133W4lsO3EwiAslEiPSShgjKR1Bi1PAgB",
+      "site_path": "assets/audio/vocab/customs/18customs32.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 33,
+      "filename": "18Customs33.mp3",
+      "drive_id": "14QQBkn8UCb6n2IG9E44GMgDhBCdHIxxk",
+      "site_path": "assets/audio/vocab/customs/18customs33.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 34,
+      "filename": "18Customs34.mp3",
+      "drive_id": "1WRJRJa3wM3Zm27UAwkel0qbYACKoYDYK",
+      "site_path": "assets/audio/vocab/customs/18customs34.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 35,
+      "filename": "18Customs35.mp3",
+      "drive_id": "1yVB6nhMZM-ELD6MKvB7VEHN-M-FQce6G",
+      "site_path": "assets/audio/vocab/customs/18customs35.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 36,
+      "filename": "18Customs36.mp3",
+      "drive_id": "1ClfM9wwnLwkskLBFp_p-_KIRvRWT1LR9",
+      "site_path": "assets/audio/vocab/customs/18customs36.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 37,
+      "filename": "18Customs37.mp3",
+      "drive_id": "1ACMu4RGDKv4dMOSjYK8GCC52o-D4_5en",
+      "site_path": "assets/audio/vocab/customs/18customs37.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 38,
+      "filename": "18Customs38.mp3",
+      "drive_id": "1_j54WznZtlTC6HKE2lc93FWz__9yL7RJ",
+      "site_path": "assets/audio/vocab/customs/18customs38.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 39,
+      "filename": "18Customs39.mp3",
+      "drive_id": "1w7YPlcmE9xdfQ7-77E9BjeBh-3d6H3T9",
+      "site_path": "assets/audio/vocab/customs/18customs39.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 40,
+      "filename": "18Customs40.mp3",
+      "drive_id": "1X_Sz6T1Z1UpX298jH0zEi4bZxasf2cHj",
+      "site_path": "assets/audio/vocab/customs/18customs40.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 41,
+      "filename": "18Customs41.mp3",
+      "drive_id": "1Eli0cn35asT_NLC8feZ-gsR88CLGDINr",
+      "site_path": "assets/audio/vocab/customs/18customs41.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 42,
+      "filename": "18Customs42.mp3",
+      "drive_id": "1Ye066KkUKKEG_puesjx_W0Wr_1iFuzTC",
+      "site_path": "assets/audio/vocab/customs/18customs42.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 43,
+      "filename": "18Customs43.mp3",
+      "drive_id": "1_LrrOkR3POq18c-ZlNBfWPtSqRZMeJtr",
+      "site_path": "assets/audio/vocab/customs/18customs43.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 44,
+      "filename": "18Customs44.mp3",
+      "drive_id": "162DLchat7S_9CJ4vt4QJ57lIJAPVywSB",
+      "site_path": "assets/audio/vocab/customs/18customs44.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 45,
+      "filename": "18Customs45.mp3",
+      "drive_id": "1oUniH6bkM72b4DCcaCKnjk84ijL6lKp5",
+      "site_path": "assets/audio/vocab/customs/18customs45.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 46,
+      "filename": "18Customs46.mp3",
+      "drive_id": "1JywkkeuoY8MPgjQf2PUcKEDlIgupJ0ef",
+      "site_path": "assets/audio/vocab/customs/18customs46.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 47,
+      "filename": "18Customs47.mp3",
+      "drive_id": "1xl5Wi1OklSK9R1JDkBdUwPaIToKqjsUc",
+      "site_path": "assets/audio/vocab/customs/18customs47.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 48,
+      "filename": "18Customs48.mp3",
+      "drive_id": "14I9zLXGrEs_fknuYhlOSTdhMT4lmoEP9",
+      "site_path": "assets/audio/vocab/customs/18customs48.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 49,
+      "filename": "18Customs49.mp3",
+      "drive_id": "12MKoSQdYrqeJBhrRcob_Ai00YJ6AbHzo",
+      "site_path": "assets/audio/vocab/customs/18customs49.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 50,
+      "filename": "18Customs50.mp3",
+      "drive_id": "1Nlj6z95yqdtaJ32ufOYwGhpdIn6KFhHu",
+      "site_path": "assets/audio/vocab/customs/18customs50.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 51,
+      "filename": "18Customs51.mp3",
+      "drive_id": "1OJc7Tc6pFKElGjtMfEXxpyfL-RogQsN6",
+      "site_path": "assets/audio/vocab/customs/18customs51.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 52,
+      "filename": "18Customs52.mp3",
+      "drive_id": "1MTeW-D0zX4mMepOaq4OwoaRqOQRDyShn",
+      "site_path": "assets/audio/vocab/customs/18customs52.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 53,
+      "filename": "18Customs53.mp3",
+      "drive_id": "1aYCpQAdSYNXHyjOdalS-hpVV-rfg2Pqw",
+      "site_path": "assets/audio/vocab/customs/18customs53.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 54,
+      "filename": "18Customs54.mp3",
+      "drive_id": "1UIB61iKkRN8C3Hnu5r5a7UFB_iMkm5YG",
+      "site_path": "assets/audio/vocab/customs/18customs54.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 55,
+      "filename": "18Customs55.mp3",
+      "drive_id": "1DyXSmKM7wyZUEqOlx-Iv-untP0VA8Wvw",
+      "site_path": "assets/audio/vocab/customs/18customs55.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 56,
+      "filename": "18Customs56.mp3",
+      "drive_id": "18T-cElvRDGc5muLvXO4_Q0f9UnAveysB",
+      "site_path": "assets/audio/vocab/customs/18customs56.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 57,
+      "filename": "18Customs57.mp3",
+      "drive_id": "1bvaBmkQwz0lCyP1v4HwGituvBQGDEOxV",
+      "site_path": "assets/audio/vocab/customs/18customs57.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 58,
+      "filename": "18Customs58.mp3",
+      "drive_id": "1FnGPjnHYcRRezPYD4kjVbAfWn48qo0sl",
+      "site_path": "assets/audio/vocab/customs/18customs58.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 59,
+      "filename": "18Customs59.mp3",
+      "drive_id": "17GEEHC_oLVBdYg_QcdsblPt-LLjiTe9Z",
+      "site_path": "assets/audio/vocab/customs/18customs59.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 60,
+      "filename": "18Customs60.mp3",
+      "drive_id": "1fK5D4NXL31og35HkMNMyF2NSKv7DJ04C",
+      "site_path": "assets/audio/vocab/customs/18customs60.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 61,
+      "filename": "18Customs61.mp3",
+      "drive_id": "17CAwBnx7eojN60-rk3a3_JBUvsfr1jL3",
+      "site_path": "assets/audio/vocab/customs/18customs61.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 62,
+      "filename": "18Customs62.mp3",
+      "drive_id": "1YL5N2dSNIo_nwqvTMh6DP_rIHfIRYdtN",
+      "site_path": "assets/audio/vocab/customs/18customs62.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 63,
+      "filename": "18Customs63.mp3",
+      "drive_id": "1JjpT75KfqW_S7YJ5zPJaFqqlV5FUy4BP",
+      "site_path": "assets/audio/vocab/customs/18customs63.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 64,
+      "filename": "18Customs64.mp3",
+      "drive_id": "17aFw2Cy8oMPxTJqJlikoUu4uT2O-2AYt",
+      "site_path": "assets/audio/vocab/customs/18customs64.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 65,
+      "filename": "18Customs65.mp3",
+      "drive_id": "1eQDu1fpyGO7KHtHU7XSeyKPMqSDAw-4t",
+      "site_path": "assets/audio/vocab/customs/18customs65.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 66,
+      "filename": "18Customs66.mp3",
+      "drive_id": "1RLrIh-JRe84l4Q8bgK4ekTJOLvp4iTr2",
+      "site_path": "assets/audio/vocab/customs/18customs66.mp3"
+    },
+    {
+      "category_id": "customs",
+      "category": "Таможня",
+      "order": 67,
+      "filename": "18Customs67.mp3",
+      "drive_id": "1ifHX5Jg2LAErOlluY09r7dkX_xvBUcle",
+      "site_path": "assets/audio/vocab/customs/18customs67.mp3"
+    },
+    {
+      "category_id": "fuel",
+      "category": "Топливо",
+      "order": 1,
+      "filename": "12Fuel01.mp3",
+      "drive_id": "1dWWc-HfPwOVrTEye1KpGHkOWsa_W3AfK",
+      "site_path": "assets/audio/vocab/fuel/12fuel01.mp3"
+    },
+    {
+      "category_id": "fuel",
+      "category": "Топливо",
+      "order": 2,
+      "filename": "12Fuel02.mp3",
+      "drive_id": "1vTjb6sUid3eqDQWa0svq3EFNib-Zf8ZX",
+      "site_path": "assets/audio/vocab/fuel/12fuel02.mp3"
+    },
+    {
+      "category_id": "fuel",
+      "category": "Топливо",
+      "order": 3,
+      "filename": "12Fuel03.mp3",
+      "drive_id": "1YajhYFPz8gPHla6J-FZjymDL2R25gSwM",
+      "site_path": "assets/audio/vocab/fuel/12fuel03.mp3"
+    },
+    {
+      "category_id": "fuel",
+      "category": "Топливо",
+      "order": 4,
+      "filename": "12Fuel04.mp3",
+      "drive_id": "1NL9kmHvn3KxJ3KVC65PMSI3y4qUlURl3",
+      "site_path": "assets/audio/vocab/fuel/12fuel04.mp3"
+    },
+    {
+      "category_id": "fuel",
+      "category": "Топливо",
+      "order": 5,
+      "filename": "12Fuel05.mp3",
+      "drive_id": "1wA54n22420c41ZC3iGYYIOu5nIA795Zs",
+      "site_path": "assets/audio/vocab/fuel/12fuel05.mp3"
+    },
+    {
+      "category_id": "fuel",
+      "category": "Топливо",
+      "order": 6,
+      "filename": "12Fuel06.mp3",
+      "drive_id": "1n9KoOat6jF5j7mpjSDH5IPZymJrUbrTB",
+      "site_path": "assets/audio/vocab/fuel/12fuel06.mp3"
+    },
+    {
+      "category_id": "fuel",
+      "category": "Топливо",
+      "order": 7,
+      "filename": "12Fuel07.mp3",
+      "drive_id": "1s7EIcRWsqLG9wF7uCAk51VBMtg2J83Oq",
+      "site_path": "assets/audio/vocab/fuel/12fuel07.mp3"
+    },
+    {
+      "category_id": "fuel",
+      "category": "Топливо",
+      "order": 8,
+      "filename": "12Fuel08.mp3",
+      "drive_id": "1BfuQk2f9loMYTKN6z6LfoaLE5TACMzb4",
+      "site_path": "assets/audio/vocab/fuel/12fuel08.mp3"
+    },
+    {
+      "category_id": "fuel",
+      "category": "Топливо",
+      "order": 9,
+      "filename": "12Fuel09.mp3",
+      "drive_id": "1wWChzuR2PvfiMALscB9pErTgee_WzDr_",
+      "site_path": "assets/audio/vocab/fuel/12fuel09.mp3"
+    },
+    {
+      "category_id": "fuel",
+      "category": "Топливо",
+      "order": 10,
+      "filename": "12Fuel10.mp3",
+      "drive_id": "1jeNny7vbSpIMmwcLXOsfXALO6xOFENFI",
+      "site_path": "assets/audio/vocab/fuel/12fuel10.mp3"
+    },
+    {
+      "category_id": "fuel",
+      "category": "Топливо",
+      "order": 11,
+      "filename": "12Fuel11.mp3",
+      "drive_id": "1v72uW-8spehLI9h7DmDUbRI_41Pww79x",
+      "site_path": "assets/audio/vocab/fuel/12fuel11.mp3"
+    },
+    {
+      "category_id": "fuel",
+      "category": "Топливо",
+      "order": 12,
+      "filename": "12Fuel12.mp3",
+      "drive_id": "16z5kwObULKhJMYkbfN8qJbm8feJ6Vmep",
+      "site_path": "assets/audio/vocab/fuel/12fuel12.mp3"
+    },
+    {
+      "category_id": "fuel",
+      "category": "Топливо",
+      "order": 13,
+      "filename": "12Fuel13.mp3",
+      "drive_id": "1AeCjPkzCnkaZwtpBsHrnlK6KCpFXaAlE",
+      "site_path": "assets/audio/vocab/fuel/12fuel13.mp3"
+    },
+    {
+      "category_id": "fuel",
+      "category": "Топливо",
+      "order": 14,
+      "filename": "12Fuel14.mp3",
+      "drive_id": "1H3Eog3IDm3MTIK1QQr03BfLyE0cnp6tF",
+      "site_path": "assets/audio/vocab/fuel/12fuel14.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 1,
+      "filename": "21Gen_Mil01.mp3",
+      "drive_id": "1lfxonRSxMnoPIDgAgXGn2iOf0GOQr577",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil01.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 2,
+      "filename": "21Gen_Mil02.mp3",
+      "drive_id": "1sd4JqAIiLAHOITODvQzlnCXPn2yMFx-X",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil02.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 3,
+      "filename": "21Gen_Mil03.mp3",
+      "drive_id": "1TKDsOY4cpV-TXrMsEUn9GEpp1LYgvRGf",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil03.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 4,
+      "filename": "21Gen_Mil04.mp3",
+      "drive_id": "1YdaqY3oN4H4DT8feKLubRQVdNNnSYUdy",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil04.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 5,
+      "filename": "21Gen_Mil05.mp3",
+      "drive_id": "1WBMZn22npuxBIw-BP4io4rHijGoyxFeQ",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil05.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 6,
+      "filename": "21Gen_Mil06.mp3",
+      "drive_id": "12j_s3GE-mUKqc6ZoWnziIlgZX2kpPX0u",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil06.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 7,
+      "filename": "21Gen_Mil07.mp3",
+      "drive_id": "1540dN93otbv-HdpaJ3gC9PINuCmiprdI",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil07.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 8,
+      "filename": "21Gen_Mil08.mp3",
+      "drive_id": "1gBkI8gJZabecUQ022cnn30VrE26f427c",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil08.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 9,
+      "filename": "21Gen_Mil09.mp3",
+      "drive_id": "1hoW5KQuHcF1-0RV7yWMQ3wOWPr3XOZfv",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil09.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 10,
+      "filename": "21Gen_Mil10.mp3",
+      "drive_id": "1ufYdc9t8onMPzF_cG5AV0CGS2Mbmt-l-",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil10.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 11,
+      "filename": "21Gen_Mil11.mp3",
+      "drive_id": "1cvRLV7YtzUpoDyzN-C9uyLhvPDXwbRbN",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil11.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 12,
+      "filename": "21Gen_Mil12.mp3",
+      "drive_id": "1INB8qpVfCss8Wvz1STN2IK4QyUU8-IVi",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil12.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 13,
+      "filename": "21Gen_Mil13.mp3",
+      "drive_id": "16oRFkeQ0Rugp8RUH5Tw_bC2RPyYHP-BY",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil13.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 14,
+      "filename": "21Gen_Mil14.mp3",
+      "drive_id": "19hAIkmW-23j6I-Nrkxo7RqEIkB-fMsiL",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil14.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 15,
+      "filename": "21Gen_Mil15.mp3",
+      "drive_id": "1YFSIl8lRc-mVwtuwA-dR2bzwElbtllek",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil15.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 16,
+      "filename": "21Gen_Mil16.mp3",
+      "drive_id": "1_20nvHeH0b0tcLzRbs-_-avijwXPda9A",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil16.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 17,
+      "filename": "21Gen_Mil17.mp3",
+      "drive_id": "109bTkxPr69tcNcL7qm4naQiU2No9Kv0Z",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil17.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 18,
+      "filename": "21Gen_Mil18.mp3",
+      "drive_id": "1wfiU5bjAh5svh4C9ROW_JFs-Skz6dc1z",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil18.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 19,
+      "filename": "21Gen_Mil19.mp3",
+      "drive_id": "1L23i9EBYcYq7DIg9GTdHPWJLSNnVeN-o",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil19.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 20,
+      "filename": "21Gen_Mil20.mp3",
+      "drive_id": "1Grr9JQXG4Dzkj3qeRldcCDOSnKePbUb6",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil20.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 21,
+      "filename": "21Gen_Mil21.mp3",
+      "drive_id": "1yXQrVlJGKUFmhlxzmVsbmPI7XeWMLvlu",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil21.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 22,
+      "filename": "21Gen_Mil22.mp3",
+      "drive_id": "1K5NpzpcQ2yXBQNvDdg9wZyZ-WVU6a9n9",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil22.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 23,
+      "filename": "21Gen_Mil23.mp3",
+      "drive_id": "1qvwSyo7WPxFbTt30JbnkCI2RDjamoHbZ",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil23.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 24,
+      "filename": "21Gen_Mil24.mp3",
+      "drive_id": "1jo0_57_PpOjDP_C5lwJz2sfOO_R55C0Q",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil24.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 25,
+      "filename": "21Gen_Mil25.mp3",
+      "drive_id": "1a5pMbbkNJrCWbce-yF3IBoAMdagD1utv",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil25.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 26,
+      "filename": "21Gen_Mil26.mp3",
+      "drive_id": "1Lc4MKmvGz4BuHe02f_NPQypFzD5CHN_Z",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil26.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 27,
+      "filename": "21Gen_Mil27.mp3",
+      "drive_id": "19sMgZIw82Ih0r-4p48K9KqZMdlnhb1sx",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil27.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 28,
+      "filename": "21Gen_Mil28.mp3",
+      "drive_id": "1kdZ9-6SMZibBUBXaG6wVYJHJTMV9NEw4",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil28.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 29,
+      "filename": "21Gen_Mil29.mp3",
+      "drive_id": "1OAJLxvrdgOOUF9sSNswhMlt-MrAlV2_A",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil29.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 30,
+      "filename": "21Gen_Mil30.mp3",
+      "drive_id": "1Fe4MrTWvdi2ZqM5MPqOchOTCzgbB42PV",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil30.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 31,
+      "filename": "21Gen_Mil31.mp3",
+      "drive_id": "1Iy4a29xz56Eh8zScfrs8tqxjassrvfXi",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil31.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 32,
+      "filename": "21Gen_Mil32.mp3",
+      "drive_id": "1iGVyBi10iaYMrhbDPn1hsiih-t9tQmHs",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil32.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 33,
+      "filename": "21Gen_Mil33.mp3",
+      "drive_id": "1dHiVQmsmDD3JMAU69P6HPsISdwu0HkP_",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil33.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 34,
+      "filename": "21Gen_Mil34.mp3",
+      "drive_id": "1YYYvJrEvAelS9iXrZ8IyLnEFXKZLxrGM",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil34.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 35,
+      "filename": "21Gen_Mil35.mp3",
+      "drive_id": "1OU1-9-NDIumOgod02idp5q3z2Z3OMVuF",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil35.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 36,
+      "filename": "21Gen_Mil36.mp3",
+      "drive_id": "1vC2z40rUdl1o-XCwv6pk6ANnegJk1ii7",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil36.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 37,
+      "filename": "21Gen_Mil37.mp3",
+      "drive_id": "1Uyk49A7-bztIgv1LUJlIMfR-gYc_-qsf",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil37.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 38,
+      "filename": "21Gen_Mil38.mp3",
+      "drive_id": "1CNIKQpyeqxWPD5O7dePu_g5L38zeR0TE",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil38.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 39,
+      "filename": "21Gen_Mil39.mp3",
+      "drive_id": "1D4Dwj4ug0Ycfg6qypefrH6qRK8FI876g",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil39.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 40,
+      "filename": "21Gen_Mil40.mp3",
+      "drive_id": "1SKOwomXLkUP4z2PIqX7fKI7pRT9H0Epy",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil40.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 41,
+      "filename": "21Gen_Mil41.mp3",
+      "drive_id": "19w_N1490Q9MbqvTGZNOsxoKJR7BWEV1t",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil41.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 42,
+      "filename": "21Gen_Mil42.mp3",
+      "drive_id": "1MVKwiuT2Io31YHoFhW-JVLBBdKvozysI",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil42.mp3"
+    },
+    {
+      "category_id": "gen_mil",
+      "category": "Общие военные выражения",
+      "order": 43,
+      "filename": "21Gen_Mil43.mp3",
+      "drive_id": "1_W1Sq5EizL2hH1QPWPYonF0eCxAhNbxg",
+      "site_path": "assets/audio/vocab/gen_mil/21gen_mil43.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 1,
+      "filename": "04Interro01.mp3",
+      "drive_id": "14Dh9M5ArZMhuvzs3NLxnuB_1IAqFgIJf",
+      "site_path": "assets/audio/vocab/interrogation/04interro01.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 2,
+      "filename": "04Interro02.mp3",
+      "drive_id": "1k-7O2PIhWwDUhXCzqvqO5Gj-9ojv5-fV",
+      "site_path": "assets/audio/vocab/interrogation/04interro02.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 3,
+      "filename": "04Interro03.mp3",
+      "drive_id": "1cn9hFVpj-eHoV8Rmp374BgLtmMAqmUUw",
+      "site_path": "assets/audio/vocab/interrogation/04interro03.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 4,
+      "filename": "04Interro04.mp3",
+      "drive_id": "12IvbemJyvdbRsR_YgFfVpyfpH2D3WTSP",
+      "site_path": "assets/audio/vocab/interrogation/04interro04.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 5,
+      "filename": "04Interro05.mp3",
+      "drive_id": "19rqKKKAXBzF64hyh2sOz3gcn-oqaEhtJ",
+      "site_path": "assets/audio/vocab/interrogation/04interro05.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 6,
+      "filename": "04Interro06.mp3",
+      "drive_id": "143h_bUL3xIF9fII4oyQ4HoGu7ZpSyjkn",
+      "site_path": "assets/audio/vocab/interrogation/04interro06.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 7,
+      "filename": "04Interro07.mp3",
+      "drive_id": "1dG5Sb_yv3GOOfWTbLpMRAAptz1DJKfRx",
+      "site_path": "assets/audio/vocab/interrogation/04interro07.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 8,
+      "filename": "04Interro08.mp3",
+      "drive_id": "1ilSMJ5Z2i-IYzDI2xajSA4UElHMflGzp",
+      "site_path": "assets/audio/vocab/interrogation/04interro08.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 9,
+      "filename": "04Interro09.mp3",
+      "drive_id": "18Dl3_mij8ThGKImMGmm_qJewjyJ_QHh3",
+      "site_path": "assets/audio/vocab/interrogation/04interro09.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 10,
+      "filename": "04Interro10.mp3",
+      "drive_id": "1fz66I6t_Wbpd0Bzd4SUIW4YKfW-qGdAb",
+      "site_path": "assets/audio/vocab/interrogation/04interro10.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 11,
+      "filename": "04Interro11.mp3",
+      "drive_id": "1KE1oqJhpt7OxQu5Lqr7vnDwxpMwEV_9o",
+      "site_path": "assets/audio/vocab/interrogation/04interro11.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 12,
+      "filename": "04Interro12.mp3",
+      "drive_id": "1zjfD45MDLzWExcvyxg0GyJrfbA2LsZFA",
+      "site_path": "assets/audio/vocab/interrogation/04interro12.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 13,
+      "filename": "04Interro13.mp3",
+      "drive_id": "1AJBkYUHIyrHrXqoyejxnqOWkdfpVB6lN",
+      "site_path": "assets/audio/vocab/interrogation/04interro13.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 14,
+      "filename": "04Interro14.mp3",
+      "drive_id": "13cN3rpv5-xDQ1kZOB7gNATPmqUPxm-dv",
+      "site_path": "assets/audio/vocab/interrogation/04interro14.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 15,
+      "filename": "04Interro15.mp3",
+      "drive_id": "1jisbGIG4VJqgGwBqIszNAUEsA93kZDyr",
+      "site_path": "assets/audio/vocab/interrogation/04interro15.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 16,
+      "filename": "04Interro16.mp3",
+      "drive_id": "17-Kr23Cj7HGcL-LpygWrn8kgEGZwaFqF",
+      "site_path": "assets/audio/vocab/interrogation/04interro16.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 17,
+      "filename": "04Interro17.mp3",
+      "drive_id": "1Cm5cbl1C_9-xH3292U0jEOw9TPHwJ5rK",
+      "site_path": "assets/audio/vocab/interrogation/04interro17.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 18,
+      "filename": "04Interro18.mp3",
+      "drive_id": "1SHRW8Hr1UAqKT9egi4pnr9PAcPBk4AH8",
+      "site_path": "assets/audio/vocab/interrogation/04interro18.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 19,
+      "filename": "04Interro19.mp3",
+      "drive_id": "1YLdYjMYafi-tm48xs7ceZnbgjwI8yiZN",
+      "site_path": "assets/audio/vocab/interrogation/04interro19.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 20,
+      "filename": "04Interro20.mp3",
+      "drive_id": "1uta-MrYllVCzXIitTPjawxkcPeRy4Zy1",
+      "site_path": "assets/audio/vocab/interrogation/04interro20.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 21,
+      "filename": "04Interro21.mp3",
+      "drive_id": "1VQfWYSCLcBMCOyzlnwCY2uwX_zV5d4Yn",
+      "site_path": "assets/audio/vocab/interrogation/04interro21.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 22,
+      "filename": "04Interro22.mp3",
+      "drive_id": "1qDVuGfPgKjeF8uKkpxWpZtFXQPnAygTY",
+      "site_path": "assets/audio/vocab/interrogation/04interro22.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 23,
+      "filename": "04Interro23.mp3",
+      "drive_id": "1Gtf4YV3CKV1Dx6UGmfTXfneyhW3BU1rb",
+      "site_path": "assets/audio/vocab/interrogation/04interro23.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 24,
+      "filename": "04Interro24.mp3",
+      "drive_id": "1UXQZPw56yEUuxF9StAWzaoo4qsnyY05M",
+      "site_path": "assets/audio/vocab/interrogation/04interro24.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 25,
+      "filename": "04Interro25.mp3",
+      "drive_id": "1Ts0_IVt0CSG9USueIaj3J1ul-87RtN4V",
+      "site_path": "assets/audio/vocab/interrogation/04interro25.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 26,
+      "filename": "04Interro26.mp3",
+      "drive_id": "18JK-JyuRTIRBp5ZCabtCxCg8j1Eq5zyg",
+      "site_path": "assets/audio/vocab/interrogation/04interro26.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 27,
+      "filename": "04Interro27.mp3",
+      "drive_id": "1Puje59TtZDVyri4Lfqlz5OLGfn24DcZF",
+      "site_path": "assets/audio/vocab/interrogation/04interro27.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 28,
+      "filename": "04Interro28.mp3",
+      "drive_id": "1w-zMsKRr_9eDSiIloJyND6nXo-FwyNXM",
+      "site_path": "assets/audio/vocab/interrogation/04interro28.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 29,
+      "filename": "04Interro29.mp3",
+      "drive_id": "1OGRdRuYkbDmw-1aTq7Dlq4MxdXScjz5O",
+      "site_path": "assets/audio/vocab/interrogation/04interro29.mp3"
+    },
+    {
+      "category_id": "interrogation",
+      "category": "Опрос и вопросы",
+      "order": 30,
+      "filename": "04Interro30.mp3",
+      "drive_id": "1JqdB_AbQ1ah7JffpjltvnnPtYk_XLBTP",
+      "site_path": "assets/audio/vocab/interrogation/04interro30.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 1,
+      "filename": "08Locations01.mp3",
+      "drive_id": "1HfpR2FrVCX_CXBfXxaMFK5XGZHuJJ04p",
+      "site_path": "assets/audio/vocab/locations/08locations01.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 2,
+      "filename": "08Locations02.mp3",
+      "drive_id": "1BoE84GHlmuARO5F0V8-IKpbSBxZZABKI",
+      "site_path": "assets/audio/vocab/locations/08locations02.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 3,
+      "filename": "08Locations03.mp3",
+      "drive_id": "1X7pTn7cCkb10HnWBn-yxSKUK0wkvBK_4",
+      "site_path": "assets/audio/vocab/locations/08locations03.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 4,
+      "filename": "08Locations04.mp3",
+      "drive_id": "1-CAW7v0ER0L6shQ2gN_q2a6MCEgLY6Sd",
+      "site_path": "assets/audio/vocab/locations/08locations04.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 5,
+      "filename": "08Locations05.mp3",
+      "drive_id": "1HnwVLvuHDr9FGKPLFzb5AVcG-Ye1c15O",
+      "site_path": "assets/audio/vocab/locations/08locations05.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 6,
+      "filename": "08Locations06.mp3",
+      "drive_id": "10iZa3GVWJQkP0EKrq2-iN_CivLKIiCdw",
+      "site_path": "assets/audio/vocab/locations/08locations06.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 7,
+      "filename": "08Locations07.mp3",
+      "drive_id": "1H_H3zgQs976IKYQaAgC9GT_8nhMeEu50",
+      "site_path": "assets/audio/vocab/locations/08locations07.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 8,
+      "filename": "08Locations08.mp3",
+      "drive_id": "1O961BuRAbag9sH2HSEiUvWPTjbtkdf88",
+      "site_path": "assets/audio/vocab/locations/08locations08.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 9,
+      "filename": "08Locations09.mp3",
+      "drive_id": "1n-qqd_8cETqcerGf5-YEJxY7RymN1Qhl",
+      "site_path": "assets/audio/vocab/locations/08locations09.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 10,
+      "filename": "08Locations10.mp3",
+      "drive_id": "1SLgixf0vOdv2ms3yW-olWooZnS7NuSlU",
+      "site_path": "assets/audio/vocab/locations/08locations10.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 11,
+      "filename": "08Locations11.mp3",
+      "drive_id": "1Je9cjzgA1xtHaraXtyAFAdLvXWf3IFlJ",
+      "site_path": "assets/audio/vocab/locations/08locations11.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 12,
+      "filename": "08Locations12.mp3",
+      "drive_id": "1WczGAXjHhsft7cRMNOay3EEOwHVzjAr2",
+      "site_path": "assets/audio/vocab/locations/08locations12.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 13,
+      "filename": "08Locations13.mp3",
+      "drive_id": "1eEFJzwHv905rXODLXeehtW70h4aC72Yj",
+      "site_path": "assets/audio/vocab/locations/08locations13.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 14,
+      "filename": "08Locations14.mp3",
+      "drive_id": "1uzU3cbzUi_khrtnnvIW_OdceyVfrKosc",
+      "site_path": "assets/audio/vocab/locations/08locations14.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 15,
+      "filename": "08Locations15.mp3",
+      "drive_id": "1ynoqNngjRX6t76YX_R5gRdhDkMOtHRZE",
+      "site_path": "assets/audio/vocab/locations/08locations15.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 16,
+      "filename": "08Locations16.mp3",
+      "drive_id": "1tVc4ZLNNmTV6oOb7-3-20nlz_QLgfesi",
+      "site_path": "assets/audio/vocab/locations/08locations16.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 17,
+      "filename": "08Locations17.mp3",
+      "drive_id": "1UUUgtBJA_QdKoq0X43JIJ1DqjGpc_aem",
+      "site_path": "assets/audio/vocab/locations/08locations17.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 18,
+      "filename": "08Locations18.mp3",
+      "drive_id": "12w019g1xy63nvEoixqoA9t41OABpsC1S",
+      "site_path": "assets/audio/vocab/locations/08locations18.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 19,
+      "filename": "08Locations19.mp3",
+      "drive_id": "1ShS3Fie4G0rfJTSfLdFxFSQteqkuGaUz",
+      "site_path": "assets/audio/vocab/locations/08locations19.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 20,
+      "filename": "08Locations20.mp3",
+      "drive_id": "1o_-W1xh3bpgiSrNjI70jc_SgtjN8LxPp",
+      "site_path": "assets/audio/vocab/locations/08locations20.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 21,
+      "filename": "08Locations21.mp3",
+      "drive_id": "1hCbzJL1uqmxxKGGar68snqi61YHosR3P",
+      "site_path": "assets/audio/vocab/locations/08locations21.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 22,
+      "filename": "08Locations22.mp3",
+      "drive_id": "1psiBgwHIkyZmz8AEie06SbquRBt0Um8D",
+      "site_path": "assets/audio/vocab/locations/08locations22.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 23,
+      "filename": "08Locations23.mp3",
+      "drive_id": "118IoH_q1LzWI3y5JIjpa5BulxVOoimyk",
+      "site_path": "assets/audio/vocab/locations/08locations23.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 24,
+      "filename": "08Locations24.mp3",
+      "drive_id": "1C7mMRuEDJ431IQLAZkF1NXFNSIksPtpb",
+      "site_path": "assets/audio/vocab/locations/08locations24.mp3"
+    },
+    {
+      "category_id": "locations",
+      "category": "Места и расположение",
+      "order": 25,
+      "filename": "08Locations25.mp3",
+      "drive_id": "1bk20ylSggM1jZ5nYk12-skphTKXS0wlC",
+      "site_path": "assets/audio/vocab/locations/08locations25.mp3"
+    },
+    {
+      "category_id": "lodging",
+      "category": "Жильё и размещение",
+      "order": 1,
+      "filename": "16Lodging01.mp3",
+      "drive_id": "1-pQ2Nn4pNIujN7bymrlZ-1_bKz75VoA7",
+      "site_path": "assets/audio/vocab/lodging/16lodging01.mp3"
+    },
+    {
+      "category_id": "lodging",
+      "category": "Жильё и размещение",
+      "order": 2,
+      "filename": "16Lodging02.mp3",
+      "drive_id": "1Hhlbo0BJ-B1KAgDilLfYrKO70Xji0R9K",
+      "site_path": "assets/audio/vocab/lodging/16lodging02.mp3"
+    },
+    {
+      "category_id": "lodging",
+      "category": "Жильё и размещение",
+      "order": 3,
+      "filename": "16Lodging03.mp3",
+      "drive_id": "19s_dS5f0TOFDfwIKd1W6jPlG-b-BJtDr",
+      "site_path": "assets/audio/vocab/lodging/16lodging03.mp3"
+    },
+    {
+      "category_id": "lodging",
+      "category": "Жильё и размещение",
+      "order": 4,
+      "filename": "16Lodging04.mp3",
+      "drive_id": "1O-sYKTF9WCkrgysqNraaRK4rO-WDujtG",
+      "site_path": "assets/audio/vocab/lodging/16lodging04.mp3"
+    },
+    {
+      "category_id": "lodging",
+      "category": "Жильё и размещение",
+      "order": 5,
+      "filename": "16Lodging05.mp3",
+      "drive_id": "1X-CC5Em9S1-mLcXEKTDfMNPlfsMCtmCP",
+      "site_path": "assets/audio/vocab/lodging/16lodging05.mp3"
+    },
+    {
+      "category_id": "lodging",
+      "category": "Жильё и размещение",
+      "order": 6,
+      "filename": "16Lodging06.mp3",
+      "drive_id": "1nYt77LwFNplNrdGSUnDfg0ffhfwqJhjl",
+      "site_path": "assets/audio/vocab/lodging/16lodging06.mp3"
+    },
+    {
+      "category_id": "lodging",
+      "category": "Жильё и размещение",
+      "order": 7,
+      "filename": "16Lodging07.mp3",
+      "drive_id": "1vVIcY79LPQJxQN8xZSRQkYL-1lBP6dH2",
+      "site_path": "assets/audio/vocab/lodging/16lodging07.mp3"
+    },
+    {
+      "category_id": "lodging",
+      "category": "Жильё и размещение",
+      "order": 8,
+      "filename": "16Lodging08.mp3",
+      "drive_id": "1b0JNrYaLANB8h40AKUFjlnRMv_Lpu5LA",
+      "site_path": "assets/audio/vocab/lodging/16lodging08.mp3"
+    },
+    {
+      "category_id": "lodging",
+      "category": "Жильё и размещение",
+      "order": 9,
+      "filename": "16Lodging09.mp3",
+      "drive_id": "1auEGrX7gXR21naVczal6ysw0ZLUxYjon",
+      "site_path": "assets/audio/vocab/lodging/16lodging09.mp3"
+    },
+    {
+      "category_id": "military",
+      "category": "Военная лексика",
+      "order": 1,
+      "filename": "15Military01.mp3",
+      "drive_id": "1s37Oo-KQkWGsjezW5D1p6ErWgIG3V6dH",
+      "site_path": "assets/audio/vocab/military/15military01.mp3"
+    },
+    {
+      "category_id": "military",
+      "category": "Военная лексика",
+      "order": 2,
+      "filename": "15Military02.mp3",
+      "drive_id": "1hjl5RTBhPFvDBMoCi1qdD8EvbrAVdjpe",
+      "site_path": "assets/audio/vocab/military/15military02.mp3"
+    },
+    {
+      "category_id": "military",
+      "category": "Военная лексика",
+      "order": 3,
+      "filename": "15Military03.mp3",
+      "drive_id": "1cvyd471YVVA1surI9ZR7ldtPWLS-anxq",
+      "site_path": "assets/audio/vocab/military/15military03.mp3"
+    },
+    {
+      "category_id": "military",
+      "category": "Военная лексика",
+      "order": 4,
+      "filename": "15Military04.mp3",
+      "drive_id": "1mA7_JxIkpdPs61h8zc7OV3KxWjF8669x",
+      "site_path": "assets/audio/vocab/military/15military04.mp3"
+    },
+    {
+      "category_id": "military",
+      "category": "Военная лексика",
+      "order": 5,
+      "filename": "15Military05.mp3",
+      "drive_id": "1fMJRmSBqgwl_FukjgIMc419uXMUMktVl",
+      "site_path": "assets/audio/vocab/military/15military05.mp3"
+    },
+    {
+      "category_id": "military",
+      "category": "Военная лексика",
+      "order": 6,
+      "filename": "15Military06.mp3",
+      "drive_id": "1E3BhGTZ2GcLUWro0Y6cfYKADYapwHUmm",
+      "site_path": "assets/audio/vocab/military/15military06.mp3"
+    },
+    {
+      "category_id": "military",
+      "category": "Военная лексика",
+      "order": 7,
+      "filename": "15Military07.mp3",
+      "drive_id": "1Gs1ZczfOYSraRok6SPC-Xh3pVWBWxZ5y",
+      "site_path": "assets/audio/vocab/military/15military07.mp3"
+    },
+    {
+      "category_id": "military",
+      "category": "Военная лексика",
+      "order": 8,
+      "filename": "15Military08.mp3",
+      "drive_id": "1h6tTHVJM0VlEPNxX7Sb6lYbRGfaA7pBm",
+      "site_path": "assets/audio/vocab/military/15military08.mp3"
+    },
+    {
+      "category_id": "military",
+      "category": "Военная лексика",
+      "order": 9,
+      "filename": "15Military09.mp3",
+      "drive_id": "1AazdaXm9yIao26f4W28dNd7rF8fZJjnm",
+      "site_path": "assets/audio/vocab/military/15military09.mp3"
+    },
+    {
+      "category_id": "military",
+      "category": "Военная лексика",
+      "order": 10,
+      "filename": "15Military10.mp3",
+      "drive_id": "19F4WQsqeWiW7HdpGV-QOHpd0MJ8Q7M8L",
+      "site_path": "assets/audio/vocab/military/15military10.mp3"
+    },
+    {
+      "category_id": "military",
+      "category": "Военная лексика",
+      "order": 11,
+      "filename": "15Military11.mp3",
+      "drive_id": "1wekaEY-a2_zeihoTBs5juZO02CKVf-bR",
+      "site_path": "assets/audio/vocab/military/15military11.mp3"
+    },
+    {
+      "category_id": "military",
+      "category": "Военная лексика",
+      "order": 12,
+      "filename": "15Military12.mp3",
+      "drive_id": "1sPG7ZaPxaqfuWZwHWJCcgxYKBlL_bVrv",
+      "site_path": "assets/audio/vocab/military/15military12.mp3"
+    },
+    {
+      "category_id": "military",
+      "category": "Военная лексика",
+      "order": 13,
+      "filename": "15Military13.mp3",
+      "drive_id": "178Gc_FegMOPhq5jiZZVQVcAYHupgUEyU",
+      "site_path": "assets/audio/vocab/military/15military13.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 1,
+      "filename": "22Mine01.mp3",
+      "drive_id": "1Cd8FfjK_zzfcKdKzhOO-MZQBNbCsMig9",
+      "site_path": "assets/audio/vocab/mine/22mine01.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 2,
+      "filename": "22Mine02.mp3",
+      "drive_id": "1M8uINqav1h4Q2TWXgMAx2leZGnzxCBo5",
+      "site_path": "assets/audio/vocab/mine/22mine02.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 3,
+      "filename": "22Mine03.mp3",
+      "drive_id": "1u713xpXBuJNBce6wsg6JuLUOAacEyoWb",
+      "site_path": "assets/audio/vocab/mine/22mine03.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 4,
+      "filename": "22Mine04.mp3",
+      "drive_id": "17KAEhk2zy-Gt1Q-ytctRGV4wJa_Nmqwc",
+      "site_path": "assets/audio/vocab/mine/22mine04.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 5,
+      "filename": "22Mine05.mp3",
+      "drive_id": "1wwx_CFaKmaCi73lm1l9lmDZpZ3qKttEg",
+      "site_path": "assets/audio/vocab/mine/22mine05.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 6,
+      "filename": "22Mine06.mp3",
+      "drive_id": "1qB839CHEsSZw4Ft1w_EaoIkdZp1KK1I5",
+      "site_path": "assets/audio/vocab/mine/22mine06.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 7,
+      "filename": "22Mine07.mp3",
+      "drive_id": "1ikVBWXxcJz6DrwVvx7hmnOouvYSxyT1w",
+      "site_path": "assets/audio/vocab/mine/22mine07.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 8,
+      "filename": "22Mine08.mp3",
+      "drive_id": "1nVUQNl-mdbWi0NWjTO4E8Mjkx1pE9dgj",
+      "site_path": "assets/audio/vocab/mine/22mine08.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 9,
+      "filename": "22Mine09.mp3",
+      "drive_id": "1orzpu-xzCm_PqoObuknoUUKEJLx8ic1k",
+      "site_path": "assets/audio/vocab/mine/22mine09.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 10,
+      "filename": "22Mine10.mp3",
+      "drive_id": "1lnxSoRJTl89yqxWnbBsttnEDdrSZU2D8",
+      "site_path": "assets/audio/vocab/mine/22mine10.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 11,
+      "filename": "22Mine11.mp3",
+      "drive_id": "13hGHIuDburRNLKzSkvATtFr_3qkBRXhr",
+      "site_path": "assets/audio/vocab/mine/22mine11.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 12,
+      "filename": "22Mine12.mp3",
+      "drive_id": "1gsLSXsCnUDCbj1ACRDrSeY_390RG4CdA",
+      "site_path": "assets/audio/vocab/mine/22mine12.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 13,
+      "filename": "22Mine13.mp3",
+      "drive_id": "1xcNBu3_Lt8mBxL7EQ7WPSQXzbototsPl",
+      "site_path": "assets/audio/vocab/mine/22mine13.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 14,
+      "filename": "22Mine14.mp3",
+      "drive_id": "1PHUB7XA2mSuwkgNuwPDAClPSHuOQal6r",
+      "site_path": "assets/audio/vocab/mine/22mine14.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 15,
+      "filename": "22Mine15.mp3",
+      "drive_id": "1QclFi3zLmO0Nqlb8SzDUsd6LP-V4mqHT",
+      "site_path": "assets/audio/vocab/mine/22mine15.mp3"
+    },
+    {
+      "category_id": "mine",
+      "category": "Мины",
+      "order": 16,
+      "filename": "22Mine16.mp3",
+      "drive_id": "1_s-wZLnWFdvlCn9sRsszBF71AFZhuLfJ",
+      "site_path": "assets/audio/vocab/mine/22mine16.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 1,
+      "filename": "17Occup01.mp3",
+      "drive_id": "1Vt8lGGtixCoGNbZsa1A20f_EqA7Gs3Cp",
+      "site_path": "assets/audio/vocab/occupation/17occup01.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 2,
+      "filename": "17Occup02.mp3",
+      "drive_id": "1qD9bu_7lMR6dCBgVh1iJsC0gq5XIZMAZ",
+      "site_path": "assets/audio/vocab/occupation/17occup02.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 3,
+      "filename": "17Occup03.mp3",
+      "drive_id": "1PhdC4cwS5h_ldzctQYOHdiAnNIXiLdkI",
+      "site_path": "assets/audio/vocab/occupation/17occup03.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 4,
+      "filename": "17Occup04.mp3",
+      "drive_id": "1eeQ0jEUPQTvJj0WB-BTxxCkN2kNmd-tz",
+      "site_path": "assets/audio/vocab/occupation/17occup04.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 5,
+      "filename": "17Occup05.mp3",
+      "drive_id": "1Xz0XBMkoTIA_IWU2ng_PIllWYno9wDoA",
+      "site_path": "assets/audio/vocab/occupation/17occup05.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 6,
+      "filename": "17Occup06.mp3",
+      "drive_id": "1NDkhPDVQbTx7plFPrzUQOjm1K-nOuhsH",
+      "site_path": "assets/audio/vocab/occupation/17occup06.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 7,
+      "filename": "17Occup07.mp3",
+      "drive_id": "1D-h5au9O7y0OJc4yJRAl2SgfCkPGPesp",
+      "site_path": "assets/audio/vocab/occupation/17occup07.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 8,
+      "filename": "17Occup08.mp3",
+      "drive_id": "1vg8Sd9pfJ8Aht_8LryGgptRMW6ze4CxK",
+      "site_path": "assets/audio/vocab/occupation/17occup08.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 9,
+      "filename": "17Occup09.mp3",
+      "drive_id": "1SGQBqtXlLUoq1fLK9t0mw3mREzZRpES9",
+      "site_path": "assets/audio/vocab/occupation/17occup09.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 10,
+      "filename": "17Occup10.mp3",
+      "drive_id": "1Bpw5jGhtk8qpKxjU2QA__FtPJ-8hY7nv",
+      "site_path": "assets/audio/vocab/occupation/17occup10.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 11,
+      "filename": "17Occup11.mp3",
+      "drive_id": "1cqLKVOfws1jb1EO6PuUByUVfNtjzeJxl",
+      "site_path": "assets/audio/vocab/occupation/17occup11.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 12,
+      "filename": "17Occup12.mp3",
+      "drive_id": "1T5YTCchy-1VbFWJwJ4hdhWbPMz3plCw8",
+      "site_path": "assets/audio/vocab/occupation/17occup12.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 13,
+      "filename": "17Occup13.mp3",
+      "drive_id": "1DdkqSsWPAcGWsFApoEBGAQXghoEA7zEp",
+      "site_path": "assets/audio/vocab/occupation/17occup13.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 14,
+      "filename": "17Occup14.mp3",
+      "drive_id": "1KMnl7Ng6LQhpR2UL6dU0cYQY31FeO8nN",
+      "site_path": "assets/audio/vocab/occupation/17occup14.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 15,
+      "filename": "17Occup15.mp3",
+      "drive_id": "1pI2TXhJwXwLVqThSSdz6vW8kCDeuyKgT",
+      "site_path": "assets/audio/vocab/occupation/17occup15.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 16,
+      "filename": "17Occup16.mp3",
+      "drive_id": "1_T7DZfp51Z3T_0e0bmbE_55iF_K2Md-F",
+      "site_path": "assets/audio/vocab/occupation/17occup16.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 17,
+      "filename": "17Occup17.mp3",
+      "drive_id": "16YzOlFFvqXu9AeyRQwNT2Z1U7YTOUlQj",
+      "site_path": "assets/audio/vocab/occupation/17occup17.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 18,
+      "filename": "17Occup18.mp3",
+      "drive_id": "1Ny7fi5C7RcDD8hhHntO9UqqkuhTZ-972",
+      "site_path": "assets/audio/vocab/occupation/17occup18.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 19,
+      "filename": "17Occup19.mp3",
+      "drive_id": "1WNGRClViE14CigLtrDsOvQpxELmdacRX",
+      "site_path": "assets/audio/vocab/occupation/17occup19.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 20,
+      "filename": "17Occup20.mp3",
+      "drive_id": "17Yy9GDPh7IrOW43lnLvHP35TB1QcCZV5",
+      "site_path": "assets/audio/vocab/occupation/17occup20.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 21,
+      "filename": "17Occup21.mp3",
+      "drive_id": "1fb7rhYmFSrnYvbdKwO0se9YKva3fbpfv",
+      "site_path": "assets/audio/vocab/occupation/17occup21.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 22,
+      "filename": "17Occup22.mp3",
+      "drive_id": "1mrOIZpyTyrPAO1OT-5_lgMkmPkrkau2f",
+      "site_path": "assets/audio/vocab/occupation/17occup22.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 23,
+      "filename": "17Occup23.mp3",
+      "drive_id": "1lVAkRzgnnVYdbY4CfHcSatWVlOgrWhpj",
+      "site_path": "assets/audio/vocab/occupation/17occup23.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 24,
+      "filename": "17Occup24.mp3",
+      "drive_id": "1Q8if7iWUlos-UKtfgrc5O25aKcFn1852",
+      "site_path": "assets/audio/vocab/occupation/17occup24.mp3"
+    },
+    {
+      "category_id": "occupation",
+      "category": "Профессии",
+      "order": 25,
+      "filename": "17Occup25.mp3",
+      "drive_id": "1WFVR8V1gh8QDXq-6k6Rbw8DNI78U0eSg",
+      "site_path": "assets/audio/vocab/occupation/17occup25.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 1,
+      "filename": "09E_Qualities32.mp3",
+      "drive_id": "1CuWSj-CVA2gg7VuTrZ0P2729wxIhSBTM",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities32.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 2,
+      "filename": "09E_Qualities33.mp3",
+      "drive_id": "1_QaaY-WO30c5n-uy5RwVhPBdfHtPZ_ti",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities33.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 3,
+      "filename": "09E_Qualities34.mp3",
+      "drive_id": "1QQrhZnXFghT9kzwZfddYZeIsvBUjAdcX",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities34.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 4,
+      "filename": "09E_Qualities35.mp3",
+      "drive_id": "15iWI4yF0s5O-RpbfYajapRgTG8eGMYu9",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities35.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 5,
+      "filename": "09E_Qualities36.mp3",
+      "drive_id": "1P3GhPAeQNWBQ6K6jkf-mKqZursFTzut9",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities36.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 6,
+      "filename": "09E_Qualities37.mp3",
+      "drive_id": "1tHZYr0tge-YigQ63sAEmLnPbXqTUbQwo",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities37.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 7,
+      "filename": "09E_Qualities38.mp3",
+      "drive_id": "1c7J9UgeqAXDEPD1Ewhl1J7Yj1ZIra7V2",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities38.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 8,
+      "filename": "09E_Qualities39.mp3",
+      "drive_id": "11AeaDJe4a4k5cv9cdHjFXQ1WAX6wETap",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities39.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 9,
+      "filename": "09E_Qualities40.mp3",
+      "drive_id": "1k9Q4ca8QV-EyXoOlslaMku3flfYUOiVi",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities40.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 10,
+      "filename": "09E_Qualities41.mp3",
+      "drive_id": "1fTM5iO-anETjmMdbpElhxxTTGQXkP4wl",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities41.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 11,
+      "filename": "09E_Qualities42.mp3",
+      "drive_id": "1ZUMcf0OyTGQzmMIDioE2K7w9NoZDBuUe",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities42.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 12,
+      "filename": "09E_Qualities43.mp3",
+      "drive_id": "1v2mUDFjwzHFKhctFSIRS7fy2d8iHgcnR",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities43.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 13,
+      "filename": "09E_Qualities44.mp3",
+      "drive_id": "1zjknUNNkIAFLxokP6gmWM-1uLFdrEWRS",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities44.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 14,
+      "filename": "09E_Qualities45.mp3",
+      "drive_id": "1EhabwVnDjQ6Pe96LvmGGopSfnajnCzJx",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities45.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 15,
+      "filename": "09E_Qualities46.mp3",
+      "drive_id": "1lU-njCuV3N31eOeX5YvAPx9Io0s0v7Bx",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities46.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 16,
+      "filename": "09E_Qualities47.mp3",
+      "drive_id": "19kZ2H5znlW2fqSEMgKTcRlwiHfjY57qe",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities47.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 17,
+      "filename": "09E_Qualities48.mp3",
+      "drive_id": "1ZeQ1pap1LKQQ-noq79_gP3MsG-TcfjPN",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities48.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 18,
+      "filename": "09E_Qualities49.mp3",
+      "drive_id": "1VkHJHS7JUI1IGMyA4oEThdvkbQ2a_kBA",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities49.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 19,
+      "filename": "09E_Qualities50.mp3",
+      "drive_id": "1_2nXS9a5bg3x1IQpaLhykjJk_dQl1ba5",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities50.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 20,
+      "filename": "09E_Qualities51.mp3",
+      "drive_id": "1eUGmRAgNqNk5VZ81rQR_h9G-PTE6aSSU",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities51.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 21,
+      "filename": "09E_Qualities52.mp3",
+      "drive_id": "1HLCoWRr78DX3gTjvdQOVZ4f0Nd73mSsm",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities52.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 22,
+      "filename": "09E_Qualities53.mp3",
+      "drive_id": "1gk7LCMkeUsQO8fl0K-pFKtmflskiTjDK",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities53.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 23,
+      "filename": "09E_Qualities54.mp3",
+      "drive_id": "1ZaQjpgm5uVHFLfwSqq8aGSHwUd29cIOJ",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities54.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 24,
+      "filename": "09E_Qualities55.mp3",
+      "drive_id": "1R_V2qBTsUpcEG3wR9VZuWWCTAjGKFTw6",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities55.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 25,
+      "filename": "09E_Qualities56.mp3",
+      "drive_id": "1sg91iJ0EFTlaisBfF-6KfVZf54S8wcrN",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities56.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 26,
+      "filename": "09E_Qualities57.mp3",
+      "drive_id": "1l6SkoQAAWN6o4-v85Ff4yDexGeUYe3lJ",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities57.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 27,
+      "filename": "09E_Qualities58.mp3",
+      "drive_id": "1twgP5Cg9F8gcXDNtMnXiIdBm90D-aTk8",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities58.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 28,
+      "filename": "09E_Qualities59.mp3",
+      "drive_id": "1djQPbxOMgcZ9wmJoHa_FElkWG3nrzLxq",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities59.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 29,
+      "filename": "09E_Qualities60.mp3",
+      "drive_id": "1HjvcZ1JrYURDJ8yIUyZaEijIRAIQvXqZ",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities60.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 30,
+      "filename": "09E_Qualities61.mp3",
+      "drive_id": "1pr3KUQsOkgLm2WeSdeRs-j8Hk-WUxdJP",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities61.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 31,
+      "filename": "09E_Qualities62.mp3",
+      "drive_id": "1DnS6BQ6fFAKAhJpiMn0QP8I7iyZmVFQD",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities62.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 32,
+      "filename": "09E_Qualities63.mp3",
+      "drive_id": "1nvhyu637L6yDO6Db84gnBYj5veeIPPfZ",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities63.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 33,
+      "filename": "09E_Qualities64.mp3",
+      "drive_id": "1sXXeB95ydiYukOXF8rIZnrnbhN_II6lo",
+      "site_path": "assets/audio/vocab/qualities/09e_qualities64.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 34,
+      "filename": "09F_Quantities65.mp3",
+      "drive_id": "1gSk2sb_0a2WH_fxD27bnkovAZ25Gh2C2",
+      "site_path": "assets/audio/vocab/qualities/09f_quantities65.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 35,
+      "filename": "09F_Quantities66.mp3",
+      "drive_id": "1WnwqhqQDaINWmBdvucABW9r7rjvW8KOo",
+      "site_path": "assets/audio/vocab/qualities/09f_quantities66.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 36,
+      "filename": "09F_Quantities67.mp3",
+      "drive_id": "1uXJlHoHhmEKSs-EKvHWHAYwZKB_jgdbR",
+      "site_path": "assets/audio/vocab/qualities/09f_quantities67.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 37,
+      "filename": "09F_Quantities68.mp3",
+      "drive_id": "1-t9QUtaWw0ronrQxP739RXiskuYBzPyk",
+      "site_path": "assets/audio/vocab/qualities/09f_quantities68.mp3"
+    },
+    {
+      "category_id": "qualities",
+      "category": "Качества и количества",
+      "order": 38,
+      "filename": "09F_Quantities69.mp3",
+      "drive_id": "1Z5nl8PrcVIQq-RRqy-L2QD0AjONC-sn4",
+      "site_path": "assets/audio/vocab/qualities/09f_quantities69.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 1,
+      "filename": "19Relative01.mp3",
+      "drive_id": "14eeaNoB60iIpmouTYrV_hs2TqT7rtOe3",
+      "site_path": "assets/audio/vocab/relative/19relative01.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 2,
+      "filename": "19Relative02.mp3",
+      "drive_id": "1rKguOWQgh6M8XQSTIrxnu_aZW5X4ENU8",
+      "site_path": "assets/audio/vocab/relative/19relative02.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 3,
+      "filename": "19Relative03.mp3",
+      "drive_id": "1GVsSN-9MgMqbzS8arjFVOoIjV7t9CHvq",
+      "site_path": "assets/audio/vocab/relative/19relative03.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 4,
+      "filename": "19Relative04.mp3",
+      "drive_id": "1gflzoxfoIZ5r1wniBj9VOmJGw0NWoLej",
+      "site_path": "assets/audio/vocab/relative/19relative04.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 5,
+      "filename": "19Relative05.mp3",
+      "drive_id": "1f-ZdQ-mvkfddomaNXhiy4Z_7Zz6_aPAA",
+      "site_path": "assets/audio/vocab/relative/19relative05.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 6,
+      "filename": "19Relative06.mp3",
+      "drive_id": "1HtFFP_S-taDQu_XHhgD1g2hgnKh8XXMh",
+      "site_path": "assets/audio/vocab/relative/19relative06.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 7,
+      "filename": "19Relative07.mp3",
+      "drive_id": "1UpZ7PVrbDkNLe88T2EQ-gOHESY1lesQn",
+      "site_path": "assets/audio/vocab/relative/19relative07.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 8,
+      "filename": "19Relative08.mp3",
+      "drive_id": "1lSV3D0HcFzwROubLQ6zWy7MlUrf9bWba",
+      "site_path": "assets/audio/vocab/relative/19relative08.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 9,
+      "filename": "19Relative09.mp3",
+      "drive_id": "1pZz3EgBxE_WdaDAEhcoxli83b_tUROqr",
+      "site_path": "assets/audio/vocab/relative/19relative09.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 10,
+      "filename": "19Relative10.mp3",
+      "drive_id": "1clotWVHbxnEotwd0v17bBJn5wO5AjtVq",
+      "site_path": "assets/audio/vocab/relative/19relative10.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 11,
+      "filename": "19Relative11.mp3",
+      "drive_id": "1c4zeJA3i6KU30Yz3NHX0cxfONa1sYEpq",
+      "site_path": "assets/audio/vocab/relative/19relative11.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 12,
+      "filename": "19Relative12.mp3",
+      "drive_id": "1FbzEKAjh2q_IXbTss3odT0yj-F-Dlc00",
+      "site_path": "assets/audio/vocab/relative/19relative12.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 13,
+      "filename": "19Relative13.mp3",
+      "drive_id": "1HgUaL-RWpybYJ3FxAW2OFwpYjjFWIpRm",
+      "site_path": "assets/audio/vocab/relative/19relative13.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 14,
+      "filename": "19Relative14.mp3",
+      "drive_id": "1BNeDi9ieOzDdr8E3H34ZitcDEG-Kn54e",
+      "site_path": "assets/audio/vocab/relative/19relative14.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 15,
+      "filename": "19Relative15.mp3",
+      "drive_id": "1C-dn8dMzOdlgAzmZfDxf8ZVe8kttGV--",
+      "site_path": "assets/audio/vocab/relative/19relative15.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 16,
+      "filename": "19Relative16.mp3",
+      "drive_id": "14mWmfLCOYhy_KAcpck4gNaPGMEkAVYQ0",
+      "site_path": "assets/audio/vocab/relative/19relative16.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 17,
+      "filename": "19Relative17.mp3",
+      "drive_id": "1pSRS_QF9SUXNUWUS_XxJBwJoltWNtq8D",
+      "site_path": "assets/audio/vocab/relative/19relative17.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 18,
+      "filename": "19Relative18.mp3",
+      "drive_id": "1Hmp4fqJrARdxO5LpQjM3_TFoKXwOIf1B",
+      "site_path": "assets/audio/vocab/relative/19relative18.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 19,
+      "filename": "19Relative19.mp3",
+      "drive_id": "1MlmKsLonuu-RWDSLLsFC1vUlqHcekOyp",
+      "site_path": "assets/audio/vocab/relative/19relative19.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 20,
+      "filename": "19Relative20.mp3",
+      "drive_id": "1AP2uwnapKSBOm44tHjGLA32CoaoG-MbB",
+      "site_path": "assets/audio/vocab/relative/19relative20.mp3"
+    },
+    {
+      "category_id": "relative",
+      "category": "Родственные отношения",
+      "order": 21,
+      "filename": "19Relative21.mp3",
+      "drive_id": "1fkwuC1Dba2HVoD88xpUPRlCHZZRsssSl",
+      "site_path": "assets/audio/vocab/relative/19relative21.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 1,
+      "filename": "09B_Sizes11.mp3",
+      "drive_id": "1oVOMUn2VFeoXwHxM8iQOagjiXbq_SRRt",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09b_sizes11.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 2,
+      "filename": "09B_Sizes12.mp3",
+      "drive_id": "17xy3rHBqhZOYR-coiC07ojeI8CJ_GloF",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09b_sizes12.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 3,
+      "filename": "09B_Sizes13.mp3",
+      "drive_id": "1VDRnWDmtseJ6n3LqPaN_6JQnIci23wcy",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09b_sizes13.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 4,
+      "filename": "09B_Sizes14.mp3",
+      "drive_id": "1b2N_VHWKc03SPHdJn6alrB7_XJXBYyp-",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09b_sizes14.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 5,
+      "filename": "09B_Sizes15.mp3",
+      "drive_id": "13VAHLqpFc_UNcMbYxVPULv5I03xLf4ha",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09b_sizes15.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 6,
+      "filename": "09B_Sizes16.mp3",
+      "drive_id": "1zFa8HBx9Zpeei24hxMkiE-DBGNqfhosk",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09b_sizes16.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 7,
+      "filename": "09B_Sizes17.mp3",
+      "drive_id": "1elFs5CJaY6RwYWteJMcebrHW6F76Z05d",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09b_sizes17.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 8,
+      "filename": "09B_Sizes18.mp3",
+      "drive_id": "1ake14Gp42imIOq-K5Ux6yvfyttuHxIfI",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09b_sizes18.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 9,
+      "filename": "09B_Sizes19.mp3",
+      "drive_id": "1WLQDZLht-JFPakOGZO5x17db7HeZ3OQX",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09b_sizes19.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 10,
+      "filename": "09B_Sizes20.mp3",
+      "drive_id": "1YLryJQTi5kwj5Scrnr8u3AA7xMce2r-e",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09b_sizes20.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 11,
+      "filename": "09B_Sizes21.mp3",
+      "drive_id": "1Pf1qgLmDKo7n2yaqjxHI1ITBlpybnIoJ",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09b_sizes21.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 12,
+      "filename": "09C_Shapes22.mp3",
+      "drive_id": "1ei38ZdjMsQ-ts1f5f-mTGBp1r1pnxjpA",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09c_shapes22.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 13,
+      "filename": "09C_Shapes23.mp3",
+      "drive_id": "1vvjGfx1fdh-d1TMyljhKHlaEafv7Stuw",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09c_shapes23.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 14,
+      "filename": "09C_Shapes24.mp3",
+      "drive_id": "1_N9JvbVnI3ruc6olwnAw-mkLvvt8BAC1",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09c_shapes24.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 15,
+      "filename": "09C_Shapes25.mp3",
+      "drive_id": "142OZoRONdJqub_fEVa18SuC7XiAsbmsB",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09c_shapes25.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 16,
+      "filename": "09D_Tastes26.mp3",
+      "drive_id": "16zY8YvK8WG6r11Ig1UJS-xAns3OSOE0t",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09d_tastes26.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 17,
+      "filename": "09D_Tastes27.mp3",
+      "drive_id": "1-OqHmWX_v6LGsUfEDAO25YE-77v_xX5Q",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09d_tastes27.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 18,
+      "filename": "09D_Tastes28.mp3",
+      "drive_id": "1H2GTNzIv8or5v5mOgBzFmN6VrkUCHIzW",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09d_tastes28.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 19,
+      "filename": "09D_Tastes29.mp3",
+      "drive_id": "1EXSCcXs2y1mPGRWyx-ZSD_Ypt38QrO4p",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09d_tastes29.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 20,
+      "filename": "09D_Tastes30.mp3",
+      "drive_id": "1mQxUjhFzNMkd5q77SyhXdSOVJ6VcTtRY",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09d_tastes30.mp3"
+    },
+    {
+      "category_id": "sizes-shapes-tastes",
+      "category": "Размеры, формы и вкусы",
+      "order": 21,
+      "filename": "09D_Tastes31.mp3",
+      "drive_id": "1tXs0J4UNLZVZJuGFVbYiMNjCjiDAFV8X",
+      "site_path": "assets/audio/vocab/sizes shapes tastes/09d_tastes31.mp3"
+    },
+    {
+      "category_id": "letter-sounds",
+      "category": "Звуки букв خ ق غ ع",
+      "order": 1,
+      "filename": "00_01_da_phon_Kh.mp3",
+      "drive_id": "1xJOIrFny93k5S5BhuggsGRGEPbKOdFo8",
+      "site_path": "https://drive.google.com/uc?export=download&id=1xJOIrFny93k5S5BhuggsGRGEPbKOdFo8"
+    },
+    {
+      "category_id": "letter-sounds",
+      "category": "Звуки букв خ ق غ ع",
+      "order": 2,
+      "filename": "00_02_da_phon_q.mp3",
+      "drive_id": "1w_9vlFH5Uizsa-SmiSixx4RBJUMv-N6A",
+      "site_path": "https://drive.google.com/uc?export=download&id=1w_9vlFH5Uizsa-SmiSixx4RBJUMv-N6A"
+    },
+    {
+      "category_id": "letter-sounds",
+      "category": "Звуки букв خ ق غ ع",
+      "order": 3,
+      "filename": "00_03_da_phon_gh.mp3",
+      "drive_id": "1Fe8uul7NZNTnPS35N-OTsz9wdS3HMdOr",
+      "site_path": "https://drive.google.com/uc?export=download&id=1Fe8uul7NZNTnPS35N-OTsz9wdS3HMdOr"
+    },
+    {
+      "category_id": "letter-sounds",
+      "category": "Звуки букв خ ق غ ع",
+      "order": 4,
+      "filename": "00_04_da_phon_ain.mp3",
+      "drive_id": "1dfYSdPEb2jh-mIuWNRxNb_NdluEh4NRN",
+      "site_path": "https://drive.google.com/uc?export=download&id=1dfYSdPEb2jh-mIuWNRxNb_NdluEh4NRN"
+    }
+  ]
+}
