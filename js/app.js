@@ -2200,7 +2200,7 @@
       case "lesson": return { nav: "lessons", title: `Урок ${parts[1] || ""}` };
       case "vocab": return { nav: "vocab", title: parts[1] ? ((DATA.vocab.packs.find((x) => x.id === parts[1]) || {}).title || "Словарь") : "Словарь" };
       case "trainer": return { nav: "vocab", title: "Аудиотренажёр" };
-      case "practice": return { nav: "practice", title: "Практика" };
+      case "game": return { nav: "game", title: "Игра" };\n      case "practice": return { nav: "practice", title: "Практика" };
       case "library": return { nav: "library", title: "Аудиотека" };
       case "textbook-1": return { nav: "textbook-1", title: "Учебник: курс 1" };
       case "textbook-2": case "textbook": return { nav: "textbook-2", title: "Учебник: курс 2" };
@@ -2260,7 +2260,7 @@
     else if (section === "lesson") html = renderLesson(parts[1]);
     else if (section === "vocab") html = parts[1] ? renderPack(parts[1]) : renderVocab();
     else if (section === "trainer") html = renderTrainer(parts[1]);
-    else if (section === "practice") html = renderPractice();
+    else if (section === "game") html = "";\n    else if (section === "practice") html = renderPractice();
     else if (section === "library") html = renderLibrary(parts[1]);
     else if (section === "textbook-1") html = renderTextbook(1);
     else if (section === "textbook-2" || section === "textbook") html = parts[1] && parts[1].startsWith("lesson-") ? renderTextbook2Collection(parts[1].slice(7)) : parts[1] && parts[1].startsWith("phrases-") ? renderPhrasePractice(parts[1].slice(8)) : renderTextbook(2);
