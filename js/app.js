@@ -2200,7 +2200,7 @@
       case "lesson": return { nav: "lessons", title: `Урок ${parts[1] || ""}` };
       case "vocab": return { nav: "vocab", title: parts[1] ? ((DATA.vocab.packs.find((x) => x.id === parts[1]) || {}).title || "Словарь") : "Словарь" };
       case "trainer": return { nav: "vocab", title: "Аудиотренажёр" };
-      case "game": return { nav: "game", title: "Игра" };\n      case "game": return { nav: "game", title: "Игра" };
+      case "game": return { nav: "game", title: "Игра" };
       case "practice": return { nav: "practice", title: "Практика" };
       case "library": return { nav: "library", title: "Аудиотека" };
       case "textbook-1": return { nav: "textbook-1", title: "Учебник: курс 1" };
@@ -2267,7 +2267,7 @@
     zabul: "Забуль"
   };
   const gameKey = (value) => String(value || "").toLowerCase().normalize("NFD")
-    .replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]/g, "");
+    .replace(/\p{Diacritic}/gu, "").replace(/[^a-z0-9]/g, "");
   let gameMapFeatures = null;
   let gameMapLoading = false;
   let gameMapError = "";
@@ -2425,7 +2425,7 @@
     else if (section === "lesson") html = renderLesson(parts[1]);
     else if (section === "vocab") html = parts[1] ? renderPack(parts[1]) : renderVocab();
     else if (section === "trainer") html = renderTrainer(parts[1]);
-    else if (section === "game") html = "";\n    else if (section === "game") html = renderGame();
+    else if (section === "game") html = renderGame();
     else if (section === "practice") html = renderPractice();
     else if (section === "library") html = renderLibrary(parts[1]);
     else if (section === "textbook-1") html = renderTextbook(1);
