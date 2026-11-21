@@ -884,6 +884,16 @@
           </button>`).join("")}
         </div>
       </div>
+      <div class="material-panel">
+        <div class="panel-head"><div><h3>Для учителя</h3><p>${(DATA.alphabetTeacherPdfs || []).length} PDF · материалы для преподавателя по алфавиту A–Z.</p></div></div>
+        <div class="pdf-list">
+          ${(DATA.alphabetTeacherPdfs || []).map((pdf) => `<button class="pdf-row" type="button" data-lib-pdf="${esc(pdf.id)}" data-page="1" data-title="${esc(pdf.name.replace(/\.pdf$/i, ""))}" data-subtitle="Для учителя · Dari A–Z Teacher Copy">
+            <span class="pdf-icon">PDF</span>
+            <span><strong>${esc(pdf.name.replace(/\.pdf$/i, ""))}</strong><span>Материал для учителя</span></span>
+            <span class="open-arrow">${svg("external")}</span>
+          </button>`).join("")}
+        </div>
+      </div>
     </div>`;
 
   const renderLetterModal = (letter) => {
