@@ -780,6 +780,7 @@
     let content = "";
     if (ui.alphabetTab === "intro") content = renderIntroTab();
     else if (ui.alphabetTab === "materials") content = renderMaterialsTab();
+    else if (ui.alphabetTab === "teacher") content = renderTeacherTab();
     else content = renderLettersTab();
     const total = DATA.meta.counts;
 
@@ -798,6 +799,7 @@
         <button class="tab ${ui.alphabetTab === "letters" ? "active" : ""}" type="button" data-alpha-tab="letters" role="tab" aria-selected="${ui.alphabetTab === "letters"}">Буквы <small>${total.letters}</small></button>
         <button class="tab ${ui.alphabetTab === "intro" ? "active" : ""}" type="button" data-alpha-tab="intro" role="tab" aria-selected="${ui.alphabetTab === "intro"}">Уроки A–Z <small>${total.intro}</small></button>
         <button class="tab ${ui.alphabetTab === "materials" ? "active" : ""}" type="button" data-alpha-tab="materials" role="tab" aria-selected="${ui.alphabetTab === "materials"}">Аудио и PDF <small>${total.alphabetPdfs + DATA.alphabetAudio.length}</small></button>
+        <button class="tab ${ui.alphabetTab === "teacher" ? "active" : ""}" type="button" data-alpha-tab="teacher" role="tab" aria-selected="${ui.alphabetTab === "teacher"}">Для учителя <small>${(DATA.alphabetTeacherPdfs || []).length}</small></button>
       </div>
       ${content}
     </div>`;
@@ -884,15 +886,17 @@
           </button>`).join("")}
         </div>
       </div>
-      <div class="material-panel">
-        <div class="panel-head"><div><h3>Для учителя</h3><p>${(DATA.alphabetTeacherPdfs || []).length} PDF · материалы для преподавателя по алфавиту A–Z.</p></div></div>
-        <div class="pdf-list">
-          ${(DATA.alphabetTeacherPdfs || []).map((pdf) => `<button class="pdf-row" type="button" data-lib-pdf="${esc(pdf.id)}" data-page="1" data-title="${esc(pdf.name.replace(/\.pdf$/i, ""))}" data-subtitle="Для учителя · Dari A–Z Teacher Copy">
-            <span class="pdf-icon">PDF</span>
-            <span><strong>${esc(pdf.name.replace(/\.pdf$/i, ""))}</strong><span>Материал для учителя</span></span>
-            <span class="open-arrow">${svg("external")}</span>
-          </button>`).join("")}
-        </div>
+    </div>`;
+
+  const renderTeacherTab = () => `
+    <div class="material-panel">
+      <div class="panel-head"><div><h2>Материалы для учителя</h2><p>${(DATA.alphabetTeacherPdfs || []).length} PDF · Dari A–Z Teacher Copy.</p></div></div>
+      <div class="pdf-list">
+        ${(DATA.alphabetTeacherPdfs || []).map((pdf) => `<button class="pdf-row" type="button" data-lib-pdf="${esc(pdf.id)}" data-page="1" data-title="${esc(pdf.name.replace(/\.pdf$/i, ""))}" data-subtitle="Для учителя · Dari A–Z Teacher Copy">
+          <span class="pdf-icon">PDF</span>
+          <span><strong>${esc(pdf.name.replace(/\.pdf$/i, ""))}</strong><span>Материал для учителя</span></span>
+          <span class="open-arrow">${svg("external")}</span>
+        </button>`).join("")}
       </div>
     </div>`;
 
