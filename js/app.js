@@ -1298,7 +1298,7 @@
         <div>
           <span class="eyebrow">Лексика</span>
           <h1>Словарь с голосом</h1>
-          <p>${total.vocabWords} карточки в шести наборах и ${total.trainers} аудиотренажёров. В каждой записи звучит дари — слушайте, повторяйте, отмечайте знакомые слова.</p>
+          <p>${total.vocabWords + 10} карточек в наборах с озвучкой. Слушайте произношение на дари, переворачивайте карточки и отмечайте знакомые слова.</p>
         </div>
         <div class="page-head-actions"><span class="badge badge-green">${wordsDone()} из ${total.vocabWords} слов</span></div>
       </div>
@@ -1318,11 +1318,11 @@
       </div>
 
       <div class="section-head">
-        <div><h2>Аудиотренажёры</h2><p>Наборы без перевода: тренируйте слух на тематических подборках из архива.</p></div>
-        <span class="small muted">${fmt(DATA.vocab.trainers.reduce((s, t) => s + t.count, 0))} записей</span>
+        <div><h2>Аудиотренажёры</h2><p>Дополнительные аудиоподборки для тренировки восприятия речи на слух.</p></div>
+        <span class="small muted">${fmt(DATA.vocab.trainers.filter((t) => t.id !== "greetings").reduce((s, t) => s + t.count, 0))} записей</span>
       </div>
       <div class="trainer-grid">
-        ${DATA.vocab.trainers.map((trainer) => `<a class="trainer-card" href="#/trainer/${esc(trainer.id)}">
+        ${DATA.vocab.trainers.filter((trainer) => trainer.id !== "greetings").map((trainer) => `<a class="trainer-card" href="#/trainer/${esc(trainer.id)}">
           <span class="trainer-icon">${svg("headphones")}</span>
           <div><h4>${esc(trainer.title)}</h4><p>${esc(trainer.description)}</p></div>
           <span class="count">${trainer.count}</span>
@@ -1378,11 +1378,11 @@
       <div class="flashcard-stage">
         <div class="flashcard ${ui.flashFlipped ? "flipped" : ""} ${russianFirst ? "russian-first" : ""}" data-flip-card tabindex="0" role="button" aria-label="Перевернуть карточку">
           <div class="flash-face front">
-            ${russianFirst ? `<div class="flash-numeral" style="color:var(--gold)">${isKnown ? "знакомое слово" : "перевод"}</div><div class="flash-ru">${esc(card.ru)}</div>${card.note ? `<div class="flash-note">${esc(card.note)}</div>` : ""}` : `${card.numeral ? `<div class="flash-numeral">${esc(card.numeral)}</div>` : ""}<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div>${card.audio ? `<button class="btn btn-soft btn-sm" type="button" data-play-src="${esc(card.audio)}" data-title="${esc(card.dari)}" data-subtitle="${esc(card.translit + " — " + card.ru)}">${svg("volume")} Слушать</button>` : ""}`}
+            ${russianFirst ? `<div class="flash-numeral" style="color:var(--gold)">${isKnown ? "знакомое слово" : "перевод"}</div><div class="flash-ru">${esc(card.ru)}</div>${card.note ? `<div class="flash-note">${esc(card.note)}</div>` : ""}` : `${card.numeral ? `<div class="flash-numeral">${esc(card.numeral)}</div>` : ""}<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${card.translit ? esc(card.translit) : ""}</div>${card.audio ? `<button class="btn btn-soft btn-sm" type="button" data-play-src="${esc(card.audio)}" data-title="${esc(card.dari)}" data-subtitle="${esc(card.translit + " — " + card.ru)}">${svg("volume")} Слушать</button>` : ""}`}
             <span class="hint">Нажмите на карточку, чтобы увидеть ${russianFirst ? "дари" : "перевод"}</span>
           </div>
           <div class="flash-face back">
-            ${russianFirst ? `${card.numeral ? `<div class="flash-numeral">${esc(card.numeral)}</div>` : ""}<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div>${card.audio ? `<button class="btn btn-soft btn-sm" type="button" data-play-src="${esc(card.audio)}" data-title="${esc(card.dari)}" data-subtitle="${esc(card.translit + " — " + card.ru)}">${svg("volume")} Слушать</button>` : ""}` : `<div class="flash-numeral" style="color:var(--gold)">${isKnown ? "знакомое слово" : "перевод"}</div><div class="flash-ru">${esc(card.ru)}</div><div class="flash-translit" style="color:var(--gold)">${esc(card.translit)}</div>${card.note ? `<div class="flash-note">${esc(card.note)}</div>` : ""}`}
+            ${russianFirst ? `${card.numeral ? `<div class="flash-numeral">${esc(card.numeral)}</div>` : ""}<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${card.translit ? esc(card.translit) : ""}</div>${card.audio ? `<button class="btn btn-soft btn-sm" type="button" data-play-src="${esc(card.audio)}" data-title="${esc(card.dari)}" data-subtitle="${esc(card.translit + " — " + card.ru)}">${svg("volume")} Слушать</button>` : ""}` : `<div class="flash-numeral" style="color:var(--gold)">${isKnown ? "знакомое слово" : "перевод"}</div><div class="flash-ru">${esc(card.ru)}</div><div class="flash-translit" style="color:var(--gold)">${esc(card.translit)}</div>${card.note ? `<div class="flash-note">${esc(card.note)}</div>` : ""}`}
             <span class="hint">Нажмите ещё раз, чтобы вернуться</span>
           </div>
         </div>
@@ -1445,6 +1445,7 @@
   };
 
   const renderTrainer = (id) => {
+    if (id === "greetings") return renderPack("greetings");
     const trainer = DATA.vocab.trainers.find((x) => x.id === id);
     if (!trainer) return notFound("Тренажёр не найден");
     remember({ label: "Аудиотренажёр", title: trainer.title, subtitle: `${trainer.count} записей · ${trainer.description}`, href: `#/trainer/${trainer.id}`, mark: "🎧" });
