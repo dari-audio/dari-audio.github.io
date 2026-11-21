@@ -2369,7 +2369,7 @@
     </div>`;
   };
   const loadGameMap = async () => {
-    if (gameMapFeatures || gameMapLoading) return;
+    if (gameMapFeatures || gameMapLoading || gameMapError) return;
     gameMapLoading = true;
     gameMapError = "";
     try {
