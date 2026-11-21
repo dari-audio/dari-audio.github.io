@@ -1298,7 +1298,7 @@
         <div>
           <span class="eyebrow">Лексика</span>
           <h1>Словарь с голосом</h1>
-          <p>${total.vocabWords + 10} карточек в наборах с озвучкой. Слушайте произношение на дари, переворачивайте карточки и отмечайте знакомые слова.</p>
+          <p>${total.vocabWords} карточек в наборах с озвучкой. Слушайте произношение на дари, переворачивайте карточки и отмечайте знакомые слова.</p>
         </div>
         <div class="page-head-actions"><span class="badge badge-green">${wordsDone()} из ${total.vocabWords} слов</span></div>
       </div>
