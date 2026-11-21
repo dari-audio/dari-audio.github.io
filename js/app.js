@@ -1030,19 +1030,22 @@
   };
 
   const findSemesterOneTeacherEntry = (id) => {
-    const root = DATA.semesterOneTeacher;
-    if (!root) return null;
-    if (!id || id === root.id) return { node: root, trail: [root] };
-    const walk = (node, trail) => {
-      for (const child of node.folders || []) {
-        const next = trail.concat(child);
-        if (child.id === id) return { node: child, trail: next };
-        const found = walk(child, next);
-        if (found) return found;
-      }
-      return null;
-    };
-    return walk(root, [root]);
+    const roots = [DATA.semesterOneSupplementary, DATA.semesterOneTeacher].filter(Boolean);
+    for (const root of roots) {
+      if (!id || id === root.id) return { node: root, trail: [root] };
+      const walk = (node, trail) => {
+        for (const child of node.folders || []) {
+          const next = trail.concat(child);
+          if (child.id === id) return { node: child, trail: next };
+          const found = walk(child, next);
+          if (found) return found;
+        }
+        return null;
+      };
+      const found = walk(root, [root]);
+      if (found) return found;
+    }
+    return null;
   };
 
   const semesterTwoCategory = (theme) => {
@@ -1198,6 +1201,7 @@
           </a>`;
         }).join("")}
       </div>` : `<div class="empty-state"><h3>Ничего не нашлось</h3><p>Попробуйте другой запрос или сбросьте фильтр темы.</p><button class="btn btn-soft btn-sm" type="button" data-clear-lesson-filter>Сбросить фильтры</button></div>`}
+      ${DATA.semesterOneSupplementary ? `<div class="section-head" style="margin-top:28px"><div><h2>Дополнительные материалы</h2><p>Глоссарии и аудиозаписи повторения по блокам из четырёх уроков</p></div></div><div class="folder-list"><a class="folder-item" href="#/lessons/semester-1/${esc(DATA.semesterOneSupplementary.id)}"><span class="folder-icon">${svg("folder")}</span><div><strong>${esc(DATA.semesterOneSupplementary.name)}</strong><small>${DATA.semesterOneSupplementary.fileCount || 0} файлов · ${DATA.semesterOneSupplementary.folderCount || 0} блоков</small></div></a></div>` : ""}
       ${DATA.semesterOneTeacher ? `<div class="section-head" style="margin-top:28px"><div><h2>Материалы преподавателя</h2><p>Дополнительные версии уроков и учебные файлы</p></div></div><div class="folder-list"><a class="folder-item" href="#/lessons/semester-1/${esc(DATA.semesterOneTeacher.id)}"><span class="folder-icon">${svg("folder")}</span><div><strong>${esc(DATA.semesterOneTeacher.name)}</strong><small>${DATA.semesterOneTeacher.fileCount || 0} файлов · ${DATA.semesterOneTeacher.folderCount || 0} папок</small></div></a></div>` : ""}
     </div>`;
   };
