@@ -1845,8 +1845,10 @@
             const num = Number(folder.id.slice(-2));
             const theme = themes.find((item) => item.num === num) || { title: "Тема урока", summary: "Откройте материалы этого учебного блока." };
             const audioCount = (folder.files || []).filter((file) => isAudio(file.name)).length;
-            return `<a class="lesson-card student-unit-card" href="#/lessons/semester-2/lesson/${num}" data-num="${num}">
-              <div class="lesson-top"><div class="lesson-num">${String(num).padStart(2, "0")}<small>УРОК</small></div><span class="badge badge-ghost">${audioCount} аудио</span></div>
+            const complete = Boolean(state.semesterTwoLessons[num]);
+            return `<a class="lesson-card student-unit-card ${complete ? "done" : ""}" href="#/lessons/semester-2/lesson/${num}" data-num="${num}">
+              ${complete ? `<span class="done-flag badge badge-done">${svg("check")} пройден</span>` : ""}
+              <div class="lesson-top"><div class="lesson-num">${String(num).padStart(2, "0")}<small>УРОК</small></div><span class="badge ${complete ? "badge-done" : "badge-ghost"}">${complete ? svg("check") + " пройден" : audioCount + " аудио"}</span></div>
               <h3>${esc(theme.title)}</h3>
               <div class="en">STUDENT BOOK · SEMESTER 2</div>
               <p class="summary">${esc(theme.summary)}</p>
