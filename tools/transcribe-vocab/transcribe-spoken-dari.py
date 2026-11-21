@@ -83,7 +83,7 @@ def main():
                     verbose=False,
                 )
                 text = (result.get("text") or "").strip()
-                txt_path.write_text(text + "\\n", encoding="utf-8")
+                txt_path.write_text(text + "\n", encoding="utf-8")
                 payload = {
                     "source": item,
                     "model": args.model,
@@ -93,7 +93,7 @@ def main():
                     "segments": result.get("segments", []),
                 }
                 json_path.write_text(
-                    json.dumps(payload, ensure_ascii=False, indent=2) + "\\n",
+                    json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
                     encoding="utf-8",
                 )
                 completed += 1
@@ -103,7 +103,7 @@ def main():
                 log_file.flush()
                 print(f"  -> {txt_path.relative_to(HERE)}")
             except KeyboardInterrupt:
-                print("\\nStopped by user. Run the same command to resume.")
+                print("\nStopped by user. Run the same command to resume.")
                 return 130
             except Exception as exc:
                 failed += 1
@@ -114,7 +114,7 @@ def main():
                 print(f"  !! ERROR: {exc}", file=sys.stderr)
                 time.sleep(1)
 
-    print(f"\\nFinished. Transcribed: {completed}; skipped: {skipped}; failed: {failed}.")
+    print(f"\nFinished. Transcribed: {completed}; skipped: {skipped}; failed: {failed}.")
     print(f"Drafts are in: {OUTPUT_DIR}")
     if failed:
         print("Check transcripts-spoken-dari/progress.csv and rerun to retry failed items.")
