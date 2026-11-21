@@ -31,7 +31,7 @@ python -m pip install -r requirements.txt
 python transcribe.py --limit 15
 ```
 
-This downloads the first 15 manifest entries (the «Приветствия» category) into
+This downloads the first 15 manifest entries (10 «Приветствия» files plus the first 5 «Команды» files) into
 `audio/`, then transcribes them using the multilingual Whisper Base model with Persian
 (`fa`) selected. On first run, the model weights are downloaded from Hugging Face.
 The first run therefore needs internet access; inference itself runs locally.
