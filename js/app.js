@@ -1318,7 +1318,7 @@
       </div>
 
       <div class="section-head">
-        <div><h2>Аудиотренажёры</h2><p>Дополнительные аудиоподборки для тренировки восприятия речи на слух.</p></div>
+        <div><h2>Аудиотренажёры</h2><p>Для создания карточек и перемещения этих наборов в раздел "Словарь с голосом" требуется написать транскрипты</p></div>
         <span class="small muted">${fmt(DATA.vocab.trainers.filter((t) => t.id !== "greetings").reduce((s, t) => s + t.count, 0))} записей</span>
       </div>
       <div class="trainer-grid">
