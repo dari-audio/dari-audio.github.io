@@ -2425,10 +2425,21 @@
       <section class="province-reference">
         <div class="province-reference-head"><div><div class="eyebrow">Справочник</div><h2>Провинции и их столицы</h2></div><p>Русские названия и написание на дари</p></div>
         <div class="province-reference-grid">
-          ${Object.entries(gameProvinceInfo).map(([key, info]) => `<article class="province-reference-card">
-            <div class="province-reference-name">${esc(info.name)} <span lang="fa" dir="rtl">${esc(info.dari)}</span></div>
-            <div class="province-reference-capital"><span>Столица</span><strong>${esc(info.capital)}</strong><b lang="fa" dir="rtl">${esc(info.capitalDari)}</b></div>
-          </article>`).join("")}
+          ${Object.entries(gameProvinceInfo).map(([key, info]) => `<button class="province-flashcard" type="button" data-province-flip aria-pressed="false" aria-label="Провинция ${esc(info.name)}. Нажмите, чтобы увидеть столицу">
+            <span class="province-flashcard-inner">
+              <span class="province-flashcard-face province-flashcard-front">
+                <span class="province-flashcard-kicker">Провинция</span>
+                <strong>${esc(info.name)}</strong>
+                <span class="province-flashcard-hint">Нажмите, чтобы увидеть столицу</span>
+              </span>
+              <span class="province-flashcard-face province-flashcard-back">
+                <span class="province-flashcard-kicker">Столица</span>
+                <strong>${esc(info.capital)}</strong>
+                <b lang="fa" dir="rtl">${esc(info.capitalDari)}</b>
+                <span class="province-flashcard-hint">Нажмите, чтобы вернуться</span>
+              </span>
+            </span>
+          </button>`).join("")}
         </div>
       </section>
     </div>`;
@@ -3081,6 +3092,15 @@
     if (event.target.closest("[data-game-map-names]")) {
       gameShowProvinceNames = !gameShowProvinceNames;
       renderRoute({ scroll: false });
+      return;
+    }
+    const flashcard = event.target.closest("[data-province-flip]");
+    if (flashcard) {
+      const flipped = flashcard.classList.toggle("is-flipped");
+      flashcard.setAttribute("aria-pressed", String(flipped));
+      flashcard.setAttribute("aria-label", flipped
+        ? "Столица: " + flashcard.querySelector(".province-flashcard-back strong").textContent + ". Нажмите, чтобы вернуться к провинции"
+        : "Провинция: " + flashcard.querySelector(".province-flashcard-front strong").textContent + ". Нажмите, чтобы увидеть столицу");
       return;
     }
     if (event.target.closest("[data-game-reset]")) {

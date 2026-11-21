@@ -2092,17 +2092,20 @@ kbd {
 .province-reference-head { display: flex; justify-content: space-between; align-items: end; gap: 16px; margin-bottom: 12px; }
 .province-reference-head h2 { margin: 4px 0 0; font: 700 1.55rem/1.2 var(--serif); color: var(--ink); }
 .province-reference-head p { color: var(--muted); font-size: .78rem; margin: 0 0 2px; }
-.province-reference-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; }
-.province-reference-card { min-width: 0; padding: 13px 14px; border: 1px solid var(--line); border-radius: 13px; background: var(--surface); }
-.province-reference-name { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-weight: 750; color: var(--ink); }
-.province-reference-name span { font-size: 1.05rem; color: var(--green); white-space: nowrap; }
-.province-reference-capital { display: grid; grid-template-columns: auto 1fr; gap: 3px 8px; margin-top: 8px; align-items: baseline; }
-.province-reference-capital span { color: var(--muted); font-size: .68rem; }
-.province-reference-capital strong { font-size: .82rem; font-weight: 650; }
-.province-reference-capital b { grid-column: 2; justify-self: end; font-size: .95rem; font-weight: 600; color: var(--muted); }
+.province-reference-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; }
+.province-flashcard { display: block; min-width: 0; min-height: 154px; padding: 0; border: 0; border-radius: 15px; background: transparent; color: inherit; text-align: center; cursor: pointer; perspective: 900px; }
+.province-flashcard:focus-visible { outline: 3px solid var(--gold, #c49a43); outline-offset: 4px; }
+.province-flashcard-inner { position: relative; display: block; min-height: 154px; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform .55s cubic-bezier(.2,.7,.2,1); }
+.province-flashcard.is-flipped .province-flashcard-inner { transform: rotateY(180deg); }
+.province-flashcard-face { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 9px; padding: 16px; border: 1px solid var(--line); border-radius: 15px; background: var(--surface); box-shadow: 0 5px 16px rgba(25,48,39,.06); backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.province-flashcard-front { background: linear-gradient(145deg,var(--surface),var(--surface-2, #f2f1e9)); }
+.province-flashcard-back { transform: rotateY(180deg); background: linear-gradient(145deg,var(--surface),#edf3ee); }
+.province-flashcard-kicker { color: var(--muted); font-size: .68rem; font-weight: 750; letter-spacing: .09em; text-transform: uppercase; }
+.province-flashcard-face strong { color: var(--ink); font-size: 1.08rem; font-weight: 750; line-height: 1.35; }
+.province-flashcard-back b { color: var(--green); font-family: "Noto Nastaliq Urdu",serif; font-size: 1.18rem; font-weight: 600; line-height: 1.8; }
+.province-flashcard-hint { margin-top: 3px; color: var(--muted); font-size: .68rem; }
 @media (max-width: 850px) { .province-reference-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
-@media (max-width: 520px) { .province-reference-head { display: block; } .province-reference-head p { margin-top: 6px; } .province-reference-grid { grid-template-columns: 1fr; } .province-reference-card { padding: 12px; } }
-
+@media (max-width: 520px) { .province-reference-head { display: block; } .province-reference-head p { margin-top: 6px; } .province-reference-grid { grid-template-columns: 1fr; } }
 /* Labeled reference-map toggle inside the Afghanistan province game */
 .game-page .page-head { display: flex; align-items: end; justify-content: space-between; gap: 16px; }
 .game-map-actions { flex: 0 0 auto; }
