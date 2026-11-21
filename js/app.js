@@ -1448,6 +1448,7 @@
     const trainer = DATA.vocab.trainers.find((x) => x.id === id);
     if (!trainer) return notFound("Тренажёр не найден");
     remember({ label: "Аудиотренажёр", title: trainer.title, subtitle: `${trainer.count} записей · ${trainer.description}`, href: `#/trainer/${trainer.id}`, mark: "🎧" });
+    const hasWords = Array.isArray(trainer.words) && trainer.words.length === trainer.audio.length;
     return `<div class="page">
       <a class="back-link" href="#/vocab">${svg("arrowRight")} Словарь</a>
       <div class="detail-hero" data-letter="🎧">
@@ -1460,17 +1461,21 @@
         </div>
         <div class="detail-actions"><button class="btn btn-primary" type="button" data-play-all="trainer:${esc(trainer.id)}">${svg("play")} Слушать всё</button></div>
       </div>
-      <div class="panel">
-        <div class="panel-head"><div><h2>Записи</h2><p>Файлы идут в порядке исходного архива. Параллельного текста к этому набору в архиве нет — это чистое аудирование.</p></div></div>
-        <div class="audio-list">
-          ${trainer.audio.map((file, i) => `<div class="audio-row">
-            <span class="code">${pad(i + 1)}</span>
-            <div class="info"><strong>Запись ${i + 1} · ${esc(file.name)}</strong>${trainer.words && trainer.words[i] ? `<div class="trainer-word" lang="fa" dir="rtl">${esc(trainer.words[i].dari)}</div><span class="trainer-translit" dir="ltr">${esc(trainer.words[i].translit)}</span><span class="trainer-translation">${esc(trainer.words[i].ru)}</span>` : ""}</div>
-            <button class="play-round" type="button" data-play-src="${esc(file.path)}" data-queue="trainer:${esc(trainer.id)}" data-qindex="${i}" data-title="Запись ${i + 1}" data-subtitle="${esc(trainer.title)}" aria-label="Слушать">${svg("play")}</button>
-          </div>`).join("")}
-        </div>
+      <div class="flash-toolbar">
+        <div class="section-head" style="margin:0"><div><h2>Фразы и аудио</h2><p>${hasWords ? "Читайте перевод, слушайте запись и повторяйте вслух." : "Слушайте записи и повторяйте вслух."}</p></div></div>
+        <span class="badge badge-green">${trainer.audio.length} фраз</span>
       </div>
-      <div class="notice" style="margin-top:18px">${svg("info")}<span>${trainer.id === "commands" ? "В архиве есть частичная расшифровка команд — используйте её как подсказку после прослушивания." : "Слушайте по 5–7 записей за раз и возвращайтесь к ним через день. Повторение важнее скорости."}</span></div>
+      <div class="word-list">
+        ${trainer.audio.map((file, i) => {
+          const word = hasWords ? trainer.words[i] : null;
+          return `<div class="word-row">
+            <span class="idx">${pad(i + 1)}</span>
+            ${word ? `<span class="dari" lang="fa" dir="rtl">${esc(word.dari)}</span><span class="ru">${esc(word.ru)}</span>` : `<span class="ru">${esc(file.name)}</span>`}
+            <span class="actions"><button class="play-round" type="button" data-play-src="${esc(file.path)}" data-queue="trainer:${esc(trainer.id)}" data-qindex="${i}" data-title="Запись ${i + 1}" data-subtitle="${esc(trainer.title)}" aria-label="Слушать запись ${i + 1}">${svg("play")}</button></span>
+          </div>`;
+        }).join("")}
+      </div>
+      <div class="notice" style="margin-top:18px">${svg("info")}<span>${hasWords ? "Сначала попробуйте понять фразу на слух, затем сверьтесь с переводом. Прослушивайте запись несколько раз и повторяйте за диктором." : "Слушайте по 5–7 записей за раз и возвращайтесь к ним через день. Повторение важнее скорости."}</span></div>
     </div>`;
   };
 
