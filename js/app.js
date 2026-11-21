@@ -1306,6 +1306,13 @@
         </div>
         <div class="page-head-actions"><span class="badge badge-green">${wordsDone()} из ${total.vocabWords} слов</span></div>
       </div>
+      <div class="vocab-transcript-warning notice notice-warn" role="alert" aria-live="polite">
+        <span class="vocab-transcript-warning-icon">${svg("info")}</span>
+        <div>
+          <strong>Важно: для новых карточек нужны транскрипты</strong>
+          <p>Чтобы превратить эти аудионаборы в карточки и добавить их в раздел «Словарь с голосом», сначала необходимо подготовить транскрипты — текстовую запись произносимых слов.</p>
+        </div>
+      </div>
       <div class="pack-grid">
         ${DATA.vocab.packs.map((pack) => {
           const known = packKnown(pack);
@@ -1322,7 +1329,7 @@
       </div>
 
       <div class="section-head">
-        <div><h2>Аудиотренажёры</h2><p>Для создания карточек и перемещения этих наборов в раздел "Словарь с голосом" требуется написать транскрипты</p></div>
+        <div><h2>Аудиотренажёры</h2><p>Наборы аудиозаписей, для которых ещё предстоит подготовить транскрипты.</p></div>
         <span class="small muted">${fmt(DATA.vocab.trainers.filter((t) => t.id !== "greetings").reduce((s, t) => s + t.count, 0))} записей</span>
       </div>
       <div class="trainer-grid">
