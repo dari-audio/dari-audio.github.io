@@ -5752,7 +5752,7 @@
         const href = phrase.course === "Учебник 2"
           ? `#/textbook-2/lesson-${phrase.lesson}/phrases`
           : `#/lesson/${phrase.lesson}`;
-        return searchResult(`data-search-go="${esc(href)}"`, "messageSquare", phrase.ru,
+        return searchResult(`data-search-go="${esc(href)}"`, "bookOpen", phrase.ru,
           `${phrase.translit ? phrase.translit + " · " : ""}${phrase.course} · урок ${phrase.lesson}`, "фраза", phrase.dari);
       }).join("")}`);
     }
