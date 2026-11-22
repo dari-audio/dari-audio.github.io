@@ -4000,7 +4000,8 @@
           <div class="pack-sub">${taskCount ? `${taskCount} слов` : "Подборка скоро появится"}</div>
           <div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:${taskPct}%"></div></div><span>${taskKnown}/${taskCount}</span></div>
         </a>
-        <a class="pack-card textbook-material-card" href="#/textbook-2/lesson-${collection.id}/phrases" style="--pack-color:var(--purple)">
+        <a class="pack-card textbook-material-card ${phraseCount && phraseDone.length >= phraseCount ? "done" : ""}" href="#/textbook-2/lesson-${collection.id}/phrases" style="--pack-color:var(--purple)">
+          ${phraseCount && phraseDone.length >= phraseCount ? `<span class="done-flag badge badge-done">${svg("check")} пройдено</span>` : ""}
           <span class="pack-icon">🧩</span><h3>Отработка фраз</h3>
           <p class="pack-description">Собирайте предложения из слов.</p>
           <div class="pack-sub">${phraseCount ? `${phraseDone.length}/${phraseCount} выполнено` : "Задания скоро появятся"}</div>
@@ -4110,7 +4111,9 @@
     };
     const tasks = (tasksByLesson[n] || []).map((task,i)=>({...task,number:i+1}));
     const storageKey = `phraseDone${n}-v2`;
-    const done = JSON.parse(localStorage.getItem(storageKey) || "[]");
+    const done = [...new Set(JSON.parse(localStorage.getItem(storageKey) || "[]").map(Number).filter(i => Number.isInteger(i) && i >= 0 && i < tasks.length))];
+    const doneCount = done.length;
+    const allDone = doneCount === tasks.length;
     const distractors = ["سرخ","سبز","زرد","آبی","سفید","سیاه","از","به","در","برای","است","بود","خوب","امروز","خانه","کتاب","چرا","چند"];
     if (!tasks.length) return `<div class="page phrase-practice"><a class="back-link" href="#/textbook-2/lesson-${n}">← К уроку ${n}</a><h1>Отработка фраз · Урок ${n}</h1><div class="card" style="padding:20px">Задания для этого урока скоро появятся.</div></div>`;
     if (ui.phraseLesson !== n) { ui.phraseLesson = n; ui.phraseIndex = 0; ui.phraseView = "cards"; }
@@ -4120,7 +4123,7 @@
     const bank = words.concat(distractors.slice(0, Math.max(3, Math.min(5, words.length - 1))));
     const list = `<div class="phrase-list" aria-label="Список предложений">${tasks.map((item,i)=>`<button type="button" class="phrase-list-row ${done.includes(i)?"done":""} ${i===index?"active":""}" data-phrase-list-select="${i}"><span class="phrase-list-number">${String(i+1).padStart(2,"0")}</span><span class="phrase-list-copy"><strong>${esc(item.prompt)}</strong><span dir="rtl">${esc(item.answer)}</span></span><span class="phrase-list-status">${done.includes(i)?"✓":"›"}</span></button>`).join("")}</div>`;
     const card = `<div class="phrase-card card">
-      <div class="phrase-card-progress"><span>${index+1} / ${tasks.length}</span><div class="progress-track"><div class="progress-fill" style="width:${(index+1)/tasks.length*100}%"></div></div><span>${done.length} выполнено</span></div>
+      <div class="phrase-card-progress"><span>${doneCount} / ${tasks.length} выполнено</span><div class="progress-track"><div class="progress-fill" style="width:${doneCount/tasks.length*100}%"></div></div><span>${Math.round(doneCount/tasks.length*100)}%</span></div>
       <div class="eyebrow">Карточка ${index+1} · Предложение ${index+1}</div>
       <p class="phrase-prompt">${esc(task.prompt)}</p>
       <div class="phrase-answer-label">Соберите предложение на дари</div>
@@ -4131,7 +4134,7 @@
     </div>`;
     return `<div class="page phrase-practice"><a class="back-link" href="#/textbook-2/lesson-${n}">← К уроку ${n}</a><div class="phrase-page-head"><div><span class="eyebrow">Урок ${n} · Практика</span><h1>Отработка фраз</h1><p>По одному предложению на карточке. Остальные предложения доступны в списке.</p></div></div>
       <div class="phrase-view-switch"><button type="button" class="${ui.phraseView==="cards"?"active":""}" data-phrase-view="cards">Карточка</button><button type="button" class="${ui.phraseView==="list"?"active":""}" data-phrase-view="list">Список предложений <span>${tasks.length}</span></button></div>
-      ${ui.phraseView==="list"?list:card}
+      ${ui.phraseView==="list"?list:(allDone?`<div class="phrase-complete card"><div class="phrase-complete-icon">${svg("check")}</div><span class="eyebrow">Урок ${n} · Практика завершена</span><h2>Все предложения выполнены!</h2><p>Вы отметили все ${tasks.length} предложений. Можно повторить их в списке.</p><button type="button" class="btn btn-primary" data-phrase-view="list">Открыть список предложений</button></div>`:card)}
     </div>`;
   };
     const renderTextbook = (num) => {
