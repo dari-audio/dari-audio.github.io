@@ -1873,8 +1873,6 @@
         const otherFiles = files.filter((file) => !isPdf(file.name));
         content = `${searchBar}
         <div class="breadcrumbs"><a href="#/library">Аудиотека</a><span>/</span>${trailLinks}</div>
-        <div class="section-head"><div><h2>Учебники · Семестр 2</h2><p>Два студенческих тома с исходными материалами курса</p></div></div>
-        ${bookFiles.length ? `<div class="file-list">${bookFiles.map((file) => libFileRow(file, "Student Copy · Семестр 2")).join("")}</div>` : ""}
         <div class="section-head"><div><h2>Уроки 1–40</h2><p>Найдите тему по названию или отфильтруйте уроки по тематическим категориям</p></div></div>
         <div class="lesson-toolbar">
           <div class="search-input-wrap">${svg("search")}<input class="search-input" id="semester-two-search" type="search" placeholder="Найти урок или тему…" value="${esc(ui.semesterTwoQuery)}" autocomplete="off"></div>
@@ -1904,7 +1902,9 @@
         ${teacherFolders.length ? `<div class="section-head"><div><h2>Материалы преподавателя</h2><p>Дополнительные учебные тома для уроков 1–40</p></div></div><div class="folder-list">${teacherFolders.map((folder) => `<a class="folder-item" href="#/lessons/semester-2/${esc(folder.id)}"><span class="folder-icon">${svg("folder")}</span><div><strong>${esc(folder.name)}</strong><small>${(folder.files || []).length} PDF</small></div></a>`).join("")}</div>` : ""}
         ${cardFolders.length ? `<div class="section-head"><div><h2>Карточки</h2><p>Исходные папки карточек сохранены без изменений</p></div></div>
         <div class="folder-list">${cardFolders.map((folder) => { const pdfCount = (folder.files || []).filter((file) => isPdf(file.name)).length; return `<a class="folder-item" href="#/library/${esc(folder.id)}"><span class="folder-icon">${svg("folder")}</span><div><strong>${esc(folder.name)}</strong><small>${pdfCount} ${plural(pdfCount, ["PDF", "PDF", "PDF"])}</small></div></a>`; }).join("")}</div>` : ""}
-        ${otherFiles.length ? `<div class="file-list">${otherFiles.map((file) => libFileRow(file, "")).join("")}</div>` : ""}`;
+        ${otherFiles.length ? `<div class="file-list">${otherFiles.map((file) => libFileRow(file, "")).join("")}</div>` : ""}
+        <div class="section-head"><div><h2>Учебники · Семестр 2</h2><p>Два студенческих тома с исходными материалами курса</p></div></div>
+        ${bookFiles.length ? `<div class="file-list">${bookFiles.map((file) => libFileRow(file, "Student Copy · Семестр 2")).join("")}</div>` : ""}`;
       } else {
         content = `${searchBar}
       <div class="breadcrumbs"><a href="#/library">Аудиотека</a><span>/</span>${trailLinks}</div>
