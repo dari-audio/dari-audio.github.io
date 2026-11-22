@@ -2160,3 +2160,30 @@ kbd {
   .vocab-transcript-warning-icon { flex-basis: 30px; width: 30px; height: 30px; }
   .vocab-transcript-warning strong { font-size: .92rem; }
 }
+
+
+/* Курс 2: уроки и четыре раздела материалов */
+.textbook-lesson-grid .textbook-lesson-card { min-height: 258px; }
+.textbook-lesson-card .summary { min-height: 3.1em; }
+.textbook-lesson-materials {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 22px;
+}
+.textbook-lesson-materials .textbook-material-card {
+  min-height: 218px;
+  padding: 20px;
+}
+.textbook-lesson-materials .textbook-material-card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: 8px;
+  font-size: 0.76rem;
+  color: var(--muted);
+}
+.textbook-lesson-materials .textbook-material-card .pack-sub {
+  margin-top: auto;
+  padding-top: 14px;
+}
