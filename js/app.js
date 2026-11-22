@@ -743,7 +743,7 @@
         </a>
         <a class="route-card" href="#/vocab" data-letter="و">
           <span class="route-icon">${svg("cards")}</span>
-          <h3>Словарь</h3><p>Карточки с живым произношением</p>
+          <h3>Базовая лексика</h3><p>Карточки с живым произношением</p>
           <div class="route-meta"><span>${wDone} из ${total.vocabWords} слов</span><small>${total.trainers} тренажёров</small></div>
         </a>
         <a class="route-card" href="#/lessons" data-letter="د">
@@ -1326,7 +1326,7 @@
       <div class="page-head">
         <div>
           <span class="eyebrow">Лексика</span>
-          <h1>Словарь с голосом</h1>
+          <h1>Базовая лексика</h1>
           <p>${total.vocabWords} карточек в наборах с озвучкой. Слушайте произношение на дари, переворачивайте карточки и отмечайте знакомые слова.</p>
         </div>
         <div class="page-head-actions"><span class="badge badge-green">${wordsDone()} из ${total.vocabWords} слов</span></div>
@@ -1390,7 +1390,7 @@
   const renderPack = (id) => {
     const pack = [...DATA.vocab.packs, ...(DATA.vocab.noAudioPacks || [])].find((x) => x.id === id);
     if (!pack) return notFound("Набор слов не найден");
-    remember({ label: `Словарь · ${pack.title}`, title: pack.title, subtitle: `${pack.cards.length} слов`, href: `#/vocab/${pack.id}`, mark: pack.icon });
+    remember({ label: `Базовая лексика · ${pack.title}`, title: pack.title, subtitle: `${pack.cards.length} слов`, href: `#/vocab/${pack.id}`, mark: pack.icon });
     if (ui.flashPack !== pack.id) {
       ui.flashPack = pack.id;
       ui.flashIndex = 0;
@@ -1456,7 +1456,7 @@
       <div class="detail-hero" data-letter="${esc(pack.icon)}">
         <div class="detail-badge" style="font-size:1.8rem">${esc(pack.icon)}</div>
         <div class="detail-hero-copy">
-          <span class="eyebrow">Словарь · ${pack.count} слов</span>
+          <span class="eyebrow">Базовая лексика · ${pack.count} слов</span>
           <h1>${esc(pack.title)}</h1>
           <div class="en-title">${esc(pack.subtitle)}</div>
           <p>${esc(pack.description)}</p>
@@ -1488,7 +1488,7 @@
     remember({ label: "Аудиотренажёр", title: trainer.title, subtitle: `${trainer.count} записей · ${trainer.description}`, href: `#/trainer/${trainer.id}`, mark: "🎧" });
     const hasWords = Array.isArray(trainer.words) && trainer.words.length === trainer.audio.length;
     return `<div class="page">
-      <a class="back-link" href="#/vocab">${svg("arrowRight")} Словарь</a>
+      <a class="back-link" href="#/vocab">${svg("arrowRight")} Базовая лексика</a>
       <div class="detail-hero" data-letter="🎧">
         <div class="detail-badge" style="font-size:1.7rem">${svg("headphones")}</div>
         <div class="detail-hero-copy">
@@ -5726,7 +5726,7 @@
       case "intro": return { nav: "alphabet", title: `Вводный урок ${parts[1] || ""}` };
       case "lessons": return { nav: "lessons", title: parts[1] === "semester-1" ? "Семестр 1" : parts[1] === "semester-2" ? (parts[2] === "lesson" ? `Урок ${parts[3] || ""} · Семестр 2` : "Семестр 2") : "Доп.курс" };
       case "lesson": return { nav: "lessons", title: `Урок ${parts[1] || ""}` };
-      case "vocab": return { nav: "vocab", title: parts[1] ? ((DATA.vocab.packs.find((x) => x.id === parts[1]) || {}).title || "Словарь") : "Словарь" };
+      case "vocab": return { nav: "vocab", title: parts[1] ? ((DATA.vocab.packs.find((x) => x.id === parts[1]) || {}).title || "Базовая лексика") : "Базовая лексика" };
       case "trainer": return { nav: "vocab", title: "Аудиотренажёр" };
       case "game": return { nav: "game", title: "Игра" };
       case "practice": return { nav: "practice", title: "Практика" };
