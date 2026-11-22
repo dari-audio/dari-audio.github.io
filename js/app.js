@@ -3959,14 +3959,14 @@
   const renderTextbook2Lesson = (lessonNum) => {
     const collection = textbook2Collections.find((item) => item.id === Number(lessonNum));
     if (!collection) return notFound("Урок не найден");
-    const phraseDone = JSON.parse(localStorage.getItem("phraseDone8") || "[]");
+    const phraseDone = JSON.parse(localStorage.getItem("phraseDone8-v2") || "[]");
     const known = textbook2KnownCount(collection);
     const taskCollection = textbook2TaskCollection(collection.id);
     const taskKnown = textbook2TaskKnownCount(taskCollection);
     const taskCount = taskCollection ? taskCollection.cards.length : 0;
     const taskPct = taskCount ? Math.round(taskKnown / taskCount * 100) : 0;
     const pct = Math.round((known + taskKnown) / Math.max(1, collection.cards.length + taskCount) * 100);
-    const phraseCount = collection.id === 8 ? 6 : 0;
+    const phraseCount = collection.id === 8 ? 24 : 0;
     const phrasePct = phraseCount ? Math.round(phraseDone.length / phraseCount * 100) : 0;
     return `<div class="page textbook-page">
       <a class="back-link" href="#/textbook-2">${svg("arrowRight")} Все уроки</a>
@@ -4064,23 +4064,56 @@
   };
 
   const renderPhrasePractice = (lessonNum) => {
-    const n=Number(lessonNum);
-    const tasks=n===8?[
-      {prompt:"Уже слишком поздно",answer:"کار از کار رفته",words:["کار","از","کار","رفته","من","است","بسیار","خانه","کتاب","خوب"]},
-      {prompt:"Не надо далеко ходить за примером",answer:"دور نرویم نزدیک",words:["دور","نرویم","نزدیک","مثال","برای","من","امروز","بازار","بسیار"]},
-      {prompt:"Я купил пишущую машинку за 20 тыс. афгани",answer:"ماشین تیپ را ۲۰ هزار افغانی خریدم",words:["ماشین","تیپ","را","۲۰","هزار","افغانی","خریدم","کتاب","خوب","امروز"]},
-      {prompt:"Почему ты продаешь это мясо?",answer:"این گوشت را چند می‌دهی؟",words:["این","گوشت","را","چند","می‌دهی؟","چرا","خوب","امروز"]},
-      {prompt:"Купи перца на два афгани.",answer:"دو افغانی را مرچ بخر",words:["دو","افغانی","را","مرچ","بخر","خانه","کتاب","امروز"]},
-      {prompt:"Разменяете сто афгани?",answer:"صد افغانی را میده دارید؟",words:["صد","افغانی","را","میده","دارید؟","چند","خوب","کتاب"]}
-    ]:[];
-    const done=JSON.parse(localStorage.getItem("phraseDone8")||"[]");
-    return `<div class="page phrase-practice"><a class="back-link" href="#/textbook-2/lesson-${n}">← К уроку ${n}</a><h1>Отработка фраз · Урок ${n}</h1>${tasks.map((t,i)=>`<div class="card phrase-task" style="padding:22px;margin:16px 0"><p class="phrase-prompt">${t.prompt}</p><div data-phrase-answer="${i}" class="phrase-answer" dir="rtl"></div><div class="phrase-bank" dir="rtl">${t.words.slice().sort(()=>Math.random()-.5).map((w,j)=>`<button type="button" class="btn btn-soft phrase-word" data-phrase-word="${i}" data-word="${w}" data-token="${j}">${w}</button>`).join("")}</div><button type="button" class="btn btn-primary" data-phrase-check="${i}" data-phrase-correct="${encodeURIComponent(t.answer)}">Проверить</button> <button type="button" class="btn btn-ghost" data-phrase-reset="${i}">Сброс</button><p class="phrase-feedback" data-phrase-feedback="${i}">${done.includes(i)?"Верно! ✓":""}</p></div>`).join("")||`<div class="card" style="padding:20px">Задания для этого урока скоро появятся.</div>`}</div>`;
+    const n = Number(lessonNum);
+    const tasks = n === 8 ? [
+      {number:5, prompt:"Я купил пишущую машинку за 20 тыс. афгани", answer:"ماشین تیپ را ۲۰ هزار افغانی خریدم"},
+      {number:6, prompt:"Почём ты продаёшь это мясо?", answer:"این گوشت را چند میدهی؟"},
+      {number:7, prompt:"Купи перца на два афгани", answer:"دو افغانی مرچ را بخر"},
+      {number:8, prompt:"Разменяете сто афгани?", answer:"صد افغانی را میده دارید؟"},
+      {number:9, prompt:"Эти яблоки стоят 10 афгани за килограмм", answer:"این سیب کیلو ده افغانی است"},
+      {number:36, prompt:"Давай оставим эту тему!", answer:"از این موضوع بگذریم"},
+      {number:38, prompt:"Я притормозил", answer:"من برک گرفتم"},
+      {number:39, prompt:"Заклейте (заделайте) прокол!", answer:"پنجری را بگیرید!"},
+      {number:40, prompt:"Они относятся к этому серьёзно", answer:"آنها این موضوع را جدی میگیرند"},
+      {number:41, prompt:"Смотри, как бы тебя не ударило током!", answer:"هوش کنی که ترا برق نگیرد!"},
+      {number:43, prompt:"Он побледнел", answer:"رنگش پرید"},
+      {number:46, prompt:"Я обжёг руку", answer:"دستم سوخت"},
+      {number:47, prompt:"Перегорела спираль обогревателя", answer:"سیم اجاق سوخت"},
+      {number:48, prompt:"Мне стало его жаль", answer:"دلم برای او سوخت"},
+      {number:50, prompt:"Тебе нужен карандаш?", answer:"پنسل کار داری؟"},
+      {number:51, prompt:"Я тебе покажу!", answer:"من با تو کار دارم!"},
+      {number:56, prompt:"Я опоздал на урок", answer:"درس بالایم ناوفت شد"},
+      {number:57, prompt:"Я обязан Ахмеду", answer:"احمد بالای من حق دارد"},
+      {number:59, prompt:"Надень шапку, а то холодно", answer:"کلاه بپوش که خنک است"},
+      {number:60, prompt:"Я работал, как вдруг зазвонил телефон", answer:"کار میکردم که زنگ تیلفون آمد"},
+      {number:61, prompt:"Али попал в аварию? — Да что там в аварию? Он совсем разбил машину!", answer:"علی موتر را تکر داد؟ تکر چی که پارچه پارچه کرد!"},
+      {number:63, prompt:"Ведь я твой друг!", answer:"آخر من رفیق تو هستم!"},
+      {number:66, prompt:"Как ты сюда попал?", answer:"تو کجا و اینجا کجا؟"},
+      {number:67, prompt:"Что стряслось?", answer:"چی ریخته؟ چی پاشیده؟"}
+    ] : [];
+    const storageKey = `phraseDone${n}-v2`;
+    const done = JSON.parse(localStorage.getItem(storageKey) || "[]");
+    const distractors = ["من","تو","او","این","آن","را","از","به","در","برای","است","بود","خوب","امروز","خانه","کتاب","چرا","چند"];
+    return `<div class="page phrase-practice"><a class="back-link" href="#/textbook-2/lesson-${n}">← К уроку ${n}</a><h1>Отработка фраз · Урок ${n}</h1>
+      ${tasks.map((t,i) => {
+        const words = t.answer.split(" ");
+        const bank = words.concat(distractors.slice(0, Math.max(3, Math.min(5, words.length - 1))));
+        return `<div class="card phrase-task" style="padding:22px;margin:16px 0">
+          <div class="eyebrow">Упражнение ${t.number}</div><p class="phrase-prompt">${esc(t.prompt)}</p>
+          <div data-phrase-answer="${i}" class="phrase-answer" dir="rtl"></div>
+          <div class="phrase-bank" dir="rtl">${bank.map((w,j) => ({w,j,sort:Math.random()})).sort((a,b)=>a.sort-b.sort).map(({w,j}) => `<button type="button" class="btn btn-soft phrase-word" data-phrase-word="${i}" data-word="${esc(w)}" data-token="${j}">${esc(w)}</button>`).join("")}</div>
+          <button type="button" class="btn btn-primary" data-phrase-check="${i}" data-phrase-lesson="${n}" data-phrase-correct="${encodeURIComponent(t.answer)}">Проверить</button>
+          <button type="button" class="btn btn-ghost" data-phrase-reset="${i}">Сброс</button>
+          <p class="phrase-feedback" data-phrase-feedback="${i}">${done.includes(i) ? "Верно! ✓" : ""}</p>
+        </div>`;
+      }).join("") || `<div class="card" style="padding:20px">Задания для этого урока скоро появятся.</div>`}
+    </div>`;
   };
   const renderTextbook = (num) => {
     const book = TEXTBOOKS[num];
     if (!book) return notFound();
     if (num === 2) {
-      const phraseDone = JSON.parse(localStorage.getItem("phraseDone8") || "[]");
+      const phraseDone = JSON.parse(localStorage.getItem("phraseDone8-v2") || "[]");
       return `<div class="page textbook-page">
         <div class="page-head">
           <div><span class="eyebrow">Учебник · курс 2</span><h1>Островский · 2-й год обучения</h1><p>${esc(book.title)}. Выберите урок, чтобы открыть его материалы.</p></div>
@@ -4944,7 +4977,7 @@
 
     if (target.closest("[data-phrase-word]")) { const btn=target.closest("[data-phrase-word]"); const answer=$(`[data-phrase-answer="${btn.dataset.phraseWord}"]`); if(answer){const token=document.createElement("button");token.type="button";token.className="phrase-picked";token.textContent=btn.dataset.word;token.dataset.pickedWord=btn.dataset.word;token.onclick=()=>{token.remove();btn.disabled=false;};answer.append(token);}btn.disabled=true;return;}
     if (target.closest("[data-phrase-reset]")) {const id=target.closest("[data-phrase-reset]").dataset.phraseReset;const answer=$(`[data-phrase-answer="${id}"]`);if(answer)answer.innerHTML="";$$ (`[data-phrase-word="${id}"]`).forEach(btn=>btn.disabled=false);const feedback=$(`[data-phrase-feedback="${id}"]`);if(feedback)feedback.textContent="";return;}
-    if (target.closest("[data-phrase-check]")) {const btn=target.closest("[data-phrase-check]");const id=btn.dataset.phraseCheck;const answer=$(`[data-phrase-answer="${id}"]`);const feedback=$(`[data-phrase-feedback="${id}"]`);if(answer&&feedback){const value=Array.from(answer.children).map(x=>x.dataset.pickedWord).join(" ").trim();const correct=value===decodeURIComponent(btn.dataset.phraseCorrect);feedback.textContent=correct?"Верно! ✓":"Пока неверно — попробуйте ещё.";if(correct){const done=JSON.parse(localStorage.getItem("phraseDone8")||"[]");if(!done.includes(Number(id)))done.push(Number(id));localStorage.setItem("phraseDone8",JSON.stringify(done));}}return;}
+    if (target.closest("[data-phrase-check]")) {const btn=target.closest("[data-phrase-check]");const id=btn.dataset.phraseCheck;const answer=$(`[data-phrase-answer="${id}"]`);const feedback=$(`[data-phrase-feedback="${id}"]`);if(answer&&feedback){const value=Array.from(answer.children).map(x=>x.dataset.pickedWord).join(" ").trim();const correct=value===decodeURIComponent(btn.dataset.phraseCorrect);feedback.textContent=correct?"Верно! ✓":"Пока неверно — попробуйте ещё.";if(correct){const lesson=Number(btn.dataset.phraseLesson);const key=`phraseDone${lesson}-v2`;const done=JSON.parse(localStorage.getItem(key)||"[]");if(!done.includes(Number(id)))done.push(Number(id));localStorage.setItem(key,JSON.stringify(done));}}return;}
     if (target.closest("[data-textbook-direction]")) {
       const id = Number(target.closest("[data-textbook-direction]").dataset.textbookDirection);
       ui.textbook2RussianFirst[id] = !ui.textbook2RussianFirst[id];
