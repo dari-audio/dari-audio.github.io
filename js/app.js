@@ -567,7 +567,8 @@
         walk(node.folders || [], nextTrail);
       });
     };
-    walk(DATA.library, []);
+    walk([...(DATA.library || []), DATA.semesterTwo, DATA.semesterOneSupplementary, DATA.semesterOneTeacher].filter(Boolean), []);
+    (DATA.rootFiles || []).forEach((file) => files.push({ file, path: "Корень аудиотеки" }));
     libSearchIndex = { files, folders };
     return libSearchIndex;
   };
@@ -5677,7 +5678,7 @@
     const query = rawQuery.trim().toLowerCase();
     const box = document.getElementById("search-results");
     if (query.length < 2) {
-      box.innerHTML = '<p class="search-hint">Начните вводить запрос — поиск работает по буквам, урокам, словам и всему архиву.</p>';
+      box.innerHTML = '<p class="search-hint">Начните вводить запрос — поиск охватывает курсы, словари, фразы и аудиотеку.</p>';
       return;
     }
     const groups = [];
@@ -5697,15 +5698,63 @@
       groups.push(`<div class="search-group-label">Уроки</div>${lessons.map((lesson) =>
         searchResult(`data-search-go="#/lesson/${lesson.num}"`, "book", `Урок ${lesson.num} · ${lesson.titleRu}`, lesson.summaryRu, "урок")).join("")}`);
     }
-    const packs = DATA.vocab.packs.filter((pack) => [pack.title, pack.subtitle, pack.description].join(" ").toLowerCase().includes(query)).slice(0, 3);
+    const allVocabPacks = [...DATA.vocab.packs, ...(DATA.vocab.noAudioPacks || [])];
+    const packs = allVocabPacks.filter((pack) => [pack.title, pack.subtitle, pack.description].join(" ").toLowerCase().includes(query)).slice(0, 5);
     if (packs.length) {
-      groups.push(`<div class="search-group-label">Словарь</div>${packs.map((pack) =>
+      groups.push(`<div class="search-group-label">Наборы словаря</div>${packs.map((pack) =>
         searchResult(`data-search-go="#/vocab/${esc(pack.id)}"`, "cards", pack.title, `${pack.cards.length} слов`, "набор", pack.icon)).join("")}`);
     }
-    const cards = allCards().filter((item) => [item.card.dari, item.card.translit, item.card.ru].join(" ").toLowerCase().includes(query)).slice(0, 6);
+
+    const wordResults = [];
+    allCards().forEach((item) => wordResults.push({
+      card: item.card, href: `#/vocab/${item.pack.id}`, source: item.pack.title,
+    }));
+    (DATA.vocab.noAudioPacks || []).forEach((pack) => pack.cards.forEach((card) => wordResults.push({
+      card, href: `#/vocab/${pack.id}`, source: pack.title,
+    })));
+    textbook2Collections.forEach((collection) => collection.cards.forEach((card) => wordResults.push({
+      card, href: `#/textbook-2/lesson-${collection.id}/vocab`, source: `Учебник 2 · урок ${collection.id}`,
+    })));
+    textbook2TaskCollections.forEach((collection) => collection.cards.forEach((card) => wordResults.push({
+      card, href: `#/textbook-2/lesson-${collection.lessonId}/tasks`, source: `Слова из заданий · урок ${collection.lessonId}`,
+    })));
+    DATA.intro.forEach((lesson) => (lesson.words || []).forEach((card) => wordResults.push({
+      card, href: `#/intro/${lesson.id}`, source: `Вводный урок ${lesson.id}`,
+    })));
+    const cards = wordResults.filter(({ card }) =>
+      [card.dari, card.translit, card.ru].join(" ").toLowerCase().includes(query)).slice(0, 10);
     if (cards.length) {
-      groups.push(`<div class="search-group-label">Слова</div>${cards.map((item) =>
-        searchResult(`data-search-go="#/vocab/${esc(item.pack.id)}"`, "volume", `${item.card.ru}`, `${item.card.translit} · ${item.pack.title}`, "слово", item.card.dari)).join("")}`);
+      groups.push(`<div class="search-group-label">Слова и карточки</div>${cards.map(({ card, href, source }) =>
+        searchResult(`data-search-go="${esc(href)}"`, "volume", card.ru, `${card.translit || "без транскрипции"} · ${source}`, "слово", card.dari)).join("")}`);
+    }
+
+    const semesterTwoUnits = (DATA.studentUnits || []).filter((unit) =>
+      [unit.num, unit.title, unit.summary, unit.source].join(" ").toLowerCase().includes(query)).slice(0, 5);
+    if (semesterTwoUnits.length) {
+      groups.push(`<div class="search-group-label">Семестр 2 · Student Book</div>${semesterTwoUnits.map((unit) =>
+        searchResult(`data-search-go="#/lessons/semester-2/lesson/${unit.num}"`, "book", `Урок ${unit.num} · ${unit.title}`, unit.summary, "урок")).join("")}`);
+    }
+
+    const textbookLessons = textbook2Collections.filter((item) =>
+      [item.id, item.title, item.description].join(" ").toLowerCase().includes(query)).slice(0, 5);
+    if (textbookLessons.length) {
+      groups.push(`<div class="search-group-label">Учебник 2 · Островский</div>${textbookLessons.map((item) =>
+        searchResult(`data-search-go="#/textbook-2/lesson-${item.id}"`, "bookOpen", item.title, item.description || `Урок ${item.id}`, "урок")).join("")}`);
+    }
+
+    const mainPhrases = DATA.lessons.flatMap((lesson) => (lesson.phrases || []).map((phrase) => ({ ...phrase, lesson: lesson.num })));
+    const textbookPhrases = Object.entries(textbook2PhraseTasksByLesson).flatMap(([lesson, tasks]) =>
+      tasks.map((task) => ({ dari: task.answer, translit: "", ru: task.prompt, lesson: Number(lesson), course: "Учебник 2" })));
+    const phrases = [...mainPhrases.map((phrase) => ({ ...phrase, course: "Основной курс" })), ...textbookPhrases]
+      .filter((phrase) => [phrase.dari, phrase.translit, phrase.ru].join(" ").toLowerCase().includes(query)).slice(0, 8);
+    if (phrases.length) {
+      groups.push(`<div class="search-group-label">Фразы и предложения</div>${phrases.map((phrase) => {
+        const href = phrase.course === "Учебник 2"
+          ? `#/textbook-2/lesson-${phrase.lesson}/phrases`
+          : `#/lesson/${phrase.lesson}`;
+        return searchResult(`data-search-go="${esc(href)}"`, "messageSquare", phrase.ru,
+          `${phrase.translit ? phrase.translit + " · " : ""}${phrase.course} · урок ${phrase.lesson}`, "фраза", phrase.dari);
+      }).join("")}`);
     }
     const lib = getLibSearchIndex();
     const files = lib.files.filter((x) => x.file.name.toLowerCase().includes(query)).slice(0, 8);
@@ -5729,7 +5778,7 @@
         searchResult(`data-search-go="#/library/${esc(node.id)}"`, "folder", node.name, path, "папка")).join("")}`);
     }
     if (!groups.length) {
-      box.innerHTML = '<p class="search-empty">Ничего не нашлось. Попробуйте имя буквы, номер урока или часть названия файла.</p>';
+      box.innerHTML = '<p class="search-empty">Ничего не нашлось. Попробуйте другое написание или часть слова, фразы, названия урока или файла.</p>';
       return;
     }
     box.innerHTML = groups.join("");
