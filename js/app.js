@@ -244,11 +244,10 @@
   const wordsDone = () => allCards().filter((item) => state.words[item.key]).length;
   const packKnown = (pack) => pack.cards.filter((_, index) => state.words[`${pack.id}:${index}`]).length;
   const overallProgress = () => {
-    const total = DATA.meta.counts;
     const parts = [
-      lettersKnown() / total.letters,
-      lessonsDone() / total.lessons,
-      wordsDone() / Math.max(1, total.vocabWords),
+      lettersKnown() / DATA.meta.counts.letters,
+      allLessonsDone() / Math.max(1, allLessonsTotal()),
+      allWordCardsDone() / Math.max(1, allWordCardsTotal()),
     ];
     return Math.round((parts.reduce((a, b) => a + b, 0) / parts.length) * 100);
   };
@@ -627,9 +626,10 @@
   const renderHome = () => {
     const total = DATA.meta.counts;
     const lKnown = lettersKnown();
-    const lDone = lessonsDone();
-    const allWordsTotal = total.vocabWords + textbook2Collections.reduce((sum, item) => sum + item.cards.length, 0);
-    const wDone = wordsDone() + textbook2Collections.reduce((sum, item) => sum + textbook2KnownCount(item), 0);
+    const lDone = allLessonsDone();
+    const allLessons = allLessonsTotal();
+    const allWordsTotal = allWordCardsTotal();
+    const wDone = allWordCardsDone();
     const rec = continueItem();
     const week = weekData();
     const weekMax = Math.max(1, ...week.map((x) => x.value));
@@ -691,7 +691,7 @@
 
       <div class="stats-grid">
         ${statCard("Буквы", `${lKnown}/${total.letters}`, "изучено", "alphabet", (lKnown / total.letters) * 100)}
-        ${statCard("Уроки", `${lDone}/${total.lessons}`, "пройдено", "book", (lDone / total.lessons) * 100)}
+        ${statCard("Уроки", `${lDone}/${allLessons}`, "пройдено", "book", (lDone / allLessons) * 100)}
         ${statCard("Слова", `${wDone}/${allWordsTotal}`, "изучено в карточках", "cards", (wDone / Math.max(1, allWordsTotal)) * 100)}
         ${statCard("Серия", String(state.streak || 0), plural(state.streak || 0, ["день", "дня", "дней"]), "flame", null)}
       </div>
@@ -5322,6 +5322,22 @@
   const textbook2TaskKnownCount = (collection) => collection
     ? collection.cards.filter((_, i) => state.textbook2Words[textbook2WordKey(collection.id, i)]).length
     : 0;
+  const textbook2LessonsDone = () => textbook2Collections.filter((collection) => {
+    const dictionaryComplete = textbook2KnownCount(collection) === collection.cards.length;
+    const taskCollection = textbook2TaskCollection(collection.id);
+    const tasksComplete = !taskCollection || textbook2TaskKnownCount(taskCollection) === taskCollection.cards.length;
+    const phraseCount = textbook2PhraseCounts[collection.id] || 0;
+    const phraseDone = JSON.parse(localStorage.getItem(`phraseDone${collection.id}-v2`) || "[]");
+    return dictionaryComplete && tasksComplete && (!phraseCount || phraseDone.length >= phraseCount);
+  }).length;
+  const allLessonsDone = () => lessonsDone() + Object.keys(state.semesterTwoLessons).length + textbook2LessonsDone();
+  const allLessonsTotal = () => DATA.lessons.length + (DATA.studentUnits || []).length + textbook2Collections.length;
+  const allWordCardsTotal = () => allCards().length
+    + textbook2Collections.reduce((sum, item) => sum + item.cards.length, 0)
+    + textbook2TaskCollections.reduce((sum, item) => sum + item.cards.length, 0);
+  const allWordCardsDone = () => wordsDone()
+    + textbook2Collections.reduce((sum, item) => sum + textbook2KnownCount(item), 0)
+    + textbook2TaskCollections.reduce((sum, item) => sum + textbook2TaskKnownCount(item), 0);
   const textbook2UnknownOrder = (collection) => (ui.textbook2Orders[collection.id] || collection.cards.map((_, i) => i))
     .filter((i) => !state.textbook2Words[textbook2WordKey(collection.id, i)]);
 
