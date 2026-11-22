@@ -3926,6 +3926,10 @@
   }));
   const textbook2WordKey = (lessonId, wordIndex) => `${lessonId}:${wordIndex}`;
   const textbook2KnownCount = (collection) => collection.cards.filter((_, i) => state.textbook2Words[textbook2WordKey(collection.id, i)]).length;
+  const textbook2TaskCollection = (lessonId) => textbook2TaskCollections.find((item) => item.lessonId === Number(lessonId));
+  const textbook2TaskKnownCount = (collection) => collection
+    ? collection.cards.filter((_, i) => state.textbook2Words[textbook2WordKey(collection.id, i)]).length
+    : 0;
   const textbook2UnknownOrder = (collection) => (ui.textbook2Orders[collection.id] || collection.cards.map((_, i) => i))
     .filter((i) => !state.textbook2Words[textbook2WordKey(collection.id, i)]);
 
@@ -3934,7 +3938,11 @@
     if (!collection) return notFound("Урок не найден");
     const phraseDone = JSON.parse(localStorage.getItem("phraseDone8") || "[]");
     const known = textbook2KnownCount(collection);
-    const pct = Math.round(known / Math.max(1, collection.cards.length) * 100);
+    const taskCollection = textbook2TaskCollection(collection.id);
+    const taskKnown = textbook2TaskKnownCount(taskCollection);
+    const taskCount = taskCollection ? taskCollection.cards.length : 0;
+    const taskPct = taskCount ? Math.round(taskKnown / taskCount * 100) : 0;
+    const pct = Math.round((known + taskKnown) / Math.max(1, collection.cards.length + taskCount) * 100);
     const phraseCount = collection.id === 8 ? 6 : 0;
     const phrasePct = phraseCount ? Math.round(phraseDone.length / phraseCount * 100) : 0;
     return `<div class="page textbook-page">
@@ -3963,7 +3971,8 @@
         <a class="pack-card textbook-material-card" href="#/textbook-2/lesson-${collection.id}/tasks" style="--pack-color:var(--gold)">
           <span class="pack-icon">✍️</span><h3>Слова из заданий</h3>
           <p class="pack-description">Отдельная подборка лексики из упражнений урока.</p>
-          <div class="pack-sub">Материалы будут добавлены</div>
+          <div class="pack-sub">${taskCount ? `${taskCount} слов` : "Подборка скоро появится"}</div>
+          <div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:${taskPct}%"></div></div><span>${taskKnown}/${taskCount}</span></div>
         </a>
         <a class="pack-card textbook-material-card" href="#/textbook-2/lesson-${collection.id}/phrases" style="--pack-color:var(--purple)">
           <span class="pack-icon">🧩</span><h3>Отработка фраз</h3>
@@ -4056,14 +4065,19 @@
         <div class="lesson-grid semester-one-grid textbook-lesson-grid">
           ${textbook2Collections.map((collection) => {
             const known = textbook2KnownCount(collection);
-            const pct = Math.round(known / Math.max(1, collection.cards.length) * 100);
+            const taskCollection = textbook2TaskCollection(collection.id);
+            const taskKnown = textbook2TaskKnownCount(taskCollection);
+            const taskCount = taskCollection ? taskCollection.cards.length : 0;
+            const totalWords = collection.cards.length + taskCount;
+            const totalKnown = known + taskKnown;
+            const pct = Math.round(totalKnown / Math.max(1, totalWords) * 100);
             const phraseCount = collection.id === 8 ? 6 : 0;
             const phrasePct = phraseCount ? Math.round(phraseDone.length / phraseCount * 100) : 0;
             return `<a class="lesson-card textbook-lesson-card" href="#/textbook-2/lesson-${collection.id}">
-              <div class="lesson-top"><div class="lesson-num">${collection.id}<small>УРОК</small></div><span class="badge badge-ghost">${collection.cards.length} слов</span></div>
+              <div class="lesson-top"><div class="lesson-num">${collection.id}<small>УРОК</small></div><span class="badge badge-ghost">${totalWords} слов</span></div>
               <h3>${collection.title}</h3>
               <p class="summary">${esc(collection.description || "")}</p>
-              <div class="lesson-card-bottom"><span class="meta"><span>📚 ${known}/${collection.cards.length}</span><span>🧩 ${phraseCount ? `${phraseDone.length}/${phraseCount}` : "—"}</span></span><span>Открыть ${svg("arrowRight")}</span></div>
+              <div class="lesson-card-bottom"><span class="meta"><span>📚 ${known}/${collection.cards.length}</span><span>✍️ ${taskCount ? `${taskKnown}/${taskCount}` : "—"}</span><span>🧩 ${phraseCount ? `${phraseDone.length}/${phraseCount}` : "—"}</span></span><span>Открыть ${svg("arrowRight")}</span></div>
               <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>
             </a>`;
           }).join("")}
