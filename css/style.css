@@ -2187,3 +2187,16 @@ kbd {
   margin-top: auto;
   padding-top: 14px;
 }
+
+
+/* Show complete lesson descriptions on Course 2 tiles */
+.textbook-lesson-grid .textbook-lesson-card p.summary {
+  display: block;
+  -webkit-line-clamp: unset;
+  -webkit-box-orient: initial;
+  min-height: 0;
+  height: auto;
+  overflow: visible;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
