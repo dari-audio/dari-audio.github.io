@@ -1079,6 +1079,8 @@
     if (/телефон|связ|телеком|электрон|компьютер|технолог/.test(text)) return "Технологии";
     return "Повседневная жизнь";
   };
+  const SEMESTER_TWO_PDF_IDS = ["1Jn9YyFf9FYte44OUVDZCPCLpEP0kfPg6","1cc_RUOl7lzKf9eZd0n9LNqNlqJKf829V","1g4bimxXTx2yjrxinRCpTTOdElDxjptfv","175d6m7mcHe3Rm4e83PIVBruQrPlXxO7x","137JAVtB02ngRLg1PAo8XrFE9IVT8fhkH","1NQa-5KL9fWaSq6amtzLLOnfg43FPdVj-","1U-vl2zNUp--9du_uLNIn05u7oulXk_RO","1_LQICAtnAimVmYJlPW8Im54qkqP7bYK9","15OHFD5nXXzBAiFJUx5zFbn9Wds1KRD5_","1RHT1FMrqoZ3SMik15itsquITNd_-YiIi","1HwImA_GKhpxSGzaC-aiqcxOwAhjnBCPy","1kgszz8v7wjDa5Hc_aUfPCA0bzTK1K5fa","1ERGt9xuoM-nu8uEQ7o1KRco54rRezz5f","1T--plZH9QasvU-3DKrAbvA8nVygf_lhe","1FpiXyk88NFrQHr9Uq6I1-pPjthjM3qv-","1nL5_1yaC8ktBKsstWapKJaTwBvJub5_E","1I4BpWWVUNS6JPH0I5tZ5qu5qi0TRsqaR","1eqGRe0ecIFnH4fo1_IxONG4o5w4qY2_n","1q4KI5YUB6yFsyqYZ3Mv4BU9jEp9VwErT","1_FoY3zyNxiWsA03sax1Yg7sYVAexanf-","17FNj5DPfnycd5J7GubrIZQUNq6HX1SmT","1OkY9mr3OVSifm-Q0h3yFQKSho2PyVu33","1TGMU3ybcUqEgEM3MnJPVmlhk7_T3GjiD","1PUYFIfdTaVRrvQqp_ARfI75oeS8cVwyO","1NmjIvBBDr3yxGhzODxkYz1_4Jn4vKwQK","1QisDwBU3mkmF2jhClEKerX_9e_dvUzpn","1_tGE-xA1ol547A2NvfIbZ-ydajs4ePrd","1jPmgfboXIyXJYnGgttATW0_VM5jScU2s","1vMbXQ89wfhT2looFWnNXdOga53VsCo-A","1oocjORacWADF07_oGTEU7OB_x9qk-mdk","1omEgfEx6Es-_v49A5WpnRpWIt8deKj0A","1CbRBlH_hge3veAe3RPMKyUvOz47mU_aa","18QyMpYZuzXfDmuN9aMHddzlEtCyXiULF","17by_wYS6B8cHVWndrgg5a2tjB6xqL1Bn","11kATiTke5_1iq83AloF548HcZxi2ji2Q","1ff16Tpnd3Bi5_o5bl2bO83nGfdfXd-RJ","1DdQcGOlnUte85a-70XF4_52IZ2wna4Ub","1LoK1yDmKBexW3RoQJlEoPg_yGXTAxMi7","1jcExr9mlunxge_weABqy30kt5fAIVAkN","16FmTZsXDEF43GfJQ93ve9dxVuQtWXvgK"];
+
   const renderSemesterTwoLesson = (num) => {
     const unit = (DATA.studentUnits || []).find((item) => item.num === Number(num));
     const folder = (DATA.semesterTwo.folders || []).find((item) => item.id === `virtual-lesson-${pad(num)}`);
@@ -1117,8 +1119,10 @@
           </div>
           <div class="panel"><h2>Грамматика и тема</h2><div class="grammar-box" style="margin-top:12px"><strong>Тема урока</strong><p>${esc(unit.summary)}</p></div></div>
           <div class="panel">
-            <div class="panel-head"><div><h2>Учебник · Student Book</h2><p>Материал урока ${num} из соответствующего тома второго семестра.</p></div></div>
-            <div class="notice notice-warn">${svg("info")} <span>Отдельный PDF этого урока будет добавлен после загрузки и разделения двух исходных учебников.</span></div>
+            <div class="panel-head"><div><h2>Учебник · Student Book</h2><p>PDF урока ${num} · читайте прямо на сайте.</p></div>
+              <div class="panel-head-actions"><a class="btn btn-ghost btn-sm" href="https://drive.google.com/file/d/${SEMESTER_TWO_PDF_IDS[Number(num) - 1]}/view" target="_blank" rel="noopener">${svg("external")} Открыть в Drive</a><a class="btn btn-soft btn-sm" href="${driveDownload(SEMESTER_TWO_PDF_IDS[Number(num) - 1])}" target="_blank" rel="noopener">${svg("download")} Скачать</a></div>
+            </div>
+            <div class="pdf-frame-wrap textbook-frame"><iframe src="${drivePdf(SEMESTER_TWO_PDF_IDS[Number(num) - 1])}" title="Семестр 2 · Урок ${num} · PDF" allow="autoplay" loading="lazy"></iframe></div>
           </div>
           <div class="complete-banner ${done ? "done" : ""}">
             <div><strong>${done ? "Урок пройден" : "Урок можно считать пройденным?"}</strong><span>${done ? "Отметка сохранена в вашем прогрессе." : "Прослушайте записи и отметьте урок — так удобнее видеть, что осталось."}</span></div>
@@ -1132,7 +1136,7 @@
         <aside class="detail-side">
           <div class="panel"><h3>Паспорт урока</h3><div class="audio-list">
             <div class="track-row"><span class="track-num">${tracks.length}</span><div class="track-info"><strong>аудиозаписей</strong><span>аудиоматериалы Student Book</span></div></div>
-            <div class="track-row"><span class="track-num">PDF</span><div class="track-info"><strong>учебник</strong><span>Отдельный файл будет добавлен</span></div></div>
+            <div class="track-row"><span class="track-num">PDF</span><div class="track-info"><strong>учебник</strong><span>Встроенный просмотр Google Drive</span></div></div>
             <div class="track-row"><span class="track-num">${num}</span><div class="track-info"><strong>номер урока</strong><span>Student Book · Семестр 2</span></div></div>
           </div></div>
           <div class="panel"><h3>Темы</h3><div class="tag-row"><span class="badge badge-green">${esc(category)}</span><span class="badge badge-green">Student Book</span></div></div>
