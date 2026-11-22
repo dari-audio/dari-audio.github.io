@@ -2086,6 +2086,21 @@
       </div><button class="btn btn-soft btn-sm" type="button" data-textbook-direction="${collection.id}">${russianFirst ? "Сначала: русский" : "Сначала: дари"}</button><button class="btn btn-soft btn-sm" type="button" data-textbook-shuffle="${collection.id}">↝ Перемешать</button></div>
       ${ui.textbook2View === "list" ? list : flash}</div>`;
   };
+  const renderTextbook2Tasks = (lessonNum) => {
+    const n = Number(lessonNum);
+    const lesson = textbook2Collections.find((item) => item.id === n);
+    if (!lesson) return notFound("Урок не найден");
+    const emptyList = `<div class="word-list textbook-word-list"><div class="word-row"><span class="idx">01</span><span class="dari">—</span><span class="translit">—</span><span class="ru">Карточки будут добавлены</span></div></div>`;
+    const emptyCard = `<div class="flash-wrap"><div class="flash-progress"><span>0 слов</span><div class="progress-track"><div class="progress-fill" style="width:0%"></div></div><span>0 знаю</span></div><div class="flashcard-stage"><div class="flashcard textbook-word-card" style="cursor:default"><div class="flash-face front"><div class="flash-dari" style="font-size:1.5rem">Карточки появятся здесь</div><div class="flash-translit">Слова из заданий урока ${n}</div><span class="hint">Место подготовлено для вашей подборки</span></div></div></div></div>`;
+    return `<div class="page"><a class="back-link" href="#/textbook-2/lesson-${n}">${svg("arrowRight")} К уроку ${n}</a>
+      <div class="detail-hero" data-letter="✍️"><div class="detail-badge" style="font-size:1.8rem">✍️</div><div class="detail-hero-copy"><span class="eyebrow">Урок ${n} · Слова из заданий</span><h1>${esc(lesson.title)}</h1><div class="en-title">Карточки для изучения слов</div><p>Отдельная подборка лексики из упражнений урока. Карточки будут заполнены по вашему списку.</p></div></div>
+      <div class="flash-toolbar"><div class="view-switch">
+        <button class="${ui.textbook2View === "cards" ? "active" : ""}" type="button" data-textbook-view="cards">${svg("cards")} Карточки</button>
+        <button class="${ui.textbook2View === "list" ? "active" : ""}" type="button" data-textbook-view="list">${svg("list")} Список</button>
+      </div></div>
+      ${ui.textbook2View === "list" ? emptyList : emptyCard}</div>`;
+  };
+
   const renderPhrasePractice = (lessonNum) => {
     const n=Number(lessonNum);
     const tasks=n===8?[
@@ -2600,7 +2615,7 @@
     else if (section === "practice") html = renderPractice();
     else if (section === "library") html = renderLibrary(parts[1]);
     else if (section === "textbook-1") html = renderTextbook(1);
-    else if (section === "textbook-2" || section === "textbook") html = parts[1] && parts[1].startsWith("lesson-") ? (parts[2] === "vocab" ? renderTextbook2Collection(parts[1].slice(7)) : parts[2] === "phrases" ? renderPhrasePractice(parts[1].slice(7)) : parts[2] === "tasks" ? `<div class="page"><a class="back-link" href="#/textbook-2/lesson-${parts[1].slice(7)}">← К уроку ${parts[1].slice(7)}</a><div class="detail-hero"><div class="detail-hero-copy"><span class="eyebrow">Урок ${parts[1].slice(7)}</span><h1>Слова из заданий</h1><p>Подборка слов из упражнений этого урока появится здесь.</p></div></div><div class="empty-state"><h3>Материалы пока не добавлены</h3><p>Здесь будет отдельный список лексики из заданий.</p></div></div>` : renderTextbook2Lesson(parts[1].slice(7))) : parts[1] && parts[1].startsWith("phrases-") ? renderPhrasePractice(parts[1].slice(8)) : renderTextbook(2);
+    else if (section === "textbook-2" || section === "textbook") html = parts[1] && parts[1].startsWith("lesson-") ? (parts[2] === "vocab" ? renderTextbook2Collection(parts[1].slice(7)) : parts[2] === "phrases" ? renderPhrasePractice(parts[1].slice(7)) : parts[2] === "tasks" ? renderTextbook2Tasks(parts[1].slice(7)) : renderTextbook2Lesson(parts[1].slice(7))) : parts[1] && parts[1].startsWith("phrases-") ? renderPhrasePractice(parts[1].slice(8)) : renderTextbook(2);
     else if (section === "about") html = renderAbout();
     else html = notFound();
 
