@@ -2002,6 +2002,52 @@
   const textbook2UnknownOrder = (collection) => (ui.textbook2Orders[collection.id] || collection.cards.map((_, i) => i))
     .filter((i) => !state.textbook2Words[textbook2WordKey(collection.id, i)]);
 
+  const renderTextbook2Lesson = (lessonNum) => {
+    const collection = textbook2Collections.find((item) => item.id === Number(lessonNum));
+    if (!collection) return notFound("Урок не найден");
+    const phraseDone = JSON.parse(localStorage.getItem("phraseDone8") || "[]");
+    const known = textbook2KnownCount(collection);
+    const pct = Math.round(known / Math.max(1, collection.cards.length) * 100);
+    const phraseCount = collection.id === 8 ? 6 : 0;
+    const phrasePct = phraseCount ? Math.round(phraseDone.length / phraseCount * 100) : 0;
+    return `<div class="page textbook-page">
+      <a class="back-link" href="#/textbook-2">${svg("arrowRight")} Все уроки</a>
+      <div class="detail-hero" data-letter="${collection.id}">
+        <div class="detail-badge num">${collection.id}</div>
+        <div class="detail-hero-copy">
+          <span class="eyebrow">Островский · 2-й год обучения</span>
+          <h1>${collection.title}</h1>
+          <div class="en-title">Урок ${collection.id}</div>
+          <p>${esc(collection.description || "Материалы урока")}</p>
+        </div>
+      </div>
+      <div class="pack-grid textbook-collections textbook-vocab-grid textbook-lesson-materials">
+        <section class="pack-card textbook-material-card" style="--pack-color:var(--blue)">
+          <span class="pack-icon">📄</span><h3>PDF урока</h3>
+          <p class="pack-description">Место для PDF-конспекта урока. Файл будет добавлен позже.</p>
+          <div class="pack-sub">Пока нет файла</div>
+        </section>
+        <a class="pack-card textbook-material-card" href="#/textbook-2/lesson-${collection.id}/vocab" style="--pack-color:var(--green)">
+          <span class="pack-icon">📚</span><h3>Словарь</h3>
+          <p class="pack-description">Слова и карточки для изучения.</p>
+          <div class="pack-sub">${collection.cards.length} слов</div>
+          <div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div><span>${known}/${collection.cards.length}</span></div>
+        </a>
+        <a class="pack-card textbook-material-card" href="#/textbook-2/lesson-${collection.id}/tasks" style="--pack-color:var(--gold)">
+          <span class="pack-icon">✍️</span><h3>Слова из заданий</h3>
+          <p class="pack-description">Отдельная подборка лексики из упражнений урока.</p>
+          <div class="pack-sub">Материалы будут добавлены</div>
+        </a>
+        <a class="pack-card textbook-material-card" href="#/textbook-2/lesson-${collection.id}/phrases" style="--pack-color:var(--purple)">
+          <span class="pack-icon">🧩</span><h3>Отработка фраз</h3>
+          <p class="pack-description">Собирайте предложения из слов.</p>
+          <div class="pack-sub">${phraseCount ? `${phraseDone.length}/${phraseCount} выполнено` : "Задания скоро появятся"}</div>
+          <div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:${phrasePct}%"></div></div><span>${phrasePct}%</span></div>
+        </a>
+      </div>
+    </div>`;
+  };
+
   const renderTextbook2Collection = (lessonNum) => {
     const collection = textbook2Collections.find((item) => item.id === Number(lessonNum));
     if (!collection) return notFound("Коллекция не найдена");
@@ -2015,7 +2061,6 @@
     const flipped = Boolean(ui.textbook2Flipped);
     const russianFirst = Boolean(ui.textbook2RussianFirst[collection.id]);
     const knownCount = textbook2KnownCount(collection);
-    const currentWordKnown = false;
     const list = `<div class="word-list textbook-word-list">
       ${collection.cards.map((word, i) => {
         const known = Boolean(state.textbook2Words[textbook2WordKey(collection.id, i)]);
@@ -2033,15 +2078,15 @@
       <div class="flash-face front">${russianFirst ? `<div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">${esc(card.ru)}</div>` : `<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div>`}<span class="hint">Нажмите на карточку, чтобы увидеть ${russianFirst ? "дари" : "перевод"}</span></div>
       <div class="flash-face back">${russianFirst ? `<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div>` : `<div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">${esc(card.ru)}</div>${card.translit ? `<div class="flash-translit" style="color:var(--gold)">${esc(card.translit)}</div>` : ""}`}<span class="hint">Нажмите ещё раз, чтобы вернуться</span></div></div></div>
       <div class="flash-actions"><button class="btn btn-primary btn-sm" type="button" data-textbook2-know="${originalIndex}">${svg("check")} Знаю</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-prev ${index===0?"disabled":""}>${svg("arrowLeft")} Назад</button><button class="btn btn-soft btn-sm" type="button" data-textbook-flip-button>${svg("flip")} ${russianFirst ? "Дари" : "Перевод"}</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-next ${index===unknownOrder.length-1?"disabled":""}>Дальше ${svg("arrowRight")}</button></div></div>` : `<div class="empty-state"><h3>Все слова знакомы!</h3><p>Снимите отметку «Знаю» в списке, чтобы вернуть слово в карточки.</p></div>`;
-    return `<div class="page"><a class="back-link" href="#/textbook-2">${svg("arrowRight")} Все коллекции</a>
-      <div class="detail-hero" data-letter="📚"><div class="detail-badge" style="font-size:1.8rem">📚</div><div class="detail-hero-copy"><span class="eyebrow">Учебник · курс 2</span><h1>${collection.title}</h1><div class="en-title">Карточки для изучения слов</div><p>Коллекция содержит ${collection.cards.length} слов.</p></div></div>
+    return `<div class="page"><a class="back-link" href="#/textbook-2/lesson-${collection.id}">${svg("arrowRight")} К уроку ${collection.id}</a>
+      <div class="detail-hero" data-letter="📚"><div class="detail-badge" style="font-size:1.8rem">📚</div><div class="detail-hero-copy"><span class="eyebrow">Урок ${collection.id} · Словарь</span><h1>${collection.title}</h1><div class="en-title">Карточки для изучения слов</div><p>Коллекция содержит ${collection.cards.length} слов.</p></div></div>
       <div class="flash-toolbar"><div class="view-switch">
         <button class="${ui.textbook2View === "cards" ? "active" : ""}" type="button" data-textbook-view="cards">${svg("cards")} Карточки</button>
         <button class="${ui.textbook2View === "list" ? "active" : ""}" type="button" data-textbook-view="list">${svg("list")} Список</button>
       </div><button class="btn btn-soft btn-sm" type="button" data-textbook-direction="${collection.id}">${russianFirst ? "Сначала: русский" : "Сначала: дари"}</button><button class="btn btn-soft btn-sm" type="button" data-textbook-shuffle="${collection.id}">↝ Перемешать</button></div>
       ${ui.textbook2View === "list" ? list : flash}</div>`;
   };
-    const renderPhrasePractice = (lessonNum) => {
+  const renderPhrasePractice = (lessonNum) => {
     const n=Number(lessonNum);
     const tasks=n===8?[
       {prompt:"Уже слишком поздно",answer:"کار از کار رفته",words:["کار","از","کار","رفته","من","است","بسیار","خانه","کتاب","خوب"]},
@@ -2052,7 +2097,7 @@
       {prompt:"Разменяете сто афгани?",answer:"صد افغانی را میده دارید؟",words:["صد","افغانی","را","میده","دارید؟","چند","خوب","کتاب"]}
     ]:[];
     const done=JSON.parse(localStorage.getItem("phraseDone8")||"[]");
-    return `<div class="page phrase-practice"><a class="back-link" href="#/textbook-2">← Все уроки</a><h1>Отработка фраз · Урок ${n}</h1>${tasks.map((t,i)=>`<div class="card phrase-task" style="padding:22px;margin:16px 0"><p class="phrase-prompt">${t.prompt}</p><div data-phrase-answer="${i}" class="phrase-answer" dir="rtl"></div><div class="phrase-bank" dir="rtl">${t.words.slice().sort(()=>Math.random()-.5).map((w,j)=>`<button type="button" class="btn btn-soft phrase-word" data-phrase-word="${i}" data-word="${w}" data-token="${j}">${w}</button>`).join("")}</div><button type="button" class="btn btn-primary" data-phrase-check="${i}" data-phrase-correct="${encodeURIComponent(t.answer)}">Проверить</button> <button type="button" class="btn btn-ghost" data-phrase-reset="${i}">Сброс</button><p class="phrase-feedback" data-phrase-feedback="${i}">${done.includes(i)?"Верно! ✓":""}</p></div>`).join("")||`<div class="card" style="padding:20px">Задания для этого урока скоро появятся.</div>`}</div>`;
+    return `<div class="page phrase-practice"><a class="back-link" href="#/textbook-2/lesson-${n}">← К уроку ${n}</a><h1>Отработка фраз · Урок ${n}</h1>${tasks.map((t,i)=>`<div class="card phrase-task" style="padding:22px;margin:16px 0"><p class="phrase-prompt">${t.prompt}</p><div data-phrase-answer="${i}" class="phrase-answer" dir="rtl"></div><div class="phrase-bank" dir="rtl">${t.words.slice().sort(()=>Math.random()-.5).map((w,j)=>`<button type="button" class="btn btn-soft phrase-word" data-phrase-word="${i}" data-word="${w}" data-token="${j}">${w}</button>`).join("")}</div><button type="button" class="btn btn-primary" data-phrase-check="${i}" data-phrase-correct="${encodeURIComponent(t.answer)}">Проверить</button> <button type="button" class="btn btn-ghost" data-phrase-reset="${i}">Сброс</button><p class="phrase-feedback" data-phrase-feedback="${i}">${done.includes(i)?"Верно! ✓":""}</p></div>`).join("")||`<div class="card" style="padding:20px">Задания для этого урока скоро появятся.</div>`}</div>`;
   };
   const renderTextbook = (num) => {
     const book = TEXTBOOKS[num];
@@ -2060,23 +2105,24 @@
     if (num === 2) {
       const phraseDone = JSON.parse(localStorage.getItem("phraseDone8") || "[]");
       return `<div class="page textbook-page">
-        <div class="page-head"><div><span class="eyebrow">Учебник · курс 2</span><h1>Островский · 2-й год обучения</h1><p>${esc(book.title)}. ${esc(book.note)}</p></div><div class="page-head-actions"><a class="btn btn-ghost" href="${esc(book.path)}" target="_blank" rel="noopener">${svg("external")} Открыть</a><a class="btn btn-primary" href="${esc(book.path)}" download="${esc(book.title)}.pdf">${svg("download")} Скачать · ${book.size}</a></div></div>
-        <details class="textbook-section">
-          <summary><span><strong>Словарь</strong><small>23 урока · ${textbook2Collections.reduce((sum, item) => sum + item.cards.length, 0)} слов</small></span><span class="textbook-section-toggle">${svg("chevronRight")}</span></summary>
-          <div class="pack-grid textbook-collections textbook-vocab-grid">${textbook2Collections.map((collection) => {
+        <div class="page-head">
+          <div><span class="eyebrow">Учебник · курс 2</span><h1>Островский · 2-й год обучения</h1><p>${esc(book.title)}. Выберите урок, чтобы открыть его материалы.</p></div>
+        </div>
+        <div class="lesson-grid semester-one-grid textbook-lesson-grid">
+          ${textbook2Collections.map((collection) => {
             const known = textbook2KnownCount(collection);
             const pct = Math.round(known / Math.max(1, collection.cards.length) * 100);
-            return `<a class="pack-card" href="#/textbook-2/lesson-${collection.id}" style="--pack-color:var(--green)">${known === collection.cards.length ? `<span class="pack-badge badge badge-done">${svg("check")} готово</span>` : ""}<span class="pack-icon">📚</span><h3>${collection.title}</h3>${collection.description ? `<p class="pack-description">${esc(collection.description)}</p>` : ""}<div class="pack-sub">${collection.cards.length} слов</div><div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div><span>${known}/${collection.cards.length}</span></div></a>`;
-          }).join("")}</div>
-        </details>
-        <details class="textbook-section">
-          <summary><span><strong>Отработка фраз</strong><small>Собирайте предложения из слов · 23 урока</small></span><span class="textbook-section-toggle">${svg("chevronRight")}</span></summary>
-          <div class="pack-grid textbook-collections textbook-phrase-grid">${Array.from({length:23},(_,i)=>i+1).map(n=>`<a class="pack-card" href="#/textbook-2/phrases-${n}" style="--pack-color:var(--gold)"><span class="pack-icon">🧩</span><h3>Урок ${n}</h3><div class="pack-sub">Отработка фраз</div><div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:${n===8?(phraseDone.length/6*100):0}%"></div></div><span>${n===8?phraseDone.length:0}/${n===8?6:0}</span></div></a>`).join("")}</div>
-        </details>
-        <section class="textbook-pdf-section">
-          <div class="textbook-pdf-copy"><strong>Учебник в PDF</strong><span>Просмотрщик загружается только по запросу, чтобы страница открывалась быстрее.</span></div>
-          <div class="pdf-frame-wrap textbook-frame" data-pdf-wrap data-pdf-src="${esc(book.path)}" data-pdf-title="${esc(book.title)}"><button class="btn btn-ghost" type="button" data-load-pdf>${svg("bookOpen")} Показать учебник</button></div>
-        </section>
+            const phraseCount = collection.id === 8 ? 6 : 0;
+            const phrasePct = phraseCount ? Math.round(phraseDone.length / phraseCount * 100) : 0;
+            return `<a class="lesson-card textbook-lesson-card" href="#/textbook-2/lesson-${collection.id}">
+              <div class="lesson-top"><div class="lesson-num">${collection.id}<small>УРОК</small></div><span class="badge badge-ghost">${collection.cards.length} слов</span></div>
+              <h3>${collection.title}</h3>
+              <p class="summary">${esc(collection.description || "")}</p>
+              <div class="lesson-card-bottom"><span class="meta"><span>📚 ${known}/${collection.cards.length}</span><span>🧩 ${phraseCount ? `${phraseDone.length}/${phraseCount}` : "—"}</span></span><span>Открыть ${svg("arrowRight")}</span></div>
+              <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>
+            </a>`;
+          }).join("")}
+        </div>
       </div>`;
     }
     const view = book.path ? `${book.path}#view=FitH` : drivePdf(book.driveId);
@@ -2554,7 +2600,7 @@
     else if (section === "practice") html = renderPractice();
     else if (section === "library") html = renderLibrary(parts[1]);
     else if (section === "textbook-1") html = renderTextbook(1);
-    else if (section === "textbook-2" || section === "textbook") html = parts[1] && parts[1].startsWith("lesson-") ? renderTextbook2Collection(parts[1].slice(7)) : parts[1] && parts[1].startsWith("phrases-") ? renderPhrasePractice(parts[1].slice(8)) : renderTextbook(2);
+    else if (section === "textbook-2" || section === "textbook") html = parts[1] && parts[1].startsWith("lesson-") ? (parts[2] === "vocab" ? renderTextbook2Collection(parts[1].slice(7)) : parts[2] === "phrases" ? renderPhrasePractice(parts[1].slice(7)) : parts[2] === "tasks" ? `<div class="page"><a class="back-link" href="#/textbook-2/lesson-${parts[1].slice(7)}">← К уроку ${parts[1].slice(7)}</a><div class="detail-hero"><div class="detail-hero-copy"><span class="eyebrow">Урок ${parts[1].slice(7)}</span><h1>Слова из заданий</h1><p>Подборка слов из упражнений этого урока появится здесь.</p></div></div><div class="empty-state"><h3>Материалы пока не добавлены</h3><p>Здесь будет отдельный список лексики из заданий.</p></div></div>` : renderTextbook2Lesson(parts[1].slice(7))) : parts[1] && parts[1].startsWith("phrases-") ? renderPhrasePractice(parts[1].slice(8)) : renderTextbook(2);
     else if (section === "about") html = renderAbout();
     else html = notFound();
 
