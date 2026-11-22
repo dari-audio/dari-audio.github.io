@@ -280,6 +280,7 @@
     textbook2RussianFirst: {},
     phraseIndex: 0,
     phraseView: "cards",
+    phraseLesson: null,
   };
 
   /* ---------- Плеер ---------- */
@@ -3961,14 +3962,14 @@
   const renderTextbook2Lesson = (lessonNum) => {
     const collection = textbook2Collections.find((item) => item.id === Number(lessonNum));
     if (!collection) return notFound("Урок не найден");
-    const phraseDone = JSON.parse(localStorage.getItem("phraseDone8-v2") || "[]");
+    const phraseCount = textbook2PhraseCounts[collection.id] || 0;
+    const phraseDone = JSON.parse(localStorage.getItem(`phraseDone${collection.id}-v2`) || "[]");
     const known = textbook2KnownCount(collection);
     const taskCollection = textbook2TaskCollection(collection.id);
     const taskKnown = textbook2TaskKnownCount(taskCollection);
     const taskCount = taskCollection ? taskCollection.cards.length : 0;
     const taskPct = taskCount ? Math.round(taskKnown / taskCount * 100) : 0;
     const pct = Math.round((known + taskKnown) / Math.max(1, collection.cards.length + taskCount) * 100);
-    const phraseCount = collection.id === 8 ? 24 : 0;
     const phrasePct = phraseCount ? Math.round(phraseDone.length / phraseCount * 100) : 0;
     return `<div class="page textbook-page">
       <a class="back-link" href="#/textbook-2">${svg("arrowRight")} Все уроки</a>
@@ -4137,7 +4138,6 @@
     const book = TEXTBOOKS[num];
     if (!book) return notFound();
     if (num === 2) {
-      const phraseDone = JSON.parse(localStorage.getItem("phraseDone8-v2") || "[]");
       return `<div class="page textbook-page">
         <div class="page-head">
           <div><span class="eyebrow">Учебник · курс 2</span><h1>Островский · 2-й год обучения</h1><p>${esc(book.title)}. Выберите урок, чтобы открыть его материалы.</p></div>
@@ -4151,7 +4151,8 @@
             const totalWords = collection.cards.length + taskCount;
             const totalKnown = known + taskKnown;
             const pct = Math.round(totalKnown / Math.max(1, totalWords) * 100);
-            const phraseCount = collection.id === 8 ? 24 : 0;
+            const phraseCount = textbook2PhraseCounts[collection.id] || 0;
+            const phraseDone = JSON.parse(localStorage.getItem(`phraseDone${collection.id}-v2`) || "[]");
             const phrasePct = phraseCount ? Math.round(phraseDone.length / phraseCount * 100) : 0;
             const complete = totalWords > 0 && totalKnown === totalWords && (!phraseCount || phraseDone.length >= phraseCount);
             return `<a class="lesson-card textbook-lesson-card ${complete ? "done" : ""}" href="#/textbook-2/lesson-${collection.id}">
