@@ -4302,6 +4302,200 @@
 ] };
   textbook2TaskCollections.push(textbook2TaskCollection3);
 
+  const textbook2TaskCollection4 = { id: 1004, lessonId: 4, title: "Урок 4 · Слова из заданий", cards: [
+  {
+    "dari": "منابع طبیعی",
+    "translit": "manābe'-e tabī'ī",
+    "ru": "природные ресурсы"
+  },
+  {
+    "dari": "اقتصاد ملی",
+    "translit": "eqtesād-e mellī",
+    "ru": "национальная экономика"
+  },
+  {
+    "dari": "ثروت های سرشار",
+    "translit": "sarwat-hā-ye saršār",
+    "ru": "огромные богатства"
+  },
+  {
+    "dari": "پلان های انکشافی",
+    "translit": "plān-hā-ye enkešāfi",
+    "ru": "планы развития"
+  },
+  {
+    "dari": "همکاری تخنیکی",
+    "translit": "hamkāri-ye texnīki",
+    "ru": "техническое сотрудничество"
+  },
+  {
+    "dari": "کشف",
+    "translit": "kašf",
+    "ru": "открытие, разведка"
+  },
+  {
+    "dari": "تفحصات",
+    "translit": "tafahhosāt",
+    "ru": "исследования"
+  },
+  {
+    "dari": "استخراج",
+    "translit": "estexrāj",
+    "ru": "добыча"
+  },
+  {
+    "dari": "بهره برداری",
+    "translit": "bahra-bardāri",
+    "ru": "эксплуатация, использование"
+  },
+  {
+    "dari": "مواد خام",
+    "translit": "mawād-e xām",
+    "ru": "сырьё"
+  },
+  {
+    "dari": "مواد معدنی",
+    "translit": "mawād-e ma'dani",
+    "ru": "полезные ископаемые"
+  },
+  {
+    "dari": "محروقات",
+    "translit": "mahruqāt",
+    "ru": "горючее, топливо"
+  },
+  {
+    "dari": "فلزات",
+    "translit": "felezāt",
+    "ru": "металлы"
+  },
+  {
+    "dari": "سنگ های گرانبها",
+    "translit": "sang-hā-ye garānbahā",
+    "ru": "драгоценные камни"
+  },
+  {
+    "dari": "احجار تعمیراتی",
+    "translit": "ahjār-e ta'mīrāti",
+    "ru": "строительный камень"
+  },
+  {
+    "dari": "گاز طبیعی",
+    "translit": "gāz-e tabī'ī",
+    "ru": "природный газ"
+  },
+  {
+    "dari": "زغال سنگ",
+    "translit": "zoğāl-sang",
+    "ru": "каменный уголь"
+  },
+  {
+    "dari": "نفت",
+    "translit": "naft",
+    "ru": "нефть"
+  },
+  {
+    "dari": "سنگ آهن",
+    "translit": "sang-e āhan",
+    "ru": "железная руда"
+  },
+  {
+    "dari": "مس",
+    "translit": "mes",
+    "ru": "медь"
+  },
+  {
+    "dari": "سرب",
+    "translit": "surb",
+    "ru": "свинец"
+  },
+  {
+    "dari": "جست",
+    "translit": "jast",
+    "ru": "цинк"
+  },
+  {
+    "dari": "املاح",
+    "translit": "amlāh",
+    "ru": "соли"
+  },
+  {
+    "dari": "طلا",
+    "translit": "talā",
+    "ru": "золото"
+  },
+  {
+    "dari": "نقره",
+    "translit": "naqra",
+    "ru": "серебро"
+  },
+  {
+    "dari": "الماس",
+    "translit": "almās",
+    "ru": "алмаз"
+  },
+  {
+    "dari": "زمرد",
+    "translit": "zomorrod",
+    "ru": "изумруд"
+  },
+  {
+    "dari": "لاجورد",
+    "translit": "lājward",
+    "ru": "лазурит"
+  },
+  {
+    "dari": "مرمر",
+    "translit": "marmar",
+    "ru": "мрамор"
+  },
+  {
+    "dari": "گچ",
+    "translit": "gač",
+    "ru": "гипс"
+  },
+  {
+    "dari": "انرژی برق",
+    "translit": "enerži-ye barq",
+    "ru": "электроэнергия"
+  },
+  {
+    "dari": "پایپ لاین گاز",
+    "translit": "pāyp-lāyn-e gāz",
+    "ru": "газопровод"
+  },
+  {
+    "dari": "فابریکه ذوب مس",
+    "translit": "fābrīka-ye zōb-e mes",
+    "ru": "медеплавильный завод"
+  },
+  {
+    "dari": "فابریکه برق آبی",
+    "translit": "fābrīka-ye barq-e ābi",
+    "ru": "гидроэлектростанция"
+  },
+  {
+    "dari": "فابریکه برق حرارتی",
+    "translit": "fābrīka-ye barq-e harārati",
+    "ru": "тепловая электростанция"
+  },
+  {
+    "dari": "زمین های حاصلخیز",
+    "translit": "zamīn-hā-ye hāshelxēz",
+    "ru": "плодородные земли"
+  },
+  {
+    "dari": "اراضی بایر",
+    "translit": "arāzi-ye bāyer",
+    "ru": "пустующие земли"
+  },
+  {
+    "dari": "کود کیمیا",
+    "translit": "kūd-e kīmiyā",
+    "ru": "химические удобрения"
+  }
+] };
+  textbook2TaskCollections.push(textbook2TaskCollection4);
+
 
   const textbook2Collections = Array.from({ length: 23 }, (_, index) => ({
     id: index + 1, title: `Урок ${index + 1}`, description: textbook2LessonDescriptions[index + 1] || "",
