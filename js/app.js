@@ -5887,7 +5887,7 @@
     saripul: { name: "Сари-Пуль", dari: "سرپل", capital: "Сари-Пуль", capitalDari: "سرپل" },
     takhar: { name: "Тахар", dari: "تخار", capital: "Талокан", capitalDari: "تالقان" },
     uruzgan: { name: "Урузган", dari: "اورزگان", capital: "Таринкот", capitalDari: "ترین کوټ" },
-    wardak: { name: "Вардак", dari: "وردک", capital: "Майданшахр", capitalDari: "میدان‌شهر" },
+    wardak: { name: "Майдан Вардак", dari: "میدان وردک", capital: "Майданшахр", capitalDari: "میدان‌شهر" },
     zabul: { name: "Забуль", dari: "زابل", capital: "Калат", capitalDari: "قلات" }
   };
   const gameProvinceNames = Object.fromEntries(Object.entries(gameProvinceInfo).map(([key, value]) => [key, value.name]));
