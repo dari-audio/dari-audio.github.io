@@ -278,6 +278,8 @@
     packOrders: {},
     packRussianFirst: {},
     textbook2RussianFirst: {},
+    phraseIndex: 0,
+    phraseView: "cards",
   };
 
   /* ---------- Плеер ---------- */
@@ -4094,19 +4096,25 @@
     const storageKey = `phraseDone${n}-v2`;
     const done = JSON.parse(localStorage.getItem(storageKey) || "[]");
     const distractors = ["سرخ","سبز","زرد","آبی","سفید","سیاه","از","به","در","برای","است","بود","خوب","امروز","خانه","کتاب","چرا","چند"];
-    return `<div class="page phrase-practice"><a class="back-link" href="#/textbook-2/lesson-${n}">← К уроку ${n}</a><h1>Отработка фраз · Урок ${n}</h1>
-      ${tasks.map((t,i) => {
-        const words = t.answer.split(" ");
-        const bank = words.concat(distractors.slice(0, Math.max(3, Math.min(5, words.length - 1))));
-        return `<div class="card phrase-task" style="padding:22px;margin:16px 0">
-          <div class="eyebrow">Упражнение ${t.number}</div><p class="phrase-prompt">${esc(t.prompt)}</p>
-          <div data-phrase-answer="${i}" class="phrase-answer" dir="rtl"></div>
-          <div class="phrase-bank" dir="rtl">${bank.map((w,j) => ({w,j,sort:Math.random()})).sort((a,b)=>a.sort-b.sort).map(({w,j}) => `<button type="button" class="btn btn-soft phrase-word" data-phrase-word="${i}" data-word="${esc(w)}" data-token="${j}">${esc(w)}</button>`).join("")}</div>
-          <button type="button" class="btn btn-primary" data-phrase-check="${i}" data-phrase-lesson="${n}" data-phrase-correct="${encodeURIComponent(t.answer)}">Проверить</button>
-          <button type="button" class="btn btn-ghost" data-phrase-reset="${i}">Сброс</button>
-          <p class="phrase-feedback" data-phrase-feedback="${i}">${done.includes(i) ? "Верно! ✓" : ""}</p>
-        </div>`;
-      }).join("") || `<div class="card" style="padding:20px">Задания для этого урока скоро появятся.</div>`}
+    if (!tasks.length) return `<div class="page phrase-practice"><a class="back-link" href="#/textbook-2/lesson-${n}">← К уроку ${n}</a><h1>Отработка фраз · Урок ${n}</h1><div class="card" style="padding:20px">Задания для этого урока скоро появятся.</div></div>`;
+    const index = clamp(ui.phraseIndex || 0, 0, tasks.length - 1);
+    const task = tasks[index];
+    const words = task.answer.split(" ");
+    const bank = words.concat(distractors.slice(0, Math.max(3, Math.min(5, words.length - 1))));
+    const list = `<div class="phrase-list" aria-label="Список предложений">${tasks.map((item,i)=>`<button type="button" class="phrase-list-row ${done.includes(i)?"done":""} ${i===index?"active":""}" data-phrase-list-select="${i}"><span class="phrase-list-number">${String(i+1).padStart(2,"0")}</span><span class="phrase-list-copy"><strong>${esc(item.prompt)}</strong><span dir="rtl">${esc(item.answer)}</span></span><span class="phrase-list-status">${done.includes(i)?"✓":"›"}</span></button>`).join("")}</div>`;
+    const card = `<div class="phrase-card card">
+      <div class="phrase-card-progress"><span>${index+1} / ${tasks.length}</span><div class="progress-track"><div class="progress-fill" style="width:${(index+1)/tasks.length*100}%"></div></div><span>${done.length} выполнено</span></div>
+      <div class="eyebrow">Карточка ${index+1} · Упражнение ${task.number}</div>
+      <p class="phrase-prompt">${esc(task.prompt)}</p>
+      <div class="phrase-answer-label">Соберите предложение на дари</div>
+      <div data-phrase-answer="0" class="phrase-answer" dir="rtl"></div>
+      <div class="phrase-bank" dir="rtl">${bank.map((w,j)=>({w,j,sort:Math.random()})).sort((a,b)=>a.sort-b.sort).map(({w,j})=>`<button type="button" class="btn btn-soft phrase-word" data-phrase-word="0" data-word="${esc(w)}" data-token="${j}">${esc(w)}</button>`).join("")}</div>
+      <div class="phrase-card-actions"><button type="button" class="btn btn-primary" data-phrase-check="0" data-phrase-lesson="${n}" data-phrase-correct="${encodeURIComponent(task.answer)}">Проверить</button><button type="button" class="btn btn-ghost" data-phrase-reset="0">Сброс</button><span class="phrase-feedback" data-phrase-feedback="0">${done.includes(index)?"Верно! ✓":""}</span></div>
+      <div class="phrase-navigation"><button type="button" class="btn btn-ghost btn-sm" data-phrase-prev ${index===0?"disabled":""}>${svg("arrowLeft")} Назад</button><button type="button" class="btn btn-soft btn-sm" data-phrase-next ${index===tasks.length-1?"disabled":""}>Дальше ${svg("arrowRight")}</button></div>
+    </div>`;
+    return `<div class="page phrase-practice"><a class="back-link" href="#/textbook-2/lesson-${n}">← К уроку ${n}</a><div class="phrase-page-head"><div><span class="eyebrow">Урок ${n} · Практика</span><h1>Отработка фраз</h1><p>По одному предложению на карточке. Остальные предложения доступны в списке.</p></div></div>
+      <div class="phrase-view-switch"><button type="button" class="${ui.phraseView==="cards"?"active":""}" data-phrase-view="cards">Карточка</button><button type="button" class="${ui.phraseView==="list"?"active":""}" data-phrase-view="list">Список предложений <span>${tasks.length}</span></button></div>
+      ${ui.phraseView==="list"?list:card}
     </div>`;
   };
   const renderTextbook = (num) => {
@@ -4975,6 +4983,9 @@
     if (target.closest("[data-quiz-again]")) { startQuiz(); return; }
     if (target.closest("[data-quiz-setup]")) { quiz = null; renderRoute({ scroll: false }); return; }
 
+    if (target.closest("[data-phrase-view]")) { ui.phraseView = target.closest("[data-phrase-view]").dataset.phraseView; renderRoute({ scroll: false }); return; }
+    if (target.closest("[data-phrase-list-select]")) { ui.phraseIndex = Number(target.closest("[data-phrase-list-select]").dataset.phraseListSelect); ui.phraseView = "cards"; renderRoute({ scroll: false }); return; }
+    if (target.closest("[data-phrase-prev], [data-phrase-next]")) { ui.phraseIndex = clamp((ui.phraseIndex || 0) + (target.closest("[data-phrase-next]") ? 1 : -1), 0, 23); renderRoute({ scroll: false }); return; }
     if (target.closest("[data-phrase-word]")) { const btn=target.closest("[data-phrase-word]"); const answer=$(`[data-phrase-answer="${btn.dataset.phraseWord}"]`); if(answer){const token=document.createElement("button");token.type="button";token.className="phrase-picked";token.textContent=btn.dataset.word;token.dataset.pickedWord=btn.dataset.word;token.onclick=()=>{token.remove();btn.disabled=false;};answer.append(token);}btn.disabled=true;return;}
     if (target.closest("[data-phrase-reset]")) {const id=target.closest("[data-phrase-reset]").dataset.phraseReset;const answer=$(`[data-phrase-answer="${id}"]`);if(answer)answer.innerHTML="";$$ (`[data-phrase-word="${id}"]`).forEach(btn=>btn.disabled=false);const feedback=$(`[data-phrase-feedback="${id}"]`);if(feedback)feedback.textContent="";return;}
     if (target.closest("[data-phrase-check]")) {const btn=target.closest("[data-phrase-check]");const id=btn.dataset.phraseCheck;const answer=$(`[data-phrase-answer="${id}"]`);const feedback=$(`[data-phrase-feedback="${id}"]`);if(answer&&feedback){const value=Array.from(answer.children).map(x=>x.dataset.pickedWord).join(" ").trim();const correct=value===decodeURIComponent(btn.dataset.phraseCorrect);feedback.textContent=correct?"Верно! ✓":"Пока неверно — попробуйте ещё.";if(correct){const lesson=Number(btn.dataset.phraseLesson);const key=`phraseDone${lesson}-v2`;const done=JSON.parse(localStorage.getItem(key)||"[]");if(!done.includes(Number(id)))done.push(Number(id));localStorage.setItem(key,JSON.stringify(done));}}return;}
