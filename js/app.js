@@ -4065,38 +4065,54 @@
     return `<div class="page"><a class="back-link" href="#/textbook-2/lesson-${lessonId}">${svg("arrowRight")} К уроку ${lessonId}</a><div class="detail-hero" data-letter="✍️"><div class="detail-badge" style="font-size:1.8rem">✍️</div><div class="detail-hero-copy"><span class="eyebrow">Урок ${lessonId} · Слова из заданий</span><h1>${collection.title}</h1><div class="en-title">Карточки для изучения слов</div><p>Коллекция содержит ${collection.cards.length} слов.</p></div></div><div class="flash-toolbar"><div class="view-switch"><button class="${ui.textbook2View==="cards"?"active":""}" type="button" data-textbook-view="cards">${svg("cards")} Карточки</button><button class="${ui.textbook2View==="list"?"active":""}" type="button" data-textbook-view="list">${svg("list")} Список</button></div><button class="btn btn-soft btn-sm" type="button" data-textbook-task-direction>${russianFirst?"Сначала: русский":"Сначала: дари"}</button><button class="btn btn-soft btn-sm" type="button" data-textbook-task-shuffle>↝ Перемешать</button></div>${ui.textbook2View==="list"?list:flash}</div>`;
   };
 
+  const textbook2PhraseCounts = { 8: 24, 9: 3, 10: 4 };
   const renderPhrasePractice = (lessonNum) => {
     const n = Number(lessonNum);
-    const tasks = n === 8 ? [
-      {number:1, prompt:"Я купил пишущую машинку за 20 тыс. афгани", answer:"ماشین تیپ را ۲۰ هزار افغانی خریدم"},
-      {number:2, prompt:"Почём ты продаёшь это мясо?", answer:"این گوشت را چند میدهی؟"},
-      {number:3, prompt:"Купи перца на два афгани", answer:"دو افغانی مرچ را بخر"},
-      {number:4, prompt:"Разменяете сто афгани?", answer:"صد افغانی را میده دارید؟"},
-      {number:5, prompt:"Эти яблоки стоят 10 афгани за килограмм", answer:"این سیب کیلو ده افغانی است"},
-      {number:6, prompt:"Давай оставим эту тему!", answer:"از این موضوع بگذریم"},
-      {number:7, prompt:"Я притормозил", answer:"من برک گرفتم"},
-      {number:8, prompt:"Заклейте (заделайте) прокол!", answer:"پنجری را بگیرید!"},
-      {number:9, prompt:"Они относятся к этому серьёзно", answer:"آنها این موضوع را جدی میگیرند"},
-      {number:10, prompt:"Смотри, как бы тебя не ударило током!", answer:"هوش کنی که ترا برق نگیرد!"},
-      {number:11, prompt:"Он побледнел", answer:"رنگش پرید"},
-      {number:12, prompt:"Я обжёг руку", answer:"دستم سوخت"},
-      {number:13, prompt:"Перегорела спираль обогревателя", answer:"سیم اجاق سوخت"},
-      {number:14, prompt:"Мне стало его жаль", answer:"دلم برای او سوخت"},
-      {number:15, prompt:"Тебе нужен карандаш?", answer:"پنسل کار داری؟"},
-      {number:16, prompt:"Я тебе покажу!", answer:"من با تو کار دارم!"},
-      {number:17, prompt:"Я опоздал на урок", answer:"درس بالایم ناوفت شد"},
-      {number:18, prompt:"Я обязан Ахмеду", answer:"احمد بالای من حق دارد"},
-      {number:19, prompt:"Надень шапку, а то холодно", answer:"کلاه بپوش که خنک است"},
-      {number:20, prompt:"Я работал, как вдруг зазвонил телефон", answer:"کار میکردم که زنگ تیلفون آمد"},
-      {number:21, prompt:"Али попал в аварию? — Да что там в аварию? Он совсем разбил машину!", answer:"علی موتر را تکر داد؟ تکر چی که پارچه پارچه کرد!"},
-      {number:22, prompt:"Ведь я твой друг!", answer:"آخر من رفیق تو هستم!"},
-      {number:23, prompt:"Как ты сюда попал?", answer:"تو کجا و اینجا کجا؟"},
-      {number:24, prompt:"Что стряслось?", answer:"چی ریخته؟ چی پاشیده؟"}
-    ] : [];
+    const tasksByLesson = {
+      8: [
+        {prompt:"Я купил пишущую машинку за 20 тыс. афгани",answer:"ماشین تیپ را ۲۰ هزار افغانی خریدم"},
+        {prompt:"Почём ты продаёшь это мясо?",answer:"این گوشت را چند میدهی؟"},
+        {prompt:"Купи перца на два афгани",answer:"دو افغانی مرچ را بخر"},
+        {prompt:"Разменяете сто афгани?",answer:"صد افغانی را میده دارید؟"},
+        {prompt:"Эти яблоки стоят 10 афгани за килограмм",answer:"این سیب کیلو ده افغانی است"},
+        {prompt:"Давай оставим эту тему!",answer:"از این موضوع بگذریم"},
+        {prompt:"Я притормозил",answer:"من برک گرفتم"},
+        {prompt:"Заклейте (заделайте) прокол!",answer:"پنجری را بگیرید!"},
+        {prompt:"Они относятся к этому серьёзно",answer:"آنها این موضوع را جدی میگیرند"},
+        {prompt:"Смотри, как бы тебя не ударило током!",answer:"هوش کنی که ترا برق نگیرد!"},
+        {prompt:"Он побледнел",answer:"رنگش پرید"},
+        {prompt:"Я обжёг руку",answer:"دستم سوخت"},
+        {prompt:"Перегорела спираль обогревателя",answer:"سیم اجاق سوخت"},
+        {prompt:"Мне стало его жаль",answer:"دلم برای او سوخت"},
+        {prompt:"Тебе нужен карандаш?",answer:"پنسل کار داری؟"},
+        {prompt:"Я тебе покажу!",answer:"من با تو کار دارم!"},
+        {prompt:"Я опоздал на урок",answer:"درس بالایم ناوفت شد"},
+        {prompt:"Я обязан Ахмеду",answer:"احمد بالای من حق دارد"},
+        {prompt:"Надень шапку, а то холодно",answer:"کلاه بپوش که خنک است"},
+        {prompt:"Я работал, как вдруг зазвонил телефон",answer:"کار میکردم که زنگ تیلفون آمد"},
+        {prompt:"Али попал в аварию? — Да что там в аварию? Он совсем разбил машину!",answer:"علی موتر را تکر داد؟ تکر چی که پارچه پارچه کرد!"},
+        {prompt:"Ведь я твой друг!",answer:"آخر من رفیق تو هستم!"},
+        {prompt:"Как ты сюда попал?",answer:"تو کجا و اینجا کجا؟"},
+        {prompt:"Что стряслось?",answer:"چی ریخته؟ چی پاشیده؟"}
+      ],
+      9: [
+        {prompt:"Вечером, когда я пришёл домой, все уже легли спать",answer:"شام که به خانه آمدم همه خواب کرده بودند"},
+        {prompt:"Я редко вижу Заргуну",answer:"من زرغونه را کمتر میبینم"},
+        {prompt:"Мне не нравится это печенье",answer:"من این کلچه را خوش ندارم"}
+      ],
+      10: [
+        {prompt:"Шашлычник казался радостным и довольным",answer:"کبابى مسرور و راضى مینمود"},
+        {prompt:"Ничего не говоря, Наби принялся за работу",answer:"نبی بدون اینکه چیزی بگوید به کار شروع کرد"},
+        {prompt:"Ничего не сказав, Наби принялся за работу",answer:"نبی بدون اینکه چیزی گفته باشد به کار شروع کرد"},
+        {prompt:"Переводя текст, я пользовался словарём",answer:"من در حالیکه متن را ترجمه میکردم از قاموس استفاده مینمودم"}
+      ]
+    };
+    const tasks = (tasksByLesson[n] || []).map((task,i)=>({...task,number:i+1}));
     const storageKey = `phraseDone${n}-v2`;
     const done = JSON.parse(localStorage.getItem(storageKey) || "[]");
     const distractors = ["سرخ","سبز","زرد","آبی","سفید","سیاه","از","به","در","برای","است","بود","خوب","امروز","خانه","کتاب","چرا","چند"];
     if (!tasks.length) return `<div class="page phrase-practice"><a class="back-link" href="#/textbook-2/lesson-${n}">← К уроку ${n}</a><h1>Отработка фраз · Урок ${n}</h1><div class="card" style="padding:20px">Задания для этого урока скоро появятся.</div></div>`;
+    if (ui.phraseLesson !== n) { ui.phraseLesson = n; ui.phraseIndex = 0; ui.phraseView = "cards"; }
     const index = clamp(ui.phraseIndex || 0, 0, tasks.length - 1);
     const task = tasks[index];
     const words = task.answer.split(" ");
@@ -4104,7 +4120,7 @@
     const list = `<div class="phrase-list" aria-label="Список предложений">${tasks.map((item,i)=>`<button type="button" class="phrase-list-row ${done.includes(i)?"done":""} ${i===index?"active":""}" data-phrase-list-select="${i}"><span class="phrase-list-number">${String(i+1).padStart(2,"0")}</span><span class="phrase-list-copy"><strong>${esc(item.prompt)}</strong><span dir="rtl">${esc(item.answer)}</span></span><span class="phrase-list-status">${done.includes(i)?"✓":"›"}</span></button>`).join("")}</div>`;
     const card = `<div class="phrase-card card">
       <div class="phrase-card-progress"><span>${index+1} / ${tasks.length}</span><div class="progress-track"><div class="progress-fill" style="width:${(index+1)/tasks.length*100}%"></div></div><span>${done.length} выполнено</span></div>
-      <div class="eyebrow">Карточка ${index+1} · Упражнение ${task.number}</div>
+      <div class="eyebrow">Карточка ${index+1} · Предложение ${index+1}</div>
       <p class="phrase-prompt">${esc(task.prompt)}</p>
       <div class="phrase-answer-label">Соберите предложение на дари</div>
       <div data-phrase-answer="${index}" class="phrase-answer" dir="rtl"></div>
@@ -4117,7 +4133,7 @@
       ${ui.phraseView==="list"?list:card}
     </div>`;
   };
-  const renderTextbook = (num) => {
+    const renderTextbook = (num) => {
     const book = TEXTBOOKS[num];
     if (!book) return notFound();
     if (num === 2) {
