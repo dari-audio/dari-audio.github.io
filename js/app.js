@@ -1527,6 +1527,31 @@
   };
   let quiz = null;
 
+  const practiceWordPool = () => {
+    const cards = [
+      ...allCards(),
+      ...(DATA.vocab.noAudioPacks || []).flatMap((pack) => pack.cards.map((card, index) => ({ pack, card, index, key: `${pack.id}:${index}` }))),
+      ...textbook2Collections.flatMap((collection) => collection.cards.map((card, index) => ({
+        pack: { title: `Учебник 2 · Урок ${collection.id} · Словарь` }, card, index, key: `textbook2:${collection.id}:${index}`,
+      }))),
+      ...textbook2TaskCollections.flatMap((collection) => collection.cards.map((card, index) => ({
+        pack: { title: `Учебник 2 · Урок ${collection.lessonId} · Слова из заданий` }, card, index, key: `textbook2-task:${collection.lessonId}:${index}`,
+      }))),
+    ].filter((item) => item.card && item.card.dari && item.card.ru);
+    return uniq(cards, (item) => `${item.card.dari.trim().toLowerCase()}|${item.card.ru.trim().toLowerCase()}`);
+  };
+
+  const practicePhrasePool = () => {
+    const mainCourse = DATA.lessons.flatMap((lesson) => (lesson.phrases || []).map((phrase) => ({
+      ...phrase, lesson: lesson.num, courseLabel: "Основной курс",
+    })));
+    const textbookCourse = Object.entries(textbook2PhraseTasksByLesson).flatMap(([lesson, tasks]) => tasks.map((task) => ({
+      dari: task.answer, ru: task.prompt, translit: "", lesson: Number(lesson), courseLabel: "Учебник 2",
+    })));
+    return uniq([...mainCourse, ...textbookCourse].filter((phrase) => phrase.dari && phrase.ru),
+      (phrase) => `${phrase.dari.trim().toLowerCase()}|${phrase.ru.trim().toLowerCase()}`);
+  };
+
   const makeQuestions = (mode, count) => {
     if (mode === "letters") {
       const pool = uniq(DATA.letters, (x) => x.name);
@@ -1543,7 +1568,7 @@
       });
     }
     if (mode === "phrases") {
-      const pool = uniq(DATA.lessons.flatMap((lesson) => lesson.phrases.map((p) => ({ ...p, lesson: lesson.num }))), (x) => x.dari);
+      const pool = practicePhrasePool();
       return sample(pool, Math.min(count, pool.length)).map((phrase) => {
         const wrong = sample(pool.filter((x) => x.dari !== phrase.dari), 3).map((x) => x.dari);
         const options = shuffle([phrase.dari, ...wrong]);
@@ -1557,10 +1582,10 @@
         };
       });
     }
-    const source = allCards().filter((item) => item.card.ru && (mode !== "listening" || item.card.audio));
-    const pool = uniq(source, (x) => x.card.ru.toLowerCase());
+    const source = practiceWordPool().filter((item) => mode !== "listening" || item.card.audio);
+    const pool = source;
     return sample(pool, Math.min(count, pool.length)).map((item) => {
-      const wrong = sample(pool.filter((x) => x.card.ru.toLowerCase() !== item.card.ru.toLowerCase()), 3).map((x) => x.card.ru);
+      const wrong = sample(uniq(pool.filter((x) => x.card.ru.toLowerCase() !== item.card.ru.toLowerCase()), (x) => x.card.ru.toLowerCase()), 3).map((x) => x.card.ru);
       const options = shuffle([item.card.ru, ...wrong]);
       return {
         prompt: item.card.dari, promptKind: "dari",
@@ -1622,7 +1647,8 @@
       if (quiz.finished) return renderQuizResult();
       return renderQuiz();
     }
-    const total = allCards().length;
+    const total = practiceWordPool().length;
+    const phraseTotal = practicePhrasePool().length;
     return `<div class="page">
       <div class="page-head">
         <div><span class="eyebrow">Проверка</span><h1>Практика</h1><p>Короткая тренировка на слух, память и узнавание. Каждый правильный ответ приносит 5 XP, а ошибки просто показывают, что повторить.</p></div>
@@ -1645,7 +1671,7 @@
                 </select>
               </label>
               <button class="btn btn-primary btn-lg" type="button" data-start-quiz>${svg("play")} Начать тренировку</button>
-              <span class="practice-note">${total} слов · ${DATA.letters.length} букв · ${DATA.lessons.reduce((s, l) => s + l.phrases.length, 0)} фраз</span>
+              <span class="practice-note">${total} слов · ${DATA.letters.length} букв · ${phraseTotal} фраз</span>
             </div>
           </div>
           <div class="panel">
@@ -5457,9 +5483,7 @@
   };
 
   const textbook2PhraseCounts = { 8: 24, 9: 3, 10: 4 };
-  const renderPhrasePractice = (lessonNum) => {
-    const n = Number(lessonNum);
-    const tasksByLesson = {
+  const textbook2PhraseTasksByLesson = {
       8: [
         {prompt:"Я купил пишущую машинку за 20 тыс. афгани",answer:"ماشین تیپ را ۲۰ هزار افغانی خریدم"},
         {prompt:"Почём ты продаёшь это мясо?",answer:"این گوشت را چند میدهی؟"},
@@ -5498,6 +5522,10 @@
         {prompt:"Переводя текст, я пользовался словарём",answer:"من در حالیکه متن را ترجمه میکردم از قاموس استفاده مینمودم"}
       ]
     };
+
+  const renderPhrasePractice = (lessonNum) => {
+    const n = Number(lessonNum);
+    const tasksByLesson = textbook2PhraseTasksByLesson;
     const tasks = (tasksByLesson[n] || []).map((task,i)=>({...task,number:i+1}));
     const storageKey = `phraseDone${n}-v2`;
     const done = [...new Set(JSON.parse(localStorage.getItem(storageKey) || "[]").map(Number).filter(i => Number.isInteger(i) && i >= 0 && i < tasks.length))];
