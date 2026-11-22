@@ -4107,9 +4107,9 @@
       <div class="eyebrow">Карточка ${index+1} · Упражнение ${task.number}</div>
       <p class="phrase-prompt">${esc(task.prompt)}</p>
       <div class="phrase-answer-label">Соберите предложение на дари</div>
-      <div data-phrase-answer="0" class="phrase-answer" dir="rtl"></div>
-      <div class="phrase-bank" dir="rtl">${bank.map((w,j)=>({w,j,sort:Math.random()})).sort((a,b)=>a.sort-b.sort).map(({w,j})=>`<button type="button" class="btn btn-soft phrase-word" data-phrase-word="0" data-word="${esc(w)}" data-token="${j}">${esc(w)}</button>`).join("")}</div>
-      <div class="phrase-card-actions"><button type="button" class="btn btn-primary" data-phrase-check="0" data-phrase-lesson="${n}" data-phrase-correct="${encodeURIComponent(task.answer)}">Проверить</button><button type="button" class="btn btn-ghost" data-phrase-reset="0">Сброс</button><span class="phrase-feedback" data-phrase-feedback="0">${done.includes(index)?"Верно! ✓":""}</span></div>
+      <div data-phrase-answer="${index}" class="phrase-answer" dir="rtl"></div>
+      <div class="phrase-bank" dir="rtl">${bank.map((w,j)=>({w,j,sort:Math.random()})).sort((a,b)=>a.sort-b.sort).map(({w,j})=>`<button type="button" class="btn btn-soft phrase-word" data-phrase-word="${index}" data-word="${esc(w)}" data-token="${j}">${esc(w)}</button>`).join("")}</div>
+      <div class="phrase-card-actions"><button type="button" class="btn btn-primary" data-phrase-check="${index}" data-phrase-lesson="${n}" data-phrase-correct="${encodeURIComponent(task.answer)}">Проверить</button><button type="button" class="btn btn-ghost" data-phrase-reset="${index}">Сброс</button><span class="phrase-feedback" data-phrase-feedback="${index}">${done.includes(index)?"Верно! ✓":""}</span></div>
       <div class="phrase-navigation"><button type="button" class="btn btn-ghost btn-sm" data-phrase-prev ${index===0?"disabled":""}>${svg("arrowLeft")} Назад</button><button type="button" class="btn btn-soft btn-sm" data-phrase-next ${index===tasks.length-1?"disabled":""}>Дальше ${svg("arrowRight")}</button></div>
     </div>`;
     return `<div class="page phrase-practice"><a class="back-link" href="#/textbook-2/lesson-${n}">← К уроку ${n}</a><div class="phrase-page-head"><div><span class="eyebrow">Урок ${n} · Практика</span><h1>Отработка фраз</h1><p>По одному предложению на карточке. Остальные предложения доступны в списке.</p></div></div>
