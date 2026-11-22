@@ -2236,3 +2236,16 @@ kbd {
   .phrase-view-switch { width: 100%; }
   .phrase-view-switch button { flex: 1; padding-inline: 8px; }
 }
+
+
+/* Completed phrase practice mirrors completed vocabulary collections */
+.textbook-lesson-materials .textbook-material-card.done {
+  background: linear-gradient(165deg, rgba(223, 233, 226, 0.64), rgba(255, 253, 248, 0.8));
+  border-color: rgba(94, 135, 103, 0.32);
+}
+.textbook-lesson-materials .textbook-material-card .done-flag { position: absolute; top: 14px; right: 14px; }
+.phrase-complete { padding: 34px 24px; text-align: center; border: 1px solid rgba(94, 135, 103, 0.32); background: linear-gradient(165deg, rgba(223, 233, 226, 0.64), rgba(255, 253, 248, 0.8)); }
+.phrase-complete-icon { display: grid; place-items: center; width: 54px; height: 54px; margin: 0 auto 14px; border-radius: 50%; background: var(--green-soft); color: var(--green); }
+.phrase-complete-icon .icon { width: 27px; height: 27px; }
+.phrase-complete h2 { margin: 5px 0 8px; }
+.phrase-complete p { margin: 0 0 18px; color: var(--muted); }
