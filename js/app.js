@@ -4096,7 +4096,9 @@
             const pct = Math.round(totalKnown / Math.max(1, totalWords) * 100);
             const phraseCount = collection.id === 8 ? 6 : 0;
             const phrasePct = phraseCount ? Math.round(phraseDone.length / phraseCount * 100) : 0;
-            return `<a class="lesson-card textbook-lesson-card" href="#/textbook-2/lesson-${collection.id}">
+            const complete = totalWords > 0 && totalKnown === totalWords && (!phraseCount || phraseDone.length >= phraseCount);
+            return `<a class="lesson-card textbook-lesson-card ${complete ? "done" : ""}" href="#/textbook-2/lesson-${collection.id}">
+              ${complete ? `<span class="done-flag badge badge-done">${svg("check")} пройден</span>` : ""}
               <div class="lesson-top"><div class="lesson-num">${collection.id}<small>УРОК</small></div><span class="badge badge-ghost">${totalWords} слов</span></div>
               <h3>${collection.title}</h3>
               <p class="summary">${esc(collection.description || "")}</p>
