@@ -1574,10 +1574,10 @@
         const options = shuffle([phrase.dari, ...wrong]);
         return {
           prompt: phrase.ru, promptKind: "ru", promptLabel: "Выберите фразу на дари",
-          sub: `Урок ${phrase.lesson}`, options: options.map((label) => ({ label })),
+          sub: `${phrase.courseLabel} · урок ${phrase.lesson}`, options: options.map((label) => ({ label })),
           optionDari: true, optionsSingle: true,
           correctIndex: options.indexOf(phrase.dari),
-          explanation: `${phrase.dari} · ${phrase.translit}`,
+          explanation: phrase.translit ? `${phrase.dari} · ${phrase.translit}` : phrase.dari,
           detail: phrase.ru,
         };
       });
