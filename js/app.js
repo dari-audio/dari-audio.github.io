@@ -2531,6 +2531,1395 @@
   }
 ] }];
 
+  const textbook2TaskCollection8 = { id: 1008, lessonId: 8, title: "Урок 8 · Слова из заданий", cards: [
+  {
+    "dari": "سکتور",
+    "translit": "sektor",
+    "ru": "сектор"
+  },
+  {
+    "dari": "بانک",
+    "translit": "bānk",
+    "ru": "банк"
+  },
+  {
+    "dari": "پلان",
+    "translit": "plān",
+    "ru": "план"
+  },
+  {
+    "dari": "جنرال",
+    "translit": "jenrāl",
+    "ru": "генерал"
+  },
+  {
+    "dari": "افسر",
+    "translit": "afsar",
+    "ru": "офицер"
+  },
+  {
+    "dari": "فير",
+    "translit": "fayr",
+    "ru": "огонь из оружи"
+  },
+  {
+    "dari": "سينما",
+    "translit": "sīnemā",
+    "ru": "кино"
+  },
+  {
+    "dari": "تياتر",
+    "translit": "teyātr",
+    "ru": "театр"
+  },
+  {
+    "dari": "کلوپ",
+    "translit": "klup",
+    "ru": "клуб"
+  },
+  {
+    "dari": "هوتل",
+    "translit": "hōtel",
+    "ru": "отель"
+  },
+  {
+    "dari": "رستوران",
+    "translit": "restōrān",
+    "ru": "ресторан"
+  },
+  {
+    "dari": "موزيم",
+    "translit": "mōzēm",
+    "ru": "музей"
+  },
+  {
+    "dari": "پارک",
+    "translit": "pārk",
+    "ru": "парк"
+  },
+  {
+    "dari": "کنسرت",
+    "translit": "konsert",
+    "ru": "концерт"
+  },
+  {
+    "dari": "فلم",
+    "translit": "film",
+    "ru": "фильм"
+  },
+  {
+    "dari": "تابلو",
+    "translit": "tāblō",
+    "ru": "картина; вывеска; табло"
+  },
+  {
+    "dari": "دانس",
+    "translit": "dāns",
+    "ru": "танец"
+  },
+  {
+    "dari": "اکتور",
+    "translit": "aktōr",
+    "ru": "актёр"
+  },
+  {
+    "dari": "تکت",
+    "translit": "teket",
+    "ru": "билет"
+  },
+  {
+    "dari": "ليسه",
+    "translit": "līsa",
+    "ru": "лицей"
+  },
+  {
+    "dari": "فاکولته",
+    "translit": "fākulta",
+    "ru": "факультет"
+  },
+  {
+    "dari": "کانکور",
+    "translit": "kā n kor",
+    "ru": "конкурс (вступительный экзамен)"
+  },
+  {
+    "dari": "نمره",
+    "translit": "nomra",
+    "ru": "оценка, балл"
+  },
+  {
+    "dari": "بورس",
+    "translit": "bōrs",
+    "ru": "стипендия"
+  },
+  {
+    "dari": "دکتورا",
+    "translit": "doktōrā",
+    "ru": "докторантура"
+  },
+  {
+    "dari": "فزيک",
+    "translit": "fīzīk",
+    "ru": "физика"
+  },
+  {
+    "dari": "کيميا",
+    "translit": "kīmiyā",
+    "ru": "химия"
+  },
+  {
+    "dari": "جيالوجی",
+    "translit": "jiyālōji",
+    "ru": "геология"
+  },
+  {
+    "dari": "ژورناليزم",
+    "translit": "žurnālīzm",
+    "ru": "журналистика"
+  },
+  {
+    "dari": "گرامر",
+    "translit": "gerāmar",
+    "ru": "грамматика"
+  },
+  {
+    "dari": "لابراتوار",
+    "translit": "lābrātuwār",
+    "ru": "лаборатория"
+  },
+  {
+    "dari": "انجنير",
+    "translit": "enjenīr",
+    "ru": "инженер"
+  },
+  {
+    "dari": "داکتر",
+    "translit": "dāktor",
+    "ru": "врач; доктор"
+  },
+  {
+    "dari": "جيالوجست",
+    "translit": "jiyālōjist",
+    "ru": "геолог"
+  },
+  {
+    "dari": "تخنيکر",
+    "translit": "texnīkar",
+    "ru": "техник"
+  },
+  {
+    "dari": "تايپست",
+    "translit": "tāypist",
+    "ru": "машинистка"
+  },
+  {
+    "dari": "ماشين کار",
+    "translit": "māšīn-kār",
+    "ru": "машинист; механизатор"
+  },
+  {
+    "dari": "دريور",
+    "translit": "deriwar",
+    "ru": "водитель"
+  },
+  {
+    "dari": "کلينر",
+    "translit": "kelīnar",
+    "ru": "помощник водителя"
+  },
+  {
+    "dari": "پرسونل",
+    "translit": "personal",
+    "ru": "персонал"
+  },
+  {
+    "dari": "فابريکه",
+    "translit": "fābrīka",
+    "ru": "фабрика"
+  },
+  {
+    "dari": "پروژه",
+    "translit": "porōža",
+    "ru": "проект"
+  },
+  {
+    "dari": "تخنيک",
+    "translit": "texnīk",
+    "ru": "техника"
+  },
+  {
+    "dari": "ماشين",
+    "translit": "māšīn",
+    "ru": "машина, механизм"
+  },
+  {
+    "dari": "سمنت",
+    "translit": "sement",
+    "ru": "цемент"
+  },
+  {
+    "dari": "کانکريت",
+    "translit": "kā n krīt",
+    "ru": "бетон"
+  },
+  {
+    "dari": "اسفالت",
+    "translit": "asfālt",
+    "ru": "асфальт"
+  },
+  {
+    "dari": "تونل",
+    "translit": "tōnel",
+    "ru": "туннель"
+  },
+  {
+    "dari": "پايپلين",
+    "translit": "pāyp-layn",
+    "ru": "трубопровод"
+  },
+  {
+    "dari": "کانال",
+    "translit": "kānāl",
+    "ru": "канал"
+  },
+  {
+    "dari": "راديو",
+    "translit": "rādyō",
+    "ru": "радио"
+  },
+  {
+    "dari": "تلويزيون",
+    "translit": "telewizyōn",
+    "ru": "телевидение"
+  },
+  {
+    "dari": "پسته",
+    "translit": "posta",
+    "ru": "почта"
+  },
+  {
+    "dari": "تيلفون",
+    "translit": "tēlefōn",
+    "ru": "телефон"
+  },
+  {
+    "dari": "تلگرام",
+    "translit": "telegrām",
+    "ru": "телеграмма"
+  },
+  {
+    "dari": "لين",
+    "translit": "layn",
+    "ru": "линия"
+  },
+  {
+    "dari": "انرزی",
+    "translit": "enerži",
+    "ru": "энергия"
+  },
+  {
+    "dari": "متر",
+    "translit": "metr",
+    "ru": "метр"
+  },
+  {
+    "dari": "کيلومتر",
+    "translit": "kīlōmetr",
+    "ru": "километр"
+  },
+  {
+    "dari": "سانتی متر",
+    "translit": "sāntī-metr",
+    "ru": "сантиметр"
+  },
+  {
+    "dari": "ملی متر",
+    "translit": "millī-metr",
+    "ru": "миллиметр"
+  },
+  {
+    "dari": "انيج",
+    "translit": "eneč",
+    "ru": "дюйм"
+  },
+  {
+    "dari": "کيلو (کيلو گرام)",
+    "translit": "kīlō (kīlō-grām)",
+    "ru": "килограмм"
+  },
+  {
+    "dari": "گرام",
+    "translit": "grām",
+    "ru": "грамм"
+  },
+  {
+    "dari": "تن",
+    "translit": "tan",
+    "ru": "тонна"
+  },
+  {
+    "dari": "سپورت",
+    "translit": "spōrt",
+    "ru": "спорт"
+  },
+  {
+    "dari": "فتبال",
+    "translit": "futbāl",
+    "ru": "футбол"
+  },
+  {
+    "dari": "واليبال",
+    "translit": "wālībāl",
+    "ru": "волейбол"
+  },
+  {
+    "dari": "هاکی",
+    "translit": "hāki",
+    "ru": "хоккей (на траве)"
+  },
+  {
+    "dari": "سکی",
+    "translit": "skī",
+    "ru": "лыжи"
+  },
+  {
+    "dari": "تيم",
+    "translit": "tīm",
+    "ru": "команда"
+  },
+  {
+    "dari": "ستاديوم",
+    "translit": "stādyōm",
+    "ru": "стадион"
+  },
+  {
+    "dari": "جمنازيم",
+    "translit": "jemnāzīm",
+    "ru": "спортзал, гимназия"
+  },
+  {
+    "dari": "دريشی",
+    "translit": "drēši",
+    "ru": "костюм"
+  },
+  {
+    "dari": "جاکت",
+    "translit": "jāket",
+    "ru": "пиджак, куртка"
+  },
+  {
+    "dari": "پطلون",
+    "translit": "patlōn",
+    "ru": "брюки"
+  },
+  {
+    "dari": "واسکت",
+    "translit": "wāsket",
+    "ru": "жилет"
+  },
+  {
+    "dari": "نکتايی",
+    "translit": "nektāyi",
+    "ru": "галстук"
+  },
+  {
+    "dari": "بوت",
+    "translit": "bōt",
+    "ru": "ботинок, сапог"
+  },
+  {
+    "dari": "آدرس",
+    "translit": "ādres",
+    "ru": "адрес"
+  },
+  {
+    "dari": "بلاک",
+    "translit": "blāk",
+    "ru": "квартал, блок"
+  },
+  {
+    "dari": "اپارتمان",
+    "translit": "āpārtemān",
+    "ru": "квартира"
+  },
+  {
+    "dari": "سالون",
+    "translit": "sālōn",
+    "ru": "салон, гостиная"
+  },
+  {
+    "dari": "موبل",
+    "translit": "mōbel",
+    "ru": "мебель"
+  },
+  {
+    "dari": "ميز",
+    "translit": "mēz",
+    "ru": "стол"
+  },
+  {
+    "dari": "کوج",
+    "translit": "kōč",
+    "ru": "кушетка, диван (разг.)"
+  },
+  {
+    "dari": "الماری",
+    "translit": "almāri",
+    "ru": "шкаф"
+  },
+  {
+    "dari": "قنديل",
+    "translit": "qandīl",
+    "ru": "лампа, светильник"
+  },
+  {
+    "dari": "سماوار",
+    "translit": "samāwār",
+    "ru": "самовар"
+  },
+  {
+    "dari": "بوتل",
+    "translit": "bōtal",
+    "ru": "бутылка"
+  },
+  {
+    "dari": "کيلاس",
+    "translit": "gilās",
+    "ru": "стакан"
+  },
+  {
+    "dari": "پياله",
+    "translit": "piyāla",
+    "ru": "чашка"
+  },
+  {
+    "dari": "جاينک",
+    "translit": "čāynak",
+    "ru": "чайник"
+  },
+  {
+    "dari": "پتنوس",
+    "translit": "patnōs",
+    "ru": "поднос"
+  },
+  {
+    "dari": "ساسج",
+    "translit": "sāsej",
+    "ru": "сосиска"
+  },
+  {
+    "dari": "جاکليت",
+    "translit": "čāklēt",
+    "ru": "конфеты"
+  },
+  {
+    "dari": "فانتا",
+    "translit": "fāntā",
+    "ru": "фанта"
+  },
+  {
+    "dari": "ساندويج",
+    "translit": "sāndwīč",
+    "ru": "сэндвич"
+  },
+  {
+    "dari": "برق",
+    "translit": "barq",
+    "ru": "электричество"
+  },
+  {
+    "dari": "سويچ",
+    "translit": "sowiچ",
+    "ru": "выключатель"
+  },
+  {
+    "dari": "ساکت",
+    "translit": "sākat",
+    "ru": "штепсель; розетка"
+  },
+  {
+    "dari": "فيوز",
+    "translit": "fiyuz",
+    "ru": "предохранитель, пробка"
+  },
+  {
+    "dari": "ميتر",
+    "translit": "mītar",
+    "ru": "счётчик (электроэнергии)"
+  },
+  {
+    "dari": "ترانسفارمر",
+    "translit": "tarānsfārmar",
+    "ru": "трансформатор"
+  },
+  {
+    "dari": "سيم",
+    "translit": "sīm",
+    "ru": "провод"
+  },
+  {
+    "dari": "شارتی",
+    "translit": "šārti",
+    "ru": "короткое замыкание"
+  },
+  {
+    "dari": "بالتی",
+    "translit": "bālti",
+    "ru": "батарейка"
+  },
+  {
+    "dari": "گروپ",
+    "translit": "grūp",
+    "ru": "(электрическая) лампочка"
+  },
+  {
+    "dari": "شيد",
+    "translit": "šēd",
+    "ru": "плафон, абажур"
+  },
+  {
+    "dari": "اجاق (بخاری) برقی",
+    "translit": "ojāq (boxāri)-e barqi",
+    "ru": "электрическая печь, обогреватель"
+  },
+  {
+    "dari": "يخچال",
+    "translit": "yaxčāl",
+    "ru": "холодильник"
+  },
+  {
+    "dari": "بادپکه",
+    "translit": "bād-paka",
+    "ru": "вентилятор"
+  },
+  {
+    "dari": "اتوی برقی",
+    "translit": "otū-ye barqi",
+    "ru": "электрический утюг"
+  },
+  {
+    "dari": "جاروی برقی",
+    "translit": "jāru-ye barqi",
+    "ru": "пылесос"
+  },
+  {
+    "dari": "زنگ برقی",
+    "translit": "zang-e barqi",
+    "ru": "электрический звонок"
+  },
+  {
+    "dari": "سويچ کردن",
+    "translit": "sowiچ kardan",
+    "ru": "включать (выключатель)"
+  },
+  {
+    "dari": "خاموش (گل) کردن",
+    "translit": "xāmōš (gol) kardan",
+    "ru": "выключать"
+  },
+  {
+    "dari": "سگرت",
+    "translit": "segaret",
+    "ru": "сигарета"
+  },
+  {
+    "dari": "پايپ",
+    "translit": "pāyp",
+    "ru": "трубка (курительная)"
+  },
+  {
+    "dari": "جلم",
+    "translit": "čalam",
+    "ru": "кальян"
+  },
+  {
+    "dari": "تنباکو",
+    "translit": "tanbākō",
+    "ru": "табак"
+  },
+  {
+    "dari": "سگرت دانی",
+    "translit": "segaret-dāni",
+    "ru": "портсигар"
+  },
+  {
+    "dari": "خاکستردانی",
+    "translit": "xākestar-dāni",
+    "ru": "пепельница"
+  },
+  {
+    "dari": "گوگرد",
+    "translit": "gōgard",
+    "ru": "спички (букв. сера)"
+  },
+  {
+    "dari": "سگرت لايتر",
+    "translit": "segaret-lāytar",
+    "ru": "зажигалка"
+  },
+  {
+    "dari": "خاکستر",
+    "translit": "xākestar",
+    "ru": "пепел, зола"
+  },
+  {
+    "dari": "سوخته سگرت",
+    "translit": "sōxta-ye segaret",
+    "ru": "окурок"
+  },
+  {
+    "dari": "سگرت (پايپ، جلم) کشيدن",
+    "translit": "segaret (pāyp, čalam) kešīdan",
+    "ru": "курить сигарету (трубку, кальян)"
+  },
+  {
+    "dari": "سگرت دردان",
+    "translit": "segaret dardān",
+    "ru": "мундштук, держатель для сигареты"
+  },
+  {
+    "dari": "ترانسپورت",
+    "translit": "tarānspōrt",
+    "ru": "транспорт"
+  },
+  {
+    "dari": "موتر",
+    "translit": "mōtar",
+    "ru": "автомобиль, машина"
+  },
+  {
+    "dari": "(موتر) تيزرفتار",
+    "translit": "(mōtar-e) tēzraftār",
+    "ru": "легковой (быстрый) автомобиль"
+  },
+  {
+    "dari": "(موتر) لاری",
+    "translit": "(mōtar-e) lāri",
+    "ru": "грузовик"
+  },
+  {
+    "dari": "(موتر) سرويس (بس)",
+    "translit": "(mōtar-e) servīs (bas)",
+    "ru": "автобус"
+  },
+  {
+    "dari": "بس برقی",
+    "translit": "bas-e barqi",
+    "ru": "троллейбус"
+  },
+  {
+    "dari": "(موتر) تکسی",
+    "translit": "(mōtar-e) taksī",
+    "ru": "такси"
+  },
+  {
+    "dari": "موتر تانک",
+    "translit": "mōtar-e tānk",
+    "ru": "бензовоз, цистерна"
+  },
+  {
+    "dari": "دريور (موتروان)",
+    "translit": "drāyvar (mōtarwān)",
+    "ru": "водитель"
+  },
+  {
+    "dari": "تکسی وان",
+    "translit": "taksī-wān",
+    "ru": "таксист"
+  },
+  {
+    "dari": "ترافيک",
+    "translit": "terāfīk",
+    "ru": "уличное движение"
+  },
+  {
+    "dari": "مأمور ترافيک",
+    "translit": "ma'mūr-e terāfīk",
+    "ru": "регулировщик"
+  },
+  {
+    "dari": "ايستگاه",
+    "translit": "īstgāh",
+    "ru": "остановка"
+  },
+  {
+    "dari": "جراغ راهنما",
+    "translit": "čerāğ-e rāhnamā",
+    "ru": "светофор (букв. путеводный свет)"
+  },
+  {
+    "dari": "علامه ترافيکی",
+    "translit": "'alāma-ye trāfīki",
+    "ru": "дорожный знак"
+  },
+  {
+    "dari": "مقررات ترافيکی",
+    "translit": "maqarrarāt-e trāfīki",
+    "ru": "правила дорожного движения"
+  },
+  {
+    "dari": "حادثه ترافيکی",
+    "translit": "hādese-ye trāfīki",
+    "ru": "дорожно-транспортное происшествие"
+  },
+  {
+    "dari": "اشترنک",
+    "translit": "eštereng",
+    "ru": "руль"
+  },
+  {
+    "dari": "هارن",
+    "translit": "hāran",
+    "ru": "гудок, сигнал"
+  },
+  {
+    "dari": "سلف",
+    "translit": "self",
+    "ru": "стартер"
+  },
+  {
+    "dari": "اکسليتر",
+    "translit": "aksalitar",
+    "ru": "акселератор"
+  },
+  {
+    "dari": "برک",
+    "translit": "berek",
+    "ru": "тормоз"
+  },
+  {
+    "dari": "کلج",
+    "translit": "klač",
+    "ru": "сцепление"
+  },
+  {
+    "dari": "ريورس",
+    "translit": "riwars",
+    "ru": "задний ход"
+  },
+  {
+    "dari": "سيت",
+    "translit": "sīt",
+    "ru": "сиденье"
+  },
+  {
+    "dari": "بادی",
+    "translit": "bādi",
+    "ru": "кузов"
+  },
+  {
+    "dari": "تولبکس",
+    "translit": "tōlbaks",
+    "ru": "багажник"
+  },
+  {
+    "dari": "نمبرپليت",
+    "translit": "nambarpalēt",
+    "ru": "номерной знак"
+  },
+  {
+    "dari": "رديتر",
+    "translit": "radītar",
+    "ru": "радиатор"
+  },
+  {
+    "dari": "پوش رديتر",
+    "translit": "pōš-e radītar",
+    "ru": "крышка радиатора"
+  },
+  {
+    "dari": "انجن (ماشين)",
+    "translit": "enjen (māšīn)",
+    "ru": "двигатель, мотор"
+  },
+  {
+    "dari": "پلک",
+    "translit": "palak",
+    "ru": "свеча зажигания"
+  },
+  {
+    "dari": "گيربکس",
+    "translit": "gīrbaks",
+    "ru": "коробка передач"
+  },
+  {
+    "dari": "بطرى",
+    "translit": "betrī",
+    "ru": "аккумулятор"
+  },
+  {
+    "dari": "تانک تيل",
+    "translit": "tānk-e tayl",
+    "ru": "топливный бак"
+  },
+  {
+    "dari": "کرين شافت",
+    "translit": "kerēnšāft",
+    "ru": "коленчатый вал"
+  },
+  {
+    "dari": "ارابه",
+    "translit": "arāba",
+    "ru": "колесо"
+  },
+  {
+    "dari": "تاير",
+    "translit": "tāyr",
+    "ru": "шина, автопокрышка"
+  },
+  {
+    "dari": "تيوپ",
+    "translit": "teyup",
+    "ru": "камера (шины)"
+  },
+  {
+    "dari": "پرزه جات فالتو",
+    "translit": "porza-jāt-e fāltu",
+    "ru": "запасные части"
+  },
+  {
+    "dari": "تيل",
+    "translit": "tayl",
+    "ru": "масло (моторное)"
+  },
+  {
+    "dari": "گريس",
+    "translit": "grīs",
+    "ru": "солидол"
+  },
+  {
+    "dari": "ديزل",
+    "translit": "dīzel",
+    "ru": "дизельное топливо"
+  },
+  {
+    "dari": "موبل آيل",
+    "translit": "mōbl-āyel",
+    "ru": "машинное масло"
+  },
+  {
+    "dari": "(موتر را) چالان کردن",
+    "translit": "(mōtar-rā) čālān kardan",
+    "ru": "заводить машину"
+  },
+  {
+    "dari": "حرکت کردن",
+    "translit": "harakat kardan",
+    "ru": "двигаться, трогаться"
+  },
+  {
+    "dari": "هارن زدن",
+    "translit": "hāran zadan",
+    "ru": "сигналить"
+  },
+  {
+    "dari": "دور خوردن",
+    "translit": "dawr xōrdan",
+    "ru": "поворачивать"
+  },
+  {
+    "dari": "توقف کردن",
+    "translit": "tawaqqof kardan",
+    "ru": "останавливаться"
+  },
+  {
+    "dari": "(موتر را) تکر دادن",
+    "translit": "(mōtar-rā) takar dādan",
+    "ru": "толкать машину; сталкивать"
+  },
+  {
+    "dari": "تيل انداختن",
+    "translit": "tayl andāxtan",
+    "ru": "заправиться (о машине)"
+  },
+  {
+    "dari": "(کسی را) جريمه کردن",
+    "translit": "(kas-ē-rā) jarīma kardan",
+    "ru": "штрафовать кого-л."
+  },
+  {
+    "dari": "(از کسی) خبر گرفتن",
+    "translit": "(az kas-ē) xabar gereftan",
+    "ru": "справляться о ком-л., навещать"
+  },
+  {
+    "dari": "فراموش کردن",
+    "translit": "farāmōš kardan",
+    "ru": "забывать"
+  },
+  {
+    "dari": "زير موتر شدن",
+    "translit": "zēr-e mōtar šodan",
+    "ru": "попасть под машину"
+  },
+  {
+    "dari": "طالع داشتن",
+    "translit": "tāle' dāštan",
+    "ru": "иметь удачу, везение"
+  },
+  {
+    "dari": "چارج کردن",
+    "translit": "čārj kardan",
+    "ru": "заряжать (аккумулятор)"
+  },
+  {
+    "dari": "(سگرت را) ترک کردن",
+    "translit": "(segaret-rā) tark kardan",
+    "ru": "бросать (курить)"
+  },
+  {
+    "dari": "چالان کردن",
+    "translit": "čālān kardan",
+    "ru": "заводить (мотор)"
+  },
+  {
+    "dari": "(در موتر) بالا شدن",
+    "translit": "(dar mōtar) bālā šodan",
+    "ru": "садиться в машину"
+  },
+  {
+    "dari": "راه کسی را گرفتن",
+    "translit": "rāh-e kas-ē-rā gereftan",
+    "ru": "преграждать кому-л. дорогу"
+  },
+  {
+    "dari": "بند کردن",
+    "translit": "band kardan",
+    "ru": "закрывать; останавливать"
+  },
+  {
+    "dari": "جدی گفتن",
+    "translit": "jeddī goftan",
+    "ru": "говорить серьёзно"
+  },
+  {
+    "dari": "کمباد شدن",
+    "translit": "kambād šodan",
+    "ru": "спуститься (о шине)"
+  },
+  {
+    "dari": "باور کردن",
+    "translit": "bāwar kardan",
+    "ru": "верить"
+  },
+  {
+    "dari": "پنجری گرفتن",
+    "translit": "pančarī gereftan",
+    "ru": "проколоть шину"
+  },
+  {
+    "dari": "(به چیزی) اعتنا کردن",
+    "translit": "(ba čīz-ē) e'tinā kardan",
+    "ru": "обращать внимание на что-л."
+  },
+  {
+    "dari": "(به جایی) مراجعه کردن",
+    "translit": "(ba jāy-ē) morāje'a kardan",
+    "ru": "обращаться куда-л."
+  },
+  {
+    "dari": "(از راه) پس شدن",
+    "translit": "(az rāh) pas šodan",
+    "ru": "сойти с дороги, уступить дорогу"
+  },
+  {
+    "dari": "سفر کردن",
+    "translit": "safar kardan",
+    "ru": "путешествовать"
+  },
+  {
+    "dari": "پر کردن",
+    "translit": "por kardan",
+    "ru": "наполнять; заправлять"
+  },
+  {
+    "dari": "عوض کردن",
+    "translit": "'ewaz kardan",
+    "ru": "менять"
+  },
+  {
+    "dari": "کلچ گرفتن",
+    "translit": "klač gereftan",
+    "ru": "выжимать сцепление"
+  },
+  {
+    "dari": "مصرف کردن",
+    "translit": "masraf kardan",
+    "ru": "расходовать, потреблять"
+  },
+  {
+    "dari": "راست گفتن",
+    "translit": "rāst goftan",
+    "ru": "говорить правду"
+  },
+  {
+    "dari": "دريشی کردن",
+    "translit": "drēši kardan",
+    "ru": "надевать костюм"
+  },
+  {
+    "dari": "(با کسی) همراه شدن",
+    "translit": "(bā kas-ē) hamrāh šodan",
+    "ru": "сопровождать кого-л., присоединяться"
+  },
+  {
+    "dari": "(چیزی را) صافی زدن",
+    "translit": "(čīz-ē-rā) sāfī zadan",
+    "ru": "протирать тряпкой"
+  },
+  {
+    "dari": "درز گرفتن",
+    "translit": "dazz gereftan",
+    "ru": "заделывать щель, шов"
+  },
+  {
+    "dari": "مطمئن بودن",
+    "translit": "motma'en būdan",
+    "ru": "быть уверенным"
+  },
+  {
+    "dari": "عجله داشتن",
+    "translit": "'ajala dāštan",
+    "ru": "спешить"
+  },
+  {
+    "dari": "برک گرفتن",
+    "translit": "berek gereftan",
+    "ru": "тормозить"
+  },
+  {
+    "dari": "(چیزی را) برهم زدن",
+    "translit": "(čīz-ē-rā) barham zadan",
+    "ru": "нарушать, расстраивать"
+  },
+  {
+    "dari": "معذرت خواستن",
+    "translit": "ma'zerat xāstan",
+    "ru": "извиняться"
+  },
+  {
+    "dari": "(در راه) بند ماندن",
+    "translit": "(dar rāh) band māndan",
+    "ru": "застрять в пути"
+  },
+  {
+    "dari": "(برق را) خاموش کردن = گل کردن",
+    "translit": "(barq-rā) xāmōš kardan = gol kardan",
+    "ru": "выключать свет"
+  },
+  {
+    "dari": "سر جلو بودن",
+    "translit": "sar-e jelaw būdan",
+    "ru": "быть впереди, возглавлять"
+  },
+  {
+    "dari": "موتر دواندن",
+    "translit": "mōtar dawāndan",
+    "ru": "водить машину"
+  },
+  {
+    "dari": "پايپ کشيدن",
+    "translit": "pāyp kešīdan",
+    "ru": "курить трубку"
+  },
+  {
+    "dari": "(کسی را) جزا دادن",
+    "translit": "(kas-ē-rā) jazā dādan",
+    "ru": "наказывать кого-л."
+  },
+  {
+    "dari": "پنجر شدن",
+    "translit": "pančar šodan",
+    "ru": "получить прокол (о шине)"
+  },
+  {
+    "dari": "(بالای کسی) حق داشتن",
+    "translit": "(bālā-ye kas-ē) haq dāštan",
+    "ru": "иметь право на кого-л.; иметь преимущество"
+  },
+  {
+    "dari": "اکسليتر گرفتن",
+    "translit": "aksalitar gereftan",
+    "ru": "нажимать на акселератор"
+  },
+  {
+    "dari": "جارو کردن",
+    "translit": "jāru kardan",
+    "ru": "подметать"
+  },
+  {
+    "dari": "(چیزی را) نقض کردن = (از چیزی) تخلف کردن",
+    "translit": "(čīz-ē-rā) naqz kardan = (az čīz-ē) taxallof kardan",
+    "ru": "нарушать что-л."
+  },
+  {
+    "dari": "از کار افتادن",
+    "translit": "az kār oftādan",
+    "ru": "выходить из строя"
+  },
+  {
+    "dari": "نصب کردن",
+    "translit": "nasb kardan",
+    "ru": "устанавливать, прикреплять"
+  },
+  {
+    "dari": "افگار شدن",
+    "translit": "afgār šodan",
+    "ru": "пострадать, получить повреждение"
+  },
+  {
+    "dari": "زنگ زدن",
+    "translit": "zang zadan",
+    "ru": "звонить; ржаветь"
+  },
+  {
+    "dari": "(به چیزی) توجه کردن",
+    "translit": "(ba čīz-ē) tawajjoh kardan",
+    "ru": "обращать внимание"
+  },
+  {
+    "dari": "(به چیزی) عادت داشتن",
+    "translit": "(ba čīz-ē) 'ādat dāštan",
+    "ru": "привыкать к чему-л."
+  },
+  {
+    "dari": "معاينه کردن",
+    "translit": "mo'āyena kardan",
+    "ru": "осматривать"
+  },
+  {
+    "dari": "(از موتر) پايين شدن",
+    "translit": "(az mōtar) pāyīn šodan",
+    "ru": "выходить из машины"
+  },
+  {
+    "dari": "راه دادن",
+    "translit": "rāh dādan",
+    "ru": "пропускать; уступать дорогу"
+  },
+  {
+    "dari": "(به چیزی) ضرورت داشتن = (چیزی را) کار داشتن",
+    "translit": "(ba čīz-ē) zarūrat dāštan = (čīz-ē-rā) kār dāštan",
+    "ru": "нуждаться в чём-л."
+  },
+  {
+    "dari": "(کسی را) زحمت دادن",
+    "translit": "(kas-ē-rā) zahmat dādan",
+    "ru": "утруждать кого-л."
+  },
+  {
+    "dari": "خالی کردن",
+    "translit": "xālī kardan",
+    "ru": "освобождать, опустошать"
+  },
+  {
+    "dari": "برک زدن",
+    "translit": "berek zadan",
+    "ru": "тормозить"
+  },
+  {
+    "dari": "شکر کردن",
+    "translit": "šukr kardan",
+    "ru": "благодарить"
+  },
+  {
+    "dari": "منتظر کسی شدن",
+    "translit": "montazer-e kas-ē šodan",
+    "ru": "ждать кого-л."
+  },
+  {
+    "dari": "سلف زدن",
+    "translit": "self zadan",
+    "ru": "включать стартер"
+  },
+  {
+    "dari": "(چیزی را) جدی گرفتن",
+    "translit": "(čīz-ē-rā) jeddī gereftan",
+    "ru": "относиться к чему-л. серьёзно"
+  },
+  {
+    "dari": "(کسی را) تنها گذاشتن",
+    "translit": "(kas-ē-rā) tanhā gozāštan",
+    "ru": "оставлять кого-л. одного"
+  },
+  {
+    "dari": "غم خوردن",
+    "translit": "ğam xōrdan",
+    "ru": "горевать, печалиться"
+  },
+  {
+    "dari": "(پول را) میده کردن",
+    "translit": "(pūl-rā) mayda kardan",
+    "ru": "разменивать деньги"
+  },
+  {
+    "dari": "انانس کردن",
+    "translit": "anāns kardan",
+    "ru": "объявлять; рекламировать"
+  },
+  {
+    "dari": "پیسه",
+    "translit": "paysa",
+    "ru": "деньги (разг.)"
+  },
+  {
+    "dari": "روپیه",
+    "translit": "rūpiya",
+    "ru": "рупия"
+  },
+  {
+    "dari": "قیمت",
+    "translit": "qīmat",
+    "ru": "цена; дорогой, в разговорной речи также прилагательное «дорогой»"
+  },
+  {
+    "dari": "گران",
+    "translit": "gerān",
+    "ru": "дорогой"
+  },
+  {
+    "dari": "نوت",
+    "translit": "nōt",
+    "ru": "банкнота, ассигнация"
+  },
+  {
+    "dari": "سکه",
+    "translit": "seka",
+    "ru": "монета"
+  },
+  {
+    "dari": "پول سیاه",
+    "translit": "pūl-e seyāh",
+    "ru": "мелкие деньги, мелочь, сдача"
+  },
+  {
+    "dari": "شانزده پولی",
+    "translit": "šānzdah-pūli",
+    "ru": "¼ афгани (25 пуль)"
+  },
+  {
+    "dari": "قران",
+    "translit": "qerān",
+    "ru": "пол-афгани"
+  },
+  {
+    "dari": "یک روپیگی",
+    "translit": "yag-rūpagi",
+    "ru": "1 афгани"
+  },
+  {
+    "dari": "دو روپیگی",
+    "translit": "dō-rūpagi",
+    "ru": "2 афгани"
+  },
+  {
+    "dari": "سه روپیگی",
+    "translit": "sē-rūpagi",
+    "ru": "3 афгани"
+  },
+  {
+    "dari": "دهی",
+    "translit": "dahī",
+    "ru": "десятка"
+  },
+  {
+    "dari": "ده روپیگی",
+    "translit": "dah-rūpagi",
+    "ru": "десять афгани"
+  },
+  {
+    "dari": "صد روپیگی",
+    "translit": "sad-rūpagi",
+    "ru": "сотня"
+  },
+  {
+    "dari": "دست راست",
+    "translit": "dast-e rāst",
+    "ru": "направо, справа"
+  },
+  {
+    "dari": "دست چپ",
+    "translit": "dast-e čap",
+    "ru": "налево, слева"
+  },
+  {
+    "dari": "رو به رو",
+    "translit": "rō-ba-rō",
+    "ru": "прямо"
+  },
+  {
+    "dari": "به ... نارسیده",
+    "translit": "ba ... nārasīda",
+    "ru": "не доезжая до…"
+  },
+  {
+    "dari": "بالا",
+    "translit": "bālā",
+    "ru": "в гору"
+  },
+  {
+    "dari": "پايين",
+    "translit": "pāyīn",
+    "ru": "под гору"
+  },
+  {
+    "dari": "پیراهن و تنبان",
+    "translit": "pērāhan-o-tonbān",
+    "ru": "рубаха и шаровары"
+  },
+  {
+    "dari": "پریدن",
+    "translit": "parīdan",
+    "ru": "лететь, улетать"
+  },
+  {
+    "dari": "رنگش پرید",
+    "translit": "rang-aš parīd",
+    "ru": "Он побледнел"
+  },
+  {
+    "dari": "فیوز پرید",
+    "translit": "fiyuz parīd",
+    "ru": "Перегорел предохранитель"
+  },
+  {
+    "dari": "سوختن",
+    "translit": "sōxtan",
+    "ru": "гореть; обжигать; перегорать"
+  },
+  {
+    "dari": "دستم سوخت",
+    "translit": "dast-am sōxt",
+    "ru": "Я обжёг руку"
+  },
+  {
+    "dari": "سیم اجاق سوخت",
+    "translit": "sīm-e ojāq sōxt",
+    "ru": "Перегорела спираль обогревателя"
+  },
+  {
+    "dari": "دلم برای او سوخت",
+    "translit": "del-am barāye ō sōxt",
+    "ru": "Мне стало его жаль"
+  },
+  {
+    "dari": "کار داشتن",
+    "translit": "kār dāštan",
+    "ru": "нуждаться"
+  },
+  {
+    "dari": "پنسل کار داری؟",
+    "translit": "pensel kār dārī?",
+    "ru": "Тебе нужен карандаш?"
+  },
+  {
+    "dari": "خاک به سرم!",
+    "translit": "xāk ba sar-am!",
+    "ru": "Горе мне!"
+  }
+] };
+  textbook2TaskCollections.push(textbook2TaskCollection8);
+
   const textbook2Collections = Array.from({ length: 23 }, (_, index) => ({
     id: index + 1, title: `Урок ${index + 1}`, description: textbook2LessonDescriptions[index + 1] || "",
     cards: index === 13 ? [{"dari":"اتخاذ","translit":"ettexâz","ru":"принятие (решения)"},{"dari":"اتفاق","translit":"ettefâq","ru":"случай, случайность, согласие; происходить, случаться"},{"dari":"اجرا","translit":"ejrâ","ru":"выполнение"},{"dari":"ادیب (ادبا)","translit":"adib (odabâ’)","ru":"литератор"},{"dari":"ارشد","translit":"aršad","ru":"старший"},{"dari":"اسبق","translit":"asbaq","ru":"бывший"},{"dari":"استعفا","translit":"este’fâ’","ru":"отставка"},{"dari":"اسرع","translit":"asra’","ru":"скорейший"},{"dari":"اشد","translit":"ašadd","ru":"сильнейший"},{"dari":"اطاعت","translit":"etâ’at","ru":"подчинение"},{"dari":"اعلی","translit":"a’lâ","ru":"превосходный"},{"dari":"اقامت","translit":"eqâmat","ru":"пребывание"},{"dari":"اقل","translit":"aqall","ru":"наименьший (по количеству)"},{"dari":"امیر (امرا)","translit":"amir (omarâ’)","ru":"эмир, правитель"},{"dari":"اوسط","translit":"awsat","ru":"средний"},{"dari":"اهم","translit":"ahamm","ru":"важнейший"},{"dari":"ایمان","translit":"imân","ru":"вера"},{"dari":"ائتلاف","translit":"e’telâf","ru":"коалиция"},{"dari":"بررسی","translit":"barrasi","ru":"рассмотрение"},{"dari":"تأیید","translit":"ta’yid","ru":"подтверждение"},{"dari":"تام","translit":"tâmm","ru":"полный"},{"dari":"تزلزل","translit":"tazalzol","ru":"колебание"},{"dari":"تضاد","translit":"tazâdd","ru":"противоречие, антагонизм"},{"dari":"تقویه","translit":"taqweya","ru":"усиление, укрепление"},{"dari":"تماس","translit":"tamâs","ru":"контакт, общение"},{"dari":"تمرکز","translit":"tamarkoz","ru":"сосредоточение"},{"dari":"تمنی","translit":"tamannâ","ru":"желание"},{"dari":"توطئه","translit":"tawte’a","ru":"заговор"},{"dari":"ثقیل","translit":"saqil","ru":"тяжёлый"},{"dari":"جرئت","translit":"jor’at","ru":"смелость"},{"dari":"جزء (اجزا)","translit":"joz’ (ajzâ’)","ru":"часть, компонент"},{"dari":"جسور","translit":"jasur","ru":"смелый, храбрый"},{"dari":"جنرال","translit":"janrâl","ru":"генерал"},{"dari":"حاد","translit":"hâdd","ru":"острый, напряжённый"},{"dari":"حسود","translit":"hasud","ru":"завистливый, ревнивый"},{"dari":"خاص","translit":"xâss","ru":"особенный, особый"},{"dari":"خفیف","translit":"xafif","ru":"слабый"},{"dari":"دقیق","translit":"daqiq","ru":"точный"},{"dari":"دگرول","translit":"dagarwâl","ru":"полковник"},{"dari":"ریاست","translit":"reyâsat","ru":"департамент"},{"dari":"سریع","translit":"sari’","ru":"быстрый"},{"dari":"سفلی","translit":"soflâ","ru":"нижний"},{"dari":"سقا","translit":"saqqâ’","ru":"водонос"},{"dari":"صدر اعظم","translit":"sadr-e a’zam","ru":"премьер-министр, канцлер"},{"dari":"ضخیم","translit":"zaxim","ru":"толстый (большой толщины)"},{"dari":"طبیب (اطبا)","translit":"tabib (atebbâ’)","ru":"врач, лекарь"},{"dari":"عام","translit":"‘âmm","ru":"общий, всеобщий"},{"dari":"عظیم","translit":"‘azim","ru":"великий"},{"dari":"علیا","translit":"‘olyâ","ru":"верхний"},{"dari":"عمومی","translit":"‘omumi","ru":"общий, генеральный"},{"dari":"غریب","translit":"ğarib","ru":"бедный, чужой"},{"dari":"فقیر (فقرا)","translit":"faqir (foqarâ’)","ru":"бедный, неимущий"},{"dari":"فلسفه","translit":"falsafa","ru":"философия"},{"dari":"قرائت","translit":"qarâ’at","ru":"чтение, хрестоматия"},{"dari":"قرن (قرون)","translit":"qarn (qorun)","ru":"век"},{"dari":"قلیل","translit":"qalil","ru":"малочисленный"},{"dari":"قوم (اقوام)","translit":"qawm (aqwâm)","ru":"племя, народность"},{"dari":"گزیدن","translit":"gozidan","ru":"выбирать"},{"dari":"مبرهن","translit":"mobarhan","ru":"явный, очевидный"},{"dari":"متزلزل","translit":"motazalzel","ru":"поколебленный"},{"dari":"متضاد","translit":"motazâdd","ru":"антагонистический"},{"dari":"متمرکز","translit":"motamarkez","ru":"сосредоточенный"},{"dari":"محتوی","translit":"mohtawâ","ru":"содержимое, содержание"},{"dari":"محل (محال)","translit":"mahall (mahâll)","ru":"место"},{"dari":"مدار","translit":"madâr","ru":"орбита"},{"dari":"مداقه","translit":"modâqqa","ru":"углублённое изучение"},{"dari":"مدعو","translit":"mad’oww","ru":"приглашённый, гость"},{"dari":"مذاق","translit":"mazâq","ru":"шутка"},{"dari":"مساوی","translit":"mosâwi","ru":"равный"},{"dari":"مستبد","translit":"mostabedd","ru":"деспотичный"},{"dari":"مسترد","translit":"mostaradd","ru":"возвращённый"},{"dari":"مستشار","translit":"mostašâr","ru":"советник"},{"dari":"مستعد","translit":"mosta’edd","ru":"способный"},{"dari":"مستقیم","translit":"mostaqim","ru":"непосредственный"},{"dari":"مسرت","translit":"masarrat","ru":"радость"},{"dari":"مسلسل","translit":"mosalsal","ru":"последовательный, периодический"},{"dari":"مسن","translit":"mosenn","ru":"пожилой"},{"dari":"مسئول","translit":"mas’ul","ru":"ответственный"},{"dari":"مصئون","translit":"mas’un","ru":"находящийся в безопасности, невосприимчивый"},{"dari":"مضر","translit":"mozerr","ru":"вредный"},{"dari":"مضیقه (مضایق)","translit":"maziqa (mazâyeq)","ru":"трудность"},{"dari":"معمار","translit":"me’mâr","ru":"строитель"},{"dari":"مقام (مقامات)","translit":"maqâm (moqâm)","ru":"место, положение"},{"dari":"مقیاس","translit":"meqyâs","ru":"масштаб"},{"dari":"مقیم","translit":"moqim","ru":"проживающий (где-либо)"},{"dari":"مکافات","translit":"mokâfât","ru":"вознаграждение"},{"dari":"ممتد","translit":"momtadd","ru":"продолжительный"},{"dari":"منجر","translit":"monjarr","ru":"приводящий (к чему-либо)"},{"dari":"منشی","translit":"monši","ru":"секретарь"},{"dari":"منوال","translit":"menwâl","ru":"способ"},{"dari":"موظف","translit":"mowazzaf","ru":"обязанный"},{"dari":"مهندس","translit":"mohandes","ru":"архитектор"},{"dari":"میراث","translit":"mirâs","ru":"наследство"},{"dari":"میعاد","translit":"mi’âd","ru":"срок"},{"dari":"میلاد","translit":"milâd","ru":"начало новой эры"},{"dari":"نشریه","translit":"našreyya","ru":"издание, публикация"},{"dari":"وزیر (وزرا)","translit":"wazir (wozarâ’)","ru":"министр"},{"dari":"وسطی","translit":"wostâ","ru":"средний"},{"dari":"وکیل (وکلا)","translit":"wakil (wokalâ’)","ru":"депутат"},{"dari":"هندسه","translit":"handasa","ru":"геометрия"},{"dari":"هیئت","translit":"hay’at","ru":"делегация, группа (людей)"},{"dari":"یونان","translit":"Yunân","ru":"Греция"},{"dari":"رئیس","translit":"ra'is","ru":"глава"},{"dari":"عمومی","translit":"'omumi","ru":"генеральный"},{"dari":"یونان","translit":"Yunān","ru":"Греция"},{"dari":"نشریه","translit":"našriya","ru":"периодическое издание"},{"dari":"عرض","translit":"'arz","ru":"ширина"},{"dari":"پارلمان","translit":"parlomān","ru":"парламент"},{"dari":"سفیر کبیر","translit":"safir-e kabir","ru":"полномочный посол"},{"dari":"بررسی کردن","translit":"barrasi kardan","ru":"рассматривать"}] : index === 12 ? [{"dari":"ابراز کردن","translit":"ebrâz kardan","ru":"выражать (что-либо)"},{"dari":"افتخار","translit":"eftexâr","ru":"слава, почёт"},{"dari":"امحا","translit":"emhâ","ru":"ликвидация"},{"dari":"انسلاک","translit":"enselâk","ru":"присоединение (например, к блоку)"},{"dari":"آهسته","translit":"âhesta","ru":"тихо, медленно"},{"dari":"آهنگ","translit":"âhang","ru":"мелодия, ритм"},{"dari":"بازو","translit":"bâzô","ru":"рука (от плеча до кисти)"},{"dari":"بناچار","translit":"banâčâr","ru":"поневоле"},{"dari":"بیان","translit":"bayân","ru":"изложение, разъяснение"},{"dari":"پیمان","translit":"paymân","ru":"договор, блок"},{"dari":"تبسم","translit":"tabassom","ru":"улыбка"},{"dari":"به تدریج","translit":"be tadrij","ru":"постепенно"},{"dari":"تصادف","translit":"tasâdof","ru":"случайность, случай"},{"dari":"تکان خوردن","translit":"takân xordan","ru":"вздрагивать, сотрясаться"},{"dari":"جای نماز","translit":"jâye namâz","ru":"молитвенный коврик"},{"dari":"جریان","translit":"jaryân","ru":"течение, ход событий"},{"dari":"جستجو","translit":"jostojô","ru":"поиск(и)"},{"dari":"جگرخونی","translit":"jegarxuni","ru":"расстройство, дурное настроение"},{"dari":"جنس (اجناس)","translit":"jens (ajnâs)","ru":"сорт, товар"},{"dari":"جویا شدن","translit":"jôyâ šodan","ru":"разыскивать, расспрашивать"},{"dari":"چابک","translit":"čâbok","ru":"проворный, ловкий"},{"dari":"خلق","translit":"xolq","ru":"характер, настроение"},{"dari":"دزدکی","translit":"dozdaki","ru":"украдкой"},{"dari":"راحت","translit":"râhat","ru":"покой, отдых"},{"dari":"راسته","translit":"râsta","ru":"правильно (не вверх дном, не наизнанку и т. п.)"},{"dari":"زیرک","translit":"zirak","ru":"хитрый, догадливый"},{"dari":"سپاس","translit":"sepâs","ru":"благодарность"},{"dari":"سپس","translit":"sepas","ru":"затем, потом"},{"dari":"سو","translit":"su","ru":"сторона"},{"dari":"سوء","translit":"su’","ru":"зло"},{"dari":"سهو","translit":"sahw","ru":"неумышленный поступок"},{"dari":"شک","translit":"šakk","ru":"сомнение"},{"dari":"صبر","translit":"sabr","ru":"терпение, терпеливость"},{"dari":"ضمناً","translit":"zemnan","ru":"между тем, тем временем"},{"dari":"طلبیدن","translit":"talabidan","ru":"требовать"},{"dari":"عدم","translit":"‘adam","ru":"отсутствие (чего-либо)"},{"dari":"غم خوردن","translit":"ğam xordan","ru":"горевать, расстраиваться"},{"dari":"غم چیزی را خوردن","translit":"ğam-e čizi râ xordan","ru":"заботиться о чём-либо"},{"dari":"قطعاً","translit":"qat’an","ru":"совершенно, категорически"},{"dari":"قواره","translit":"qawâra","ru":"внешность"},{"dari":"متعاقباً","translit":"mota’âqeban","ru":"затем"},{"dari":"مجدداً","translit":"mojaddadan","ru":"вновь"},{"dari":"منسلک","translit":"monsalek","ru":"примкнувший, присоединившийся"},{"dari":"نرم","translit":"narm","ru":"мягкий"},{"dari":"نزاکت","translit":"nazâkat","ru":"деликатность, вежливость"},{"dari":"نشانی","translit":"nešâni","ru":"опознавательный знак, ориентир"},{"dari":"نظامی","translit":"nezâmi","ru":"военный"},{"dari":"نفس کشیدن","translit":"nafas kešidan","ru":"дышать"},{"dari":"نگاه","translit":"negâh","ru":"взгляд"},{"dari":"نیت","translit":"neyyat","ru":"намерение, помысел"},{"dari":"وفا","translit":"wafâ","ru":"верность, преданность"},{"dari":"وقفه","translit":"waqfa","ru":"остановка, перерыв, пауза"},{"dari":"همجواری","translit":"hamjawâri","ru":"соседство"},{"dari":"افتخار کردن","translit":"eftexâr kardan","ru":"гордиться"},{"dari":"دفتر","translit":"daftar","ru":"кабинет"}] : index === 11 ? [{"dari":"ابتکار","translit":"ebtekār","ru":"инициатива"},{"dari":"اجتماع","translit":"ejtemā’","ru":"общественность"},{"dari":"اختلاف","translit":"extelāf","ru":"разногласие, противоречие"},{"dari":"ارتجاع","translit":"ertejā’","ru":"реакция (политическая)"},{"dari":"استثمار","translit":"estesmār","ru":"эксплуатация (социальная)"},{"dari":"استحکام","translit":"estehkām","ru":"прочность, укрепление"},{"dari":"اصطلاح","translit":"estelāh","ru":"термин, выражение"},{"dari":"اضطراب","translit":"ezterāb","ru":"беспокойство, тревога"},{"dari":"اطلاع","translit":"ettelā’","ru":"сообщение, известие"},{"dari":"اعتراض","translit":"e’terāz","ru":"протест, возражение"},{"dari":"اعتماد","translit":"e’temād","ru":"доверие"},{"dari":"افتخار","translit":"eftexār","ru":"честь, гордость"},{"dari":"انتخاب","translit":"entexāb","ru":"выбор"},{"dari":"انتشار","translit":"entešār","ru":"опубликование, распространение"},{"dari":"انحصار","translit":"enhesār","ru":"монополия"},{"dari":"انزجار","translit":"enzejār","ru":"неприязнь, негодование"},{"dari":"انعکاس","translit":"en’ekās","ru":"отражение"},{"dari":"انعطاف","translit":"en’etāf","ru":"гибкость"},{"dari":"انفجار","translit":"enfejār","ru":"взрыв"},{"dari":"بم","translit":"bam","ru":"бомба, граната"},{"dari":"تبادل","translit":"tabādol","ru":"обмен"},{"dari":"تجاوز","translit":"tajāwoz","ru":"посягательство, агрессия"},{"dari":"تحقق","translit":"tahaqqoq","ru":"претворение в жизнь"},{"dari":"تحمل","translit":"tahammol","ru":"терпение, перенесение (трудностей и т.п.)"},{"dari":"تدارک","translit":"tadārok","ru":"приготовление, подготовка"},{"dari":"تذکر","translit":"tazakkor","ru":"упоминание"},{"dari":"تشنج","translit":"tašannoj","ru":"напряженность"},{"dari":"تصادم","translit":"tasādom","ru":"столкновение"},{"dari":"تعادل","translit":"ta’ādol","ru":"равновесие"},{"dari":"تعاون","translit":"ta’āwon","ru":"взаимопомощь"},{"dari":"تعلق","translit":"ta’alloq","ru":"принадлежность"},{"dari":"تفاوت","translit":"tafāwot","ru":"разница, различие"},{"dari":"تفاهم","translit":"tafāhom","ru":"взаимопонимание"},{"dari":"تکامل","translit":"takāmol","ru":"совершенствование"},{"dari":"تمایل","translit":"tamāyol","ru":"наклонность, тенденция"},{"dari":"تمدن","translit":"tamaddon","ru":"цивилизация"},{"dari":"توافق","translit":"tawāfoq","ru":"договоренность, взаимное согласие"},{"dari":"توسل","translit":"tawassol","ru":"прибегание (к чему-л.)"},{"dari":"زور","translit":"zōr","ru":"сила"},{"dari":"متعلق","translit":"mota’alleq","ru":"принадлежащий"},{"dari":"متفاوت","translit":"motafāwet","ru":"различный, неодинаковый"},{"dari":"متمایل","translit":"motamāyel","ru":"склонный (к чему-л.)"},{"dari":"متنوع","translit":"motanawwe’","ru":"разнообразный"},{"dari":"متوسل","translit":"morawassel","ru":"прибегающий (к чему-л.)"},{"dari":"متوقف","translit":"motawaqqef","ru":"останавливающийся"},{"dari":"مرتجع","translit":"mortaje’","ru":"реакционер"},{"dari":"مستحکم","translit":"mostahkam","ru":"прочный"},{"dari":"مستخدم","translit":"mostaxdem","ru":"служащий"},{"dari":"مستعمل","translit":"mosta’mal","ru":"употребленный, использованный"},{"dari":"مستند","translit":"mostanad","ru":"документальный"},{"dari":"مستنطق","translit":"mostanteq","ru":"следователь"},{"dari":"مسلح","translit":"mosallah","ru":"вооруженный"},{"dari":"مطلع","translit":"mottale’","ru":"осведомленный"},{"dari":"معتقد","translit":"mo’taqed","ru":"убежденный (в чем-л.)"},{"dari":"منتخب","translit":"montaxab","ru":"избранный"},{"dari":"منتشر","translit":"montašer","ru":"опубликованный"},{"dari":"منعکس","translit":"mon’akes","ru":"отраженный"},{"dari":"منفجر","translit":"monfajer","ru":"взорвавшийся"},{"dari":"تکامل بخشیدن","translit":"takāmol baxšidan","ru":"развивать"},{"dari":"متوجه بودن","translit":"motavajjeh budan","ru":"быть направленным"},{"dari":"مساعی","translit":"masā'i","ru":"усилия"}] : index === 1 ? [{"dari":"آب‌خیزی","translit":"ābxēzi","ru":"наводнение, половодье"},{"dari":"بارندگی","translit":"bārendagi","ru":"осадки"},{"dari":"بحری","translit":"bahri","ru":"морской"},{"dari":"برف‌باری","translit":"barfbāri","ru":"снегопад"},{"dari":"بری","translit":"barri","ru":"континентальный"},{"dari":"پوشیده","translit":"pōšida","ru":"покрытый"},{"dari":"تونل","translit":"tunal","ru":"тоннель"},{"dari":"جبل","translit":"jabal (jabāl)","ru":"гора"},{"dari":"جلغوزه","translit":"jalğōza","ru":"орех (плод горного кедра)"},{"dari":"جلگه","translit":"jelga","ru":"равнина"},{"dari":"جهیل","translit":"jahil","ru":"озеро"},{"dari":"حبوبات","translit":"hobubāt","ru":"злаки, зерновые"},{"dari":"حصه","translit":"hessa (hesas)","ru":"часть, доля"},{"dari":"خروشان","translit":"xorōšān","ru":"бурный (о реке и т.п.)"},{"dari":"هسته","translit":"xasta","ru":"косточка (плода), орешек"},{"dari":"خفیف","translit":"xafif","ru":"слабый (по интенсивности)"},{"dari":"دامنه","translit":"dāmana","ru":"склон (горы)"},{"dari":"رطوبت","translit":"rotubat","ru":"влажность"},{"dari":"ژاله","translit":"žāla","ru":"град"},{"dari":"سرسبز","translit":"sarsabz","ru":"зеленый (о растительности)"},{"dari":"سلسله","translit":"selsela","ru":"ряд, цепь"},{"dari":"شاداب","translit":"šādāb","ru":"напоенный водой"},{"dari":"صحرا","translit":"sahrā","ru":"пустыня"},{"dari":"طوفان","translit":"tufān","ru":"ураган, буря"},{"dari":"عمیق","translit":"‘amiq","ru":"глубокий"},{"dari":"فلات","translit":"falāt","ru":"плоскогорье, плато"},{"dari":"قلبه کردن","translit":"qolba kardan","ru":"боронить, пахать"},{"dari":"قله","translit":"qolla (qolal)","ru":"вершина (горы)"},{"dari":"کرد","translit":"kord","ru":"грядка, делянка"},{"dari":"گسترش یافتن","translit":"gostareš yāftan","ru":"простираться, расстилаться"},{"dari":"مساحت","translit":"masāhat","ru":"площадь (размер)"},{"dari":"وصل کردن","translit":"wasl kardan","ru":"связывать, соединять"},{"dari":"فرانسه","translit":"Farānsa","ru":"Франция"},{"dari":"سب تروپیکی","translit":"sabtorōpiki","ru":"субтропический"},{"dari":"آبی","translit":"ābi","ru":"поливной"},{"dari":"للمی","translit":"lalmi","ru":"богарный (неполивной)"},{"dari":"بی آب","translit":"bē-āb","ru":"безводный"},{"dari":"جاری شدن","translit":"jāri šodan","ru":"протекать"},{"dari":"شادابی","translit":"šādābi","ru":"свежесть, процветание; обилие"}] : index === 2 ? [{"dari":"اداری","translit":"edāri","ru":"административный"},{"dari":"اکثریت","translit":"aksareyyat","ru":"большинство"},{"dari":"پیرو","translit":"payraw","ru":"последователь"},{"dari":"پیشه","translit":"pēša","ru":"ремесло, профессия"},{"dari":"تخمین","translit":"taxmin","ru":"подсчет (приблизительный)"},{"dari":"تراکم","translit":"tarākom","ru":"скопление; плотность (населения)"},{"dari":"تکلم","translit":"takallom","ru":"разговор, речь (на каком-л. языке)"},{"dari":"جریان","translit":"jeryān, jarayān","ru":"течение, движение"},{"dari":"جریان داشتن","translit":"jeryān dāštan","ru":"протекать, иметь место"},{"dari":"حصار","translit":"hesār","ru":"крепость, форт"},{"dari":"حوالی","translit":"hawāli","ru":"окрестности"},{"dari":"دامن","translit":"dāman","ru":"юбка, подол; подножие"},{"dari":"راسته","translit":"rāstā","ru":"деревня, сельская местность"},{"dari":"رول","translit":"rōl","ru":"роль"},{"dari":"ساختمان","translit":"sāxtomān","ru":"строительство"},{"dari":"فاصله","translit":"fāsela (fawāsel)","ru":"расстояние"},{"dari":"قبر","translit":"qabr","ru":"могила"},{"dari":"قبیله","translit":"qabila (qabāyel)","ru":"племя"},{"dari":"قوم","translit":"qawm (aqwām)","ru":"род, народность"},{"dari":"کول","translit":"kōl","ru":"пруд, водохранилище"},{"dari":"گنبد","translit":"gonbad","ru":"купол"},{"dari":"متعدد","translit":"mota’added","ru":"многочисленный"},{"dari":"محسوب شدن","translit":"mahsub šodan","ru":"считаться (чем-л., кем-л., каким-л.)"},{"dari":"مغاره","translit":"magāra","ru":"пещера"},{"dari":"ملیت","translit":"melleyyat","ru":"национальность"},{"dari":"میدان","translit":"maydān","ru":"площадь, площадка"},{"dari":"روسی","translit":"rusi","ru":"российский"},{"dari":"اتراموی","translit":"tarāmwē","ru":"трамвай"},{"dari":"کول","translit":"kōl","ru":"озеро, водохранилище"},{"dari":"نیپر","translit":"Nēper","ru":"Днепр [имя собственное]"},{"dari":"مسکن","translit":"maskan","ru":"жильё"},{"dari":"سکه","translit":"sek","ru":"сикх"},{"dari":"خراسان","translit":"Xorāsān","ru":"Хорасан [имя собственное]"},{"dari":"خارجی","translit":"xāreji","ru":"иностранный"},{"dari":"اقوام","translit":"aqvām","ru":"народы"}] : index === 3 ? [{"dari":"احداث","translit":"ehdās","ru":"создание, сооружение"},{"dari":"استخراج","translit":"estexrāj","ru":"добыча (полезных ископаемых)"},{"dari":"الماس","translit":"almās","ru":"алмаз"},{"dari":"بایر","translit":"bāyer","ru":"невозделанный, целинный (о земле)"},{"dari":"بهره‌برداری","translit":"bahrabardāri","ru":"эксплуатация (напр. ресурсов)"},{"dari":"پایپ‌لاین","translit":"pāyplayn","ru":"трубопровод"},{"dari":"پیام","translit":"payām","ru":"послание, обращение"},{"dari":"تجربه","translit":"tajroba (tajārob)","ru":"опыт"},{"dari":"تخنیک","translit":"taxnik","ru":"техника"},{"dari":"تفحص","translit":"tafahhos","ru":"поиск, разведка (геологическая)"},{"dari":"تلگرام","translit":"telgerām","ru":"телеграмма"},{"dari":"تولید","translit":"towlid","ru":"производство"},{"dari":"ثروت","translit":"sorwat","ru":"богатство"},{"dari":"جست","translit":"jast","ru":"цинк"},{"dari":"جیولوجست","translit":"jeyālōjest","ru":"геолог"},{"dari":"چشمه","translit":"čašma","ru":"источник, родник"},{"dari":"حجر","translit":"hajar (ahjār)","ru":"камень"},{"dari":"خیلی","translit":"xēlē","ru":"очень"},{"dari":"دلدلزار","translit":"daldarzār","ru":"болото"},{"dari":"ذخیره","translit":"zaxira (zaxāyer)","ru":"запас"},{"dari":"ذوب","translit":"zawb","ru":"плавление, таяние"},{"dari":"زمرد","translit":"zamarod","ru":"изумруд"},{"dari":"ساحل","translit":"sāhel (sawāhel)","ru":"берег"},{"dari":"سرب","translit":"sorb","ru":"свинец"},{"dari":"سرشار","translit":"saršār","ru":"обильный, неисчерпаемый"},{"dari":"شیشه","translit":"šiša","ru":"стекло"},{"dari":"طلا","translit":"telā","ru":"золото"},{"dari":"فلز","translit":"felez","ru":"металл"},{"dari":"فلک","translit":"falak (aflāk)","ru":"небо"},{"dari":"فنی","translit":"fanni","ru":"технический; художественный"},{"dari":"کشف","translit":"kašf","ru":"открытие, обнаружение"},{"dari":"کلید","translit":"kelid","ru":"ключ"},{"dari":"گچ","translit":"gač","ru":"алебастр, гипс"},{"dari":"گران‌بها","translit":"gerānbahā","ru":"драгоценный"},{"dari":"لاجورد","translit":"lājaward","ru":"ляпис-лазурь, лазурит"},{"dari":"ماده","translit":"mādda (mawād)","ru":"вещество"},{"dari":"محروقات","translit":"mahruqāt","ru":"горючее, топливо"},{"dari":"مرمر","translit":"marmar","ru":"мрамор"},{"dari":"مس","translit":"mes","ru":"медь"},{"dari":"مساله","translit":"masāla","ru":"пластмасса"},{"dari":"مطلوب","translit":"matlub","ru":"желательный, надлежащий"},{"dari":"معاونت","translit":"mo’āwenat","ru":"помощь"},{"dari":"ملت","translit":"mellat (melal)","ru":"нация"},{"dari":"ملح","translit":"melh (amlāh)","ru":"соль"},{"dari":"مملو","translit":"mamlu","ru":"полный, наполненный"},{"dari":"منبع","translit":"manba’ (manābe’)","ru":"источник"},{"dari":"نشر","translit":"našr","ru":"опубликование, издание"},{"dari":"نفت","translit":"naft","ru":"нефть"},{"dari":"نقش","translit":"naqš","ru":"роль"},{"dari":"نیازمندی","translit":"neyāzmandi","ru":"нужда, необходимость"},{"dari":"هکذا","translit":"hákazā","ru":"также"},{"dari":"صدور","translit":"sodur","ru":"экспорт"},{"dari":"جرقدق","translit":"Jarqoduq","ru":"Джаркудук (месторождение)"},{"dari":"احداث","translit":"ehdās","ru":"создание, строительство"},{"dari":"علمی","translit":"'elmi","ru":"научный"}] : index === 4 ? [{"dari":"احساس","translit":"ehsās","ru":"чувство, ощущение"},{"dari":"ارسال","translit":"ersāl","ru":"отправка (чего-л.)"},{"dari":"بیچاره","translit":"bēčāra","ru":"несчастный, бедняга"},{"dari":"پیچاندن","translit":"pēčāndan","ru":"завёртывать"},{"dari":"تبصره","translit":"tabsera","ru":"комментарий"},{"dari":"ترویج","translit":"tarwij","ru":"распространение, внедрение"},{"dari":"تسریع","translit":"tasri’","ru":"ускорение"},{"dari":"تسلیم شدن","translit":"taslim šodan","ru":"сдаваться"},{"dari":"تشدید","translit":"tašdid","ru":"усиление, интенсификация"},{"dari":"تصویب","translit":"taswib","ru":"утверждение (документа и т.п.)"},{"dari":"تمدید","translit":"tamdid","ru":"продление"},{"dari":"تنظیم","translit":"tanzim","ru":"упорядочивание, налаживание"},{"dari":"تنویر","translit":"tanwir","ru":"освещение"},{"dari":"توصیه","translit":"tawseya","ru":"совет, рекомендация"},{"dari":"جاپان","translit":"Jāpān","ru":"Япония"},{"dari":"جزیره","translit":"jazira (jazāyer)","ru":"остров"},{"dari":"حمله","translit":"hamla","ru":"нападение, атака"},{"dari":"خاموش","translit":"xāmōš","ru":"тихий, спокойный"},{"dari":"فرار","translit":"farār","ru":"бегство, побег"},{"dari":"قادر بودن","translit":"qāder budan","ru":"быть в состоянии (сделать что-л.)"},{"dari":"قدیفه","translit":"qadifa","ru":"накидка; полотенце (банное)"},{"dari":"قوت","translit":"qowwat, qowwa (qowā)","ru":"сила"},{"dari":"مبالغه","translit":"mobāleğa","ru":"преувеличение"},{"dari":"مبصر","translit":"mobasser","ru":"комментатор"},{"dari":"مجادله","translit":"mojādela","ru":"борьба"},{"dari":"مجرب","translit":"mojarrab","ru":"опытный"},{"dari":"مجلل","translit":"mojallal","ru":"великолепный; торжественный"},{"dari":"مجهز","translit":"mojahhaz","ru":"оснащенный, оборудованный"},{"dari":"محسوس","translit":"mahsus","ru":"ощутимый"},{"dari":"مخالفت","translit":"moxālefat","ru":"несогласие"},{"dari":"مذکور","translit":"mazkur","ru":"вышеупомянутый"},{"dari":"مزروع","translit":"mazru’","ru":"обрабатываемый, возделываемый (о земле)"},{"dari":"مسلک","translit":"maslak (masālek)","ru":"профессия, специальность"},{"dari":"مسئول","translit":"mas’ul","ru":"ответственный"},{"dari":"مشغول","translit":"mašğul","ru":"занятый (чем-л.)"},{"dari":"مضایقه کردن","translit":"mozāyeqa kardan","ru":"жалеть (усилия и т.п.)"},{"dari":"مطالبه","translit":"motāleba","ru":"требование"},{"dari":"مقایسه","translit":"moqāyesa","ru":"сравнение"},{"dari":"مقرره","translit":"moqarrara","ru":"правило, положение (документ)"},{"dari":"مورد","translit":"mawred (mawāred)","ru":"случай; объект (чего-л.)"},{"dari":"مولد","translit":"mowalled","ru":"производитель"},{"dari":"واضح","translit":"wāzeh","ru":"ясный, очевидный"},{"dari":"مقاله","translit":"maqāla","ru":"статья"},{"dari":"رعایت کردن","translit":"re'āyat kardan","ru":"соблюдать"},{"dari":"سالون","translit":"sālōn","ru":"зал"},{"dari":"باشکوه","translit":"bāšokōh","ru":"торжественный, величественный"},{"dari":"قادر","translit":"Qāder","ru":"Кадыр (мужское имя)"},{"dari":"طاهر","translit":"Tāher","ru":"Тахир (мужское имя)"},{"dari":"نشر شدن","translit":"našr šodan","ru":"публиковаться"},{"dari":"تولیدات","translit":"tawlidāt","ru":"продукция, производство"},{"dari":"از","translit":"az","ru":"о, от"},{"dari":"به شدت","translit":"ba šeddat","ru":"упорно, сильно"},{"dari":"تیم","translit":"tēm","ru":"команда"},{"dari":"استراحت","translit":"esterāhat","ru":"отдых"}] : index === 5 ? [{"dari":"ابتدا","translit":"ebtedā","ru":"начало"},{"dari":"ارزنده","translit":"arzenda","ru":"ценный"},{"dari":"اعدام","translit":"e’dām","ru":"казнь"},{"dari":"البته","translit":"albatta","ru":"разумеется, конечно"},{"dari":"انتخاب","translit":"entexāb","ru":"выбор"},{"dari":"آویختن","translit":"āwēxtan","ru":"вешать"},{"dari":"آهسته","translit":"āhesta","ru":"медленный, тихий"},{"dari":"بلندقامت","translit":"bolandqāmat","ru":"высокого роста"},{"dari":"بوت‌دوزی","translit":"butdōzi","ru":"изготовление обуви"},{"dari":"پخسه","translit":"paxsa","ru":"слой глины (при кладке стены)"},{"dari":"پوستینچه","translit":"pōstinča","ru":"меховая куртка"},{"dari":"تزئید","translit":"tazyid","ru":"увеличение"},{"dari":"تصادفاً","translit":"tasādofan","ru":"случайно"},{"dari":"تطبیق","translit":"tatbiq","ru":"выполнение (плана), претворение в жизнь"},{"dari":"تعلق","translit":"ta’alloq","ru":"принадлежность"},{"dari":"تولیدی","translit":"tawlidi","ru":"изготовленный"},{"dari":"تهداب‌گذاری","translit":"tahdābgozāri","ru":"закладка фундамента"},{"dari":"جرم","translit":"jorm","ru":"преступление"},{"dari":"جلاد","translit":"jallād","ru":"палач"},{"dari":"جنسیت","translit":"jenseyyat","ru":"качество (товара)"},{"dari":"چرم","translit":"čarm","ru":"кожа (выделанная)"},{"dari":"چنین","translit":"čonin","ru":"такой"},{"dari":"حاکم","translit":"hākem","ru":"правитель, уездный начальник"},{"dari":"حایز بودن","translit":"hāyez budan","ru":"владеть, иметь"},{"dari":"حجم","translit":"hojm","ru":"объем"},{"dari":"حجار","translit":"hajjār","ru":"каменотес"},{"dari":"حد","translit":"hadd (hodud)","ru":"граница"},{"dari":"حلاج","translit":"hallāj","ru":"чесальщик хлопка"},{"dari":"دار","translit":"dār","ru":"виселица"},{"dari":"دزدی کردن","translit":"dozdi kardan","ru":"красть, обкрадывать"},{"dari":"دسترسی","translit":"dastrasi","ru":"доступ"},{"dari":"دستگاه","translit":"dastgāh","ru":"станок, аппарат, установка"},{"dari":"دستور","translit":"dastur (dasātir)","ru":"распоряжение"},{"dari":"دوام","translit":"dawām","ru":"продолжение; долговечность"},{"dari":"دیزاین","translit":"dizāyn","ru":"рисунок, орнамент"},{"dari":"رنگ‌آمیزی","translit":"rangāmēzi","ru":"покраска"},{"dari":"روند","translit":"rawend","ru":"процесс"},{"dari":"رها کردن","translit":"rahā kardan","ru":"отпускать, освобождать"},{"dari":"سلاح","translit":"selāh (asleha)","ru":"оружие"},{"dari":"سوزان","translit":"sōzān","ru":"обжигающий, палящий"},{"dari":"شامخ","translit":"šāmex","ru":"высокий, величавый"},{"dari":"شکار","translit":"šekār","ru":"охота; добыча"},{"dari":"شیء","translit":"šay’ (ašyā’)","ru":"вещь, изделие"},{"dari":"ضراب","translit":"zarrāb","ru":"чеканщик монет"},{"dari":"ضرابخانه","translit":"zarrābxāna","ru":"монетный двор"},{"dari":"طرح","translit":"tarh","ru":"разработка (плана и т.п.)"},{"dari":"طریق","translit":"tariq (toroq)","ru":"путь"},{"dari":"عاقبت","translit":"‘āqebat (‘awāqeb)","ru":"последствие"},{"dari":"فقدان","translit":"foqdān","ru":"отсутствие"},{"dari":"قاطع","translit":"qāte’","ru":"решительный, категорический"},{"dari":"قاقمه","translit":"qāqma","ru":"армячина"},{"dari":"قالین‌بافی","translit":"qālinbāfi","ru":"ковроткачество"},{"dari":"قرضه","translit":"qarza","ru":"заем, кредит"},{"dari":"قرن","translit":"qarn (qorun)","ru":"век"},{"dari":"قلعه","translit":"qal’a","ru":"крепость, дом (с усадьбой, обнесенной высокой стеной)"},{"dari":"قندسازی","translit":"qandsāzi","ru":"изготовление сахара"},{"dari":"کاشی‌سازی","translit":"kāšisāzi","ru":"изготовление изразцов, кафеля и т.п."},{"dari":"کبک","translit":"kabk","ru":"куропатка"},{"dari":"کرباس","translit":"karbās","ru":"холст"},{"dari":"کلاه‌دوزی","translit":"kolāhdōzi","ru":"шитье шапок"},{"dari":"کیلووات","translit":"kilowāt","ru":"киловатт"},{"dari":"گلیم","translit":"gelim","ru":"палас"},{"dari":"گلیم‌بافی","translit":"gelimbāfi","ru":"изготовление паласов"},{"dari":"گناه","translit":"gonāh","ru":"вина, грех"},{"dari":"گوگردسازی","translit":"gōgerdsāzi","ru":"изготовление спичек"},{"dari":"متمرکز","translit":"motamarkez","ru":"сосредоточенный, сконцентрированный"},{"dari":"محبس","translit":"mahbas (mahābes)","ru":"тюрьма"},{"dari":"محل","translit":"mahall","ru":"место"},{"dari":"مساعدت کردن","translit":"mosā’edat kardan","ru":"способствовать"},{"dari":"منتخب","translit":"montaxab","ru":"выбранный, избранный"},{"dari":"مهمات","translit":"mohemmāt","ru":"боеприпасы"},{"dari":"نازک","translit":"nāzok","ru":"тонкий"},{"dari":"ناله","translit":"nāla","ru":"стон, плач"},{"dari":"نساج","translit":"nassāj","ru":"ткач"},{"dari":"وسیله","translit":"wasila (wasāyel)","ru":"средство"},{"dari":"مساعدت","translit":"mosā'adat","ru":"содействие, помощь"},{"dari":"سالانه","translit":"sālāna","ru":"годовой"},{"dari":"مخابره کردن","translit":"moxābara kardan","ru":"сообщать, направлять"},{"dari":"رسیدن","translit":"residan","ru":"поступать, прибывать"},{"dari":"نغلو","translit":"Nağlō","ru":"Наглу (гидроэлектростанция)"},{"dari":"خصوصی","translit":"xosusi","ru":"частный"},{"dari":"تهیه شدن","translit":"tahiya šodan","ru":"поставляться, готовиться"},{"dari":"تهداب","translit":"tahdāb","ru":"фундамент"},{"dari":"موتررو","translit":"mōtarraw","ru":"автомобильная дорога"},{"dari":"با استفاده از","translit":"bā estefāda az","ru":"с использованием"},{"dari":"تجهیزات","translit":"tajhizāt","ru":"оборудование"},{"dari":"اعمدتاً","translit":"'omdatan","ru":"главным образом"},{"dari":"محبوبیت","translit":"mahbubeyyat","ru":"популярность"}] : index === 6 ? [{"dari":"ارتباط","translit":"ertebāt","ru":"связь, касательство"},{"dari":"آرد","translit":"ārd","ru":"мука"},{"dari":"آسیاب","translit":"āsyā(b)","ru":"мельница"},{"dari":"اعظمی","translit":"a’zami","ru":"максимальный"},{"dari":"آله","translit":"āla","ru":"инструмент, прибор"},{"dari":"اندک","translit":"andak","ru":"мало; малый"},{"dari":"بی‌نیاز","translit":"bēneyāz","ru":"не нуждающийся"},{"dari":"پشمینه","translit":"pašmina","ru":"шерстяная ткань"},{"dari":"ترمیم","translit":"tarmim","ru":"ремонт"},{"dari":"تصفیه","translit":"tasfeya","ru":"очистка"},{"dari":"تن","translit":"tan","ru":"тонна"},{"dari":"توربین","translit":"turbin","ru":"турбина"},{"dari":"تهیه","translit":"taheya","ru":"подготовка; заготовка; изготовление"},{"dari":"چودن","translit":"čōdan","ru":"чугун"},{"dari":"خشت","translit":"xešt","ru":"кирпич"},{"dari":"خوراکه","translit":"xōrāka","ru":"продукты (питания)"},{"dari":"دایمی","translit":"dāyemi","ru":"постоянный"},{"dari":"درخشان","translit":"daraxšān","ru":"блестящий"},{"dari":"دوخت","translit":"dōxt","ru":"шитьё"},{"dari":"دیزل","translit":"dizal","ru":"дизельное топливо"},{"dari":"ساحه","translit":"sāha","ru":"площадь, пространство"},{"dari":"سمنت","translit":"sement","ru":"цемент"},{"dari":"شرکت","translit":"šerkat","ru":"компания, ширکت"},{"dari":"صابون","translit":"sābun","ru":"мыло"},{"dari":"غله","translit":"ğalla","ru":"зерно, злак"},{"dari":"فایده","translit":"fāyeda (fawāyed)","ru":"польза, выгода"},{"dari":"فولاد","translit":"fōlād","ru":"сталь"},{"dari":"کاربامید","translit":"kārbāmid","ru":"карбамид"},{"dari":"کانسرو شده","translit":"kānsarwšoda","ru":"консервированный"},{"dari":"کشمش","translit":"kešmeš","ru":"изюм"},{"dari":"کشمش‌پاکی","translit":"kešmešpāki","ru":"очистка изюма"},{"dari":"کفاشی","translit":"kaffāši","ru":"производство обуви"},{"dari":"کمپل","translit":"kampal","ru":"одеяло"},{"dari":"کوره","translit":"kōra","ru":"печь"},{"dari":"گسترده","translit":"gostorda","ru":"широкий, обширный"},{"dari":"لین","translit":"layn","ru":"линия"},{"dari":"ماشین‌آلات","translit":"māšinālāt","ru":"механизмы"},{"dari":"مجموع","translit":"majmu’","ru":"сумма, совокупность"},{"dari":"مرفوع","translit":"marfu’","ru":"устраненный, утоленный"},{"dari":"مسلخ","translit":"maslax","ru":"скотобойня"},{"dari":"مشروب","translit":"mašrub","ru":"напиток"},{"dari":"میش","translit":"mēš","ru":"овца"},{"dari":"نخ","translit":"nax","ru":"нить, пряжа (хлопчатобумажная)"},{"dari":"واسطه","translit":"wāseta (wasāyet)","ru":"средство, механизм"},{"dari":"برمه کاری شدن","translit":"barmakāri šodan","ru":"бурить(ся)"},{"dari":"مربوطه","translit":"marbuta","ru":"соответствующий"},{"dari":"کارگاه","translit":"kārgāh","ru":"цех"},{"dari":"کانکریت آهندار","translit":"kānkrēt-e āhandār","ru":"железобетон"},{"dari":"چکی","translit":"čeki","ru":"чешский"},{"dari":"قسماً","translit":"qesman","ru":"частично"},{"dari":"ذیل","translit":"zeyl","ru":"следующий, ниже"},{"dari":"فارم","translit":"fārm","ru":"ферма"},{"dari":"پری فابریکیت","translit":"perifābrikēt","ru":"железобетонные блоки"},{"dari":"تیل","translit":"tēl","ru":"нефть, бензин"},{"dari":"تدویر","translit":"tadwir","ru":"бурение"}] : index === 7 ? [{"dari":"ارابه","translit":"arāba","ru":"колесо"},{"dari":"اشترنگ","translit":"eštereng","ru":"руль"},{"dari":"اعتنا","translit":"e’tenā","ru":"внимание"},{"dari":"اکسلیتر","translit":"aksalitar","ru":"акселератор"},{"dari":"انجن","translit":"enjen","ru":"двигатель, мотор"},{"dari":"انصاف","translit":"ensāf","ru":"справедливость"},{"dari":"انگشت","translit":"angošt","ru":"палец"},{"dari":"بادوام","translit":"bādawām","ru":"прочный, долговечный"},{"dari":"بالتی","translit":"bālti","ru":"батарейка"},{"dari":"برک","translit":"berek","ru":"тормоз"},{"dari":"برهم زدن","translit":"barham zadan","ru":"проводить в беспорядок, нарушать (порядок и т.п.)"},{"dari":"بطری","translit":"betri","ru":"аккумулятор"},{"dari":"بند ماندن","translit":"band māndan","ru":"застревать"},{"dari":"بی انصافی","translit":"bēensāf","ru":"бессовестный"},{"dari":"پایپ","translit":"pāyp","ru":"трубка (например, курительная)"},{"dari":"پر","translit":"por","ru":"полный, заполненный"},{"dari":"پلک","translit":"palak","ru":"свеча (автомашины)"},{"dari":"پنچر کردن","translit":"pančar kardan","ru":"проколоть"},{"dari":"پوش","translit":"pōš","ru":"чехол, капот"},{"dari":"تانک","translit":"tānk","ru":"танк; бак, цистерна; бензозаправочная станция"},{"dari":"تایر","translit":"tāyr","ru":"шина, автопокрышка"},{"dari":"تخلف (ات)","translit":"taxallof","ru":"нарушение (правил)"},{"dari":"ترانسپورت","translit":"tarānspōrt","ru":"транспорт"},{"dari":"ترانسفارمر","translit":"tarānsfārmer","ru":"трансформатор"},{"dari":"ترک کردن","translit":"tark kardan","ru":"покидать; прекращать"},{"dari":"تصادفاً","translit":"tasādorān","ru":"случайно"},{"dari":"تکر","translit":"takar","ru":"(разг.) столкновение, удар (друг о друга)"},{"dari":"تنباکو","translit":"tanbākō","ru":"табак"},{"dari":"تولبکس","translit":"tōlbaks","ru":"багажник"},{"dari":"تیوپ","translit":"teyup","ru":"баллон (шины)"},{"dari":"جارو","translit":"jāru","ru":"метла"},{"dari":"جدی","translit":"jeddi","ru":"серьёзный"},{"dari":"جرقه","translit":"jaraqqa","ru":"искра"},{"dari":"جریمه","translit":"jarima","ru":"штраф"},{"dari":"جزا","translit":"jazā","ru":"наказание"},{"dari":"جک","translit":"jak","ru":"штраф"},{"dari":"چارج کردن","translit":"čārj kardan","ru":"заряжать (например, аккумулятор)"},{"dari":"چارراهی","translit":"čārrāhi","ru":"перекрёсток"},{"dari":"چالان کردن","translit":"čālān kardan","ru":"заводить (мотор и т.п.)"},{"dari":"چلم","translit":"čalam","ru":"кальян"},{"dari":"چندان","translit":"čandān","ru":"столько, так много"},{"dari":"خاکستر","translit":"xākestar","ru":"пепел, зола"},{"dari":"خاموش","translit":"xāmōš","ru":"молчащий; погасший"},{"dari":"دواندن","translit":"dawāndan","ru":"погонять; водить (автомашину и т.п.)"},{"dari":"دور خوردن","translit":"dawr xōrdan","ru":"сворачивать, поворачиваться"},{"dari":"رأساً","translit":"ra’san","ru":"прямо, непосредственно"},{"dari":"ردیتر","translit":"raditar","ru":"радиатор"},{"dari":"رهنما","translit":"rahnamā","ru":"проводник, указывающий путь"},{"dari":"رینج","translit":"rēnj","ru":"(гаечный) ключ"},{"dari":"ریورس","translit":"riwars","ru":"задний ход"},{"dari":"ساکت","translit":"sākat","ru":"штепсель"},{"dari":"سوخته","translit":"sōxta","ru":"огарок, окурок"},{"dari":"سویچ","translit":"sowič","ru":"выключатель"},{"dari":"سیت","translit":"sit","ru":"кабина (водителя), сиденье"},{"dari":"سیم","translit":"sim","ru":"проволока, повод; спираль (электронагревательного прибора)"},{"dari":"شارتی","translit":"šārti","ru":"короткое замыкание"},{"dari":"شید","translit":"šēd","ru":"плафон, абажур"},{"dari":"صافی","translit":"sāfi","ru":"тряпка"},{"dari":"ضمناً","translit":"zemnam","ru":"одновременно, тем временем"},{"dari":"طالع","translit":"tāle’","ru":"удача, везенье"},{"dari":"عارضه (عوارض)","translit":"āreza (awārez)","ru":"поломка, неисправность"},{"dari":"عوض کردن","translit":"‘ewaz kardan","ru":"заменять"},{"dari":"غیرت","translit":"ğayrat","ru":"самолюбие; рвение, самоотверженность"},{"dari":"فالتو","translit":"fāltu","ru":"запасной"},{"dari":"قطع کردن","translit":"qat’ kardan","ru":"прерывать, перерезать"},{"dari":"کرین شافت","translit":"kerēnšāft","ru":"коленчатый вал"},{"dari":"کمباد","translit":"kambād","ru":"спущенный (о надувном предмете)"},{"dari":"گروپ","translit":"group","ru":"(электрическая) лампочка"},{"dari":"گریس","translit":"geris","ru":"солидол, солярка"},{"dari":"گل کردن","translit":"gol kardan","ru":"выключать"},{"dari":"گیربکس","translit":"girbaks","ru":"коробка передач"},{"dari":"لوکس","translit":"luks","ru":"шикарный, превосходный"},{"dari":"مبل آیل","translit":"moblāyel","ru":"машинное масло"},{"dari":"منتها","translit":"montahā","ru":"край; только, всего лишь"},{"dari":"مهارت","translit":"mahārat","ru":"мастерство"},{"dari":"میتر","translit":"mitar","ru":"счётчик (электроэнергии)"},{"dari":"میده","translit":"mayda","ru":"мелкий, измельчённый"},{"dari":"ناجوان","translit":"nājawān","ru":"трусливый, непорядочный"},{"dari":"نصب کردن","translit":"nasb kardan","ru":"прикреплять, ввинчивать"},{"dari":"نقض","translit":"naqz","ru":"нарушение (правил и т.п.)"},{"dari":"نمبرپلیت","translit":"nambarpalēt","ru":"номерной знак"},{"dari":"هارن","translit":"hāran","ru":"сигнал, гудок"},{"dari":"هاکی","translit":"hākī","ru":"хоккей на траве"},{"dari":"همراه","translit":"hamrāh","ru":"спутник, сопровождающий"} ,{"dari":"تز دکترا","translit":"tēz-e doktorā","ru":"докторская диссертация"},{"dari":"آریانا","translit":"Ariānā","ru":"«Ариана»"},{"dari":"درز","translit":"darz","ru":"трещина"},{"dari":"راه کسی را گرفتن","translit":"rāh-e kasi rā gereftan","ru":"загородить кому-л. дорогу"},{"dari":"پمپ کردن","translit":"pamp kardan","ru":"накачивать"},{"dari":"محکم گرفتن","translit":"mohkam gereftan","ru":"крепко схватить"},{"dari":"بار کردن","translit":"bār kardan","ru":"грузить"},{"dari":"دور دادن","translit":"dōr dādan","ru":"поворачивать"},{"dari":"کجا","translit":"kojā","ru":"где; какой страны"},{"dari":"باز کردن","translit":"bāz kardan","ru":"открывать, включать"},{"dari":"دیپلوماتیک","translit":"diplomātik","ru":"дипломатический"}] : index === 8 ? [{"dari":"ابلاغ","translit":"eblāğ","ru":"сообщение, уведомление"},{"dari":"اثر","translit":"asar","ru":"след; впечатление"},{"dari":"ارزان","translit":"arzān","ru":"дешёвый"},{"dari":"اقارب","translit":"aqāreb","ru":"родственники (мн.)"},{"dari":"آنگاه","translit":"āngāh","ru":"тогда, после этого"},{"dari":"برآوردن","translit":"barāwardan","ru":"испускать"},{"dari":"بزاز","translit":"bazzāz","ru":"мануфактурщик"},{"dari":"بندر (بنادر)","translit":"bandar (banāder)","ru":"порт"},{"dari":"بنیه (گر)","translit":"banya(gar)","ru":"бакалейщик"},{"dari":"تراشیدن","translit":"tarāšidan","ru":"брить, скоблить"},{"dari":"تنور","translit":"tanōr","ru":"духовка; печь"},{"dari":"چرخ","translit":"čarx","ru":"круг, точильный камень"},{"dari":"حاجت","translit":"hājat","ru":"нужда, необходимость"},{"dari":"حکاک","translit":"hakkāk","ru":"резчик по камню"},{"dari":"خریداری کردن","translit":"xaridāri kardan","ru":"покупать (книжн.)"},{"dari":"خیاط","translit":"xayyāt","ru":"портной"},{"dari":"دلاک","translit":"dallāk","ru":"цирюльник, брадобрей"},{"dari":"دوغ","translit":"dōğ","ru":"пахтанье, прохладительный напиток"},{"dari":"دیوانه","translit":"dēwāna","ru":"сумасшедший; безумец"},{"dari":"رابر","translit":"rābar","ru":"резина"},{"dari":"راندن","translit":"rāndan","ru":"прогонять"},{"dari":"رنج بردن","translit":"ranj bordan","ru":"страдать"},{"dari":"زینت","translit":"zinat","ru":"украшение, убранство"},{"dari":"زیور","translit":"zēwar","ru":"украшение (предмет)"},{"dari":"سامان","translit":"sāmān","ru":"утварь, принадлежности"},{"dari":"سایه","translit":"sāya","ru":"тень"},{"dari":"سودا","translit":"sawdā","ru":"покупка"},{"dari":"سمسار","translit":"simsār","ru":"галантерейщик"},{"dari":"صرف","translit":"sarf","ru":"расходование; приём пищи"},{"dari":"عرضه کردن","translit":"‘arza kardan","ru":"предлагать (на продажу)"},{"dari":"عطار","translit":"‘attār","ru":"парфюмер"},{"dari":"عطر (عطریات)","translit":"‘atr (-eyyāt)","ru":"духи"},{"dari":"فالوده","translit":"fāluda","ru":"фалуда, прохладное лакомство"},{"dari":"فرمایش","translit":"farmāyeš","ru":"заказ"},{"dari":"فیشن","translit":"fēšan","ru":"фасон, мода, роскошь"},{"dari":"قاب","translit":"qāb","ru":"тарелка, блюдо"},{"dari":"قصاب","translit":"qassāb","ru":"мясник"},{"dari":"قناد","translit":"qannād","ru":"кондитер"},{"dari":"قیماق","translit":"qaymāq","ru":"сметана"},{"dari":"کبابی","translit":"kabābi","ru":"продавец шашлыка"},{"dari":"کراچی","translit":"karāči","ru":"ручная тележка"},{"dari":"کور","translit":"kōr","ru":"слепой; слепец"},{"dari":"کوزه","translit":"kōza","ru":"глиняный кувшин"},{"dari":"کیک","translit":"kēk","ru":"кекс, пирожное"},{"dari":"لبنیات","translit":"labaneyyāt","ru":"молочные продукты"},{"dari":"ماست","translit":"māst","ru":"простокваша"},{"dari":"متاع (امتعه)","translit":"matā’ (amte’a)","ru":"товар"},{"dari":"مزدحم","translit":"mozdaham","ru":"заполненный людьми"},{"dari":"مستعمل","translit":"mosta’mal","ru":"подержанный"},{"dari":"مشتری","translit":"moštari","ru":"покупатель, клиент"},{"dari":"مصالح","translit":"masāleh","ru":"специи, приправы (мн.)"},{"dari":"مگس","translit":"magas","ru":"муха"},{"dari":"مناسب","translit":"monāseb","ru":"подходящий"},{"dari":"منداوی","translit":"mandawi","ru":"рынок (по продаже зерна)"},{"dari":"نرخنامه","translit":"nerxnāma","ru":"прейскурант"},{"dari":"نظافت","translit":"nazāfat","ru":"чистота"},{"dari":"سند","translit":"Send","ru":"Инд (река)"},{"dari":"سامان قرطاسیه","translit":"sāmān-e qertāsiya","ru":"канцелярские принадлежности"},{"dari":"پوست","translit":"pōst","ru":"мех, кожа"},{"dari":"دکان سلمانی","translit":"dokān-e salmāni","ru":"парикмахерская"},{"dari":"رئیسه","translit":"ra'isa","ru":"председательница"},{"dari":"تیغ","translit":"tēğ","ru":"бритва"},{"dari":"غرغشت","translit":"Ğarğašt","ru":"Гаргашт"},{"dari":"روشان","translit":"Rōšan","ru":"Рошан"},{"dari":"آمر","translit":"āmer","ru":"командир"},{"dari":"خوراکه فروشی","translit":"xōrāka-foruši","ru":"продуктовый магазин"},{"dari":"گوشت خوک","translit":"gōšt-e xuk","ru":"свинина"},{"dari":"کرم","translit":"karam","ru":"капуста"},{"dari":"زود","translit":"zud","ru":"быстро"},{"dari":"تول کردن","translit":"tōl kardan","ru":"взвешивать"},{"dari":"پاکت","translit":"pāket","ru":"пакет"},{"dari":"ولسوالی","translit":"woloswâli","ru":"уезд"},{"dari":"پوهنتون","translit":"pôhantun","ru":"университет"},{"dari":"دگروال","translit":"dagarwâl","ru":"полковник"},{"dari":"کندک","translit":"kandak","ru":"батальон"},{"dari":"اتن","translit":"atan","ru":"атан (афганский групповой танец)"},{"dari":"جرگه","translit":"jerga","ru":"джирга (племенной совет)"},{"dari":"توریالی","translit":"Tôryâlay","ru":"Торьялай (букв. — «храбрый»)"},{"dari":"زرغونه","translit":"Zarğuna","ru":"Загруна (букв. — «зелёная», «свежая»)"},{"dari":"هیواد","translit":"Hêwâd","ru":"название газеты (букв. — «страна», «родина»)"},{"dari":"ژوندون","translit":"Žwandun","ru":"название журнала (букв. — «жизнь»)"},{"dari":"پوهنځی / پوهنحی","translit":"pôhanzay","ru":"институт, факультет"},{"dari":"څارندوی","translit":"sârandoy","ru":"милиция, милиционер"},{"dari":"جگرن","translit":"jagran","ru":"майор"},{"dari":"ښاروالی / شاروالی","translit":"šârwâli","ru":"муниципалитет, мэрия"},{"dari":"ښاروال / شاروال","translit":"šârwâl","ru":"мэр"},{"dari":"لوی درستیز","translit":"lôy darastiz","ru":"начальник генштаба"},{"dari":"ستر محکمه","translit":"stára mahkamá","ru":"Верховный суд"},{"dari":"حربی پوهنتون","translit":"harbi pôhantun","ru":"военная академия"},{"dari":"کابل ننداری","translit":"Kâbol nandârê","ru":"название Кабульского театра (букв. — «кабульские зрелища»)"},{"dari":"د افغانستان بانک","translit":"da Afğânestân bânk","ru":"название центрального банка Афганистана"},{"dari":"انصاری واټ","translit":"Ansâri wât","ru":"проспект Ансари"},{"dari":"سپوژمی رستوران","translit":"Spôžmay rastôrân","ru":"ресторан «Спожмай» (букв. — «луна»)"},{"dari":"خیرخانه مینه","translit":"Xayrxâna mêna","ru":"район Хайрхана"},{"dari":"سپین زر شرکت","translit":"Spinzar šerkat","ru":"компания «Спинзар» (букв. — «белое золото»)"},{"dari":"باختر آژانس","translit":"Bâxtar âžâns","ru":"агентство Бахтар"},{"dari":"ملی بس","translit":"Melli bas","ru":"название городской транспортной компании"},{"dari":"شیرخان بندر","translit":"Šêrxân bandar","ru":"порт Ширхан"},{"dari":"بریدمن","translit":"bridman","ru":"лейтенант"},{"dari":"لومړی بریدمن","translit":"lumray bridman","ru":"старший лейтенант"},{"dari":"حارنوال / څارنوال","translit":"saranwâl","ru":"прокурор"},{"dari":"درملتون","translit":"darmaltun","ru":"аптека"},{"dari":"پوهاند","translit":"puhând","ru":"профессор"},{"dari":"جمعیت افغانی سره میاشت","translit":"sara myašt","ru":"Афганское общество Красного Полумесяца"},{"dari":"ښاري پلورنځی","translit":"šâri polôranzay","ru":"городской магазин (букв.)"},{"dari":"زمری","translit":"Z(e)maray","ru":"мужское имя собственное (букв. — «лев»)"},{"dari":"زلمینه","translit":"Zalmina","ru":"женское имя собственное (букв. — «молодая»)"}] :  index === 9 ? [{"dari":"اتفاق","translit":"ettefāq","ru":"объединение, договоренность"},{"dari":"اجاق","translit":"ojāq","ru":"очаг"},{"dari":"استهزا‌آمیز","translit":"estehzāāmēz","ru":"издевательский"},{"dari":"اعلی","translit":"a’lā","ru":"отличный"},{"dari":"افگندن","translit":"afgandan (afgan)","ru":"бросать"},{"dari":"آگنده","translit":"āganda","ru":"наполненный"},{"dari":"امرار","translit":"emrār","ru":"продление, поддержание"},{"dari":"اندوختن","translit":"andōxtan","ru":"копить"},{"dari":"آه","translit":"āh","ru":"вздох"},{"dari":"بسی","translit":"básā","ru":"много"},{"dari":"بلا","translit":"balā","ru":"беда, несчастье"},{"dari":"بلاوقفه","translit":"belāwaqfa","ru":"безостановочно"},{"dari":"بندوبار","translit":"bandobār","ru":"пожитки"},{"dari":"بوی","translit":"bō(y)","ru":"запах"},{"dari":"بیروبار","translit":"birobār","ru":"сутолока"},{"dari":"بیلر","translit":"bilar","ru":"бочка"},{"dari":"بینوا","translit":"bēnawā","ru":"бедный, обездоленный"},{"dari":"بیهوده","translit":"bēhuda","ru":"напрасный, тщетный"},{"dari":"بیهوش","translit":"bēhuš","ru":"потерявший сознание"},{"dari":"پرخشم","translit":"porxašm","ru":"злобный"},{"dari":"پکه","translit":"paka","ru":"веер"},{"dari":"پوزخند","translit":"pōzxand","ru":"усмешка"},{"dari":"پوشانیدن","translit":"pōšān(i)dan","ru":"покрывать"},{"dari":"پیچ‌وتاب خوردن","translit":"pēčotāb xōrdan","ru":"вертеться, извиваться"},{"dari":"تأیید","translit":"ta’yid","ru":"подтверждение"},{"dari":"ترکیده","translit":"tarkida","ru":"потрескавшийся"},{"dari":"تغییر","translit":"tağyir","ru":"изменение"},{"dari":"تفکر","translit":"tafakkor","ru":"размышление"},{"dari":"تکان دادن","translit":"takān dādan","ru":"махать, качать"},{"dari":"تکله","translit":"takla","ru":"сильный (разг.)"},{"dari":"تندباد","translit":"tondbād","ru":"ураган"},{"dari":"جگره","translit":"jagra","ru":"спор, ссора"},{"dari":"جلو","translit":"jelaw","ru":"перёд"},{"dari":"جمع‌آوری","translit":"jam’āwari","ru":"собирание"},{"dari":"جویدن","translit":"jawidan","ru":"жевать, пережевывать"},{"dari":"چپلی","translit":"čapli","ru":"сандалии (на деревянной подошве)"},{"dari":"چربی","translit":"čarbi","ru":"жир"},{"dari":"چرت","translit":"čort","ru":"размышление"},{"dari":"حس","translit":"hess","ru":"чувство, ощущение"},{"dari":"حمل","translit":"haml","ru":"переноска, перевозка"},{"dari":"خبردار!","translit":"xabardār!","ru":"берегись! (возглас)"},{"dari":"خریدار","translit":"xaridār","ru":"покупатель, клиент"},{"dari":"خشن","translit":"xašen","ru":"грубый"},{"dari":"خم","translit":"xam","ru":"наклоненный"},{"dari":"خنده‌کنان","translit":"xandakonān","ru":"смеясь, сквозь смех"},{"dari":"خواباندن","translit":"xābāndan","ru":"побороть, положить на лопатки"},{"dari":"خوفناک","translit":"xawfnāk","ru":"страшный, ужасный"},{"dari":"خیال","translit":"xeyāl","ru":"воображение, фантазия"},{"dari":"درخشیدن","translit":"daraxšidan","ru":"блестеть, сверкать"},{"dari":"دود","translit":"dud","ru":"дым"},{"dari":"دودزده","translit":"dudzada","ru":"закопченный"},{"dari":"روده","translit":"rōda","ru":"кишка"},{"dari":"روغن‌چکان","translit":"rawğančakān","ru":"истекающий маслом"},{"dari":"ریسمان","translit":"rēsmān","ru":"веревка"},{"dari":"ژنده","translit":"žanda","ru":"изношенный"},{"dari":"سخن","translit":"soxan","ru":"речь, слова"},{"dari":"سرای","translit":"sarāy","ru":"торговый двор"},{"dari":"سررشته کردن","translit":"sarešta kardan","ru":"налаживать"},{"dari":"سروصدا","translit":"sarosadā","ru":"шум и гам"},{"dari":"سستی","translit":"sosti","ru":"слабость"},{"dari":"سور","translit":"sōr","ru":"каракуль (высшего сорта)"},{"dari":"سیخ","translit":"six","ru":"стержень; шампур (для шашлыка)"},{"dari":"شور خوردن","translit":"šōr xōrdan","ru":"двигаться, шевелиться"},{"dari":"ضعف","translit":"zo’f","ru":"слабость"},{"dari":"عابر","translit":"‘āber","ru":"прохожий"},{"dari":"عالم","translit":"‘ālam","ru":"мир (вселенная)"},{"dari":"عصبانی","translit":"‘asabāni","ru":"сердитый, раздраженный"},{"dari":"فروبردن","translit":"forōbordan","ru":"погружать; глотать"},{"dari":"فضا","translit":"fazā","ru":"атмосфера, пространство"},{"dari":"قطعی","translit":"qat’i","ru":"категорический"},{"dari":"کپه","translit":"kappa","ru":"щепотка"},{"dari":"کر","translit":"kar","ru":"глухой"},{"dari":"کشمیره","translit":"kašmira","ru":"кашемир(овый)"},{"dari":"گرد آوردن","translit":"gerd āwardan","ru":"собирать"},{"dari":"گرد آمدن","translit":"gerd āmadan","ru":"собираться"},{"dari":"گویی","translit":"gōyi","ru":"словно, как будто"},{"dari":"لحظه","translit":"lahza","ru":"момент, мгновение"},{"dari":"لرزان","translit":"larzān","ru":"дрожащий"},{"dari":"لوله","translit":"lōla","ru":"трубочка"},{"dari":"مأیوس","translit":"ma’yus","ru":"разочарованный, отчаявшийся"},{"dari":"محزون","translit":"mahzun","ru":"печальный"},{"dari":"مخلوط","translit":"maxlut","ru":"смешанный"},{"dari":"مسرور","translit":"masrur","ru":"радостный"},{"dari":"مضطرب","translit":"moztareb","ru":"взволнованный"},{"dari":"مطبوع","translit":"matbu’","ru":"приятный"},{"dari":"مغروق","translit":"mağruq","ru":"погруженный"},{"dari":"میانه‌سال","translit":"meyānasāl","ru":"средних лет"},{"dari":"ناتوان","translit":"nātawān","ru":"немощный"},{"dari":"ناف","translit":"nāf","ru":"пупок"},{"dari":"نامرتب","translit":"nāmorattab","ru":"беспорядочный"},{"dari":"نصوار","translit":"haswār","ru":"насвар, нас (слабый наркотик для жевания)"},{"dari":"نگریستن","translit":"negaristan (negar)","ru":"смотреть"},{"dari":"وزن","translit":"wazn (awzān)","ru":"вес"},{"dari":"وزیدن","translit":"wazidan","ru":"дуть (о ветре)"},{"dari":"ویران","translit":"wayrān, wayrāna","ru":"разрушенный"},{"dari":"هوش","translit":"huš","ru":"сознание, рассудок"}] : index === 0 ? [{"dari":"ابریشم","translit":"abrēšom","ru":"шёлк"},{"dari":"اردوگاه","translit":"ordugāh","ru":"лагерь"},{"dari":"اوهو","translit":"ōhó","ru":"междометие радости и т.п."},{"dari":"بازی","translit":"bāzi","ru":"игра"},{"dari":"بهانه","translit":"bahāna","ru":"повод, предлог"},{"dari":"پذیرفتن","translit":"paziroftan (pazir)","ru":"принимать, соглашаться"},{"dari":"پشیمان","translit":"pešēmān","ru":"сожалеющий"},{"dari":"تجارت","translit":"tejārat, tajārat","ru":"торговля, коммерция"},{"dari":"تنبان","translit":"tonbān","ru":"шаровары"},{"dari":"توپ‌دنده","translit":"tōpdanda","ru":"афганская национальная игра (типа хоккея на траве)"},{"dari":"جمع کردن","translit":"jam’ kardan","ru":"собирать"},{"dari":"چپن","translit":"čapan","ru":"халат"},{"dari":"چنانچه","translit":"čanānče","ru":"таким образом, что…"},{"dari":"حلال کردن","translit":"halāl kardan","ru":"забивать (животное по мусульманскому обряду)"},{"dari":"خامک‌دوزی","translit":"xāmakdōzi","ru":"вышивание, шитьё (несучёными нитками)"},{"dari":"خستگی","translit":"xastagi","ru":"усталость"},{"dari":"دانس","translit":"dāns","ru":"танец (бальный)"},{"dari":"به درد کسی خوردن","translit":"ba dard-e kas-ē xōrdan","ru":"пригодиться кому-л."},{"dari":"دستمال","translit":"dastmāl","ru":"платок"},{"dari":"روان","translit":"rawān","ru":"плавный, текущий; беглый, бегло"},{"dari":"زردوزی","translit":"zardōzi","ru":"шитьё золотом"},{"dari":"سابق","translit":"sābeq","ru":"прежний"},{"dari":"ساده","translit":"sāda","ru":"простой, бесхитростный"},{"dari":"سالم","translit":"sālem","ru":"здоровый"},{"dari":"سیر","translit":"sayr","ru":"прогулка"},{"dari":"سیر علمی","translit":"sayr-e ‘elmi","ru":"экскурсия"},{"dari":"شرمنده","translit":"šarmenda","ru":"пристыженный"},{"dari":"ضروری","translit":"zaruri","ru":"необходимый"},{"dari":"علاوه","translit":"‘elāwa","ru":"добавление"},{"dari":"قیامت","translit":"qeyāmat","ru":"светопреставление"},{"dari":"کمائی کردن","translit":"kamāyi kardan","ru":"зарабатывать"},{"dari":"موضوع","translit":"mawzō’","ru":"тема, проблема"},{"dari":"میانه","translit":"meyāna","ru":"промежуточный, средний"},{"dari":"نگاه کردن","translit":"negāh kardan","ru":"лит. смотреть, разг. хранить"},{"dari":"نوشیدن","translit":"nōšidan","ru":"пить"},{"dari":"واسکت","translit":"wāskat","ru":"жилет"},{"dari":"واه واه","translit":"wāh-wāh","ru":"междометие восхищения"},{"dari":"وطندار","translit":"watandār","ru":"земляк"},{"dari":"هنر","translit":"honar","ru":"искусство"},{"dari":"یقین","translit":"yaqin","ru":"уверенность"},{"dari":"کریمیا","translit":"Qeremiya","ru":"Крым"},{"dari":"خواستن","translit":"xāstan","ru":"хотеть, просить"},{"dari":"مستوره","translit":"Mastura","ru":"Мастура (женское имя)"},{"dari":"قفقاز","translit":"Qafqāz","ru":"Кавказ"},{"dari":"اقارب","translit":"aqāreb","ru":"родственники"},{"dari":"مؤسسه","translit":"mo'assesa","ru":"учреждение, фирма"},{"dari":"علاوه برآن","translit":"'elāwa bar ān","ru":"кроме того"},{"dari":"کمایی کردن","translit":"kamāyi kardan","ru":"зарабатывать"},{"dari":"آسیای میانه","translit":"Āsyā-ye miyāna","ru":"Средняя Азия"},{"dari":"سمرقند","translit":"Samarqand","ru":"Самарканд"},{"dari":"بخارا","translit":"Boxārā","ru":"Бухара"},{"dari":"خیوه","translit":"Xiva","ru":"Хива"},{"dari":"لذت بردن از چیزی","translit":"lezzat bordan az čiz-ē","ru":"наслаждаться"}] : index === 10 ? [{"dari":"اشکنبه","translit":"eškanba","ru":"потроха"},{"dari":"آشگز","translit":"āšgaz","ru":"скалка"},{"dari":"آفتاب‌پرست","translit":"āftābparast","ru":"подсолнечник"},{"dari":"باقلا","translit":"bāqolā","ru":"бобы"},{"dari":"بره","translit":"barra","ru":"ягненок"},{"dari":"پاس","translit":"pās","ru":"пропуск"},{"dari":"پالک","translit":"pālak","ru":"шпинат"},{"dari":"پودین","translit":"pudin","ru":"пудинг, кисель"},{"dari":"پیچیدن","translit":"pēčidan","ru":"виться, закручиваться"},{"dari":"پیک","translit":"payk","ru":"рюмка"},{"dari":"تابه","translit":"tāba","ru":"противень, большая сковорода"},{"dari":"ترکیب","translit":"tarkib","ru":"состав"},{"dari":"تره","translit":"tara","ru":"змеевидная дыня"},{"dari":"توته","translit":"tōta","ru":"кусочек, осколок"},{"dari":"تیره","translit":"tira","ru":"темный, густой (по цвету)"},{"dari":"جوش","translit":"jōš","ru":"кипение; кипящий, кипяченый (о воде)"},{"dari":"چاشنی","translit":"čāšni","ru":"приправа"},{"dari":"چای‌جوش","translit":"čāyjōš","ru":"чайник (для кипячения воды)"},{"dari":"چرب","translit":"čarb","ru":"жирный (о пище)"},{"dari":"چریدن","translit":"čaridan","ru":"пастись"},{"dari":"چسپیدن","translit":"časpidan","ru":"прилипать"},{"dari":"چمچه","translit":"čamča","ru":"половник"},{"dari":"چوچه","translit":"čōča","ru":"детеныш"},{"dari":"حلقه","translit":"halqa","ru":"кольцо"},{"dari":"حلویات","translit":"hal(a)weyyāt","ru":"сладости"},{"dari":"خلال کردن","translit":"xalāl kardan","ru":"нарезать (ломтями)"},{"dari":"خوابیدن","translit":"xābidan","ru":"ложиться, спать"},{"dari":"دلنخود","translit":"dālnaxōd","ru":"сушеный горошек"},{"dari":"درآوردن","translit":"darāwardan","ru":"вносить, ввергать"},{"dari":"دم کشیدن","translit":"dam kašidan","ru":"париться (о пище), завариваться (о чае)"},{"dari":"دنبه","translit":"donba","ru":"курдюк; баранье сало"},{"dari":"رواش","translit":"rawāš","ru":"ревень"},{"dari":"روزمره","translit":"rōzmarra","ru":"повседневный"},{"dari":"ریشه","translit":"rēša","ru":"корень"},{"dari":"زرچوبه","translit":"zarčōba","ru":"имбирь"},{"dari":"زعفران","translit":"za’farān","ru":"шафран"},{"dari":"زغاله","translit":"zoğāla","ru":"заготовка (из теста)"},{"dari":"زغر","translit":"zeğer","ru":"лен"},{"dari":"ساطور","translit":"sātur","ru":"большой нож, топорик (для рубки мяса)"},{"dari":"ساییدن","translit":"sāyidan","ru":"растирать, тереть"},{"dari":"سپس","translit":"sepas","ru":"затем, потом"},{"dari":"سفره","translit":"sofra","ru":"скатерть (с угощением)"},{"dari":"سیر","translit":"sir","ru":"чеснок"},{"dari":"شبت","translit":"šebet","ru":"укроп"},{"dari":"شرمیدن","translit":"šarmidan","ru":"стыдиться, стесняться"},{"dari":"شلغم","translit":"šalğam","ru":"репа"},{"dari":"طبخ","translit":"tabx","ru":"приготовление (пищи)"},{"dari":"طرز","translit":"tarz","ru":"способ"},{"dari":"طعام (اطعمه)","translit":"ta’ām (at’ema)","ru":"еда, блюдо"},{"dari":"غربال","translit":"ğerbāl","ru":"сито"},{"dari":"غوری","translit":"ğuri","ru":"большое блюдо"},{"dari":"قاق","translit":"qāq","ru":"сухой, сушеный"},{"dari":"قبرغه","translit":"qaborğa","ru":"ребро"},{"dari":"قروت","translit":"qorut","ru":"сушеное кислое молоко (в форме шариков)"},{"dari":"قیمه","translit":"qima","ru":"фарш"},{"dari":"کاک","translit":"kāk","ru":"пробка"},{"dari":"کاک‌پران","translit":"kākparān","ru":"штопор; приспособление для откупоривания бутылок"},{"dari":"کاهو","translit":"kāhu","ru":"салат-латук"},{"dari":"کبوتر","translit":"kabōtar","ru":"голубь"},{"dari":"کدو","translit":"kadu","ru":"тыква"},{"dari":"کدوچه","translit":"kaduča","ru":"кабачок (овощ)"},{"dari":"کرایی","translit":"karāyi","ru":"сковорода"},{"dari":"کف","translit":"kaf","ru":"пена"},{"dari":"کفگیر","translit":"kafgir","ru":"шумовка"},{"dari":"کلوله","translit":"kolōla","ru":"ком, колобок, шарик"},{"dari":"کنجد","translit":"konjed","ru":"кунжут"},{"dari":"گرد","translit":"gerd","ru":"круглый"},{"dari":"گریختن","translit":"gorēxtan","ru":"убегать, спасаться бегством"},{"dari":"گشنیز","translit":"gašniz","ru":"кориандр; петрушка"},{"dari":"گلپی","translit":"golpi","ru":"цветная капуста"},{"dari":"گندنه","translit":"gandana","ru":"лук-порей"},{"dari":"لاندی","translit":"lāndi","ru":"вяленый"},{"dari":"ماش","translit":"māš","ru":"чечевица"},{"dari":"محبوب","translit":"mahbub","ru":"любимый; популярный"},{"dari":"ملی","translit":"moli","ru":"редька"},{"dari":"ملی‌تراشی","translit":"molitarāš","ru":"терка"},{"dari":"ملی‌سرخک","translit":"molicorxak","ru":"редис"},{"dari":"مناصفه","translit":"monāsefa","ru":"разделение пополам"},{"dari":"نارنج","translit":"nārenj","ru":"померанец, грейпфрут"},{"dari":"نام بردن","translit":"nām bordan","ru":"упоминать"},{"dari":"نرم","translit":"narm","ru":"мягкий"},{"dari":"نشایسته","translit":"našāyesta","ru":"крахмал"},{"dari":"نعناع","translit":"na’nā’","ru":"мята"},{"dari":"نی","translit":"nay","ru":"тростник"},{"dari":"هنگام","translit":"hangām","ru":"во время"},{"dari":"کست","translit":"kāset","ru":"кассета"},{"dari":"قطره","translit":"qatra","ru":"капля"},{"dari":"پاکت","translit":"pāket","ru":"конверт"},{"dari":"جیب","translit":"jēb","ru":"карман"},{"dari":"کاسه","translit":"kāsa","ru":"миска"},{"dari":"خمیرمایه","translit":"xamirmāya","ru":"дрожжи"},{"dari":"به ندرت","translit":"ba nodrat","ru":"редко"},{"dari":"دیگ","translit":"dēg","ru":"котёл"},{"dari":"سلاطه","translit":"salāta","ru":"салат"},{"dari":"مواد","translit":"mawād","ru":"содержимое, вещества"},{"dari":"مواد گوشتی","translit":"mawād-e gōšti","ru":"мясные продукты"},{"dari":"نان قاق","translit":"nān-e qāq","ru":"сухари"},{"dari":"هاون","translit":"hāwan","ru":"ступка"},{"dari":"داغ","translit":"dāğ","ru":"раскалённый, горячий"},{"dari":"نوله","translit":"nōla","ru":"носик (чайника)"},{"dari":"قند","translit":"qand","ru":"сахар"},{"dari":"دشلمه کردن","translit":"dašlama kardan","ru":"пить чай вприкуску"}]  : index === 16 ? [{"dari":"روی کار آمدن","translit":"ruy-e kār āmadan","ru":"прийти к власти"},{"dari":"گفت و شنید","translit":"goft-o-šonid","ru":"переговоры"},{"dari":"خیز","translit":"xiz","ru":"прыжок"},{"dari":"دور خوردن","translit":"dōr xordan","ru":"свернуть"},{"dari":"پاره کردن","translit":"pāra kardan","ru":"порвать"},{"dari":"غیرعادلانه","translit":"ğeyr-e 'ādelāna","ru":"несправедливый"},{"dari":"از خارج","translit":"az xārej","ru":"из-за границы"},{"dari":"تلگرام","translit":"telegram","ru":"телеграмма"},{"dari":"از کنار ما","translit":"az kenār-e mā","ru":"мимо нас"},{"dari":"ارسال","translit":"ersâl","ru":"отправка"},{"dari":"اشغال","translit":"ešğâl","ru":"оккупация, захват"},{"dari":"افزایش","translit":"afzâyeš","ru":"увеличение"},{"dari":"اندیشه","translit":"andiša","ru":"мысль, идея"},{"dari":"باشنده","translit":"bâšanda","ru":"житель"},{"dari":"برگریزان","translit":"barg-rizân","ru":"листопад"},{"dari":"بودوباش","translit":"bud-o-bâš","ru":"проживание, быт"},{"dari":"بینا","translit":"binâ","ru":"зрячий"},{"dari":"پاره","translit":"pâra","ru":"кусок, часть"},{"dari":"پخت‌وپز","translit":"poxt-o-paz","ru":"приготовление пищи"},{"dari":"پرس‌وپال","translit":"pors-o-pâl","ru":"расспросы, выяснение"},{"dari":"پوشاک","translit":"pušâk","ru":"одежда"},{"dari":"تصرف","translit":"tasarrof","ru":"захват, овладение"},{"dari":"تلگرام","translit":"telegram","ru":"телеграмма"},{"dari":"توان","translit":"tavân","ru":"сила, способность"},{"dari":"تورید","translit":"tawrid","ru":"импорт, ввоз"},{"dari":"جستن (جو)","translit":"jostan (ju)","ru":"искать"},{"dari":"جستن (جه)","translit":"jostan (ja)","ru":"прыгать"},{"dari":"جنبیدن","translit":"jonbidan","ru":"двигаться"},{"dari":"چاپ","translit":"čâp","ru":"печать"},{"dari":"چارغواک","translit":"čârğavâk","ru":"четырёхугольный"},{"dari":"چشمک","translit":"čašmak","ru":"подмигивание"},{"dari":"چکک","translit":"čakak","ru":"капель"},{"dari":"خرامیدن","translit":"xarâmidan","ru":"шествовать, идти плавно"},{"dari":"خریدار","translit":"xaridâr","ru":"покупатель"},{"dari":"خواهرخوانده","translit":"xâharxwânda","ru":"город-побратим; названая сестра"},{"dari":"خوراک","translit":"xorâk","ru":"пища"},{"dari":"دارایی","translit":"dârâyi","ru":"имущество, собственность"},{"dari":"دانا","translit":"dânâ","ru":"знающий, мудрый"},{"dari":"درآمد","translit":"darâmad","ru":"доход"},{"dari":"درخشیدن","translit":"deraxšidan","ru":"сиять, блестеть"},{"dari":"درخواست","translit":"darxwâst","ru":"просьба, запрос"},{"dari":"در نظر داشت","translit":"dar nazar dâštan","ru":"иметь в виду"},{"dari":"دوخت","translit":"duxt","ru":"шитьё"},{"dari":"دوش","translit":"duš","ru":"вчера"},{"dari":"رفتار","translit":"raftâr","ru":"поведение"},{"dari":"رفت‌وآمد","translit":"raft-o-âmad","ru":"движение, хождение туда и обратно"},{"dari":"روند","translit":"rawand","ru":"процесс, ход"},{"dari":"روی دادن","translit":"ruy dâdan","ru":"происходить"},{"dari":"رویداد","translit":"ruydâd","ru":"событие"},{"dari":"زد و خورد","translit":"zad-o-xord","ru":"столкновение, драка"},{"dari":"زنده","translit":"zenda","ru":"живой"},{"dari":"ساختمان","translit":"sâxtemân","ru":"здание, строение"},{"dari":"سازمان","translit":"sâzmân","ru":"организация"},{"dari":"سلاح (اسلحه)","translit":"salâh (asleha)","ru":"оружие"},{"dari":"شتاب","translit":"šetâb","ru":"скорость, спешка"},{"dari":"شرکت کردن","translit":"šerkat kardan","ru":"участвовать"},{"dari":"شست‌وشو","translit":"šost-o-šu","ru":"стирка, мытьё"},{"dari":"شکفتن (شکوف)","translit":"šekoftan (šekuf)","ru":"цвести, расцветать"},{"dari":"شمردن (شمار)","translit":"šomordan (šomâr)","ru":"считать"},{"dari":"شناخت","translit":"šenâxt","ru":"знание, познание"},{"dari":"طبع","translit":"tab‘","ru":"характер, натура"},{"dari":"غور","translit":"ğor","ru":"размышление, изучение"},{"dari":"فرانسه","translit":"farânsa","ru":"Франция"},{"dari":"فریب","translit":"farib","ru":"обман"},{"dari":"فشرده","translit":"fešorda","ru":"сжатый, краткий"},{"dari":"کردار","translit":"kerdâr","ru":"поступок, действие"},{"dari":"کشتن (کش)","translit":"koštan (koš)","ru":"убивать"},{"dari":"کیفیت","translit":"keyfiyat","ru":"качество"},{"dari":"گردش","translit":"gardeš","ru":"прогулка, движение"},{"dari":"گرفتار","translit":"gereftâr","ru":"попавший в затруднительное положение"},{"dari":"گریز","translit":"gorêz","ru":"бегство, избегание"},{"dari":"گزارش","translit":"gozâreš","ru":"отчёт, доклад"},{"dari":"گفتار","translit":"goftâr","ru":"речь, высказывание"},{"dari":"گفتگو","translit":"goftogu","ru":"разговор, беседа"},{"dari":"لرزیدن","translit":"larzidan","ru":"дрожать"},{"dari":"نماینده‌گی","translit":"namâyandagi","ru":"представительство"},{"dari":"متحد","translit":"mottahed","ru":"объединённый"},{"dari":"متشکل","translit":"motašakkel","ru":"состоящий, сформированный"},{"dari":"مسکن (مساکن)","translit":"maskan (masâken)","ru":"жилище, жильё"},{"dari":"منعقد","translit":"mon‘aqed","ru":"заключённый, сформированный"},{"dari":"ناتوان","translit":"nâtavân","ru":"неспособный, бессильный"},{"dari":"ناخوان","translit":"nâxwân","ru":"неграмотный"},{"dari":"نارس","translit":"nâres","ru":"незрелый"},{"dari":"ناشناس","translit":"nâšenâs","ru":"неизвестный"},{"dari":"نماینده","translit":"namâyanda","ru":"представитель"},{"dari":"واصل","translit":"vâsel","ru":"достигший, прибывший"},{"dari":"یادداشت","translit":"yâddâšt","ru":"заметка, записка"}] : index === 15 ? [{"dari":"احتیاط","translit":"ehtiyât","ru":"осторожность"},{"dari":"استخوان","translit":"ostoxân","ru":"кость"},{"dari":"استفراغ","translit":"estefrâğ","ru":"рвота"},{"dari":"اکسریز","translit":"ekserêz","ru":"рентген"},{"dari":"اگر نه","translit":"agarna","ru":"иначе"},{"dari":"امبولانس","translit":"ambulâns","ru":"скорая помощь"},{"dari":"اندام","translit":"andâm","ru":"фигура, телосложение"},{"dari":"انگشت","translit":"angošt","ru":"палец"},{"dari":"بجلک","translit":"bojolak","ru":"лодыжка"},{"dari":"بدن","translit":"badan","ru":"тело"},{"dari":"برهنه","translit":"berahna","ru":"голый, обнажённый"},{"dari":"بستر","translit":"bestar","ru":"кровать"},{"dari":"بغل","translit":"bağal","ru":"бок, грудь"},{"dari":"بند","translit":"band","ru":"сустав"},{"dari":"بیلک","translit":"bêlak","ru":"лопатка"},{"dari":"پاشنه","translit":"pâšna","ru":"пятка"},{"dari":"پانسمان","translit":"pânsomân","ru":"перевязка, бинтование"},{"dari":"پچق‌","translit":"počok","ru":"приплюснутый, курносый нос"},{"dari":"پرستار","translit":"parastâr","ru":"медсестра, санитар"},{"dari":"پرهیز","translit":"parhêz","ru":"диета, воздержание"},{"dari":"پریدن","translit":"paridan","ru":"летать"},{"dari":"پریده","translit":"parida","ru":"бледный"},{"dari":"پشیمان","translit":"pešaymân","ru":"раскаивающийся, сожалеющий"},{"dari":"پلاستر","translit":"palastar","ru":"пластырь"},{"dari":"پلک","translit":"pelk","ru":"веко"},{"dari":"پندیدن","translit":"pondidan","ru":"опухать"},{"dari":"پولی‌کلینیک","translit":"pôlikelenik","ru":"поликлиника"},{"dari":"پیچکاری","translit":"pêčkâri","ru":"инъекция, укол"},{"dari":"تجویز","translit":"tajwiz","ru":"назначение, предписание"},{"dari":"تخته‌بند","translit":"taxtaband","ru":"шина, лубок"},{"dari":"تداوی","translit":"tadâwi","ru":"лечение"},{"dari":"تسکره","translit":"taskera","ru":"носилки"},{"dari":"تشخیص","translit":"tašxis","ru":"диагноз, диагностика"},{"dari":"تکلیف","translit":"taklif","ru":"недомогание, затруднение"},{"dari":"تکمه","translit":"tokma","ru":"пуговица"},{"dari":"تند","translit":"tond","ru":"острый, пряный"},{"dari":"تهیه","translit":"taheyya","ru":"подготовка, обеспечение"},{"dari":"تیر","translit":"tir","ru":"стрела, выстрел"},{"dari":"تینچر","translit":"tinčar","ru":"йод, настойка"},{"dari":"جراح","translit":"jarrâh","ru":"хирург"},{"dari":"جگر","translit":"jegar","ru":"печень"},{"dari":"چکاندن","translit":"čakândan","ru":"закапывать"},{"dari":"چهره","translit":"čehra","ru":"лицо"},{"dari":"چین","translit":"čin","ru":"морщина"},{"dari":"حرارت‌سنج","translit":"harâratsanj","ru":"термометр"},{"dari":"حمله","translit":"hamla","ru":"приступ, нападение"},{"dari":"حیف","translit":"hayf","ru":"жаль"},{"dari":"خرمایی","translit":"xormâyi","ru":"каштановый (о цвете волос)"},{"dari":"خون","translit":"xun","ru":"кровь"},{"dari":"داخله","translit":"dâxela","ru":"терапевтический, терапевт"},{"dari":"دلبدی","translit":"delbadi","ru":"тошнота"},{"dari":"دندان","translit":"dandân","ru":"зуб"},{"dari":"رتبه","translit":"rotba","ru":"ранг, степень"},{"dari":"رخسار","translit":"roxsâr","ru":"щека"},{"dari":"رسیده‌گی‌","translit":"rasidagi","ru":"уход, забота"},{"dari":"روده","translit":"rôda","ru":"кишечник"},{"dari":"زانو","translit":"zânu","ru":"колено"},{"dari":"زخم","translit":"zaxm","ru":"рана, язва"},{"dari":"زناق","translit":"zenâq","ru":"подбородок"},{"dari":"سرچرخی","translit":"sarčarxi","ru":"головокружение"},{"dari":"سرفه","translit":"sorfa","ru":"кашель"},{"dari":"سوار","translit":"sawâr","ru":"верхом, сидящий верхом"},{"dari":"سینه","translit":"sina","ru":"грудь"},{"dari":"شربت","translit":"šarbat","ru":"сироп, микстура"},{"dari":"شش","translit":"šoš","ru":"лёгкое"},{"dari":"شکستگی","translit":"šekastagi","ru":"перелом"},{"dari":"شکم","translit":"šekam","ru":"живот"},{"dari":"ضعف","translit":"zo’f","ru":"слабость, обморочное состояние"},{"dari":"عاجل","translit":"‘âjel","ru":"срочный, неотложный"},{"dari":"عرق","translit":"‘araq","ru":"пот"},{"dari":"عصب","translit":"‘asab (a’sâb)","ru":"нерв"},{"dari":"عضله","translit":"‘azala","ru":"мышца"},{"dari":"عطسه","translit":"‘atsa","ru":"чихание"},{"dari":"عقل","translit":"‘aql","ru":"разум, интеллект"},{"dari":"عملیات","translit":"‘amaleyyât","ru":"операция"},{"dari":"عینِ...","translit":"‘ayn-e...","ru":"такой же, тот же самый"},{"dari":"غرغره کردن","translit":"ğarğara kardan","ru":"полоскать горло"},{"dari":"فازه","translit":"fâža","ru":"зевать"},{"dari":"فشار","translit":"fešâr","ru":"давление"},{"dari":"قطره","translit":"qatra","ru":"капля"},{"dari":"قطره‌چکان","translit":"qatračakân","ru":"пипетка"},{"dari":"قی","translit":"qay","ru":"рвота"},{"dari":"قی و شکم","translit":"qay-o-šekam","ru":"расстройство желудка"},{"dari":"کدوگک","translit":"kadugak","ru":"медицинская банка"},{"dari":"کش کردن","translit":"kaš kardan","ru":"тянуть"},{"dari":"کمر","translit":"kamar","ru":"поясница, талия"},{"dari":"گردن","translit":"gardan","ru":"шея"},{"dari":"گرده","translit":"gorda","ru":"почка"},{"dari":"گلون","translit":"golun","ru":"горло"},{"dari":"گوشه","translit":"gôša","ru":"угол"},{"dari":"گولی","translit":"gôli","ru":"таблетка"},{"dari":"گیچ","translit":"gič","ru":"головокружительный, испытывающий головокружение"},{"dari":"لای","translit":"lây","ru":"грязь, ил"},{"dari":"لچ","translit":"loč","ru":"голый, обнажённый"},{"dari":"لغزیدن","translit":"lağzidan","ru":"поскользнуться"},{"dari":"ماهیچه","translit":"mâhiča","ru":"мышца, икра"},{"dari":"مثانه","translit":"masâna","ru":"мочевой пузырь"},{"dari":"مرض (امراض)","translit":"maraz (amrâz)","ru":"болезнь (болезни)"},{"dari":"مزاج","translit":"mazâj","ru":"темперамент, состояние"},{"dari":"مسکن","translit":"mosakken","ru":"обезболивающее"},{"dari":"مشکوله","translit":"moškôla","ru":"грелка"},{"dari":"معالجه","translit":"mo’âleja","ru":"лечение"},{"dari":"معاینه","translit":"mo’âyena","ru":"осмотр, обследование"},{"dari":"معده","translit":"me’da","ru":"желудок"},{"dari":"مغز","translit":"mağz","ru":"мозг"},{"dari":"میانه","translit":"meyâna","ru":"середина"},{"dari":"ناخن","translit":"nâxon","ru":"ноготь"},{"dari":"نالیدن","translit":"nâlidan","ru":"стонать"},{"dari":"نبض","translit":"nabz","ru":"пульс"},{"dari":"نرس","translit":"nars","ru":"медсестра"},{"dari":"نرم","translit":"narm","ru":"мягкий"},{"dari":"نسخه","translit":"nosxa","ru":"рецепт"},{"dari":"نفستنگی","translit":"nafastangi","ru":"одышка"},{"dari":"نمبر","translit":"nambar","ru":"номер"},{"dari":"نیک","translit":"nêk","ru":"хороший"},{"dari":"ورم","translit":"waram","ru":"опухоль, отёк"},{"dari":"کرتهـا","translit":"kart-hā","ru":"грядки"},{"dari":"بطرف کسی گرفتن","translit":"ba taraf-e kasi gereftan","ru":"целиться в кого-либо"},{"dari":"فشار خون","translit":"fešâr-e xun","ru":"кровяное давление"},{"dari":"خیاط","translit":"xayyât","ru":"портной"},{"dari":"سنگ گرده","translit":"sang-e gorde","ru":"камень в почке"},{"dari":"حمله","translit":"hamla","ru":"приступ, нападение"},{"dari":"بجا کردن","translit":"bejā kardan","ru":"вправить, поставить на место (вывих)"}] : index === 14 ? [{"dari":"اتکا","translit":"ettekâ","ru":"опора"},{"dari":"اجمالی","translit":"ejmâli","ru":"краткий, беглый"},{"dari":"ارباب","translit":"arbâb","ru":"помещик, хозяин"},{"dari":"ارگان","translit":"orgân","ru":"орган (власти, печатный и т. п.)"},{"dari":"افشا","translit":"efšâ’","ru":"разоблачение"},{"dari":"امپراطوری","translit":"emperâtôri","ru":"империя"},{"dari":"اوج","translit":"awj","ru":"вершина, высшая точка"},{"dari":"باستان = باستانی","translit":"bâstân = bâstâni","ru":"древний, старинный"},{"dari":"برجسته","translit":"barjasta","ru":"выдающийся"},{"dari":"برقراری","translit":"barqarâri","ru":"установление"},{"dari":"بقیه (بقایا)","translit":"baqeya (baqâyâ)","ru":"остаток, пережиток"},{"dari":"بیانگر","translit":"bayângar","ru":"выразитель"},{"dari":"بی‌رحم","translit":"bêrahm","ru":"безжалостный"},{"dari":"بیگانه","translit":"bêgâna","ru":"чужой"},{"dari":"پابرجا","translit":"pâ-bar-jâ","ru":"прочный, устойчивый"},{"dari":"پیام","translit":"payâm","ru":"послание"},{"dari":"پیریزی","translit":"payrêzi","ru":"закладывание (основ и т. п.)"},{"dari":"پیشبرد","translit":"pêšbord","ru":"проведение (мероприятия)"},{"dari":"پیوسته","translit":"paywasta","ru":"постоянно"},{"dari":"تأثیر","translit":"ta’sir","ru":"влияние, впечатление"},{"dari":"تاج","translit":"tâj","ru":"корона"},{"dari":"تبعه (اتباع)","translit":"tab’a (atbâ’)","ru":"гражданин, подданный"},{"dari":"تحتِ ...","translit":"taht-e...","ru":"под (предлог)"},{"dari":"تخت","translit":"taxt","ru":"трон"},{"dari":"تخلیه","translit":"taxleya","ru":"эвакуация; выгрузка"},{"dari":"تدبیر (تدابیر)","translit":"tadbir (tadâbir)","ru":"мероприятие"},{"dari":"ترک","translit":"tark","ru":"остановление, отречение"},{"dari":"تشکیل دادن","translit":"taškil dâdan","ru":"образовывать, формировать"},{"dari":"تظاهرات","translit":"tazâhor","ru":"демонстрация (протеста)"},{"dari":"توفیق یافتن","translit":"tawfiq yâftan","ru":"добиться (чего-либо)"},{"dari":"ثمر","translit":"samar","ru":"плод, результат"},{"dari":"جانب (جوانب)","translit":"janeb (jawâneb)","ru":"сторона"},{"dari":"جبال","translit":"jebâl","ru":"горы"},{"dari":"جوهر (جواهر)","translit":"jawhar (jawâher)","ru":"драгоценный камень"},{"dari":"جیب","translit":"jêb","ru":"карман"},{"dari":"چرخش","translit":"čarxeš","ru":"поворот"},{"dari":"حاد","translit":"hâdd","ru":"острый, обострённый"},{"dari":"حاشیه (حواشی)","translit":"hâšeya (hawâši)","ru":"край, поля"},{"dari":"حکمران","translit":"hokmrân","ru":"правитель"},{"dari":"حیات","translit":"hayât","ru":"жизнь"},{"dari":"خاطره (خاطرات)","translit":"xâtera (xawâter)","ru":"память"},{"dari":"خاندان","translit":"xândân","ru":"династия"},{"dari":"دایر کردن","translit":"dâyer kardan","ru":"созывать, организовывать"},{"dari":"دسیسه (دسایس)","translit":"dasisa (dasâyes)","ru":"происки"},{"dari":"دیار","translit":"deyâr","ru":"страна, край"},{"dari":"ذهنی","translit":"zahni","ru":"субъективный"},{"dari":"رژیم","translit":"režim","ru":"строй, режим"},{"dari":"رشوه","translit":"rešwa","ru":"взятка"},{"dari":"رشوه‌ستانی","translit":"rešwasetâni","ru":"взяточничество"},{"dari":"روزافزون","translit":"rôzafzun","ru":"всё возрастающий"},{"dari":"زادگاه","translit":"zâdgâh","ru":"родина (место рождения)"},{"dari":"سرکوب","translit":"sarkôb","ru":"подавление, усмирение"},{"dari":"سلاح (اسلحه)","translit":"selâh (asleha)","ru":"оружие"},{"dari":"سلطان (سلاطین)","translit":"soltân (salâtin)","ru":"царь, султан"},{"dari":"سلطنت","translit":"saltanat","ru":"монархия"},{"dari":"سقوط","translit":"soqut","ru":"падение, низвержение"},{"dari":"سودخوار","translit":"sôdxâr","ru":"ростовщик"},{"dari":"سیاستمدار","translit":"seyâsatmadâr","ru":"политический деятель"},{"dari":"شاهد (شواهد)","translit":"šâhed (šawâhed)","ru":"свидетельство"},{"dari":"شاهد (شهود)","translit":"šâhed (šohud)","ru":"свидетель"},{"dari":"شجاع","translit":"šojâ’","ru":"смелый, храбрый"},{"dari":"شکست","translit":"šekast","ru":"поражение"},{"dari":"صحرا (صحاری)","translit":"sahrâ (sahâri)","ru":"пустыня"},{"dari":"صرف نظر کردن","translit":"sarf-e nazar kardan","ru":"отказываться"},{"dari":"صورتگر","translit":"suratgar","ru":"художник, портретист"},{"dari":"طبیب (اطبا)","translit":"tabib (atebbâ)","ru":"лекарь, врач"},{"dari":"طریق (طرق)","translit":"tariq (toroq)","ru":"путь"},{"dari":"عارضه (عوارض)","translit":"‘âreza (‘awârez)","ru":"поломка, неисправность"},{"dari":"عامل (عوامل)","translit":"‘âmel (‘awâmel)","ru":"фактор"},{"dari":"عامل (عمال)","translit":"‘âmel (‘ommâl)","ru":"агент"},{"dari":"عرصه","translit":"‘arsa","ru":"сфера (деятельности)"},{"dari":"عقد","translit":"‘aqd","ru":"заключение (договора и т. п.)"},{"dari":"عمق (اعماق)","translit":"‘omq (a’mâq)","ru":"глубина"},{"dari":"عنصر (عناصر)","translit":"‘onsor (‘anâser)","ru":"элемент"},{"dari":"عینی","translit":"‘ayni","ru":"объективный"},{"dari":"غصب","translit":"ğasb","ru":"захват, узурпация"},{"dari":"غیور","translit":"ğayur","ru":"отважный, смелый"},{"dari":"فتح (فتوح)","translit":"fath (fotuh)","ru":"победа, завоевание"},{"dari":"فرد (افراد)","translit":"fard (afrâd)","ru":"человек, индивидуум"},{"dari":"فرزند","translit":"farzand","ru":"сын, потомок"},{"dari":"فساد","translit":"fesâd","ru":"развращённость, коррупция"},{"dari":"فعالیت","translit":"fa’’âleyat","ru":"деятельность"},{"dari":"فن (فنون)","translit":"fann (fonun)","ru":"искусство, мастерство"},{"dari":"فیودالیزم","translit":"fyudâlizm","ru":"феодализм"},{"dari":"قاچاق","translit":"qâčâq","ru":"контрабанда"},{"dari":"قبولاندن","translit":"qabulândan","ru":"навязывать (заставлять принимать)"},{"dari":"قتل","translit":"qatl","ru":"убийство"},{"dari":"قدرت","translit":"qodrat","ru":"власть"},{"dari":"قرارداد","translit":"qarârdâd","ru":"договор"},{"dari":"قوه (قوا)","translit":"qowwa (qowâ)","ru":"сила"},{"dari":"کسب","translit":"kasb","ru":"получение, приобретение"},{"dari":"کنگره","translit":"kongara","ru":"съезд"},{"dari":"کمایی","translit":"kamâyi","ru":"зарабатывать, заслуживать"},{"dari":"گسترش","translit":"gostareš","ru":"распространение"},{"dari":"لاینحل","translit":"lâyanhall","ru":"неразрешимый, нерешённый"},{"dari":"ماحول","translit":"mâhawl","ru":"окружающий"},{"dari":"مایحتاج","translit":"mâyahtâj","ru":"необходимый; предметы необходимости"},{"dari":"مبادله","translit":"mobâdela","ru":"обмен"},{"dari":"متذکره","translit":"motazakkera","ru":"(выше)упомянутый"},{"dari":"محدود","translit":"mahdud","ru":"ограниченный"},{"dari":"محک","translit":"mahakk","ru":"пробный камень"},{"dari":"محیط","translit":"mohit","ru":"среда, окружение, обстановка"},{"dari":"مخابره","translit":"moxâbera","ru":"коммуникация, связь (телеграфная, телефонная и т. п.)"},{"dari":"مذکور","translit":"mazkur","ru":"(выше)упомянутый"},{"dari":"مرام","translit":"marâm","ru":"программа, платформа"},{"dari":"مزید","translit":"mazid","ru":"дальнейший, ещё больший"},{"dari":"مقام","translit":"maqâm","ru":"пост, орган (власти)"},{"dari":"منصوب","translit":"mansub","ru":"назначенный (на должность)"},{"dari":"منعقد","translit":"mon’aqed","ru":"заключённый (о договоре); состоявшийся (о собрании)"},{"dari":"موج (امواج)","translit":"mawj (amwâj)","ru":"волна"},{"dari":"موسوم","translit":"mawsum","ru":"называемый"},{"dari":"موصوف","translit":"mawsuf","ru":"он, упомянутый"},{"dari":"مؤید","translit":"mo’ayyed","ru":"подтверждающий"},{"dari":"مهیا","translit":"mohayyâ","ru":"подготовленный"},{"dari":"نابغه (نوابغ)","translit":"nâbeğa (nawâbeğ)","ru":"гений"},{"dari":"نافذ","translit":"nâfez","ru":"введённый в действие (о законе и т. п.)"},{"dari":"نفوذ","translit":"nofuz","ru":"влияние, авторитет"},{"dari":"نهضت","translit":"nahzat","ru":"движение (политическое)"},{"dari":"واردات","translit":"wâredât","ru":"импорт (предметы импорта)"},{"dari":"وطنپرست","translit":"watanparast","ru":"патриот(ический)"},{"dari":"یورش","translit":"yureš","ru":"нападение"},{"dari":"فیلسوف (فلاسفه)","translit":"faylasuf (falâsefa)","ru":"философ"},{"dari":"ناموس (نوامیس)","translit":"nâmus (nawâmis)","ru":"честь, достоинство"},{"dari":"نصیحت (نصایح)","translit":"nasihat (nasâyeh)","ru":"совет, наставление"},{"dari":"واقعه (وقایع)","translit":"wâqe’a (waqâye’)","ru":"событие"},{"dari":"اجتماعیات","translit":"ejtemā'iyyāt","ru":"общественные науки"},{"dari":"عینی","translit":"'Ayni","ru":"Айни (псевдоним)"},{"dari":"دیورند","translit":"Dēwarand","ru":"Диваранд (псевдоним)"},{"dari":"وطندار","translit":"watandār","ru":"земляк"}] : index === 17 ? [{"dari":"ارسی","translit":"orsi","ru":"окно"},{"dari":"اشاره","translit":"ešâra","ru":"указание, сигнал"},{"dari":"اشک","translit":"ašk","ru":"слеза"},{"dari":"التماس","translit":"eltemâs","ru":"мольба, упрашивание"},{"dari":"اندازه","translit":"andâza","ru":"размер"},{"dari":"اندوه","translit":"andôh","ru":"печаль"},{"dari":"آه","translit":"âh","ru":"вздох"},{"dari":"برخلافِ ...","translit":"bar xelâf-e...","ru":"в отличие от..."},{"dari":"بم","translit":"bam","ru":"бас; низкий (о голосе)"},{"dari":"بندی","translit":"bandi","ru":"заключённый (в тюрьму)"},{"dari":"پاسخ (پاسخ)","translit":"pâsox (pâsex)","ru":"ответ"},{"dari":"پدیدار","translit":"padidâr","ru":"видимый, явный"},{"dari":"پذیرفتن","translit":"paziroftan","ru":"принимать"},{"dari":"پرتو","translit":"partaw","ru":"свет, луч"},{"dari":"پریشان","translit":"parêšân","ru":"взволнованный"},{"dari":"پنهان","translit":"penhân","ru":"скрытый, спрятанный"},{"dari":"پهن","translit":"pahn","ru":"распространять"},{"dari":"پیوست","translit":"paywast","ru":"соединение; соединённый"},{"dari":"تار","translit":"târ","ru":"нить, струна"},{"dari":"تأسف","translit":"ta’assof","ru":"сожаление"},{"dari":"تباه کار","translit":"tabâhkâr","ru":"злодей, преступник"},{"dari":"تپیدن","translit":"tapidan","ru":"трепетать, биться (о сердце)"},{"dari":"تضرع","translit":"tazzaro","ru":"упрашивание, мольба"},{"dari":"تغییر","translit":"tağyir","ru":"изменение"},{"dari":"تف","translit":"tof","ru":"плевок"},{"dari":"تفسیر","translit":"tafsir","ru":"толкование, комментарий"},{"dari":"تکان","translit":"takân","ru":"сотрясение, шевеление"},{"dari":"تمسخر","translit":"tamasxor","ru":"насмешка, ирония"},{"dari":"تناسب","translit":"tanâsob","ru":"пропорция"},{"dari":"تهدید","translit":"tahdid","ru":"угроза"},{"dari":"تیره","translit":"tira","ru":"тёмный"},{"dari":"جاری","translit":"jâri","ru":"текущий"},{"dari":"جریان","translit":"jeryân","ru":"течение"},{"dari":"جلو","translit":"jelaw","ru":"перед"},{"dari":"جویبار","translit":"jôybâr","ru":"ручей, река"},{"dari":"جهت","translit":"jehat","ru":"сторона; причина"},{"dari":"چت","translit":"čat","ru":"потолок"},{"dari":"چلپاسه","translit":"čelpâsa","ru":"ящерица"},{"dari":"حرص","translit":"hers","ru":"жадность, алчность"},{"dari":"حریص","translit":"haris","ru":"жадный, алчный"},{"dari":"حسرت","translit":"hasrat","ru":"скорбь, сожаление"},{"dari":"حکم (احکام)","translit":"hokm (ahkâm)","ru":"приказ, предписание"},{"dari":"حواله","translit":"hawâla","ru":"направлять (документ и т. д.)"},{"dari":"حیرت","translit":"hayrat","ru":"изумление"},{"dari":"حیله","translit":"hila","ru":"хитрость"},{"dari":"خزیدن","translit":"xazidan","ru":"ползти"},{"dari":"خشونت","translit":"xošunat","ru":"грубость, резкость"},{"dari":"خودرو","translit":"xodrô","ru":"дикорастущий"},{"dari":"خورشید","translit":"xoršêd","ru":"солнце"},{"dari":"خوشایند","translit":"xošâyand","ru":"приятный"},{"dari":"خیال","translit":"xeyâl","ru":"мысль, воображение"},{"dari":"خیره","translit":"xira","ru":"пристально смотрящий"},{"dari":"داد","translit":"dâd","ru":"крик, вопль"},{"dari":"درماندن","translit":"darmândan","ru":"уставать; попадать в беду"},{"dari":"دستخط","translit":"dastxatt","ru":"автограф, подпись"},{"dari":"دستمال","translit":"dastmâl","ru":"платок"},{"dari":"دست‌وپاچگی","translit":"dastopâčagi","ru":"растерянность"},{"dari":"دستور","translit":"dastur","ru":"приказ, указание"},{"dari":"دشمن","translit":"došman","ru":"враг, противник"},{"dari":"دعوا","translit":"da’wâ","ru":"ссора, тяжба"},{"dari":"دنبالِ...","translit":"donbâl-e...","ru":"сзади, позади"},{"dari":"دوردست","translit":"durdast","ru":"отдалённый"},{"dari":"دیده","translit":"dida","ru":"глаз (кн.)"},{"dari":"دیوانه","translit":"dêwâna","ru":"безумный, сумасшедший"},{"dari":"دیوانه‌وار","translit":"dêwânawâr","ru":"безумный (о чём-либо)"},{"dari":"ذوق","translit":"zawq","ru":"радость, удовольствие"},{"dari":"ذهن (اذهان)","translit":"zehn (azhân)","ru":"ум, рассудок"},{"dari":"رسمی","translit":"rasmi","ru":"официальный"},{"dari":"رشته","translit":"rešta","ru":"нить, вереница"},{"dari":"رقتبار","translit":"reqqatbâr","ru":"жалкий, плачевный"},{"dari":"رقصیدن","translit":"raqsidan","ru":"танцевать"},{"dari":"رؤیا","translit":"ro’yâ","ru":"сновидение, грёзы"},{"dari":"رها","translit":"rahâ","ru":"выпускать, освобождать"},{"dari":"زشت","translit":"zešt","ru":"некрасивый, безобразный"},{"dari":"زمزمه","translit":"zomzoma","ru":"бормотание"},{"dari":"ساحه","translit":"sâha","ru":"территория"},{"dari":"ساکت","translit":"sâket","ru":"молчащий, тихий"},{"dari":"سبزه","translit":"sabza","ru":"трава, зелень"},{"dari":"سخن","translit":"soxan","ru":"речь, слова"},{"dari":"سراغ","translit":"sorâğ","ru":"поиски"},{"dari":"سرچشمه","translit":"sarčašma","ru":"источник, ключ"},{"dari":"سرش","translit":"sereš","ru":"клей"},{"dari":"سرگذشت","translit":"sargozašt","ru":"происшествие"},{"dari":"سرگردان","translit":"sargardân","ru":"блуждающий"},{"dari":"سرور","translit":"sorur","ru":"радость"},{"dari":"سروصدا","translit":"sarosadâ","ru":"шум и гам"},{"dari":"سوءظن","translit":"su’ezann","ru":"подозрение"},{"dari":"شرعی","translit":"šar’i","ru":"шариатский, соответствующий закону шариата"},{"dari":"شکایت","translit":"šekâyat","ru":"жалоба"},{"dari":"شوق","translit":"šawq","ru":"сильное желание"},{"dari":"شیطان","translit":"šaytân","ru":"дьявол, сатана"},{"dari":"صبحگاهی","translit":"sobhgâhi","ru":"утренний"},{"dari":"صبر","translit":"sabr","ru":"ждать, терпеть"},{"dari":"صخره","translit":"saxra","ru":"скала"},{"dari":"صف (صفوف)","translit":"saff (sofuf)","ru":"ряд, строй (например, солдат)"},{"dari":"طلوع","translit":"tolu’","ru":"восход"},{"dari":"طنین انداختن","translit":"tanin andâxtan","ru":"звучать, раздаваться"},{"dari":"طول","translit":"tul","ru":"длина"},{"dari":"ظالم","translit":"zâlem","ru":"тиран, несправедливый человек"},{"dari":"عارض","translit":"‘ârez","ru":"проситель, истец"},{"dari":"عجیب","translit":"‘ajib","ru":"удивительный"},{"dari":"عصبانی","translit":"‘asabâni","ru":"раздражённый, рассерженный"},{"dari":"عظمت","translit":"‘azamat","ru":"величие"},{"dari":"عظیم","translit":"‘azim","ru":"большой, величественный"},{"dari":"غار","translit":"ğâr","ru":"нора, пещера"},{"dari":"غرور","translit":"ğorur","ru":"гордость, высокомерие"},{"dari":"غصب","translit":"ğasb","ru":"захват, присвоение"},{"dari":"غصه","translit":"ğossa","ru":"горе, печаль"},{"dari":"فشردن (فشار)","translit":"fešordan (fešâr)","ru":"нажимать, сжимать"},{"dari":"فیصله","translit":"faysala","ru":"решение"},{"dari":"قباله","translit":"qabâla","ru":"купчая (документ)"},{"dari":"قسم","translit":"qasam","ru":"клятва; клясться"},{"dari":"قصد","translit":"qasd","ru":"намерение, умысел"},{"dari":"قضیه (قضایا)","translit":"qazeyya (qazâyâ)","ru":"событие, дело (судебное)"},{"dari":"قطار","translit":"qatâr","ru":"ряд; патронная лента"},{"dari":"قله (قلل)","translit":"qolla (qolal)","ru":"вершина (горы)"},{"dari":"قهقهه","translit":"qahqaha","ru":"хохот"},{"dari":"کج","translit":"kaj","ru":"кривой"},{"dari":"کلبه","translit":"kolba","ru":"лачуга"},{"dari":"کله","translit":"kalla","ru":"голова"},{"dari":"کودک","translit":"kôdak","ru":"ребёнок"},{"dari":"گام","translit":"gâm","ru":"шаг"},{"dari":"گربه","translit":"gorba","ru":"кошка (кн.)"},{"dari":"گرد","translit":"gerd","ru":"круглый"},{"dari":"گریختن","translit":"gorêxtan","ru":"убегать"},{"dari":"گز","translit":"gaz","ru":"мера длины (около 1 м)"},{"dari":"گناه","translit":"gonâh","ru":"вина, грех"},{"dari":"لاشه","translit":"lâša","ru":"труп"},{"dari":"لبخند","translit":"labxand","ru":"улыбка"},{"dari":"لحظه","translit":"lahza","ru":"мгновение"},{"dari":"لحن (الحان)","translit":"lahn (alhân)","ru":"тон (речи), интонация"},{"dari":"لخت","translit":"laxt","ru":"мгновение (кн.)"},{"dari":"للمی","translit":"lalmi","ru":"богарный, неполивной"},{"dari":"للمی‌کاری","translit":"lalmikâri","ru":"богарное земледелие"},{"dari":"ماده (مواد)","translit":"mâdda (mawâdd)","ru":"статья (закона и т. п.)"},{"dari":"متهم","translit":"mottaham","ru":"обвиняемый"},{"dari":"مجسم","translit":"mojassam","ru":"воплощённый, олицетворённый"},{"dari":"محبت","translit":"mohabbat","ru":"любовь"},{"dari":"مزور","translit":"mozawwer","ru":"лживый, хитрый"},{"dari":"مصمم","translit":"mosammem","ru":"принявший решение, твёрдый"},{"dari":"مضحک","translit":"moshek","ru":"смешной, забавный"},{"dari":"ملایم","translit":"mlâyem","ru":"мягкий, ласковый"},{"dari":"ناگهان","translit":"nâgahân","ru":"вдруг, неожиданно"},{"dari":"نسیم","translit":"nasim","ru":"лёгкий ветерок"},{"dari":"نفرت","translit":"nefrat","ru":"ненависть, отвращение"},{"dari":"نگهداری","translit":"negahdâri","ru":"присмотр, оберегание"},{"dari":"نگهداشتن","translit":"negahdâštan","ru":"беречь, задерживать"},{"dari":"نمودار","translit":"namudâr","ru":"видимый, появляющийся"},{"dari":"نور","translit":"nur","ru":"свет, луч"},{"dari":"نوکر","translit":"nawkar","ru":"слуга, батрак"},{"dari":"نهادن (نه)","translit":"nehâdan (neh)","ru":"класть, ставить"},{"dari":"نیلگون","translit":"nilgun","ru":"голубой"},{"dari":"واپس","translit":"wâpas","ru":"обратно"},{"dari":"هجوم","translit":"hojum","ru":"нападение, штурм"},{"dari":"همدست","translit":"hamdast","ru":"сообщник"},{"dari":"یکنواخت","translit":"yaknawâxt","ru":"однообразный"},{"dari":"فروریختن","translit":"foru rixtan","ru":"выливаться, разливаться"}] : index === 18 ? [{"dari":"ادا","translit":"adâ","ru":"выполнение, произнесение"},{"dari":"اشاره","translit":"ešâra","ru":"указание, знак"},{"dari":"اشتهار","translit":"eštehâr","ru":"известность, реклама"},{"dari":"آفتابه","translit":"âftâba","ru":"кувшин для омовения"},{"dari":"افگندن","translit":"afgandan","ru":"бросать"},{"dari":"آماسیده","translit":"âmâsida","ru":"распухший"},{"dari":"انگشتر","translit":"angoštar","ru":"перстень, кольцо"},{"dari":"بازیچه","translit":"bâziča","ru":"игрушка"},{"dari":"بانگ","translit":"bâng","ru":"громкий крик"},{"dari":"بلع کردن","translit":"bal’ kardan","ru":"глотать, проглатывать"},{"dari":"بلوط","translit":"balut","ru":"дуб"},{"dari":"بیکس","translit":"bêkas","ru":"одинокий, не имеющий родных"},{"dari":"پاتنت","translit":"pâtent","ru":"патентованный"},{"dari":"پارچه","translit":"pârča","ru":"кусок, обрывок"},{"dari":"پارس","translit":"pârs","ru":"лай"},{"dari":"پرتو","translit":"partaw","ru":"свет, сияние"},{"dari":"پریشان","translit":"parêšân","ru":"разбросанный, взволнованный"},{"dari":"پیش آمدن","translit":"pêš âmadan","ru":"подходить, случаться, происходить"},{"dari":"تجاهل","translit":"tajâhol","ru":"притворство несведущим"},{"dari":"تزریق","translit":"tazriq","ru":"инъекция"},{"dari":"تعیین","translit":"ta’yin","ru":"назначение, определение"},{"dari":"تفتیش","translit":"taftiš","ru":"ревизия, проверка"},{"dari":"تمسخر","translit":"tamasxor","ru":"насмешка, издевательство, ирония"},{"dari":"تند","translit":"tond","ru":"острый (о пище); сильный (о ветре)"},{"dari":"تنک","translit":"tonok","ru":"тонкий, редкий"},{"dari":"تیراسو","translit":"tirâsô","ru":"терасо, облицовочный камень"},{"dari":"جوره","translit":"jôra","ru":"пара"},{"dari":"جویده","translit":"jawida","ru":"невнятно (буквально — жуя)"},{"dari":"چادر","translit":"câdar","ru":"женский головной платок"},{"dari":"چله","translit":"čala","ru":"обручальное кольцо"},{"dari":"چیچک","translit":"čêčak","ru":"оспа"},{"dari":"حامله","translit":"hâmela","ru":"беременная, стельная"},{"dari":"حمایل","translit":"hamâyel","ru":"ожерелье"},{"dari":"خداوند","translit":"xodâwand","ru":"бог"},{"dari":"خرید","translit":"xarid","ru":"покупка"},{"dari":"خریدار","translit":"xaridâr","ru":"покупатель"},{"dari":"خریطه","translit":"xarita","ru":"сумка, мешок"},{"dari":"خلاص شدن","translit":"xalâs šodan","ru":"избавляться"},{"dari":"خوشه","translit":"xôša","ru":"колос, гроздь"},{"dari":"دستار","translit":"dastâr","ru":"чалма"},{"dari":"دسته","translit":"dasta","ru":"группа людей; в путь"},{"dari":"رهسپار شدن / روانه شدن","translit":"rahsepâr šodan / rawâna šodan","ru":"отправиться (в путь)"},{"dari":"زنبور","translit":"zanbôr","ru":"оса"},{"dari":"زهرخند","translit":"zahrxand","ru":"язвительная усмешка"},{"dari":"سحرخیز","translit":"saharxêz","ru":"просыпающийся рано утром"},{"dari":"سلب","translit":"salb","ru":"отнятие, лишение"},{"dari":"شمردن","translit":"šomordan (šomâr)","ru":"считать"},{"dari":"طلبگار","translit":"talabgâr","ru":"сват, претендент, сватающийся"},{"dari":"عدد","translit":"‘adad","ru":"штука (счётное слово)"},{"dari":"عوعو","translit":"‘aw’aw","ru":"лай"},{"dari":"فاتحه","translit":"fâteha","ru":"мусульманские поминки"},{"dari":"فاژه","translit":"fâža","ru":"зевок, зевота"},{"dari":"فرش کردن","translit":"farš kardan","ru":"настилать, мостить, устилать"},{"dari":"قشنگ","translit":"qašang","ru":"красивый"},{"dari":"کثیف","translit":"kasif","ru":"грязный"},{"dari":"کره","translit":"kara","ru":"браслет"},{"dari":"کنده کردن","translit":"kanda kardan","ru":"выбить, выгравировать"},{"dari":"کفایت کردن","translit":"kefâyat kardan","ru":"быть достаточным"},{"dari":"گربه","translit":"gorba","ru":"кошка"},{"dari":"گردنبند","translit":"gardanband","ru":"ожерелье, бусы"},{"dari":"گستردن","translit":"gostordan (gostar)","ru":"расстилать"},{"dari":"گلو","translit":"golô = golun","ru":"горло"},{"dari":"گوشواره","translit":"gôšwâra","ru":"серьга"},{"dari":"لاکت","translit":"lâket","ru":"брошь"},{"dari":"لحاف","translit":"lehâf","ru":"одеяло"},{"dari":"لحظه","translit":"lahza","ru":"миг, мгновение"},{"dari":"لطیف","translit":"latif","ru":"нежный, ласковый, милый"},{"dari":"لعنت","translit":"la’nat","ru":"проклятье"},{"dari":"مایع","translit":"mâye’","ru":"жидкость"},{"dari":"مایه کردن","translit":"mâya kardan","ru":"заквашивать"},{"dari":"متقلب","translit":"motaqalleb","ru":"плут, мошенник"},{"dari":"متوحش","translit":"motawahheš","ru":"испуганный"},{"dari":"محیط","translit":"mohit","ru":"среда, обстановка"},{"dari":"مخمل","translit":"maxmal","ru":"бархат"},{"dari":"مزمن","translit":"mozmen","ru":"хронический"},{"dari":"مگر","translit":"magar","ru":"но (союз)"},{"dari":"موهبت","translit":"mawhebat","ru":"милость, дар, благо"},{"dari":"ناتوان","translit":"nâtawân","ru":"немощный"},{"dari":"نالش","translit":"nâleš","ru":"стон"},{"dari":"نوک","translit":"nôk","ru":"кончик, острие"},{"dari":"نیم‌سیره","translit":"nimsêra","ru":"весом в полсира (3,5 кг)"},{"dari":"وبا","translit":"wabâ","ru":"холера"},{"dari":"صدای عو عو","translit":"sedā-ye 'aw-'aw","ru":"лай"},{"dari":"تا ناوقت ها","translit":"tā nāwaqt-hā","ru":"до позднего времени"},{"dari":"روپیۀ کلمه دار","translit":"rupiya-ye kalema-dār","ru":"банкнота с надписью"},{"dari":"در","translit":"dar","ru":"в, под"},{"dari":"نادانی","translit":"nādāni","ru":"незнание"},{"dari":"به گفت کسی کردن","translit":"ba goft-e kasi kardan","ru":"послушаться кого-л."},{"dari":"دواساز","translit":"dawāsāz","ru":"аптекарь"},{"dari":"کمر","translit":"kamar","ru":"поясница"}] : index === 20 ? [{"dari":"افلاطون","translit":"Eflâtun","ru":"Платон"},{"dari":"آگاه","translit":"âgâh","ru":"сведущий, сознательный"},{"dari":"اوطراق","translit":"ôtrâq","ru":"привал, бивак"},{"dari":"بابا / بابه","translit":"bâba / bâbe","ru":"папа, папаша"},{"dari":"بزرگوار","translit":"bozorgwâr","ru":"великий, уважаемый, великодушный"},{"dari":"بیکاره","translit":"bêkâra","ru":"никчёмный, бездельник"},{"dari":"پری","translit":"pari","ru":"фея"},{"dari":"پسند","translit":"pesand","ru":"одобрение"},{"dari":"پیروز","translit":"pirôz","ru":"победитель"},{"dari":"تالاق","translit":"tâlâq","ru":"макушка"},{"dari":"تنبل","translit":"tanbal","ru":"ленивый, лентяй"},{"dari":"ثنا","translit":"sanâ (asneya)","ru":"хвала"},{"dari":"جاهل","translit":"jâhel","ru":"невежда, невежественный"},{"dari":"جلو","translit":"jelaw","ru":"поводья"},{"dari":"جوهر","translit":"jawhar","ru":"драгоценный"},{"dari":"جواهرات","translit":"jawâher(ât)","ru":"камень"},{"dari":"چپری","translit":"čapari","ru":"шалаш"},{"dari":"چرت","translit":"čort","ru":"размышления"},{"dari":"حدیث","translit":"hadis (ahâdis)","ru":"рассказ, предание"},{"dari":"حریص","translit":"haris","ru":"жадный, алчный"},{"dari":"حکمران","translit":"hokmrân","ru":"правитель"},{"dari":"حکیم","translit":"hakim (hokamâ)","ru":"мудрец"},{"dari":"خم","translit":"xam","ru":"согнутый, склонённый"},{"dari":"خواص","translit":"xawâss","ru":"(мн.) аристократия, знать"},{"dari":"دو زدن","translit":"daw zadan","ru":"ругать, бранить"},{"dari":"ریسمان","translit":"rêsmân","ru":"верёвка"},{"dari":"ستودن","translit":"sotudan (setâ)","ru":"восхвалять, прославлять"},{"dari":"ستوده","translit":"sotuda","ru":"прославленный"},{"dari":"سربراه","translit":"sar-ba-râh","ru":"организованный, устроенный"},{"dari":"سه‌راهی","translit":"sêrâhi","ru":"развилка"},{"dari":"ضایع کردن","translit":"zâye’ kardan","ru":"растрачивать попусту"},{"dari":"طبع","translit":"tab’","ru":"натура, нрав"},{"dari":"ظلم","translit":"zolm","ru":"притеснение, несправедливость, жестокость"},{"dari":"غریب","translit":"ğarib","ru":"бедный, неимущий"},{"dari":"گریستن","translit":"geristan (gery)","ru":"плакать"},{"dari":"لت کردن","translit":"lat kardan","ru":"бить, избивать"},{"dari":"لعل","translit":"la’l","ru":"рубин"},{"dari":"مشق","translit":"mašq","ru":"упражнение, каллиграфия"},{"dari":"نقد","translit":"naqd","ru":"наличный (о деньгах)"},{"dari":"نقل کردن","translit":"naql kardan","ru":"рассказывать, пересказывать"},{"dari":"نی‌قلم","translit":"nayqalam","ru":"тростниковая ручка для каллиграфического письма"},{"dari":"هوشیاری","translit":"hušyâri","ru":"ум, рассудительность"},{"dari":"بالشت","translit":"bālešt","ru":"подушка"}] : index === 21 ? [{"dari":"اشاره","translit":"ešâra","ru":"знак, сигнал"},{"dari":"اشک","translit":"ašk","ru":"слеза"},{"dari":"اعتباری","translit":"e’tebâri","ru":"знатный, богатый"},{"dari":"برپا کردن","translit":"barpâ kardan","ru":"устраивать, организовывать"},{"dari":"بندل","translit":"bandal","ru":"свёрток, пачка"},{"dari":"بیخ","translit":"bêx","ru":"корень, подножье"},{"dari":"پس کردن","translit":"pas kardan","ru":"убирать, отодвигать"},{"dari":"پیغام","translit":"payğâm","ru":"послание, весть"},{"dari":"تار","translit":"târ","ru":"нить"},{"dari":"تشله","translit":"tošla","ru":"бусинка для детской игры"},{"dari":"تکاندن","translit":"takândan","ru":"стряхивать"},{"dari":"چال","translit":"čâl","ru":"уловка"},{"dari":"چتل","translit":"čatal","ru":"грязный"},{"dari":"چکچکه","translit":"čokčoka","ru":"слухи, сплетни"},{"dari":"چنگ","translit":"čang","ru":"лапа, когти"},{"dari":"چیغ","translit":"čêğ","ru":"вопль, визг"},{"dari":"حمام","translit":"hammâm","ru":"баня"},{"dari":"حیف","translit":"hayf","ru":"сожаление"},{"dari":"خروار","translit":"xarwâr","ru":"харвар, мера веса"},{"dari":"خمچه","translit":"xemča","ru":"прутик"},{"dari":"دام","translit":"dâm","ru":"западня, силок"},{"dari":"دانه‌نشان","translit":"dânanešân","ru":"инкрустированный"},{"dari":"دوراندیش","translit":"durandêš","ru":"дальновидный"},{"dari":"دیو","translit":"dêw","ru":"чудовище, бес"},{"dari":"ریزه","translit":"rêza","ru":"мелкий"},{"dari":"زلال","translit":"zolâl","ru":"прозрачный"},{"dari":"زیرخانه","translit":"zêrxâna","ru":"подвал"},{"dari":"ژنده","translit":"žanda","ru":"потрёпанный, рваный (об одежде)"},{"dari":"ساختگی","translit":"sâxtagi","ru":"искусственный, притворный"},{"dari":"ستره","translit":"sotra","ru":"чистый (разг.)"},{"dari":"سچه","translit":"sočča","ru":"настоящий, неподдельный (разг.)"},{"dari":"سربسته","translit":"sarbasta","ru":"запечатанный"},{"dari":"سرچشمه","translit":"sarčašma","ru":"источник"},{"dari":"سرشناس","translit":"saršenâs","ru":"знатный"},{"dari":"سطل","translit":"satl","ru":"ведро"},{"dari":"شعله","translit":"šo’la","ru":"пламя"},{"dari":"شمشیر","translit":"šamšêr","ru":"меч, сабля"},{"dari":"شیطانی کردن","translit":"šaytâni kardan","ru":"ябедничать"},{"dari":"صحنه","translit":"sahna","ru":"сцена"},{"dari":"طوطی","translit":"tôti","ru":"попугай"},{"dari":"ظالم","translit":"zâlem","ru":"жестокий"},{"dari":"عذاب","translit":"‘azâb","ru":"мучение, страдание"},{"dari":"غر کردن","translit":"ğor kardan","ru":"рычать"},{"dari":"غلطان","translit":"ğaltân","ru":"кувырком"},{"dari":"غم‌آور","translit":"ğamâwar","ru":"печальный"},{"dari":"فغان","translit":"feğân","ru":"вопль"},{"dari":"قپ کردن","translit":"qap kardan","ru":"ловить на лету"},{"dari":"قتقتک","translit":"qotqotak","ru":"щекотка"},{"dari":"قفس","translit":"qafas","ru":"клетка"},{"dari":"کش کردن","translit":"kaš kardan","ru":"тянуть"},{"dari":"کلِ","translit":"koll-e...","ru":"все (разг.)"},{"dari":"گرفتار شدن","translit":"gereftâr šodan","ru":"подвергаться чему-либо"},{"dari":"گز","translit":"gaz","ru":"газ, мера длины"},{"dari":"ماچ کردن","translit":"mâč kardan","ru":"целовать"},{"dari":"مراد","translit":"morâd","ru":"цель, желаемое"},{"dari":"مرده","translit":"morda","ru":"покойник, труп"},{"dari":"نازنین","translit":"nâzanin","ru":"милый, прелестный"},{"dari":"قطی","translit":"qoti","ru":"шкатулка"},{"dari":"پلنگ","translit":"palang","ru":"тигр"},{"dari":"پایه","translit":"pāya","ru":"ножка"}] : index === 22 ? [{"dari":"اثنا","translit":"asnâ","ru":"время, момент"},{"dari":"ادا کردن","translit":"adâ kardan","ru":"выполнять, произносить"},{"dari":"آه کشیدن","translit":"âh kašidan","ru":"вздыхать"},{"dari":"برافروخته","translit":"barafrôxta","ru":"зажжённый, рассерженный, взбудораженный"},{"dari":"برگرفتن","translit":"bargereftan","ru":"уносить, переносить"},{"dari":"بوسیدن","translit":"bôsidan","ru":"целовать (книжн.)"},{"dari":"بی‌حال","translit":"bêhâl","ru":"находящийся в бессознательном состоянии"},{"dari":"بی‌فکر","translit":"bêfekr","ru":"неумный, легкомысленный"},{"dari":"پافشاری","translit":"pâfešâri","ru":"настояние"},{"dari":"پست","translit":"past","ru":"низкий"},{"dari":"پلوان","translit":"polwân","ru":"межа"},{"dari":"پله","translit":"palla","ru":"створка, половинка; думать (книжн.)"},{"dari":"پنداشتن","translit":"pendâštan (pendâr)","ru":"полагать, думать (книжн.)"},{"dari":"پوزخند","translit":"pôzxand","ru":"усмешка"},{"dari":"تأکید","translit":"ta’kid","ru":"подтверждение, подчёркивание"},{"dari":"ترسیده","translit":"tarsida","ru":"украдкой, опасливо"},{"dari":"تسلی","translit":"tasalli","ru":"утешение"},{"dari":"تعریف","translit":"ta’rif","ru":"описание, похвала"},{"dari":"تلف شدن","translit":"talaf šodan","ru":"гибнуть, пропадать"},{"dari":"جدیت","translit":"jeddeyat","ru":"серьёзность"},{"dari":"جفت","translit":"joft","ru":"пара"},{"dari":"چرخی","translit":"čarxi","ru":"круглый, вращающийся"},{"dari":"چکاره؟","translit":"čekâra?","ru":"кто по профессии или роду занятий?"},{"dari":"حنجره","translit":"hanjara","ru":"гортань, горло"},{"dari":"حیرت‌زده","translit":"hayratzada","ru":"удивлённый (книжн.)"},{"dari":"خالص","translit":"xâles","ru":"чистый, без примесей"},{"dari":"خباز","translit":"xabbâz","ru":"пекарь"},{"dari":"خلاص","translit":"xalâs","ru":"конец, окончание"},{"dari":"خورجین","translit":"xôrjin","ru":"чересседельная сума"},{"dari":"خیره شدن","translit":"xira šodan","ru":"пристально смотреть"},{"dari":"در","translit":"dar","ru":"дверь (книжн.)"},{"dari":"درک کردن","translit":"dark kardan","ru":"понимать, постигать"},{"dari":"درو","translit":"daraw","ru":"жатва"},{"dari":"دست‌پاچگی","translit":"dastpâčagi","ru":"растерянность"},{"dari":"دشنام","translit":"dašnâm","ru":"ругательство"},{"dari":"دلتنگی","translit":"deltangi","ru":"печаль, тоска"},{"dari":"دلسرد شدن","translit":"delsard šodan","ru":"разочароваться"},{"dari":"ذهن","translit":"zehn","ru":"ум, рассудок"},{"dari":"رایگان","translit":"râygân","ru":"даром, бесплатный"},{"dari":"رکاب","translit":"rekâb","ru":"стремя"},{"dari":"رنجش","translit":"ranješ","ru":"обида"},{"dari":"رول","translit":"rôl","ru":"дорожный каток"},{"dari":"زکام","translit":"zokâm","ru":"насморк"},{"dari":"سپاس","translit":"sepâs","ru":"благодарность"},{"dari":"سرانجام","translit":"saranjâm","ru":"наконец, в конце концов"},{"dari":"سرما","translit":"sarmâ","ru":"холод, мороз"},{"dari":"سوگند","translit":"sawgand","ru":"клятва"},{"dari":"سیرم","translit":"sirom","ru":"сыворотка"},{"dari":"شقیقه","translit":"šaqiqa","ru":"висок"},{"dari":"شگفتی","translit":"šegefti","ru":"удивление"},{"dari":"شوخی","translit":"šôxi","ru":"шутка"},{"dari":"صمیمانه","translit":"samimâna","ru":"искренний"},{"dari":"طعنه","translit":"ta’na","ru":"упрёк, ирония"},{"dari":"عصبانیّت","translit":"‘asabâneyyat","ru":"раздражение, гнев"},{"dari":"غربت","translit":"ğorbat","ru":"бедность"},{"dari":"غرور","translit":"ğorur","ru":"гордость, надменность"},{"dari":"غلط فهمی","translit":"ğalatfahmi","ru":"недоразумение"},{"dari":"فروغ","translit":"forôğ","ru":"блеск"},{"dari":"فشردن","translit":"fešordan (fešâr)","ru":"сжимать"},{"dari":"قریه","translit":"qarya (qorâ)","ru":"деревня"},{"dari":"کاخ","translit":"kâx","ru":"дворец"},{"dari":"کیسه","translit":"kisa","ru":"кулёк, кошелёк, пузырь"},{"dari":"کیفر","translit":"kayfar","ru":"наказание"},{"dari":"گرد","translit":"gard","ru":"пыль"},{"dari":"گویا","translit":"gôyâ, gôyi","ru":"словно"},{"dari":"لبخند","translit":"labxand","ru":"улыбка"},{"dari":"لحظه","translit":"lahza","ru":"момент, мгновение"},{"dari":"لحن","translit":"lahn","ru":"тон речи"},{"dari":"لرزیدن","translit":"larzidan","ru":"дрожать"},{"dari":"مادیان","translit":"mâdyân","ru":"кобыла"},{"dari":"مالش دادن","translit":"mâleš dâdan","ru":"тереть"},{"dari":"مسدود","translit":"masdud","ru":"перекрытый, закрытый"},{"dari":"مشتعل","translit":"mošta’al","ru":"воспламенившийся"},{"dari":"ملتفت شدن","translit":"moltafet šodan","ru":"обратить внимание"},{"dari":"مفت","translit":"moft","ru":"даром, бесплатный"},{"dari":"منجمد","translit":"monjamed","ru":"застывший, замороженный, Ледовитый, затвердевший"},{"dari":"موقف","translit":"mawqef","ru":"позиция (в споре и т. п.)"},{"dari":"ناگهان","translit":"nâgahân","ru":"вдруг, неожиданно"},{"dari":"نفرت","translit":"nafrat","ru":"отвращение, ненависть"},{"dari":"نهفته","translit":"nohofta","ru":"скрытый, таящийся"},{"dari":"وجدان","translit":"wejdân","ru":"совесть"},{"dari":"ورود","translit":"worud","ru":"вход"},{"dari":"وظیفه‌شناسی","translit":"wazifašenâsi","ru":"добросовестность"},{"dari":"هی!","translit":"hay!","ru":"эй!"},{"dari":"هیجان","translit":"hayjân","ru":"волнение, беспокойство"},{"dari":"غرش","translit":"ğorreš","ru":"грохот"},{"dari":"رعد","translit":"ra'd","ru":"гром"}] : [{ dari: "test", translit: "", ru: "тест" }],
