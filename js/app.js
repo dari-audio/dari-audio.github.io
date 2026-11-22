@@ -784,6 +784,7 @@
     if (ui.alphabetTab === "intro") content = renderIntroTab();
     else if (ui.alphabetTab === "materials") content = renderMaterialsTab();
     else if (ui.alphabetTab === "teacher") content = renderTeacherTab();
+    else if (ui.alphabetTab === "beginner") content = renderAlphabetBeginnerArchive();
     else content = renderLettersTab();
     const total = DATA.meta.counts;
 
@@ -803,6 +804,7 @@
         <button class="tab ${ui.alphabetTab === "intro" ? "active" : ""}" type="button" data-alpha-tab="intro" role="tab" aria-selected="${ui.alphabetTab === "intro"}">Уроки A–Z <small>${total.intro}</small></button>
         <button class="tab ${ui.alphabetTab === "materials" ? "active" : ""}" type="button" data-alpha-tab="materials" role="tab" aria-selected="${ui.alphabetTab === "materials"}">Аудио и PDF <small>${total.alphabetPdfs + DATA.alphabetAudio.length}</small></button>
         <button class="tab ${ui.alphabetTab === "teacher" ? "active" : ""}" type="button" data-alpha-tab="teacher" role="tab" aria-selected="${ui.alphabetTab === "teacher"}">Для учителя <small>${(DATA.alphabetTeacherPdfs || []).length}</small></button>
+        <button class="tab ${ui.alphabetTab === "beginner" ? "active" : ""}" type="button" data-alpha-tab="beginner" role="tab" aria-selected="${ui.alphabetTab === "beginner"}">2. Beginner&#39;s Dari (учебник + аудио) <small>77</small></button>
       </div>
       ${content}
     </div>`;
@@ -1927,6 +1929,16 @@
     </div>`;
   };
 
+  const renderAlphabetBeginnerArchive = () => {
+    const entry = findLib("1Hu_boes9lHIgzUj2NLaSeDQsAy_hxkAy");
+    if (!entry) return notFound("Beginner's Dari materials not found");
+    return renderLibraryNode(entry)
+      .replaceAll("#/library/1Hu_boes9lHIgzUj2NLaSeDQsAy_hxkAy", "#/alphabet/archive/1Hu_boes9lHIgzUj2NLaSeDQsAy_hxkAy")
+      .replaceAll("#/library", "#/alphabet")
+      .replaceAll("Все разделы", "К алфавиту")
+      .replaceAll("Аудиотека ·", "Алфавит ·");
+  };
+
   const renderLibrary = (id) => {
     if (id) {
       const entry = findLib(id);
@@ -1959,7 +1971,7 @@
         <span class="small muted">${fmt(total.libraryFiles)} ${plural(total.libraryFiles, ["файл", "файла", "файлов"])} · ${total.libraryCollections} разделов</span>
       </div>
       ${query ? searchContent : `<div class="library-grid">
-        ${DATA.library.map((root) => `<a class="library-card" href="#/library/${esc(root.id)}" data-count="${root.fileCount}">
+        ${DATA.library.filter((root) => root.id !== "1Hu_boes9lHIgzUj2NLaSeDQsAy_hxkAy").map((root) => `<a class="library-card" href="#/library/${esc(root.id)}" data-count="${root.fileCount}">
           <span class="folder-mark">${svg("folder")}</span>
           <h3>${esc(root.name)}</h3>
           <p>${esc(root.description)}</p>
@@ -5987,6 +5999,7 @@
     if (section === "home") html = renderHome();
     else if (section === "alphabet") {
       if (parts[1] === "letter") ui.alphabetTab = "letters";
+      else if (parts[1] === "archive") ui.alphabetTab = "beginner";
       html = renderAlphabet();
     } else if (section === "intro") html = renderIntro(parts[1]);
     else if (section === "lessons") html = renderLessons(parts[1], parts[2], parts[3]);
