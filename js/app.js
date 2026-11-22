@@ -2639,7 +2639,7 @@
   },
   {
     "dari": "کانکور",
-    "translit": "kā n kor",
+    "translit": "kānkor",
     "ru": "конкурс (вступительный экзамен)"
   },
   {
@@ -2759,7 +2759,7 @@
   },
   {
     "dari": "کانکريت",
-    "translit": "kā n krīt",
+    "translit": "kānkrīt",
     "ru": "бетон"
   },
   {
@@ -3029,7 +3029,7 @@
   },
   {
     "dari": "سويچ",
-    "translit": "sowiچ",
+    "translit": "sowi č",
     "ru": "выключатель"
   },
   {
