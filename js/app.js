@@ -4166,7 +4166,7 @@
   const textbook2TaskCollection3 = { id: 1003, lessonId: 3, title: "Урок 3 · Слова из заданий", cards: [
   {
     "dari": "پشتو — پشتون",
-    "translit": "pašto — pašṭūn",
+    "translit": "pašto — paštūn",
     "ru": "пушту — пуштун"
   },
   {
