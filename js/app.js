@@ -5325,6 +5325,8 @@
   const textbook2UnknownOrder = (collection) => (ui.textbook2Orders[collection.id] || collection.cards.map((_, i) => i))
     .filter((i) => !state.textbook2Words[textbook2WordKey(collection.id, i)]);
 
+  const TEXTBOOK2_PDF_IDS = ["1G4kNaSk5n-7m44FPB9hd4qgpZfmLokHA","1SrLKQQCDvp4GwtwlwaLITpIhvXzK__4P","1lOI8rRUh0mejYQpAyIdS2OyDY8Za6VF6","1CVEcycyOxItRn_y5ULGqceluwCyRn4rB","1N3DMFyMLF5BWG3zDJoS5mQPosKX38fXf","1izk4d95pyQLYQJF_YqeX_uogwnOE2kDx","14pkGER0Q9f-du69MRbE3Q6fiKj528L1e","16XhgTKhYN7dXPN9NqS69mPNm_30EPbxM","1h6NBslX-XxAMSQ_KZ98q9mdjWCka3pg3","1nezHi3k1IBNx4P6WnIoGqry5SwY4YAn2","1kqjScxH_u8v9fzxPvMnoA5PvEyGG7QJo","1AOUqMHZO8MMD6ZH9pTAaM1WXCDht8UMq","1E-z6nUQCcbh6BCjUZ-0bX9IutMvOXPhj","1FTtKEdY8llGI5TPvmfQKV-RPi6T3OQFO","1dtT4ijdEJBAm0vMGDDkSMnUZTKoZU8Bj","1niGLAeW4z273ZkElXm1tX95wHGsz3Zg8","1Zm5OV-wrw_e6623XkJ-JPgOHTuR2-Gw6","1o-3f_IWAICGWYy0RyFg297VryWwyoG-w","1Lr2qDJixoaXzhwKp9CSCMd4NXU3dBoPd","1esF1j4VIjHibId15i_-qX4Uy3-uvtS_x","1TxJhQUIC9VZG_Y63OlnFfwoqDSty7E_s","1rjOVg9PyThZC9ZVzxoVAxJLyqA6Fw2Ea","1Xv5N2XWwi57f13tmhqhWuth9Xp9nfCn7"];
+
   const renderTextbook2Lesson = (lessonNum) => {
     const collection = textbook2Collections.find((item) => item.id === Number(lessonNum));
     if (!collection) return notFound("Урок не найден");
@@ -5349,11 +5351,11 @@
         </div>
       </div>
       <div class="pack-grid textbook-collections textbook-vocab-grid textbook-lesson-materials">
-        <section class="pack-card textbook-material-card" style="--pack-color:var(--blue)">
+        <a class="pack-card textbook-material-card" href="https://drive.google.com/file/d/${TEXTBOOK2_PDF_IDS[collection.id - 1]}/view" target="_blank" rel="noopener" style="--pack-color:var(--blue)">
           <span class="pack-icon">📄</span><h3>PDF урока</h3>
-          <p class="pack-description">Место для PDF-конспекта урока. Файл будет добавлен позже.</p>
-          <div class="pack-sub">Пока нет файла</div>
-        </section>
+          <p class="pack-description">Открыть PDF урока в Google Drive или посмотреть его ниже.</p>
+          <div class="pack-sub">PDF · Урок ${collection.id}</div>
+        </a>
         <a class="pack-card textbook-material-card" href="#/textbook-2/lesson-${collection.id}/vocab" style="--pack-color:var(--green)">
           <span class="pack-icon">📚</span><h3>Словарь</h3>
           <p class="pack-description">Слова и карточки для изучения.</p>
@@ -5373,6 +5375,11 @@
           <div class="pack-sub">${phraseCount ? `${phraseDone.length}/${phraseCount} выполнено` : "Задания скоро появятся"}</div>
           <div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:${phrasePct}%"></div></div><span>${phrasePct}%</span></div>
         </a>
+      </div>
+      <div class="pdf-frame-wrap textbook-frame"><iframe src="${esc(drivePdf(TEXTBOOK2_PDF_IDS[collection.id - 1]))}" title="PDF · Урок ${collection.id}" loading="lazy" allow="autoplay"></iframe></div>
+      <div class="page-head-actions" style="margin-top:14px">
+        <a class="btn btn-ghost" href="https://drive.google.com/file/d/${TEXTBOOK2_PDF_IDS[collection.id - 1]}/view" target="_blank" rel="noopener">${svg("external")} Открыть в Drive</a>
+        <a class="btn btn-primary" href="${esc(driveDownload(TEXTBOOK2_PDF_IDS[collection.id - 1]))}" target="_blank" rel="noopener">${svg("download")} Скачать PDF</a>
       </div>
     </div>`;
   };
