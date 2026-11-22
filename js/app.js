@@ -3927,7 +3927,374 @@
   textbook2TaskCollections.push(textbook2TaskCollection9);
 
   const textbook2TaskCollection10 = { id: 1010, lessonId: 10, title: "Урок 10 · Слова из заданий", cards: [{"dari":"نیم گرسنه","translit":"nīm-gursna","ru":"полуголодный"},{"dari":"تندباد","translit":"tondbād","ru":"ураган, сильный ветер"},{"dari":"پخته سن","translit":"puxte-san","ru":"в зрелом возрасте (букв. «созревший возраст»)"},{"dari":"پیرمرد","translit":"pīr-mard","ru":"старик"},{"dari":"رفت وآمد","translit":"raft-o-āmad","ru":"хождение, движение туда-сюда"},{"dari":"دوباره","translit":"dōbāra","ru":"снова, опять"},{"dari":"سروصدا","translit":"sar-o-sadā","ru":"шум, гам"},{"dari":"میانه سال","translit":"miyāna-sāl","ru":"средних лет"},{"dari":"سراپا","translit":"sarāpā","ru":"весь, целиком; с головы до ног"},{"dari":"گفتگو","translit":"goftogū","ru":"разговор, беседа"},{"dari":"مالدارى","translit":"māldāri","ru":"скотоводство"},{"dari":"خاک آلوده","translit":"xāk-ālūda","ru":"запылённый, покрытый пылью"},{"dari":"موتردار","translit":"mōtar-dār","ru":"имеющий машину"},{"dari":"بندوبار","translit":"band-o-bār","ru":"пожитки, багаж"},{"dari":"جمع آورى","translit":"jam'-āwari","ru":"собирание, сбор"},{"dari":"پیچ و تاب","translit":"pīč-o-tāb","ru":"извилина, поворот; сложность"},{"dari":"توقف کردن","translit":"tawaqqof kardan","ru":"останавливаться"},{"dari":"احساس کردن","translit":"ehsās kardan","ru":"чувствовать"},{"dari":"پايين شدن","translit":"pāyīn šodan","ru":"спускаться; выходить (из машины)"},{"dari":"آه کشيدن","translit":"āh kešīdan","ru":"вздыхать"},{"dari":"فيصله کردن","translit":"faysala kardan","ru":"решать"},{"dari":"سخن گفتن","translit":"soxan goftan","ru":"говорить, беседовать"},{"dari":"قرار داشتن","translit":"qarār dāštan","ru":"быть расположенным; намереваться"},{"dari":"نگاه کردن","translit":"negāh kardan","ru":"смотреть"},{"dari":"به تن (به سر) داشتن","translit":"ba tan (ba sar) dāštan","ru":"быть одетым в; носить на себе"},{"dari":"مخلوط شدن","translit":"maxlūt šodan","ru":"смешиваться"},{"dari":"ادامه دادن","translit":"edāma dādan","ru":"продолжать"},{"dari":"حمل کردن","translit":"haml kardan","ru":"нести, перевозить"},{"dari":"(از راه) پس شدن","translit":"(az rāh) pas šodan","ru":"сойти с дороги, уступить дорогу"},{"dari":"امرار حيات کردن","translit":"amrār-e hayāt kardan","ru":"существовать, жить"},{"dari":"پکه کردن (زدن)","translit":"paka kardan (zadan)","ru":"обмахивать(ся) веером"},{"dari":"آماده ساختن","translit":"āmāda sāxtan","ru":"готовить, подготавливать"},{"dari":"تکان دادن","translit":"takān dādan","ru":"трясти, качать, двигать"},{"dari":"لوله کردن","translit":"lūla kardan","ru":"свёртывать в трубку"},{"dari":"قهر شدن","translit":"qahr šodan","ru":"обижаться, сердиться"},{"dari":"جلب کردن","translit":"jalb kardan","ru":"привлекать"},{"dari":"به فکر ... بودن (افتادن)","translit":"ba fekr-e ... būdan (oftādan)","ru":"думать о…; задуматься о…"},{"dari":"سلف زدن","translit":"self zadan","ru":"включать стартер"},{"dari":"از دست دادن","translit":"az dast dādan","ru":"терять"},{"dari":"به دست آوردن","translit":"ba dast āwardan","ru":"приобретать, получать"},{"dari":"بيهوش شدن","translit":"bēhōš šodan","ru":"терять сознание"},{"dari":"خيال کردن","translit":"xiyāl kardan","ru":"думать, воображать"},{"dari":"به سر بردن","translit":"ba sar burdan","ru":"проводить (время)"},{"dari":"فعاليت کردن","translit":"fa'āliyat kardan","ru":"заниматься деятельностью"},{"dari":"گفتگو کردن","translit":"goftogū kardan","ru":"беседовать"},{"dari":"جمع آورى کردن","translit":"jam'-āwari kardan","ru":"собирать"},{"dari":"اميد داشتن","translit":"omēd dāštan","ru":"надеяться"},{"dari":"دونیم کردن","translit":"dō-nīm kardan","ru":"делить пополам"},{"dari":"نگاه افگندن","translit":"negāh afgandan","ru":"взглянуть, бросить взгляд"},{"dari":"خم کردن","translit":"xam kardan","ru":"сгибать, наклонять"},{"dari":"به چرت رفتن","translit":"ba čort raftan","ru":"вздремнуть, задремать"},{"dari":"مأيوس شدن","translit":"ma'yūs šodan","ru":"отчаиваться"},{"dari":"حس کردن","translit":"hess kardan","ru":"чувствовать"},{"dari":"جلورفتن","translit":"jelaw raftan","ru":"идти вперёд"},{"dari":"متوجه ... بودن","translit":"motawajjeh-e ... būdan","ru":"быть внимательным к…; сознавать"},{"dari":"مسرور شدن","translit":"masrūr šodan","ru":"радоваться"},{"dari":"کمايى کردن","translit":"kamāyi kardan","ru":"зарабатывать"},{"dari":"اصرار ورزيدن","translit":"esrār warzīdan","ru":"настаивать"},{"dari":"جگره کردن","translit":"jagra kardan","ru":"подбадривать, придавать смелости"},{"dari":"اتفاق کردن","translit":"ettefāq kardan","ru":"случаться; договариваться"},{"dari":"راه رفتن","translit":"rāh raftan","ru":"идти, ходить"},{"dari":"بندوبار بستن","translit":"band-o-bār bastan","ru":"собирать пожитки"},{"dari":"نصوار کشيدن","translit":"naswār kešīdan","ru":"жевать насвар (жевательный табак)"},{"dari":"آگنده ساختن","translit":"āganda sāxtan","ru":"наполнять"},{"dari":"شور خوردن","translit":"šōr xōrdan","ru":"двигаться, шевелиться"},{"dari":"بلند کردن","translit":"boland kardan","ru":"поднимать"},{"dari":"تعارف کردن","translit":"ta'ārof kardan","ru":"предлагать (по обычаю), угощать"},{"dari":"گرد آوردن","translit":"gard āwardan","ru":"собирать"},{"dari":"عصبانى شدن","translit":"asabāni šodan","ru":"нервничать, злиться"},{"dari":"به هوش (به خود) آوردن","translit":"ba hōš (ba xod) āwardan","ru":"приводить в сознание"},{"dari":"زور زدن","translit":"zōr zadan","ru":"напрягаться, тужиться"},{"dari":"اجرا کردن","translit":"ejrā kardan","ru":"исполнять, выполнять"},{"dari":"فراموش کردن","translit":"farāmōš kardan","ru":"забывать"},{"dari":"در صدد ... برآمدن (شدن)","translit":"dar sadad-e ... barāmadan (šodan)","ru":"намереваться, собираться"},{"dari":"هوش کردن","translit":"hōš kardan","ru":"обращать внимание, слушать"},{"dari":"تصميم گرفتن","translit":"tasmīm gereftan","ru":"принимать решение"},{"dari":"مغروق شدن","translit":"mağrūq šodan","ru":"погружаться; заливаться (слезами)"},{"dari":"مضطرب شدن","translit":"moztareb šodan","ru":"волноваться, тревожиться"},{"dari":"تعلق گرفتن","translit":"ta'alloq gereftan","ru":"принадлежать; привязываться"},{"dari":"پیچ وتاب خوردن","translit":"pīč-o-tāb xōrdan","ru":"извиваться, вертеться"},{"dari":"رفت وآمد داشتن","translit":"raft-o-āmad dāštan","ru":"поддерживать отношения, бывать друг у друга (?)"},{"dari":"سرشته کردن","translit":"sarešta kardan","ru":"налаживать"},{"dari":"جزء","translit":"joz'","ru":"часть, деталь, компонент; мн. اجزاء / ajzā'"},{"dari":"جزو","translit":"jozw","ru":"вариант слова جزء"},{"dari":"جز","translit":"joz","ru":"кроме (простой предлог)"},{"dari":"جزء هرات","translit":"joz'-e Herāt","ru":"(составная) часть Герата"},{"dari":"جز هرات","translit":"joz Herāt","ru":"кроме Герата"},{"dari":"در حالیکه","translit":"dar hālē-ke","ru":"в то время как; в состоянии (что…)"},{"dari":"جاى افسوس است که ...","translit":"jāy-e afsōs ast ke ...","ru":"Жаль, что…"},{"dari":"جاى تعجب نبود که ...","translit":"jāy-e ta'ajjub nabūd ke ...","ru":"Было неудивительно, что…"},{"dari":"جاى خوشى است که ...","translit":"jāy-e xošī ast ke ...","ru":"Отрадно, что…"},{"dari":"عالم","translit":"'ālam","ru":"мир"},{"dari":"عالم","translit":"'ālem","ru":"учёный"}] };
-  textbook2TaskCollections.push(textbook2TaskCollection10);
+  textbook2TaskCollections.push(textbook2TaskCollection10);\n\n  const textbook2TaskCollection2 = { id: 1002, lessonId: 2, title: "Урок 2 · Слова из заданий", cards: [
+  {
+    "dari": "کوه",
+    "translit": "kōh",
+    "ru": "гора"
+  },
+  {
+    "dari": "قله",
+    "translit": "qolla",
+    "ru": "вершина"
+  },
+  {
+    "dari": "تپه",
+    "translit": "tapa",
+    "ru": "холм"
+  },
+  {
+    "dari": "فلات",
+    "translit": "falāt",
+    "ru": "плато"
+  },
+  {
+    "dari": "سلسله جبال",
+    "translit": "selsela-ye jebāl",
+    "ru": "горная цепь"
+  },
+  {
+    "dari": "کوتل",
+    "translit": "kōtal",
+    "ru": "перевал"
+  },
+  {
+    "dari": "دامنه",
+    "translit": "dāmana",
+    "ru": "склон, подножие"
+  },
+  {
+    "dari": "دره",
+    "translit": "dara",
+    "ru": "ущелье, долина"
+  },
+  {
+    "dari": "وادی",
+    "translit": "wādi",
+    "ru": "долина"
+  },
+  {
+    "dari": "جلگه",
+    "translit": "jolga",
+    "ru": "равнина"
+  },
+  {
+    "dari": "دشت",
+    "translit": "dašt",
+    "ru": "степь, равнина"
+  },
+  {
+    "dari": "صحرا",
+    "translit": "sahrā",
+    "ru": "пустыня"
+  },
+  {
+    "dari": "جوی",
+    "translit": "jōy",
+    "ru": "ручей, канал"
+  },
+  {
+    "dari": "دریا",
+    "translit": "daryā",
+    "ru": "река; море"
+  },
+  {
+    "dari": "جهیل",
+    "translit": "jahīl",
+    "ru": "озеро"
+  },
+  {
+    "dari": "بحیره",
+    "translit": "bahīra",
+    "ru": "озеро"
+  },
+  {
+    "dari": "بحر",
+    "translit": "bahr",
+    "ru": "море"
+  },
+  {
+    "dari": "اقلیم",
+    "translit": "eqlīm",
+    "ru": "климат"
+  },
+  {
+    "dari": "حرارت",
+    "translit": "harārat",
+    "ru": "температура, жара"
+  },
+  {
+    "dari": "رطوبت",
+    "translit": "rotūbat",
+    "ru": "влажность"
+  },
+  {
+    "dari": "باد",
+    "translit": "bād",
+    "ru": "ветер"
+  },
+  {
+    "dari": "طوفان",
+    "translit": "tūfān",
+    "ru": "буря, ураган"
+  },
+  {
+    "dari": "بارنده گی",
+    "translit": "bārandagi",
+    "ru": "осадки, дождь"
+  },
+  {
+    "dari": "باران",
+    "translit": "bārān",
+    "ru": "дождь"
+  },
+  {
+    "dari": "برف",
+    "translit": "barf",
+    "ru": "снег"
+  },
+  {
+    "dari": "برف باری",
+    "translit": "barf-bāri",
+    "ru": "снегопад"
+  },
+  {
+    "dari": "ژاله",
+    "translit": "žāla",
+    "ru": "град"
+  },
+  {
+    "dari": "هندوکش",
+    "translit": "Hendukōš",
+    "ru": "Гиндукуш"
+  },
+  {
+    "dari": "کوه بابا",
+    "translit": "Kōh-e Bābā",
+    "ru": "Кух-и-Баба"
+  },
+  {
+    "dari": "سفیده کوه",
+    "translit": "Safēd-kōh",
+    "ru": "Сафедкох"
+  },
+  {
+    "dari": "کندز",
+    "translit": "Kondoz",
+    "ru": "Кундуз"
+  },
+  {
+    "dari": "کوکجه",
+    "translit": "Kōkča",
+    "ru": "Кокча"
+  },
+  {
+    "dari": "آمو",
+    "translit": "Āmū",
+    "ru": "Амударья"
+  },
+  {
+    "dari": "کابل",
+    "translit": "Kābol",
+    "ru": "Кабул"
+  },
+  {
+    "dari": "ارغنداب",
+    "translit": "Argandāb",
+    "ru": "Аргандаб"
+  },
+  {
+    "dari": "هلمند",
+    "translit": "Helmand",
+    "ru": "Гильменд"
+  },
+  {
+    "dari": "کنر",
+    "translit": "Konar",
+    "ru": "Кунар"
+  },
+  {
+    "dari": "لوگر",
+    "translit": "Lōgar",
+    "ru": "Логар"
+  },
+  {
+    "dari": "هیریرود",
+    "translit": "Hērīrōd",
+    "ru": "Герируд"
+  },
+  {
+    "dari": "مرغاب",
+    "translit": "Morğāb",
+    "ru": "Мургаб"
+  },
+  {
+    "dari": "فراه رود",
+    "translit": "Farāhrōd",
+    "ru": "Фарахруд"
+  },
+  {
+    "dari": "پنجشیر",
+    "translit": "Panjšēr",
+    "ru": "Панджшер"
+  },
+  {
+    "dari": "بند امیر",
+    "translit": "Band-e Amīr",
+    "ru": "Банд-и-Амир"
+  },
+  {
+    "dari": "پامیر",
+    "translit": "Pāmīr",
+    "ru": "Памир"
+  },
+  {
+    "dari": "هزاره جات",
+    "translit": "Hazārajāt",
+    "ru": "Хазараджат"
+  },
+  {
+    "dari": "سیستان",
+    "translit": "Sīstān",
+    "ru": "Систан"
+  }
+] };\n  textbook2TaskCollections.push(textbook2TaskCollection2);\n\n  const textbook2TaskCollection3 = { id: 1003, lessonId: 3, title: "Урок 3 · Слова из заданий", cards: [
+  {
+    "dari": "پشتو — پشتون",
+    "translit": "pašto — pašṭūn",
+    "ru": "пушту — пуштун"
+  },
+  {
+    "dari": "تاجک — دری",
+    "translit": "tājik — darī",
+    "ru": "таджик — дари"
+  },
+  {
+    "dari": "هزاره — دری (هزاره گی)",
+    "translit": "hazāra — darī (hazāragi)",
+    "ru": "хазара — дари (хазараги)"
+  },
+  {
+    "dari": "ازبک — ازبکی",
+    "translit": "ozbak — ozbaki",
+    "ru": "узбек — узбекский"
+  },
+  {
+    "dari": "ترکمن — ترکمنی",
+    "translit": "turkman — turkmani",
+    "ru": "туркмен — туркменский"
+  },
+  {
+    "dari": "بلوج — بلوجی",
+    "translit": "balūč — balūči",
+    "ru": "белудж — белуджский"
+  },
+  {
+    "dari": "قزاق — قزاقی",
+    "translit": "qazzāq — qazzāqi",
+    "ru": "казах — казахский"
+  },
+  {
+    "dari": "قرغیز — قرغیزی",
+    "translit": "qerğīz — qerğīzi",
+    "ru": "киргиз — киргизский"
+  },
+  {
+    "dari": "پشه یی — پشه یی",
+    "translit": "pašayi — pašayi",
+    "ru": "пашаи — пашаи"
+  },
+  {
+    "dari": "نورستان — نورستانی",
+    "translit": "nūrestān — nūrestāni",
+    "ru": "Нуристан — нуристанский"
+  },
+  {
+    "dari": "پراچی — پراچی",
+    "translit": "parāči — parāči",
+    "ru": "парачи — парачи"
+  },
+  {
+    "dari": "عرب — عربی",
+    "translit": "'arab — 'arabi",
+    "ru": "араб — арабский"
+  },
+  {
+    "dari": "هندو — پنجابی، اردو",
+    "translit": "hendū — panjābi, urdū",
+    "ru": "индус — панджаби, урду"
+  },
+  {
+    "dari": "نفوس",
+    "translit": "nufūs",
+    "ru": "население"
+  },
+  {
+    "dari": "تراکم نفوس",
+    "translit": "tarākum-e nufūs",
+    "ru": "плотность населения"
+  },
+  {
+    "dari": "ملیت",
+    "translit": "milliyat",
+    "ru": "национальность"
+  },
+  {
+    "dari": "قبیله",
+    "translit": "qabīla",
+    "ru": "племя"
+  },
+  {
+    "dari": "قوم",
+    "translit": "qawm",
+    "ru": "народ, племя"
+  },
+  {
+    "dari": "اشتغال",
+    "translit": "ešteğāl",
+    "ru": "занятость"
+  },
+  {
+    "dari": "صنایع",
+    "translit": "sanāye'",
+    "ru": "отрасли промышленности"
+  },
+  {
+    "dari": "زراعت",
+    "translit": "zerā'at",
+    "ru": "земледелие"
+  },
+  {
+    "dari": "مال داری",
+    "translit": "māldāri",
+    "ru": "скотоводство"
+  },
+  {
+    "dari": "باغداری",
+    "translit": "bāğdāri",
+    "ru": "садоводство"
+  },
+  {
+    "dari": "پیشه",
+    "translit": "pēša",
+    "ru": "профессия, ремесло"
+  },
+  {
+    "dari": "تجارت",
+    "translit": "tejārat",
+    "ru": "торговля"
+  },
+  {
+    "dari": "خدمات دولتی",
+    "translit": "xadamāt-e dawlati",
+    "ru": "государственные услуги"
+  },
+  {
+    "dari": "تحصیل",
+    "translit": "tahsīl",
+    "ru": "учёба, образование"
+  }
+] };\n  textbook2TaskCollections.push(textbook2TaskCollection3);
 
 
   const textbook2Collections = Array.from({ length: 23 }, (_, index) => ({
