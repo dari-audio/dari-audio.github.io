@@ -1871,9 +1871,7 @@
         });
         const bookFiles = files.filter((file) => isPdf(file.name));
         const otherFiles = files.filter((file) => !isPdf(file.name));
-        content = `${searchBar}
-        <div class="breadcrumbs"><a href="#/library">Аудиотека</a><span>/</span>${trailLinks}</div>
-        <div class="section-head"><div><h2>Уроки 1–40</h2><p>Найдите тему по названию или отфильтруйте уроки по тематическим категориям</p></div></div>
+        content = `<div class="breadcrumbs"><a href="#/library">Аудиотека</a><span>/</span>${trailLinks}</div>
         <div class="lesson-toolbar">
           <div class="search-input-wrap">${svg("search")}<input class="search-input" id="semester-two-search" type="search" placeholder="Найти урок или тему…" value="${esc(ui.semesterTwoQuery)}" autocomplete="off"></div>
           <div class="chip-row">
@@ -1925,7 +1923,7 @@
     return `<div class="page">
       <a class="back-link" href="#/library">${svg("arrowRight")} Все разделы</a>
       <div class="page-head">
-        <div><span class="eyebrow">Аудиотека · ${fmt(node.fileCount)} ${plural(node.fileCount, ["файл", "файла", "файлов"])}</span><h1>${esc(node.name)}</h1><p>${esc(description)}</p></div>
+        <div><span class="eyebrow">Аудиотека · ${fmt(node.fileCount)} ${plural(node.fileCount, ["файл", "файла", "файлов"])}</span><h1>${esc(node.name)}</h1>${node.id === "1BcaMzJKr5Bl3vGdpC3V6DAQdQq3YAmpE" ? "" : `<p>${esc(description)}</p>`}</div>
         <div class="page-head-actions"><a class="btn btn-ghost btn-sm" href="${esc(driveFolder(node.id))}" target="_blank" rel="noopener">${svg("external")} Открыть в Drive</a></div>
       </div>
       ${content}
