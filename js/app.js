@@ -3029,7 +3029,7 @@
   },
   {
     "dari": "سويچ",
-    "translit": "sowi č",
+    "translit": "sowič",
     "ru": "выключатель"
   },
   {
