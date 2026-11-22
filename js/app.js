@@ -4127,7 +4127,7 @@
             const totalWords = collection.cards.length + taskCount;
             const totalKnown = known + taskKnown;
             const pct = Math.round(totalKnown / Math.max(1, totalWords) * 100);
-            const phraseCount = collection.id === 8 ? 6 : 0;
+            const phraseCount = collection.id === 8 ? 24 : 0;
             const phrasePct = phraseCount ? Math.round(phraseDone.length / phraseCount * 100) : 0;
             const complete = totalWords > 0 && totalKnown === totalWords && (!phraseCount || phraseDone.length >= phraseCount);
             return `<a class="lesson-card textbook-lesson-card ${complete ? "done" : ""}" href="#/textbook-2/lesson-${collection.id}">
