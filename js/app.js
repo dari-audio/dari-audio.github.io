@@ -3993,7 +3993,7 @@
         </a>
         <a class="pack-card textbook-material-card" href="#/textbook-2/lesson-${collection.id}/tasks" style="--pack-color:var(--gold)">
           <span class="pack-icon">✍️</span><h3>Слова из заданий</h3>
-          <p class="pack-description">Отдельная подборка лексики из упражнений урока.</p>
+          <p class="pack-description">Отдельная подборка лексики из упражнений урока. <strong>Транскрипции сгенерированы ИИ, возможны ошибки.</strong></p>
           <div class="pack-sub">${taskCount ? `${taskCount} слов` : "Подборка скоро появится"}</div>
           <div class="pack-foot"><div class="progress-track"><div class="progress-fill" style="width:${taskPct}%"></div></div><span>${taskKnown}/${taskCount}</span></div>
         </a>
