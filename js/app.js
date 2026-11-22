@@ -1951,7 +1951,7 @@
     if (query) {
       const allFolders = [];
       const allFiles = [];
-      DATA.library.forEach((root) => {
+      DATA.library.filter((root) => root.id !== "1Hu_boes9lHIgzUj2NLaSeDQsAy_hxkAy").forEach((root) => {
         const found = collectLibMatches(root, query);
         allFolders.push(...found.folders);
         allFiles.push(...found.files);
