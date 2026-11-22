@@ -4855,7 +4855,7 @@
     }
 
     const taskRoute = location.hash.includes("/tasks");
-    const taskCollection = textbook2TaskCollections.find((item) => item.lessonId === Number((location.hash.match(/lesson-(\\d+)/)||[])[1]));
+    const taskCollection = textbook2TaskCollections.find((item) => item.lessonId === Number((location.hash.match(/lesson-(\d+)/)||[])[1]));
     if (taskRoute && taskCollection) {
       const taskWord = target.closest("[data-textbook2-task-know], [data-textbook2-task-word]");
       if (taskWord) {
