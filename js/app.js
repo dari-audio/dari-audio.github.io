@@ -3432,6 +3432,29 @@
       return;
     }
 
+    const taskRoute = location.hash.includes("/tasks");
+    const taskCollection = textbook2TaskCollections.find((item) => item.lessonId === Number((location.hash.match(/lesson-(\\d+)/)||[])[1]));
+    if (taskRoute && taskCollection) {
+      const taskWord = target.closest("[data-textbook2-task-know], [data-textbook2-task-word]");
+      if (taskWord) {
+        const index = Number(taskWord.dataset.textbook2TaskKnow ?? taskWord.dataset.textbook2TaskWord);
+        const key = textbook2WordKey(taskCollection.id, index);
+        if (state.textbook2Words[key]) delete state.textbook2Words[key]; else state.textbook2Words[key] = Date.now();
+        saveState(); renderRoute({ scroll: false }); return;
+      }
+      if (target.closest("[data-textbook-task-flip-button], [data-textbook-task-flip]")) { ui.textbook2TaskFlipped = !ui.textbook2TaskFlipped; renderRoute({ scroll: false }); return; }
+      if (target.closest("[data-textbook-task-direction]")) { ui.textbook2RussianFirst[taskCollection.id] = !ui.textbook2RussianFirst[taskCollection.id]; ui.textbook2TaskFlipped = false; renderRoute({ scroll: false }); return; }
+      if (target.closest("[data-textbook-task-shuffle]")) {
+        const order = taskCollection.cards.map((_,i)=>i);
+        for(let i=order.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[order[i],order[j]]=[order[j],order[i]];}
+        ui.textbook2Orders[taskCollection.id]=order; ui.textbook2TaskIndex=0; ui.textbook2TaskFlipped=false; ui.textbook2View="cards"; renderRoute({scroll:false}); return;
+      }
+      if (target.closest("[data-textbook-task-prev], [data-textbook-task-next]")) {
+        const known = taskCollection.cards.map((_,i)=>i).filter(i=>!state.textbook2Words[textbook2WordKey(taskCollection.id,i)]);
+        ui.textbook2TaskIndex=clamp((ui.textbook2TaskIndex||0)+(target.closest("[data-textbook-task-next]")?1:-1),0,Math.max(0,known.length-1));
+        ui.textbook2TaskFlipped=false; renderRoute({scroll:false}); return;
+      }
+    }
     if (target.closest("[data-textbook2-know]") || target.closest("[data-textbook2-word]")) {
       const control = target.closest("[data-textbook2-know], [data-textbook2-word]");
       const lessonId = Number((location.hash.split("/lesson-")[1] || "").split(/[/?]/)[0]);
