@@ -2066,6 +2066,11 @@ kbd {
 .province-shape:hover, .province-shape:focus { fill: #d5e1d7; stroke: var(--green); stroke-width: 2.5; filter: drop-shadow(0 1px 2px rgba(0,0,0,.16)); }
 .province-shape.is-correct { fill: #37725c; stroke: #fff; stroke-width: 1.15; cursor: default; }
 .province-shape.is-correct:hover { fill: #37725c; }
+.province-shape.is-first-try, .province-shape.is-first-try:hover { fill: #78a88a; }
+.province-shape.is-second-try, .province-shape.is-second-try:hover { fill: #e4c66f; }
+.province-shape.is-third-try, .province-shape.is-third-try:hover { fill: #d9915d; }
+.province-shape.is-after-reveal, .province-shape.is-after-reveal:hover { fill: #c96f69; }
+.province-shape.is-revealed, .province-shape.is-revealed:hover { fill: #9785bd; stroke: #66538f; stroke-width: 2.4; filter: drop-shadow(0 1px 3px rgba(75,55,112,.22)); }
 .province-shape.is-wrong { fill: #c97862; stroke: #8f3e2d; stroke-width: 2.2; }
 .game-map-message { min-height: 320px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 24px; text-align: center; color: var(--muted); }
 .game-map-message strong { color: var(--green); }
@@ -2082,8 +2087,12 @@ kbd {
 .game-progress .progress-track { flex: 1; }
 .game-instruction { margin: 18px 0; color: var(--muted); font-size: .82rem; line-height: 1.55; }
 .game-reset { width: 100%; justify-content: center; }
-.game-legend { display: flex; align-items: center; gap: 8px; margin-top: 18px; color: var(--muted); font-size: .72rem; }
-.game-legend span { width: 12px; height: 12px; border-radius: 3px; background: #37725c; }
+.game-legend { display: flex; align-items: center; flex-wrap: wrap; gap: 7px 8px; margin-top: 18px; color: var(--muted); font-size: .68rem; line-height: 1.4; }
+.game-legend span { flex: 0 0 12px; width: 12px; height: 12px; border-radius: 3px; background: #78a88a; }
+.game-legend .legend-yellow { background: #e4c66f; }
+.game-legend .legend-orange { background: #d9915d; }
+.game-legend .legend-purple { background: #9785bd; }
+.game-legend .legend-red { background: #c96f69; }
 @media (max-width: 850px) { .game-layout { grid-template-columns: 1fr; } .game-side { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 12px 18px; align-items: center; } .game-stats { grid-column: 1 / -1; } .game-progress, .game-instruction, .game-legend { margin: 0; } .game-reset { grid-column: 2; grid-row: 2 / span 2; } }
 @media (max-width: 520px) { .game-board { padding: 10px; } .game-map-wrap { min-height: 260px; } .game-side { display: flex; flex-direction: column; align-items: stretch; } .game-stats { width: 100%; } .game-progress { width: 100%; } .game-reset { width: 100%; } .game-legend { align-self: flex-start; } }
 
