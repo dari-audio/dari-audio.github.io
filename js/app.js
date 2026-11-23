@@ -5907,6 +5907,8 @@
   let gameOrder = [];
   let gameIndex = 0;
   let gameCompleted = new Set();
+  let gameResultColors = new Map();
+  let gameAttemptCount = 0;
   let gameMistakes = 0;
   let gameFeedback = "";
   let gameWrongId = "";
@@ -5974,6 +5976,8 @@
     gameOrder = gameShuffle(gameMapFeatures || []);
     gameIndex = 0;
     gameCompleted = new Set();
+    gameResultColors = new Map();
+    gameAttemptCount = 0;
     gameMistakes = 0;
     gameFeedback = "";
     gameWrongId = "";
@@ -5991,11 +5995,13 @@
           const info = gameFeatureName(feature);
           const id = info.key || String(index);
           const completed = gameCompleted.has(id);
+          const resultColor = gameResultColors.get(id) || "";
+          const revealed = !completed && current && gameAttemptCount >= 3 && gameFeatureName(current).key === id;
           const wrong = gameWrongId === id;
           const labelPoint = gameShowProvinceNames ? gameLabelPoint(feature.geometry) : null;
           const label = labelPoint ? project(labelPoint) : null;
           return `<g>
-            <path class="province-shape${completed ? " is-correct" : ""}${wrong ? " is-wrong" : ""}" data-game-province="${esc(id)}" d="${gameSvgPath(feature.geometry, project)}" fill-rule="evenodd" tabindex="0" role="button" aria-label="${esc(info.name)}" />
+            <path class="province-shape${completed ? ` is-correct ${resultColor}` : ""}${revealed ? " is-revealed" : ""}${wrong ? " is-wrong" : ""}" data-game-province="${esc(id)}" d="${gameSvgPath(feature.geometry, project)}" fill-rule="evenodd" tabindex="0" role="button" aria-label="${esc(info.name)}" />
             ${label ? `<text class="province-map-label" x="${label[0].toFixed(1)}" y="${(label[1] - 2).toFixed(1)}" text-anchor="middle" aria-hidden="true"><tspan x="${label[0].toFixed(1)}">${esc(info.name)}</tspan><tspan class="province-map-label-dari" x="${label[0].toFixed(1)}" dy="10" direction="rtl" unicode-bidi="plaintext">${esc(info.dari)}</tspan></text>` : ""}
           </g>`;
         }).join("")}
@@ -6006,7 +6012,7 @@
       mapMarkup = '<div class="game-map-message"><span class="loading-spinner"></span><p>Загружаем карту провинций…</p></div>';
     }
     return `<div class="page game-page">
-      <div class="page-head"><div><div class="eyebrow">География · Афганистан</div><h1>Найди провинцию</h1><p>Прочитай название и нажми на нужную провинцию на карте. Изученные области будут отмечаться зелёным.</p></div><div class="game-map-actions"><button class="btn btn-soft" type="button" data-game-map-names aria-pressed="${gameShowProvinceNames}">${gameShowProvinceNames ? "Скрыть названия" : "Показать карту с названиями"}</button></div></div>
+      <div class="page-head"><div><div class="eyebrow">География · Афганистан</div><h1>Найди провинцию</h1><p>Найди провинцию на карте. Цвет покажет, с какой попытки ты её нашёл.</p></div><div class="game-map-actions"><button class="btn btn-soft" type="button" data-game-map-names aria-pressed="${gameShowProvinceNames}">${gameShowProvinceNames ? "Скрыть названия" : "Показать карту с названиями"}</button></div></div>
       <div class="game-layout">
         <section class="game-board">
           <div class="game-question">
@@ -6021,9 +6027,9 @@
         <aside class="game-side">
           <div class="game-stats"><div><strong>${done}</strong><span>найдено</span></div><div><strong>${gameMistakes}</strong><span>ошибок</span></div></div>
           <div class="game-progress"><div class="progress-track"><div class="progress-fill" style="width:${total ? done / total * 100 : 0}%"></div></div><span>${total ? Math.round(done / total * 100) : 0}%</span></div>
-          <p class="game-instruction">Нажми на любую область карты. Если ошибёшься, можно попробовать ещё раз.</p>
+          <p class="game-instruction">С первой попытки — зелёный, со второй — жёлтый, с третьей — оранжевый. После трёх ошибок правильная область подсветится фиолетовым; после выбора она станет красной.</p>
           <button class="btn btn-ghost game-reset" type="button" data-game-reset>${done === total && total ? "Сыграть ещё раз" : "Начать заново"}</button>
-          <div class="game-legend"><span></span> Провинция найдена</div>
+          <div class="game-legend"><span class="legend-green"></span> С первой попытки <span class="legend-yellow"></span> Со второй <span class="legend-orange"></span> С третьей <span class="legend-purple"></span> Ответ подсказан <span class="legend-red"></span> После подсказки</div>
         </aside>
       </div>
       <section class="province-reference">
@@ -6073,13 +6079,17 @@
     if (!gameMapFeatures || !gameCurrent() || gameCompleted.size === gameOrder.length) return;
     const current = gameFeatureName(gameCurrent());
     if (id === current.key) {
+      const attempts = gameAttemptCount + 1;
+      gameResultColors.set(id, attempts === 1 ? "is-first-try" : attempts === 2 ? "is-second-try" : attempts === 3 ? "is-third-try" : "is-after-reveal");
       gameCompleted.add(id);
+      gameAttemptCount = 0;
       gameFeedback = "Верно! Отличная работа.";
       gameWrongId = "";
       gameIndex += 1;
       if (gameCompleted.size === gameOrder.length) gameFeedback = "Верно! Ты нашёл все 34 провинции. Отличная работа!";
     } else {
       gameMistakes += 1;
+      gameAttemptCount += 1;
       gameWrongId = id;
       gameFeedback = "Пока не так — попробуй ещё раз.";
       renderRoute({ scroll: false });
