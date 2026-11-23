@@ -929,7 +929,6 @@
       </div>
       <div class="modal-section"><h3>Четыре формы</h3><div class="forms-grid">${forms}</div></div>
       <div class="modal-section"><h3>Примеры</h3><div class="example-grid">${examples}</div></div>
-      <div class="tip-box"><strong>Подсказка.</strong> ${esc(letter.tip)}</div>
       ${audioButtons || archiveAudioButton ? `<div class="modal-section"><h3>Аудиоурок</h3><div class="modal-actions" style="margin:0;padding:0;border:0">${audioButtons}${archiveAudioButton}</div></div>` : ""}
       <div class="modal-actions">
         <button class="btn ${known ? "btn-soft" : "btn-primary"}" type="button" data-letter-toggle="${esc(letter.id)}" aria-pressed="${known}">${known ? svg("check") + " Изучена" : "Отметить изученной"}</button>
