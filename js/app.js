@@ -6029,7 +6029,7 @@
           <div class="game-progress"><div class="progress-track"><div class="progress-fill" style="width:${total ? done / total * 100 : 0}%"></div></div><span>${total ? Math.round(done / total * 100) : 0}%</span></div>
           <p class="game-instruction">С первой попытки — зелёный, со второй — жёлтый, с третьей — оранжевый. После трёх ошибок правильная область подсветится фиолетовым; после выбора она станет красной.</p>
           <button class="btn btn-ghost game-reset" type="button" data-game-reset>${done === total && total ? "Сыграть ещё раз" : "Начать заново"}</button>
-          <div class="game-legend"><span class="legend-green"></span> С первой попытки <span class="legend-yellow"></span> Со второй <span class="legend-orange"></span> С третьей <span class="legend-purple"></span> Ответ подсказан <span class="legend-red"></span> После подсказки</div>
+          <div class="game-legend"><div class="game-legend-item"><span class="legend-green"></span> С первой попытки</div><div class="game-legend-item"><span class="legend-yellow"></span> Со второй</div><div class="game-legend-item"><span class="legend-orange"></span> С третьей</div><div class="game-legend-item"><span class="legend-purple"></span> Ответ подсказан</div><div class="game-legend-item"><span class="legend-red"></span> После подсказки</div></div>
         </aside>
       </div>
       <section class="province-reference">
