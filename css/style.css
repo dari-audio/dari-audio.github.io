@@ -2087,8 +2087,9 @@ kbd {
 .game-progress .progress-track { flex: 1; }
 .game-instruction { margin: 18px 0; color: var(--muted); font-size: .82rem; line-height: 1.55; }
 .game-reset { width: 100%; justify-content: center; }
-.game-legend { display: flex; align-items: center; flex-wrap: wrap; gap: 7px 8px; margin-top: 18px; color: var(--muted); font-size: .68rem; line-height: 1.4; }
-.game-legend span { flex: 0 0 12px; width: 12px; height: 12px; border-radius: 3px; background: #78a88a; }
+.game-legend { display: flex; flex-direction: column; align-items: flex-start; gap: 7px; margin-top: 18px; color: var(--muted); font-size: .68rem; line-height: 1.4; }
+.game-legend-item { display: flex; align-items: center; gap: 8px; }
+.game-legend-item > span { flex: 0 0 12px; width: 12px; height: 12px; border-radius: 3px; background: #78a88a; }
 .game-legend .legend-yellow { background: #e4c66f; }
 .game-legend .legend-orange { background: #d9915d; }
 .game-legend .legend-purple { background: #9785bd; }
