@@ -4126,6 +4126,49 @@
   ] };
   textbook2TaskCollections.push(textbook2TaskCollection17);
 
+
+  const textbook2TaskCollection18 = { id: 1018, lessonId: 18, title: "Урок 18 · Слова из заданий", cards: [
+    { dari: "سخن", translit: "soxan", ru: "слово, речь" },
+    { dari: "لبخند", translit: "labxand", ru: "улыбка" },
+    { dari: "سرور", translit: "sorūr", ru: "радость, веселье" },
+    { dari: "خبر", translit: "xabar", ru: "новость, известие" },
+    { dari: "تشویش", translit: "tašwīš", ru: "беспокойство, тревога" },
+    { dari: "روی وکله", translit: "rōy-o-kalla", ru: "лицо и голова; облик, вид" },
+    { dari: "گریه", translit: "girya", ru: "плач" },
+    { dari: "خوشحالی", translit: "xōšhālī", ru: "радость, весёлость" },
+    { dari: "گام", translit: "gām", ru: "шаг" },
+    { dari: "فکر", translit: "fekr", ru: "мысль, дума" },
+    { dari: "جستجو", translit: "jostojū", ru: "поиск" },
+    { dari: "جست وخیز", translit: "jast-o-xīz", ru: "прыжки, суета, движение" },
+    { dari: "پریشان", translit: "parēšān", ru: "рассеянный, встревоженный" },
+    { dari: "کوتاه قد", translit: "kōtāh-qad", ru: "низкорослый" },
+    { dari: "قدیمی", translit: "qadīmī", ru: "старый, давний" },
+    { dari: "ناگهان", translit: "nāgahān", ru: "внезапно, вдруг" },
+    { dari: "جلو", translit: "jelaw", ru: "перед, впереди" },
+    { dari: "بیدرنک", translit: "bē-darang", ru: "немедленно, без промедления" },
+    { dari: "شتابزده", translit: "šetābzada", ru: "поспешный, торопливый" },
+    { dari: "برامدن", translit: "barāmadan", ru: "подниматься; выходить; выступать" },
+    { dari: "افزایش یافتن", translit: "afzāyiš yāftan", ru: "увеличиваться, возрастать" },
+    { dari: "تعلق داشتن", translit: "ta'alloq dāštan", ru: "принадлежать; быть привязанным" },
+    { dari: "نگریستن", translit: "negarīstan", ru: "смотреть, глядеть" },
+    { dari: "منعکس شدن", translit: "mon'akes šodan", ru: "отражаться" },
+    { dari: "ایستادن", translit: "īstādan", ru: "стоять; останавливаться" },
+    { dari: "اندیشیدن", translit: "andēšīdan", ru: "думать, размышлять" },
+    { dari: "فریاد زدن", translit: "faryād zadan", ru: "кричать, восклицать" },
+    { dari: "خندیدن", translit: "xandīdan", ru: "смеяться" },
+    { dari: "گپ زدن", translit: "gap zadan", ru: "болтать, беседовать" },
+    { dari: "روان شدن", translit: "rawān šodan", ru: "течь; отправляться в путь" },
+    { dari: "گوش دادن", translit: "gōš dādan", ru: "слушать" },
+    { dari: "فرار کردن", translit: "farār kardan", ru: "убегать, спасаться бегством" },
+    { dari: "نظر انداختن", translit: "nazar andāxtan", ru: "взглянуть, бросить взгляд" },
+    { dari: "آنچنانکه", translit: "ānčenān-ke", ru: "так, как; подобно тому как" },
+    { dari: "انگار", translit: "engār", ru: "будто, как будто" },
+    { dari: "به سوی...", translit: "ba sūy-e...", ru: "по направлению к…" },
+    { dari: "پشت...", translit: "pošt-e...", ru: "за, позади" },
+    { dari: "کنار...", translit: "kenār-e...", ru: "рядом с, около" }
+  ] };
+  textbook2TaskCollections.push(textbook2TaskCollection18);
+
   const textbook2TaskCollection2 = { id: 1002, lessonId: 2, title: "Урок 2 · Слова из заданий", cards: [
   {
     "dari": "کوه",
