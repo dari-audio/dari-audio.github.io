@@ -4072,6 +4072,60 @@
   ] };
   textbook2TaskCollections.push(textbook2TaskCollection16);
 
+
+  const textbook2TaskCollection17 = { id: 1017, lessonId: 17, title: "Урок 17 · Слова из заданий", cards: [
+    { dari: "کوشش", translit: "kūšiš", ru: "старание, усилие", note: "Исходный глагол: کوشیدن" },
+    { dari: "بزرگداشت", translit: "bozorgdāšt", ru: "чествование, почитание", note: "Исходный глагол: بزرگداشتن" },
+    { dari: "ارزش", translit: "arziš", ru: "ценность, значение", note: "Исходный глагол: ارزیدن" },
+    { dari: "چکک", translit: "čakak", ru: "драка, ссора", note: "Исходный глагол: چکک کردن" },
+    { dari: "دیدار", translit: "dīdār", ru: "встреча, свидание", note: "Исходный глагол: دیدن" },
+    { dari: "دانش", translit: "dāniš", ru: "знание", note: "Исходный глагол: دانستن" },
+    { dari: "زد و خورد", translit: "zad-o-xōrd", ru: "драка, столкновение", note: "Исходный глагол: زدن و خوردن" },
+    { dari: "فریب", translit: "farēb", ru: "обман", note: "Исходный глагол: فریفتن" },
+    { dari: "شناخت", translit: "šenāxt", ru: "познание, знание", note: "Исходный глагол: شناختن" },
+    { dari: "کردار", translit: "kirdār", ru: "действие, поступок", note: "Исходный глагол: کردن" },
+    { dari: "ریزش", translit: "rēziš", ru: "падение; осыпание; обвал", note: "Исходный глагол: ریختن" },
+    { dari: "گریز", translit: "gorēz", ru: "бегство; уклонение", note: "Исходный глагол: گریختن" },
+    { dari: "پیشنهاد", translit: "pēšnāhād", ru: "предложение", note: "Исходный глагол: پیشنهادن" },
+    { dari: "جنبش", translit: "jonbeš", ru: "движение", note: "Исходный глагол: جنبیدن" },
+    { dari: "دست آورد", translit: "dast-āward", ru: "достижение, приобретение", note: "Исходный глагол: دست آوردن" },
+    { dari: "شتاب", translit: "šetāb", ru: "поспешность, спешка", note: "Исходный глагол: شتافتن" },
+    { dari: "فرمایش", translit: "farmāyiš", ru: "приказание, распоряжение", note: "Исходный глагол: فرمودن" },
+    { dari: "جستجو", translit: "jostojū", ru: "поиск", note: "Исходный глагол: جستن" },
+    { dari: "رویداد", translit: "rōydād", ru: "событие, происшествие", note: "Исходный глагол: روی دادن" },
+    { dari: "پرسش", translit: "porseš", ru: "вопрос", note: "Исходный глагол: پرسیدن" },
+    { dari: "فروش", translit: "forōš", ru: "продажа", note: "Исходный глагол: فروختن" },
+    { dari: "درخواست", translit: "darxāst", ru: "просьба, запрос", note: "Исходный глагол: درخواستن" },
+    { dari: "پرس و پال", translit: "pors-o-pāl", ru: "расспросы, дознание", note: "Исходный глагол: پرسیدن و پالیدن" },
+    { dari: "نمایش", translit: "namāyiš", ru: "показ, представление", note: "Исходный глагол: نمودن" },
+    { dari: "دوخت", translit: "dōxt", ru: "шитьё", note: "Исходный глагол: دوختن" },
+    { dari: "جست و خیز", translit: "jast-o-xēz", ru: "прыжки, суета", note: "Исходный глагол: جستن و خزیدن" },
+    { dari: "توان", translit: "tawān", ru: "сила, способность", note: "Исходный глагол: توانستن" },
+    { dari: "لرزه", translit: "larza", ru: "дрожь, сотрясение", note: "Исходный глагол: لرزیدن" },
+    { dari: "درآمد", translit: "darāmad", ru: "доход; вход", note: "Исходный глагол: درآمدن" },
+    { dari: "خواهش", translit: "xwāhiš", ru: "просьба", note: "Исходный глагол: خواستن" },
+    { dari: "یادداشت", translit: "yāddāšt", ru: "заметка, запись", note: "Исходный глагол: یاد داشتن" },
+    { dari: "شستشو", translit: "šošt-o-šū", ru: "мытьё, промывание", note: "Исходный глагол: شستن" },
+    { dari: "دوش", translit: "dōš", ru: "доение", note: "Исходный глагол: دوشیدن" },
+    { dari: "ساختمان", translit: "sāxtmān", ru: "строение; строительство", note: "Исходный глагол: ساختن" },
+    { dari: "گفت و شنید", translit: "goft-o-šenīd", ru: "разговор, беседа", note: "Исходный глагол: گفتن و شنیدن" },
+    { dari: "درگذشت", translit: "dargozašt", ru: "кончина, смерть", note: "Исходный глагол: درگذشتن" },
+    { dari: "خوراک", translit: "xōrāk", ru: "пища, еда", note: "Исходный глагол: خوردن" },
+    { dari: "رفتار", translit: "raftār", ru: "поведение", note: "Исходный глагол: رفتن" },
+    { dari: "رفت و آمد", translit: "raft-o-āmad", ru: "хождение туда-сюда, движение", note: "Исходный глагол: رفتن و آمدن" },
+    { dari: "بود و باش", translit: "būd-o-bāš", ru: "пребывание, житьё", note: "Исходный глагол: بودن و باشیدن" },
+    { dari: "گردش", translit: "gardeš", ru: "прогулка; вращение", note: "Исходный глагол: گشتن / گردیدن" },
+    { dari: "بازگشت", translit: "bāzgašt", ru: "возвращение", note: "Исходный глагол: بازگشتن" },
+    { dari: "پوشاک", translit: "pōšāk", ru: "одежда", note: "Исходный глагол: پوشیدن" },
+    { dari: "شماره", translit: "šomāra", ru: "номер, число", note: "Исходный глагол: شمردن" },
+    { dari: "گفتار", translit: "goftār", ru: "речь, высказывание", note: "Исходный глагол: گفتن" },
+    { dari: "چکک", translit: "čakak", ru: "драка, ссора", note: "Исходный глагол: چکک کردن" },
+    { dari: "در نظر داشت", translit: "dar nazar dāšt", ru: "намерение, учёт", note: "Исходный глагол: در نظر داشتن" },
+    { dari: "سازمان", translit: "sāzmān", ru: "организация", note: "Исходный глагол: سازمان دادن" },
+    { dari: "خرید و فروش", translit: "xarīd-o-forōš", ru: "торговля, купля-продажа", note: "Исходный глагол: خریدن و فروختن" }
+  ] };
+  textbook2TaskCollections.push(textbook2TaskCollection17);
+
   const textbook2TaskCollection2 = { id: 1002, lessonId: 2, title: "Урок 2 · Слова из заданий", cards: [
   {
     "dari": "کوه",
@@ -5557,7 +5611,7 @@
     const flash = unknownOrder.length ? `<div class="flash-wrap"><div class="flash-progress"><span>${index+1} / ${unknownOrder.length} осталось</span><div class="progress-track"><div class="progress-fill" style="width:${(index+1)/unknownOrder.length*100}%"></div></div><span>${knownCount}/${collection.cards.length} знаю</span></div>
       <div class="flashcard-stage"><div class="flashcard textbook-word-card ${flipped?"flipped":""} ${russianFirst?"russian-first":""}" data-textbook-flip tabindex="0" role="button" aria-label="Перевернуть карточку">
       <div class="flash-face front">${russianFirst ? `<div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">${esc(card.ru)}</div>` : `<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div>`}<span class="hint">Нажмите на карточку, чтобы увидеть ${russianFirst ? "дари" : "перевод"}</span></div>
-      <div class="flash-face back">${russianFirst ? `<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div>` : `<div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">${esc(card.ru)}</div>${card.translit ? `<div class="flash-translit" style="color:var(--gold)">${esc(card.translit)}</div>` : ""}`}<span class="hint">Нажмите ещё раз, чтобы вернуться</span></div></div></div>
+      <div class="flash-face back">${russianFirst ? `<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div>` : `<div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">${esc(card.ru)}</div>${card.translit ? `<div class="flash-translit" style="color:var(--gold)">${esc(card.translit)}</div>` : ""}`}${card.note?`<div class="flash-numeral">${esc(card.note)}</div>`:""}<span class="hint">Нажмите ещё раз, чтобы вернуться</span></div></div></div>
       <div class="flash-actions"><button class="btn btn-primary btn-sm" type="button" data-textbook2-know="${originalIndex}">${svg("check")} Знаю</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-prev ${index===0?"disabled":""}>${svg("arrowLeft")} Назад</button><button class="btn btn-soft btn-sm" type="button" data-textbook-flip-button>${svg("flip")} ${russianFirst ? "Дари" : "Перевод"}</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-next ${index===unknownOrder.length-1?"disabled":""}>Дальше ${svg("arrowRight")}</button></div></div>` : `<div class="empty-state"><h3>Все слова знакомы!</h3><p>Снимите отметку «Знаю» в списке, чтобы вернуть слово в карточки.</p></div>`;
     return `<div class="page"><a class="back-link" href="#/textbook-2/lesson-${collection.id}">${svg("arrowRight")} К уроку ${collection.id}</a>
       <div class="detail-hero" data-letter="📚"><div class="detail-badge" style="font-size:1.8rem">📚</div><div class="detail-hero-copy"><span class="eyebrow">Урок ${collection.id} · Словарь</span><h1>${collection.title}</h1><div class="en-title">Карточки для изучения слов</div><p>Коллекция содержит ${collection.cards.length} слов.</p></div></div>
@@ -5581,7 +5635,7 @@
     const russianFirst = Boolean(ui.textbook2RussianFirst[id]);
     const knownCount = collection.cards.length - unknownOrder.length;
     const pluralMode = lessonId === 15 && Boolean(card?.singular);
-    const list = `<div class="word-list textbook-word-list">${collection.cards.map((word,i)=>{const known=Boolean(state.textbook2Words[textbook2WordKey(id,i)]);return `<div class="word-row ${known?"known":""}"><span class="idx">${pad(i+1)}</span>${word.singular?`<span class="dari">${esc(word.singular)}</span><span class="translit">${esc(word.singularTranslit)}</span><span class="ru">${esc(word.singularRu)}</span><span class="dari">${esc(word.dari)}</span><span class="translit">${esc(word.translit)}</span><span class="ru">${esc(word.ru)}</span>`:`<span class="dari">${esc(word.dari)}</span><span class="translit">${esc(word.translit)}</span><span class="ru">${esc(word.ru)}</span>`}<button class="know-dot" type="button" data-textbook2-task-word="${i}" aria-label="${known?"Убрать отметку «Знаю»":"Отметить слово как известное"}" aria-pressed="${known}">${svg("check")}</button></div>`}).join("")}</div>`;
+    const list = `<div class="word-list textbook-word-list">${collection.cards.map((word,i)=>{const known=Boolean(state.textbook2Words[textbook2WordKey(id,i)]);return `<div class="word-row ${known?"known":""}"><span class="idx">${pad(i+1)}</span>${word.singular?`<span class="dari">${esc(word.singular)}</span><span class="translit">${esc(word.singularTranslit)}</span><span class="ru">${esc(word.singularRu)}</span><span class="dari">${esc(word.dari)}</span><span class="translit">${esc(word.translit)}</span><span class="ru">${esc(word.ru)}</span>`:`<span class="dari">${esc(word.dari)}</span><span class="translit">${esc(word.translit)}</span><span class="ru">${esc(word.ru)}</span>`}${word.note?`<span class="translit">${esc(word.note)}</span>`:""}<button class="know-dot" type="button" data-textbook2-task-word="${i}" aria-label="${known?"Убрать отметку «Знаю»":"Отметить слово как известное"}" aria-pressed="${known}">${svg("check")}</button></div>`}).join("")}</div>`;
     const flash = unknownOrder.length ? `<div class="flash-wrap"><div class="flash-progress"><span>${index+1} / ${unknownOrder.length} осталось</span><div class="progress-track"><div class="progress-fill" style="width:${(index+1)/unknownOrder.length*100}%"></div></div><span>${knownCount}/${collection.cards.length} знаю</span></div><div class="flashcard-stage"><div class="flashcard textbook-word-card ${flipped?"flipped":""} ${pluralMode?"plural-pair-card":russianFirst?"russian-first":""}" data-textbook-task-flip tabindex="0" role="button" aria-label="Перевернуть карточку"><div class="flash-face front">${pluralMode?`<div class="flash-numeral" style="color:var(--gold)">единственное число</div><div class="flash-dari">${esc(card.singular)}</div><div class="flash-translit">${esc(card.singularTranslit)}</div><div class="flash-ru">${esc(card.singularRu)}</div>`:russianFirst?`<div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">${esc(card.ru)}</div>`:`<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div>`}<span class="hint">Нажмите на карточку, чтобы увидеть ${pluralMode?"множественное число":russianFirst?"дари":"перевод"}</span></div><div class="flash-face back">${pluralMode?`<div class="flash-numeral" style="color:var(--gold)">множественное число</div><div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div><div class="flash-ru">${esc(card.ru)}</div>`:russianFirst?`<div class="flash-dari">${esc(card.dari)}</div><div class="flash-translit">${esc(card.translit)}</div>`:`<div class="flash-numeral" style="color:var(--gold)">перевод</div><div class="flash-ru">${esc(card.ru)}</div>`}<span class="hint">Нажмите ещё раз, чтобы вернуться</span></div></div></div><div class="flash-actions"><button class="btn btn-primary btn-sm" type="button" data-textbook2-task-know="${originalIndex}">${svg("check")} Знаю</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-task-prev ${index===0?"disabled":""}>${svg("arrowLeft")} Назад</button><button class="btn btn-soft btn-sm" type="button" data-textbook-task-flip-button>${svg("flip")} ${pluralMode?(flipped?"Единственное число":"Множественное число"):russianFirst?"Дари":"Перевод"}</button><button class="btn btn-ghost btn-sm" type="button" data-textbook-task-next ${index===unknownOrder.length-1?"disabled":""}>Дальше ${svg("arrowRight")}</button></div></div>` : `<div class="empty-state"><h3>Все слова знакомы!</h3><p>Снимите отметку «Знаю» в списке, чтобы вернуть слово в карточки.</p></div>`;
     return `<div class="page"><a class="back-link" href="#/textbook-2/lesson-${lessonId}">${svg("arrowRight")} К уроку ${lessonId}</a><div class="detail-hero" data-letter="✍️"><div class="detail-badge" style="font-size:1.8rem">✍️</div><div class="detail-hero-copy"><span class="eyebrow">Урок ${lessonId} · Слова из заданий</span><h1>${collection.title}</h1><div class="en-title">Карточки для изучения слов</div><p>Коллекция содержит ${collection.cards.length} слов.</p></div></div><div class="flash-toolbar"><div class="view-switch"><button class="${ui.textbook2View==="cards"?"active":""}" type="button" data-textbook-view="cards">${svg("cards")} Карточки</button><button class="${ui.textbook2View==="list"?"active":""}" type="button" data-textbook-view="list">${svg("list")} Список</button></div><button class="btn btn-soft btn-sm" type="button" data-textbook-task-direction ${lessonId===15?"hidden":""}>${russianFirst?"Сначала: русский":"Сначала: дари"}</button><button class="btn btn-soft btn-sm" type="button" data-textbook-task-shuffle>↝ Перемешать</button></div>${ui.textbook2View==="list"?list:flash}</div>`;
   };
