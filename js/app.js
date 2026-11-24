@@ -8,6 +8,8 @@
   const DATA = window.DARI_DATA;
   const APP = document.getElementById("app");
   const STORAGE_KEY = "dari-progress-v1";
+  const CLASSROOM_API = "https://d5dc5ar7k7tn880jseag.4b4k4pg5.apigw.yandexcloud.net";
+  const STUDENT_SESSION_KEY = "dari-student-session-v1";
 
   if (!DATA) {
     APP.innerHTML = '<div class="page"><div class="empty-state"><h3>Не удалось загрузить данные</h3><p>Проверьте файл js/data.js.</p></div></div>';
@@ -5992,6 +5994,27 @@
     </div>`;
   };
 
+
+  const readStudentSession = () => {
+    try {
+      const session = JSON.parse(localStorage.getItem(STUDENT_SESSION_KEY) || "null");
+      if (!session || !session.token) return null;
+      if (session.expires_at && Date.parse(session.expires_at) <= Date.now()) {
+        localStorage.removeItem(STUDENT_SESSION_KEY);
+        return null;
+      }
+      return session;
+    } catch (_) { return null; }
+  };
+
+  const renderStudentPortal = () => {
+    const session = readStudentSession();
+    if (session) {
+      return '<div class="page student-page"><div class="page-heading"><div><span class="eyebrow">DARI CLASSROOM</span><h1>Кабинет ученика</h1><p class="page-lead">Вы вошли в учебный кабинет.</p></div></div><section class="student-panel"><div class="student-panel-mark" aria-hidden="true">✓</div><h2>Здравствуйте, ' + esc(session.display_name || session.username) + '!</h2><p>Вход выполнен. Ваш аккаунт ученика подключён.</p>' + (session.must_change_password ? '<p class="student-notice">Для вашего аккаунта требуется сменить временный пароль. Пока функция смены пароля не подключена — обратитесь к преподавателю.</p>' : '') + '<button class="btn btn-secondary" type="button" data-student-logout>Выйти</button></section></div>';
+    }
+    return '<div class="page student-page"><div class="page-heading"><div><span class="eyebrow">DARI CLASSROOM</span><h1>Вход для учеников</h1><p class="page-lead">Войдите с именем пользователя и паролем, которые вы получили от преподавателя.</p></div></div><section class="student-panel student-login-panel"><form data-student-login><label class="student-field"><span>Имя пользователя</span><input name="username" type="text" autocomplete="username" maxlength="100" required></label><label class="student-field"><span>Пароль</span><input name="password" type="password" autocomplete="current-password" maxlength="256" required></label><p class="student-login-error" data-student-login-error role="alert" hidden></p><button class="btn btn-primary student-submit" type="submit">Войти</button></form><p class="student-help">Если вы не знаете свои данные для входа, обратитесь к преподавателю.</p></section></div>';
+  };
+
   const notFound = (message = "Страница не найдена") => `<div class="page"><div class="empty-state"><h3>${esc(message)}</h3><p>Возможно, ссылка устарела. Вернитесь на главную или откройте нужный раздел.</p><a class="btn btn-primary btn-sm" style="margin-top:16px" href="#/home">На главную</a></div></div>`;
 
   /* ---------- Глобальный поиск ---------- */
@@ -6157,6 +6180,7 @@
       case "textbook-1": return { nav: "textbook-1", title: "Учебник: курс 1" };
       case "textbook-2": case "textbook": return { nav: "textbook-2", title: "Учебник: курс 2" };
       case "about": return { nav: "about", title: "О проекте" };
+      case "student": return { nav: "student", title: "Кабинет ученика" };
       default: return { nav: "home", title: "Главная" };
     }
   };
@@ -6494,6 +6518,7 @@
     else if (section === "textbook-1") html = renderTextbook(1);
     else if (section === "textbook-2" || section === "textbook") html = parts[1] && parts[1].startsWith("lesson-") ? (parts[2] === "vocab" ? renderTextbook2Collection(parts[1].slice(7)) : parts[2] === "phrases" ? renderPhrasePractice(parts[1].slice(7)) : parts[2] === "tasks" ? renderTextbook2Tasks(parts[1].slice(7)) : renderTextbook2Lesson(parts[1].slice(7))) : parts[1] && parts[1].startsWith("phrases-") ? renderPhrasePractice(parts[1].slice(8)) : renderTextbook(2);
     else if (section === "about") html = renderAbout();
+    else if (section === "student") html = renderStudentPortal();
     else html = notFound();
 
     APP.innerHTML = html;
@@ -6590,6 +6615,13 @@
   /* ---------- События ---------- */
   const onClick = (event) => {
     const target = event.target.closest("button, a, [data-flip-card]") || event.target;
+
+    if (target.closest("[data-student-logout]")) {
+      localStorage.removeItem(STUDENT_SESSION_KEY);
+      renderRoute({ scroll: false });
+      toast("Вы вышли из кабинета", "check");
+      return;
+    }
 
     if (event.target.classList && event.target.classList.contains("modal-backdrop")) {
       closeModal();
@@ -7132,6 +7164,50 @@
     if (province && (event.key === "Enter" || event.key === " ")) {
       event.preventDefault();
       handleGameProvince(province.dataset.gameProvince);
+    }
+  });
+
+
+  document.addEventListener("submit", async (event) => {
+    const form = event.target.closest("[data-student-login]");
+    if (!form) return;
+    event.preventDefault();
+    const submit = form.querySelector('button[type="submit"]');
+    const errorBox = form.querySelector("[data-student-login-error]");
+    const formData = new FormData(form);
+    const username = String(formData.get("username") || "").trim();
+    const password = String(formData.get("password") || "");
+    submit.disabled = true;
+    submit.textContent = "Входим…";
+    errorBox.hidden = true;
+    try {
+      const response = await fetch(CLASSROOM_API + "/auth/student/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username, password })
+      });
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok || !result.success || !result.token) {
+        throw new Error(result.error || result.message || "Не удалось войти. Проверьте имя пользователя и пароль.");
+      }
+      localStorage.setItem(STUDENT_SESSION_KEY, JSON.stringify({
+        token: result.token,
+        username: result.username,
+        display_name: result.display_name,
+        expires_at: result.expires_at,
+        must_change_password: Boolean(result.must_change_password)
+      }));
+      form.reset();
+      renderRoute({ scroll: false });
+      toast("Вход выполнен", "check");
+    } catch (error) {
+      errorBox.textContent = error.message || "Сервис входа временно недоступен. Попробуйте позже.";
+      errorBox.hidden = false;
+    } finally {
+      if (submit.isConnected) {
+        submit.disabled = false;
+        submit.textContent = "Войти";
+      }
     }
   });
 
