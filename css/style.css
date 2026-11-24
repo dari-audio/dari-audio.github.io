@@ -2121,8 +2121,10 @@ kbd {
 .game-page .page-head { display: flex; align-items: end; justify-content: space-between; gap: 16px; }
 .game-map-actions { flex: 0 0 auto; }
 .province-map-label { fill: #253b32; font: 700 8px/1.1 var(--sans); paint-order: stroke; stroke: rgba(255,255,255,.9); stroke-width: 2.5px; stroke-linejoin: round; pointer-events: none; }
-.province-map-label-dari { font-family: var(--dari); font-size: 8px; font-weight: 600; }
-.province-shape.is-correct + .province-map-label { fill: #fff; }
+.province-map-label-dari { font-family: var(--dari); font-size: 8px; font-weight: 700; }
+.province-shape.is-correct + .province-map-label,
+.province-shape.is-correct + .province-map-label tspan { fill: #fff; font-weight: 800; }
+.province-shape.is-correct + .province-map-label { stroke: rgba(23,63,51,.9); stroke-width: 1.5px; }
 @media (max-width: 650px) { .game-page .page-head { display: block; } .game-map-actions { margin-top: 12px; } .game-map-actions .btn { width: 100%; justify-content: center; } .province-map-label { font-size: 7px; stroke-width: 2px; } .province-map-label-dari { font-size: 7px; } }
 
 
