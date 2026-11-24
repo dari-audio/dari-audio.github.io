@@ -6036,12 +6036,13 @@
           const info = gameDisplayFeatureName(feature);
           const id = info.key || String(index);
           const completed = gameCompleted.has(id);
+          const resultColor = gameResultColors.get(id) || "";
           const revealed = !completed && current && gameAttemptCount >= 3 && gameFeatureName(current).key === id;
           const wrong = gameWrongId === id;
           const labelPoint = gameShowProvinceNames ? gameLabelPoint(feature.geometry) : null;
           const label = labelPoint ? project(labelPoint) : null;
           return `<g>
-            <path class="province-shape${completed ? " is-correct" : ""}${revealed ? " is-revealed" : ""}${wrong ? " is-wrong" : ""}" data-game-province="${esc(id)}" d="${gameSvgPath(feature.geometry, project)}" fill-rule="evenodd" tabindex="0" role="button" aria-label="${esc(info.name)}" />
+            <path class="province-shape${completed ? ` is-correct ${resultColor}` : ""}${revealed ? " is-revealed" : ""}${wrong ? " is-wrong" : ""}" data-game-province="${esc(id)}" d="${gameSvgPath(feature.geometry, project)}" fill-rule="evenodd" tabindex="0" role="button" aria-label="${esc(info.name)}" />
             ${label ? `<text class="province-map-label" x="${label[0].toFixed(1)}" y="${(label[1] - 2).toFixed(1)}" text-anchor="middle" aria-hidden="true"><tspan x="${label[0].toFixed(1)}">${esc(info.name)}</tspan><tspan class="province-map-label-dari" x="${label[0].toFixed(1)}" dy="10" direction="rtl" unicode-bidi="plaintext">${esc(info.dari)}</tspan></text>` : ""}
           </g>`;
         }).join("")}
