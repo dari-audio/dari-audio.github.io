@@ -5903,7 +5903,7 @@
     saripul: { name: "Сари-Пуль", dari: "سرپل", capital: "Сари-Пуль", capitalDari: "سرپل" },
     takhar: { name: "Тахар", dari: "تخار", capital: "Талокан", capitalDari: "تالقان" },
     uruzgan: { name: "Урузган", dari: "اورزگان", capital: "Таринкот", capitalDari: "ترین کوټ" },
-    wardak: { name: "Майдан Вардак", dari: "میدان وردک", capital: "Майданшахр", capitalDari: "میدان‌شهر" },
+    wardak: { name: "Майдан-Вардак", dari: "میدان وردک", capital: "Майданшахр", capitalDari: "میدان‌شهر" },
     zabul: { name: "Забуль", dari: "زابل", capital: "Калат", capitalDari: "قلات" }
   };
   const gameProvinceNames = Object.fromEntries(Object.entries(gameProvinceInfo).map(([key, value]) => [key, value.name]));
@@ -5931,25 +5931,36 @@
   let gameWrongId = "";
   let gameShowProvinceNames = false;
 
+  const gameCanonicalProvinceKey = (key) => ({
+    maidanwardak: "wardak",
+    hilmand: "helmand",
+    panjsher: "panjshir",
+    hirat: "herat",
+    jowzjan: "jawzjan",
+    daikundi: "daykundi",
+    paktia: "paktya",
+    sarepul: "saripul",
+    saripol: "saripul",
+    oruzgan: "uruzgan"
+  }[key] || key);
   const gameFeatureName = (feature) => {
     const props = feature.properties || {};
     const raw = props.PROV_34_NA || props.name || props.NAME_1 || props.shapeName || "";
     const key = gameKey(raw);
-    const info = gameProvinceInfo[key] || null;
-    return { raw, key, name: info ? info.name : (gameProvinceNames[key] || raw), dari: info ? info.dari : "", capital: info ? info.capital : "", capitalDari: info ? info.capitalDari : "" };
+    const canonicalKey = gameCanonicalProvinceKey(key);
+    const info = gameProvinceInfo[canonicalKey] || null;
+    return { raw, key, canonicalKey, name: info ? info.name : (gameProvinceNames[key] || raw), dari: info ? info.dari : "", capital: info ? info.capital : "", capitalDari: info ? info.capitalDari : "" };
   };
   const gameDisplayFeatureName = (feature) => {
     const base = gameFeatureName(feature);
-    const canonicalKey = base.key === "maidanwardak" ? "wardak" : base.key;
-    const info = gameProvinceInfo[canonicalKey] || null;
     const labels = {
       herat: { name: "Герат", dari: "هرات" },
       wardak: { name: "Майдан-Вардак", dari: "میدان وردک" },
       helmand: { name: "Гильменд", dari: "هلمند" },
       panjshir: { name: "Панджшер", dari: "پنجشیر" }
     };
-    const label = labels[canonicalKey];
-    return label ? { ...base, name: label.name, dari: label.dari } : { ...base, name: info ? info.name : base.name, dari: info ? info.dari : base.dari };
+    const label = labels[base.canonicalKey];
+    return label ? { ...base, name: label.name, dari: label.dari } : base;
   };
   const gameGeometryRings = (geometry) => {
     if (!geometry) return [];
