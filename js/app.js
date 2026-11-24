@@ -5938,6 +5938,18 @@
     const info = gameProvinceInfo[key] || null;
     return { raw, key, name: info ? info.name : (gameProvinceNames[key] || raw), dari: info ? info.dari : "", capital: info ? info.capital : "", capitalDari: info ? info.capitalDari : "" };
   };
+  const gameDisplayFeatureName = (feature) => {
+    const base = gameFeatureName(feature);
+    const canonicalKey = base.key === "maidanwardak" ? "wardak" : base.key;
+    const info = gameProvinceInfo[canonicalKey] || null;
+    const labels = {
+      herat: { name: "Герат", dari: "هرات" },
+      wardak: { name: "Майдан-Вардак", dari: "میدان وردک" },
+      helmand: { name: "Гильменд", dari: "هلمند" }
+    };
+    const label = labels[canonicalKey];
+    return label ? { ...base, name: label.name, dari: label.dari } : { ...base, name: info ? info.name : base.name, dari: info ? info.dari : base.dari };
+  };
   const gameGeometryRings = (geometry) => {
     if (!geometry) return [];
     if (geometry.type === "Polygon") return [geometry.coordinates];
@@ -6009,7 +6021,7 @@
       const project = gameProjection(gameMapFeatures);
       mapMarkup = `<svg class="province-map-svg" viewBox="0 0 720 560" role="group" aria-label="Карта провинций Афганистана">
         ${gameMapFeatures.map((feature, index) => {
-          const info = gameFeatureName(feature);
+          const info = gameDisplayFeatureName(feature);
           const id = info.key || String(index);
           const completed = gameCompleted.has(id);
           const resultColor = gameResultColors.get(id) || "";
@@ -6034,8 +6046,8 @@
         <section class="game-board">
           <div class="game-question">
             <div class="game-question-label">Найди на карте</div>
-            <div class="game-question-name">${current ? esc(gameFeatureName(current).name) : (total && done === total ? "Все провинции найдены!" : "Подготовка игры…")}</div>
-            ${current ? `<div class="game-question-dari" lang="fa" dir="rtl">${esc(gameFeatureName(current).dari)}</div>` : ""}
+            <div class="game-question-name">${current ? esc(gameDisplayFeatureName(current).name) : (total && done === total ? "Все провинции найдены!" : "Подготовка игры…")}</div>
+            ${current ? `<div class="game-question-dari" lang="fa" dir="rtl">${esc(gameDisplayFeatureName(current).dari)}</div>` : ""}
             <div class="game-question-meta">${total ? `Провинция ${Math.min(done + 1, total)} из ${total}` : "34 провинции Афганистана"}</div>
           </div>
           <div class="game-map-wrap">${mapMarkup}</div>
