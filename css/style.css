@@ -2258,3 +2258,19 @@ kbd {
 .phrase-complete-icon .icon { width: 27px; height: 27px; }
 .phrase-complete h2 { margin: 5px 0 8px; }
 .phrase-complete p { margin: 0 0 18px; color: var(--muted); }
+
+
+/* Student classroom sign-in */
+.student-page { max-width: 980px; }
+.student-panel { width: min(100%, 560px); margin: 28px auto 0; padding: clamp(22px, 4vw, 36px); border: 1px solid var(--line, rgba(30,60,48,.14)); border-radius: 20px; background: var(--surface, #fff); box-shadow: 0 12px 36px rgba(20,40,30,.06); }
+.student-login-panel form { display: grid; gap: 18px; }
+.student-field { display: grid; gap: 8px; color: var(--text, #24352d); font-weight: 650; }
+.student-field input { width: 100%; min-height: 48px; padding: 11px 13px; border: 1px solid var(--line, #d9e1dc); border-radius: 10px; background: var(--bg, #fff); color: var(--text, #24352d); font: inherit; }
+.student-field input:focus { outline: 3px solid rgba(40,112,82,.16); border-color: var(--green, #287052); }
+.student-submit { width: 100%; min-height: 48px; justify-content: center; }
+.student-help { margin: 18px 0 0; color: var(--muted, #69776f); font-size: .92rem; line-height: 1.6; }
+.student-login-error, .student-notice { padding: 12px 14px; border-radius: 10px; color: #8a3d2d; background: #fff1ed; line-height: 1.5; }
+.student-panel-mark { display: grid; place-items: center; width: 48px; height: 48px; margin-bottom: 18px; border-radius: 50%; color: #176044; background: #e8f4ed; font-size: 1.5rem; font-weight: 800; }
+.student-panel h2 { margin: 0 0 10px; }
+.student-panel > p { line-height: 1.6; }
+.student-panel [data-student-logout] { margin-top: 12px; }
