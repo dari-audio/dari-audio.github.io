@@ -5945,7 +5945,8 @@
     const labels = {
       herat: { name: "Герат", dari: "هرات" },
       wardak: { name: "Майдан-Вардак", dari: "میدان وردک" },
-      helmand: { name: "Гильменд", dari: "هلمند" }
+      helmand: { name: "Гильменд", dari: "هلمند" },
+      panjshir: { name: "Панджшер", dari: "پنجشیر" }
     };
     const label = labels[canonicalKey];
     return label ? { ...base, name: label.name, dari: label.dari } : { ...base, name: info ? info.name : base.name, dari: info ? info.dari : base.dari };
